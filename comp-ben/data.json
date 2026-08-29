@@ -1,7 +1,7 @@
 {
  "busqueda": "comp-ben",
  "corrida": "2026-08-29",
- "corrida_hora": "2026-08-29 15:44",
+ "corrida_hora": "2026-08-29 10:49",
  "fuentes": {
   "elempleo": {
    "avisos": 13,
@@ -24,13 +24,13 @@
    "error": null
   },
   "apify_linkedin": {
-   "avisos": 3,
+   "avisos": 11,
    "error": null
   }
  },
  "fallos": [],
- "avisos_recogidos": 26,
- "descartados": 8,
+ "avisos_recogidos": 34,
+ "descartados": 9,
  "fusionados": [
   {
    "conservado": "Total Rewards Lead / Líder de Compensación y Beneficios Bilingüe",
@@ -38,9 +38,82 @@
    "parecido": 0.62
   }
  ],
- "nuevas": [],
+ "nuevas": [
+  "worldpanel|global compensation manager|bogota",
+  "lean solutions|compensation partner|bogota",
+  "prosegur|responsable de nomina y compensacion|bogota",
+  "cafam oficial|analista senior de compensacion y estructura salarial|bogota",
+  "evertec|compensation specialist contrato a termino fijo|colombia",
+  "decameron all inclusive hotels resorts|profesional de compensacion y beneficios|bogota",
+  "numerator|manager global compensation|bogota"
+ ],
  "republicadas": [],
  "vigentes": [
+  {
+   "cargo": "Global Compensation Manager",
+   "empresa": "Worldpanel",
+   "empresa_anonima": false,
+   "ciudad": "Bogota, Capital District",
+   "salario": null,
+   "publicado": "2026-08-21",
+   "vigente_hasta": "2026-09-20",
+   "contrato": [
+    "FULL_TIME"
+   ],
+   "agencia": null,
+   "direccion": null,
+   "lat": 4.6533817,
+   "lon": -74.0836331,
+   "id_fuente": "4456271799",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/global-compensation-manager-at-worldpanel-4456271799",
+     "id_fuente": "4456271799"
+    }
+   ],
+   "inc": [
+    "salario"
+   ],
+   "deducidos": [
+    "modalidad"
+   ],
+   "modalidad_fuente": "Hybrid",
+   "empleados": 3432,
+   "sede": "London",
+   "modalidad": "híbrido",
+   "modalidad_literal": "Hybrid",
+   "modalidad_por_confirmar": false,
+   "id": "worldpanel|global compensation manager|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "cargo objetivo de compensación",
+     "puntos": 25,
+     "nota": "Global Compensation Manager"
+    },
+    {
+     "concepto": "multinacional europea",
+     "puntos": 15,
+     "nota": "London"
+    },
+    {
+     "concepto": "el cuerpo menciona técnica de compensación",
+     "puntos": 12,
+     "nota": "total rewards, pay equity"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    }
+   ],
+   "puntaje": 52,
+   "nueva": true,
+   "visto_desde": "2026-08-29",
+   "republicaciones": 0
+  },
   {
    "cargo": "GERENTE DE COMPENSACIÓN Y BENEFICIOS - BOGOTÁ",
    "empresa": "CONFIDENTIAL",
@@ -169,6 +242,71 @@
    "puntaje": 49,
    "nueva": false,
    "visto_desde": "2026-08-28",
+   "republicaciones": 0
+  },
+  {
+   "cargo": "Compensation Partner",
+   "empresa": "Lean Solutions Group",
+   "empresa_anonima": false,
+   "ciudad": "Bogota, Capital District",
+   "salario": null,
+   "publicado": "2026-08-03",
+   "vigente_hasta": "2026-09-02",
+   "contrato": [
+    "FULL_TIME"
+   ],
+   "agencia": null,
+   "direccion": null,
+   "lat": 4.6533817,
+   "lon": -74.0836331,
+   "id_fuente": "4448395392",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/compensation-partner-at-lean-solutions-group-4448395392",
+     "id_fuente": "4448395392"
+    }
+   ],
+   "inc": [
+    "salario"
+   ],
+   "deducidos": [
+    "modalidad"
+   ],
+   "modalidad_fuente": "On-site",
+   "empleados": 6085,
+   "sede": "Coral Springs , FL",
+   "modalidad": "On-site",
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "lean solutions|compensation partner|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "cargo objetivo de compensación",
+     "puntos": 25,
+     "nota": "Compensation Partner"
+    },
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona técnica de compensación",
+     "puntos": 12,
+     "nota": "job evaluation, pay equity, merit increase"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    }
+   ],
+   "puntaje": 37,
+   "nueva": true,
+   "visto_desde": "2026-08-29",
    "republicaciones": 0
   },
   {
@@ -304,6 +442,66 @@
    "puntaje": 32,
    "nueva": false,
    "visto_desde": "2026-08-28",
+   "republicaciones": 0
+  },
+  {
+   "cargo": "Responsable de Nómina y Compensación",
+   "empresa": "Prosegur",
+   "empresa_anonima": false,
+   "ciudad": "Bogota, Capital District",
+   "salario": null,
+   "publicado": "2026-08-21",
+   "vigente_hasta": "2026-09-20",
+   "contrato": [
+    "FULL_TIME"
+   ],
+   "agencia": null,
+   "direccion": null,
+   "lat": 4.6533817,
+   "lon": -74.0836331,
+   "id_fuente": "4457303399",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/responsable-de-n%C3%B3mina-y-compensaci%C3%B3n-at-prosegur-4457303399",
+     "id_fuente": "4457303399"
+    }
+   ],
+   "inc": [
+    "salario"
+   ],
+   "deducidos": [
+    "modalidad"
+   ],
+   "modalidad_fuente": "On-site",
+   "empleados": 68105,
+   "sede": "Madrid, Madrid",
+   "modalidad": "On-site",
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "prosegur|responsable de nomina y compensacion|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "multinacional europea",
+     "puntos": 15,
+     "nota": "Madrid, Madrid"
+    },
+    {
+     "concepto": "el cuerpo menciona técnica de compensación",
+     "puntos": 12,
+     "nota": "compensacion, estructura salarial, bandas salariales, equidad interna"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    }
+   ],
+   "puntaje": 27,
+   "nueva": true,
+   "visto_desde": "2026-08-29",
    "republicaciones": 0
   },
   {
@@ -561,6 +759,185 @@
    "republicaciones": 0
   },
   {
+   "cargo": "Analista Senior de Compensación y Estructura Salarial",
+   "empresa": "Cafam Oficial",
+   "empresa_anonima": false,
+   "ciudad": "Bogota, Capital District",
+   "salario": null,
+   "publicado": "2026-06-01",
+   "vigente_hasta": "2026-07-01",
+   "contrato": [
+    "FULL_TIME"
+   ],
+   "agencia": null,
+   "direccion": null,
+   "lat": 4.6533817,
+   "lon": -74.0836331,
+   "id_fuente": "4423294404",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/analista-senior-de-compensaci%C3%B3n-y-estructura-salarial-at-cafam-oficial-4423294404",
+     "id_fuente": "4423294404"
+    }
+   ],
+   "inc": [
+    "salario"
+   ],
+   "deducidos": [
+    "modalidad"
+   ],
+   "modalidad_fuente": "On-site",
+   "empleados": 4173,
+   "sede": "Bogotá D.C, Cundinamarca",
+   "modalidad": "presencial",
+   "modalidad_literal": "presencial",
+   "modalidad_por_confirmar": false,
+   "id": "cafam oficial|analista senior de compensacion y estructura salarial|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona técnica de compensación",
+     "puntos": 12,
+     "nota": "compensacion, estructura salarial, bandas salariales, equidad interna"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    }
+   ],
+   "puntaje": 12,
+   "nueva": true,
+   "visto_desde": "2026-08-29",
+   "republicaciones": 0
+  },
+  {
+   "cargo": "Compensation Specialist - contrato a término fijo",
+   "empresa": "Evertec",
+   "empresa_anonima": false,
+   "ciudad": "Colombia",
+   "salario": null,
+   "publicado": "2026-08-19",
+   "vigente_hasta": null,
+   "contrato": null,
+   "agencia": null,
+   "direccion": null,
+   "lat": 4.099917,
+   "lon": -72.9088133,
+   "id_fuente": "4454909525",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/compensation-specialist-contrato-a-t%C3%A9rmino-fijo-at-evertec-4454909525",
+     "id_fuente": "4454909525"
+    }
+   ],
+   "inc": [
+    "salario",
+    "contrato"
+   ],
+   "deducidos": [
+    "modalidad"
+   ],
+   "modalidad_fuente": "On-site",
+   "empleados": 5194,
+   "sede": "San Juan, PR",
+   "modalidad": "On-site",
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "evertec|compensation specialist contrato a termino fijo|colombia",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona técnica de compensación",
+     "puntos": 12,
+     "nota": "long term incentive, job evaluation"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    }
+   ],
+   "puntaje": 12,
+   "nueva": true,
+   "visto_desde": "2026-08-29",
+   "republicaciones": 0
+  },
+  {
+   "cargo": "Profesional de Compensación y Beneficios",
+   "empresa": "Decameron All Inclusive Hotels & Resorts",
+   "empresa_anonima": false,
+   "ciudad": "Bogota, Capital District",
+   "salario": null,
+   "publicado": "2026-08-20",
+   "vigente_hasta": "2026-09-19",
+   "contrato": [
+    "TEMPORARY"
+   ],
+   "agencia": null,
+   "direccion": null,
+   "lat": 4.6533817,
+   "lon": -74.0836331,
+   "id_fuente": "4457004891",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/profesional-de-compensaci%C3%B3n-y-beneficios-at-decameron-all-inclusive-hotels-resorts-4457004891",
+     "id_fuente": "4457004891"
+    }
+   ],
+   "inc": [
+    "salario"
+   ],
+   "deducidos": [
+    "modalidad"
+   ],
+   "modalidad_fuente": "Hybrid",
+   "empleados": 2480,
+   "sede": "Bogotá",
+   "modalidad": "Hybrid",
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "decameron all inclusive hotels resorts|profesional de compensacion y beneficios|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona técnica de compensación",
+     "puntos": 12,
+     "nota": "compensacion, remuneracion, valoracion de cargos, korn ferry, bandas salariales, compensacion variable"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    }
+   ],
+   "puntaje": 12,
+   "nueva": true,
+   "visto_desde": "2026-08-29",
+   "republicaciones": 0
+  },
+  {
    "cargo": "Senior Workday Analyst – Compensation & Benefits - Remote Work",
    "empresa": "BairesDev",
    "empresa_anonima": false,
@@ -617,6 +994,66 @@
    "puntaje": 10,
    "nueva": false,
    "visto_desde": "2026-08-28",
+   "republicaciones": 0
+  },
+  {
+   "cargo": "Manager, Global Compensation",
+   "empresa": "Numerator",
+   "empresa_anonima": false,
+   "ciudad": "Bogota, Capital District",
+   "salario": null,
+   "publicado": "2026-08-21",
+   "vigente_hasta": "2026-09-20",
+   "contrato": [
+    "FULL_TIME"
+   ],
+   "agencia": null,
+   "direccion": null,
+   "lat": 4.6533817,
+   "lon": -74.0836331,
+   "id_fuente": "4457520404",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/manager-global-compensation-at-numerator-4457520404",
+     "id_fuente": "4457520404"
+    }
+   ],
+   "inc": [
+    "salario"
+   ],
+   "deducidos": [
+    "modalidad"
+   ],
+   "modalidad_fuente": "Hybrid",
+   "empleados": 2807,
+   "sede": "Chicago, Illinois",
+   "modalidad": "híbrido",
+   "modalidad_literal": "hybrid",
+   "modalidad_por_confirmar": false,
+   "id": "numerator|manager global compensation|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "multinacional estadounidense",
+     "puntos": -5,
+     "nota": "Chicago, Illinois"
+    },
+    {
+     "concepto": "el cuerpo menciona técnica de compensación",
+     "puntos": 12,
+     "nota": "total rewards, pay equity"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    }
+   ],
+   "puntaje": 7,
+   "nueva": true,
+   "visto_desde": "2026-08-29",
    "republicaciones": 0
   },
   {

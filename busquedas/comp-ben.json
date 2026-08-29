@@ -467,11 +467,11 @@
       "_regla_cookie": "Verificado 2026-08-28: este actor NO pide li_at, ni usuario/contraseña, ni sesión. Si alguna vez la pide, se descarta el actor y LinkedIn queda fuera. No se negocia.",
       "_solo_vacantes": "Se piden vacantes. Nunca perfiles de personas, nunca contactos, nunca datos de reclutadores.",
       "entrada": {
-        "timeRange": "7d",
+        "timeRange": "6m",
         "limit": 100,
         "descriptionType": "text",
         "removeAgency": false,
-        "excludeATSDuplicate": true,
+        "excludeATSDuplicate": false,
         "locationSearch": [
           "Colombia",
           "Bogota"
@@ -508,7 +508,10 @@
         ]
       },
       "_alternativa": "valig~linkedin-jobs-scraper es 14x más barato pero devolvió postedDate en null. Queda como respaldo si el gasto se dispara.",
-      "_nota_cobertura": "Títulos ampliados el 2026-08-28: con los filtros originales LinkedIn devolvía solo 5 avisos. Más cobertura cuesta más (US$0,005 por aviso); el tope de max_items sigue mandando."
+      "_nota_cobertura": "Títulos ampliados el 2026-08-28: con los filtros originales LinkedIn devolvía solo 5 avisos. Más cobertura cuesta más (US$0,005 por aviso); el tope de max_items sigue mandando.",
+      "_nota_ventana": "timeRange «6m», no «7d». Medido el 29-ago-2026: con 7 días LinkedIn devolvía 6 avisos y con 6 meses devuelve 17. La ventana corta era un error de razonamiento: elempleo y Computrabajo devuelven todo lo que sigue VIVO sin importar cuándo se publicó (hay avisos de julio en la página), así que limitar solo a LinkedIn a 7 días lo dejaba tuerto y escondía para siempre cualquier vacante publicada antes de que empezáramos. La novedad la decide nuestro propio diferencial, no la ventana de la fuente. Escondía un «Global Compensation Manager» y un «Compensation Partner» en Bogotá.",
+      "_nota_ats_dup": "excludeATSDuplicate en false. El filtro del proveedor esconde los avisos que también están en el ATS de la empresa, pero eso solo sirve si nosotros cubrimos ese ATS, y solo cubrimos 12 tenants de Workday más Greenhouse. Estaba escondiendo un «Manager, Global Compensation» de Numerator, cuyo ATS no consultamos. Deduplicar es trabajo de deduplicar() en barrido.py, que para eso está.",
+      "costo_estimado_mes_usd": 2.6
     },
     "_descartadas": {
       "smartrecruiters": "robots.txt de api.smartrecruiters.com: «User-agent: * / Disallow: /». Solo LinkedInBot tiene Allow. El endpoint responde 200 pero NO se consulta. Pérdida real: Danone, Bosch, Publicis.",
