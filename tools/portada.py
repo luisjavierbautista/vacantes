@@ -54,7 +54,7 @@ a.tarjeta:hover{border-color:var(--pino)}
 <p class="sub">Se rehacen solas cada mañana. Herramienta privada.</p>
 __TARJETAS__
 <p class="pie">Los datos vienen de portales públicos y de un intermediario comercial para LinkedIn.
-El seguimiento de postulaciones vive solo en el disco y nunca se publica.</p>
+Esto lista y cataloga vacantes; decidir a cuáles postularse es de quien las lee.</p>
 </div></body></html>
 """
 

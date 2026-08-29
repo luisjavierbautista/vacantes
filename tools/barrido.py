@@ -950,29 +950,6 @@ def diferencial(hoy_avisos, anterior, olvido_dias=45, descartados_ids=()):
     return nuevas, republicadas, caidas
 
 
-def cruzar_postulaciones(avisos, caidas):
-    """Lee postulaciones.json. NUNCA lo escribe, lo reordena ni lo borra.
-
-    Si el script lo pisa, ella pierde semanas de trabajo. Solo se lee.
-    """
-    ruta = os.path.join(c.RAIZ, "postulaciones.json")
-    if not os.path.exists(ruta):
-        return {}, []
-    with open(ruta, encoding="utf-8") as f:
-        post = json.load(f)
-    for a in avisos:
-        if a["id"] in post:
-            a["postulacion"] = post[a["id"]]
-    # Una vacante con proceso en curso no se cae de la página aunque el aviso sí.
-    en_curso = []
-    for a in caidas:
-        est = (post.get(a["id"]) or {}).get("estado")
-        if est and est not in ("sin_ver", "descartada", "cerrada"):
-            a["postulacion"] = post[a["id"]]
-            en_curso.append(a)
-    return post, en_curso
-
-
 # ─────────────────────────────────────────────────────────────────── principal
 
 def main():
@@ -1078,8 +1055,6 @@ def main():
             ids_descartados.add(prev["id"])
     nuevas, republicadas, caidas = diferencial(
         avisos, anterior, bus["umbrales"]["dias_para_olvidar_caidas"], ids_descartados)
-    post, en_curso = cruzar_postulaciones(avisos, caidas)
-
     # ── frenos de la sección 11 ──────────────────────────────────────────
     frenos = []
     antes = len((anterior or {}).get("vigentes", []))
@@ -1130,9 +1105,6 @@ def main():
         for a in caidas[:10]:
             print(f"   {a['cargo'][:52]:52s} | visto desde {a.get('visto_desde')} "
                   f"| desapareció {a.get('desaparecio')}")
-    if en_curso:
-        print(f"\n── ya no están publicadas, pero con proceso en curso ({len(en_curso)})")
-
     if frenos:
         print(f"\n⚠  FRENOS:")
         for f_ in frenos:
@@ -1166,7 +1138,6 @@ def main():
         "republicadas": republicadas,
         "vigentes": [sin_texto(a) for a in avisos],
         "caidas": [sin_texto(a) for a in caidas],
-        "en_curso_no_publicadas": [a["id"] for a in en_curso],
         "avisos_pendientes": 0,
     }
     with open(ruta_datos, "w", encoding="utf-8") as f:

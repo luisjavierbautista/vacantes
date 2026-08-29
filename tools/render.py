@@ -95,17 +95,21 @@ def texto_resumen(d, bus):
             + ("<p>" + " ".join(frases[mitad:]) + "</p>" if frases[mitad:] else ""))
 
 
-def bloque_recuadros(d, post):
+def bloque_recuadros(d, bus):
     vig = d["vigentes"]
+    piso = bus["salario"]["piso"]
     nuevas = sum(1 for a in vig if a.get("nueva"))
-    en_curso = sum(1 for e in post.values()
-                   if e.get("estado") in ("postulada", "entrevista", "oferta"))
-    con_sal = sum(1 for a in vig if a.get("salario"))
+    con_sal = [a for a in vig if a.get("salario")]
+    # De las que publican salario, cuántas llegan de verdad. La brecha entre
+    # los dos números dice más que cualquiera de los dos por separado.
+    cruzan = sum(1 for a in con_sal
+                 if (a["salario"].get("moneda") or "COP") == "COP"
+                 and (a["salario"].get("max") or 0) >= piso)
     tarjetas = [
         (len(vig), "vigentes hoy", False),
         (nuevas, "nuevas desde ayer", nuevas > 0),
-        (en_curso, "postulaciones en curso", False),
-        (con_sal, f"con salario publicado", False),
+        (len(con_sal), "con salario publicado", False),
+        (cruzan, f"cruzan tu piso de {pesos(piso)}", False),
     ]
     filas = []
     for n, rot, destaca in tarjetas:
@@ -115,25 +119,14 @@ def bloque_recuadros(d, post):
     return '<div class="recuadros" id="recuadros">\n' + "\n".join(filas) + "\n</div>"
 
 
-def bloque_encabezado(d, bus, post):
+def bloque_encabezado(d, bus):
     fuentes_ok = [k for k, v in d["fuentes"].items() if v["avisos"]]
-    espera = 0
-    for e in post.values():
-        if e.get("estado") == "postulada" and e.get("fecha"):
-            dias = c.dias_desde(e["fecha"])
-            if dias and dias > bus["umbrales"]["dias_sin_respuesta_para_alertar"]:
-                espera += 1
     vacias = len(d["fuentes"]) - len(fuentes_ok)
     txt = (f'Corrida del <b>{d["corrida_hora"]}</b> · {d["avisos_recogidos"]} avisos '
            f'recogidos · {len(d["fuentes"])} fuentes consultadas, '
            f'{len(fuentes_ok)} con resultados ({", ".join(fuentes_ok)})'
            + (f', {vacias} sin nada hoy' if vacias else "")
            + f' · {d["descartados"]} descartados por criterio')
-    if espera:
-        txt += (f' · <b>{espera}</b> '
-                + ("postulación" if espera == 1 else "postulaciones")
-                + " sin respuesta hace más de "
-                + f'{bus["umbrales"]["dias_sin_respuesta_para_alertar"]} días')
     return f'<p class="meta-corrida" id="meta-corrida">{txt}</p>'
 
 
@@ -154,8 +147,7 @@ def bloque_datos(d, bus):
               "modalidad_literal", "modalidad_por_confirmar", "salario", "publicado",
               "publicado_literal", "vigente_hasta", "contrato", "fuentes", "inc",
               "deducidos", "marcas", "puntaje", "desglose", "nueva", "republicaciones",
-              "cargo_original",
-              "visto_desde", "titulos_alternos", "postulacion")
+              "cargo_original", "pais", "visto_desde", "titulos_alternos")
     def limpiar(a):
         o = {k: a[k] for k in campos if a.get(k) not in (None, [], "")}
         legible = c.titulo_legible(a.get("cargo"))
@@ -196,15 +188,9 @@ def main():
     with open(ruta_html, encoding="utf-8") as f:
         html = f.read()
 
-    ruta_post = os.path.join(c.RAIZ, "postulaciones.json")
-    post = {}
-    if os.path.exists(ruta_post):
-        with open(ruta_post, encoding="utf-8") as f:
-            post = json.load(f)
-
     html = reemplazar(html, "DATOS", bloque_datos(d, bus))
-    html = reemplazar(html, "ENCABEZADO", bloque_encabezado(d, bus, post))
-    html = reemplazar(html, "RECUADROS", bloque_recuadros(d, post))
+    html = reemplazar(html, "ENCABEZADO", bloque_encabezado(d, bus))
+    html = reemplazar(html, "RECUADROS", bloque_recuadros(d, bus))
     html = reemplazar(html, "RESUMEN",
                       '<div class="resumen" id="resumen">' + texto_resumen(d, bus) + "</div>")
 

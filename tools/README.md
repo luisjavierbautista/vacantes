@@ -18,6 +18,11 @@ los criterios viven en `busquedas/<id>.json`. Para agregar una segunda búsqueda
 | `portada.py` | `index.html` de la raíz, una tarjeta por búsqueda. |
 | `chequeo.py` | Freno previo al push: credenciales, datos personales y cuadre de fichas. |
 
+Los cuatro recuadros de la página son: vigentes hoy · nuevas desde ayer · con
+salario publicado · cuántas cruzan el piso del perfil. Los dos últimos van
+juntos a propósito: la brecha entre ellos (hoy 13 publican salario y solo 2
+llegan) dice más que cualquiera de los dos por separado.
+
 ## Orden de una corrida
 
 ```bash
@@ -44,8 +49,10 @@ el script y vuelve a renderizar.
 agregara, en tres días la página estaría contando una historia que sus propios
 datos desmienten.
 
-**`barrido.py` nunca escribe `postulaciones.json`.** Solo lo lee y lo cruza. Ese
-archivo lo editas tú a mano y está en `.gitignore`: nunca se sube.
+**No hay seguimiento de postulaciones.** Se quitó a propósito: esta herramienta
+lista y cataloga vacantes, y decidir a cuáles postularse es de quien las lee. Si
+alguna vez vuelve, `postulaciones.json` sigue en `.gitignore` y `chequeo.py`
+sigue vigilando que no se suba.
 
 **No se inventa ningún dato.** Un dato que el aviso no publica es «sin dato» y se
 ve como `?` en la ficha, con una explicación al pasar el ratón. En particular:
