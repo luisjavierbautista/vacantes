@@ -128,6 +128,7 @@ def aviso(fuente, url, cargo, empresa, ciudad, **extra):
         "lat": extra.get("lat"),
         "lon": extra.get("lon"),
         "id_fuente": extra.get("id_fuente"),
+        "pais": extra.get("pais"),
         "fuentes": [{"fuente": fuente, "url": url, "id_fuente": extra.get("id_fuente")}],
         "inc": [],
         "deducidos": [],
@@ -289,6 +290,17 @@ _WD_LUGAR = re.compile(r"^([A-Z]{2,3})\s*-\s*\w+\s*-\s*(.+)$")
 _WD_VARIAS = re.compile(r"^(\d+\s+locations?|ubicaciones?\s*:?\s*\d+)$", re.I)
 
 
+def _wd_ciudad_de_ruta(ruta):
+    """La ruta del aviso trae la ubicación: /job/Remote-Position-USA/Titulo_REQ-1.
+
+    Se estaba tirando a la basura y dejaba la ciudad en blanco pudiendo saberla.
+    """
+    partes = [x for x in (ruta or "").split("/") if x]
+    if len(partes) >= 2 and partes[0] == "job":
+        return partes[1].replace("-", " ").strip()
+    return None
+
+
 def _wd_ciudad(texto):
     t = (texto or "").strip()
     if _WD_VARIAS.match(t):
@@ -302,10 +314,10 @@ def _wd_ciudad(texto):
 def fuente_workday(desc, bus, cri, limites):
     """Portales Workday de las empresas objetivo — la fuente primaria.
 
-    Sin intermediarios, sin avisos repetidos y sin reclutadores que escondan el
-    nombre de la empresa. Limitación real: el listado no trae descripción ni
-    salario, y postedOn es relativo («Posted 30+ Days Ago»), así que la fecha
-    exacta queda SIN DATO salvo que el detalle la publique.
+    El listado trae poco: ni descripción, ni salario, y postedOn es texto
+    relativo. Pero el detalle sí lo trae todo, incluido el PAÍS, la fecha real
+    y el cuerpo. Se pide una petición más, solo por los que casan por título:
+    son unos pocos al día y sin eso la mitad de la ficha queda en blanco.
     """
     cfg = bus["fuentes"]["workday"]
     avisos = []
@@ -314,7 +326,7 @@ def fuente_workday(desc, bus, cri, limites):
         for sitio in t["sitios"]:
             raiz = f"https://{tenant}.{wd}.myworkdayjobs.com"
             url = f"{raiz}/wday/cxs/{tenant}/{sitio}/jobs"
-            vistos = 0
+            rutas = []
             for termino in ("compensation", "rewards", "compensacion"):
                 d = desc.json(url, cuerpo={"limit": 20, "offset": 0,
                                            "searchText": termino, "appliedFacets": {}})
@@ -329,24 +341,39 @@ def fuente_workday(desc, bus, cri, limites):
                     if not (cri.es_objetivo(titulo) or cri.es_secundario(titulo)
                             or cri.titulo_relevante(titulo)):
                         continue
-                    ruta = jp.get("externalPath") or ""
-                    a = aviso(
-                        "workday", raiz + "/" + sitio + ruta.replace("/job/", "/job/"),
-                        titulo, t["empresa"], _wd_ciudad(jp.get("locationsText")),
-                        contrato=jp.get("timeType"),
-                        id_fuente=ruta.rsplit("_", 1)[-1] if "_" in ruta else ruta,
-                    )
-                    # postedOn es texto relativo: no es una fecha y no se finge.
-                    a["publicado_literal"] = jp.get("postedOn")
-                    if jp.get("locationsText") and not a["ciudad"]:
-                        a["ciudad_literal"] = jp.get("locationsText")
-                    if "publicado" not in a["inc"]:
-                        a["inc"].append("publicado")
-                    a["inc"].append("descripcion") if "descripcion" not in a["inc"] else None
-                    avisos.append(a)
-                    vistos += 1
-            if vistos:
-                c.log(f"  workday {tenant}/{sitio}: {vistos} candidatos")
+                    if jp.get("externalPath"):
+                        rutas.append(jp["externalPath"])
+            rutas = list(dict.fromkeys(rutas))
+            if rutas:
+                c.log(f"  workday {tenant}/{sitio}: {len(rutas)} candidatos, pidiendo detalle")
+
+            for ruta in rutas[: limites["detalles_workday"]]:
+                d = desc.json(f"{raiz}/wday/cxs/{tenant}/{sitio}{ruta}")
+                ji = (d or {}).get("jobPostingInfo") or {}
+                if not ji:
+                    # Sin detalle no se inventa nada: entra con lo poco que hay.
+                    avisos.append(aviso("workday", raiz + "/" + sitio + ruta,
+                                        ruta.rsplit("/", 1)[-1].replace("-", " "),
+                                        t["empresa"], _wd_ciudad_de_ruta(ruta)))
+                    continue
+                lugares = [ji.get("location")] + list(ji.get("additionalLocations") or [])
+                lugares = [x for x in lugares if x]
+                pais = ((ji.get("country") or {}).get("descriptor")
+                        if isinstance(ji.get("country"), dict) else None)
+                a = aviso(
+                    "workday", ji.get("externalUrl") or (raiz + "/" + sitio + ruta),
+                    ji.get("title"), t["empresa"], lugares[0] if lugares else None,
+                    descripcion=c.limpiar_html(ji.get("jobDescription")),
+                    publicado=c.fecha_iso(ji.get("startDate")),
+                    contrato=ji.get("timeType"),
+                    id_fuente=ji.get("jobReqId") or ji.get("jobPostingId"),
+                )
+                a["pais"] = pais
+                if len(lugares) > 1:
+                    a["otros_lugares"] = lugares[1:]
+                if not a.get("publicado"):
+                    a["publicado_literal"] = ji.get("postedOn")
+                avisos.append(a)
     return avisos
 
 
@@ -492,23 +519,93 @@ FUENTES = {
 }
 
 
+# «Remoto» casi nunca significa «desde donde quieras». Suele significar
+# «remoto, pero desde este país». Un aviso que dice «remotely anywhere in the
+# U.S.» y «will not sponsor visas» NO es una vacante para alguien en Bogotá,
+# por muy remota que se anuncie.
+_RESTRICCION = [
+    (re.compile(r"\b(remote|remotely|based|work)\b[^.]{0,60}\banywhere in (the )?"
+                r"(u\.?s\.?a?\b|united states)", re.I), "Estados Unidos"),
+    (re.compile(r"\bmust (be )?(located|based|reside|residing|live|living)\b[^.]{0,50}"
+                r"\b(u\.?s\.?a?\b|united states)", re.I), "Estados Unidos"),
+    (re.compile(r"\b(authoriz|eligib)\w* to work in (the )?(u\.?s\.?a?\b|united states)",
+                re.I), "Estados Unidos"),
+    (re.compile(r"\bu\.?s\.?[ -]based\b", re.I), "Estados Unidos"),
+    (re.compile(r"\b(will not|unable to|do not|cannot) sponsor\b[^.]{0,40}"
+                r"\b(visa|visas|sponsorship)", re.I), "el país del aviso"),
+    (re.compile(r"\bno visa sponsorship\b", re.I), "el país del aviso"),
+    (re.compile(r"\banywhere in (the )?(uk|united kingdom|canada|europe|"
+                r"european union|eu)\b", re.I), "otro país"),
+    (re.compile(r"\bmust (be )?(located|based|reside)\b[^.]{0,50}"
+                r"\b(uk|united kingdom|canada|india|brazil|mexico|spain)\b", re.I), "otro país"),
+    (re.compile(r"\bonly apply if this location is accessible\b", re.I), "la sede del aviso"),
+    (re.compile(r"\b(debe|deber[aá]) (residir|estar radicad\w+|vivir) en\b", re.I),
+     "el país del aviso"),
+]
+
+# Si el aviso nombra a Colombia o a la región, la restricción no la excluye.
+_ALCANZA_COLOMBIA = re.compile(
+    r"\b(colombia|colombian|bogot|latam|latin america|latinoam|"
+    r"south america|sudam|hispanoam|americas)\b", re.I)
+
+
+def restriccion_pais(texto):
+    """¿El cuerpo amarra el puesto a un país que no es el de ella?
+
+    Devuelve el país al que lo amarra, o None. Si el mismo aviso menciona
+    Colombia o la región, se entiende que sí la alcanza y no se descarta.
+    """
+    if not texto:
+        return None
+    for rx, pais in _RESTRICCION:
+        m = rx.search(texto)
+        if not m:
+            continue
+        ventana = texto[max(0, m.start() - 300):m.end() + 300]
+        if _ALCANZA_COLOMBIA.search(ventana):
+            return None
+        return pais
+    return None
+
+
 def geografia(a, cri):
     """¿El lugar del aviso sirve? Devuelve (sirve, motivo, marca).
 
     El perfil acepta Bogotá si es presencial o híbrido, y cualquier país si es
-    remoto. Una ciudad DESCONOCIDA no se descarta: desconocido no es «no».
+    remoto Y ese remoto la alcanza. Una ciudad DESCONOCIDA no se descarta:
+    desconocido no es «no». Pero un remoto que el propio aviso amarra a otro
+    país sí es un «no», y decirlo es más útil que mostrarlo.
     """
     canon = c.normalizar_ciudad(a["ciudad"])
     remoto = (a.get("modalidad") == "remoto"
               or a.get("modalidad_fuente") in ("remoto", "Remote", "remote")
               or canon == "remoto")
+
+    # El país que declara la fuente manda sobre lo que diga el nombre del lugar.
+    pais = (a.get("pais") or "").strip()
+    en_colombia = bool(_ALCANZA_COLOMBIA.search(pais)) if pais else None
+
+    if en_colombia is False:
+        atado = restriccion_pais(a.get("descripcion"))
+        if atado:
+            return False, f"remoto pero solo desde {atado} ({pais})", None
+        if not remoto:
+            return False, f"presencial fuera de Bogotá ({pais})", None
+        return True, None, (f"dice remoto, pero el aviso es de {pais}: "
+                            "confirma que contrate desde Colombia")
+
     if not canon:
         return True, None, "ciudad sin publicar"
     if canon in ("bogota", "bogota alrededores", "colombia", "remoto"):
+        # Aun estando «en Colombia» o «remoto», el cuerpo puede amarrarlo fuera.
+        atado = restriccion_pais(a.get("descripcion"))
+        if atado and canon == "remoto":
+            return False, f"remoto pero solo desde {atado}", None
         return True, None, None
     if remoto:
-        # Remoto fuera de Colombia: puede o no contratar desde aquí. No se
-        # esconde y no se afirma lo que no se sabe.
+        atado = restriccion_pais(a.get("descripcion"))
+        if atado:
+            return False, f"remoto pero solo desde {atado}", None
         return True, None, "remoto fuera de Colombia, contratación por confirmar"
     return False, f"presencial fuera de Bogotá ({canon})", None
 
@@ -728,10 +825,21 @@ def puntuar(a, cri, bus):
     if cri.origen_empresa(a["empresa"]):
         suma("está en la lista de empresas objetivo", P["empresa_en_lista_objetivo"], a["empresa"])
 
-    # modalidad
+    # modalidad. El peso premia «remoto confirmado», y confirmado quiere decir
+    # remoto PARA ELLA. Un beneficio de «home office» en un puesto de Budapest
+    # es teletrabajar algunos días desde Hungría, no contratar desde Bogotá:
+    # eso no confirma nada y no puede poner esa vacante por encima de las de acá.
+    pais_a = (a.get("pais") or "")
+    fuera = bool(pais_a) and not _ALCANZA_COLOMBIA.search(pais_a)
+    alcanza = (not fuera) or bool(_ALCANZA_COLOMBIA.search(cuerpo))
     if a.get("modalidad") == "remoto" and c.clasificar_modalidad("", cuerpo)[0] == "remoto":
-        suma("remoto confirmado en el cuerpo del aviso",
-             P["remoto_confirmado_en_cuerpo"], a.get("modalidad_literal") or "")
+        if alcanza:
+            suma("remoto confirmado en el cuerpo del aviso",
+                 P["remoto_confirmado_en_cuerpo"], a.get("modalidad_literal") or "")
+        else:
+            suma("remoto, pero anclado a " + pais_a, 0,
+                 f"«{a.get('modalidad_literal') or 'remoto'}» en un aviso de {pais_a}: "
+                 "no confirma que contrate desde Colombia, así que no suma")
     elif not cuerpo:
         suma("modalidad remota", 0, "el aviso no publica cuerpo: no suma ni resta")
 
@@ -789,8 +897,14 @@ def puntuar(a, cri, bus):
 
 # ─────────────────────────────────────────────────────────── diferencial diario
 
-def diferencial(hoy_avisos, anterior, olvido_dias=45):
-    """nuevas · caídas · republicadas. Confundirlas hace postularse dos veces."""
+def diferencial(hoy_avisos, anterior, olvido_dias=45, descartados_ids=()):
+    """nuevas · caídas · republicadas. Confundirlas hace postularse dos veces.
+
+    Un aviso que descartamos por criterio NO es una caída: sigue publicado, solo
+    que dejamos de mostrarlo. Decir que «desapareció» sería mentir sobre el
+    mercado, y ensuciaría la única cosa que esa lista sirve para medir: cuánto
+    dura abierta de verdad una vacante de este perfil.
+    """
     previos = {a["id"]: a for a in (anterior or {}).get("vigentes", [])}
     ids_hoy = {a["id"] for a in hoy_avisos}
 
@@ -817,15 +931,16 @@ def diferencial(hoy_avisos, anterior, olvido_dias=45):
                 a["publicado"] = ant["publicado"]
 
     caidas = []
+    descartados_ids = set(descartados_ids)
     for ident, ant in previos.items():
-        if ident not in ids_hoy:
+        if ident not in ids_hoy and ident not in descartados_ids:
             ant = dict(ant)
             ant["desaparecio"] = c.hoy()
             ant["dias_publicada"] = (
                 (c.dias_desde(ant.get("visto_desde")) or 0))
             caidas.append(ant)
     caidas.extend(a for a in (anterior or {}).get("caidas", [])
-                  if a["id"] not in ids_hoy)
+                  if a["id"] not in ids_hoy and a["id"] not in descartados_ids)
     vistas = set()
     caidas = [a for a in caidas if not (a["id"] in vistas or vistas.add(a["id"]))]
     # Se olvidan las viejas: si no, la lista crece para siempre y deja de decir
@@ -869,12 +984,14 @@ def main():
     p.add_argument("--sin-cache", action="store_true")
     p.add_argument("--landings", type=int, default=25)
     p.add_argument("--detalles", type=int, default=120)
+    p.add_argument("--detalles-workday", type=int, default=25)
     args = p.parse_args()
 
     bus = c.cargar_busqueda(args.busqueda)
     cri = Criterios(bus)
     desc = c.Descargador(usar_cache=not args.sin_cache)
-    limites = {"landings": args.landings, "detalles": args.detalles}
+    limites = {"landings": args.landings, "detalles": args.detalles,
+               "detalles_workday": args.detalles_workday}
 
     pedidas = args.fuente or [n for n, f in bus["fuentes"].items()
                               if isinstance(f, dict) and f.get("activa")]
@@ -923,7 +1040,9 @@ def main():
             elif marca:
                 a.setdefault("marcas", []).append(marca)
         if motivo:
-            descartados.append((a["cargo"], a["empresa"], motivo))
+            descartados.append((a["cargo"], a["empresa"], motivo,
+                                c.identidad(a["empresa"], a["cargo"], a["ciudad"],
+                                            a.get("agencia"))))
         else:
             utiles.append(a)
 
@@ -942,8 +1061,23 @@ def main():
         with open(ruta_datos, encoding="utf-8") as f:
             anterior = json.load(f)
 
+    # Se compara por empresa+cargo, sin la ciudad: cuando el barrido aprende a
+    # leer mejor una fuente, la ciudad del mismo aviso cambia (de vacía a
+    # «Remote Position (USA)», por ejemplo) y la identidad de ayer ya no se
+    # parece a la de hoy. Empresa y cargo sí aguantan ese cambio.
+    def base(ident):
+        return "|".join(ident.split("#")[0].split("|")[:2])
+
+    ids_descartados = set()
+    bases = {base(ident) for _, _, _, ident in descartados}
+    for _, _, _, ident in descartados:
+        ids_descartados.add(ident)
+    for prev in ((anterior or {}).get("vigentes", [])
+                 + (anterior or {}).get("caidas", [])):
+        if base(prev["id"]) in bases:
+            ids_descartados.add(prev["id"])
     nuevas, republicadas, caidas = diferencial(
-        avisos, anterior, bus["umbrales"]["dias_para_olvidar_caidas"])
+        avisos, anterior, bus["umbrales"]["dias_para_olvidar_caidas"], ids_descartados)
     post, en_curso = cruzar_postulaciones(avisos, caidas)
 
     # ── frenos de la sección 11 ──────────────────────────────────────────
@@ -978,7 +1112,7 @@ def main():
             print(f"   {j:.2f}  «{x[:44]}»\n         + «{y[:44]}»")
     if descartados:
         print(f"\n── descartados ({len(descartados)}):")
-        for cargo, emp, m in descartados[:10]:
+        for cargo, emp, m, _ in descartados[:10]:
             print(f"   [{m}] {cargo[:52]} · {emp[:26]}")
 
     print(f"\n── vigentes, por puntaje:")

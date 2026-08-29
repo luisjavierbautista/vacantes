@@ -1,7 +1,7 @@
 {
  "busqueda": "comp-ben",
  "corrida": "2026-08-29",
- "corrida_hora": "2026-08-29 03:50",
+ "corrida_hora": "2026-08-29 09:51",
  "fuentes": {
   "elempleo": {
    "avisos": 13,
@@ -42,88 +42,6 @@
  "republicadas": [],
  "vigentes": [
   {
-   "cargo": "Associate Director, Incentive Compensation",
-   "empresa": "Novartis",
-   "empresa_anonima": false,
-   "ciudad": "",
-   "salario": null,
-   "publicado": null,
-   "vigente_hasta": null,
-   "contrato": null,
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": "REQ-10085916-1",
-   "fuentes": [
-    {
-     "fuente": "workday",
-     "url": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers/job/Remote-Position-USA/Associate-Director--Incentive-Compensation_REQ-10085916-1",
-     "id_fuente": "REQ-10085916-1"
-    }
-   ],
-   "inc": [
-    "ciudad",
-    "salario",
-    "publicado",
-    "contrato",
-    "descripcion",
-    "modalidad"
-   ],
-   "deducidos": [],
-   "publicado_literal": "Publicado hace 11 días",
-   "ciudad_literal": "Ubicaciones: 2",
-   "modalidad": null,
-   "modalidad_literal": null,
-   "modalidad_por_confirmar": false,
-   "marcas": [
-    "ciudad sin publicar"
-   ],
-   "id": "novartis|associate director incentive compensation|#REQ-10085916-1",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "cargo objetivo de compensación",
-     "puntos": 25,
-     "nota": "Associate Director, Incentive Compensation"
-    },
-    {
-     "concepto": "multinacional europea",
-     "puntos": 15,
-     "nota": "por la lista objetivo"
-    },
-    {
-     "concepto": "está en la lista de empresas objetivo",
-     "puntos": 10,
-     "nota": "Novartis"
-    },
-    {
-     "concepto": "modalidad remota",
-     "puntos": 0,
-     "nota": "el aviso no publica cuerpo: no suma ni resta"
-    },
-    {
-     "concepto": "técnica de compensación en el cuerpo",
-     "puntos": 0,
-     "nota": "el aviso no publica cuerpo: no suma ni resta"
-    },
-    {
-     "concepto": "salario",
-     "puntos": 0,
-     "nota": "sin salario publicado, no suma ni resta"
-    },
-    {
-     "concepto": "fecha de publicación",
-     "puntos": 0,
-     "nota": "Publicado hace 11 días: no suma ni resta"
-    }
-   ],
-   "puntaje": 50,
-   "nueva": false,
-   "visto_desde": "2026-08-28",
-   "republicaciones": 0
-  },
-  {
    "cargo": "GERENTE DE COMPENSACIÓN Y BENEFICIOS - BOGOTÁ",
    "empresa": "CONFIDENTIAL",
    "empresa_anonima": true,
@@ -142,6 +60,7 @@
    "lat": null,
    "lon": null,
    "id_fuente": null,
+   "pais": null,
    "fuentes": [
     {
      "fuente": "elempleo",
@@ -186,7 +105,13 @@
    "puntaje": 49,
    "nueva": false,
    "visto_desde": "2026-08-28",
-   "republicaciones": 0
+   "republicaciones": 0,
+   "postulacion": {
+    "estado": "entrevista",
+    "fecha": "2026-08-25",
+    "nota": "primera con la headhunter",
+    "contacto": ""
+   }
   },
   {
    "cargo": "Gerente de compensación y beneficios",
@@ -207,6 +132,7 @@
    "lat": null,
    "lon": null,
    "id_fuente": null,
+   "pais": null,
    "fuentes": [
     {
      "fuente": "elempleo",
@@ -249,6 +175,78 @@
    "puntaje": 49,
    "nueva": false,
    "visto_desde": "2026-08-28",
+   "republicaciones": 0,
+   "postulacion": {
+    "estado": "postulada",
+    "fecha": "2026-08-12",
+    "nota": "por el ATS, no por el portal",
+    "contacto": ""
+   }
+  },
+  {
+   "cargo": "Compensation Team Lead - Technical Expertise and Specializations",
+   "empresa": "Roche",
+   "empresa_anonima": false,
+   "ciudad": "Budapest",
+   "salario": null,
+   "publicado": "2026-07-10",
+   "vigente_hasta": null,
+   "contrato": "Tiempo completo",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": "202607-117275",
+   "pais": "Hungría",
+   "fuentes": [
+    {
+     "fuente": "workday",
+     "url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Budapest/Compensation-Team-Lead---Technical-Expertise-and-Specializations_202607-117275-1",
+     "id_fuente": "202607-117275"
+    }
+   ],
+   "inc": [
+    "salario"
+   ],
+   "deducidos": [],
+   "modalidad": "remoto",
+   "modalidad_literal": "Home office",
+   "modalidad_por_confirmar": false,
+   "marcas": [
+    "dice remoto, pero el aviso es de Hungría: confirma que contrate desde Colombia"
+   ],
+   "id": "roche|compensation team lead technical expertise and specializations|budapest#202607-117275",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "multinacional europea",
+     "puntos": 15,
+     "nota": "por la lista objetivo"
+    },
+    {
+     "concepto": "está en la lista de empresas objetivo",
+     "puntos": 10,
+     "nota": "Roche"
+    },
+    {
+     "concepto": "remoto, pero anclado a Hungría",
+     "puntos": 0,
+     "nota": "«Home office» en un aviso de Hungría: no confirma que contrate desde Colombia, así que no suma"
+    },
+    {
+     "concepto": "el cuerpo menciona técnica de compensación",
+     "puntos": 12,
+     "nota": "total rewards"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    }
+   ],
+   "puntaje": 37,
+   "nueva": false,
+   "visto_desde": "2026-08-29",
    "republicaciones": 0
   },
   {
@@ -270,6 +268,7 @@
    "lat": null,
    "lon": null,
    "id_fuente": null,
+   "pais": null,
    "fuentes": [
     {
      "fuente": "elempleo",
@@ -335,6 +334,7 @@
    "lat": 4.6533817,
    "lon": -74.0836331,
    "id_fuente": "4460165174",
+   "pais": null,
    "fuentes": [
     {
      "fuente": "linkedin",
@@ -402,6 +402,7 @@
    "lat": null,
    "lon": null,
    "id_fuente": null,
+   "pais": null,
    "fuentes": [
     {
      "fuente": "elempleo",
@@ -467,6 +468,7 @@
    "lat": null,
    "lon": null,
    "id_fuente": null,
+   "pais": null,
    "fuentes": [
     {
      "fuente": "elempleo",
@@ -530,6 +532,7 @@
    "lat": null,
    "lon": null,
    "id_fuente": "73D6783396CD83A4",
+   "pais": null,
    "fuentes": [
     {
      "fuente": "computrabajo",
@@ -583,6 +586,7 @@
    "lat": 4.099917,
    "lon": -72.9088133,
    "id_fuente": "4457624651",
+   "pais": null,
    "fuentes": [
     {
      "fuente": "linkedin",
@@ -646,6 +650,7 @@
    "lat": null,
    "lon": null,
    "id_fuente": null,
+   "pais": null,
    "fuentes": [
     {
      "fuente": "elempleo",
@@ -706,6 +711,7 @@
    "lat": null,
    "lon": null,
    "id_fuente": null,
+   "pais": null,
    "fuentes": [
     {
      "fuente": "elempleo",
@@ -766,6 +772,7 @@
    "lat": null,
    "lon": null,
    "id_fuente": null,
+   "pais": null,
    "fuentes": [
     {
      "fuente": "elempleo",
@@ -831,6 +838,7 @@
    "lat": null,
    "lon": null,
    "id_fuente": null,
+   "pais": null,
    "fuentes": [
     {
      "fuente": "elempleo",
@@ -891,6 +899,7 @@
    "lat": null,
    "lon": null,
    "id_fuente": null,
+   "pais": null,
    "fuentes": [
     {
      "fuente": "elempleo",
@@ -946,6 +955,7 @@
    "lat": null,
    "lon": null,
    "id_fuente": null,
+   "pais": null,
    "fuentes": [
     {
      "fuente": "elempleo",
@@ -1011,6 +1021,7 @@
    "lat": null,
    "lon": null,
    "id_fuente": null,
+   "pais": null,
    "fuentes": [
     {
      "fuente": "elempleo",
@@ -1066,6 +1077,7 @@
    "lat": null,
    "lon": null,
    "id_fuente": "8AE4173D0E825B00",
+   "pais": null,
    "fuentes": [
     {
      "fuente": "computrabajo",
