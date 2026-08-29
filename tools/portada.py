@@ -1,0 +1,95 @@
+# -*- coding: utf-8 -*-
+"""index.html de la raíz: una tarjeta por búsqueda.
+
+    python3 tools/portada.py
+
+Lee busquedas/*.json y el data.json de cada una. No sabe nada del contenido:
+si mañana hay una segunda búsqueda, aparece sola.
+"""
+
+import glob
+import json
+import os
+import sys
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import comun as c
+
+PLANTILLA = """<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Búsquedas de vacantes</title>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--papel:#F4F6F8;--panel:#FFF;--tinta:#131A24;--tinta-2:#525E6E;--tinta-3:#8A96A6;
+  --linea:#DCE3EA;--pino:#0F5C55;--magenta:#B0176B;color-scheme:light}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --papel:#0E141B;--panel:#161E27;--tinta:#E8EDF2;--tinta-2:#A3B0BF;--tinta-3:#6F7E8E;
+  --linea:#26313D;--pino:#5FC7B4;--magenta:#F286BC;color-scheme:dark}}
+:root[data-theme="dark"]{--papel:#0E141B;--panel:#161E27;--tinta:#E8EDF2;--tinta-2:#A3B0BF;
+  --tinta-3:#6F7E8E;--linea:#26313D;--pino:#5FC7B4;--magenta:#F286BC;color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:var(--papel);color:var(--tinta);
+  font:400 15px/1.55 "IBM Plex Sans",-apple-system,system-ui,sans-serif}
+.envoltura{max-width:820px;margin:0 auto;padding:56px 20px 60px}
+h1{font-size:25px;font-weight:600;letter-spacing:-.02em;margin:0 0 6px}
+.sub{color:var(--tinta-2);margin:0 0 30px;font-size:14.5px}
+a.tarjeta{display:block;text-decoration:none;color:inherit;background:var(--panel);
+  border:1px solid var(--linea);border-radius:11px;padding:18px 20px;margin-bottom:12px}
+a.tarjeta:hover{border-color:var(--pino)}
+.t{font-size:17px;font-weight:600;margin:0 0 3px}
+.d{color:var(--tinta-2);font-size:13.5px;margin:0 0 12px}
+.cifras{display:flex;flex-wrap:wrap;gap:20px;font-family:"IBM Plex Mono",monospace}
+.cifra b{display:block;font-size:22px;font-weight:600;letter-spacing:-.02em}
+.cifra span{font-size:11px;color:var(--tinta-3);font-family:"IBM Plex Sans",sans-serif}
+.cifra.nueva b{color:var(--magenta)}
+.pie{margin-top:26px;font-size:12.5px;color:var(--tinta-3);line-height:1.6}
+</style>
+</head>
+<body><div class="envoltura">
+<h1>Búsquedas de vacantes</h1>
+<p class="sub">Se rehacen solas cada mañana. Herramienta privada.</p>
+__TARJETAS__
+<p class="pie">Los datos vienen de portales públicos y de un intermediario comercial para LinkedIn.
+El seguimiento de postulaciones vive solo en el disco y nunca se publica.</p>
+</div></body></html>
+"""
+
+
+def main():
+    tarjetas = []
+    for ruta in sorted(glob.glob(os.path.join(c.RAIZ, "busquedas", "*.json"))):
+        bus = json.load(open(ruta, encoding="utf-8"))
+        ident = bus["id"]
+        datos = os.path.join(c.RAIZ, ident, "data.json")
+        if not os.path.exists(datos):
+            continue
+        d = json.load(open(datos, encoding="utf-8"))
+        vig = d["vigentes"]
+        nuevas = sum(1 for a in vig if a.get("nueva"))
+        con_sal = sum(1 for a in vig if a.get("salario"))
+        tarjetas.append(
+            f'<a class="tarjeta" href="{ident}/index.html">'
+            f'<p class="t">{bus["textos"]["encabezado"]}</p>'
+            f'<p class="d">{bus["textos"]["subtitulo"]}</p>'
+            f'<div class="cifras">'
+            f'<div class="cifra"><b>{len(vig)}</b><span>vigentes</span></div>'
+            f'<div class="cifra{" nueva" if nuevas else ""}"><b>{nuevas}</b><span>nuevas</span></div>'
+            f'<div class="cifra"><b>{con_sal}</b><span>con salario</span></div>'
+            f'<div class="cifra"><b>{len(d.get("caidas", []))}</b><span>caídas</span></div>'
+            f'<div class="cifra"><b>{d["corrida"]}</b><span>última corrida</span></div>'
+            f"</div></a>")
+
+    if not tarjetas:
+        tarjetas = ['<p class="sub">Todavía no hay ninguna búsqueda con datos.</p>']
+    salida = os.path.join(c.RAIZ, "index.html")
+    with open(salida, "w", encoding="utf-8") as f:
+        f.write(PLANTILLA.replace("__TARJETAS__", "\n".join(tarjetas)))
+    print(f"{salida} · {len(tarjetas)} búsqueda(s)")
+
+
+if __name__ == "__main__":
+    main()

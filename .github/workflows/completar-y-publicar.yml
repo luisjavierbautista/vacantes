@@ -1,0 +1,66 @@
+name: Completar con llaves y publicar
+
+# Un rato después de la corrida diaria: completa lo que necesita llaves de
+# servidor (tiempos de traslado), vuelve a renderizar y publica en Pages.
+on:
+  schedule:
+    - cron: "40 11 * * *"
+  workflow_run:
+    workflows: ["Corrida diaria"]
+    types: [completed]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: publicar-comp-ben
+  cancel-in-progress: false
+
+jobs:
+  completar:
+    # Solo si la corrida diaria salió bien: si el freno la detuvo, no se publica.
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Traslados (solo donde hay dirección real)
+        env:
+          LLAVE_RUTAS: ${{ secrets.LLAVE_RUTAS }}
+        run: python3 tools/traslados.py --busqueda comp-ben
+        # Sin llave no falla: deja los campos marcados como «pendiente».
+
+      - name: Volver a renderizar
+        run: |
+          python3 tools/render.py --busqueda comp-ben
+          python3 tools/portada.py
+
+      - name: Chequeo previo al push
+        run: python3 tools/chequeo.py --busqueda comp-ben
+
+      - name: Commit si algo cambió
+        run: |
+          git config user.name  "corrida-diaria"
+          git config user.email "corrida-diaria@users.noreply.github.com"
+          git add comp-ben/data.json comp-ben/index.html index.html
+          git diff --cached --quiet && echo "Sin cambios." && exit 0
+          git commit -m "Traslados y render $(date -u +%F)"
+          if ! git push; then
+            git pull --rebase && git push || { echo "El commit queda local."; exit 1; }
+          fi
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+      - id: desplegar
+        uses: actions/deploy-pages@v4

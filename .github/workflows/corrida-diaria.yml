@@ -1,0 +1,60 @@
+name: Corrida diaria
+
+# 06:10 en Bogotá (UTC-5). Temprano, para que la página ya esté hecha
+# cuando ella la abra.
+on:
+  schedule:
+    - cron: "10 11 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: corrida-comp-ben
+  cancel-in-progress: false
+
+jobs:
+  barrer:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+        # Sin dependencias: todo es biblioteca estándar. No hay pip install.
+
+      - name: Barrido
+        env:
+          APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
+        run: python3 tools/barrido.py --busqueda comp-ben
+        # barrido.py devuelve 1 si el freno del 40% se dispara: el paso falla
+        # y no se publica nada. Es lo que queremos.
+
+      - name: Render y portada
+        run: |
+          python3 tools/render.py --busqueda comp-ben
+          python3 tools/portada.py
+
+      - name: Chequeo previo al push
+        run: python3 tools/chequeo.py --busqueda comp-ben
+
+      - name: Commit y push
+        run: |
+          git config user.name  "corrida-diaria"
+          git config user.email "corrida-diaria@users.noreply.github.com"
+          git add comp-ben/data.json comp-ben/index.html index.html
+          if git diff --cached --quiet; then
+            echo "Nada cambió respecto de ayer."
+            exit 0
+          fi
+          git commit -m "Corrida $(date -u +%F): $(python3 -c "
+          import json;d=json.load(open('comp-ben/data.json'))
+          print(f\"{len(d['vigentes'])} vigentes, {len(d['nuevas'])} nuevas, {len(d['caidas'])} caídas\")")"
+          # Nunca --force. Si el push falla, se reintenta UNA vez con rebase.
+          if ! git push; then
+            echo "Push rechazado; reintento con rebase."
+            git pull --rebase || { echo "Rebase falló. El commit queda local."; exit 1; }
+            git push || { echo "Segundo push falló. El commit queda hecho, sin publicar."; exit 1; }
+          fi

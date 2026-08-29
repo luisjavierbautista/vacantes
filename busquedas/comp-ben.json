@@ -1,0 +1,541 @@
+{
+  "id": "comp-ben",
+  "titulo": "Compensación y Beneficios / Total Rewards — Bogotá y remoto",
+  "actualizado": "2026-08-28",
+  "_nota_privacidad": "Este archivo es público. No lleva nombre, correo, teléfono, CV ni LinkedIn de nadie. Solo cargos, ciudades, rangos y empresas.",
+  "perfil": {
+    "resumen_publico": "Liderazgo de Compensación y Beneficios / Total Rewards, 10+ años. Metodología IPE, encuestas Mercer y WTW, compensación variable, LTI, estructuras salariales.",
+    "anios_experiencia_min": 10,
+    "seniority_aceptado": [
+      "jefatura",
+      "jefe",
+      "coordinador senior",
+      "gerencia",
+      "gerente",
+      "director",
+      "dirección asociada",
+      "associate director",
+      "head",
+      "lead",
+      "líder",
+      "manager",
+      "consultor senior"
+    ],
+    "ciudad_base": "Bogotá",
+    "direccion_base": {
+      "texto": "Cra 10 #128-70, Bogotá",
+      "vigente_hasta": "2026-10-11",
+      "lat": null,
+      "lon": null,
+      "_nota": "vigente_hasta es la fecha de mudanza. Cambiar aquí y solo aquí. lat/lon quedan null hasta que haya llave de geocodificación."
+    },
+    "modalidades_aceptadas": [
+      "remoto",
+      "híbrido",
+      "presencial"
+    ],
+    "modalidad_preferida": "remoto",
+    "modalidad_es_excluyente": false,
+    "ciudades_presencial": [
+      "Bogotá",
+      "Bogotá D.C.",
+      "Bogota",
+      "Chía",
+      "Cota",
+      "Bogotá y alrededores"
+    ],
+    "remoto_acepta_cualquier_pais": true,
+    "idiomas": {
+      "nativo": [
+        "español"
+      ],
+      "avanzado": [
+        "inglés"
+      ],
+      "_nota": "Exigir inglés NO penaliza: es una ventaja. Portugués o francés obligatorios sí restan."
+    }
+  },
+  "cargos": {
+    "objetivo": [
+      "gerente de compensacion y beneficios",
+      "jefe de compensacion y beneficios",
+      "lider de compensacion y beneficios",
+      "director de compensacion y beneficios",
+      "jefe de compensacion",
+      "gerente de compensacion",
+      "director de compensacion",
+      "coordinador de compensacion",
+      "gerente de remuneracion total",
+      "compensation and benefits manager",
+      "compensation benefits manager",
+      "compensation manager",
+      "total rewards manager",
+      "total rewards lead",
+      "associate director total rewards",
+      "rewards manager",
+      "reward partner",
+      "compensation partner",
+      "consultor senior de compensacion",
+      "career rewards consultant",
+      "especialista de compensacion",
+      "especialista en compensacion y beneficios",
+      "head of total rewards",
+      "head of compensation",
+      "compensation and benefits lead",
+      "gerente de beneficios",
+      "associate director compensation",
+      "incentive compensation",
+      "associate director rewards",
+      "compensation and benefits director",
+      "compensation director",
+      "gerente de compensaciones",
+      "jefe de remuneracion"
+    ],
+    "secundarios": [
+      "hr operations manager",
+      "gerente de recursos humanos",
+      "gerente de gestion humana",
+      "gerente de talento humano",
+      "people analytics manager",
+      "director de recursos humanos",
+      "jefe de recursos humanos",
+      "hr manager"
+    ],
+    "_nota_secundarios": "Solo entran si el cuerpo del aviso menciona compensación. Lo verifica barrido.py, no este archivo.",
+    "excluidos": [
+      "business development",
+      "desarrollo de negocio",
+      "desarrollo comercial",
+      "ventas",
+      "vendedor",
+      "asesor comercial",
+      "ejecutivo comercial",
+      "comercial",
+      "account executive",
+      "ejecutivo de cuenta",
+      "key account",
+      "kam",
+      "sales",
+      "reclutamiento",
+      "reclutador",
+      "seleccion",
+      "talent acquisition",
+      "atraccion de talento",
+      "headhunter",
+      "analista de nomina",
+      "auxiliar de nomina",
+      "auxiliar de compensacion",
+      "asistente de nomina",
+      "practicante",
+      "aprendiz",
+      "pasante",
+      "becario",
+      "junior",
+      "tecnico de nomina",
+      "auxiliar",
+      "operario",
+      "call center"
+    ],
+    "_nota_excluidos": "El cargo actual del perfil es Business Development. Es el dato más importante: un aviso de venta en una empresa buenísima sigue siendo un aviso equivocado."
+  },
+  "exclusiones_tematicas": {
+    "patrones": [
+      "compensacion ambiental",
+      "compensacion predial",
+      "compensacion forestal",
+      "gestion predial",
+      "licenciamiento ambiental",
+      "compensacion por perdida de biodiversidad",
+      "compensacion de emisiones",
+      "compensacion de carbono",
+      "caja de compensacion",
+      "cajas de compensacion",
+      "compensacion familiar",
+      "reporte sui",
+      "compensacion economica",
+      "compensacion militar"
+    ],
+    "_nota": "En Colombia «compensación» también significa compensación ambiental o predial. Sin esto, cada corrida arrastra avisos de ingeniería ambiental. Detectado en el sitemap de elempleo el 2026-08-28. Segundo grupo de falsos positivos, 2026-08-28: «caja de compensación familiar» (Compensar, Colsubsidio, Cafam) es una institución de bienestar, no gestión de compensación; los reclutadores la usan como etiqueta en el título. Se descarta solo si el cargo NO es además uno de los objetivo: un Jefe de Compensación DENTRO de una caja sí es una vacante válida."
+  },
+  "salario": {
+    "moneda": "COP",
+    "periodo": "mes",
+    "piso": 18000000,
+    "deseable": 20000000,
+    "_nota": "Un aviso por debajo del piso NO se esconde: resta puntos y se muestra. El salario publicado casi nunca es el que se negocia.",
+    "_nota_cero": "baseSalary.value == 0 en Computrabajo y elempleo significa NO PUBLICADO, nunca cero pesos."
+  },
+  "empresas": {
+    "vetadas": [
+      "Mercer"
+    ],
+    "_nota_vetadas": "Empleador actual. No puede aparecer como empresa contratante. Ojo: «encuestas Mercer» en el CUERPO del aviso sí suma puntos — lo vetado es Mercer como empleadora, no la palabra.",
+    "_nota_ex_empleadores": "Los ex empleadores entran con el mismo trato que cualquier otra. Volver no está descartado.",
+    "objetivo_europeas": [
+      "Unilever",
+      "Nestlé",
+      "Danone",
+      "AB InBev",
+      "Bavaria",
+      "Diageo",
+      "L'Oréal",
+      "Henkel",
+      "Reckitt",
+      "Sodexo",
+      "Carrefour",
+      "Sanofi",
+      "Bayer",
+      "Novartis",
+      "Roche",
+      "AstraZeneca",
+      "GSK",
+      "GlaxoSmithKline",
+      "Novo Nordisk",
+      "Merck KGaA",
+      "Boehringer Ingelheim",
+      "Schneider Electric",
+      "Siemens",
+      "Bosch",
+      "ABB",
+      "Michelin",
+      "Saint-Gobain",
+      "Holcim",
+      "Enel",
+      "Iberdrola",
+      "Repsol",
+      "TotalEnergies",
+      "BBVA",
+      "Santander",
+      "BNP Paribas",
+      "Telefónica",
+      "Movistar",
+      "Millicom",
+      "Tigo",
+      "WTW",
+      "Willis Towers Watson",
+      "Aon",
+      "Howden"
+    ],
+    "objetivo_latam": [
+      "Bancolombia",
+      "Grupo Sura",
+      "Sura",
+      "Grupo Argos",
+      "Nutresa",
+      "Alpina",
+      "Ecopetrol",
+      "Cemex",
+      "Bimbo",
+      "Femsa",
+      "Alsea",
+      "Falabella",
+      "Cencosud",
+      "Tenaris",
+      "Techint",
+      "Ternium",
+      "Arcos Dorados",
+      "Mercado Libre"
+    ],
+    "_nota_ampliacion": "La lista es un punto de partida. barrido.py marca como «europea» o «latam» cualquier empresa que reconozca por otras señales, y lo reporta.",
+    "sufijos_estadounidense": [
+      "Inc.",
+      "LLC",
+      "Corp.",
+      "Corporation"
+    ],
+    "_nota_eeuu": "Estadounidense no es veto: solo baja el puntaje."
+  },
+  "contrato": {
+    "preferidos": [
+      "indefinido",
+      "término fijo",
+      "FULL_TIME",
+      "PERMANENT"
+    ],
+    "mostrados_marcados": [
+      "prestación de servicios",
+      "contractor",
+      "freelance",
+      "CONTRACTOR",
+      "TEMPORARY"
+    ],
+    "_nota": "Prestación de servicios y contractor internacional se muestran, marcados. No se esconden."
+  },
+  "palabras_cuerpo": [
+    "compensacion",
+    "total rewards",
+    "remuneracion",
+    "valoracion de cargos",
+    "ipe",
+    "hay group",
+    "korn ferry",
+    "encuestas salariales",
+    "encuesta salarial",
+    "estructura salarial",
+    "bandas salariales",
+    "compensacion variable",
+    "incentivos de largo plazo",
+    "lti",
+    "long term incentive",
+    "equidad interna",
+    "benchmarking salarial",
+    "politicas de beneficios",
+    "mercer",
+    "willis towers watson",
+    "escala salarial",
+    "job evaluation",
+    "salary survey",
+    "pay equity",
+    "merit increase"
+  ],
+  "pesos": {
+    "cargo_objetivo": 25,
+    "multinacional_euro_latam": 15,
+    "remoto_confirmado_en_cuerpo": 15,
+    "palabras_tecnicas_en_cuerpo": 12,
+    "salario_publicado_sobre_piso": 12,
+    "empresa_en_lista_objetivo": 10,
+    "publicada_hace_menos_de_3_dias": 10,
+    "cargo_de_ventas_o_seleccion": -25,
+    "salario_publicado_bajo_piso": -15,
+    "exige_portugues_o_frances": -10,
+    "startup_etapa_temprana": -8,
+    "multinacional_estadounidense": -5,
+    "_nota": "Los pesos viven aquí, no en el código. El puntaje solo ORDENA: ninguna vacante se filtra por puntaje bajo. Si un componente no se puede evaluar por falta de dato, vale CERO y se dice — nunca se penaliza la ausencia de dato."
+  },
+  "fuentes": {
+    "elempleo": {
+      "activa": true,
+      "tipo": "html+jsonld",
+      "base": "https://www.elempleo.com",
+      "sitemaps": [
+        "https://www.elempleo.com/colombia/files/sitemap/sitemap-resultados-cargo.xml",
+        "https://www.elempleo.com/colombia/files/sitemap/sitemap-resultados-ciudad-cargo.xml"
+      ],
+      "landing_area_rrhh": "https://www.elempleo.com/co/ofertas-empleo/area-recursos-humanos-admon-personal",
+      "_robots": "Verificado 2026-08-28. /busqueda? está prohibido: NO se usa la búsqueda con query. Se usan las landings por RUTA que el propio sitemap publica.",
+      "_verificado": "JSON-LD JobPosting completo: title, description, datePosted, validThrough, baseSalary min/max COP, hiringOrganization, jobLocation."
+    },
+    "computrabajo": {
+      "activa": true,
+      "tipo": "html+jsonld",
+      "base": "https://co.computrabajo.com",
+      "listados": [
+        "https://co.computrabajo.com/trabajo-de-compensacion-y-beneficios",
+        "https://co.computrabajo.com/trabajo-de-compensacion",
+        "https://co.computrabajo.com/trabajo-de-total-rewards",
+        "https://co.computrabajo.com/trabajo-de-jefe-de-compensacion-y-beneficios",
+        "https://co.computrabajo.com/trabajo-de-gerente-de-compensacion-y-beneficios"
+      ],
+      "inestable": true,
+      "_robots": "Verificado 2026-08-28: responde 200 y permite /trabajo-de-*. Prohíbe las variantes con query (dis=, cont=, sal=…): no se usan.",
+      "_nota": "El prompt la daba por caída (403). Volvió. Marcada como inestable: si un día devuelve cero, el freno del 40% lo detecta."
+    },
+    "workday": {
+      "activa": true,
+      "tipo": "api",
+      "_descubrimiento": "tenant y sitio salen del robots.txt del propio tenant, que publica «Allow: /<sitio>/». Verificado 2026-08-28. 422 = ese tenant no existe.",
+      "_limitacion": "El listado NO trae descripción ni salario, y postedOn es relativo («Posted 30+ Days Ago»). Para los que casan por título hay que pedir el detalle. La fecha exacta suele quedar SIN DATO.",
+      "tenants": [
+        {
+          "empresa": "AB InBev / Bavaria",
+          "tenant": "abinbev",
+          "wd": "wd1",
+          "sitios": [
+            "COL",
+            "GHQ"
+          ]
+        },
+        {
+          "empresa": "Unilever",
+          "tenant": "unilever",
+          "wd": "wd3",
+          "sitios": [
+            "Unilever_Experienced_Professionals"
+          ]
+        },
+        {
+          "empresa": "Diageo",
+          "tenant": "diageo",
+          "wd": "wd3",
+          "sitios": [
+            "Diageo_Careers"
+          ]
+        },
+        {
+          "empresa": "Sanofi",
+          "tenant": "sanofi",
+          "wd": "wd3",
+          "sitios": [
+            "SanofiCareers"
+          ]
+        },
+        {
+          "empresa": "Novartis",
+          "tenant": "novartis",
+          "wd": "wd3",
+          "sitios": [
+            "Novartis_Careers"
+          ]
+        },
+        {
+          "empresa": "Roche",
+          "tenant": "roche",
+          "wd": "wd3",
+          "sitios": [
+            "roche-ext"
+          ]
+        },
+        {
+          "empresa": "AstraZeneca",
+          "tenant": "astrazeneca",
+          "wd": "wd3",
+          "sitios": [
+            "Careers"
+          ]
+        },
+        {
+          "empresa": "GSK",
+          "tenant": "gsk",
+          "wd": "wd5",
+          "sitios": [
+            "GSKCareers"
+          ]
+        },
+        {
+          "empresa": "Iberdrola",
+          "tenant": "iberdrola",
+          "wd": "wd3",
+          "sitios": [
+            "Iberdrola"
+          ]
+        },
+        {
+          "empresa": "Repsol",
+          "tenant": "repsol",
+          "wd": "wd3",
+          "sitios": [
+            "Repsol"
+          ]
+        },
+        {
+          "empresa": "BBVA",
+          "tenant": "bbva",
+          "wd": "wd3",
+          "sitios": [
+            "BBVA"
+          ]
+        },
+        {
+          "empresa": "Santander",
+          "tenant": "santander",
+          "wd": "wd3",
+          "sitios": [
+            "SantanderCareers"
+          ]
+        }
+      ]
+    },
+    "greenhouse": {
+      "activa": true,
+      "tipo": "api",
+      "empresas": [
+        {
+          "empresa": "AB InBev",
+          "slug": "abinbev"
+        }
+      ],
+      "_nota": "De las 54 empresas objetivo, solo AB InBev tiene tablero Greenhouse abierto (62 avisos el 2026-08-28)."
+    },
+    "arbeitnow": {
+      "activa": true,
+      "tipo": "api",
+      "url": "https://www.arbeitnow.com/api/job-board-api",
+      "filtro_estricto": true,
+      "_nota": "175 avisos, 0 de compensación en la prueba. Se deja porque es gratis y con filtro estricto no mete ruido. cero_es_normal: devolver 0 es su estado habitual, no una avería.",
+      "cero_es_normal": true
+    },
+    "apify_linkedin": {
+      "activa": true,
+      "tipo": "intermediario_comercial",
+      "actor": "fantastic-jobs~advanced-linkedin-job-search-api",
+      "endpoint": "https://api.apify.com/v2/acts/{actor}/run-sync-get-dataset-items",
+      "max_items": 100,
+      "presupuesto_usd_mes": 20,
+      "costo_usd_por_aviso": 0.005,
+      "corridas_por_dia": 1,
+      "_regla_cookie": "Verificado 2026-08-28: este actor NO pide li_at, ni usuario/contraseña, ni sesión. Si alguna vez la pide, se descarta el actor y LinkedIn queda fuera. No se negocia.",
+      "_solo_vacantes": "Se piden vacantes. Nunca perfiles de personas, nunca contactos, nunca datos de reclutadores.",
+      "entrada": {
+        "timeRange": "7d",
+        "limit": 100,
+        "descriptionType": "text",
+        "removeAgency": false,
+        "excludeATSDuplicate": true,
+        "locationSearch": [
+          "Colombia",
+          "Bogota"
+        ],
+        "titleSearch": [
+          "compensation",
+          "total rewards",
+          "compensación",
+          "remuneración",
+          "rewards",
+          "compensacion",
+          "compensation and benefits",
+          "benefits manager",
+          "c&b",
+          "gerente de compensación",
+          "jefe de compensación",
+          "director de compensación",
+          "compensation manager"
+        ],
+        "titleExclusionSearch": [
+          "business development",
+          "sales",
+          "ventas",
+          "comercial",
+          "recruiter",
+          "recruitment",
+          "farmacia",
+          "ambiental",
+          "auxiliar",
+          "practicante",
+          "aprendiz",
+          "farmacéutico",
+          "caja de compensación"
+        ]
+      },
+      "_alternativa": "valig~linkedin-jobs-scraper es 14x más barato pero devolvió postedDate en null. Queda como respaldo si el gasto se dispara.",
+      "_nota_cobertura": "Títulos ampliados el 2026-08-28: con los filtros originales LinkedIn devolvía solo 5 avisos. Más cobertura cuesta más (US$0,005 por aviso); el tope de max_items sigue mandando."
+    },
+    "_descartadas": {
+      "smartrecruiters": "robots.txt de api.smartrecruiters.com: «User-agent: * / Disallow: /». Solo LinkedInBot tiene Allow. El endpoint responde 200 pero NO se consulta. Pérdida real: Danone, Bosch, Publicis.",
+      "remotive": "robots.txt trae «Disallow: /api/*». Su propia API está prohibida por su propio robots.",
+      "ashby": "robots.txt responde 401: sin robots legible no se consulta. Además es casi puro startup tech.",
+      "lever": "Permitido por robots, pero cero empresas objetivo.",
+      "workable": "Permitido por robots, pero cero empresas objetivo.",
+      "indeed": "Sigue devolviendo 403 al listado (verificado 2026-08-28).",
+      "linkedin_directo": "Sus condiciones prohíben el acceso automatizado. Solo vía Apify."
+    }
+  },
+  "umbrales": {
+    "caida_relativa_para_no_publicar": 0.4,
+    "dias_sin_respuesta_para_alertar": 10,
+    "dias_para_considerar_reciente": 3,
+    "max_empresas_visibles_en_filtro": 8,
+    "_nota": "Si el barrido devuelve menos del 40% de la corrida anterior, NO se publica.",
+    "similitud_para_fusionar": 0.6,
+    "_nota_similitud": "Dos avisos de la MISMA empresa con nombre conocido y la misma ciudad se fusionan si sus títulos comparten esta proporción de palabras (Jaccard). A 0.6, «Total Rewards Lead / Líder de Compensación y Beneficios» y «Líder en Beneficios y Compensación / Total Rewards» se fusionan (0.71), pero «Gerente» y «Jefe de Compensación y Beneficios» NO (0.50): son niveles distintos y fusionarlos escondería una vacante.",
+    "dias_para_olvidar_caidas": 45,
+    "_nota_caidas": "Una vacante caída se muestra 45 días y luego se olvida. Sin esto la lista crece para siempre y «cuánto dura abierta una vacante de este perfil» deja de leerse.",
+    "techo_riel_cop": 40000000,
+    "_nota_riel": "Tope FIJO de la escala del riel salarial. Fijo a propósito: si la escala se recalculara cada día con el máximo del día, la página de ayer dejaría de ser comparable con la de hoy, y un solo aviso con el balde «21M a 50M» de elempleo aplastaría visualmente a todos los demás. Lo que se pasa de 40M se dibuja recortado con un signo »; la cifra exacta sigue en texto."
+  },
+  "textos": {
+    "encabezado": "Vacantes de Compensación y Beneficios / Total Rewards",
+    "subtitulo": "Bogotá presencial o híbrido · remoto desde cualquier país que contrate en Colombia",
+    "nota_metodo_fija": "Indeed bloquea el acceso automático (403). SmartRecruiters y Remotive lo prohíben en su robots.txt. LinkedIn lo prohíbe en sus condiciones y se consulta solo a través de Apify, un intermediario comercial. En esos sitios conviene configurar las alertas por correo a mano."
+  }
+}

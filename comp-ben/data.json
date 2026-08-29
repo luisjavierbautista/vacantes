@@ -1,0 +1,1143 @@
+{
+ "busqueda": "comp-ben",
+ "corrida": "2026-08-28",
+ "corrida_hora": "2026-08-28 22:44",
+ "fuentes": {
+  "elempleo": {
+   "avisos": 13,
+   "error": null
+  },
+  "computrabajo": {
+   "avisos": 4,
+   "error": null
+  },
+  "workday": {
+   "avisos": 5,
+   "error": null
+  },
+  "greenhouse": {
+   "avisos": 1,
+   "error": null
+  },
+  "arbeitnow": {
+   "avisos": 0,
+   "error": null
+  },
+  "apify_linkedin": {
+   "avisos": 3,
+   "error": null
+  }
+ },
+ "fallos": [],
+ "avisos_recogidos": 26,
+ "descartados": 8,
+ "fusionados": [
+  {
+   "conservado": "Total Rewards Lead / Líder de Compensación y Beneficios Bilingüe",
+   "absorbido": "Lider en Beneficios y Compensación / Total Rewards / RRHH - 80 Beneficios 20 Compensacion",
+   "parecido": 0.62
+  }
+ ],
+ "nuevas": [],
+ "republicadas": [],
+ "vigentes": [
+  {
+   "cargo": "Gerente de compensación y beneficios",
+   "empresa": "CONFIDENTIAL",
+   "empresa_anonima": true,
+   "ciudad": "Bogotá D.C.",
+   "descripcion": "Importante empresa del sector de consumo masivo se encuentra en la búsqueda de nuestro próximo Gerente de compensación y beneficios el cual tendrá como misión en diseñar, administrar y optimizar las políticas de compensación, beneficios y remuneración de la organización, garantizando competitividad externa, equidad interna, sostenibilidad financiera y cumplimiento legal para atraer, motivar y retener el talento humano. Las funciones principales de este cargo son:\r\n\r\n1. Diseñar la estrategia de compensación.\r\n2. Administración salarial.\r\n3. Valoración y clasificación de cargos.\r\n4. Estudios de mercado.\r\n5. Gestión de beneficios.\r\n6. Compensación variable e incentivos\r\n7. Cumplimiento normativo.\r\n8. Análisis y reporting.\r\n9. Apoyo a Talento Humano.\r\n10. Arquitectura organizacional. \r\n\r\nPara este cargo se maneja un salario promedio de $18.000.000 mas todas las prestaciones de ley. El horario que se maneja es de lunes a viernes de 8:00 am a 5:30 pm de forma 1005 presencial y estamos ubicados en el sector de chapinero.\r\n\r\nAnímate y haz parte de una de las mejores empresas del país.",
+   "salario": {
+    "min": 18000001.0,
+    "max": 21000000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-08-25",
+   "vigente_hasta": "2026-09-21",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
+   "fuentes": [
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/gerente-de-compensacion-y-beneficios-1886743258",
+     "id_fuente": null
+    }
+   ],
+   "inc": [],
+   "deducidos": [],
+   "modalidad": "presencial",
+   "modalidad_literal": "presencial",
+   "modalidad_por_confirmar": false,
+   "id": "empresa no revelada|gerente de compensacion y beneficios|bogota#anon:18000001-21000000-2026-08-25",
+   "duplicados_hoy": 1,
+   "marcas": [
+    "empresa no revelada: puede estar repetida"
+   ],
+   "desglose": [
+    {
+     "concepto": "cargo objetivo de compensación",
+     "puntos": 25,
+     "nota": "Gerente de compensación y beneficios"
+    },
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "el aviso no revela la empresa: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona técnica de compensación",
+     "puntos": 12,
+     "nota": "compensacion, remuneracion, compensacion variable, equidad interna"
+    },
+    {
+     "concepto": "salario publicado igual o sobre $18.000.000",
+     "puntos": 12,
+     "nota": "21.000.000 COP"
+    },
+    {
+     "concepto": "publicada hace menos de 3 días",
+     "puntos": 10,
+     "nota": "hace 3 día(s)"
+    }
+   ],
+   "puntaje": 59,
+   "nueva": false,
+   "visto_desde": "2026-08-28",
+   "republicaciones": 0,
+   "postulacion": {
+    "estado": "postulada",
+    "fecha": "2026-08-12",
+    "nota": "por el ATS, no por el portal",
+    "contacto": ""
+   }
+  },
+  {
+   "cargo": "Associate Director, Incentive Compensation",
+   "empresa": "Novartis",
+   "empresa_anonima": false,
+   "ciudad": "",
+   "descripcion": "",
+   "salario": null,
+   "publicado": null,
+   "vigente_hasta": null,
+   "contrato": null,
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": "REQ-10085916-1",
+   "fuentes": [
+    {
+     "fuente": "workday",
+     "url": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers/job/Remote-Position-USA/Associate-Director--Incentive-Compensation_REQ-10085916-1",
+     "id_fuente": "REQ-10085916-1"
+    }
+   ],
+   "inc": [
+    "ciudad",
+    "salario",
+    "publicado",
+    "contrato",
+    "descripcion",
+    "modalidad"
+   ],
+   "deducidos": [],
+   "publicado_literal": "Publicado hace 11 días",
+   "ciudad_literal": "Ubicaciones: 2",
+   "modalidad": null,
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "marcas": [
+    "ciudad sin publicar"
+   ],
+   "id": "novartis|associate director incentive compensation|#REQ-10085916-1",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "cargo objetivo de compensación",
+     "puntos": 25,
+     "nota": "Associate Director, Incentive Compensation"
+    },
+    {
+     "concepto": "multinacional europea",
+     "puntos": 15,
+     "nota": "por la lista objetivo"
+    },
+    {
+     "concepto": "está en la lista de empresas objetivo",
+     "puntos": 10,
+     "nota": "Novartis"
+    },
+    {
+     "concepto": "modalidad remota",
+     "puntos": 0,
+     "nota": "el aviso no publica cuerpo: no suma ni resta"
+    },
+    {
+     "concepto": "técnica de compensación en el cuerpo",
+     "puntos": 0,
+     "nota": "el aviso no publica cuerpo: no suma ni resta"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    },
+    {
+     "concepto": "fecha de publicación",
+     "puntos": 0,
+     "nota": "Publicado hace 11 días: no suma ni resta"
+    }
+   ],
+   "puntaje": 50,
+   "nueva": false,
+   "visto_desde": "2026-08-28",
+   "republicaciones": 0
+  },
+  {
+   "cargo": "GERENTE DE COMPENSACIÓN Y BENEFICIOS - BOGOTÁ",
+   "empresa": "CONFIDENTIAL",
+   "empresa_anonima": true,
+   "ciudad": "Bogotá D.C.",
+   "descripcion": "Tu misión\r\nDirigir los procesos de compensación total, nómina y beneficios de la compañía, en línea con la estrategia corporativa y la normatividad laboral vigente, para asegurar equidad salarial interna, competitividad de mercado, cumplimiento legal y el posicionamiento de la organización como empleador de referencia en el sector financiero.\r\nPrincipales responsabilidades\r\n\r\nDiseñar e implementar la estrategia de compensación total (fija, variable, incentivos de corto y largo plazo, beneficios) alineada con los objetivos estratégicos del negocio.\r\nRealizar análisis de equidad salarial interna, competitividad de mercado y posicionamiento, generando insumos para la toma de decisiones de las gerencias y de la Alta Dirección.\r\nConstruir esquemas de compensación diferenciales para roles críticos del sector financiero, con foco en la atracción y retención de talento clave.\r\nDiseñar, actualizar y velar por el cumplimiento de las políticas de compensación, auxilios y beneficios que aseguren estandarización, simplificación y equidad organizacional.\r\nLiderar y controlar los procesos de nómina, asegurando cumplimiento normativo, oportunidad y calidad.\r\nParticipar en encuestas salariales especializadas del sector financiero (Mercer, WTW, PwC) y liderar los ejercicios de benchmarking.\r\nAsegurar el cumplimiento del marco regulatorio aplicable en materia salarial, prestacional y de seguridad social.\r\nGestionar los riesgos legales laborales derivados de las relaciones con colaboradores directos y con empresas de servicios temporales.\r\nLiderar y desarrollar equipos multidisciplinarios de compensación, nómina y relaciones laborales.\r\n\r\nPerfil requerido\r\nFormación académica:\r\n\r\nProfesional en Administración de Empresas, Ingeniería Industrial, Economía, Finanzas, Psicología o Derecho.\r\nDeseable especialización o maestría en Gerencia de Talento Humano, Compensación, Finanzas o Derecho Laboral y Seguridad Social.\r\n\r\nExperiencia:\r\n\r\nMínimo 8 años en cargos de liderazgo asociados con compensación, remuneración total, nómina y beneficios.\r\nExperiencia demostrable en el sector financiero (bancos, aseguradoras, comisionistas, fondos de pensiones, fiduciarias o gestores de inversión) altamente valorada.\r\nManejo comprobable de metodologías de valoración de cargos (Hay, Mercer IPE, Willis Towers Watson u otras equivalentes).\r\n\r\nConocimientos técnicos:\r\n\r\nEstructuras de compensación total, incluyendo esquemas variables de corto y largo plazo (STI, LTI).\r\nEncuestas salariales del sector financiero y análisis comparativo de mercado.\r\nMarco normativo laboral colombiano, seguridad social y reforma tributaria aplicable a compensación.\r\nExcel avanzado (modelamiento salarial); deseable Power BI y sistemas de información de talento humano.\r\nInglés intermedio-avanzado (deseable).",
+   "salario": {
+    "min": 21000001.0,
+    "max": 50000000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-07-06",
+   "vigente_hasta": "2026-09-04",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
+   "fuentes": [
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/gerente-de-compensacion-y-beneficios-bogota-1886735172",
+     "id_fuente": null
+    }
+   ],
+   "inc": [
+    "modalidad"
+   ],
+   "deducidos": [],
+   "modalidad": null,
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "empresa no revelada|gerente de compensacion y beneficios|bogota#anon:21000001-50000000-2026-07-06",
+   "duplicados_hoy": 1,
+   "marcas": [
+    "empresa no revelada: puede estar repetida"
+   ],
+   "desglose": [
+    {
+     "concepto": "cargo objetivo de compensación",
+     "puntos": 25,
+     "nota": "GERENTE DE COMPENSACIÓN Y BENEFICIOS - BOGOTÁ"
+    },
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "el aviso no revela la empresa: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona técnica de compensación",
+     "puntos": 12,
+     "nota": "compensacion, remuneracion, valoracion de cargos, ipe, encuestas salariales, lti"
+    },
+    {
+     "concepto": "salario publicado igual o sobre $18.000.000",
+     "puntos": 12,
+     "nota": "50.000.000 COP"
+    }
+   ],
+   "puntaje": 49,
+   "nueva": false,
+   "visto_desde": "2026-08-28",
+   "republicaciones": 0,
+   "postulacion": {
+    "estado": "entrevista",
+    "fecha": "2026-08-25",
+    "nota": "primera con la headhunter",
+    "contacto": ""
+   }
+  },
+  {
+   "cargo": "coordinador de compensación talento humano",
+   "empresa": "CONFIDENTIAL",
+   "empresa_anonima": true,
+   "ciudad": "Bogotá D.C.",
+   "descripcion": "Importante empresa del sector automotriz requiere para su equipo de trabajo un coordinador de compensación salarial, esta persona debe contar con carrera profesional culminada en áreas a fines. Experiencia de mínimo 5 años en la gestión de procesos de compensación fija y variable, diseño de estructuras de compensación, normatividad laboral, bandas salariales, etc.\r\nImportante manejo de Excel avanzado y conocimientos en Power BI y IA.\r\nSalario $6'300.000, contrato a termino indefinido, disponibilidad para trabajar 100% presencial de de lunes a viernes en el norte de Bogotá.",
+   "salario": {
+    "min": 6000001.0,
+    "max": 8000000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-08-27",
+   "vigente_hasta": "2026-10-26",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
+   "fuentes": [
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/coordinador-de-compensacion-talento-humano-1886758342",
+     "id_fuente": null
+    }
+   ],
+   "inc": [],
+   "deducidos": [],
+   "modalidad": "presencial",
+   "modalidad_literal": "presencial",
+   "modalidad_por_confirmar": false,
+   "id": "empresa no revelada|coordinador de compensacion talento humano|bogota#anon:6000001-8000000-2026-08-27",
+   "duplicados_hoy": 1,
+   "marcas": [
+    "empresa no revelada: puede estar repetida"
+   ],
+   "desglose": [
+    {
+     "concepto": "cargo objetivo de compensación",
+     "puntos": 25,
+     "nota": "coordinador de compensación talento humano"
+    },
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "el aviso no revela la empresa: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona técnica de compensación",
+     "puntos": 12,
+     "nota": "compensacion, bandas salariales"
+    },
+    {
+     "concepto": "salario publicado por debajo de $18.000.000",
+     "puntos": -15,
+     "nota": "8.000.000 COP — se muestra igual: el publicado casi nunca es el negociado"
+    },
+    {
+     "concepto": "publicada hace menos de 3 días",
+     "puntos": 10,
+     "nota": "hace 1 día(s)"
+    }
+   ],
+   "puntaje": 32,
+   "nueva": false,
+   "visto_desde": "2026-08-28",
+   "republicaciones": 0
+  },
+  {
+   "cargo": "Director Cultura, Formación & Compensación",
+   "empresa": "Alianza Fiduciaria - Alianza Valores",
+   "empresa_anonima": false,
+   "ciudad": "Bogota, Capital District",
+   "descripcion": "Somos una Compañía del sector financiero orientada a la sostenibilidad. Nuestros equipos son estructurados y liderados para contribuir en el marco de una cultura de alto desempeño, es por esta razón que buscamos una persona amable y empática, comprometida con servir con excelencia y transparencia al propósito organizacional, también valiente y apasionada para empoderarse frente a los retos, con la capacidad de encontrar ágilmente soluciones innovadoras asegurando el crecimiento sostenible del negocio. Buscamos una persona que autogestiona su crecimiento y relaciones pensando en el largo plazo, superando la dificultad para hacer que las cosas pasen.\n\nBajo el cargo de Director de Cultura, Formación y Compensación que responderá a la Gerencia de Talento Humano serás encargado de:\n\nAlinear la cultura corporativa con la estrategia del negocio y asegurar el compromiso de los empleados remotos y presenciales.\nDiseñar el plan corporativo anual de formación y desarrollo, con base en las necesidades estratégicas y regulatorias.\nDiseñar y mantener la estrategia de compensación total, alineada con la estrategia corporativa y la capacidad financiera de la organización.\nEvaluar el rendimiento del personal bajo un enfoque orientado a resultados, crucial para el personal en teletrabajo.\nGestionar el presupuesto del área.\n\nRequisitos\n\nProfesional graduado en Administración de empresas, Ingeniería Industrial o carreras afines.\nIndispensable especialización en áreas de cultura\nCinco (5) años de experiencia en cargos de liderazgo en los frentes de cultura, formación y compensación en empresas de más de 1.000 empleados.\nIndispensable residir en la ciudad de BOGOTA.\n\nNuestra Oferta:\n\nSer parte de una organización con potencial de crecimiento y posicionamiento en el mercado.\nCuidamos de ti: Póliza de vida.\nCelebramos contigo: Día de cumpleaños.\nTe acompañamos: Tarjeta de alimentación\nContrato directo a Término indefinido.\nLunes a viernes. Modalidad Hibrido.\n\nAlianza es un gran lugar para crecer.\nAnímate a ser parte y contribuir desde tu alto desempeño. \n¡Queremos conocerte!",
+   "salario": null,
+   "publicado": "2026-08-28",
+   "vigente_hasta": "2026-09-27",
+   "contrato": [
+    "FULL_TIME"
+   ],
+   "agencia": null,
+   "direccion": null,
+   "lat": 4.6533817,
+   "lon": -74.0836331,
+   "id_fuente": "4460165174",
+   "fuentes": [
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/director-cultura-formaci%C3%B3n-compensaci%C3%B3n-at-alianza-fiduciaria-alianza-valores-4460165174",
+     "id_fuente": "4460165174"
+    }
+   ],
+   "inc": [
+    "salario"
+   ],
+   "deducidos": [
+    "modalidad"
+   ],
+   "modalidad_fuente": "Hybrid",
+   "empleados": 1582,
+   "sede": "Bogotá, DISTRITO CAPITAL",
+   "modalidad": "híbrido",
+   "modalidad_literal": "teletrabajo",
+   "modalidad_por_confirmar": false,
+   "id": "alianza fiduciaria alianza valores|director cultura formacion compensacion|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona técnica de compensación",
+     "puntos": 12,
+     "nota": "compensacion"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    },
+    {
+     "concepto": "publicada hace menos de 3 días",
+     "puntos": 10,
+     "nota": "hace 0 día(s)"
+    }
+   ],
+   "puntaje": 22,
+   "nueva": false,
+   "visto_desde": "2026-08-28",
+   "republicaciones": 0
+  },
+  {
+   "cargo": "JEFE DE COMPENSACIÓN Y BENEFICIOS - BOGOTÁ- 1625894613-31",
+   "empresa": "CONFIDENTIAL",
+   "empresa_anonima": true,
+   "ciudad": "Bogotá D.C.",
+   "descripcion": "En la Agencia de Empleo y Fomento Empresarial de Compensar estamos JEFE DE COMPENSACIÓN Y BENEFICIOS – BOGOTÁ para empresa farmacéutica, Profesional en Administración de empresas, Contaduría Publica, Economia, Ingenieria Industrial o afines. Especialización en economía, compensación y beneficios y/o finanzas. Experiencia: mínima de 5 años liderando procesos de compensación, beneficios y estructura salarial.\r\nFunciones: \r\n-Diseñar y gestionar la estrategia de compensación y beneficios de la organización. \r\n-Diseño de estructuras salariales y tabuladores. \r\n-Desarrollo de sistema de compensación total, fija y variable. \r\n-Asegurar la correcta ejecución de los procesos de nómina y seguridad social.\r\n -Verificar, avalar y aplicar las novedades de nómina y el pago de seguridad social de acuerdo con la normatividad vigente.. \r\nHorario: Lunes a viernes de 08:00 a.m. a 5:00 p.m\r\nSalario: $ 6.500.000 a $7.200.000 + prestaciones de ley\r\nTipo de Contrato: indefinido \r\nLugar de trabajo: Bogotá \r\nSi cumples con los requisitos y estás listo para un nuevo desafío, postúlate antes del 31 de julio\r\nde 2026.",
+   "salario": {
+    "min": 6000001.0,
+    "max": 8000000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-07-29",
+   "vigente_hasta": "2026-09-27",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
+   "fuentes": [
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/jefe-de-compensacion-y-beneficios-bogota-162589461331-1886745723",
+     "id_fuente": null
+    }
+   ],
+   "inc": [
+    "modalidad"
+   ],
+   "deducidos": [],
+   "modalidad": null,
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "empresa no revelada|jefe de compensacion y beneficios bogota 31|bogota#anon:6000001-8000000-2026-07-29",
+   "duplicados_hoy": 1,
+   "marcas": [
+    "empresa no revelada: puede estar repetida"
+   ],
+   "desglose": [
+    {
+     "concepto": "cargo objetivo de compensación",
+     "puntos": 25,
+     "nota": "JEFE DE COMPENSACIÓN Y BENEFICIOS - BOGOTÁ- 1625894613-31"
+    },
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "el aviso no revela la empresa: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona técnica de compensación",
+     "puntos": 12,
+     "nota": "compensacion, estructura salarial"
+    },
+    {
+     "concepto": "salario publicado por debajo de $18.000.000",
+     "puntos": -15,
+     "nota": "8.000.000 COP — se muestra igual: el publicado casi nunca es el negociado"
+    }
+   ],
+   "puntaje": 22,
+   "nueva": false,
+   "visto_desde": "2026-08-28",
+   "republicaciones": 0
+  },
+  {
+   "cargo": "Total Rewards Lead / Líder de Compensación y Beneficios Bilingüe",
+   "empresa": "MANPOWER",
+   "empresa_anonima": false,
+   "ciudad": "Bogotá D.C.",
+   "descripcion": "Total Rewards Lead\r\n\r\nUbicación: Bogotá, Colombia\r\n Modalidad: Híbrida (3 días en oficina y 2 desde casa).\r\n Tipo de contrato: Obra ó Labor 1 año\r\n Salario: $10.000.000 \r\n\r\n\r\nDescripción del cargo\r\n\r\nImportante compañía multinacional se encuentra en búsqueda de un(a) Total Rewards Lead para liderar programas de compensación, beneficios y bienestar para diferentes países de Latinoamérica. La posición tendrá un enfoque estratégico en beneficios, participando en proyectos regionales, desarrollo de políticas, análisis de mercado y relacionamiento con equipos locales, regionales y globales.\r\n\r\n\r\n\r\nFunciones principales\r\n- Diseñar, implementar y gestionar programas de compensación, beneficios y bienestar para la región LATAM.\r\n- Liderar la revisión y renovación de planes de salud y beneficios corporativos.\r\n- Realizar benchmarking y análisis de mercado para asegurar competitividad en beneficios y compensación.\r\n- Desarrollar y actualizar políticas, procesos y lineamientos relacionados con Total Rewards.\r\n- Gestionar proyectos regionales de transformación, cambio organizacional y mejora continua.\r\n- Generar análisis e indicadores que soporten la toma de decisiones estratégicas.\r\n- Garantizar el cumplimiento legal y normativo de los programas bajo su alcance.\r\n- Trabajar de manera cercana con stakeholders locales, regionales y globales para la implementación de iniciativas y proyectos.\r\n\r\n\r\n\r\nRequisitos\r\n- Profesional en Administración de Empresas, Ingeniería Industrial, Recursos Humanos o carreras afines.\r\n- Mínimo 6 años de experiencia en Compensación y Beneficios, Total Rewards o áreas relacionadas dentro de compañías multinacionales.\r\n- Experiencia liderando programas de beneficios a nivel regional.\r\n- Inglés avanzado conversacional y de negocios.\r\n- Manejo intermedio de Excel (tablas dinámicas, análisis de datos y cálculos).\r\n\r\n\r\n\r\n\r\nSi cuentas con experiencia en Compensación y Beneficios, nivel avanzado de inglés y trayectoria en entornos multinacionales, esta es una excelente oportunidad para asumir un rol estratégico con alcance regional.",
+   "salario": {
+    "min": 10000001.0,
+    "max": 12500000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-08-05",
+   "vigente_hasta": "2026-10-04",
+   "contrato": "PER_DIEM",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
+   "fuentes": [
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/total-rewards-lead-lider-de-compensacion-y-beneficios-bilingue-1886749725",
+     "id_fuente": null
+    },
+    {
+     "fuente": "computrabajo",
+     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-lider-en-beneficios-y-compensacion-total-rewards-rrhh-80-beneficios-20-compensacion-en-bogota-dc-0446118844BD7A6761373E686DCF3405",
+     "id_fuente": "2BE0D088B7D1B44D"
+    }
+   ],
+   "inc": [],
+   "deducidos": [],
+   "modalidad": "híbrido",
+   "modalidad_literal": "3 dias en oficina",
+   "modalidad_por_confirmar": false,
+   "id": "manpower|total rewards lead lider de compensacion y beneficios|bogota",
+   "duplicados_hoy": 1,
+   "titulos_alternos": [
+    "Lider en Beneficios y Compensación / Total Rewards / RRHH - 80 Beneficios 20 Compensacion"
+   ],
+   "desglose": [
+    {
+     "concepto": "cargo objetivo de compensación",
+     "puntos": 25,
+     "nota": "Total Rewards Lead / Líder de Compensación y Beneficios Bilingüe"
+    },
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona técnica de compensación",
+     "puntos": 12,
+     "nota": "compensacion, total rewards"
+    },
+    {
+     "concepto": "salario publicado por debajo de $18.000.000",
+     "puntos": -15,
+     "nota": "12.500.000 COP — se muestra igual: el publicado casi nunca es el negociado"
+    }
+   ],
+   "puntaje": 22,
+   "nueva": false,
+   "visto_desde": "2026-08-28",
+   "republicaciones": 0
+  },
+  {
+   "cargo": "Senior Workday Analyst – Compensation & Benefits - Remote Work",
+   "empresa": "BairesDev",
+   "empresa_anonima": false,
+   "ciudad": "Colombia",
+   "descripcion": "At BairesDev®, we've been leading the way in technology projects for over 15 years. We deliver cutting-edge solutions to giants like Google and the most innovative startups in Silicon Valley.\n\nOur diverse 4,000+ team, composed of the world's Top 1% of tech talent, works remotely on roles that drive significant impact worldwide.\n\nWhen you apply for this position, you're taking the first step in a process that goes beyond the ordinary. We aim to align your passions and skills with our vacancies, setting you on a path to exceptional career development and success.\n\nSenior Workday Analyst – Compensation & Benefits at BairesDev\n\nIn this role, you'll sit with HR stakeholders, gather requirements, and then build the solution yourself directly in Workday, from business processes and compensation rules to benefits setup and annual events like merit cycles and open enrollment. This is a genuinely hands-on configuration role, not a traditional project management or analyst position. This is your opportunity to own Compensation and Benefits configuration end to end, working closely with a companion team supporting global offices across multiple countries.\n\nWhat You'll Do:\n\n- Gather requirements from HR stakeholders and configure solutions directly in Workday.\n- Build and maintain Compensation and Benefits configuration, including annual events like merit cycles and open enrollment.\n- Configure Talent Management processes within Workday.\n- Build custom reports and dashboards using Workday Report Writer.\n\nWhat we are looking for:\n\n- 5+ years of experience with Workday HCM.\n- Strong background in Workday Core HR configuration.\n- Hands-on experience with Workday Compensation and Benefits configuration.\n- Proficiency with Workday Talent Management.\n- Experience with Workday Report Writer.\n- Advanced proficiency in English.\n\nNice to have:\n\n- Familiarity with Workday integrations, including EIBs, Core Connectors, or RaaS.\n- Exposure to Workday Time Tracking.\n\nHow we do make your work (and your life) easier:\n\n- 100% remote work (from anywhere).\n- Excellent compensation in USD or your local currency if preferred\n- Hardware and software setup for you to work from home.\n- Flexible hours: create your own schedule.\n- Paid parental leaves, vacations, and holidays.\n- Innovative and multicultural work environment: collaborate and learn from the global Top 1% of talent.\n- Supportive environment with mentorship, promotions, skill development, and diverse growth opportunities.\n\nApply now and become part of a global team where your unique talents can truly thrive!",
+   "salario": null,
+   "publicado": "2026-08-25",
+   "vigente_hasta": null,
+   "contrato": null,
+   "agencia": null,
+   "direccion": null,
+   "lat": 4.099917,
+   "lon": -72.9088133,
+   "id_fuente": "4457624651",
+   "fuentes": [
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/senior-workday-analyst-%E2%80%93-compensation-benefits-remote-work-at-bairesdev-4457624651",
+     "id_fuente": "4457624651"
+    }
+   ],
+   "inc": [
+    "salario",
+    "contrato"
+   ],
+   "deducidos": [
+    "modalidad"
+   ],
+   "modalidad_fuente": "Remote Solely",
+   "empleados": 3190,
+   "sede": "San Francisco, California",
+   "modalidad": "remoto",
+   "modalidad_literal": "remote",
+   "modalidad_por_confirmar": false,
+   "id": "bairesdev|senior workday analyst compensation benefits|colombia",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "multinacional estadounidense",
+     "puntos": -5,
+     "nota": "San Francisco, California"
+    },
+    {
+     "concepto": "remoto confirmado en el cuerpo del aviso",
+     "puntos": 15,
+     "nota": "remote"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    },
+    {
+     "concepto": "publicada hace menos de 3 días",
+     "puntos": 10,
+     "nota": "hace 3 día(s)"
+    }
+   ],
+   "puntaje": 20,
+   "nueva": false,
+   "visto_desde": "2026-08-28",
+   "republicaciones": 0
+  },
+  {
+   "cargo": "Analist compensación y beneficios",
+   "empresa": "Cadena Comercial OXXO Colombia",
+   "empresa_anonima": false,
+   "ciudad": "Colombia",
+   "descripcion": "En Oxxo Colombia, nos encontramos en búsqueda de nuestro próximo(a) Analista de Organización y Compensación en Bogotá.\nTu reto : Serás responsable de mantener y optimizar la estructura organizacional y los esquemas de compensación, generando información confiable para la toma de decisiones de talento.\n Levantar y documentar estructuras, roles y procesos organizacionales (matrices, inventarios de cargos), administrando repositorios con trazabilidad y consistencia.\n Analizar esquemas de compensación con modelos analíticos, asegurando equidad interna y competitividad externa.\n Diseñar reportes e indicadores (KPIs) con fuentes y reglas de cálculo documentadas, para apoyar decisiones estratégicas de talento.\n Desarrollar dashboards, macros y modelos de datos con sus respectivos manuales, optimizando tiempos y calidad de información.\n Administrar y depurar bases de datos de cargos, nómina y compensación, garantizando integridad y trazabilidad.\n Documentar y actualizar políticas, procesos y metodologías de compensación, asegurando cumplimiento y transferencia de conocimiento.\n· Requisitos:\n1 a 2 años de experiencia en:\nDiseño organizacional y documentación de estructuras y cargos.\nAnálisis y administración de esquemas de compensación y nómina.\nManejo de herramientas de automatización (Excel avanzado, macros, Power BI o similares).\nConstrucción y gestión de indicadores (KPIs) de talento humano.\nAdministración y depuración de bases de datos.\nDocumentación de políticas, procesos y metodologías de RRHH.\nConocimiento en nominal, parafiscal\nFormación:\nProfesional en Psicología, trabajo social , gestión social empresarial\n¡Si sientes que podrías ser la persona indicada para este reto, postúlate!.\n\n -Requerimientos- Educación mínima: Universidad / Carrera Profesional\n años de experiencia",
+   "salario": null,
+   "publicado": "2026-07-15",
+   "vigente_hasta": "2026-09-13",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": "73D6783396CD83A4",
+   "fuentes": [
+    {
+     "fuente": "computrabajo",
+     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analist-compensacion-y-beneficios-en-colombia-B076FE329411934161373E686DCF3405",
+     "id_fuente": "73D6783396CD83A4"
+    }
+   ],
+   "inc": [
+    "salario",
+    "modalidad"
+   ],
+   "deducidos": [],
+   "modalidad": null,
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "cadena comercial oxxo|analist compensacion y beneficios|colombia",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona técnica de compensación",
+     "puntos": 12,
+     "nota": "compensacion, equidad interna"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    }
+   ],
+   "puntaje": 12,
+   "nueva": false,
+   "visto_desde": "2026-08-28",
+   "republicaciones": 0
+  },
+  {
+   "cargo": "Coordinador de contratación nómina y compensación",
+   "empresa": "CONFIDENTIAL",
+   "empresa_anonima": true,
+   "ciudad": "Bogotá D.C.",
+   "descripcion": "Coordinar y garantizar la ejecución integral de los procesos de contratación, administración de personal, nómina, compensación y beneficios, asegurando el cumplimiento de la normatividad laboral vigente, las políticas organizacionales y los acuerdos de nivel de servicio establecidos con los clientes internos.\r\n\r\nResponsabilidades Principales\r\nContratación y Administración de Personal\r\nLiderar y supervisar los procesos de vinculación de personal.\r\nGarantizar la elaboración y control de contratos, otrosíes y documentos laborales.\r\nVelar por el cumplimiento de requisitos legales para la contratación.\r\nCoordinar procesos de ingreso, movilidad interna y retiro de personal.\r\nAsegurar la correcta administración de expedientes laborales.\r\n\r\nNómina y Seguridad Social\r\nCoordinar el proceso integral de nómina garantizando exactitud y oportunidad.\r\nSupervisar la gestión de novedades de personal.\r\nValidar liquidaciones de prestaciones sociales, vacaciones, incapacidades y terminaciones de contrato.\r\nGarantizar el correcto pago de aportes a seguridad social y parafiscales.\r\nGestionar auditorías relacionadas con nómina y administración de personal.\r\n\r\nCompensación y Beneficios\r\nAdministrar las estructuras salariales de la compañía.\r\nParticipar en estudios salariales y análisis de competitividad del mercado.\r\nGestionar programas de beneficios y reconocimiento.\r\nApoyar revisiones salariales, promociones y movimientos organizacionales.\r\nElaborar indicadores y análisis relacionados con costos laborales.\r\n\r\nGestión y Control\r\nLiderar al equipo de contratación, nómina y compensación.\r\nDefinir y monitorear indicadores de gestión del área.\r\nProponer mejoras y automatizaciones de procesos.\r\nGarantizar el cumplimiento de políticas internas y normativas laborales.\r\nAtender requerimientos de auditoría interna, externa y entidades regulatorias.\r\n\r\nFormación Académica\r\nProfesional en Administración de Empresas, Contaduría Pública, Ingeniería Industrial, Economía o carreras afines.\r\nDeseable especialización en Gerencia del Talento Humano, Derecho Laboral, Compensación y Beneficios o áreas relacionadas.\r\nExperiencia\r\nEntre 3 y 4 años de experiencia en gestión de nómina, contratación y compensación.\r\nMínimo 2 años liderando equipos o procesos integrales de administración de personal.\r\nExperiencia en organizaciones de mediano o gran tamaño.\r\nConocimiento en manejo de nóminas de alto volumen.\r\nConocimientos Técnicos\r\nLegislación laboral colombiana.\r\nSeguridad social y parafiscales.\r\nAdministración salarial y compensación.\r\nElaboración y control de presupuesto de personal.\r\nIndicadores de gestión de Talento Humano.\r\nExcel avanzado.\r\nERP o software de gestión humana (SAP, Workday, Oracle HCM, SuccessFactors, Meta4, entre otros).\r\n\r\nSalario: $6.500.000\r\nIndispensable ingles intermedio\r\nCiudad: Bogotá D.C\r\nContrato a termino fijo \r\nHorario: Lunes a viernes",
+   "salario": {
+    "min": 5500001.0,
+    "max": 6000000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-08-24",
+   "vigente_hasta": "2026-10-23",
+   "contrato": "TEMPORARY",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
+   "fuentes": [
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/coordinador-de-contratacion-nomina-y-compensacion-1886756894",
+     "id_fuente": null
+    }
+   ],
+   "inc": [
+    "modalidad"
+   ],
+   "deducidos": [],
+   "modalidad": null,
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "empresa no revelada|coordinador de contratacion nomina y compensacion|bogota#anon:5500001-6000000-2026-08-24",
+   "duplicados_hoy": 1,
+   "marcas": [
+    "empresa no revelada: puede estar repetida"
+   ],
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "el aviso no revela la empresa: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona técnica de compensación",
+     "puntos": 12,
+     "nota": "compensacion"
+    },
+    {
+     "concepto": "salario publicado por debajo de $18.000.000",
+     "puntos": -15,
+     "nota": "6.000.000 COP — se muestra igual: el publicado casi nunca es el negociado"
+    }
+   ],
+   "puntaje": -3,
+   "nueva": false,
+   "visto_desde": "2026-08-28",
+   "republicaciones": 0
+  },
+  {
+   "cargo": "Coordinador/a de Compensación y Relaciones Laborales",
+   "empresa": "CONFIDENTIAL",
+   "empresa_anonima": true,
+   "ciudad": "Bogotá D.C.",
+   "descripcion": "¿Te apasiona el mundo de las compensaciones, las relaciones laborales y ser un aliado estratégico para los equipos de tienda?\r\n\r\nLa Casa de las Carcasas está en pleno proceso de expansión en Colombia, y buscamos un/a Coordinador/a de Compensación y Relaciones Laborales que sea parte activa de ese crecimiento: asegurando que nuestros colaboradores cuenten con una gestión de Nómina y beneficios precisa, equitativa y oportuna, y acompañando a los equipos de tienda y de oficina en la correcta aplicación de la normativa laboral vigente.\r\n\r\nEs un rol clave dentro del equipo de Recursos Humanos, que combina el análisis y la administración de compensaciones con la coordinación de procesos de relaciones laborales y administración de personal. Reporta directamente a la Gerencia de Recursos Humanos Colombia.\r\n\r\n?? ¿Cuál será tu desafío?\r\n\r\n1. Garantizar que la gestión de nómina, compensaciones, beneficios y administración de personal se realice con exactitud, cumplimiento normativo y altos estándares de confidencialidad, mientras acompañas de forma cercana y oportuna la gestión de relaciones laborales de la compañía en Colombia.\r\n2. Para lograrlo, combinarás el análisis de datos y estructuras salariales con la coordinación de procesos administrativos, el relacionamiento con distintas áreas internas y el seguimiento a la normativa laboral colombiana.\r\n\r\n?? ¿Qué harás?\r\n\r\n- Coordinar y ejecutar el proceso integral de nómina de la compañía, asegurando exactitud, oportunidad y cumplimiento normativo.\r\n- Apoyar el diseño, revisión y actualización de políticas, procedimientos y lineamientos de remuneraciones, compensaciones y beneficios.\r\n- Realizar análisis de equidad interna, competitividad externa y estructuras salariales, proponiendo ajustes alineados al mercado colombiano.\r\n- Apoyar el desarrollo y mantenimiento de bandas salariales para los distintos cargos de la organización.\r\n- Administrar y hacer seguimiento a la estrategia de beneficios de la compañía y a los proveedores asociados.\r\n- Actuar como punto de contacto interno en materias de relaciones laborales, coordinando información, documentación y seguimiento de casos ante las instancias correspondientes.\r\n- Velar por el cumplimiento de la normativa laboral colombiana vigente y por la actualización de políticas y documentos internos asociados.\r\n- Coordinar la correcta ejecución de procesos de contratación, modificaciones contractuales, control documental y desvinculación.\r\n- Diseñar y monitorear indicadores de gestión (HC, costos laborales, ausentismo, rotación, productividad) y elaborar reportes ejecutivos para la Gerencia.\r\n\r\n?? ¿Qué buscamos?\r\n-Formación profesional en Administración de Empresas, Ingeniería Industrial, Psicología, Derecho, Contaduría o carreras afines. Deseable especialización en Gestión Humana, Compensaciones o Derecho Laboral.\r\n- Mínimo 3 años de experiencia en nómina de más de 300 pax, administración de personal, compensaciones o relaciones laborales.\r\n- Deseable experiencia en empresas de retail o compañías con operación multitienda.\r\n- Conocimiento de la legislación laboral colombiana (Código Sustantivo del Trabajo) y de procesos de administración de remuneraciones y nómina.\r\n- Manejo intermedio o avanzado de Excel; se valora experiencia con plataformas de gestión de personas (BUK y SIIGO).\r\n- Capacidad analítica, rigurosidad, orientación al detalle y al servicio.\r\n- Discreción y manejo confidencial de la información.\r\n- Habilidades de coordinación, trabajo colaborativo y resolución de conflictos.\r\n\r\n?? ¿Qué ofrecemos?\r\n- Salario competitivo, acorde al mercado y a tu experiencia.\r\n- Contratación inmediata, a término indefinido y directo por la Compañía.\r\n- Modalidad híbrida, en nuestras oficinas ubicadas cerca de la calle 85 en Bogotá.\r\n- La posibilidad de participar en el crecimiento de una empresa internacional líder en retail.\r\n- Un ambiente colaborativo, dinámico y con oportunidades reales de desarrollo profesional.\r\n- Descuento colaborador en productos de nuestras tiendas.\r\n\r\n?? ¿Te animas?\r\n\r\nSi buscas un desafío donde puedas combinar el análisis de compensaciones con una gestión cercana de las personas, y ser parte activa del crecimiento de una marca con presencia internacional, ¡queremos conocerte!\r\n\r\nPostúlate y construyamos juntos la próxima etapa de crecimiento de La Casa de las Carcasas.",
+   "salario": {
+    "min": 4000001.0,
+    "max": 4500000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-08-20",
+   "vigente_hasta": "2026-09-19",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
+   "fuentes": [
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/coordinador-a-de-compensacion-y-relaciones-laborales-1886755231",
+     "id_fuente": null
+    }
+   ],
+   "inc": [
+    "modalidad"
+   ],
+   "deducidos": [],
+   "modalidad": null,
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "empresa no revelada|coordinador a de compensacion y relaciones laborales|bogota#anon:4000001-4500000-2026-08-20",
+   "duplicados_hoy": 1,
+   "marcas": [
+    "empresa no revelada: puede estar repetida"
+   ],
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "el aviso no revela la empresa: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona técnica de compensación",
+     "puntos": 12,
+     "nota": "compensacion, bandas salariales, equidad interna"
+    },
+    {
+     "concepto": "salario publicado por debajo de $18.000.000",
+     "puntos": -15,
+     "nota": "4.500.000 COP — se muestra igual: el publicado casi nunca es el negociado"
+    }
+   ],
+   "puntaje": -3,
+   "nueva": false,
+   "visto_desde": "2026-08-28",
+   "republicaciones": 0
+  },
+  {
+   "cargo": "Gerente de Recursos Humanos Bilingüe Bogotá",
+   "empresa": "CONFIDENTIAL",
+   "empresa_anonima": true,
+   "ciudad": "Bogotá D.C.",
+   "descripcion": "BOGOTÁ\r\nGerente de Recursos Humanos Bilingüe Bogotá\r\nEstamos buscando profesionales en Ingeniería Industrial, Derecho, Administración de empresas o afines con mínimo 5 años liderando áreas de Recursos Humanos en empresas de más de 200 empleados y con experiencia teniendo a cargo equipos de mínimo 3 personas.\r\nBuscamos expert@s en diseñar y ejecutar la estrategia del área de recursos humanos con énfasis en compensación, retención de talento , bienestar y cultura organizacional. Experiencia en nómina, compensación y procesos disciplinarios.\r\nIndispensable experiencia en el relacionamiento con líderes de área para construir estrategias de desarrollo.\r\nSalario: $14.000.000\r\nModalidad Hibrida\r\nContrato directo a término indefinido",
+   "salario": {
+    "min": 12500001.0,
+    "max": 15000000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-07-01",
+   "vigente_hasta": "2026-08-30",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
+   "fuentes": [
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/gerente-de-recursos-humanos-bilingue-bogota-1886733178",
+     "id_fuente": null
+    }
+   ],
+   "inc": [
+    "modalidad"
+   ],
+   "deducidos": [],
+   "modalidad": null,
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "empresa no revelada|gerente de recursos humanos|bogota#anon:12500001-15000000-2026-07-01",
+   "duplicados_hoy": 1,
+   "marcas": [
+    "empresa no revelada: puede estar repetida"
+   ],
+   "desglose": [
+    {
+     "concepto": "cargo secundario de RR.HH.",
+     "puntos": 0,
+     "nota": "solo suma si el cuerpo habla de compensación"
+    },
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "el aviso no revela la empresa: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona técnica de compensación",
+     "puntos": 12,
+     "nota": "compensacion"
+    },
+    {
+     "concepto": "salario publicado por debajo de $18.000.000",
+     "puntos": -15,
+     "nota": "15.000.000 COP — se muestra igual: el publicado casi nunca es el negociado"
+    }
+   ],
+   "puntaje": -3,
+   "nueva": false,
+   "visto_desde": "2026-08-28",
+   "republicaciones": 0
+  },
+  {
+   "cargo": "Profesional de contratación y compensación",
+   "empresa": "CONFIDENTIAL",
+   "empresa_anonima": true,
+   "ciudad": "Bogotá D.C.",
+   "descripcion": "Importante compañía busca Profesional de Contratación y Compensación para fortalecer nuestro equipo de Gestión Humana. Requisitos: Profesional en Administración, Ingeniería Industrial, o carreras afines. Experiencia mínima de 3 años en contratación, compensación, escalas salariales, nómina y seguridad social, recobro de incapacidades y manejo de novedades de nómina, manejo de excel avanzado. Conocimiento de legislación laboral colombiana. Capacidad analítica, organización, atención al detalle y manejo confidencial de información. Funciones principales: contratación, compensación, seguridad social, recobro de incapacidades, control de novedades de nómina e indicadores de gestión.",
+   "salario": {
+    "min": 4000001.0,
+    "max": 4500000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-08-10",
+   "vigente_hasta": "2026-10-09",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
+   "fuentes": [
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/profesional-de-contratacion-y-compensacion-1886750952",
+     "id_fuente": null
+    }
+   ],
+   "inc": [
+    "modalidad"
+   ],
+   "deducidos": [],
+   "modalidad": null,
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "empresa no revelada|profesional de contratacion y compensacion|bogota#anon:4000001-4500000-2026-08-10",
+   "duplicados_hoy": 1,
+   "marcas": [
+    "empresa no revelada: puede estar repetida"
+   ],
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "el aviso no revela la empresa: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona técnica de compensación",
+     "puntos": 12,
+     "nota": "compensacion"
+    },
+    {
+     "concepto": "salario publicado por debajo de $18.000.000",
+     "puntos": -15,
+     "nota": "4.500.000 COP — se muestra igual: el publicado casi nunca es el negociado"
+    }
+   ],
+   "puntaje": -3,
+   "nueva": false,
+   "visto_desde": "2026-08-28",
+   "republicaciones": 0
+  },
+  {
+   "cargo": "Profesional en Compensación salarial",
+   "empresa": "CAFAM",
+   "empresa_anonima": false,
+   "ciudad": "Bogotá D.C.",
+   "descripcion": "Buscamos un Profesional de Compensación y Beneficios con experiencia en compensación salarial, bandas salariales, valoración de cargos y estudios salariales, para contribuir a la estrategia de talento de la organización.\r\n\r\nPerfil\r\nProfesional en Contaduría, Administración de Empresas, Ingeniería Industrial o carreras afines.\r\nEspecialización culminada en Recursos Humanos, Gestión del Talento o afines (obligatoria).\r\nExperiencia en compensación y beneficios, estructura salarial, equidad salarial, análisis de cargos y diseño organizacional.\r\nManejo de Excel.\r\nOfrecemos\r\nSalario: $6.150.000 + prestaciones de ley.\r\nContrato: Término fijo renovable.\r\nModalidad: Presencial – Bogotá.\r\nHorario: Lunes a viernes.\r\n\r\nCompensación, Compensación y Beneficios, Bandas Salariales, Estructura Salarial, Valoración de Cargos, Estudios Salariales, Benchmark Salarial, Equidad Salarial, Recursos Humanos.",
+   "salario": {
+    "min": 5500001.0,
+    "max": 6000000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-07-13",
+   "vigente_hasta": "2026-09-11",
+   "contrato": "TEMPORARY",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
+   "fuentes": [
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/profesional-en-compensacion-salarial-1886738617",
+     "id_fuente": null
+    }
+   ],
+   "inc": [],
+   "deducidos": [],
+   "modalidad": "presencial",
+   "modalidad_literal": "Presencial",
+   "modalidad_por_confirmar": false,
+   "id": "cafam|profesional en compensacion salarial|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona técnica de compensación",
+     "puntos": 12,
+     "nota": "compensacion, valoracion de cargos, estructura salarial, bandas salariales"
+    },
+    {
+     "concepto": "salario publicado por debajo de $18.000.000",
+     "puntos": -15,
+     "nota": "6.000.000 COP — se muestra igual: el publicado casi nunca es el negociado"
+    }
+   ],
+   "puntaje": -3,
+   "nueva": false,
+   "visto_desde": "2026-08-28",
+   "republicaciones": 0
+  },
+  {
+   "cargo": "gerente de recursos humanos",
+   "empresa": "CONFIDENTIAL",
+   "empresa_anonima": true,
+   "ciudad": "Bogotá D.C.",
+   "descripcion": "GERENTE DE TALENTO HUMANO\r\nObjetivo del cargo\r\n\r\nLiderar estratégicamente la gestión del talento humano, asegurando la disponibilidad, permanencia, desarrollo y desempeño del personal requerido para el cumplimiento de los objetivos corporativos y la prestación eficiente del servicio. Será responsable de garantizar el cumplimiento de la legislación laboral, requisitos legales y contractuales, así como de fortalecer la cultura, el desarrollo organizacional y la sostenibilidad del negocio.\r\n\r\nFormación\r\nProfesional en Administración de Empresas, Psicología, Derecho, Ingeniería Industrial o carreras afines.\r\nEspecialización en Gerencia/Gestión del Talento Humano, Derecho Laboral, Alta Gerencia, Desarrollo Organizacional o áreas relacionadas.\r\nDeseable Maestría en Administración (MBA), Gestión del Talento Humano, Dirección Estratégica o afines.\r\nManejo avanzado de Office, Google Sheets y ERP.\r\nConocimientos en legislación laboral y seguridad social colombiana, relaciones laborales, negociación colectiva, selección por competencias, gestión del desempeño, compensación y beneficios, KPIs y analítica de talento, liderazgo, gestión del cambio y desarrollo organizacional.\r\nDeseable conocimiento en batería de riesgo psicosocial, Servicio Público de Empleo y cuota de aprendizaje.\r\n\r\nExperiencia\r\nMínimo 5 años de experiencia profesional, liderando procesos de gestión humana, administración de personal, relaciones laborales o desarrollo organizacional.\r\nMínimo 4 años en cargos de dirección, gerencia o jefatura de Talento Humano, liderando integralmente procesos de gestión humana.\r\nPreferiblemente experiencia en empresas de vigilancia y seguridad privada u organizaciones de servicios con alta demanda de personal y operación a nivel nacional/regional.\r\nExperiencia en formulación e implementación de estrategias de talento humano, administración de personal, relaciones laborales, cumplimiento legal, desarrollo organizacional e indicadores de gestión.\r\nLa especialización podrá homologarse por 2 años adicionales de experiencia en cargos de dirección o gerencia de Talento Humano.\r\nResponsabilidades principales\r\nDiseñar y ejecutar la estrategia de Talento Humano, alineada con los objetivos y modelo de negocio.\r\nLiderar integralmente los procesos de atracción, selección, vinculación, desarrollo, permanencia, retención y retiro.\r\nPlanificar la fuerza laboral y garantizar la disponibilidad y continuidad del talento requerido por la operación.\r\nDirigir la administración de personal, relaciones laborales, régimen disciplinario, compensación, beneficios, perfiles y valoración de cargos.\r\nLiderar el desarrollo organizacional, formación, bienestar, cultura, liderazgo, desempeño y sucesión.\r\nGarantizar el cumplimiento de la legislación laboral, seguridad social, requisitos legales del sector y obligaciones contractuales.\r\nGestionar proveedores y terceros relacionados con Talento Humano.\r\nElaborar, ejecutar y controlar el presupuesto del área.\r\nDefinir y hacer seguimiento a KPIs de Talento Humano: rotación, ausentismo, cobertura de vacantes, productividad, capacitación, desempeño y costos laborales.\r\nGestionar riesgos, auditorías y planes de mejora del proceso.\r\nAsesorar a la Gerencia General en decisiones estratégicas relacionadas con personas, estructura organizacional y productividad.\r\nRepresentar a la organización ante colaboradores, clientes, autoridades, organismos de control y demás partes interesadas en asuntos de su competencia.\r\nPresentar informes ejecutivos de gestión, indicadores, riesgos, cumplimiento y oportunidades de mejora.\r\nPromover una cultura basada en ética, liderazgo, bienestar, derechos humanos, innovación y mejora continua.\r\n\r\nCompetencias clave\r\n\r\nLiderazgo estratégico | Planeación | Gestión de equipos | Relaciones laborales | Toma de decisiones | Orientación a resultados | Gestión del cambio | Comunicación | Negociación | Pensamiento estratégico",
+   "salario": {
+    "min": 6000001.0,
+    "max": 8000000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-07-31",
+   "vigente_hasta": "2026-09-29",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
+   "fuentes": [
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/gerente-de-recursos-humanos-1886747406",
+     "id_fuente": null
+    }
+   ],
+   "inc": [
+    "modalidad"
+   ],
+   "deducidos": [],
+   "modalidad": null,
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "empresa no revelada|gerente de recursos humanos|bogota#anon:6000001-8000000-2026-07-31",
+   "duplicados_hoy": 1,
+   "marcas": [
+    "empresa no revelada: puede estar repetida"
+   ],
+   "desglose": [
+    {
+     "concepto": "cargo secundario de RR.HH.",
+     "puntos": 0,
+     "nota": "solo suma si el cuerpo habla de compensación"
+    },
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "el aviso no revela la empresa: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona técnica de compensación",
+     "puntos": 12,
+     "nota": "compensacion, valoracion de cargos"
+    },
+    {
+     "concepto": "salario publicado por debajo de $18.000.000",
+     "puntos": -15,
+     "nota": "8.000.000 COP — se muestra igual: el publicado casi nunca es el negociado"
+    }
+   ],
+   "puntaje": -3,
+   "nueva": false,
+   "visto_desde": "2026-08-28",
+   "republicaciones": 0
+  },
+  {
+   "cargo": "PROFESIONAL DE COMPENSACIÓN Y ANALÍTICA DE DATOS (NOMINA).",
+   "empresa": "CONFIDENTIAL",
+   "empresa_anonima": true,
+   "ciudad": "Bogotá D.C.",
+   "descripcion": "Profesional en carreras administrativas o contables. Experiencia mínima de 3 años en cargos como especialista, profesional o analista de Nomina con enfoque en analítica de datos manejando las siguientes funciones: \r\nLiquidación de prestaciones sociales, vacaciones, incapacidades y liquidaciones de contrato. Garantizar el oportuno y correcto procesamiento de nómina, trabajar de la mano con terceros para realizar reporte de las novedades de los empleados que están por medio de temporal, generar reportes mediante herramientas como EXCEL, POWER BI, BUSINESS INTELLIGENCE, manejo normativo en nómina, manejo de Interfases contables. \r\nIMPORTANTE: contar con experiencia en el manejo de Analítica de data aplicada a procesos de nómina. \r\nQue ofrecemos: Contrato inicialmente fijo a un año por medio de nuestra temporal después a termino indefinido directamente con la empresa. \r\nSalario Base: $3.600.000 a $4.000.000 \r\nHorarios: Lunes a Viernes 100%",
+   "salario": {
+    "min": 3500001.0,
+    "max": 4000000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-08-10",
+   "vigente_hasta": "2026-10-09",
+   "contrato": "TEMPORARY",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
+   "fuentes": [
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/profesional-de-compensacion-y-analitica-de-datos-nomina-1886721606",
+     "id_fuente": null
+    }
+   ],
+   "inc": [
+    "modalidad"
+   ],
+   "deducidos": [],
+   "modalidad": null,
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "empresa no revelada|profesional de compensacion y analitica de datos|bogota#anon:3500001-4000000-2026-08-10",
+   "duplicados_hoy": 1,
+   "marcas": [
+    "empresa no revelada: puede estar repetida"
+   ],
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "el aviso no revela la empresa: no suma ni resta"
+    },
+    {
+     "concepto": "salario publicado por debajo de $18.000.000",
+     "puntos": -15,
+     "nota": "4.000.000 COP — se muestra igual: el publicado casi nunca es el negociado"
+    }
+   ],
+   "puntaje": -15,
+   "nueva": false,
+   "visto_desde": "2026-08-28",
+   "republicaciones": 0
+  },
+  {
+   "cargo": "Profesional de Compensación y Liquidación de Nomina/ Lunes a Sábado - Norte de Bogota",
+   "empresa": "KATA S A S",
+   "empresa_anonima": false,
+   "ciudad": "Bogotá, D.C.",
+   "descripcion": "¡Esta es tu oportunidad para crecer en una empresa estable y con proyección!\n\nNos encontramos en búsqueda de un(a) Profesional de nomina con sólida experiencia en la gestión integral del proceso de nómina, asegurando la correcta liquidación de salarios, prestaciones sociales y cumplimiento de las obligaciones legales en materia laboral y de seguridad social. \n\n Requisitos:\n -Profesional en Contaduría, Administración de Empresas, Economía o carreras afines.\n - Conocimiento avanzado en: Liquidación de nómina y prestaciones sociales, Cálculo de horas extras y recargos, Seguridad social y parafiscales.\n -Manejo de novedades. \n-Habilidades en análisis de datos (Excel avanzado u otras herramientas).\n - Alto nivel de atención al detalle, confidencialidad y organización. \n\nOfrecemos: \n\n-Salario $3.500.000 -Contrato a término indefinido \n- Modalidad presencial, Lunes a viernes, dos sábados al mes (medio tiempo) - Zona de labor, Castellana\n- Estabilidad laboral. \n- Oportunidades de desarrollo profesional.-Requerimientos- Educación mínima: Universidad / Carrera Profesional\n2 años de experiencia\nPalabras clave: experto, profesional, professional, expert",
+   "salario": {
+    "min": 3500000.0,
+    "max": 3500000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-07-29",
+   "vigente_hasta": "2026-09-27",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": "8AE4173D0E825B00",
+   "fuentes": [
+    {
+     "fuente": "computrabajo",
+     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-profesional-de-compensacion-y-liquidacion-de-nomina-lunes-a-sabado-norte-de-bogota-en-bogota-dc-7C227ECB050D1F8A61373E686DCF3405",
+     "id_fuente": "8AE4173D0E825B00"
+    }
+   ],
+   "inc": [],
+   "deducidos": [],
+   "modalidad": "presencial",
+   "modalidad_literal": "presencial",
+   "modalidad_por_confirmar": false,
+   "id": "kata|profesional de compensacion y liquidacion de nomina lunes a sabado norte|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "salario publicado por debajo de $18.000.000",
+     "puntos": -15,
+     "nota": "3.500.000 COP — se muestra igual: el publicado casi nunca es el negociado"
+    }
+   ],
+   "puntaje": -15,
+   "nueva": false,
+   "visto_desde": "2026-08-28",
+   "republicaciones": 0
+  }
+ ],
+ "caidas": [],
+ "en_curso_no_publicadas": [],
+ "avisos_pendientes": 0
+}

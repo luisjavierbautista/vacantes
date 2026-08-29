@@ -1,0 +1,679 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Vacantes · Compensación y Beneficios</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+/* ═══ paleta completa. Ningún color existe solo dentro de un bloque de tema ═══ */
+:root{
+  --papel:#F4F6F8; --panel:#FFFFFF; --panel-2:#EDF1F5;
+  --tinta:#131A24; --tinta-2:#525E6E; --tinta-3:#8A96A6;
+  --linea:#DCE3EA; --linea-fuerte:#C3CDD8;
+  --pino:#0F5C55; --pino-suave:#DCEDEA;
+  --magenta:#B0176B; --magenta-suave:#FBE4F0;
+  --falta:#94A0B0; --riel:#E2E8EE; --sello-texto:#FFFFFF; --sombra:0 1px 2px rgba(19,26,36,.06),0 8px 24px -12px rgba(19,26,36,.14);
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --papel:#0E141B; --panel:#161E27; --panel-2:#1D2731;
+    --tinta:#E8EDF2; --tinta-2:#A3B0BF; --tinta-3:#6F7E8E;
+    --linea:#26313D; --linea-fuerte:#37444F;
+    --pino:#5FC7B4; --pino-suave:#12302E;
+    --magenta:#F286BC; --magenta-suave:#3A1128;
+    --falta:#6B7A8A; --riel:#222D38; --sello-texto:#2A0A19;
+    --sombra:0 1px 2px rgba(0,0,0,.4),0 8px 24px -12px rgba(0,0,0,.6);
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --papel:#0E141B; --panel:#161E27; --panel-2:#1D2731;
+  --tinta:#E8EDF2; --tinta-2:#A3B0BF; --tinta-3:#6F7E8E;
+  --linea:#26313D; --linea-fuerte:#37444F;
+  --pino:#5FC7B4; --pino-suave:#12302E;
+  --magenta:#F286BC; --magenta-suave:#3A1128;
+  --falta:#6B7A8A; --riel:#222D38; --sello-texto:#2A0A19;
+  --sombra:0 1px 2px rgba(0,0,0,.4),0 8px 24px -12px rgba(0,0,0,.6);
+  color-scheme:dark;
+}
+
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--papel); color:var(--tinta);
+  font:400 15px/1.55 "IBM Plex Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  font-feature-settings:"cv05","ss01";
+}
+.mono{font-family:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;font-variant-numeric:tabular-nums}
+.envoltura{max-width:1180px;margin:0 auto;padding:0 20px}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--magenta);outline-offset:2px;border-radius:3px}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+
+/* ═══ encabezado ═══ */
+.cabecera{border-bottom:1px solid var(--linea);background:var(--panel)}
+.cabecera .envoltura{padding-top:26px;padding-bottom:22px}
+.fila-titulo{display:flex;gap:20px;align-items:flex-start;justify-content:space-between;flex-wrap:wrap}
+h1{margin:0;font-size:27px;font-weight:600;letter-spacing:-.02em;line-height:1.15}
+h1 .acento{color:var(--pino)}
+.subtitulo{margin:7px 0 0;color:var(--tinta-2);font-size:14.5px;max-width:60ch}
+.meta-corrida{margin-top:14px;font-size:12px;color:var(--tinta-3);letter-spacing:.02em}
+.meta-corrida b{color:var(--tinta-2);font-weight:500}
+
+.tema{display:flex;border:1px solid var(--linea-fuerte);border-radius:7px;overflow:hidden;flex:none}
+.tema button{
+  font:500 11px/1 "IBM Plex Mono",monospace;letter-spacing:.06em;text-transform:uppercase;
+  padding:8px 11px;background:transparent;color:var(--tinta-2);border:0;cursor:pointer;
+}
+.tema button+button{border-left:1px solid var(--linea-fuerte)}
+.tema button[aria-pressed="true"]{background:var(--tinta);color:var(--papel)}
+
+/* ═══ cuatro recuadros ═══ */
+.recuadros{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--linea);
+  border:1px solid var(--linea);border-radius:10px;overflow:hidden;margin:22px 0 0}
+.recuadro{background:var(--panel);padding:14px 16px 15px}
+.recuadro .cifra{font:600 30px/1 "IBM Plex Mono",monospace;letter-spacing:-.03em;font-variant-numeric:tabular-nums}
+.recuadro .rotulo{margin-top:6px;font-size:11.5px;color:var(--tinta-2);letter-spacing:.02em}
+.recuadro.destaca .cifra{color:var(--magenta)}
+@media (max-width:720px){.recuadros{grid-template-columns:repeat(2,1fr)}}
+
+/* ═══ resumen en prosa ═══ */
+.resumen{margin:20px 0 0;padding:16px 18px;background:var(--panel);border:1px solid var(--linea);
+  border-left:3px solid var(--pino);border-radius:8px;font-size:15px;line-height:1.62;color:var(--tinta)}
+.resumen p{margin:0}
+.resumen p+p{margin-top:9px}
+.resumen b{font-weight:600}
+
+/* ═══ barra de filtros pegajosa ═══ */
+.filtros{position:sticky;top:0;z-index:20;background:var(--papel);
+  border-bottom:1px solid var(--linea);margin-top:24px}
+.filtros .envoltura{display:flex;flex-wrap:wrap;gap:8px 18px;align-items:center;padding-top:11px;padding-bottom:11px}
+.grupo{display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+.grupo>.etiqueta{font:500 10.5px/1 "IBM Plex Mono",monospace;letter-spacing:.08em;
+  text-transform:uppercase;color:var(--tinta-3);margin-right:2px}
+.chip{font:400 12.5px/1 "IBM Plex Sans",sans-serif;padding:6px 10px;border-radius:20px;cursor:pointer;
+  border:1px solid var(--linea-fuerte);background:var(--panel);color:var(--tinta-2);white-space:nowrap}
+.chip:hover{border-color:var(--tinta-3)}
+.chip[aria-pressed="true"]{background:var(--tinta);border-color:var(--tinta);color:var(--papel)}
+.chip .n{opacity:.6;margin-left:4px;font-family:"IBM Plex Mono",monospace;font-size:11px}
+.chip.mas{border-style:dashed;color:var(--tinta-3)}
+select.orden{font:400 12.5px "IBM Plex Sans",sans-serif;padding:6px 8px;border-radius:6px;
+  border:1px solid var(--linea-fuerte);background:var(--panel);color:var(--tinta)}
+.limpiar{margin-left:auto;font:400 12.5px "IBM Plex Sans",sans-serif;background:none;border:0;
+  color:var(--magenta);cursor:pointer;text-decoration:underline;text-underline-offset:3px}
+
+/* ═══ rejilla de fichas ═══ */
+.conteo{padding:18px 0 12px;font-size:13px;color:var(--tinta-2)}
+.rejilla{display:grid;grid-template-columns:repeat(auto-fill,minmax(390px,1fr));gap:14px;padding-bottom:12px}
+@media (max-width:460px){.rejilla{grid-template-columns:1fr}}
+
+.ficha{background:var(--panel);border:1px solid var(--linea);border-radius:10px;
+  padding:16px 17px 14px;box-shadow:var(--sombra);display:flex;flex-direction:column;gap:11px}
+.ficha.nueva{border-color:var(--magenta);box-shadow:0 0 0 1px var(--magenta),var(--sombra)}
+
+.ficha-cabeza{display:flex;gap:10px;align-items:flex-start;justify-content:space-between}
+.cargo{margin:0;font-size:16.5px;font-weight:600;line-height:1.3;letter-spacing:-.01em}
+.sello{flex:none;font:600 9.5px/1 "IBM Plex Mono",monospace;letter-spacing:.1em;text-transform:uppercase;
+  padding:5px 7px;border-radius:4px;background:var(--magenta);color:var(--sello-texto)}
+.puntaje{flex:none;font:600 15px/1 "IBM Plex Mono",monospace;color:var(--pino);padding-top:2px}
+.puntaje.bajo{color:var(--falta)}
+
+.linea-empresa{font-size:13.5px;color:var(--tinta-2);display:flex;flex-wrap:wrap;gap:5px 9px;align-items:baseline}
+.linea-empresa .empresa{font-weight:500;color:var(--tinta)}
+.linea-empresa .sep{color:var(--linea-fuerte)}
+.marca{font:500 10.5px/1 "IBM Plex Mono",monospace;letter-spacing:.03em;text-transform:uppercase;
+  padding:4px 6px;border-radius:4px;background:var(--panel-2);color:var(--tinta-2);border:1px solid var(--linea)}
+.marca.ojo{background:var(--magenta-suave);color:var(--magenta);border-color:transparent}
+
+/* ── el riel salarial: la firma de la página ── */
+.riel{margin-top:2px}
+.riel-cifras{display:flex;justify-content:space-between;align-items:baseline;font-size:12px;margin-bottom:5px}
+.riel-monto{font:600 14px/1 "IBM Plex Mono",monospace;font-variant-numeric:tabular-nums}
+.riel-monto.cumple{color:var(--pino)}
+.riel-monto.no-cumple{color:var(--tinta-2)}
+.riel-monto.ausente{color:var(--falta);font-weight:400;font-size:13px}
+.riel-nota{font-size:11px;color:var(--tinta-3)}
+.riel-pista{position:relative;height:9px;background:var(--riel);border-radius:5px;overflow:visible}
+.riel-pista.hueca{background:transparent;border:1px dashed var(--falta);height:9px}
+.riel-banda{position:absolute;top:0;bottom:0;background:var(--pino);border-radius:5px;min-width:4px}
+.riel-banda.no-cumple{background:var(--falta)}
+.riel-mas{position:absolute;right:-11px;top:-4px;font:600 13px/1 "IBM Plex Mono",monospace;color:var(--pino)}
+.riel-piso{position:absolute;top:-4px;bottom:-4px;width:2px;background:var(--tinta);border-radius:1px}
+.riel-piso::after{content:"";position:absolute;left:-3px;top:-3px;width:8px;height:8px;
+  background:var(--tinta);border-radius:50%}
+.riel-escala{display:flex;justify-content:space-between;margin-top:4px;font:400 10px/1 "IBM Plex Mono",monospace;color:var(--tinta-3)}
+
+.datos{display:flex;flex-wrap:wrap;gap:4px 14px;font-size:12.5px;color:var(--tinta-2);
+  padding-top:2px;border-top:1px solid var(--linea)}
+.datos .par{display:flex;gap:5px}
+.datos .k{color:var(--tinta-3)}
+.falta{color:var(--falta);border-bottom:1px dotted var(--falta);cursor:help}
+
+.pie-ficha{display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:space-between}
+.enlaces{display:flex;flex-wrap:wrap;gap:6px}
+.enlace{font:500 11.5px/1 "IBM Plex Mono",monospace;letter-spacing:.02em;text-decoration:none;
+  padding:6px 9px;border-radius:5px;border:1px solid var(--linea-fuerte);color:var(--tinta);background:var(--panel)}
+.enlace:hover{border-color:var(--pino);color:var(--pino)}
+.desplegar{font:400 12px "IBM Plex Sans",sans-serif;background:none;border:0;color:var(--tinta-2);
+  cursor:pointer;text-decoration:underline;text-underline-offset:3px;padding:0}
+
+/* ── desglose: tabla de factores, como una valoración de cargos ── */
+.desglose{margin:0;border-top:1px solid var(--linea);padding-top:9px;font-size:12.5px}
+.desglose .fila{display:grid;grid-template-columns:44px 1fr;gap:9px;padding:3px 0;align-items:baseline}
+.desglose .pts{font:600 12px/1.4 "IBM Plex Mono",monospace;text-align:right;font-variant-numeric:tabular-nums}
+.desglose .pts.mas{color:var(--pino)}
+.desglose .pts.menos{color:var(--magenta)}
+.desglose .pts.cero{color:var(--falta)}
+.desglose .nota{display:block;color:var(--tinta-3);font-size:11.5px;margin-top:1px}
+.desglose .total{border-top:1px solid var(--linea);margin-top:6px;padding-top:6px;font-weight:600}
+
+.estado{font:500 11px/1 "IBM Plex Mono",monospace;text-transform:uppercase;letter-spacing:.05em;
+  padding:5px 8px;border-radius:4px;background:var(--pino-suave);color:var(--pino)}
+
+/* ═══ secciones de cierre ═══ */
+.seccion{margin-top:34px}
+.seccion h2{font-size:15px;font-weight:600;margin:0 0 4px;letter-spacing:-.01em}
+.seccion .aclara{margin:0 0 12px;font-size:13px;color:var(--tinta-2);max-width:72ch}
+.lista-caidas{border:1px solid var(--linea);border-radius:9px;overflow:hidden;background:var(--panel)}
+.caida{display:flex;flex-wrap:wrap;gap:4px 14px;padding:11px 14px;font-size:13px;align-items:baseline}
+.caida+.caida{border-top:1px solid var(--linea)}
+.caida .t{font-weight:500;flex:1 1 260px}
+.caida .d{font-family:"IBM Plex Mono",monospace;font-size:11.5px;color:var(--tinta-3)}
+
+.metodo{margin:34px 0 0;padding:18px 0 40px;border-top:1px solid var(--linea);
+  font-size:12.5px;color:var(--tinta-2);line-height:1.65}
+.metodo h2{font-size:12px;text-transform:uppercase;letter-spacing:.08em;color:var(--tinta-3);
+  font-weight:600;margin:0 0 9px;font-family:"IBM Plex Mono",monospace}
+.metodo dl{display:grid;grid-template-columns:auto 1fr;gap:5px 14px;margin:0 0 12px}
+.metodo dt{font-family:"IBM Plex Mono",monospace;font-size:11.5px;color:var(--tinta)}
+.metodo dd{margin:0}
+.metodo .ok{color:var(--pino)}
+.metodo .no{color:var(--falta)}
+.vacio{padding:40px 0;text-align:center;color:var(--tinta-2)}
+</style>
+</head>
+<body>
+
+<header class="cabecera">
+  <div class="envoltura">
+    <div class="fila-titulo">
+      <div>
+        <h1>Vacantes de <span class="acento">Compensación y Beneficios</span></h1>
+        <p class="subtitulo">Bogotá presencial o híbrido · remoto desde cualquier país que contrate en Colombia. Jefatura, gerencia o dirección.</p>
+      </div>
+      <div class="tema" role="group" aria-label="Tema">
+        <button type="button" data-tema="sistema" aria-pressed="true">Sistema</button>
+        <button type="button" data-tema="light" aria-pressed="false">Claro</button>
+        <button type="button" data-tema="dark" aria-pressed="false">Oscuro</button>
+      </div>
+    </div>
+
+    <!-- === ENCABEZADO: INICIO (lo reescribe render.py) === -->
+<p class="meta-corrida" id="meta-corrida">Corrida del <b>2026-08-28 22:44</b> · 26 avisos recogidos · 6 fuentes consultadas, 5 con resultados (elempleo, computrabajo, workday, greenhouse, apify_linkedin), 1 sin nada hoy · 8 descartados por criterio · <b>1</b> postulación sin respuesta hace más de 10 días</p>
+    <!-- === ENCABEZADO: FIN === -->
+
+    <!-- === RECUADROS: INICIO (lo reescribe render.py) === -->
+<div class="recuadros" id="recuadros">
+  <div class="recuadro"><div class="cifra">17</div><div class="rotulo">vigentes hoy</div></div>
+  <div class="recuadro"><div class="cifra">0</div><div class="rotulo">nuevas desde ayer</div></div>
+  <div class="recuadro"><div class="cifra">2</div><div class="rotulo">postulaciones en curso</div></div>
+  <div class="recuadro"><div class="cifra">13</div><div class="rotulo">con salario publicado</div></div>
+</div>
+    <!-- === RECUADROS: FIN === -->
+
+    <!-- === RESUMEN: INICIO (lo reescribe render.py) === -->
+<div class="resumen" id="resumen"><p>Hoy no entró ninguna vacante nueva; siguen en pie las <b>17</b> de ayer. La mejor por puntaje es <b>Gerente de compensación y beneficios</b> en una empresa que no se revela (+59): cargo objetivo de compensación, el cuerpo menciona técnica de compensación, salario publicado igual o sobre $18.000.000.</p><p>4 de 17 no publican salario — eso no es un cero, es un dato que el aviso calla. De las 13 que sí lo publican, <b>2</b> cruzan tu piso de $18.000.000.</p></div>
+    <!-- === RESUMEN: FIN === -->
+  </div>
+</header>
+
+<nav class="filtros" aria-label="Filtros">
+  <div class="envoltura" id="barra-filtros"></div>
+</nav>
+
+<main class="envoltura">
+  <p class="conteo" id="conteo"></p>
+  <div class="rejilla" id="rejilla"></div>
+
+  <section class="seccion" id="sec-en-curso" hidden>
+    <h2>Ya no están publicadas, pero tienes un proceso en curso</h2>
+    <p class="aclara">El aviso desapareció de los portales. El proceso sigue: eso pesa más que el aviso.</p>
+    <div class="lista-caidas" id="lista-en-curso"></div>
+  </section>
+
+  <section class="seccion" id="sec-caidas" hidden>
+    <h2>Se cayeron</h2>
+    <p class="aclara">Ya no aparecen en ninguna fuente. Cuánto duraron abiertas dice cuánta prisa hay que tener en postularse.</p>
+    <div class="lista-caidas" id="lista-caidas"></div>
+  </section>
+
+  <section class="metodo">
+    <h2>Cómo se armó esta página</h2>
+    <div id="metodo-fuentes"></div>
+    <p id="metodo-fijo"></p>
+    <p>El puntaje solo <b>ordena</b>: ninguna vacante se esconde por puntuar bajo. Un dato que el aviso no publica se muestra como <span class="falta" title="ejemplo">?</span>, nunca como cero ni como estimación. Los salarios son los que el aviso publica, no los que se negocian.</p>
+  </section>
+</main>
+
+<script>
+/* === DATOS: INICIO (lo reescribe render.py — no editar a mano) === */
+var CONFIG = {"piso": 18000000, "deseable": 20000000, "techo_riel": 40000000, "max_filtros": 8, "contratos_marcados": ["prestación de servicios", "contractor", "freelance", "CONTRACTOR", "TEMPORARY"]};
+var DATA = [{"id": "empresa no revelada|gerente de compensacion y beneficios|bogota#anon:18000001-21000000-2026-08-25", "cargo": "Gerente de compensación y beneficios", "empresa": "CONFIDENTIAL", "empresa_anonima": true, "ciudad": "Bogotá D.C.", "modalidad": "presencial", "modalidad_literal": "presencial", "modalidad_por_confirmar": false, "salario": {"min": 18000001.0, "max": 21000000.0, "moneda": "COP", "periodo": "MONTH"}, "publicado": "2026-08-25", "vigente_hasta": "2026-09-21", "contrato": "FULL_TIME", "fuentes": [{"fuente": "elempleo", "url": "https://www.elempleo.com/co/ofertas-trabajo/gerente-de-compensacion-y-beneficios-1886743258", "id_fuente": null}], "marcas": ["empresa no revelada: puede estar repetida"], "puntaje": 59, "desglose": [{"concepto": "cargo objetivo de compensación", "puntos": 25, "nota": "Gerente de compensación y beneficios"}, {"concepto": "origen de la empresa", "puntos": 0, "nota": "el aviso no revela la empresa: no suma ni resta"}, {"concepto": "el cuerpo menciona técnica de compensación", "puntos": 12, "nota": "compensacion, remuneracion, compensacion variable, equidad interna"}, {"concepto": "salario publicado igual o sobre $18.000.000", "puntos": 12, "nota": "21.000.000 COP"}, {"concepto": "publicada hace menos de 3 días", "puntos": 10, "nota": "hace 3 día(s)"}], "nueva": false, "republicaciones": 0, "visto_desde": "2026-08-28", "postulacion": {"estado": "postulada", "fecha": "2026-08-12", "nota": "por el ATS, no por el portal", "contacto": ""}}, {"id": "novartis|associate director incentive compensation|#REQ-10085916-1", "cargo": "Associate Director, Incentive Compensation", "empresa": "Novartis", "empresa_anonima": false, "modalidad_por_confirmar": false, "publicado_literal": "Publicado hace 11 días", "fuentes": [{"fuente": "workday", "url": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers/job/Remote-Position-USA/Associate-Director--Incentive-Compensation_REQ-10085916-1", "id_fuente": "REQ-10085916-1"}], "inc": ["ciudad", "salario", "publicado", "contrato", "descripcion", "modalidad"], "marcas": ["ciudad sin publicar"], "puntaje": 50, "desglose": [{"concepto": "cargo objetivo de compensación", "puntos": 25, "nota": "Associate Director, Incentive Compensation"}, {"concepto": "multinacional europea", "puntos": 15, "nota": "por la lista objetivo"}, {"concepto": "está en la lista de empresas objetivo", "puntos": 10, "nota": "Novartis"}, {"concepto": "modalidad remota", "puntos": 0, "nota": "el aviso no publica cuerpo: no suma ni resta"}, {"concepto": "técnica de compensación en el cuerpo", "puntos": 0, "nota": "el aviso no publica cuerpo: no suma ni resta"}, {"concepto": "salario", "puntos": 0, "nota": "sin salario publicado, no suma ni resta"}, {"concepto": "fecha de publicación", "puntos": 0, "nota": "Publicado hace 11 días: no suma ni resta"}], "nueva": false, "republicaciones": 0, "visto_desde": "2026-08-28"}, {"id": "empresa no revelada|gerente de compensacion y beneficios|bogota#anon:21000001-50000000-2026-07-06", "cargo": "GERENTE DE COMPENSACIÓN Y BENEFICIOS - BOGOTÁ", "empresa": "CONFIDENTIAL", "empresa_anonima": true, "ciudad": "Bogotá D.C.", "modalidad_por_confirmar": false, "salario": {"min": 21000001.0, "max": 50000000.0, "moneda": "COP", "periodo": "MONTH"}, "publicado": "2026-07-06", "vigente_hasta": "2026-09-04", "contrato": "FULL_TIME", "fuentes": [{"fuente": "elempleo", "url": "https://www.elempleo.com/co/ofertas-trabajo/gerente-de-compensacion-y-beneficios-bogota-1886735172", "id_fuente": null}], "inc": ["modalidad"], "marcas": ["empresa no revelada: puede estar repetida"], "puntaje": 49, "desglose": [{"concepto": "cargo objetivo de compensación", "puntos": 25, "nota": "GERENTE DE COMPENSACIÓN Y BENEFICIOS - BOGOTÁ"}, {"concepto": "origen de la empresa", "puntos": 0, "nota": "el aviso no revela la empresa: no suma ni resta"}, {"concepto": "el cuerpo menciona técnica de compensación", "puntos": 12, "nota": "compensacion, remuneracion, valoracion de cargos, ipe, encuestas salariales, lti"}, {"concepto": "salario publicado igual o sobre $18.000.000", "puntos": 12, "nota": "50.000.000 COP"}], "nueva": false, "republicaciones": 0, "visto_desde": "2026-08-28", "postulacion": {"estado": "entrevista", "fecha": "2026-08-25", "nota": "primera con la headhunter", "contacto": ""}}, {"id": "empresa no revelada|coordinador de compensacion talento humano|bogota#anon:6000001-8000000-2026-08-27", "cargo": "coordinador de compensación talento humano", "empresa": "CONFIDENTIAL", "empresa_anonima": true, "ciudad": "Bogotá D.C.", "modalidad": "presencial", "modalidad_literal": "presencial", "modalidad_por_confirmar": false, "salario": {"min": 6000001.0, "max": 8000000.0, "moneda": "COP", "periodo": "MONTH"}, "publicado": "2026-08-27", "vigente_hasta": "2026-10-26", "contrato": "FULL_TIME", "fuentes": [{"fuente": "elempleo", "url": "https://www.elempleo.com/co/ofertas-trabajo/coordinador-de-compensacion-talento-humano-1886758342", "id_fuente": null}], "marcas": ["empresa no revelada: puede estar repetida"], "puntaje": 32, "desglose": [{"concepto": "cargo objetivo de compensación", "puntos": 25, "nota": "coordinador de compensación talento humano"}, {"concepto": "origen de la empresa", "puntos": 0, "nota": "el aviso no revela la empresa: no suma ni resta"}, {"concepto": "el cuerpo menciona técnica de compensación", "puntos": 12, "nota": "compensacion, bandas salariales"}, {"concepto": "salario publicado por debajo de $18.000.000", "puntos": -15, "nota": "8.000.000 COP — se muestra igual: el publicado casi nunca es el negociado"}, {"concepto": "publicada hace menos de 3 días", "puntos": 10, "nota": "hace 1 día(s)"}], "nueva": false, "republicaciones": 0, "visto_desde": "2026-08-28"}, {"id": "alianza fiduciaria alianza valores|director cultura formacion compensacion|bogota", "cargo": "Director Cultura, Formación & Compensación", "empresa": "Alianza Fiduciaria - Alianza Valores", "empresa_anonima": false, "ciudad": "Bogota, Capital District", "modalidad": "híbrido", "modalidad_literal": "teletrabajo", "modalidad_por_confirmar": false, "publicado": "2026-08-28", "vigente_hasta": "2026-09-27", "contrato": ["FULL_TIME"], "fuentes": [{"fuente": "linkedin", "url": "https://co.linkedin.com/jobs/view/director-cultura-formaci%C3%B3n-compensaci%C3%B3n-at-alianza-fiduciaria-alianza-valores-4460165174", "id_fuente": "4460165174"}], "inc": ["salario"], "deducidos": ["modalidad"], "puntaje": 22, "desglose": [{"concepto": "origen de la empresa", "puntos": 0, "nota": "no se pudo determinar: no suma ni resta"}, {"concepto": "el cuerpo menciona técnica de compensación", "puntos": 12, "nota": "compensacion"}, {"concepto": "salario", "puntos": 0, "nota": "sin salario publicado, no suma ni resta"}, {"concepto": "publicada hace menos de 3 días", "puntos": 10, "nota": "hace 0 día(s)"}], "nueva": false, "republicaciones": 0, "visto_desde": "2026-08-28"}, {"id": "empresa no revelada|jefe de compensacion y beneficios bogota 31|bogota#anon:6000001-8000000-2026-07-29", "cargo": "JEFE DE COMPENSACIÓN Y BENEFICIOS - BOGOTÁ", "empresa": "CONFIDENTIAL", "empresa_anonima": true, "ciudad": "Bogotá D.C.", "modalidad_por_confirmar": false, "salario": {"min": 6000001.0, "max": 8000000.0, "moneda": "COP", "periodo": "MONTH"}, "publicado": "2026-07-29", "vigente_hasta": "2026-09-27", "contrato": "FULL_TIME", "fuentes": [{"fuente": "elempleo", "url": "https://www.elempleo.com/co/ofertas-trabajo/jefe-de-compensacion-y-beneficios-bogota-162589461331-1886745723", "id_fuente": null}], "inc": ["modalidad"], "marcas": ["empresa no revelada: puede estar repetida"], "puntaje": 22, "desglose": [{"concepto": "cargo objetivo de compensación", "puntos": 25, "nota": "JEFE DE COMPENSACIÓN Y BENEFICIOS - BOGOTÁ- 1625894613-31"}, {"concepto": "origen de la empresa", "puntos": 0, "nota": "el aviso no revela la empresa: no suma ni resta"}, {"concepto": "el cuerpo menciona técnica de compensación", "puntos": 12, "nota": "compensacion, estructura salarial"}, {"concepto": "salario publicado por debajo de $18.000.000", "puntos": -15, "nota": "8.000.000 COP — se muestra igual: el publicado casi nunca es el negociado"}], "nueva": false, "republicaciones": 0, "visto_desde": "2026-08-28", "cargo_original": "JEFE DE COMPENSACIÓN Y BENEFICIOS - BOGOTÁ- 1625894613-31"}, {"id": "manpower|total rewards lead lider de compensacion y beneficios|bogota", "cargo": "Total Rewards Lead / Líder de Compensación y Beneficios Bilingüe", "empresa": "MANPOWER", "empresa_anonima": false, "ciudad": "Bogotá D.C.", "modalidad": "híbrido", "modalidad_literal": "3 dias en oficina", "modalidad_por_confirmar": false, "salario": {"min": 10000001.0, "max": 12500000.0, "moneda": "COP", "periodo": "MONTH"}, "publicado": "2026-08-05", "vigente_hasta": "2026-10-04", "contrato": "PER_DIEM", "fuentes": [{"fuente": "elempleo", "url": "https://www.elempleo.com/co/ofertas-trabajo/total-rewards-lead-lider-de-compensacion-y-beneficios-bilingue-1886749725", "id_fuente": null}, {"fuente": "computrabajo", "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-lider-en-beneficios-y-compensacion-total-rewards-rrhh-80-beneficios-20-compensacion-en-bogota-dc-0446118844BD7A6761373E686DCF3405", "id_fuente": "2BE0D088B7D1B44D"}], "puntaje": 22, "desglose": [{"concepto": "cargo objetivo de compensación", "puntos": 25, "nota": "Total Rewards Lead / Líder de Compensación y Beneficios Bilingüe"}, {"concepto": "origen de la empresa", "puntos": 0, "nota": "no se pudo determinar: no suma ni resta"}, {"concepto": "el cuerpo menciona técnica de compensación", "puntos": 12, "nota": "compensacion, total rewards"}, {"concepto": "salario publicado por debajo de $18.000.000", "puntos": -15, "nota": "12.500.000 COP — se muestra igual: el publicado casi nunca es el negociado"}], "nueva": false, "republicaciones": 0, "visto_desde": "2026-08-28", "titulos_alternos": ["Lider en Beneficios y Compensación / Total Rewards / RRHH - 80 Beneficios 20 Compensacion"]}, {"id": "bairesdev|senior workday analyst compensation benefits|colombia", "cargo": "Senior Workday Analyst – Compensation & Benefits - Remote Work", "empresa": "BairesDev", "empresa_anonima": false, "ciudad": "Colombia", "modalidad": "remoto", "modalidad_literal": "remote", "modalidad_por_confirmar": false, "publicado": "2026-08-25", "fuentes": [{"fuente": "linkedin", "url": "https://co.linkedin.com/jobs/view/senior-workday-analyst-%E2%80%93-compensation-benefits-remote-work-at-bairesdev-4457624651", "id_fuente": "4457624651"}], "inc": ["salario", "contrato"], "deducidos": ["modalidad"], "puntaje": 20, "desglose": [{"concepto": "multinacional estadounidense", "puntos": -5, "nota": "San Francisco, California"}, {"concepto": "remoto confirmado en el cuerpo del aviso", "puntos": 15, "nota": "remote"}, {"concepto": "salario", "puntos": 0, "nota": "sin salario publicado, no suma ni resta"}, {"concepto": "publicada hace menos de 3 días", "puntos": 10, "nota": "hace 3 día(s)"}], "nueva": false, "republicaciones": 0, "visto_desde": "2026-08-28"}, {"id": "cadena comercial oxxo|analist compensacion y beneficios|colombia", "cargo": "Analist compensación y beneficios", "empresa": "Cadena Comercial OXXO Colombia", "empresa_anonima": false, "ciudad": "Colombia", "modalidad_por_confirmar": false, "publicado": "2026-07-15", "vigente_hasta": "2026-09-13", "contrato": "FULL_TIME", "fuentes": [{"fuente": "computrabajo", "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analist-compensacion-y-beneficios-en-colombia-B076FE329411934161373E686DCF3405", "id_fuente": "73D6783396CD83A4"}], "inc": ["salario", "modalidad"], "puntaje": 12, "desglose": [{"concepto": "origen de la empresa", "puntos": 0, "nota": "no se pudo determinar: no suma ni resta"}, {"concepto": "el cuerpo menciona técnica de compensación", "puntos": 12, "nota": "compensacion, equidad interna"}, {"concepto": "salario", "puntos": 0, "nota": "sin salario publicado, no suma ni resta"}], "nueva": false, "republicaciones": 0, "visto_desde": "2026-08-28"}, {"id": "empresa no revelada|coordinador de contratacion nomina y compensacion|bogota#anon:5500001-6000000-2026-08-24", "cargo": "Coordinador de contratación nómina y compensación", "empresa": "CONFIDENTIAL", "empresa_anonima": true, "ciudad": "Bogotá D.C.", "modalidad_por_confirmar": false, "salario": {"min": 5500001.0, "max": 6000000.0, "moneda": "COP", "periodo": "MONTH"}, "publicado": "2026-08-24", "vigente_hasta": "2026-10-23", "contrato": "TEMPORARY", "fuentes": [{"fuente": "elempleo", "url": "https://www.elempleo.com/co/ofertas-trabajo/coordinador-de-contratacion-nomina-y-compensacion-1886756894", "id_fuente": null}], "inc": ["modalidad"], "marcas": ["empresa no revelada: puede estar repetida"], "puntaje": -3, "desglose": [{"concepto": "origen de la empresa", "puntos": 0, "nota": "el aviso no revela la empresa: no suma ni resta"}, {"concepto": "el cuerpo menciona técnica de compensación", "puntos": 12, "nota": "compensacion"}, {"concepto": "salario publicado por debajo de $18.000.000", "puntos": -15, "nota": "6.000.000 COP — se muestra igual: el publicado casi nunca es el negociado"}], "nueva": false, "republicaciones": 0, "visto_desde": "2026-08-28"}, {"id": "empresa no revelada|coordinador a de compensacion y relaciones laborales|bogota#anon:4000001-4500000-2026-08-20", "cargo": "Coordinador/a de Compensación y Relaciones Laborales", "empresa": "CONFIDENTIAL", "empresa_anonima": true, "ciudad": "Bogotá D.C.", "modalidad_por_confirmar": false, "salario": {"min": 4000001.0, "max": 4500000.0, "moneda": "COP", "periodo": "MONTH"}, "publicado": "2026-08-20", "vigente_hasta": "2026-09-19", "contrato": "FULL_TIME", "fuentes": [{"fuente": "elempleo", "url": "https://www.elempleo.com/co/ofertas-trabajo/coordinador-a-de-compensacion-y-relaciones-laborales-1886755231", "id_fuente": null}], "inc": ["modalidad"], "marcas": ["empresa no revelada: puede estar repetida"], "puntaje": -3, "desglose": [{"concepto": "origen de la empresa", "puntos": 0, "nota": "el aviso no revela la empresa: no suma ni resta"}, {"concepto": "el cuerpo menciona técnica de compensación", "puntos": 12, "nota": "compensacion, bandas salariales, equidad interna"}, {"concepto": "salario publicado por debajo de $18.000.000", "puntos": -15, "nota": "4.500.000 COP — se muestra igual: el publicado casi nunca es el negociado"}], "nueva": false, "republicaciones": 0, "visto_desde": "2026-08-28"}, {"id": "empresa no revelada|gerente de recursos humanos|bogota#anon:12500001-15000000-2026-07-01", "cargo": "Gerente de Recursos Humanos Bilingüe Bogotá", "empresa": "CONFIDENTIAL", "empresa_anonima": true, "ciudad": "Bogotá D.C.", "modalidad_por_confirmar": false, "salario": {"min": 12500001.0, "max": 15000000.0, "moneda": "COP", "periodo": "MONTH"}, "publicado": "2026-07-01", "vigente_hasta": "2026-08-30", "contrato": "FULL_TIME", "fuentes": [{"fuente": "elempleo", "url": "https://www.elempleo.com/co/ofertas-trabajo/gerente-de-recursos-humanos-bilingue-bogota-1886733178", "id_fuente": null}], "inc": ["modalidad"], "marcas": ["empresa no revelada: puede estar repetida"], "puntaje": -3, "desglose": [{"concepto": "cargo secundario de RR.HH.", "puntos": 0, "nota": "solo suma si el cuerpo habla de compensación"}, {"concepto": "origen de la empresa", "puntos": 0, "nota": "el aviso no revela la empresa: no suma ni resta"}, {"concepto": "el cuerpo menciona técnica de compensación", "puntos": 12, "nota": "compensacion"}, {"concepto": "salario publicado por debajo de $18.000.000", "puntos": -15, "nota": "15.000.000 COP — se muestra igual: el publicado casi nunca es el negociado"}], "nueva": false, "republicaciones": 0, "visto_desde": "2026-08-28"}, {"id": "empresa no revelada|profesional de contratacion y compensacion|bogota#anon:4000001-4500000-2026-08-10", "cargo": "Profesional de contratación y compensación", "empresa": "CONFIDENTIAL", "empresa_anonima": true, "ciudad": "Bogotá D.C.", "modalidad_por_confirmar": false, "salario": {"min": 4000001.0, "max": 4500000.0, "moneda": "COP", "periodo": "MONTH"}, "publicado": "2026-08-10", "vigente_hasta": "2026-10-09", "contrato": "FULL_TIME", "fuentes": [{"fuente": "elempleo", "url": "https://www.elempleo.com/co/ofertas-trabajo/profesional-de-contratacion-y-compensacion-1886750952", "id_fuente": null}], "inc": ["modalidad"], "marcas": ["empresa no revelada: puede estar repetida"], "puntaje": -3, "desglose": [{"concepto": "origen de la empresa", "puntos": 0, "nota": "el aviso no revela la empresa: no suma ni resta"}, {"concepto": "el cuerpo menciona técnica de compensación", "puntos": 12, "nota": "compensacion"}, {"concepto": "salario publicado por debajo de $18.000.000", "puntos": -15, "nota": "4.500.000 COP — se muestra igual: el publicado casi nunca es el negociado"}], "nueva": false, "republicaciones": 0, "visto_desde": "2026-08-28"}, {"id": "cafam|profesional en compensacion salarial|bogota", "cargo": "Profesional en Compensación salarial", "empresa": "CAFAM", "empresa_anonima": false, "ciudad": "Bogotá D.C.", "modalidad": "presencial", "modalidad_literal": "Presencial", "modalidad_por_confirmar": false, "salario": {"min": 5500001.0, "max": 6000000.0, "moneda": "COP", "periodo": "MONTH"}, "publicado": "2026-07-13", "vigente_hasta": "2026-09-11", "contrato": "TEMPORARY", "fuentes": [{"fuente": "elempleo", "url": "https://www.elempleo.com/co/ofertas-trabajo/profesional-en-compensacion-salarial-1886738617", "id_fuente": null}], "puntaje": -3, "desglose": [{"concepto": "origen de la empresa", "puntos": 0, "nota": "no se pudo determinar: no suma ni resta"}, {"concepto": "el cuerpo menciona técnica de compensación", "puntos": 12, "nota": "compensacion, valoracion de cargos, estructura salarial, bandas salariales"}, {"concepto": "salario publicado por debajo de $18.000.000", "puntos": -15, "nota": "6.000.000 COP — se muestra igual: el publicado casi nunca es el negociado"}], "nueva": false, "republicaciones": 0, "visto_desde": "2026-08-28"}, {"id": "empresa no revelada|gerente de recursos humanos|bogota#anon:6000001-8000000-2026-07-31", "cargo": "gerente de recursos humanos", "empresa": "CONFIDENTIAL", "empresa_anonima": true, "ciudad": "Bogotá D.C.", "modalidad_por_confirmar": false, "salario": {"min": 6000001.0, "max": 8000000.0, "moneda": "COP", "periodo": "MONTH"}, "publicado": "2026-07-31", "vigente_hasta": "2026-09-29", "contrato": "FULL_TIME", "fuentes": [{"fuente": "elempleo", "url": "https://www.elempleo.com/co/ofertas-trabajo/gerente-de-recursos-humanos-1886747406", "id_fuente": null}], "inc": ["modalidad"], "marcas": ["empresa no revelada: puede estar repetida"], "puntaje": -3, "desglose": [{"concepto": "cargo secundario de RR.HH.", "puntos": 0, "nota": "solo suma si el cuerpo habla de compensación"}, {"concepto": "origen de la empresa", "puntos": 0, "nota": "el aviso no revela la empresa: no suma ni resta"}, {"concepto": "el cuerpo menciona técnica de compensación", "puntos": 12, "nota": "compensacion, valoracion de cargos"}, {"concepto": "salario publicado por debajo de $18.000.000", "puntos": -15, "nota": "8.000.000 COP — se muestra igual: el publicado casi nunca es el negociado"}], "nueva": false, "republicaciones": 0, "visto_desde": "2026-08-28"}, {"id": "empresa no revelada|profesional de compensacion y analitica de datos|bogota#anon:3500001-4000000-2026-08-10", "cargo": "PROFESIONAL DE COMPENSACIÓN Y ANALÍTICA DE DATOS (NOMINA).", "empresa": "CONFIDENTIAL", "empresa_anonima": true, "ciudad": "Bogotá D.C.", "modalidad_por_confirmar": false, "salario": {"min": 3500001.0, "max": 4000000.0, "moneda": "COP", "periodo": "MONTH"}, "publicado": "2026-08-10", "vigente_hasta": "2026-10-09", "contrato": "TEMPORARY", "fuentes": [{"fuente": "elempleo", "url": "https://www.elempleo.com/co/ofertas-trabajo/profesional-de-compensacion-y-analitica-de-datos-nomina-1886721606", "id_fuente": null}], "inc": ["modalidad"], "marcas": ["empresa no revelada: puede estar repetida"], "puntaje": -15, "desglose": [{"concepto": "origen de la empresa", "puntos": 0, "nota": "el aviso no revela la empresa: no suma ni resta"}, {"concepto": "salario publicado por debajo de $18.000.000", "puntos": -15, "nota": "4.000.000 COP — se muestra igual: el publicado casi nunca es el negociado"}], "nueva": false, "republicaciones": 0, "visto_desde": "2026-08-28"}, {"id": "kata|profesional de compensacion y liquidacion de nomina lunes a sabado norte|bogota", "cargo": "Profesional de Compensación y Liquidación de Nomina/ Lunes a Sábado - Norte de Bogota", "empresa": "KATA S A S", "empresa_anonima": false, "ciudad": "Bogotá, D.C.", "modalidad": "presencial", "modalidad_literal": "presencial", "modalidad_por_confirmar": false, "salario": {"min": 3500000.0, "max": 3500000.0, "moneda": "COP", "periodo": "MONTH"}, "publicado": "2026-07-29", "vigente_hasta": "2026-09-27", "contrato": "FULL_TIME", "fuentes": [{"fuente": "computrabajo", "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-profesional-de-compensacion-y-liquidacion-de-nomina-lunes-a-sabado-norte-de-bogota-en-bogota-dc-7C227ECB050D1F8A61373E686DCF3405", "id_fuente": "8AE4173D0E825B00"}], "puntaje": -15, "desglose": [{"concepto": "origen de la empresa", "puntos": 0, "nota": "no se pudo determinar: no suma ni resta"}, {"concepto": "salario publicado por debajo de $18.000.000", "puntos": -15, "nota": "3.500.000 COP — se muestra igual: el publicado casi nunca es el negociado"}], "nueva": false, "republicaciones": 0, "visto_desde": "2026-08-28"}];
+var GONE = [];
+var FUENTES = {"consultadas": {"elempleo": {"avisos": 13, "error": null}, "computrabajo": {"avisos": 4, "error": null}, "workday": {"avisos": 5, "error": null}, "greenhouse": {"avisos": 1, "error": null}, "arbeitnow": {"avisos": 0, "error": null}, "apify_linkedin": {"avisos": 3, "error": null}}, "descartadas": {"smartrecruiters": "robots.txt de api.smartrecruiters.com: «User-agent: * / Disallow: /». Solo LinkedInBot tiene Allow. El endpoint responde 200 pero NO se consulta. Pérdida real: Danone, Bosch, Publicis.", "remotive": "robots.txt trae «Disallow: /api/*». Su propia API está prohibida por su propio robots.", "ashby": "robots.txt responde 401: sin robots legible no se consulta. Además es casi puro startup tech.", "lever": "Permitido por robots, pero cero empresas objetivo.", "workable": "Permitido por robots, pero cero empresas objetivo.", "indeed": "Sigue devolviendo 403 al listado (verificado 2026-08-28).", "linkedin_directo": "Sus condiciones prohíben el acceso automatizado. Solo vía Apify."}, "nota_fija": "Indeed bloquea el acceso automático (403). SmartRecruiters y Remotive lo prohíben en su robots.txt. LinkedIn lo prohíbe en sus condiciones y se consulta solo a través de Apify, un intermediario comercial. En esos sitios conviene configurar las alertas por correo a mano."};
+/* === DATOS: FIN === */
+
+(function () {
+  "use strict";
+  var $ = function (s) { return document.querySelector(s); };
+  var guardar = function (k, v) { try { localStorage.setItem(k, v); } catch (e) {} };
+  var leer = function (k) { try { return localStorage.getItem(k); } catch (e) { return null; } };
+
+  /* ── tema: sistema · claro · oscuro ── */
+  function ponerTema(t) {
+    if (t === "sistema") { document.documentElement.removeAttribute("data-theme"); }
+    else { document.documentElement.setAttribute("data-theme", t); }
+    guardar("tema", t);
+    document.querySelectorAll(".tema button").forEach(function (b) {
+      b.setAttribute("aria-pressed", String(b.dataset.tema === t));
+    });
+  }
+  document.querySelectorAll(".tema button").forEach(function (b) {
+    b.addEventListener("click", function () { ponerTema(b.dataset.tema); });
+  });
+  ponerTema(leer("tema") || "sistema");
+
+  /* ── utilidades de formato ── */
+  var COP = function (n) {
+    return "$" + Math.round(n).toLocaleString("es-CO").replace(/,/g, ".");
+  };
+  var corto = function (n) {
+    if (n >= 1e6) { return "$" + (n / 1e6).toFixed(n % 1e6 ? 1 : 0).replace(".", ",") + "M"; }
+    return COP(n);
+  };
+  function falta(que) {
+    return '<span class="falta" title="' + que + '">?</span>';
+  }
+  function esc(s) {
+    return String(s == null ? "" : s).replace(/[&<>"]/g, function (ch) {
+      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[ch];
+    });
+  }
+  function diasDesde(iso) {
+    if (!iso) { return null; }
+    var d = (Date.now() - new Date(iso + "T12:00:00").getTime()) / 86400000;
+    return Math.max(0, Math.round(d));
+  }
+  function fechaCorta(iso) {
+    if (!iso) { return null; }
+    var M = ["ene","feb","mar","abr","may","jun","jul","ago","sep","oct","nov","dic"];
+    var p = iso.split("-");
+    return parseInt(p[2], 10) + " " + M[parseInt(p[1], 10) - 1];
+  }
+
+  /* ── estado de los filtros ── */
+  var F = { modalidad: null, rango: null, fuente: null, estado: null,
+            nuevas: false, conSalario: false, orden: "puntaje" };
+
+  var RANGOS = [
+    { id: "alto",  eti: "≥ $20M",        prueba: function (s) { return s && s.max >= 20e6; } },
+    { id: "piso",  eti: "$18M – $20M",   prueba: function (s) { return s && s.max >= 18e6 && s.max < 20e6; } },
+    { id: "bajo",  eti: "< $18M",        prueba: function (s) { return s && s.max < 18e6; } },
+    { id: "nada",  eti: "no publicado",  prueba: function (s) { return !s; } }
+  ];
+
+  function cuenta(campo, valor) {
+    return DATA.filter(function (a) { return campo(a) === valor; }).length;
+  }
+
+  /* ── barra de filtros ── */
+  function chip(texto, n, activo, alPulsar, clase) {
+    var b = document.createElement("button");
+    b.type = "button";
+    b.className = "chip" + (clase ? " " + clase : "");
+    b.setAttribute("aria-pressed", String(!!activo));
+    b.innerHTML = esc(texto) + (n != null ? ' <span class="n">' + n + "</span>" : "");
+    b.addEventListener("click", alPulsar);
+    return b;
+  }
+
+  function grupo(barra, etiqueta) {
+    var g = document.createElement("div");
+    g.className = "grupo";
+    var e = document.createElement("span");
+    e.className = "etiqueta";
+    e.textContent = etiqueta;
+    g.appendChild(e);
+    barra.appendChild(g);
+    return g;
+  }
+
+  /* Listas largas: se muestran las 8 con más avisos y el resto se esconde. */
+  function grupoLargo(g, opciones, activo, elegir) {
+    var VISIBLES = (CONFIG.max_filtros || 8);
+    opciones.sort(function (a, b) { return b.n - a.n; });
+    var extra = opciones.slice(VISIBLES);
+    opciones.slice(0, VISIBLES).forEach(function (o) {
+      g.appendChild(chip(o.eti, o.n, activo === o.id, function () { elegir(o.id); }));
+    });
+    if (extra.length) {
+      var caja = document.createElement("span");
+      caja.style.display = "none";
+      extra.forEach(function (o) {
+        caja.appendChild(chip(o.eti, o.n, activo === o.id, function () { elegir(o.id); }));
+      });
+      var mas = chip("+ " + extra.length + " más", null, false, function () {
+        var abierto = caja.style.display !== "none";
+        caja.style.display = abierto ? "none" : "contents";
+        mas.innerHTML = abierto ? "+ " + extra.length + " más" : "− menos";
+      }, "mas");
+      g.appendChild(caja);
+      g.appendChild(mas);
+    }
+  }
+
+  function pintarFiltros() {
+    var barra = $("#barra-filtros");
+    barra.textContent = "";
+
+    var g1 = grupo(barra, "Modalidad");
+    ["remoto", "híbrido", "presencial"].forEach(function (m) {
+      var n = cuenta(function (a) { return a.modalidad; }, m);
+      if (!n) { return; }
+      g1.appendChild(chip(m, n, F.modalidad === m, function () {
+        F.modalidad = F.modalidad === m ? null : m; pintar();
+      }));
+    });
+    var sinMod = DATA.filter(function (a) { return !a.modalidad; }).length;
+    if (sinMod) {
+      g1.appendChild(chip("sin dato", sinMod, F.modalidad === "?", function () {
+        F.modalidad = F.modalidad === "?" ? null : "?"; pintar();
+      }));
+    }
+
+    var g2 = grupo(barra, "Salario");
+    RANGOS.forEach(function (r) {
+      var n = DATA.filter(function (a) { return r.prueba(a.salario); }).length;
+      if (!n) { return; }
+      g2.appendChild(chip(r.eti, n, F.rango === r.id, function () {
+        F.rango = F.rango === r.id ? null : r.id; pintar();
+      }));
+    });
+
+    var g3 = grupo(barra, "Fuente");
+    var fuentes = {};
+    DATA.forEach(function (a) {
+      a.fuentes.forEach(function (f) { fuentes[f.fuente] = (fuentes[f.fuente] || 0) + 1; });
+    });
+    grupoLargo(g3, Object.keys(fuentes).map(function (k) {
+      return { id: k, eti: k, n: fuentes[k] };
+    }), F.fuente, function (id) { F.fuente = F.fuente === id ? null : id; pintar(); });
+
+    var estados = {};
+    DATA.forEach(function (a) {
+      if (a.postulacion && a.postulacion.estado) {
+        estados[a.postulacion.estado] = (estados[a.postulacion.estado] || 0) + 1;
+      }
+    });
+    if (Object.keys(estados).length) {
+      var g4 = grupo(barra, "Postulación");
+      Object.keys(estados).forEach(function (e) {
+        g4.appendChild(chip(e.replace(/_/g, " "), estados[e], F.estado === e, function () {
+          F.estado = F.estado === e ? null : e; pintar();
+        }));
+      });
+    }
+
+    var g5 = grupo(barra, "Ver");
+    var nn = DATA.filter(function (a) { return a.nueva; }).length;
+    g5.appendChild(chip("solo las nuevas", nn, F.nuevas, function () {
+      F.nuevas = !F.nuevas; pintar();
+    }));
+    var ns = DATA.filter(function (a) { return a.salario; }).length;
+    g5.appendChild(chip("solo con salario", ns, F.conSalario, function () {
+      F.conSalario = !F.conSalario; pintar();
+    }));
+
+    var g6 = grupo(barra, "Orden");
+    var sel = document.createElement("select");
+    sel.className = "orden";
+    sel.innerHTML = '<option value="puntaje">por puntaje</option>'
+                  + '<option value="fecha">por fecha</option>'
+                  + '<option value="salario">por salario</option>';
+    sel.value = F.orden;
+    sel.addEventListener("change", function () { F.orden = sel.value; pintar(); });
+    g6.appendChild(sel);
+
+    var limpiar = document.createElement("button");
+    limpiar.type = "button";
+    limpiar.className = "limpiar";
+    limpiar.textContent = "Quitar filtros";
+    limpiar.addEventListener("click", function () {
+      F = { modalidad: null, rango: null, fuente: null, estado: null,
+            nuevas: false, conSalario: false, orden: F.orden };
+      pintar();
+    });
+    barra.appendChild(limpiar);
+  }
+
+  /* ── el riel salarial ── */
+  function riel(a) {
+    var piso = CONFIG.piso || 18000000;
+    var techo = CONFIG.techo_riel || 30000000;
+    var s = a.salario;
+
+    if (s && s.moneda && s.moneda !== "COP") {
+      return '<div class="riel"><div class="riel-cifras">'
+        + '<span class="riel-monto ausente">' + esc(s.moneda) + " "
+        + Math.round(s.max).toLocaleString("es-CO") + "</span>"
+        + '<span class="riel-nota">otra moneda: no se convierte</span></div>'
+        + '<div class="riel-pista hueca"></div></div>';
+    }
+    if (!s) {
+      return '<div class="riel"><div class="riel-cifras">'
+        + '<span class="riel-monto ausente">salario no publicado</span>'
+        + '<span class="riel-nota">no suma ni resta al puntaje</span></div>'
+        + '<div class="riel-pista hueca">'
+        + '<span class="riel-piso" style="left:' + (piso / techo * 100).toFixed(1) + '%"></span>'
+        + "</div>" + escala(piso, techo) + "</div>";
+    }
+    var cumple = s.max >= piso;
+    var izq = Math.max(0, Math.min(100, s.min / techo * 100));
+    var der = Math.max(0, Math.min(100, s.max / techo * 100));
+    var pasado = s.max > techo;
+    var texto = s.min === s.max ? COP(s.max) : COP(s.min) + " – " + COP(s.max);
+    return '<div class="riel"><div class="riel-cifras">'
+      + '<span class="riel-monto ' + (cumple ? "cumple" : "no-cumple") + '">' + texto + "</span>"
+      + '<span class="riel-nota">' + (cumple ? "cruza tu piso" : "por debajo de tu piso") + "</span></div>"
+      + '<div class="riel-pista">'
+      + '<span class="riel-banda' + (cumple ? "" : " no-cumple") + '" style="left:' + izq.toFixed(1)
+      + "%;width:" + Math.max(1.5, der - izq).toFixed(1) + '%"></span>'
+      + '<span class="riel-piso" style="left:' + (piso / techo * 100).toFixed(1) + '%"></span>'
+      + "</div>" + escala(piso, techo) + "</div>";
+  }
+  function escala(piso, techo) {
+    return '<div class="riel-escala"><span>0</span><span>tu piso ' + corto(piso)
+      + "</span><span>" + corto(techo) + "+</span></div>";
+  }
+
+  /* ── una ficha ── */
+  function ficha(a) {
+    var el = document.createElement("article");
+    el.className = "ficha" + (a.nueva ? " nueva" : "");
+
+    var h = '<div class="ficha-cabeza"><div style="flex:1"><h3 class="cargo"'
+      + (a.cargo_original ? ' title="Como lo escribe el aviso: ' + esc(a.cargo_original) + '"' : "")
+      + ">" + esc(a.cargo) + "</h3></div>";
+    if (a.nueva) { h += '<span class="sello">Nueva</span>'; }
+    h += '<span class="puntaje' + (a.puntaje < 10 ? " bajo" : "") + '">'
+       + (a.puntaje > 0 ? "+" : "") + a.puntaje + "</span></div>";
+
+    var emp = a.empresa_anonima
+      ? '<span class="empresa falta" title="El aviso no revela la empresa. Suele ser una agencia de reclutamiento.">'
+        + esc(a.empresa || "empresa no revelada") + "</span>"
+      : '<span class="empresa">' + esc(a.empresa) + "</span>";
+    h += '<div class="linea-empresa">' + emp
+       + '<span class="sep">·</span>'
+       + (a.ciudad ? esc(a.ciudad) : falta("El aviso no publica la ciudad"))
+       + '<span class="sep">·</span>'
+       + (a.modalidad ? esc(a.modalidad) : falta("El aviso no dice si es remoto, híbrido o presencial"));
+    if (a.modalidad_por_confirmar) {
+      h += '<span class="marca ojo" title="El título y el cuerpo del aviso se contradicen: '
+         + esc(a.modalidad_literal || "") + '">modalidad por confirmar</span>';
+    }
+    (a.marcas || []).forEach(function (m) { h += '<span class="marca">' + esc(m) + "</span>"; });
+    if (a.contrato && CONFIG.contratos_marcados
+        && CONFIG.contratos_marcados.indexOf(a.contrato) >= 0) {
+      h += '<span class="marca ojo">' + esc(a.contrato) + "</span>";
+    }
+    h += "</div>";
+
+    h += riel(a);
+
+    var dias = diasDesde(a.publicado);
+    h += '<div class="datos">';
+    h += '<span class="par"><span class="k">publicado</span>'
+       + (a.publicado
+          ? "<span>" + fechaCorta(a.publicado) + (dias != null ? " · hace " + dias + "d" : "") + "</span>"
+          : falta(a.publicado_literal
+                  ? "La fuente solo dice: " + a.publicado_literal
+                  : "El aviso no publica la fecha")) + "</span>";
+    if (a.republicaciones) {
+      h += '<span class="par"><span class="k">republicada</span><span title="Una vacante que se republica lleva tiempo abierta: o el puesto es difícil, o rota mucho.">'
+         + a.republicaciones + " vez" + (a.republicaciones > 1 ? "es" : "") + "</span></span>";
+    }
+    if (a.vigente_hasta) {
+      h += '<span class="par"><span class="k">vigente hasta</span><span>' + fechaCorta(a.vigente_hasta) + "</span></span>";
+    }
+    if (a.titulos_alternos && a.titulos_alternos.length) {
+      h += '<span class="par"><span class="k">también como</span><span title="'
+         + esc(a.titulos_alternos.join(" / ")) + '">' + esc(a.titulos_alternos[0].slice(0, 34)) + "…</span></span>";
+    }
+    h += "</div>";
+
+    h += '<div class="pie-ficha"><div class="enlaces">';
+    a.fuentes.forEach(function (f) {
+      h += '<a class="enlace" target="_blank" rel="noopener noreferrer" href="' + esc(f.url) + '">'
+         + esc(f.fuente) + " ↗</a>";
+    });
+    h += "</div>";
+    if (a.postulacion && a.postulacion.estado) {
+      h += '<span class="estado">' + esc(a.postulacion.estado.replace(/_/g, " ")) + "</span>";
+    }
+    h += '<button type="button" class="desplegar">por qué ' + (a.puntaje > 0 ? "+" : "") + a.puntaje + "</button></div>";
+
+    var d = '<div class="desglose" hidden>';
+    (a.desglose || []).forEach(function (x) {
+      var cls = x.puntos > 0 ? "mas" : (x.puntos < 0 ? "menos" : "cero");
+      d += '<div class="fila"><span class="pts ' + cls + '">'
+         + (x.puntos > 0 ? "+" : "") + x.puntos + "</span><span>" + esc(x.concepto)
+         + (x.nota ? '<span class="nota">' + esc(x.nota) + "</span>" : "") + "</span></div>";
+    });
+    d += '<div class="fila total"><span class="pts">' + (a.puntaje > 0 ? "+" : "") + a.puntaje
+       + "</span><span>total</span></div></div>";
+
+    el.innerHTML = h + d;
+    var caja = el.querySelector(".desglose");
+    el.querySelector(".desplegar").addEventListener("click", function (ev) {
+      caja.hidden = !caja.hidden;
+      ev.currentTarget.textContent = caja.hidden
+        ? "por qué " + (a.puntaje > 0 ? "+" : "") + a.puntaje
+        : "ocultar desglose";
+    });
+    return el;
+  }
+
+  /* ── pintar ── */
+  function filtrar() {
+    return DATA.filter(function (a) {
+      if (F.modalidad === "?" && a.modalidad) { return false; }
+      if (F.modalidad && F.modalidad !== "?" && a.modalidad !== F.modalidad) { return false; }
+      if (F.rango) {
+        var r = RANGOS.filter(function (x) { return x.id === F.rango; })[0];
+        if (r && !r.prueba(a.salario)) { return false; }
+      }
+      if (F.fuente && !a.fuentes.some(function (f) { return f.fuente === F.fuente; })) { return false; }
+      if (F.estado && (!a.postulacion || a.postulacion.estado !== F.estado)) { return false; }
+      if (F.nuevas && !a.nueva) { return false; }
+      if (F.conSalario && !a.salario) { return false; }
+      return true;
+    }).sort(function (x, y) {
+      if (F.orden === "fecha") { return (y.publicado || "").localeCompare(x.publicado || ""); }
+      if (F.orden === "salario") {
+        return ((y.salario && y.salario.max) || -1) - ((x.salario && x.salario.max) || -1);
+      }
+      return y.puntaje - x.puntaje;
+    });
+  }
+
+  function pintar() {
+    pintarFiltros();
+    var lista = filtrar();
+    var rej = $("#rejilla");
+    rej.textContent = "";
+    if (!lista.length) {
+      rej.innerHTML = '<p class="vacio">Ninguna vacante pasa estos filtros. Quítalos para ver las '
+        + DATA.length + " que hay hoy.</p>";
+    } else {
+      lista.forEach(function (a) { rej.appendChild(ficha(a)); });
+    }
+    $("#conteo").innerHTML = "Mostrando <b>" + lista.length + "</b> de " + DATA.length
+      + " vigentes" + (lista.length !== DATA.length ? " · hay filtros puestos" : "");
+  }
+
+  /* ── caídas ── */
+  function pintarCaidas() {
+    var enCurso = GONE.filter(function (a) { return a.postulacion && a.postulacion.estado; });
+    var secas = GONE.filter(function (a) { return !(a.postulacion && a.postulacion.estado); });
+    function fila(a) {
+      var d = "";
+      d += '<div class="caida"><span class="t">' + esc(a.cargo) + "</span>";
+      d += '<span class="d">' + esc(a.empresa || "empresa no revelada") + "</span>";
+      d += '<span class="d">apareció ' + esc(a.visto_desde || "?")
+         + " · desapareció " + esc(a.desaparecio || "?") + "</span>";
+      if (a.postulacion && a.postulacion.estado) {
+        d += '<span class="estado">' + esc(a.postulacion.estado.replace(/_/g, " ")) + "</span>";
+      }
+      return d + "</div>";
+    }
+    if (enCurso.length) {
+      $("#sec-en-curso").hidden = false;
+      $("#lista-en-curso").innerHTML = enCurso.map(fila).join("");
+    }
+    if (secas.length) {
+      $("#sec-caidas").hidden = false;
+      $("#lista-caidas").innerHTML = secas.map(fila).join("");
+    }
+  }
+
+  /* ── nota de método ── */
+  function pintarMetodo() {
+    var dl = "<dl>";
+    Object.keys(FUENTES.consultadas || {}).forEach(function (k) {
+      var v = FUENTES.consultadas[k];
+      dl += "<dt>" + esc(k) + "</dt><dd>" + (v.error
+        ? '<span class="no">falló: ' + esc(v.error) + "</span>"
+        : (v.avisos === 0
+           ? '<span class="no">devolvió cero avisos hoy</span>'
+           : '<span class="ok">' + v.avisos + " avisos</span>")) + "</dd>";
+    });
+    Object.keys(FUENTES.descartadas || {}).forEach(function (k) {
+      dl += "<dt>" + esc(k) + '</dt><dd><span class="no">no se consulta</span> — '
+         + esc(FUENTES.descartadas[k]) + "</dd>";
+    });
+    $("#metodo-fuentes").innerHTML = dl + "</dl>";
+    $("#metodo-fijo").textContent = FUENTES.nota_fija || "";
+  }
+
+  pintar();
+  pintarCaidas();
+  pintarMetodo();
+})();
+</script>
+</body>
+</html>
