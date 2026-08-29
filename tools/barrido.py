@@ -1012,6 +1012,12 @@ def main():
         print("\nNo se escribe data.json. Revisa qué fuente se cayó.")
         return 1
 
+    # El texto completo del aviso NO se guarda: sirvió para puntuar y ya está.
+    # La página nunca lo muestra, y este repo es público: republicar en bloque el
+    # contenido de portales ajenos no hace falta para buscar trabajo.
+    def sin_texto(a):
+        return {k: v for k, v in a.items() if k != "descripcion"}
+
     datos = {
         "busqueda": args.busqueda,
         "corrida": c.hoy(),
@@ -1024,8 +1030,8 @@ def main():
                        for x, y, j in fusiones],
         "nuevas": nuevas,
         "republicadas": republicadas,
-        "vigentes": avisos,
-        "caidas": caidas,
+        "vigentes": [sin_texto(a) for a in avisos],
+        "caidas": [sin_texto(a) for a in caidas],
         "en_curso_no_publicadas": [a["id"] for a in en_curso],
         "avisos_pendientes": 0,
     }
