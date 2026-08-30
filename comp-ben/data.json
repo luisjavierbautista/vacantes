@@ -1,14 +1,14 @@
 {
  "busqueda": "comp-ben",
- "corrida": "2026-08-29",
- "corrida_hora": "2026-08-29 15:52",
+ "corrida": "2026-08-30",
+ "corrida_hora": "2026-08-30 15:21",
  "fuentes": {
   "elempleo": {
-   "avisos": 13,
+   "avisos": 12,
    "error": null
   },
   "computrabajo": {
-   "avisos": 4,
+   "avisos": 3,
    "error": null
   },
   "workday": {
@@ -28,8 +28,13 @@
    "error": null
   }
  },
- "fallos": [],
- "avisos_recogidos": 34,
+ "fallos": [
+  {
+   "url": "https://www.elempleo.com/co/ofertas-trabajo/gerente-de-recursos-humanos-bilingue-bogota-1886733178",
+   "motivo": "HTTP 410"
+  }
+ ],
+ "avisos_recogidos": 32,
  "descartados": 9,
  "fusionados": [
   {
@@ -428,7 +433,7 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 2 día(s)"
+     "nota": "hace 3 día(s)"
     }
    ],
    "puntaje": 32,
@@ -553,7 +558,7 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 1 día(s)"
+     "nota": "hace 2 día(s)"
     }
    ],
    "puntaje": 22,
@@ -1171,72 +1176,6 @@
    "republicaciones": 0
   },
   {
-   "cargo": "Gerente de Recursos Humanos Bilingüe Bogotá",
-   "empresa": "CONFIDENTIAL",
-   "empresa_anonima": true,
-   "ciudad": "Bogotá D.C.",
-   "salario": {
-    "min": 12500001.0,
-    "max": 15000000.0,
-    "moneda": "COP",
-    "periodo": "MONTH"
-   },
-   "publicado": "2026-07-01",
-   "vigente_hasta": "2026-08-30",
-   "contrato": "FULL_TIME",
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": null,
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "elempleo",
-     "url": "https://www.elempleo.com/co/ofertas-trabajo/gerente-de-recursos-humanos-bilingue-bogota-1886733178",
-     "id_fuente": null
-    }
-   ],
-   "inc": [
-    "modalidad"
-   ],
-   "deducidos": [],
-   "modalidad": null,
-   "modalidad_literal": null,
-   "modalidad_por_confirmar": false,
-   "id": "empresa no revelada|gerente de recursos humanos|bogota#anon:12500001-15000000-2026-07-01",
-   "duplicados_hoy": 1,
-   "marcas": [
-    "empresa no revelada: puede estar repetida"
-   ],
-   "desglose": [
-    {
-     "concepto": "cargo secundario de RR.HH.",
-     "puntos": 0,
-     "nota": "solo suma si el cuerpo habla de compensación"
-    },
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "el aviso no revela la empresa: no suma ni resta"
-    },
-    {
-     "concepto": "el cuerpo menciona técnica de compensación",
-     "puntos": 12,
-     "nota": "compensacion"
-    },
-    {
-     "concepto": "salario publicado por debajo de $18.000.000",
-     "puntos": -15,
-     "nota": "15.000.000 COP — se muestra igual: el publicado casi nunca es el negociado"
-    }
-   ],
-   "puntaje": -3,
-   "nueva": false,
-   "visto_desde": "2026-08-28",
-   "republicaciones": 0
-  },
-  {
    "cargo": "Profesional de contratación y compensación",
    "empresa": "CONFIDENTIAL",
    "empresa_anonima": true,
@@ -1474,6 +1413,76 @@
    "nueva": false,
    "visto_desde": "2026-08-28",
    "republicaciones": 0
+  }
+ ],
+ "caidas": [
+  {
+   "cargo": "Gerente de Recursos Humanos Bilingüe Bogotá",
+   "empresa": "CONFIDENTIAL",
+   "empresa_anonima": true,
+   "ciudad": "Bogotá D.C.",
+   "salario": {
+    "min": 12500001.0,
+    "max": 15000000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-07-01",
+   "vigente_hasta": "2026-08-30",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/gerente-de-recursos-humanos-bilingue-bogota-1886733178",
+     "id_fuente": null
+    }
+   ],
+   "inc": [
+    "modalidad"
+   ],
+   "deducidos": [],
+   "modalidad": null,
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "empresa no revelada|gerente de recursos humanos|bogota#anon:12500001-15000000-2026-07-01",
+   "duplicados_hoy": 1,
+   "marcas": [
+    "empresa no revelada: puede estar repetida"
+   ],
+   "desglose": [
+    {
+     "concepto": "cargo secundario de RR.HH.",
+     "puntos": 0,
+     "nota": "solo suma si el cuerpo habla de compensación"
+    },
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "el aviso no revela la empresa: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona técnica de compensación",
+     "puntos": 12,
+     "nota": "compensacion"
+    },
+    {
+     "concepto": "salario publicado por debajo de $18.000.000",
+     "puntos": -15,
+     "nota": "15.000.000 COP — se muestra igual: el publicado casi nunca es el negociado"
+    }
+   ],
+   "puntaje": -3,
+   "nueva": false,
+   "visto_desde": "2026-08-28",
+   "republicaciones": 0,
+   "desaparecio": "2026-08-30",
+   "dias_publicada": 2
   },
   {
    "cargo": "Profesional de Compensación y Liquidación de Nomina/ Lunes a Sábado - Norte de Bogota",
@@ -1524,9 +1533,10 @@
    "puntaje": -15,
    "nueva": false,
    "visto_desde": "2026-08-28",
-   "republicaciones": 0
+   "republicaciones": 0,
+   "desaparecio": "2026-08-30",
+   "dias_publicada": 2
   }
  ],
- "caidas": [],
  "avisos_pendientes": 0
 }
