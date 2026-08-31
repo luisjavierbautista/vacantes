@@ -1,10 +1,10 @@
 {
  "busqueda": "comp-ben",
  "corrida": "2026-08-31",
- "corrida_hora": "2026-08-31 14:54",
+ "corrida_hora": "2026-08-31 18:01",
  "fuentes": {
   "elempleo": {
-   "avisos": 12,
+   "avisos": 13,
    "error": null
   },
   "computrabajo": {
@@ -24,15 +24,19 @@
    "error": null
   },
   "apify_linkedin": {
-   "avisos": 11,
+   "avisos": 13,
    "error": null
   }
  },
  "fallos": [],
- "avisos_recogidos": 32,
+ "avisos_recogidos": 35,
  "descartados": 9,
  "fusionados": [],
- "nuevas": [],
+ "nuevas": [
+  "rappi|compensation partner|bogota",
+  "empresa no revelada|analista senior de compensacion|bogota#anon:0-0-2026-08-31",
+  "empresa no revelada|jefe de recursos humanos y admon de personal|bogota#anon:4500001-5500000-2026-08-31"
+ ],
  "reaparecidas": [],
  "ausentes": [],
  "republicadas": [],
@@ -101,6 +105,78 @@
    "ausencias": 0,
    "nueva": false,
    "visto_desde": "2026-08-29",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
+  {
+   "cargo": "Compensation Partner",
+   "empresa": "Rappi",
+   "empresa_anonima": false,
+   "ciudad": "Bogota, Capital District",
+   "salario": null,
+   "publicado": "2026-08-31",
+   "vigente_hasta": "2026-09-30",
+   "contrato": [
+    "FULL_TIME"
+   ],
+   "agencia": null,
+   "direccion": null,
+   "lat": 4.6533817,
+   "lon": -74.0836331,
+   "id_fuente": "4459217069",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/compensation-partner-at-rappi-4459217069",
+     "id_fuente": "4459217069"
+    }
+   ],
+   "inc": [
+    "salario"
+   ],
+   "deducidos": [
+    "modalidad"
+   ],
+   "modalidad_fuente": "Remote OK",
+   "empleados": 14944,
+   "sede": "Latinoamérica",
+   "modalidad": "remoto",
+   "modalidad_literal": "remote",
+   "modalidad_por_confirmar": false,
+   "id": "rappi|compensation partner|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "cargo objetivo de compensación",
+     "puntos": 25,
+     "nota": "Compensation Partner"
+    },
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "remoto confirmado en el cuerpo del aviso",
+     "puntos": 15,
+     "nota": "remote"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    },
+    {
+     "concepto": "publicada hace menos de 3 días",
+     "puntos": 10,
+     "nota": "hace 0 día(s)"
+    }
+   ],
+   "puntaje": 50,
+   "ausencias": 0,
+   "nueva": true,
+   "visto_desde": "2026-08-31",
    "republicaciones": 0,
    "reapariciones": 0
   },
@@ -768,6 +844,76 @@
    "reapariciones": 0
   },
   {
+   "cargo": "Analista Senior de Compensación",
+   "empresa": "Confidencial",
+   "empresa_anonima": true,
+   "ciudad": "Bogota, Capital District",
+   "salario": null,
+   "publicado": "2026-08-31",
+   "vigente_hasta": "2026-09-30",
+   "contrato": [
+    "FULL_TIME"
+   ],
+   "agencia": null,
+   "direccion": null,
+   "lat": 4.6533817,
+   "lon": -74.0836331,
+   "id_fuente": "4460029686",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/analista-senior-de-compensaci%C3%B3n-at-money-inc-4460029686",
+     "id_fuente": "4460029686"
+    }
+   ],
+   "inc": [
+    "salario"
+   ],
+   "deducidos": [
+    "modalidad"
+   ],
+   "modalidad_fuente": "On-site",
+   "empleados": 890,
+   "sede": "New York, New York",
+   "modalidad": "On-site",
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "empresa no revelada|analista senior de compensacion|bogota#anon:0-0-2026-08-31",
+   "duplicados_hoy": 1,
+   "marcas": [
+    "empresa no revelada: puede estar repetida"
+   ],
+   "desglose": [
+    {
+     "concepto": "multinacional estadounidense",
+     "puntos": -5,
+     "nota": "New York, New York"
+    },
+    {
+     "concepto": "el cuerpo menciona técnica de compensación",
+     "puntos": 12,
+     "nota": "compensacion"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    },
+    {
+     "concepto": "publicada hace menos de 3 días",
+     "puntos": 10,
+     "nota": "hace 0 día(s)"
+    }
+   ],
+   "puntaje": 17,
+   "ausencias": 0,
+   "nueva": true,
+   "visto_desde": "2026-08-31",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
+  {
    "cargo": "Analista Senior de Compensación y Estructura Salarial",
    "empresa": "Cafam Oficial",
    "empresa_anonima": false,
@@ -1387,6 +1533,72 @@
    "ausencias": 0,
    "nueva": false,
    "visto_desde": "2026-08-28",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
+  {
+   "cargo": "jefe de recursos humanos y admón de personal",
+   "empresa": "CONFIDENTIAL",
+   "empresa_anonima": true,
+   "ciudad": "Bogotá D.C.",
+   "salario": {
+    "min": 4500001.0,
+    "max": 5500000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-08-31",
+   "vigente_hasta": "2026-09-30",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/jefe-de-recursos-humanos-y-admon-de-personal-1886759615",
+     "id_fuente": null
+    }
+   ],
+   "inc": [],
+   "deducidos": [],
+   "modalidad": "presencial",
+   "modalidad_literal": "presencial",
+   "modalidad_por_confirmar": false,
+   "id": "empresa no revelada|jefe de recursos humanos y admon de personal|bogota#anon:4500001-5500000-2026-08-31",
+   "duplicados_hoy": 1,
+   "marcas": [
+    "empresa no revelada: puede estar repetida"
+   ],
+   "desglose": [
+    {
+     "concepto": "cargo secundario de RR.HH.",
+     "puntos": 0,
+     "nota": "solo suma si el cuerpo habla de compensación"
+    },
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "el aviso no revela la empresa: no suma ni resta"
+    },
+    {
+     "concepto": "salario publicado por debajo de $18.000.000",
+     "puntos": -15,
+     "nota": "5.500.000 COP — se muestra igual: el publicado casi nunca es el negociado"
+    },
+    {
+     "concepto": "publicada hace menos de 3 días",
+     "puntos": 10,
+     "nota": "hace 0 día(s)"
+    }
+   ],
+   "puntaje": -5,
+   "ausencias": 0,
+   "nueva": true,
+   "visto_desde": "2026-08-31",
    "republicaciones": 0,
    "reapariciones": 0
   },
