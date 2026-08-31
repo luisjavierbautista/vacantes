@@ -1,7 +1,7 @@
 {
  "busqueda": "comp-ben",
- "corrida": "2026-08-30",
- "corrida_hora": "2026-08-30 15:21",
+ "corrida": "2026-08-31",
+ "corrida_hora": "2026-08-31 14:39",
  "fuentes": {
   "elempleo": {
    "avisos": 12,
@@ -28,22 +28,14 @@
    "error": null
   }
  },
- "fallos": [
-  {
-   "url": "https://www.elempleo.com/co/ofertas-trabajo/gerente-de-recursos-humanos-bilingue-bogota-1886733178",
-   "motivo": "HTTP 410"
-  }
- ],
+ "fallos": [],
  "avisos_recogidos": 32,
  "descartados": 9,
- "fusionados": [
-  {
-   "conservado": "Total Rewards Lead / Líder de Compensación y Beneficios Bilingüe",
-   "absorbido": "Lider en Beneficios y Compensación / Total Rewards / RRHH - 80 Beneficios 20 Compensacion",
-   "parecido": 0.62
-  }
+ "fusionados": [],
+ "nuevas": [
+  "manpower|gerente de compensacion y beneficios 80 beneficios 20 compensacion|bogota",
+  "kata|profesional de compensacion y liquidacion de nomina lunes a sabado norte|bogota"
  ],
- "nuevas": [],
  "republicadas": [],
  "vigentes": [
   {
@@ -373,72 +365,69 @@
    "republicaciones": 0
   },
   {
-   "cargo": "coordinador de compensación talento humano",
-   "empresa": "CONFIDENTIAL",
-   "empresa_anonima": true,
-   "ciudad": "Bogotá D.C.",
+   "cargo": "Gerente de Compensación y Beneficios (Total Rewards) - 80 Beneficios 20 Compensacion",
+   "empresa": "Manpower Group Colombia",
+   "empresa_anonima": false,
+   "ciudad": "Bogotá, D.C.",
    "salario": {
-    "min": 6000001.0,
-    "max": 8000000.0,
+    "min": 10000000.0,
+    "max": 10000000.0,
     "moneda": "COP",
     "periodo": "MONTH"
    },
-   "publicado": "2026-08-27",
-   "vigente_hasta": "2026-10-26",
+   "publicado": "2026-08-30",
+   "vigente_hasta": "2026-10-29",
    "contrato": "FULL_TIME",
    "agencia": null,
    "direccion": null,
    "lat": null,
    "lon": null,
-   "id_fuente": null,
+   "id_fuente": "2BE0D088B7D1B44D",
    "pais": null,
    "fuentes": [
     {
-     "fuente": "elempleo",
-     "url": "https://www.elempleo.com/co/ofertas-trabajo/coordinador-de-compensacion-talento-humano-1886758342",
-     "id_fuente": null
+     "fuente": "computrabajo",
+     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-gerente-de-compensacion-y-beneficios-total-rewards-80-beneficios-20-compensacion-en-bogota-dc-B71482EED89E65DD61373E686DCF3405",
+     "id_fuente": "2BE0D088B7D1B44D"
     }
    ],
    "inc": [],
    "deducidos": [],
-   "modalidad": "presencial",
-   "modalidad_literal": "presencial",
+   "modalidad": "híbrido",
+   "modalidad_literal": "3 dias en oficina",
    "modalidad_por_confirmar": false,
-   "id": "empresa no revelada|coordinador de compensacion talento humano|bogota#anon:6000001-8000000-2026-08-27",
+   "id": "manpower|gerente de compensacion y beneficios 80 beneficios 20 compensacion|bogota",
    "duplicados_hoy": 1,
-   "marcas": [
-    "empresa no revelada: puede estar repetida"
-   ],
    "desglose": [
     {
      "concepto": "cargo objetivo de compensación",
      "puntos": 25,
-     "nota": "coordinador de compensación talento humano"
+     "nota": "Gerente de Compensación y Beneficios (Total Rewards) - 80 Beneficios 20 Compensacion"
     },
     {
      "concepto": "origen de la empresa",
      "puntos": 0,
-     "nota": "el aviso no revela la empresa: no suma ni resta"
+     "nota": "no se pudo determinar: no suma ni resta"
     },
     {
      "concepto": "el cuerpo menciona técnica de compensación",
      "puntos": 12,
-     "nota": "compensacion, bandas salariales"
+     "nota": "compensacion, total rewards"
     },
     {
      "concepto": "salario publicado por debajo de $18.000.000",
      "puntos": -15,
-     "nota": "8.000.000 COP — se muestra igual: el publicado casi nunca es el negociado"
+     "nota": "10.000.000 COP — se muestra igual: el publicado casi nunca es el negociado"
     },
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 3 día(s)"
+     "nota": "hace 1 día(s)"
     }
    ],
    "puntaje": 32,
-   "nueva": false,
-   "visto_desde": "2026-08-28",
+   "nueva": true,
+   "visto_desde": "2026-08-31",
    "republicaciones": 0
   },
   {
@@ -558,7 +547,7 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 2 día(s)"
+     "nota": "hace 3 día(s)"
     }
    ],
    "puntaje": 22,
@@ -657,11 +646,6 @@
      "fuente": "elempleo",
      "url": "https://www.elempleo.com/co/ofertas-trabajo/total-rewards-lead-lider-de-compensacion-y-beneficios-bilingue-1886749725",
      "id_fuente": null
-    },
-    {
-     "fuente": "computrabajo",
-     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-lider-en-beneficios-y-compensacion-total-rewards-rrhh-80-beneficios-20-compensacion-en-bogota-dc-0446118844BD7A6761373E686DCF3405",
-     "id_fuente": "2BE0D088B7D1B44D"
     }
    ],
    "inc": [],
@@ -671,9 +655,6 @@
    "modalidad_por_confirmar": false,
    "id": "manpower|total rewards lead lider de compensacion y beneficios|bogota",
    "duplicados_hoy": 1,
-   "titulos_alternos": [
-    "Lider en Beneficios y Compensación / Total Rewards / RRHH - 80 Beneficios 20 Compensacion"
-   ],
    "desglose": [
     {
      "concepto": "cargo objetivo de compensación",
@@ -702,55 +683,65 @@
    "republicaciones": 0
   },
   {
-   "cargo": "Analist compensación y beneficios",
-   "empresa": "Cadena Comercial OXXO Colombia",
-   "empresa_anonima": false,
-   "ciudad": "Colombia",
-   "salario": null,
-   "publicado": "2026-07-15",
-   "vigente_hasta": "2026-09-13",
+   "cargo": "coordinador de compensación talento humano",
+   "empresa": "CONFIDENTIAL",
+   "empresa_anonima": true,
+   "ciudad": "Bogotá D.C.",
+   "salario": {
+    "min": 6000001.0,
+    "max": 8000000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-08-27",
+   "vigente_hasta": "2026-10-26",
    "contrato": "FULL_TIME",
    "agencia": null,
    "direccion": null,
    "lat": null,
    "lon": null,
-   "id_fuente": "73D6783396CD83A4",
+   "id_fuente": null,
    "pais": null,
    "fuentes": [
     {
-     "fuente": "computrabajo",
-     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analist-compensacion-y-beneficios-en-colombia-B076FE329411934161373E686DCF3405",
-     "id_fuente": "73D6783396CD83A4"
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/coordinador-de-compensacion-talento-humano-1886758342",
+     "id_fuente": null
     }
    ],
-   "inc": [
-    "salario",
-    "modalidad"
-   ],
+   "inc": [],
    "deducidos": [],
-   "modalidad": null,
-   "modalidad_literal": null,
+   "modalidad": "presencial",
+   "modalidad_literal": "presencial",
    "modalidad_por_confirmar": false,
-   "id": "cadena comercial oxxo|analist compensacion y beneficios|colombia",
+   "id": "empresa no revelada|coordinador de compensacion talento humano|bogota#anon:6000001-8000000-2026-08-27",
    "duplicados_hoy": 1,
+   "marcas": [
+    "empresa no revelada: puede estar repetida"
+   ],
    "desglose": [
+    {
+     "concepto": "cargo objetivo de compensación",
+     "puntos": 25,
+     "nota": "coordinador de compensación talento humano"
+    },
     {
      "concepto": "origen de la empresa",
      "puntos": 0,
-     "nota": "no se pudo determinar: no suma ni resta"
+     "nota": "el aviso no revela la empresa: no suma ni resta"
     },
     {
      "concepto": "el cuerpo menciona técnica de compensación",
      "puntos": 12,
-     "nota": "compensacion, equidad interna"
+     "nota": "compensacion, bandas salariales"
     },
     {
-     "concepto": "salario",
-     "puntos": 0,
-     "nota": "sin salario publicado, no suma ni resta"
+     "concepto": "salario publicado por debajo de $18.000.000",
+     "puntos": -15,
+     "nota": "8.000.000 COP — se muestra igual: el publicado casi nunca es el negociado"
     }
    ],
-   "puntaje": 12,
+   "puntaje": 22,
    "nueva": false,
    "visto_desde": "2026-08-28",
    "republicaciones": 0
@@ -1413,9 +1404,116 @@
    "nueva": false,
    "visto_desde": "2026-08-28",
    "republicaciones": 0
+  },
+  {
+   "cargo": "Profesional de Compensación y Liquidación de Nomina/ Lunes a Sábado - Norte de Bogota",
+   "empresa": "KATA S A S",
+   "empresa_anonima": false,
+   "ciudad": "Bogotá, D.C.",
+   "salario": {
+    "min": 3500000.0,
+    "max": 3500000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-07-29",
+   "vigente_hasta": "2026-09-27",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": "8AE4173D0E825B00",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "computrabajo",
+     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-profesional-de-compensacion-y-liquidacion-de-nomina-lunes-a-sabado-norte-de-bogota-en-bogota-dc-7C227ECB050D1F8A61373E686DCF3405",
+     "id_fuente": "8AE4173D0E825B00"
+    }
+   ],
+   "inc": [],
+   "deducidos": [],
+   "modalidad": "presencial",
+   "modalidad_literal": "presencial",
+   "modalidad_por_confirmar": false,
+   "id": "kata|profesional de compensacion y liquidacion de nomina lunes a sabado norte|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "salario publicado por debajo de $18.000.000",
+     "puntos": -15,
+     "nota": "3.500.000 COP — se muestra igual: el publicado casi nunca es el negociado"
+    }
+   ],
+   "puntaje": -15,
+   "nueva": true,
+   "visto_desde": "2026-08-31",
+   "republicaciones": 0
   }
  ],
  "caidas": [
+  {
+   "cargo": "Analist compensación y beneficios",
+   "empresa": "Cadena Comercial OXXO Colombia",
+   "empresa_anonima": false,
+   "ciudad": "Colombia",
+   "salario": null,
+   "publicado": "2026-07-15",
+   "vigente_hasta": "2026-09-13",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": "73D6783396CD83A4",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "computrabajo",
+     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analist-compensacion-y-beneficios-en-colombia-B076FE329411934161373E686DCF3405",
+     "id_fuente": "73D6783396CD83A4"
+    }
+   ],
+   "inc": [
+    "salario",
+    "modalidad"
+   ],
+   "deducidos": [],
+   "modalidad": null,
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "cadena comercial oxxo|analist compensacion y beneficios|colombia",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona técnica de compensación",
+     "puntos": 12,
+     "nota": "compensacion, equidad interna"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    }
+   ],
+   "puntaje": 12,
+   "nueva": false,
+   "visto_desde": "2026-08-28",
+   "republicaciones": 0,
+   "desaparecio": "2026-08-31",
+   "dias_publicada": 3
+  },
   {
    "cargo": "Gerente de Recursos Humanos Bilingüe Bogotá",
    "empresa": "CONFIDENTIAL",
@@ -1478,59 +1576,6 @@
     }
    ],
    "puntaje": -3,
-   "nueva": false,
-   "visto_desde": "2026-08-28",
-   "republicaciones": 0,
-   "desaparecio": "2026-08-30",
-   "dias_publicada": 2
-  },
-  {
-   "cargo": "Profesional de Compensación y Liquidación de Nomina/ Lunes a Sábado - Norte de Bogota",
-   "empresa": "KATA S A S",
-   "empresa_anonima": false,
-   "ciudad": "Bogotá, D.C.",
-   "salario": {
-    "min": 3500000.0,
-    "max": 3500000.0,
-    "moneda": "COP",
-    "periodo": "MONTH"
-   },
-   "publicado": "2026-07-29",
-   "vigente_hasta": "2026-09-27",
-   "contrato": "FULL_TIME",
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": "8AE4173D0E825B00",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "computrabajo",
-     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-profesional-de-compensacion-y-liquidacion-de-nomina-lunes-a-sabado-norte-de-bogota-en-bogota-dc-7C227ECB050D1F8A61373E686DCF3405",
-     "id_fuente": "8AE4173D0E825B00"
-    }
-   ],
-   "inc": [],
-   "deducidos": [],
-   "modalidad": "presencial",
-   "modalidad_literal": "presencial",
-   "modalidad_por_confirmar": false,
-   "id": "kata|profesional de compensacion y liquidacion de nomina lunes a sabado norte|bogota",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "no se pudo determinar: no suma ni resta"
-    },
-    {
-     "concepto": "salario publicado por debajo de $18.000.000",
-     "puntos": -15,
-     "nota": "3.500.000 COP — se muestra igual: el publicado casi nunca es el negociado"
-    }
-   ],
-   "puntaje": -15,
    "nueva": false,
    "visto_desde": "2026-08-28",
    "republicaciones": 0,
