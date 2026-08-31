@@ -66,6 +66,16 @@ ve como `?` en la ficha, con una explicación al pasar el ratón. En particular:
 - **No hay mapa.** Ningún aviso publica dirección de oficina. Un mapa con tres
   puntos de cuarenta vacantes engaña más de lo que informa.
 
+**Una ausencia no es una caída.** Un aviso que falta una vez casi siempre sigue
+publicado: la fuente parpadeó. Hacen falta **dos ausencias seguidas** para darlo
+por caído, y mientras tanto no desaparece de la página — se queda marcado «no
+apareció hoy en la fuente». Si vuelve, se marca **«Vuelve»**, nunca «Nueva».
+
+Medido el 31-ago-2026 sobre tres corridas: de 3 movimientos reportados, 1 era
+puro parpadeo de Computrabajo. Sin esto, el contador de nuevas que ella mira
+cada mañana miente, y «cuánto dura abierta una vacante» —el único dato de
+mercado que produce esta herramienta— queda inservible.
+
 **El puntaje solo ordena.** Ninguna vacante se esconde por puntuar bajo: el
 modelo no sabe lo que sabes tú. Los pesos están en el JSON, no en el código, y la
 ficha muestra el desglose completo. Si un componente no se puede evaluar porque

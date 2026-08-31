@@ -50,6 +50,8 @@ def texto_resumen(d, bus):
                 "puede que una fuente haya cambiado su HTML.</p>")
 
     # 1 · qué cambió
+    vueltas = [a for a in vig if a.get("reaparecida")]
+    ausentes = [a for a in vig if a.get("ausencias")]
     if nuevas:
         frases.append(f"Hoy entraron <b>{len(nuevas)}</b> vacante"
                       f"{'s' if len(nuevas) != 1 else ''} nueva"
@@ -58,6 +60,16 @@ def texto_resumen(d, bus):
     else:
         frases.append(f"Hoy no entró ninguna vacante nueva; siguen en pie las "
                       f"<b>{len(vig)}</b> de ayer.")
+    if vueltas:
+        n = len(vueltas)
+        frases.append(f"{n} " + ("había faltado en la fuente y volvió"
+                                 if n == 1 else "habían faltado en la fuente y volvieron")
+                      + ": no son nuevas.")
+    if ausentes:
+        n = len(ausentes)
+        frases.append(f"{n} no " + ("apareció" if n == 1 else "aparecieron")
+                      + " hoy; se " + ("confirma" if n == 1 else "confirman")
+                      + " antes de darlas por caídas.")
     if caidas:
         recientes = [a for a in caidas if a.get("desaparecio") == d["corrida"]]
         if recientes:
@@ -147,7 +159,8 @@ def bloque_datos(d, bus):
               "modalidad_literal", "modalidad_por_confirmar", "salario", "publicado",
               "publicado_literal", "vigente_hasta", "contrato", "fuentes", "inc",
               "deducidos", "marcas", "puntaje", "desglose", "nueva", "republicaciones",
-              "cargo_original", "pais", "visto_desde", "titulos_alternos")
+              "cargo_original", "pais", "visto_desde", "titulos_alternos",
+              "reaparecida", "reapariciones", "ausencias")
     def limpiar(a):
         o = {k: a[k] for k in campos if a.get(k) not in (None, [], "")}
         legible = c.titulo_legible(a.get("cargo"))

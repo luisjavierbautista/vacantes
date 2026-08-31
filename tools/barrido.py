@@ -897,57 +897,93 @@ def puntuar(a, cri, bus):
 
 # ─────────────────────────────────────────────────────────── diferencial diario
 
-def diferencial(hoy_avisos, anterior, olvido_dias=45, descartados_ids=()):
-    """nuevas · caídas · republicadas. Confundirlas hace postularse dos veces.
+def diferencial(hoy_avisos, anterior, olvido_dias=45, descartados_ids=(), ausencias_max=2):
+    """Clasifica el movimiento del día. Confundir categorías es el fallo caro.
 
-    Un aviso que descartamos por criterio NO es una caída: sigue publicado, solo
-    que dejamos de mostrarlo. Decir que «desapareció» sería mentir sobre el
-    mercado, y ensuciaría la única cosa que esa lista sirve para medir: cuánto
-    dura abierta de verdad una vacante de este perfil.
+        nueva        identidad que nunca se había visto
+        reaparecida  ya se había visto, faltó y volvió — NO es nueva
+        republicada  identidad conocida con enlace nuevo
+        ausente      no vino hoy, pero aún no se da por caída
+        caída        faltó `ausencias_max` veces seguidas
+
+    Por qué la ausencia se confirma antes de declarar una caída: un aviso que
+    falta una vez casi siempre sigue publicado y la fuente simplemente parpadeó.
+    Declararlo caído ensucia el contador de nuevas cuando vuelve, y arruina la
+    medición de cuánto dura abierta una vacante, que es lo único que esa lista
+    sirve para medir.
+
+    Un aviso que descartamos por criterio no es una caída: sigue publicado, solo
+    que dejamos de mostrarlo.
     """
-    previos = {a["id"]: a for a in (anterior or {}).get("vigentes", [])}
+    ant = anterior or {}
+    previos = {a["id"]: a for a in ant.get("vigentes", [])}
+    caidos_ant = {a["id"]: a for a in ant.get("caidas", [])}
     ids_hoy = {a["id"] for a in hoy_avisos}
+    descartados_ids = set(descartados_ids)
 
-    nuevas, republicadas = [], []
+    nuevas, reaparecidas, republicadas = [], [], []
     for a in hoy_avisos:
-        ant = previos.get(a["id"])
-        if not ant:
+        conocido = previos.get(a["id"]) or caidos_ant.get(a["id"])
+        a["ausencias"] = 0
+        if not conocido:
             a["nueva"] = True
             a["visto_desde"] = c.hoy()
             a["republicaciones"] = 0
+            a["reapariciones"] = 0
             nuevas.append(a["id"])
-        else:
-            a["nueva"] = False
-            a["visto_desde"] = ant.get("visto_desde") or c.hoy()
-            urls_ant = {f["url"] for f in ant.get("fuentes", [])}
-            urls_hoy = {f["url"] for f in a["fuentes"]}
-            a["republicaciones"] = ant.get("republicaciones", 0)
-            if urls_hoy - urls_ant:
-                a["republicaciones"] += 1
-                republicadas.append(a["id"])
-            # la fecha más antigua que se haya visto nunca
-            if ant.get("publicado") and (not a.get("publicado")
-                                         or ant["publicado"] < a["publicado"]):
-                a["publicado"] = ant["publicado"]
+            continue
 
-    caidas = []
-    descartados_ids = set(descartados_ids)
-    for ident, ant in previos.items():
-        if ident not in ids_hoy and ident not in descartados_ids:
-            ant = dict(ant)
-            ant["desaparecio"] = c.hoy()
-            ant["dias_publicada"] = (
-                (c.dias_desde(ant.get("visto_desde")) or 0))
-            caidas.append(ant)
-    caidas.extend(a for a in (anterior or {}).get("caidas", [])
+        a["nueva"] = False
+        a["visto_desde"] = conocido.get("visto_desde") or c.hoy()
+        a["republicaciones"] = conocido.get("republicaciones", 0)
+        a["reapariciones"] = conocido.get("reapariciones", 0)
+
+        # Volvió tras faltar: ni nueva ni caída. Reaparecida.
+        if conocido.get("ausencias") or a["id"] in caidos_ant:
+            a["reaparecida"] = True
+            a["reapariciones"] += 1
+            reaparecidas.append(a["id"])
+
+        urls_ant = {f["url"] for f in conocido.get("fuentes", [])}
+        if {f["url"] for f in a["fuentes"]} - urls_ant:
+            a["republicaciones"] += 1
+            republicadas.append(a["id"])
+        if conocido.get("publicado") and (not a.get("publicado")
+                                          or conocido["publicado"] < a["publicado"]):
+            a["publicado"] = conocido["publicado"]
+
+    # Los que no vinieron hoy: se les cuenta la ausencia, no se les entierra.
+    ausentes, caidas = [], []
+    for ident, prev in previos.items():
+        if ident in ids_hoy or ident in descartados_ids:
+            continue
+        prev = dict(prev)
+        prev["ausencias"] = prev.get("ausencias", 0) + 1
+        if prev["ausencias"] >= ausencias_max:
+            prev["desaparecio"] = c.hoy()
+            prev["dias_publicada"] = c.dias_desde(prev.get("visto_desde")) or 0
+            prev.pop("ausencias", None)
+            caidas.append(prev)
+        else:
+            # El sello viejo no se arrastra: «nueva» dura una sola corrida, y
+            # «reaparecida» tampoco puede quedarse pegada mientras falta.
+            prev["nueva"] = False
+            prev.pop("reaparecida", None)
+            prev.setdefault("marcas", [])
+            marca = f"no apareció hoy en la fuente ({prev['ausencias']} de {ausencias_max})"
+            prev["marcas"] = [m for m in prev["marcas"]
+                              if not m.startswith("no apareció hoy")] + [marca]
+            ausentes.append(prev)
+
+    caidas.extend(a for a in ant.get("caidas", [])
                   if a["id"] not in ids_hoy and a["id"] not in descartados_ids)
     vistas = set()
     caidas = [a for a in caidas if not (a["id"] in vistas or vistas.add(a["id"]))]
-    # Se olvidan las viejas: si no, la lista crece para siempre y deja de decir
-    # nada sobre cuánto dura abierta una vacante de este perfil.
     caidas = [a for a in caidas
               if (c.dias_desde(a.get("desaparecio")) or 0) <= olvido_dias]
-    return nuevas, republicadas, caidas
+
+    return {"nuevas": nuevas, "reaparecidas": reaparecidas,
+            "republicadas": republicadas, "caidas": caidas, "ausentes": ausentes}
 
 
 # ─────────────────────────────────────────────────────────────────── principal
@@ -1053,8 +1089,16 @@ def main():
                  + (anterior or {}).get("caidas", [])):
         if base(prev["id"]) in bases:
             ids_descartados.add(prev["id"])
-    nuevas, republicadas, caidas = diferencial(
-        avisos, anterior, bus["umbrales"]["dias_para_olvidar_caidas"], ids_descartados)
+    dif = diferencial(avisos, anterior, bus["umbrales"]["dias_para_olvidar_caidas"],
+                      ids_descartados, bus["umbrales"]["ausencias_para_declarar_caida"])
+    nuevas = dif["nuevas"]
+    reaparecidas = dif["reaparecidas"]
+    republicadas = dif["republicadas"]
+    caidas = dif["caidas"]
+    # Los ausentes NO desaparecen de la página mientras no se confirmen: verlos
+    # parpadear un día sí y otro no es peor que verlos marcados.
+    avisos = avisos + dif["ausentes"]
+    avisos.sort(key=lambda a: (-a["puntaje"], a["cargo"]))
     # ── frenos de la sección 11 ──────────────────────────────────────────
     frenos = []
     antes = len((anterior or {}).get("vigentes", []))
@@ -1072,7 +1116,8 @@ def main():
     # ── reporte ──────────────────────────────────────────────────────────
     print()
     print(f"══ {args.busqueda} · {len(avisos)} vigentes "
-          f"({len(nuevas)} nuevas, {len(caidas)} caídas, "
+          f"({len(nuevas)} nuevas, {len(reaparecidas)} reaparecidas, "
+          f"{len(dif['ausentes'])} sin aparecer hoy, {len(caidas)} caídas, "
           f"{len(republicadas)} republicadas) de {len(crudos)} recogidos")
     for n, d in por_fuente.items():
         print(f"   {n:16s} {d['avisos']:4d} avisos"
@@ -1095,7 +1140,9 @@ def main():
         sal = a["salario"]
         s_txt = (f"{sal['max']:,.0f} {sal['moneda']}".replace(",", ".")
                  if sal else "sin salario")
-        sello = "NUEVA " if a.get("nueva") else "      "
+        sello = ("NUEVA  " if a.get("nueva")
+                 else "VUELVE " if a.get("reaparecida")
+                 else "AUSENTE" if a.get("ausencias") else "       ")
         print(f"   {a['puntaje']:+4d} {sello}{a['cargo'][:46]:46s} | "
               f"{(a['empresa'] or '¿?')[:22]:22s} | {c.normalizar_ciudad(a['ciudad'])[:14]:14s} | "
               f"{s_txt:22s} | {len(a['fuentes'])} fuente(s)")
@@ -1135,6 +1182,8 @@ def main():
         "fusionados": [{"conservado": x, "absorbido": y, "parecido": j}
                        for x, y, j in fusiones],
         "nuevas": nuevas,
+        "reaparecidas": reaparecidas,
+        "ausentes": [a["id"] for a in dif["ausentes"]],
         "republicadas": republicadas,
         "vigentes": [sin_texto(a) for a in avisos],
         "caidas": [sin_texto(a) for a in caidas],

@@ -533,7 +533,9 @@
     "dias_para_olvidar_caidas": 45,
     "_nota_caidas": "Una vacante caída se muestra 45 días y luego se olvida. Sin esto la lista crece para siempre y «cuánto dura abierta una vacante de este perfil» deja de leerse.",
     "techo_riel_cop": 40000000,
-    "_nota_riel": "Tope FIJO de la escala del riel salarial. Fijo a propósito: si la escala se recalculara cada día con el máximo del día, la página de ayer dejaría de ser comparable con la de hoy, y un solo aviso con el balde «21M a 50M» de elempleo aplastaría visualmente a todos los demás. Lo que se pasa de 40M se dibuja recortado con un signo »; la cifra exacta sigue en texto."
+    "_nota_riel": "Tope FIJO de la escala del riel salarial. Fijo a propósito: si la escala se recalculara cada día con el máximo del día, la página de ayer dejaría de ser comparable con la de hoy, y un solo aviso con el balde «21M a 50M» de elempleo aplastaría visualmente a todos los demás. Lo que se pasa de 40M se dibuja recortado con un signo »; la cifra exacta sigue en texto.",
+    "ausencias_para_declarar_caida": 2,
+    "_nota_ausencias": "Un aviso que falta UNA vez casi siempre sigue publicado: la fuente parpadeó. Medido el 31-ago-2026 sobre tres corridas: de 3 movimientos reportados, 1 era parpadeo de Computrabajo (un aviso del 29-jul salió el día 30 y volvió el 31). Con una sola ausencia eso ensuciaba dos cosas: el contador de «nuevas» que ella mira cada mañana, y la medición de cuánto dura abierta una vacante, que es el único dato de mercado que produce esto. Ahora hacen falta 2 ausencias seguidas, y mientras tanto el aviso NO desaparece de la página: se queda marcado como «no apareció hoy en la fuente»."
   },
   "textos": {
     "encabezado": "Vacantes de Compensación y Beneficios / Total Rewards",
