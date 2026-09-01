@@ -1,14 +1,14 @@
 {
  "busqueda": "comp-ben",
  "corrida": "2026-09-01",
- "corrida_hora": "2026-09-01 20:10",
+ "corrida_hora": "2026-09-01 21:03",
  "fuentes": {
   "elempleo": {
    "avisos": 14,
    "error": null
   },
   "computrabajo": {
-   "avisos": 3,
+   "avisos": 4,
    "error": null
   },
   "workday": {
@@ -29,10 +29,12 @@
   }
  },
  "fallos": [],
- "avisos_recogidos": 31,
+ "avisos_recogidos": 32,
  "descartados": 9,
  "fusionados": [],
- "nuevas": [],
+ "nuevas": [
+  "laboratorio farpag|gerente de gestion humana|bogota"
+ ],
  "reaparecidas": [],
  "ausentes": [],
  "republicadas": [],
@@ -505,6 +507,72 @@
    "ausencias": 0,
    "nueva": false,
    "visto_desde": "2026-08-29",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
+  {
+   "cargo": "Gerente de gestion humana Bogota",
+   "empresa": "Laboratorio Farpag",
+   "empresa_anonima": false,
+   "ciudad": "Bogotá, D.C.",
+   "salario": null,
+   "publicado": "2026-09-01",
+   "vigente_hasta": "2026-10-31",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": "47E5CCBE1CB66E91",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "computrabajo",
+     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-gerente-de-gestion-humana-bogota-en-bogota-dc-340F7E6B615A1C8A61373E686DCF3405",
+     "id_fuente": "47E5CCBE1CB66E91"
+    }
+   ],
+   "inc": [
+    "salario",
+    "modalidad"
+   ],
+   "deducidos": [],
+   "modalidad": null,
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "laboratorio farpag|gerente de gestion humana|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "cargo secundario de RR.HH.",
+     "puntos": 0,
+     "nota": "solo suma si el cuerpo habla de compensación"
+    },
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "compensacion"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    },
+    {
+     "concepto": "publicada hace menos de 3 días",
+     "puntos": 10,
+     "nota": "hace 0 día(s)"
+    }
+   ],
+   "puntaje": 22,
+   "ausencias": 0,
+   "nueva": true,
+   "visto_desde": "2026-09-01",
    "republicaciones": 0,
    "reapariciones": 0
   },

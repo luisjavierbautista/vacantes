@@ -1,7 +1,7 @@
 {
  "busqueda": "coord-tec",
  "corrida": "2026-09-01",
- "corrida_hora": "2026-09-01 16:00",
+ "corrida_hora": "2026-09-01 21:10",
  "fuentes": {
   "elempleo": {
    "avisos": 195,
@@ -12,7 +12,7 @@
    "error": null
   },
   "workday": {
-   "avisos": 5,
+   "avisos": 6,
    "error": null
   },
   "greenhouse": {
@@ -20,7 +20,7 @@
    "error": null
   },
   "arbeitnow": {
-   "avisos": 2,
+   "avisos": 1,
    "error": null
   },
   "apify_linkedin": {
@@ -59,8 +59,8 @@
    "parecido": 1.0
   },
   {
-   "conservado": "PROFESOR TIEMPO COMPLETO MATEMATICAS PROGRAMA INGENIERIA SISTEMAS BOGOTA",
-   "absorbido": "PROFESOR TIEMPO COMPLETO PROGRAMA INGENIERIA SISTEMAS BOGOTA",
+   "conservado": "PROFESOR TIEMPO COMPLETO PROGRAMA INGENIERIA SISTEMAS BOGOTA",
+   "absorbido": "PROFESOR TIEMPO COMPLETO MATEMATICAS PROGRAMA INGENIERIA SISTEMAS BOGOTA",
    "parecido": 0.8
   },
   {
@@ -69,16 +69,20 @@
    "parecido": 1.0
   }
  ],
- "nuevas": [],
+ "nuevas": [
+  "centro de empleo y talento colsubsidio|ingeniero de sistemas lider de tecnico customer success ree 2 a 5 anos de experiencia|bogota",
+  "centro de empleo y talento colsubsidio|ingeniero de sistemas product manager 4 anos de experiencia|bogota"
+ ],
  "reaparecidas": [
-  "empresa no revelada|help desk analyst n1 24 7|bogota#anon:0-0-2026-09-01",
-  "politecnico grancolombiano|profesor matematicas programa ingenieria sistemas|bogota",
-  "sinergy lowells|coordinador academico pedagogico|bogota"
+  "politecnico grancolombiano|profesor programa ingenieria sistemas|bogota",
+  "jahv mc gregor|coordinador administrativo proyectos tic|bogota"
  ],
  "ausentes": [
-  "politecnico grancolombiano|profesor programa ingenieria sistemas|bogota",
-  "jahv mc gregor|coordinador administrativo proyectos tic|bogota",
-  "jahv mc gregor|documentador proyectos tic y telecomunicaciones|bogota"
+  "empresa no revelada|help desk analyst n1 24 7|bogota#anon:0-0-2026-09-01",
+  "independence|jefe ti|bogota",
+  "jahv mc gregor|documentador proyectos tic y telecomunicaciones|bogota",
+  "politecnico grancolombiano|profesor matematicas programa ingenieria sistemas|bogota",
+  "agencia de aduanas siaco repremundo|coordinador de proyectos junior|bogota"
  ],
  "republicadas": [],
  "vigentes": [
@@ -2314,7 +2318,8 @@
    "id": "empresa no revelada|help desk analyst n1 24 7|bogota#anon:0-0-2026-09-01",
    "duplicados_hoy": 1,
    "marcas": [
-    "empresa no revelada: puede estar repetida"
+    "empresa no revelada: puede estar repetida",
+    "no apareció hoy en la fuente (1 de 3)"
    ],
    "desglose": [
     {
@@ -2344,12 +2349,11 @@
     }
    ],
    "puntaje": 27,
-   "ausencias": 0,
+   "ausencias": 1,
    "nueva": false,
    "visto_desde": "2026-09-01",
    "republicaciones": 0,
-   "reapariciones": 1,
-   "reaparecida": true
+   "reapariciones": 1
   },
   {
    "cargo": "Project Coordinator - Commercial workspace (CET)",
@@ -4356,6 +4360,69 @@
    "reapariciones": 0
   },
   {
+   "cargo": "Ingeniero de Sistemas Líder de tecnico customer success / REE - 2 a 5 años de experiencia",
+   "empresa": "CENTRO DE EMPLEO Y TALENTO COLSUBSIDIO",
+   "empresa_anonima": false,
+   "ciudad": "Bogotá, D.C.",
+   "salario": {
+    "min": 16000000.0,
+    "max": 16000000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-09-01",
+   "vigente_hasta": "2026-10-31",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": "7AA3FDE1981F3DFE",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "computrabajo",
+     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ingeniero-de-sistemas-lider-de-tecnico-customer-success-ree-2-a-5-anos-de-experiencia-en-bogota-dc-0E9A881BE2BB618F61373E686DCF3405",
+     "id_fuente": "7AA3FDE1981F3DFE"
+    }
+   ],
+   "inc": [],
+   "deducidos": [],
+   "modalidad": "híbrido",
+   "modalidad_literal": "Remoto",
+   "modalidad_por_confirmar": false,
+   "id": "centro de empleo y talento colsubsidio|ingeniero de sistemas lider de tecnico customer success ree 2 a 5 anos de experiencia|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "bases de datos, python, programacion"
+    },
+    {
+     "concepto": "salario publicado igual o sobre $4.000.000",
+     "puntos": 12,
+     "nota": "16.000.000 COP"
+    },
+    {
+     "concepto": "publicada hace menos de 3 días",
+     "puntos": 10,
+     "nota": "hace 0 día(s)"
+    },
+    {
+     "concepto": "exige ingles b2",
+     "puntos": -10,
+     "nota": "el perfil no lo domina — se muestra igual: muchos avisos lo piden como «deseable» y luego no lo evalúan"
+    }
+   ],
+   "puntaje": 24,
+   "ausencias": 0,
+   "nueva": true,
+   "visto_desde": "2026-09-01",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
+  {
    "cargo": "Jefe TI",
    "empresa": "Independence S.A.",
    "empresa_anonima": false,
@@ -4404,11 +4471,14 @@
     }
    ],
    "puntaje": 24,
-   "ausencias": 0,
+   "ausencias": 1,
    "nueva": false,
    "visto_desde": "2026-09-01",
    "republicaciones": 0,
-   "reapariciones": 0
+   "reapariciones": 0,
+   "marcas": [
+    "no apareció hoy en la fuente (1 de 3)"
+   ]
   },
   {
    "cargo": "Lider de Proyectos PMI - Tecnologia ( Sector Financiero)",
@@ -4931,20 +5001,18 @@
      "nota": "programacion"
     },
     {
-     "concepto": "salario publicado igual o sobre $3.500.000",
+     "concepto": "salario publicado igual o sobre $4.000.000",
      "puntos": 12,
      "nota": "4.500.000 COP"
     }
    ],
    "puntaje": 24,
-   "ausencias": 1,
+   "ausencias": 0,
    "nueva": false,
    "visto_desde": "2026-09-01",
    "republicaciones": 0,
-   "reapariciones": 0,
-   "marcas": [
-    "no apareció hoy en la fuente (1 de 3)"
-   ]
+   "reapariciones": 1,
+   "reaparecida": true
   },
   {
    "cargo": "Profesional de infraestructura Tecnológica",
@@ -5533,14 +5601,12 @@
     }
    ],
    "puntaje": 22,
-   "ausencias": 1,
+   "ausencias": 0,
    "nueva": false,
    "visto_desde": "2026-09-01",
    "republicaciones": 0,
-   "reapariciones": 0,
-   "marcas": [
-    "no apareció hoy en la fuente (1 de 3)"
-   ]
+   "reapariciones": 1,
+   "reaparecida": true
   },
   {
    "cargo": "Coordinador Administrativo",
@@ -6028,13 +6094,13 @@
     }
    ],
    "puntaje": 22,
-   "ausencias": 1,
+   "ausencias": 2,
    "nueva": false,
    "visto_desde": "2026-09-01",
    "republicaciones": 0,
    "reapariciones": 0,
    "marcas": [
-    "no apareció hoy en la fuente (1 de 3)"
+    "no apareció hoy en la fuente (2 de 3)"
    ]
   },
   {
@@ -8218,6 +8284,64 @@
    "reapariciones": 1
   },
   {
+   "cargo": "Ingeniero de Sistemas Product Manager - 4 años de experiencia",
+   "empresa": "CENTRO DE EMPLEO Y TALENTO COLSUBSIDIO",
+   "empresa_anonima": false,
+   "ciudad": "Bogotá, D.C.",
+   "salario": {
+    "min": 12000000.0,
+    "max": 12000000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-09-01",
+   "vigente_hasta": "2026-10-31",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": "7AA3FDE1981F3DFE",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "computrabajo",
+     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ingeniero-de-sistemas-product-manager-4-anos-de-experiencia-en-bogota-dc-6C0BC49726643B5661373E686DCF3405",
+     "id_fuente": "7AA3FDE1981F3DFE"
+    }
+   ],
+   "inc": [],
+   "deducidos": [],
+   "modalidad": "híbrido",
+   "modalidad_literal": "Remoto",
+   "modalidad_por_confirmar": false,
+   "id": "centro de empleo y talento colsubsidio|ingeniero de sistemas product manager 4 anos de experiencia|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "salario publicado igual o sobre $4.000.000",
+     "puntos": 12,
+     "nota": "12.000.000 COP"
+    },
+    {
+     "concepto": "publicada hace menos de 3 días",
+     "puntos": 10,
+     "nota": "hace 0 día(s)"
+    },
+    {
+     "concepto": "exige ingles b2",
+     "puntos": -10,
+     "nota": "el perfil no lo domina — se muestra igual: muchos avisos lo piden como «deseable» y luego no lo evalúan"
+    }
+   ],
+   "puntaje": 12,
+   "ausencias": 0,
+   "nueva": true,
+   "visto_desde": "2026-09-01",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
+  {
    "cargo": "Jefe Sistemas Información",
    "empresa": "CLARO COLOMBIA",
    "empresa_anonima": false,
@@ -8441,12 +8565,14 @@
     }
    ],
    "puntaje": 12,
-   "ausencias": 0,
+   "ausencias": 1,
    "nueva": false,
    "visto_desde": "2026-09-01",
    "republicaciones": 0,
    "reapariciones": 1,
-   "reaparecida": true
+   "marcas": [
+    "no apareció hoy en la fuente (1 de 3)"
+   ]
   },
   {
    "cargo": "Profesor Ingeniería software - Acompañamiento de Prácticas Profesionales",
@@ -9356,8 +9482,7 @@
    "nueva": false,
    "visto_desde": "2026-09-01",
    "republicaciones": 0,
-   "reapariciones": 1,
-   "reaparecida": true
+   "reapariciones": 1
   },
   {
    "cargo": "Ingeniero(a) de Telecomunicaciones / Especialista en Sistemas RF",
@@ -9796,11 +9921,14 @@
     }
    ],
    "puntaje": -3,
-   "ausencias": 0,
+   "ausencias": 1,
    "nueva": false,
    "visto_desde": "2026-09-01",
    "republicaciones": 0,
-   "reapariciones": 0
+   "reapariciones": 0,
+   "marcas": [
+    "no apareció hoy en la fuente (1 de 3)"
+   ]
   },
   {
    "cargo": "Coordinador de Transporte Escolar",
