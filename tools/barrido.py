@@ -924,6 +924,32 @@ def puntuar(a, cri, bus):
 
 # ─────────────────────────────────────────────────────────── diferencial diario
 
+def ya_no_cumple(a, cri):
+    """¿Este aviso de ayer hoy quedaría fuera por criterio, mirando su título?
+
+    El filtrado por criterio ocurre en DOS sitios: dentro de cada adaptador
+    (antes de pedir el detalle, para no gastar peticiones) y al final, con el
+    cuerpo en mano. Solo el segundo alimentaba la lista de descartados, así que
+    al cambiar un criterio los avisos filtrados dentro del adaptador parecían
+    «desaparecidos de la fuente» y salían marcados como ausentes o caídos.
+    Revisar el título de los de ayer los atrapa venga de donde venga el filtro.
+
+    Se queda en el título a propósito: el cuerpo ya no se guarda, y ante la duda
+    conviene NO declarar que algo se cayó.
+    """
+    cargo = a.get("cargo") or ""
+    if cri.empresa_vetada(a.get("empresa")):
+        return True
+    if cri.tema_excluido(cargo) and not cri.es_objetivo(cargo):
+        return True
+    if cri.es_excluido(cargo) and not cri.es_objetivo(cargo):
+        return True
+    if cri.nivel(cargo) == "bajo" and not cri.es_objetivo(cargo):
+        return True
+    return not (cri.es_objetivo(cargo) or cri.titulo_relevante(cargo)
+                or cri.es_secundario(cargo))
+
+
 def diferencial(hoy_avisos, anterior, olvido_dias=45, descartados_ids=(), ausencias_max=2):
     """Clasifica el movimiento del día. Confundir categorías es el fallo caro.
 
@@ -1120,7 +1146,11 @@ def main():
         ids_descartados.add(ident)
     for prev in ((anterior or {}).get("vigentes", [])
                  + (anterior or {}).get("caidas", [])):
+        # por coincidencia con lo descartado hoy…
         if base(prev["id"]) in bases:
+            ids_descartados.add(prev["id"])
+        # …y también si el criterio cambió y ya no lo admite.
+        elif ya_no_cumple(prev, cri):
             ids_descartados.add(prev["id"])
     dif = diferencial(avisos, anterior, bus["umbrales"]["dias_para_olvidar_caidas"],
                       ids_descartados, bus["umbrales"]["ausencias_para_declarar_caida"])
