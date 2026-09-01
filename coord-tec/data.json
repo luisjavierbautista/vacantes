@@ -1,18 +1,18 @@
 {
  "busqueda": "coord-tec",
  "corrida": "2026-09-01",
- "corrida_hora": "2026-09-01 14:43",
+ "corrida_hora": "2026-09-01 19:49",
  "fuentes": {
   "elempleo": {
-   "avisos": 33,
+   "avisos": 48,
    "error": null
   },
   "computrabajo": {
-   "avisos": 50,
+   "avisos": 56,
    "error": null
   },
   "workday": {
-   "avisos": 6,
+   "avisos": 7,
    "error": null
   },
   "greenhouse": {
@@ -20,7 +20,7 @@
    "error": null
   },
   "arbeitnow": {
-   "avisos": 9,
+   "avisos": 6,
    "error": null
   },
   "apify_linkedin": {
@@ -34,16 +34,20 @@
    "motivo": "HTTP 410"
   }
  ],
- "avisos_recogidos": 157,
- "descartados": 56,
- "fusionados": [],
- "nuevas": [],
- "reaparecidas": [
-  "jahv mc gregor|coordinador tecnico proyectos tic y conectividad|bogota",
-  "dhl supply chain|coordinador sistemas operativos|bogota",
-  "jahv mc gregor|gerente de proyecto proyectos tic y conectividad|bogota"
+ "avisos_recogidos": 176,
+ "descartados": 60,
+ "fusionados": [
+  {
+   "conservado": "coordinador (a) de sistemas operativos",
+   "absorbido": "Coordinador Sistemas Operativos (Super Usuarios)",
+   "parecido": 1.0
+  }
  ],
- "ausentes": [
+ "nuevas": [
+  "jahv mc gregor|coordinador administrativo proyectos tic|bogota",
+  "jahv mc gregor|documentador proyectos tic y telecomunicaciones|bogota"
+ ],
+ "reaparecidas": [
   "tsg the it experts|administrador de sistemas operativos unix aix iseries|bogota",
   "selcomp ingenieria|especialista administrador de plataforma microsoft|bogota",
   "dhl supply chain|coordinador de sistemas operativos|bogota",
@@ -58,6 +62,10 @@
   "empresa no revelada|gerente de servicios junior de ti o coordinador de servicios de ti 100|bogota#anon:0-0-2026-07-23",
   "ropim|ingeniero de sistemas con dos anos de experiencia|bogota alrededores",
   "global|ingeniero de sistemas siesa mosquera funza madrid|bogota alrededores"
+ ],
+ "ausentes": [
+  "empresa no revelada|help desk analyst n1 24 7|bogota#anon:0-0-2026-09-01",
+  "dhl supply chain|coordinador sistemas operativos|bogota"
  ],
  "republicadas": [],
  "vigentes": [
@@ -318,14 +326,12 @@
     }
    ],
    "puntaje": 49,
-   "ausencias": 1,
+   "ausencias": 0,
    "nueva": false,
    "visto_desde": "2026-09-01",
    "republicaciones": 0,
-   "reapariciones": 0,
-   "marcas": [
-    "no apareció hoy en la fuente (1 de 2)"
-   ]
+   "reapariciones": 1,
+   "reaparecida": true
   },
   {
    "cargo": "Coordinador Tecnico - Facatativa",
@@ -439,14 +445,12 @@
     }
    ],
    "puntaje": 49,
-   "ausencias": 1,
+   "ausencias": 0,
    "nueva": false,
    "visto_desde": "2026-09-01",
    "republicaciones": 0,
-   "reapariciones": 0,
-   "marcas": [
-    "no apareció hoy en la fuente (1 de 2)"
-   ]
+   "reapariciones": 1,
+   "reaparecida": true
   },
   {
    "cargo": "coordinador (a) de sistemas operativos",
@@ -510,14 +514,12 @@
     }
    ],
    "puntaje": 49,
-   "ausencias": 1,
+   "ausencias": 0,
    "nueva": false,
    "visto_desde": "2026-09-01",
    "republicaciones": 0,
-   "reapariciones": 0,
-   "marcas": [
-    "no apareció hoy en la fuente (1 de 2)"
-   ]
+   "reapariciones": 1,
+   "reaparecida": true
   },
   {
    "cargo": "Experto Técnico Jr - Líder Técnico CTO FIJO 1año",
@@ -953,14 +955,12 @@
     }
    ],
    "puntaje": 37,
-   "ausencias": 1,
+   "ausencias": 0,
    "nueva": false,
    "visto_desde": "2026-09-01",
    "republicaciones": 0,
-   "reapariciones": 0,
-   "marcas": [
-    "no apareció hoy en la fuente (1 de 2)"
-   ]
+   "reapariciones": 1,
+   "reaparecida": true
   },
   {
    "cargo": "Administrador de Plataforma SalesForce",
@@ -1011,14 +1011,12 @@
     }
    ],
    "puntaje": 37,
-   "ausencias": 1,
+   "ausencias": 0,
    "nueva": false,
    "visto_desde": "2026-09-01",
    "republicaciones": 0,
-   "reapariciones": 0,
-   "marcas": [
-    "no apareció hoy en la fuente (1 de 2)"
-   ]
+   "reapariciones": 1,
+   "reaparecida": true
   },
   {
    "cargo": "Administrador de Plataformas SAP",
@@ -1069,14 +1067,12 @@
     }
    ],
    "puntaje": 37,
-   "ausencias": 1,
+   "ausencias": 0,
    "nueva": false,
    "visto_desde": "2026-09-01",
    "republicaciones": 0,
-   "reapariciones": 0,
-   "marcas": [
-    "no apareció hoy en la fuente (1 de 2)"
-   ]
+   "reapariciones": 1,
+   "reaparecida": true
   },
   {
    "cargo": "Administrador de plataforma AWS",
@@ -1546,8 +1542,7 @@
    "id": "empresa no revelada|especialista administrador de plataforma microsoft|bogota#anon:5500001-6000000-2026-08-20",
    "duplicados_hoy": 1,
    "marcas": [
-    "empresa no revelada: puede estar repetida",
-    "no apareció hoy en la fuente (1 de 2)"
+    "empresa no revelada: puede estar repetida"
    ],
    "desglose": [
     {
@@ -1562,11 +1557,12 @@
     }
    ],
    "puntaje": 37,
-   "ausencias": 1,
+   "ausencias": 0,
    "nueva": false,
    "visto_desde": "2026-09-01",
    "republicaciones": 0,
-   "reapariciones": 0
+   "reapariciones": 1,
+   "reaparecida": true
   },
   {
    "cargo": "Experto Técnico Sr. rol Líder Técnico - Aplicaciones",
@@ -1677,14 +1673,12 @@
     }
    ],
    "puntaje": 37,
-   "ausencias": 1,
+   "ausencias": 0,
    "nueva": false,
    "visto_desde": "2026-09-01",
    "republicaciones": 0,
-   "reapariciones": 0,
-   "marcas": [
-    "no apareció hoy en la fuente (1 de 2)"
-   ]
+   "reapariciones": 1,
+   "reaparecida": true
   },
   {
    "cargo": "Líder Técnico",
@@ -2091,8 +2085,7 @@
    "id": "empresa no revelada|administrador de plataformas|bogota#anon:0-0-2026-07-10",
    "duplicados_hoy": 1,
    "marcas": [
-    "empresa no revelada: puede estar repetida",
-    "no apareció hoy en la fuente (1 de 2)"
+    "empresa no revelada: puede estar repetida"
    ],
    "desglose": [
     {
@@ -2112,11 +2105,12 @@
     }
    ],
    "puntaje": 37,
-   "ausencias": 1,
+   "ausencias": 0,
    "nueva": false,
    "visto_desde": "2026-09-01",
    "republicaciones": 0,
-   "reapariciones": 0
+   "reapariciones": 1,
+   "reaparecida": true
   },
   {
    "cargo": "coordinador de sistemas y tecnología - Bogota",
@@ -2289,8 +2283,7 @@
    "nueva": false,
    "visto_desde": "2026-09-01",
    "republicaciones": 0,
-   "reapariciones": 1,
-   "reaparecida": true
+   "reapariciones": 1
   },
   {
    "cargo": "Líder Técnico Cloud / DevSecOps",
@@ -2762,7 +2755,8 @@
    "id": "empresa no revelada|help desk analyst n1 24 7|bogota#anon:0-0-2026-09-01",
    "duplicados_hoy": 1,
    "marcas": [
-    "empresa no revelada: puede estar repetida"
+    "empresa no revelada: puede estar repetida",
+    "no apareció hoy en la fuente (1 de 2)"
    ],
    "desglose": [
     {
@@ -2792,7 +2786,7 @@
     }
    ],
    "puntaje": 27,
-   "ausencias": 0,
+   "ausencias": 1,
    "nueva": false,
    "visto_desde": "2026-09-01",
    "republicaciones": 0,
@@ -3382,14 +3376,12 @@
     }
    ],
    "puntaje": 24,
-   "ausencias": 1,
+   "ausencias": 0,
    "nueva": false,
    "visto_desde": "2026-09-01",
    "republicaciones": 0,
-   "reapariciones": 0,
-   "marcas": [
-    "no apareció hoy en la fuente (1 de 2)"
-   ]
+   "reapariciones": 1,
+   "reaparecida": true
   },
   {
    "cargo": "Coordinador Administrativo - Experiencia sector Humanitario",
@@ -3505,12 +3497,14 @@
     }
    ],
    "puntaje": 24,
-   "ausencias": 0,
+   "ausencias": 1,
    "nueva": false,
    "visto_desde": "2026-09-01",
    "republicaciones": 0,
    "reapariciones": 1,
-   "reaparecida": true
+   "marcas": [
+    "no apareció hoy en la fuente (1 de 2)"
+   ]
   },
   {
    "cargo": "Coordinador de BI y Analítica",
@@ -3547,8 +3541,7 @@
    "id": "empresa no revelada|coordinador de bi y analitica|bogota#anon:6000001-8000000-2026-07-09",
    "duplicados_hoy": 1,
    "marcas": [
-    "empresa no revelada: puede estar repetida",
-    "no apareció hoy en la fuente (1 de 2)"
+    "empresa no revelada: puede estar repetida"
    ],
    "desglose": [
     {
@@ -3568,11 +3561,12 @@
     }
    ],
    "puntaje": 24,
-   "ausencias": 1,
+   "ausencias": 0,
    "nueva": false,
    "visto_desde": "2026-09-01",
    "republicaciones": 0,
-   "reapariciones": 0
+   "reapariciones": 1,
+   "reaparecida": true
   },
   {
    "cargo": "Coordinador(a) Administrativo(a) de Gerencia",
@@ -4268,6 +4262,67 @@
    "reapariciones": 0
   },
   {
+   "cargo": "COORDINADOR(A) ADMINISTRATIVO(A) - PROYECTOS TIC",
+   "empresa": "JAHV MC GREGOR S.A.S",
+   "empresa_anonima": false,
+   "ciudad": "Bogotá D.C.",
+   "salario": null,
+   "publicado": "2026-09-01",
+   "vigente_hasta": "2026-10-31",
+   "contrato": "CONTRACTOR",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/coordinadora-administrativoa-proyectos-tic-1886760443",
+     "id_fuente": null
+    }
+   ],
+   "inc": [
+    "salario",
+    "modalidad"
+   ],
+   "deducidos": [],
+   "modalidad": null,
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "jahv mc gregor|coordinador administrativo proyectos tic|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "cargo secundario de RR.HH.",
+     "puntos": 0,
+     "nota": "solo suma si el cuerpo habla de compensación"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "gestion de proyectos"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    },
+    {
+     "concepto": "publicada hace menos de 3 días",
+     "puntos": 10,
+     "nota": "hace 0 día(s)"
+    }
+   ],
+   "puntaje": 22,
+   "ausencias": 0,
+   "nueva": true,
+   "visto_desde": "2026-09-01",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
+  {
    "cargo": "Coordinador Administrativo",
    "empresa": "GRUPO AZER",
    "empresa_anonima": false,
@@ -4644,6 +4699,62 @@
    "reapariciones": 0
   },
   {
+   "cargo": "DOCUMENTADOR(A) - PROYECTOS TIC Y TELECOMUNICACIONES",
+   "empresa": "JAHV MC GREGOR S.A.S",
+   "empresa_anonima": false,
+   "ciudad": "Bogotá D.C.",
+   "salario": null,
+   "publicado": "2026-09-01",
+   "vigente_hasta": "2026-10-31",
+   "contrato": "CONTRACTOR",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/documentadora-proyectos-tic-y-telecomunicaciones-1886760431",
+     "id_fuente": null
+    }
+   ],
+   "inc": [
+    "salario",
+    "modalidad"
+   ],
+   "deducidos": [],
+   "modalidad": null,
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "jahv mc gregor|documentador proyectos tic y telecomunicaciones|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "gestion documental"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    },
+    {
+     "concepto": "publicada hace menos de 3 días",
+     "puntos": 10,
+     "nota": "hace 0 día(s)"
+    }
+   ],
+   "puntaje": 22,
+   "ausencias": 0,
+   "nueva": true,
+   "visto_desde": "2026-09-01",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
+  {
    "cargo": "Docente de tecnologia y fisica - Sitio de trabajo en la 200",
    "empresa": "ORDEN DE LA COMPAÑIA DE MARIA NUESTRA SEÑORA",
    "empresa_anonima": false,
@@ -4757,8 +4868,7 @@
    "nueva": false,
    "visto_desde": "2026-09-01",
    "republicaciones": 0,
-   "reapariciones": 1,
-   "reaparecida": true
+   "reapariciones": 1
   },
   {
    "cargo": "Líder Técnico(a) Inteligencia Artificial Senior REE",
@@ -5428,8 +5538,7 @@
    "id": "empresa no revelada|gerente de servicios junior de ti o coordinador de servicios de ti 100|bogota#anon:0-0-2026-07-23",
    "duplicados_hoy": 1,
    "marcas": [
-    "empresa no revelada: puede estar repetida",
-    "no apareció hoy en la fuente (1 de 2)"
+    "empresa no revelada: puede estar repetida"
    ],
    "desglose": [
     {
@@ -5449,11 +5558,12 @@
     }
    ],
    "puntaje": 12,
-   "ausencias": 1,
+   "ausencias": 0,
    "nueva": false,
    "visto_desde": "2026-09-01",
    "republicaciones": 0,
-   "reapariciones": 0
+   "reapariciones": 1,
+   "reaparecida": true
   },
   {
    "cargo": "Ingeniero de Sistemas - Business Intelligence (BI)",
@@ -5550,14 +5660,12 @@
     }
    ],
    "puntaje": 12,
-   "ausencias": 1,
+   "ausencias": 0,
    "nueva": false,
    "visto_desde": "2026-09-01",
    "republicaciones": 0,
-   "reapariciones": 0,
-   "marcas": [
-    "no apareció hoy en la fuente (1 de 2)"
-   ]
+   "reapariciones": 1,
+   "reaparecida": true
   },
   {
    "cargo": "Ingeniero de sistemas siesa - Mosquera, Funza, Madrid",
@@ -5603,14 +5711,12 @@
     }
    ],
    "puntaje": 12,
-   "ausencias": 1,
+   "ausencias": 0,
    "nueva": false,
    "visto_desde": "2026-09-01",
    "republicaciones": 0,
-   "reapariciones": 0,
-   "marcas": [
-    "no apareció hoy en la fuente (1 de 2)"
-   ]
+   "reapariciones": 1,
+   "reaparecida": true
   },
   {
    "cargo": "Licenciado en Tecnología",
