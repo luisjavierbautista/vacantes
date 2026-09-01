@@ -52,7 +52,59 @@
       "avanzado": [
         "inglés"
       ],
-      "_nota": "Exigir inglés NO penaliza: es una ventaja. Portugués o francés obligatorios sí restan."
+      "_nota": "Exigir inglés NO penaliza: es una ventaja. Portugués o francés obligatorios sí restan.",
+      "penalizan": [
+        "portugues",
+        "portuguese",
+        "frances",
+        "french"
+      ]
+    },
+    "niveles": {
+      "aceptado": [
+        "gerente",
+        "jefe",
+        "director",
+        "directora",
+        "lider",
+        "leader",
+        "lead",
+        "head",
+        "manager",
+        "coordinador",
+        "coordinadora",
+        "senior",
+        "sr",
+        "principal",
+        "superintendente",
+        "subgerente",
+        "associate director",
+        "vp",
+        "vicepresidente",
+        "chief"
+      ],
+      "por_debajo": [
+        "auxiliar",
+        "asistente",
+        "practicante",
+        "aprendiz",
+        "pasante",
+        "becario",
+        "estudiante",
+        "tecnico",
+        "tecnologo",
+        "operario",
+        "operador",
+        "junior",
+        "jr",
+        "trainee",
+        "intern",
+        "analista",
+        "assistant",
+        "clerk",
+        "especialista junior"
+      ],
+      "_nota": "«por_debajo» no es un castigo de puntaje: es que el aviso no es para este perfil. Un cargo que trae a la vez una palabra de «aceptado» y una de «por_debajo» («Analista Senior») queda indeterminado y NO se descarta."
     }
   },
   "cargos": {
@@ -136,7 +188,25 @@
       "operario",
       "call center"
     ],
-    "_nota_excluidos": "El cargo actual del perfil es Business Development. Es el dato más importante: un aviso de venta en una empresa buenísima sigue siendo un aviso equivocado."
+    "_nota_excluidos": "El cargo actual del perfil es Business Development. Es el dato más importante: un aviso de venta en una empresa buenísima sigue siendo un aviso equivocado.",
+    "palabras_titulo": [
+      "compensacion",
+      "compensaciones",
+      "compensation",
+      "total rewards",
+      "rewards",
+      "reward",
+      "remuneracion",
+      "remuneration",
+      "retribucion",
+      "salarial",
+      "salariales",
+      "c b",
+      "comp ben",
+      "payroll benefits",
+      "job evaluation",
+      "valoracion de cargos"
+    ]
   },
   "exclusiones_tematicas": {
     "patrones": [
@@ -298,10 +368,10 @@
     "publicada_hace_menos_de_3_dias": 10,
     "cargo_de_ventas_o_seleccion": -25,
     "salario_publicado_bajo_piso": -15,
-    "exige_portugues_o_frances": -10,
     "startup_etapa_temprana": -8,
     "multinacional_estadounidense": -5,
-    "_nota": "Los pesos viven aquí, no en el código. El puntaje solo ORDENA: ninguna vacante se filtra por puntaje bajo. Si un componente no se puede evaluar por falta de dato, vale CERO y se dice — nunca se penaliza la ausencia de dato."
+    "_nota": "Los pesos viven aquí, no en el código. El puntaje solo ORDENA: ninguna vacante se filtra por puntaje bajo. Si un componente no se puede evaluar por falta de dato, vale CERO y se dice — nunca se penaliza la ausencia de dato.",
+    "exige_idioma_que_no_domina": -10
   },
   "fuentes": {
     "elempleo": {
@@ -312,9 +382,11 @@
         "https://www.elempleo.com/colombia/files/sitemap/sitemap-resultados-cargo.xml",
         "https://www.elempleo.com/colombia/files/sitemap/sitemap-resultados-ciudad-cargo.xml"
       ],
-      "landing_area_rrhh": "https://www.elempleo.com/co/ofertas-empleo/area-recursos-humanos-admon-personal",
       "_robots": "Verificado 2026-08-28. /busqueda? está prohibido: NO se usa la búsqueda con query. Se usan las landings por RUTA que el propio sitemap publica.",
-      "_verificado": "JSON-LD JobPosting completo: title, description, datePosted, validThrough, baseSalary min/max COP, hiringOrganization, jobLocation."
+      "_verificado": "JSON-LD JobPosting completo: title, description, datePosted, validThrough, baseSalary min/max COP, hiringOrganization, jobLocation.",
+      "landings_area": [
+        "https://www.elempleo.com/co/ofertas-empleo/area-recursos-humanos-admon-personal"
+      ]
     },
     "computrabajo": {
       "activa": true,
@@ -434,6 +506,11 @@
             "SantanderCareers"
           ]
         }
+      ],
+      "terminos": [
+        "compensation",
+        "rewards",
+        "compensacion"
       ]
     },
     "greenhouse": {

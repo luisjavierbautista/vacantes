@@ -11,7 +11,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: corrida-comp-ben
+  group: corrida-vacantes
   cancel-in-progress: false
 
 jobs:
@@ -28,30 +28,45 @@ jobs:
       - name: Barrido
         env:
           APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
-        run: python3 tools/barrido.py --busqueda comp-ben
+        run: |
+          for b in $(ls busquedas/*.json | xargs -n1 basename | sed 's/\.json$//'); do
+            echo "── $b ──"
+            python3 tools/barrido.py --busqueda "$b"
+          done
         # barrido.py devuelve 1 si el freno del 40% se dispara: el paso falla
         # y no se publica nada. Es lo que queremos.
 
       - name: Render y portada
         run: |
-          python3 tools/render.py --busqueda comp-ben
+          for b in $(ls busquedas/*.json | xargs -n1 basename | sed 's/\.json$//'); do
+            echo "── $b ──"
+            python3 tools/render.py --busqueda "$b"
+          done
           python3 tools/portada.py
 
       - name: Chequeo previo al push
-        run: python3 tools/chequeo.py --busqueda comp-ben
+        run: |
+          for b in $(ls busquedas/*.json | xargs -n1 basename | sed 's/\.json$//'); do
+            echo "── $b ──"
+            python3 tools/chequeo.py --busqueda "$b"
+          done
 
       - name: Commit y push
         run: |
           git config user.name  "corrida-diaria"
           git config user.email "corrida-diaria@users.noreply.github.com"
-          git add comp-ben/data.json comp-ben/index.html index.html
+          git add */data.json */index.html index.html
           if git diff --cached --quiet; then
             echo "Nada cambió respecto de ayer."
             exit 0
           fi
           git commit -m "Corrida $(date -u +%F): $(python3 -c "
-          import json;d=json.load(open('comp-ben/data.json'))
-          print(f\"{len(d['vigentes'])} vigentes, {len(d['nuevas'])} nuevas, {len(d['caidas'])} caídas\")")"
+          import json,glob
+          partes=[]
+          for f in sorted(glob.glob('*/data.json')):
+              d=json.load(open(f))
+              partes.append(f\"{d['busqueda']} {len(d['vigentes'])}v/{len(d['nuevas'])}n\")
+          print(' · '.join(partes))")"
           # Nunca --force. Si el push falla, se reintenta UNA vez con rebase.
           if ! git push; then
             echo "Push rechazado; reintento con rebase."

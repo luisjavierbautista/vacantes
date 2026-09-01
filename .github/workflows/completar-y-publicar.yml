@@ -16,7 +16,7 @@ permissions:
   id-token: write
 
 concurrency:
-  group: publicar-comp-ben
+  group: publicar-vacantes
   cancel-in-progress: false
 
 jobs:
@@ -36,22 +36,33 @@ jobs:
       - name: Traslados (solo donde hay dirección real)
         env:
           LLAVE_RUTAS: ${{ secrets.LLAVE_RUTAS }}
-        run: python3 tools/traslados.py --busqueda comp-ben
+        run: |
+          for b in $(ls busquedas/*.json | xargs -n1 basename | sed 's/\.json$//'); do
+            echo "── $b ──"
+            python3 tools/traslados.py --busqueda "$b"
+          done
         # Sin llave no falla: deja los campos marcados como «pendiente».
 
       - name: Volver a renderizar
         run: |
-          python3 tools/render.py --busqueda comp-ben
+          for b in $(ls busquedas/*.json | xargs -n1 basename | sed 's/\.json$//'); do
+            echo "── $b ──"
+            python3 tools/render.py --busqueda "$b"
+          done
           python3 tools/portada.py
 
       - name: Chequeo previo al push
-        run: python3 tools/chequeo.py --busqueda comp-ben
+        run: |
+          for b in $(ls busquedas/*.json | xargs -n1 basename | sed 's/\.json$//'); do
+            echo "── $b ──"
+            python3 tools/chequeo.py --busqueda "$b"
+          done
 
       - name: Commit si algo cambió
         run: |
           git config user.name  "corrida-diaria"
           git config user.email "corrida-diaria@users.noreply.github.com"
-          git add comp-ben/data.json comp-ben/index.html index.html
+          git add */data.json */index.html index.html
           git diff --cached --quiet && echo "Sin cambios." && exit 0
           git commit -m "Traslados y render $(date -u +%F)"
           if ! git push; then

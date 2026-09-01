@@ -21,41 +21,47 @@ import comun as c
 # ──────────────────────────────────────────────────── criterios (leídos del JSON)
 
 class Criterios:
-    """Envuelve el JSON de la búsqueda. No decide nada por su cuenta."""
+    """Envuelve el JSON de la búsqueda. No decide nada por su cuenta.
 
-    # Cargos por debajo de jefatura. El perfil pide 10+ años y descarta
-    # explícitamente «cualquier cargo bajo jefatura»: no es un castigo de
-    # puntaje, es que el aviso no es para ella.
-    BAJO_JEFATURA = re.compile(
-        r"\b(auxiliar|asistente|practicante|aprendiz|pasante|becario|estudiante|"
-        r"tecnico|tecnologo|operario|operador|junior|jr|trainee|intern|"
-        r"analista|assistant|clerk|especialista junior)\b")
+    Todo lo del oficio vive en el JSON, incluidas las tres cosas que antes
+    estaban aquí quemadas: qué palabras del título delatan el dominio, qué
+    cargos quedan por debajo del nivel que la persona busca, y qué idiomas le
+    restan. Cambian por completo entre búsquedas —para un perfil de
+    compensación «analista» es un no y el idioma que resta es el portugués;
+    para uno de sistemas «analista» puede servir y el que resta es el inglés—,
+    así que no pueden vivir en el código.
+    """
 
-    # Un aviso entra al barrido por su TÍTULO, no por su cuerpo. Casi todo
-    # aviso de ventas menciona «compensación variable» en el cuerpo; si el
-    # cuerpo bastara para entrar, la página sería un tablero de vacantes
-    # comerciales. El cuerpo se usa para PUNTUAR, no para incluir.
-    TITULO_COMPENSACION = re.compile(
-        r"\b(compensacion|compensaciones|compensation|total rewards|rewards|"
-        r"reward|remuneracion|remuneration|retribucion|salarial|salariales|"
-        r"c b|comp ben|payroll benefits|job evaluation|valoracion de cargos)\b")
-
-    SENIORITY = re.compile(
-        r"\b(gerente|jefe|director|directora|lider|leader|lead|head|manager|"
-        r"coordinador|coordinadora|senior|sr|principal|superintendente|"
-        r"subgerente|associate director|vp|vicepresidente|chief)\b")
+    @staticmethod
+    def _rx(terminos):
+        """Regex de palabras completas a partir de una lista del JSON."""
+        partes = [re.escape(c.normalizar(t)) for t in (terminos or []) if t]
+        if not partes:
+            return re.compile(r"(?!x)x")          # no casa con nada
+        return re.compile(r"\b(" + "|".join(partes) + r")\b")
 
     def __init__(self, bus):
         self.bus = bus
         self.objetivo = [c.normalizar(x) for x in bus["cargos"]["objetivo"]]
-        self.secundarios = [c.normalizar(x) for x in bus["cargos"]["secundarios"]]
+        self.secundarios = [c.normalizar(x) for x in bus["cargos"].get("secundarios", [])]
         self.excluidos = [c.normalizar(x) for x in bus["cargos"]["excluidos"]]
-        self.tematicas = [c.normalizar(x) for x in bus["exclusiones_tematicas"]["patrones"]]
+        self.tematicas = [c.normalizar(x)
+                          for x in bus.get("exclusiones_tematicas", {}).get("patrones", [])]
         self.palabras = [c.normalizar(x) for x in bus["palabras_cuerpo"]]
         self.vetadas = [c.normalizar_empresa(x) for x in bus["empresas"]["vetadas"]]
-        self.euro = [c.normalizar_empresa(x) for x in bus["empresas"]["objetivo_europeas"]]
-        self.latam = [c.normalizar_empresa(x) for x in bus["empresas"]["objetivo_latam"]]
+        self.euro = [c.normalizar_empresa(x)
+                     for x in bus["empresas"].get("objetivo_europeas", [])]
+        self.latam = [c.normalizar_empresa(x)
+                      for x in bus["empresas"].get("objetivo_latam", [])]
         self.piso = bus["salario"]["piso"]
+
+        niveles = bus["perfil"].get("niveles", {})
+        self.BAJO_JEFATURA = self._rx(niveles.get("por_debajo"))
+        self.SENIORITY = self._rx(niveles.get("aceptado"))
+        self.TITULO_DOMINIO = self._rx(bus["cargos"].get("palabras_titulo"))
+        self.idiomas_penalizados = [
+            c.normalizar(x)
+            for x in (bus["perfil"].get("idiomas", {}).get("penalizan") or [])]
 
     # -- cargo --------------------------------------------------------------
     def es_objetivo(self, cargo):
@@ -81,9 +87,14 @@ class Criterios:
         return "indeterminado"
 
     def titulo_relevante(self, cargo):
-        """¿El título dice, por sí solo, que esto es de compensación?"""
-        n = c.normalizar_cargo(cargo)
-        return bool(self.TITULO_COMPENSACION.search(n))
+        """¿El título dice, por sí solo, que esto es del dominio que se busca?
+
+        Un aviso entra por su TÍTULO, no por su cuerpo. Casi todo aviso de
+        ventas menciona «compensación variable» en el cuerpo; si el cuerpo
+        bastara para entrar, la página sería un tablero de vacantes ajenas.
+        El cuerpo se usa para PUNTUAR, no para incluir.
+        """
+        return bool(self.TITULO_DOMINIO.search(c.normalizar_cargo(cargo)))
 
     def tema_excluido(self, texto):
         n = c.normalizar(texto)
@@ -164,7 +175,8 @@ def fuente_elempleo(desc, bus, cri, limites):
             if cri.es_objetivo(slug) or cri.titulo_relevante(slug):
                 landings.append(loc)
     landings = list(dict.fromkeys(landings))
-    landings.insert(0, cfg["landing_area_rrhh"])
+    # Las landings de área van primero: son el barrido de fondo del oficio.
+    landings = list(cfg.get("landings_area", [])) + landings
     landings = landings[: limites["landings"]]
     c.log(f"  elempleo: {len(landings)} landings por ruta")
 
@@ -327,7 +339,7 @@ def fuente_workday(desc, bus, cri, limites):
             raiz = f"https://{tenant}.{wd}.myworkdayjobs.com"
             url = f"{raiz}/wday/cxs/{tenant}/{sitio}/jobs"
             rutas = []
-            for termino in ("compensation", "rewards", "compensacion"):
+            for termino in cfg.get("terminos", []):
                 d = desc.json(url, cuerpo={"limit": 20, "offset": 0,
                                            "searchText": termino, "appliedFacets": {}})
                 if not d:
@@ -777,10 +789,6 @@ _LATAM = re.compile(r"\b(colombia|mexico|brazil|brasil|argentina|chile|peru|"
                     r"santiago|lima|monterrey)\b", re.I)
 _EEUU = re.compile(r"\b(united states|usa|u s a|new york|california|texas|"
                    r"massachusetts|illinois|new jersey|chicago|boston)\b", re.I)
-_OTRO_IDIOMA = re.compile(r"\b(portugues|portuguese|frances|french|"
-                          r"idioma portugues|nivel de frances)\b")
-
-
 def puntuar(a, cri, bus):
     """Puntaje explicable. Solo ORDENA: nada se esconde por puntaje bajo.
 
@@ -794,19 +802,28 @@ def puntuar(a, cri, bus):
     d = []
 
     def suma(concepto, puntos, nota=""):
+        """Anota un componente. Un peso ausente en el JSON DESACTIVA el componente.
+
+        Así una búsqueda nueva enciende y apaga criterios quitando o poniendo
+        pesos, sin tocar el código y sin que el desglose se llene de ceros que
+        no significan nada para ese perfil.
+        """
+        if puntos is None:
+            return
         d.append({"concepto": concepto, "puntos": puntos, "nota": nota})
 
     # cargo
     if cri.es_objetivo(a["cargo"]):
-        suma("cargo objetivo de compensación", P["cargo_objetivo"], a["cargo"])
+        suma("cargo objetivo de la búsqueda", P.get("cargo_objetivo"), a["cargo"])
     elif cri.es_secundario(a["cargo"]):
         suma("cargo secundario de RR.HH.", 0, "solo suma si el cuerpo habla de compensación")
     if cri.es_excluido(a["cargo"]):
-        suma("cargo de ventas, desarrollo de negocio o selección",
-             P["cargo_de_ventas_o_seleccion"], a["cargo"])
+        suma("cargo de la lista de excluidos",
+             P.get("cargo_de_ventas_o_seleccion"), a["cargo"])
 
     # origen de la empresa
-    origen = cri.origen_empresa(a["empresa"])
+    origen = (cri.origen_empresa(a["empresa"])
+              if P.get("multinacional_euro_latam") else None)
     sede = a.get("sede") or ""
     if not origen and sede:
         if _EUROPA.search(sede):
@@ -814,16 +831,19 @@ def puntuar(a, cri, bus):
         elif _LATAM.search(sede):
             origen = "latam"
     if origen in ("europea", "latam"):
-        suma(f"multinacional {origen}", P["multinacional_euro_latam"], sede or "por la lista objetivo")
+        suma(f"multinacional {origen}", P.get("multinacional_euro_latam"), sede or "por la lista objetivo")
     elif sede and _EEUU.search(sede):
-        suma("multinacional estadounidense", P["multinacional_estadounidense"], sede)
+        suma("multinacional estadounidense", P.get("multinacional_estadounidense"), sede)
+    elif not P.get("multinacional_euro_latam"):
+        pass                                    # esta búsqueda no puntúa el origen
     elif a.get("empresa_anonima"):
         suma("origen de la empresa", 0, "el aviso no revela la empresa: no suma ni resta")
     else:
         suma("origen de la empresa", 0, "no se pudo determinar: no suma ni resta")
 
-    if cri.origen_empresa(a["empresa"]):
-        suma("está en la lista de empresas objetivo", P["empresa_en_lista_objetivo"], a["empresa"])
+    if P.get("empresa_en_lista_objetivo") and cri.origen_empresa(a["empresa"]):
+        suma("está en la lista de empresas objetivo",
+             P.get("empresa_en_lista_objetivo"), a["empresa"])
 
     # modalidad. El peso premia «remoto confirmado», y confirmado quiere decir
     # remoto PARA ELLA. Un beneficio de «home office» en un puesto de Budapest
@@ -835,7 +855,7 @@ def puntuar(a, cri, bus):
     if a.get("modalidad") == "remoto" and c.clasificar_modalidad("", cuerpo)[0] == "remoto":
         if alcanza:
             suma("remoto confirmado en el cuerpo del aviso",
-                 P["remoto_confirmado_en_cuerpo"], a.get("modalidad_literal") or "")
+                 P.get("remoto_confirmado_en_cuerpo"), a.get("modalidad_literal") or "")
         else:
             suma("remoto, pero anclado a " + pais_a, 0,
                  f"«{a.get('modalidad_literal') or 'remoto'}» en un aviso de {pais_a}: "
@@ -846,10 +866,10 @@ def puntuar(a, cri, bus):
     # palabras técnicas
     tec = cri.toca_compensacion(cuerpo)
     if tec:
-        suma("el cuerpo menciona técnica de compensación",
-             P["palabras_tecnicas_en_cuerpo"], ", ".join(tec[:6]))
+        suma("el cuerpo menciona la técnica del oficio",
+             P.get("palabras_tecnicas_en_cuerpo"), ", ".join(tec[:6]))
     elif not cuerpo:
-        suma("técnica de compensación en el cuerpo", 0,
+        suma("técnica del oficio en el cuerpo", 0,
              "el aviso no publica cuerpo: no suma ni resta")
 
     # salario
@@ -863,31 +883,38 @@ def puntuar(a, cri, bus):
             suma("salario", 0, f"publicado en {moneda}: no se convierte ni se compara")
         elif tope >= piso:
             suma(f"salario publicado igual o sobre ${piso:,.0f}".replace(",", "."),
-                 P["salario_publicado_sobre_piso"], f"{tope:,.0f} COP".replace(",", "."))
+                 P.get("salario_publicado_sobre_piso"), f"{tope:,.0f} COP".replace(",", "."))
         else:
             suma(f"salario publicado por debajo de ${piso:,.0f}".replace(",", "."),
-                 P["salario_publicado_bajo_piso"],
+                 P.get("salario_publicado_bajo_piso"),
                  f"{tope:,.0f} COP — se muestra igual: el publicado casi nunca es el negociado"
                  .replace(",", "."))
 
     # frescura
     dias = c.dias_desde(a.get("publicado"))
-    if dias is None:
+    if P.get("publicada_hace_menos_de_3_dias") is None:
+        pass
+    elif dias is None:
         suma("fecha de publicación", 0,
              (a.get("publicado_literal") or "sin fecha publicada") + ": no suma ni resta")
     elif dias <= bus["umbrales"]["dias_para_considerar_reciente"]:
-        suma("publicada hace menos de 3 días", P["publicada_hace_menos_de_3_dias"],
+        suma("publicada hace menos de 3 días", P.get("publicada_hace_menos_de_3_dias"),
              f"hace {dias} día(s)")
 
-    # idiomas
-    otros = _OTRO_IDIOMA.findall(c.normalizar(cuerpo))
-    if otros:
-        suma("exige portugués o francés", P["exige_portugues_o_frances"], otros[0])
+    # idiomas que el perfil no domina
+    if cri.idiomas_penalizados and P.get("exige_idioma_que_no_domina"):
+        n = c.normalizar(cuerpo)
+        hallados = [x for x in cri.idiomas_penalizados
+                    if re.search(r"\b" + re.escape(x) + r"\b", n)]
+        if hallados:
+            suma(f"exige {hallados[0]}", P.get("exige_idioma_que_no_domina"),
+                 "el perfil no lo domina — se muestra igual: muchos avisos lo piden "
+                 "como «deseable» y luego no lo evalúan")
 
     # startup
     emp = a.get("empleados")
     if isinstance(emp, int) and emp and emp < 50:
-        suma("empresa pequeña / etapa temprana", P["startup_etapa_temprana"],
+        suma("empresa pequeña / etapa temprana", P.get("startup_etapa_temprana"),
              f"{emp} empleados")
 
     a["desglose"] = d
@@ -1043,9 +1070,15 @@ def main():
             motivo = "por debajo de jefatura"
         elif cri.es_excluido(a["cargo"]) and not cri.es_objetivo(a["cargo"]):
             motivo = "cargo excluido (ventas / selección / nómina)"
-        elif not (cri.es_objetivo(a["cargo"]) or cri.es_secundario(a["cargo"])
-                  or cri.titulo_relevante(a["cargo"])):
-            motivo = "el título no es de compensación"
+        elif not (cri.es_objetivo(a["cargo"]) or cri.titulo_relevante(a["cargo"])
+                  or (cri.es_secundario(a["cargo"]) and cri.toca_compensacion(texto))):
+            # Un cargo «secundario» entra SOLO si el cuerpo además habla del
+            # oficio. Estaba escrito en el JSON desde el principio y el código
+            # nunca lo cumplía: con «coordinador» en secundarios entraba todo lo
+            # que se llamara coordinador, de logística a calidad a SST.
+            motivo = ("el título no es del dominio"
+                      if not cri.es_secundario(a["cargo"])
+                      else "cargo secundario y el cuerpo no habla del oficio")
         if not motivo:
             sirve, m_geo, marca = geografia(a, cri)
             if not sirve:
