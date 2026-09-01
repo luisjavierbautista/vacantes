@@ -1,10 +1,10 @@
 {
  "busqueda": "coord-tec",
  "corrida": "2026-09-01",
- "corrida_hora": "2026-09-01 20:18",
+ "corrida_hora": "2026-09-01 16:00",
  "fuentes": {
   "elempleo": {
-   "avisos": 196,
+   "avisos": 195,
    "error": null
   },
   "computrabajo": {
@@ -12,7 +12,7 @@
    "error": null
   },
   "workday": {
-   "avisos": 6,
+   "avisos": 5,
    "error": null
   },
   "greenhouse": {
@@ -30,11 +30,11 @@
  },
  "fallos": [
   {
-   "url": "https://www.elempleo.com/co/ofertas-empleo/area-administrativa-financiera",
-   "motivo": "TimeoutError"
+   "url": "https://www.elempleo.com/co/ofertas-trabajo/administradora-de-bases-de-datos-oracle-y-o-db2-bogota-1886734640",
+   "motivo": "HTTP 410"
   },
   {
-   "url": "https://www.elempleo.com/co/ofertas-trabajo/administradora-de-bases-de-datos-oracle-y-o-db2-bogota-1886734640",
+   "url": "https://www.elempleo.com/co/ofertas-trabajo/coordinador-de-obra-1886734496",
    "motivo": "HTTP 410"
   },
   {
@@ -50,8 +50,8 @@
    "motivo": "HTTP 410"
   }
  ],
- "avisos_recogidos": 293,
- "descartados": 111,
+ "avisos_recogidos": 291,
+ "descartados": 109,
  "fusionados": [
   {
    "conservado": "coordinador (a) de sistemas operativos",
@@ -59,8 +59,8 @@
    "parecido": 1.0
   },
   {
-   "conservado": "PROFESOR TIEMPO COMPLETO PROGRAMA INGENIERIA SISTEMAS BOGOTA",
-   "absorbido": "PROFESOR TIEMPO COMPLETO MATEMATICAS PROGRAMA INGENIERIA SISTEMAS BOGOTA",
+   "conservado": "PROFESOR TIEMPO COMPLETO MATEMATICAS PROGRAMA INGENIERIA SISTEMAS BOGOTA",
+   "absorbido": "PROFESOR TIEMPO COMPLETO PROGRAMA INGENIERIA SISTEMAS BOGOTA",
    "parecido": 0.8
   },
   {
@@ -69,79 +69,19 @@
    "parecido": 1.0
   }
  ],
- "nuevas": [
+ "nuevas": [],
+ "reaparecidas": [
+  "empresa no revelada|help desk analyst n1 24 7|bogota#anon:0-0-2026-09-01",
+  "politecnico grancolombiano|profesor matematicas programa ingenieria sistemas|bogota",
+  "sinergy lowells|coordinador academico pedagogico|bogota"
+ ],
+ "ausentes": [
   "politecnico grancolombiano|profesor programa ingenieria sistemas|bogota",
   "jahv mc gregor|coordinador administrativo proyectos tic|bogota",
   "jahv mc gregor|documentador proyectos tic y telecomunicaciones|bogota"
  ],
- "reaparecidas": [],
- "ausentes": [
-  "claro|jefe de sistemas de informacion|bogota",
-  "empresa no revelada|help desk analyst n1 24 7|bogota#anon:0-0-2026-09-01",
-  "organizacion gen|director de aplicaciones ti erp jde oracle|bogota",
-  "politecnico grancolombiano|profesor matematicas programa ingenieria sistemas|bogota",
-  "sinergy lowells|coordinador academico pedagogico|bogota"
- ],
  "republicadas": [],
  "vigentes": [
-  {
-   "cargo": "coordinador de sistemas it empresa de alimentos - de lunes a sábado teletrabajador movil",
-   "empresa": "BIERE S.A.S.",
-   "empresa_anonima": false,
-   "ciudad": "Bogotá, D.C.",
-   "salario": {
-    "min": 3800000.0,
-    "max": 3800000.0,
-    "moneda": "COP",
-    "periodo": "MONTH"
-   },
-   "publicado": "2026-08-14",
-   "vigente_hasta": "2026-10-13",
-   "contrato": "FULL_TIME",
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": "9BD3B03B8BDE6DE8",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "computrabajo",
-     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-coordinador-de-sistemas-it-empresa-de-alimentos-de-lunes-a-sabado-teletrabajador-movil-en-bogota-dc-8B60E2080E30632161373E686DCF3405",
-     "id_fuente": "9BD3B03B8BDE6DE8"
-    }
-   ],
-   "inc": [],
-   "deducidos": [],
-   "modalidad": "remoto",
-   "modalidad_literal": "remota",
-   "modalidad_por_confirmar": false,
-   "id": "biere|coordinador de sistemas it empresa de alimentos de lunes a sabado teletrabajador movil|bogota",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "cargo objetivo de la búsqueda",
-     "puntos": 25,
-     "nota": "coordinador de sistemas it empresa de alimentos - de lunes a sábado teletrabajador movil"
-    },
-    {
-     "concepto": "remoto confirmado en el cuerpo del aviso",
-     "puntos": 15,
-     "nota": "remota"
-    },
-    {
-     "concepto": "salario publicado igual o sobre $3.500.000",
-     "puntos": 12,
-     "nota": "3.800.000 COP"
-    }
-   ],
-   "puntaje": 52,
-   "ausencias": 0,
-   "nueva": false,
-   "visto_desde": "2026-09-01",
-   "republicaciones": 0,
-   "reapariciones": 0
-  },
   {
    "cargo": "Administrador de Sistemas Operativos UNIX / AIX / iSeries",
    "empresa": "TSG THE IT EXPERTS",
@@ -190,7 +130,7 @@
      "nota": "administracion de plataforma, itil"
     },
     {
-     "concepto": "salario publicado igual o sobre $3.500.000",
+     "concepto": "salario publicado igual o sobre $4.000.000",
      "puntos": 12,
      "nota": "10.000.000 COP"
     }
@@ -201,66 +141,6 @@
    "visto_desde": "2026-09-01",
    "republicaciones": 0,
    "reapariciones": 1
-  },
-  {
-   "cargo": "Coordinador Tecnico - Facatativa",
-   "empresa": "AMERICAS GBS SAS",
-   "empresa_anonima": false,
-   "ciudad": "Cundinamarca",
-   "salario": {
-    "min": 3900000.0,
-    "max": 3900000.0,
-    "moneda": "COP",
-    "periodo": "MONTH"
-   },
-   "publicado": "2026-08-24",
-   "vigente_hasta": "2026-10-23",
-   "contrato": "FULL_TIME",
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": "0B71C145F151CBC6",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "computrabajo",
-     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-coordinador-tecnico-facatativa-en-facatativa-722A23E461BC8FB661373E686DCF3405",
-     "id_fuente": "0B71C145F151CBC6"
-    }
-   ],
-   "inc": [
-    "modalidad"
-   ],
-   "deducidos": [],
-   "modalidad": null,
-   "modalidad_literal": null,
-   "modalidad_por_confirmar": false,
-   "id": "americas gbs|coordinador tecnico facatativa|bogota alrededores",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "cargo objetivo de la búsqueda",
-     "puntos": 25,
-     "nota": "Coordinador Tecnico - Facatativa"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "manejo de personal"
-    },
-    {
-     "concepto": "salario publicado igual o sobre $3.500.000",
-     "puntos": 12,
-     "nota": "3.900.000 COP"
-    }
-   ],
-   "puntaje": 49,
-   "ausencias": 0,
-   "nueva": false,
-   "visto_desde": "2026-09-01",
-   "republicaciones": 0,
-   "reapariciones": 0
   },
   {
    "cargo": "Coordinador de Infraestructura - Bogotá",
@@ -313,7 +193,7 @@
      "nota": "programacion, excel, power bi"
     },
     {
-     "concepto": "salario publicado igual o sobre $3.500.000",
+     "concepto": "salario publicado igual o sobre $4.000.000",
      "puntos": 12,
      "nota": "4.500.000 COP"
     }
@@ -374,7 +254,7 @@
      "nota": "gestion de proyectos, coordinacion de equipos"
     },
     {
-     "concepto": "salario publicado igual o sobre $3.500.000",
+     "concepto": "salario publicado igual o sobre $4.000.000",
      "puntos": 12,
      "nota": "4.500.000 COP"
     }
@@ -432,7 +312,7 @@
      "nota": "active directory"
     },
     {
-     "concepto": "salario publicado igual o sobre $3.500.000",
+     "concepto": "salario publicado igual o sobre $4.000.000",
      "puntos": 12,
      "nota": "6.000.000 COP"
     }
@@ -500,7 +380,7 @@
      "nota": "excel, power bi"
     },
     {
-     "concepto": "salario publicado igual o sobre $3.500.000",
+     "concepto": "salario publicado igual o sobre $4.000.000",
      "puntos": 12,
      "nota": "5.500.000 COP"
     }
@@ -511,76 +391,6 @@
    "visto_desde": "2026-09-01",
    "republicaciones": 0,
    "reapariciones": 1
-  },
-  {
-   "cargo": "Jefe de sistemas de información",
-   "empresa": "Claro Colombia",
-   "empresa_anonima": false,
-   "ciudad": "Bogota, Capital District",
-   "salario": null,
-   "publicado": "2026-09-01",
-   "vigente_hasta": "2026-10-01",
-   "contrato": [
-    "FULL_TIME"
-   ],
-   "agencia": null,
-   "direccion": null,
-   "lat": 4.6533817,
-   "lon": -74.0836331,
-   "id_fuente": "4460610254",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "linkedin",
-     "url": "https://co.linkedin.com/jobs/view/jefe-de-sistemas-de-informaci%C3%B3n-at-claro-colombia-4460610254",
-     "id_fuente": "4460610254"
-    }
-   ],
-   "inc": [
-    "salario"
-   ],
-   "deducidos": [
-    "modalidad"
-   ],
-   "modalidad_fuente": "On-site",
-   "empleados": 13360,
-   "sede": "Bogotá, D.C, Cundinamarca",
-   "modalidad": "presencial",
-   "modalidad_literal": "presencial",
-   "modalidad_por_confirmar": false,
-   "id": "claro|jefe de sistemas de informacion|bogota",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "cargo objetivo de la búsqueda",
-     "puntos": 25,
-     "nota": "Jefe de sistemas de información"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "sql, python, power bi"
-    },
-    {
-     "concepto": "salario",
-     "puntos": 0,
-     "nota": "sin salario publicado, no suma ni resta"
-    },
-    {
-     "concepto": "publicada hace menos de 3 días",
-     "puntos": 10,
-     "nota": "hace 0 día(s)"
-    }
-   ],
-   "puntaje": 47,
-   "ausencias": 2,
-   "nueva": false,
-   "visto_desde": "2026-09-01",
-   "republicaciones": 0,
-   "reapariciones": 0,
-   "marcas": [
-    "no apareció hoy en la fuente (2 de 3)"
-   ]
   },
   {
    "cargo": "Coordinado de Mesa de ayuda con ITIL PRACTICE MANAGER",
@@ -628,72 +438,9 @@
      "nota": "mesa de ayuda, itil"
     },
     {
-     "concepto": "salario publicado igual o sobre $3.500.000",
+     "concepto": "salario publicado igual o sobre $4.000.000",
      "puntos": 12,
      "nota": "5.500.000 COP"
-    }
-   ],
-   "puntaje": 39,
-   "ausencias": 0,
-   "nueva": false,
-   "visto_desde": "2026-09-01",
-   "republicaciones": 0,
-   "reapariciones": 0
-  },
-  {
-   "cargo": "Coordinador IT",
-   "empresa": "FREIGHTWISE S.A.S.",
-   "empresa_anonima": false,
-   "ciudad": "Bogotá D.C.",
-   "salario": {
-    "min": 3000001.0,
-    "max": 3500000.0,
-    "moneda": "COP",
-    "periodo": "MONTH"
-   },
-   "publicado": "2026-07-31",
-   "vigente_hasta": "2026-09-14",
-   "contrato": "FULL_TIME",
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": null,
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "elempleo",
-     "url": "https://www.elempleo.com/co/ofertas-trabajo/coordinador-it-1886747550",
-     "id_fuente": null
-    }
-   ],
-   "inc": [],
-   "deducidos": [],
-   "modalidad": "remoto",
-   "modalidad_literal": "remoto",
-   "modalidad_por_confirmar": false,
-   "id": "freightwise|coordinador it|bogota",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "cargo secundario de RR.HH.",
-     "puntos": 0,
-     "nota": "solo suma si el cuerpo habla de compensación"
-    },
-    {
-     "concepto": "remoto confirmado en el cuerpo del aviso",
-     "puntos": 15,
-     "nota": "remoto"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "seguridad de la informacion"
-    },
-    {
-     "concepto": "salario publicado igual o sobre $3.500.000",
-     "puntos": 12,
-     "nota": "3.500.000 COP"
     }
    ],
    "puntaje": 39,
@@ -751,7 +498,7 @@
      "nota": "power bi"
     },
     {
-     "concepto": "salario publicado igual o sobre $3.500.000",
+     "concepto": "salario publicado igual o sobre $4.000.000",
      "puntos": 12,
      "nota": "18.000.000 COP"
     },
@@ -819,7 +566,7 @@
      "nota": "mesa de ayuda, itil, gestion de proyectos"
     },
     {
-     "concepto": "salario publicado igual o sobre $3.500.000",
+     "concepto": "salario publicado igual o sobre $4.000.000",
      "puntos": 12,
      "nota": "5.500.000 COP"
     }
@@ -872,7 +619,7 @@
      "nota": "Administrador de Plataforma - SalesForce y Cloud"
     },
     {
-     "concepto": "salario publicado igual o sobre $3.500.000",
+     "concepto": "salario publicado igual o sobre $4.000.000",
      "puntos": 12,
      "nota": "8.000.000 COP"
     }
@@ -927,7 +674,7 @@
      "nota": "Administrador de Plataforma SalesForce"
     },
     {
-     "concepto": "salario publicado igual o sobre $3.500.000",
+     "concepto": "salario publicado igual o sobre $4.000.000",
      "puntos": 12,
      "nota": "10.000.000 COP"
     }
@@ -982,7 +729,7 @@
      "nota": "Administrador de Plataformas SAP"
     },
     {
-     "concepto": "salario publicado igual o sobre $3.500.000",
+     "concepto": "salario publicado igual o sobre $4.000.000",
      "puntos": 12,
      "nota": "10.000.000 COP"
     }
@@ -1214,7 +961,7 @@
      "nota": "Coordinador de Proyectos TI (PMP / Scrum) - Sector Tecnológico"
     },
     {
-     "concepto": "salario publicado igual o sobre $3.500.000",
+     "concepto": "salario publicado igual o sobre $4.000.000",
      "puntos": 12,
      "nota": "8.000.000 COP"
     }
@@ -1461,7 +1208,7 @@
      "nota": "Coordinador de Tiendas iShop Bogotá"
     },
     {
-     "concepto": "salario publicado igual o sobre $3.500.000",
+     "concepto": "salario publicado igual o sobre $4.000.000",
      "puntos": 12,
      "nota": "5.500.000 COP"
     }
@@ -1574,7 +1321,7 @@
      "nota": "Coordinador de tienda - Bogota"
     },
     {
-     "concepto": "salario publicado igual o sobre $3.500.000",
+     "concepto": "salario publicado igual o sobre $4.000.000",
      "puntos": 12,
      "nota": "5.500.000 COP"
     }
@@ -1636,61 +1383,6 @@
      "concepto": "salario",
      "puntos": 0,
      "nota": "sin salario publicado, no suma ni resta"
-    }
-   ],
-   "puntaje": 37,
-   "ausencias": 0,
-   "nueva": false,
-   "visto_desde": "2026-09-01",
-   "republicaciones": 0,
-   "reapariciones": 0
-  },
-  {
-   "cargo": "Docente de Tecnología",
-   "empresa": "Unión Temporal Gestores - Alianza Educativa",
-   "empresa_anonima": false,
-   "ciudad": "Bogotá D.C.",
-   "salario": {
-    "min": 3000001.0,
-    "max": 3500000.0,
-    "moneda": "COP",
-    "periodo": "MONTH"
-   },
-   "publicado": "2026-08-20",
-   "vigente_hasta": "2026-10-19",
-   "contrato": "TEMPORARY",
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": null,
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "elempleo",
-     "url": "https://www.elempleo.com/co/ofertas-trabajo/docente-de-tecnologia-1886705895",
-     "id_fuente": null
-    }
-   ],
-   "inc": [
-    "modalidad"
-   ],
-   "deducidos": [],
-   "modalidad": null,
-   "modalidad_literal": null,
-   "modalidad_por_confirmar": false,
-   "id": "union temporal gestores alianza educativa|docente de tecnologia|bogota",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "cargo objetivo de la búsqueda",
-     "puntos": 25,
-     "nota": "Docente de Tecnología"
-    },
-    {
-     "concepto": "salario publicado igual o sobre $3.500.000",
-     "puntos": 12,
-     "nota": "3.500.000 COP"
     }
    ],
    "puntaje": 37,
@@ -1805,7 +1497,7 @@
      "nota": "Docente de Tecnología - Dìa"
     },
     {
-     "concepto": "salario publicado igual o sobre $3.500.000",
+     "concepto": "salario publicado igual o sobre $4.000.000",
      "puntos": 12,
      "nota": "4.000.000 COP"
     }
@@ -1923,7 +1615,7 @@
      "nota": "Especialista Administrador de Plataforma Microsoft"
     },
     {
-     "concepto": "salario publicado igual o sobre $3.500.000",
+     "concepto": "salario publicado igual o sobre $4.000.000",
      "puntos": 12,
      "nota": "6.000.000 COP"
     }
@@ -2037,7 +1729,7 @@
      "nota": "Jefe de zona / Jefe de tiendas"
     },
     {
-     "concepto": "salario publicado igual o sobre $3.500.000",
+     "concepto": "salario publicado igual o sobre $4.000.000",
      "puntos": 12,
      "nota": "4.500.000 COP"
     }
@@ -2097,7 +1789,7 @@
      "nota": "Web Master / Administrador de Plataformas Digitales"
     },
     {
-     "concepto": "salario publicado igual o sobre $3.500.000",
+     "concepto": "salario publicado igual o sobre $4.000.000",
      "puntos": 12,
      "nota": "5.500.000 COP"
     }
@@ -2327,7 +2019,7 @@
      "nota": "itil, gestion de proyectos, gestion documental, excel"
     },
     {
-     "concepto": "salario publicado igual o sobre $3.500.000",
+     "concepto": "salario publicado igual o sobre $4.000.000",
      "puntos": 12,
      "nota": "9.500.000 COP"
     },
@@ -2392,7 +2084,7 @@
      "nota": "excel"
     },
     {
-     "concepto": "salario publicado igual o sobre $3.500.000",
+     "concepto": "salario publicado igual o sobre $4.000.000",
      "puntos": 12,
      "nota": "4.278.000 COP"
     },
@@ -2453,7 +2145,7 @@
      "nota": "programacion"
     },
     {
-     "concepto": "salario publicado igual o sobre $3.500.000",
+     "concepto": "salario publicado igual o sobre $4.000.000",
      "puntos": 12,
      "nota": "8.000.000 COP"
     },
@@ -2518,7 +2210,7 @@
      "nota": "gestion de proyectos, cronograma"
     },
     {
-     "concepto": "salario publicado igual o sobre $3.500.000",
+     "concepto": "salario publicado igual o sobre $4.000.000",
      "puntos": 12,
      "nota": "5.483.136 COP"
     },
@@ -2622,8 +2314,7 @@
    "id": "empresa no revelada|help desk analyst n1 24 7|bogota#anon:0-0-2026-09-01",
    "duplicados_hoy": 1,
    "marcas": [
-    "empresa no revelada: puede estar repetida",
-    "no apareció hoy en la fuente (1 de 3)"
+    "empresa no revelada: puede estar repetida"
    ],
    "desglose": [
     {
@@ -2653,11 +2344,12 @@
     }
    ],
    "puntaje": 27,
-   "ausencias": 1,
+   "ausencias": 0,
    "nueva": false,
    "visto_desde": "2026-09-01",
    "republicaciones": 0,
-   "reapariciones": 0
+   "reapariciones": 1,
+   "reaparecida": true
   },
   {
    "cargo": "Project Coordinator - Commercial workspace (CET)",
@@ -3003,7 +2695,7 @@
      "nota": "Teletrabajo"
     },
     {
-     "concepto": "salario publicado por debajo de $3.500.000",
+     "concepto": "salario publicado por debajo de $4.000.000",
      "puntos": -15,
      "nota": "2.500.000 COP — se muestra igual: el publicado casi nunca es el negociado"
     }
@@ -3070,6 +2762,64 @@
    "reapariciones": 0
   },
   {
+   "cargo": "coordinador de sistemas it empresa de alimentos - de lunes a sábado teletrabajador movil",
+   "empresa": "BIERE S.A.S.",
+   "empresa_anonima": false,
+   "ciudad": "Bogotá, D.C.",
+   "salario": {
+    "min": 3800000.0,
+    "max": 3800000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-08-14",
+   "vigente_hasta": "2026-10-13",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": "9BD3B03B8BDE6DE8",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "computrabajo",
+     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-coordinador-de-sistemas-it-empresa-de-alimentos-de-lunes-a-sabado-teletrabajador-movil-en-bogota-dc-8B60E2080E30632161373E686DCF3405",
+     "id_fuente": "9BD3B03B8BDE6DE8"
+    }
+   ],
+   "inc": [],
+   "deducidos": [],
+   "modalidad": "remoto",
+   "modalidad_literal": "remota",
+   "modalidad_por_confirmar": false,
+   "id": "biere|coordinador de sistemas it empresa de alimentos de lunes a sabado teletrabajador movil|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "cargo objetivo de la búsqueda",
+     "puntos": 25,
+     "nota": "coordinador de sistemas it empresa de alimentos - de lunes a sábado teletrabajador movil"
+    },
+    {
+     "concepto": "remoto confirmado en el cuerpo del aviso",
+     "puntos": 15,
+     "nota": "remota"
+    },
+    {
+     "concepto": "salario publicado por debajo de $4.000.000",
+     "puntos": -15,
+     "nota": "3.800.000 COP — se muestra igual: el publicado casi nunca es el negociado"
+    }
+   ],
+   "puntaje": 25,
+   "ausencias": 0,
+   "nueva": false,
+   "visto_desde": "2026-09-01",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
+  {
    "cargo": "Abogado(a) Coordinador(a) - Área Jurídica y Recuperación",
    "empresa": "CONFIDENTIAL",
    "empresa_anonima": true,
@@ -3120,7 +2870,7 @@
      "nota": "coordinacion de equipos, excel, power bi"
     },
     {
-     "concepto": "salario publicado igual o sobre $3.500.000",
+     "concepto": "salario publicado igual o sobre $4.000.000",
      "puntos": 12,
      "nota": "8.000.000 COP"
     }
@@ -3173,7 +2923,7 @@
      "nota": "bases de datos, sql, sql server, oracle, mysql, postgresql"
     },
     {
-     "concepto": "salario publicado igual o sobre $3.500.000",
+     "concepto": "salario publicado igual o sobre $4.000.000",
      "puntos": 12,
      "nota": "6.000.000 COP"
     }
@@ -3228,7 +2978,7 @@
      "nota": "bases de datos, sql, sql server, oracle, itil"
     },
     {
-     "concepto": "salario publicado igual o sobre $3.500.000",
+     "concepto": "salario publicado igual o sobre $4.000.000",
      "puntos": 12,
      "nota": "10.000.000 COP"
     }
@@ -3286,69 +3036,9 @@
      "nota": "bases de datos, sql, sql server, mysql, postgresql"
     },
     {
-     "concepto": "salario publicado igual o sobre $3.500.000",
+     "concepto": "salario publicado igual o sobre $4.000.000",
      "puntos": 12,
      "nota": "5.500.000 COP"
-    }
-   ],
-   "puntaje": 24,
-   "ausencias": 0,
-   "nueva": false,
-   "visto_desde": "2026-09-01",
-   "republicaciones": 0,
-   "reapariciones": 0
-  },
-  {
-   "cargo": "COORDINADOR DE ADMINISTRACIÓN DE PERSONAL - MADRID REF: 1626192435-329",
-   "empresa": "AGENCIA DE EMPLEO Y FOMENTO EMPRESARIAL COMPENSAR",
-   "empresa_anonima": false,
-   "ciudad": "Cundinamarca",
-   "salario": {
-    "min": 3000001.0,
-    "max": 3500000.0,
-    "moneda": "COP",
-    "periodo": "MONTH"
-   },
-   "publicado": "2026-07-23",
-   "vigente_hasta": "2026-09-21",
-   "contrato": "OTHER",
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": null,
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "elempleo",
-     "url": "https://www.elempleo.com/co/ofertas-trabajo/coordinador-de-administracion-de-personal-madrid-ref-1626192435329-1886743378",
-     "id_fuente": null
-    }
-   ],
-   "inc": [
-    "modalidad"
-   ],
-   "deducidos": [],
-   "modalidad": null,
-   "modalidad_literal": null,
-   "modalidad_por_confirmar": false,
-   "id": "agencia de empleo y fomento empresarial compensar|coordinador de administracion de personal madrid ref 329|bogota alrededores",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "cargo secundario de RR.HH.",
-     "puntos": 0,
-     "nota": "solo suma si el cuerpo habla de compensación"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "bases de datos"
-    },
-    {
-     "concepto": "salario publicado igual o sobre $3.500.000",
-     "puntos": 12,
-     "nota": "3.500.000 COP"
     }
    ],
    "puntaje": 24,
@@ -3409,7 +3099,7 @@
      "nota": "gestion documental"
     },
     {
-     "concepto": "salario publicado igual o sobre $3.500.000",
+     "concepto": "salario publicado igual o sobre $4.000.000",
      "puntos": 12,
      "nota": "4.000.000 COP"
     }
@@ -3472,7 +3162,7 @@
      "nota": "gestion documental"
     },
     {
-     "concepto": "salario publicado igual o sobre $3.500.000",
+     "concepto": "salario publicado igual o sobre $4.000.000",
      "puntos": 12,
      "nota": "4.000.000 COP"
     }
@@ -3530,7 +3220,7 @@
      "nota": "seguridad informatica"
     },
     {
-     "concepto": "salario publicado igual o sobre $3.500.000",
+     "concepto": "salario publicado igual o sobre $4.000.000",
      "puntos": 12,
      "nota": "8.000.000 COP"
     }
@@ -3588,7 +3278,7 @@
      "nota": "programacion, gestion de proyectos"
     },
     {
-     "concepto": "salario publicado igual o sobre $3.500.000",
+     "concepto": "salario publicado igual o sobre $4.000.000",
      "puntos": 12,
      "nota": "8.000.000 COP"
     }
@@ -3648,7 +3338,7 @@
      "nota": "excel"
     },
     {
-     "concepto": "salario publicado igual o sobre $3.500.000",
+     "concepto": "salario publicado igual o sobre $4.000.000",
      "puntos": 12,
      "nota": "5.000.000 COP"
     }
@@ -3706,7 +3396,7 @@
      "nota": "active directory"
     },
     {
-     "concepto": "salario publicado igual o sobre $3.500.000",
+     "concepto": "salario publicado igual o sobre $4.000.000",
      "puntos": 12,
      "nota": "4.000.000 COP"
     }
@@ -3767,7 +3457,7 @@
      "nota": "sql, python, power bi"
     },
     {
-     "concepto": "salario publicado igual o sobre $3.500.000",
+     "concepto": "salario publicado igual o sobre $4.000.000",
      "puntos": 12,
      "nota": "8.000.000 COP"
     }
@@ -3830,7 +3520,7 @@
      "nota": "gestion de proyectos"
     },
     {
-     "concepto": "salario publicado igual o sobre $3.500.000",
+     "concepto": "salario publicado igual o sobre $4.000.000",
      "puntos": 12,
      "nota": "8.000.000 COP"
     }
@@ -3890,7 +3580,7 @@
      "nota": "excel"
     },
     {
-     "concepto": "salario publicado igual o sobre $3.500.000",
+     "concepto": "salario publicado igual o sobre $4.000.000",
      "puntos": 12,
      "nota": "6.000.000 COP"
     }
@@ -3953,7 +3643,7 @@
      "nota": "excel"
     },
     {
-     "concepto": "salario publicado igual o sobre $3.500.000",
+     "concepto": "salario publicado igual o sobre $4.000.000",
      "puntos": 12,
      "nota": "4.000.000 COP"
     }
@@ -4011,7 +3701,7 @@
      "nota": "gestion de proyectos"
     },
     {
-     "concepto": "salario publicado igual o sobre $3.500.000",
+     "concepto": "salario publicado igual o sobre $4.000.000",
      "puntos": 12,
      "nota": "5.500.000 COP"
     }
@@ -4072,7 +3762,7 @@
      "nota": "itil"
     },
     {
-     "concepto": "salario publicado igual o sobre $3.500.000",
+     "concepto": "salario publicado igual o sobre $4.000.000",
      "puntos": 12,
      "nota": "10.000.000 COP"
     }
@@ -4132,7 +3822,7 @@
      "nota": "manejo de personal"
     },
     {
-     "concepto": "salario publicado igual o sobre $3.500.000",
+     "concepto": "salario publicado igual o sobre $4.000.000",
      "puntos": 12,
      "nota": "5.500.000 COP"
     }
@@ -4192,7 +3882,7 @@
      "nota": "robotica"
     },
     {
-     "concepto": "salario publicado igual o sobre $3.500.000",
+     "concepto": "salario publicado igual o sobre $4.000.000",
      "puntos": 12,
      "nota": "5.500.000 COP"
     }
@@ -4252,67 +3942,9 @@
      "nota": "programacion, gestion de proyectos, excel, power bi"
     },
     {
-     "concepto": "salario publicado igual o sobre $3.500.000",
+     "concepto": "salario publicado igual o sobre $4.000.000",
      "puntos": 12,
      "nota": "8.000.000 COP"
-    }
-   ],
-   "puntaje": 24,
-   "ausencias": 0,
-   "nueva": false,
-   "visto_desde": "2026-09-01",
-   "republicaciones": 0,
-   "reapariciones": 0
-  },
-  {
-   "cargo": "Coordinador(a) Administrativo(a) de Gerencia",
-   "empresa": "Manpower Group Colombia",
-   "empresa_anonima": false,
-   "ciudad": "Cundinamarca",
-   "salario": {
-    "min": 3500000.0,
-    "max": 3500000.0,
-    "moneda": "COP",
-    "periodo": "MONTH"
-   },
-   "publicado": "2026-08-24",
-   "vigente_hasta": "2026-10-23",
-   "contrato": "FULL_TIME",
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": "2BE0D088B7D1B44D",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "computrabajo",
-     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-coordinadora-administrativoa-de-gerencia-en-cota-C33EAD3624CEB86161373E686DCF3405",
-     "id_fuente": "2BE0D088B7D1B44D"
-    }
-   ],
-   "inc": [],
-   "deducidos": [],
-   "modalidad": "presencial",
-   "modalidad_literal": "presencial",
-   "modalidad_por_confirmar": false,
-   "id": "manpower|coordinador administrativo de gerencia|bogota alrededores",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "cargo secundario de RR.HH.",
-     "puntos": 0,
-     "nota": "solo suma si el cuerpo habla de compensación"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "coordinacion de equipos, excel"
-    },
-    {
-     "concepto": "salario publicado igual o sobre $3.500.000",
-     "puntos": 12,
-     "nota": "3.500.000 COP"
     }
    ],
    "puntaje": 24,
@@ -4370,7 +4002,7 @@
      "nota": "mesa de ayuda, gestion de proyectos, seguridad de la informacion"
     },
     {
-     "concepto": "salario publicado igual o sobre $3.500.000",
+     "concepto": "salario publicado igual o sobre $4.000.000",
      "puntos": 12,
      "nota": "10.000.000 COP"
     }
@@ -4433,7 +4065,7 @@
      "nota": "excel"
     },
     {
-     "concepto": "salario publicado igual o sobre $3.500.000",
+     "concepto": "salario publicado igual o sobre $4.000.000",
      "puntos": 12,
      "nota": "4.500.000 COP"
     }
@@ -4493,7 +4125,7 @@
      "nota": "gestion de proyectos"
     },
     {
-     "concepto": "salario publicado igual o sobre $3.500.000",
+     "concepto": "salario publicado igual o sobre $4.000.000",
      "puntos": 12,
      "nota": "8.000.000 COP"
     }
@@ -4546,7 +4178,7 @@
      "nota": "bases de datos, itil, gestion de proyectos, seguridad de la informacion"
     },
     {
-     "concepto": "salario publicado igual o sobre $3.500.000",
+     "concepto": "salario publicado igual o sobre $4.000.000",
      "puntos": 12,
      "nota": "8.000.000 COP"
     }
@@ -4557,64 +4189,6 @@
    "visto_desde": "2026-09-01",
    "republicaciones": 0,
    "reapariciones": 0
-  },
-  {
-   "cargo": "Director(a) de Aplicaciones TI - ERP / JDE / Oracle",
-   "empresa": "ORGANIZACION GEN",
-   "empresa_anonima": false,
-   "ciudad": "Bogotá D.C.",
-   "salario": {
-    "min": 10000001.0,
-    "max": 12500000.0,
-    "moneda": "COP",
-    "periodo": "MONTH"
-   },
-   "publicado": "2026-08-11",
-   "vigente_hasta": "2026-10-10",
-   "contrato": "FULL_TIME",
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": null,
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "elempleo",
-     "url": "https://www.elempleo.com/co/ofertas-trabajo/directora-de-aplicaciones-ti-erp-jde-oracle-1886751293",
-     "id_fuente": null
-    }
-   ],
-   "inc": [
-    "modalidad"
-   ],
-   "deducidos": [],
-   "modalidad": null,
-   "modalidad_literal": null,
-   "modalidad_por_confirmar": false,
-   "id": "organizacion gen|director de aplicaciones ti erp jde oracle|bogota",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "oracle, gestion de proyectos"
-    },
-    {
-     "concepto": "salario publicado igual o sobre $3.500.000",
-     "puntos": 12,
-     "nota": "12.500.000 COP"
-    }
-   ],
-   "puntaje": 24,
-   "ausencias": 2,
-   "nueva": false,
-   "visto_desde": "2026-09-01",
-   "republicaciones": 0,
-   "reapariciones": 0,
-   "marcas": [
-    "no apareció hoy en la fuente (2 de 3)"
-   ]
   },
   {
    "cargo": "GESTOR DE SISTEMAS INTEGRADOS DE GESTION (SIG)",
@@ -4659,7 +4233,7 @@
      "nota": "power bi"
     },
     {
-     "concepto": "salario publicado igual o sobre $3.500.000",
+     "concepto": "salario publicado igual o sobre $4.000.000",
      "puntos": 12,
      "nota": "4.000.000 COP"
     }
@@ -4714,7 +4288,7 @@
      "nota": "bases de datos, sql, sql server, oracle, mysql, postgresql"
     },
     {
-     "concepto": "salario publicado igual o sobre $3.500.000",
+     "concepto": "salario publicado igual o sobre $4.000.000",
      "puntos": 12,
      "nota": "12.500.000 COP"
     }
@@ -4769,7 +4343,7 @@
      "nota": "itil, gestion de proyectos, seguridad de la informacion"
     },
     {
-     "concepto": "salario publicado igual o sobre $3.500.000",
+     "concepto": "salario publicado igual o sobre $4.000.000",
      "puntos": 12,
      "nota": "15.000.000 COP"
     }
@@ -4824,7 +4398,7 @@
      "nota": "mesa de ayuda, manejo de personal, ofimatica"
     },
     {
-     "concepto": "salario publicado igual o sobre $3.500.000",
+     "concepto": "salario publicado igual o sobre $4.000.000",
      "puntos": 12,
      "nota": "12.500.000 COP"
     }
@@ -4885,7 +4459,7 @@
      "nota": "gestion de proyectos, excel"
     },
     {
-     "concepto": "salario publicado igual o sobre $3.500.000",
+     "concepto": "salario publicado igual o sobre $4.000.000",
      "puntos": 12,
      "nota": "5.500.000 COP"
     }
@@ -4938,7 +4512,7 @@
      "nota": "base de datos, sql, programacion"
     },
     {
-     "concepto": "salario publicado igual o sobre $3.500.000",
+     "concepto": "salario publicado igual o sobre $4.000.000",
      "puntos": 12,
      "nota": "5.000.000 COP"
     },
@@ -5004,7 +4578,7 @@
      "nota": "itil"
     },
     {
-     "concepto": "salario publicado igual o sobre $3.500.000",
+     "concepto": "salario publicado igual o sobre $4.000.000",
      "puntos": 12,
      "nota": "5.500.000 COP"
     }
@@ -5062,7 +4636,7 @@
      "nota": "seguridad de la informacion"
     },
     {
-     "concepto": "salario publicado igual o sobre $3.500.000",
+     "concepto": "salario publicado igual o sobre $4.000.000",
      "puntos": 12,
      "nota": "12.500.000 COP"
     }
@@ -5120,7 +4694,7 @@
      "nota": "bases de datos, sql, sql server"
     },
     {
-     "concepto": "salario publicado igual o sobre $3.500.000",
+     "concepto": "salario publicado igual o sobre $4.000.000",
      "puntos": 12,
      "nota": "8.000.000 COP"
     }
@@ -5176,7 +4750,7 @@
      "nota": "itil"
     },
     {
-     "concepto": "salario publicado igual o sobre $3.500.000",
+     "concepto": "salario publicado igual o sobre $4.000.000",
      "puntos": 12,
      "nota": "4.000.000 COP"
     }
@@ -5231,7 +4805,7 @@
      "nota": "bases de datos, postgresql, python, programacion, gestion de proyectos"
     },
     {
-     "concepto": "salario publicado igual o sobre $3.500.000",
+     "concepto": "salario publicado igual o sobre $4.000.000",
      "puntos": 12,
      "nota": "10.000.000 COP"
     }
@@ -5286,7 +4860,7 @@
      "nota": "bases de datos, sql, sql server, oracle, excel"
     },
     {
-     "concepto": "salario publicado igual o sobre $3.500.000",
+     "concepto": "salario publicado igual o sobre $4.000.000",
      "puntos": 12,
      "nota": "5.500.000 COP"
     }
@@ -5363,11 +4937,14 @@
     }
    ],
    "puntaje": 24,
-   "ausencias": 0,
-   "nueva": true,
+   "ausencias": 1,
+   "nueva": false,
    "visto_desde": "2026-09-01",
    "republicaciones": 0,
-   "reapariciones": 0
+   "reapariciones": 0,
+   "marcas": [
+    "no apareció hoy en la fuente (1 de 3)"
+   ]
   },
   {
    "cargo": "Profesional de infraestructura Tecnológica",
@@ -5413,7 +4990,7 @@
      "nota": "active directory"
     },
     {
-     "concepto": "salario publicado igual o sobre $3.500.000",
+     "concepto": "salario publicado igual o sobre $4.000.000",
      "puntos": 12,
      "nota": "5.500.000 COP"
     }
@@ -5473,7 +5050,7 @@
      "nota": "programacion, excel"
     },
     {
-     "concepto": "salario publicado igual o sobre $3.500.000",
+     "concepto": "salario publicado igual o sobre $4.000.000",
      "puntos": 12,
      "nota": "5.500.000 COP"
     }
@@ -5533,7 +5110,7 @@
      "nota": "excel"
     },
     {
-     "concepto": "salario publicado igual o sobre $3.500.000",
+     "concepto": "salario publicado igual o sobre $4.000.000",
      "puntos": 12,
      "nota": "4.000.000 COP"
     }
@@ -5596,7 +5173,7 @@
      "nota": "gestion de proyectos"
     },
     {
-     "concepto": "salario publicado igual o sobre $3.500.000",
+     "concepto": "salario publicado igual o sobre $4.000.000",
      "puntos": 12,
      "nota": "4.500.000 COP"
     }
@@ -5659,7 +5236,7 @@
      "nota": "mesa de ayuda, itil, coordinacion de equipos"
     },
     {
-     "concepto": "salario publicado igual o sobre $3.500.000",
+     "concepto": "salario publicado igual o sobre $4.000.000",
      "puntos": 12,
      "nota": "4.000.000 COP"
     }
@@ -5720,7 +5297,7 @@
      "nota": "itil"
     },
     {
-     "concepto": "salario publicado igual o sobre $3.500.000",
+     "concepto": "salario publicado igual o sobre $4.000.000",
      "puntos": 12,
      "nota": "5.500.000 COP"
     }
@@ -5956,11 +5533,14 @@
     }
    ],
    "puntaje": 22,
-   "ausencias": 0,
-   "nueva": true,
+   "ausencias": 1,
+   "nueva": false,
    "visto_desde": "2026-09-01",
    "republicaciones": 0,
-   "reapariciones": 0
+   "reapariciones": 0,
+   "marcas": [
+    "no apareció hoy en la fuente (1 de 3)"
+   ]
   },
   {
    "cargo": "Coordinador Administrativo",
@@ -6020,6 +5600,66 @@
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
      "nota": "hace 3 día(s)"
+    }
+   ],
+   "puntaje": 22,
+   "ausencias": 0,
+   "nueva": false,
+   "visto_desde": "2026-09-01",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
+  {
+   "cargo": "Coordinador Tecnico - Facatativa",
+   "empresa": "AMERICAS GBS SAS",
+   "empresa_anonima": false,
+   "ciudad": "Cundinamarca",
+   "salario": {
+    "min": 3900000.0,
+    "max": 3900000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-08-24",
+   "vigente_hasta": "2026-10-23",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": "0B71C145F151CBC6",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "computrabajo",
+     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-coordinador-tecnico-facatativa-en-facatativa-722A23E461BC8FB661373E686DCF3405",
+     "id_fuente": "0B71C145F151CBC6"
+    }
+   ],
+   "inc": [
+    "modalidad"
+   ],
+   "deducidos": [],
+   "modalidad": null,
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "americas gbs|coordinador tecnico facatativa|bogota alrededores",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "cargo objetivo de la búsqueda",
+     "puntos": 25,
+     "nota": "Coordinador Tecnico - Facatativa"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "manejo de personal"
+    },
+    {
+     "concepto": "salario publicado por debajo de $4.000.000",
+     "puntos": -15,
+     "nota": "3.900.000 COP — se muestra igual: el publicado casi nunca es el negociado"
     }
    ],
    "puntaje": 22,
@@ -6205,7 +5845,7 @@
      "nota": "seguridad informatica, excel"
     },
     {
-     "concepto": "salario publicado por debajo de $3.500.000",
+     "concepto": "salario publicado por debajo de $4.000.000",
      "puntos": -15,
      "nota": "3.000.000 COP — se muestra igual: el publicado casi nunca es el negociado"
     }
@@ -6263,7 +5903,7 @@
      "nota": "excel"
     },
     {
-     "concepto": "salario publicado por debajo de $3.500.000",
+     "concepto": "salario publicado por debajo de $4.000.000",
      "puntos": -15,
      "nota": "2.500.000 COP — se muestra igual: el publicado casi nunca es el negociado"
     }
@@ -6388,11 +6028,14 @@
     }
    ],
    "puntaje": 22,
-   "ausencias": 0,
-   "nueva": true,
+   "ausencias": 1,
+   "nueva": false,
    "visto_desde": "2026-09-01",
    "republicaciones": 0,
-   "reapariciones": 0
+   "reapariciones": 0,
+   "marcas": [
+    "no apareció hoy en la fuente (1 de 3)"
+   ]
   },
   {
    "cargo": "Docente de tecnologia y fisica - Sitio de trabajo en la 200",
@@ -6442,7 +6085,7 @@
      "nota": "arduino, programacion"
     },
     {
-     "concepto": "salario publicado por debajo de $3.500.000",
+     "concepto": "salario publicado por debajo de $4.000.000",
      "puntos": -15,
      "nota": "2.600.000 COP — se muestra igual: el publicado casi nunca es el negociado"
     }
@@ -6503,7 +6146,7 @@
      "nota": "mesa de ayuda"
     },
     {
-     "concepto": "salario publicado por debajo de $3.500.000",
+     "concepto": "salario publicado por debajo de $4.000.000",
      "puntos": -15,
      "nota": "3.000.000 COP — se muestra igual: el publicado casi nunca es el negociado"
     }
@@ -6619,7 +6262,7 @@
      "nota": "robotica, steam"
     },
     {
-     "concepto": "salario publicado igual o sobre $3.500.000",
+     "concepto": "salario publicado igual o sobre $4.000.000",
      "puntos": 12,
      "nota": "4.000.000 COP"
     },
@@ -6684,7 +6327,7 @@
      "nota": "gestion de proyectos"
     },
     {
-     "concepto": "salario publicado igual o sobre $3.500.000",
+     "concepto": "salario publicado igual o sobre $4.000.000",
      "puntos": 12,
      "nota": "5.000.000 COP"
     },
@@ -6749,7 +6392,7 @@
      "nota": "gestion de proyectos, coordinacion de equipos"
     },
     {
-     "concepto": "salario publicado igual o sobre $3.500.000",
+     "concepto": "salario publicado igual o sobre $4.000.000",
      "puntos": 12,
      "nota": "4.500.000 COP"
     },
@@ -6807,7 +6450,7 @@
      "nota": "solo suma si el cuerpo habla de compensación"
     },
     {
-     "concepto": "salario publicado igual o sobre $3.500.000",
+     "concepto": "salario publicado igual o sobre $4.000.000",
      "puntos": 12,
      "nota": "8.000.000 COP"
     }
@@ -6986,6 +6629,69 @@
      "concepto": "salario",
      "puntos": 0,
      "nota": "sin salario publicado, no suma ni resta"
+    }
+   ],
+   "puntaje": 12,
+   "ausencias": 0,
+   "nueva": false,
+   "visto_desde": "2026-09-01",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
+  {
+   "cargo": "Coordinador IT",
+   "empresa": "FREIGHTWISE S.A.S.",
+   "empresa_anonima": false,
+   "ciudad": "Bogotá D.C.",
+   "salario": {
+    "min": 3000001.0,
+    "max": 3500000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-07-31",
+   "vigente_hasta": "2026-09-14",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/coordinador-it-1886747550",
+     "id_fuente": null
+    }
+   ],
+   "inc": [],
+   "deducidos": [],
+   "modalidad": "remoto",
+   "modalidad_literal": "remoto",
+   "modalidad_por_confirmar": false,
+   "id": "freightwise|coordinador it|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "cargo secundario de RR.HH.",
+     "puntos": 0,
+     "nota": "solo suma si el cuerpo habla de compensación"
+    },
+    {
+     "concepto": "remoto confirmado en el cuerpo del aviso",
+     "puntos": 15,
+     "nota": "remoto"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "seguridad de la informacion"
+    },
+    {
+     "concepto": "salario publicado por debajo de $4.000.000",
+     "puntos": -15,
+     "nota": "3.500.000 COP — se muestra igual: el publicado casi nunca es el negociado"
     }
    ],
    "puntaje": 12,
@@ -7559,7 +7265,7 @@
      "nota": "solo suma si el cuerpo habla de compensación"
     },
     {
-     "concepto": "salario publicado igual o sobre $3.500.000",
+     "concepto": "salario publicado igual o sobre $4.000.000",
      "puntos": 12,
      "nota": "10.000.000 COP"
     }
@@ -8134,7 +7840,7 @@
      "nota": "bases de datos, power bi"
     },
     {
-     "concepto": "salario publicado por debajo de $3.500.000",
+     "concepto": "salario publicado por debajo de $4.000.000",
      "puntos": -15,
      "nota": "2.249.095 COP — se muestra igual: el publicado casi nunca es el negociado"
     }
@@ -8398,7 +8104,7 @@
    "duplicados_hoy": 1,
    "desglose": [
     {
-     "concepto": "salario publicado igual o sobre $3.500.000",
+     "concepto": "salario publicado igual o sobre $4.000.000",
      "puntos": 12,
      "nota": "5.500.000 COP"
     }
@@ -8512,56 +8218,6 @@
    "reapariciones": 1
   },
   {
-   "cargo": "Ingeniero de sistemas siesa - Mosquera, Funza, Madrid",
-   "empresa": "Global SAS",
-   "empresa_anonima": false,
-   "ciudad": "Cundinamarca",
-   "salario": {
-    "min": 3500000.0,
-    "max": 3500000.0,
-    "moneda": "COP",
-    "periodo": "MONTH"
-   },
-   "publicado": "2026-08-14",
-   "vigente_hasta": "2026-10-13",
-   "contrato": "FULL_TIME",
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": "FE2F2B84400C4AB5",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "computrabajo",
-     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ingeniero-de-sistemas-siesa-mosquera-funza-madrid-en-mosquera-D46A6AE801BB5EE661373E686DCF3405",
-     "id_fuente": "FE2F2B84400C4AB5"
-    }
-   ],
-   "inc": [
-    "modalidad"
-   ],
-   "deducidos": [],
-   "modalidad": null,
-   "modalidad_literal": null,
-   "modalidad_por_confirmar": false,
-   "id": "global|ingeniero de sistemas siesa mosquera funza madrid|bogota alrededores",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "salario publicado igual o sobre $3.500.000",
-     "puntos": 12,
-     "nota": "3.500.000 COP"
-    }
-   ],
-   "puntaje": 12,
-   "ausencias": 0,
-   "nueva": false,
-   "visto_desde": "2026-09-01",
-   "republicaciones": 0,
-   "reapariciones": 1
-  },
-  {
    "cargo": "Jefe Sistemas Información",
    "empresa": "CLARO COLOMBIA",
    "empresa_anonima": false,
@@ -8612,56 +8268,6 @@
      "concepto": "salario",
      "puntos": 0,
      "nota": "sin salario publicado, no suma ni resta"
-    }
-   ],
-   "puntaje": 12,
-   "ausencias": 0,
-   "nueva": false,
-   "visto_desde": "2026-09-01",
-   "republicaciones": 0,
-   "reapariciones": 0
-  },
-  {
-   "cargo": "Licenciado en Tecnología",
-   "empresa": "CONGREGACION DE LOS HERMANOS DE LAS ESCUELAS CRISTIANAS",
-   "empresa_anonima": false,
-   "ciudad": "Bogotá, D.C.",
-   "salario": {
-    "min": 3502000.0,
-    "max": 3502000.0,
-    "moneda": "COP",
-    "periodo": "MONTH"
-   },
-   "publicado": "2026-07-14",
-   "vigente_hasta": "2026-09-12",
-   "contrato": "FULL_TIME",
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": "A9720E9DBC85DC4D",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "computrabajo",
-     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-licenciado-en-tecnologia-en-bogota-dc-EE3B6B84A4BDD31F61373E686DCF3405",
-     "id_fuente": "A9720E9DBC85DC4D"
-    }
-   ],
-   "inc": [
-    "modalidad"
-   ],
-   "deducidos": [],
-   "modalidad": null,
-   "modalidad_literal": null,
-   "modalidad_por_confirmar": false,
-   "id": "congregacion de los hermanos de las escuelas cristianas|licenciado en tecnologia|bogota",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "salario publicado igual o sobre $3.500.000",
-     "puntos": 12,
-     "nota": "3.502.000 COP"
     }
    ],
    "puntaje": 12,
@@ -8763,7 +8369,7 @@
    "duplicados_hoy": 1,
    "desglose": [
     {
-     "concepto": "salario publicado igual o sobre $3.500.000",
+     "concepto": "salario publicado igual o sobre $4.000.000",
      "puntos": 12,
      "nota": "4.000.000 COP"
     }
@@ -8829,20 +8435,18 @@
    ],
    "desglose": [
     {
-     "concepto": "salario publicado igual o sobre $3.500.000",
+     "concepto": "salario publicado igual o sobre $4.000.000",
      "puntos": 12,
      "nota": "4.500.000 COP"
     }
    ],
    "puntaje": 12,
-   "ausencias": 1,
+   "ausencias": 0,
    "nueva": false,
    "visto_desde": "2026-09-01",
    "republicaciones": 0,
-   "reapariciones": 0,
-   "marcas": [
-    "no apareció hoy en la fuente (1 de 3)"
-   ]
+   "reapariciones": 1,
+   "reaparecida": true
   },
   {
    "cargo": "Profesor Ingeniería software - Acompañamiento de Prácticas Profesionales",
@@ -8887,7 +8491,7 @@
    "duplicados_hoy": 1,
    "desglose": [
     {
-     "concepto": "salario publicado igual o sobre $3.500.000",
+     "concepto": "salario publicado igual o sobre $4.000.000",
      "puntos": 12,
      "nota": "4.500.000 COP"
     }
@@ -9404,9 +9008,64 @@
      "nota": "Diseñador Instruccional"
     },
     {
-     "concepto": "salario publicado por debajo de $3.500.000",
+     "concepto": "salario publicado por debajo de $4.000.000",
      "puntos": -15,
      "nota": "3.000.000 COP — se muestra igual: el publicado casi nunca es el negociado"
+    }
+   ],
+   "puntaje": 10,
+   "ausencias": 0,
+   "nueva": false,
+   "visto_desde": "2026-09-01",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
+  {
+   "cargo": "Docente de Tecnología",
+   "empresa": "Unión Temporal Gestores - Alianza Educativa",
+   "empresa_anonima": false,
+   "ciudad": "Bogotá D.C.",
+   "salario": {
+    "min": 3000001.0,
+    "max": 3500000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-08-20",
+   "vigente_hasta": "2026-10-19",
+   "contrato": "TEMPORARY",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/docente-de-tecnologia-1886705895",
+     "id_fuente": null
+    }
+   ],
+   "inc": [
+    "modalidad"
+   ],
+   "deducidos": [],
+   "modalidad": null,
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "union temporal gestores alianza educativa|docente de tecnologia|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "cargo objetivo de la búsqueda",
+     "puntos": 25,
+     "nota": "Docente de Tecnología"
+    },
+    {
+     "concepto": "salario publicado por debajo de $4.000.000",
+     "puntos": -15,
+     "nota": "3.500.000 COP — se muestra igual: el publicado casi nunca es el negociado"
     }
    ],
    "puntaje": 10,
@@ -9564,7 +9223,7 @@
      "nota": "gestion de proyectos, gestion documental, power bi"
     },
     {
-     "concepto": "salario publicado por debajo de $3.500.000",
+     "concepto": "salario publicado por debajo de $4.000.000",
      "puntos": -15,
      "nota": "2.441.923 COP — se muestra igual: el publicado casi nunca es el negociado"
     },
@@ -9693,14 +9352,12 @@
     }
    ],
    "puntaje": 0,
-   "ausencias": 1,
+   "ausencias": 0,
    "nueva": false,
    "visto_desde": "2026-09-01",
    "republicaciones": 0,
-   "reapariciones": 0,
-   "marcas": [
-    "no apareció hoy en la fuente (1 de 3)"
-   ]
+   "reapariciones": 1,
+   "reaparecida": true
   },
   {
    "cargo": "Ingeniero(a) de Telecomunicaciones / Especialista en Sistemas RF",
@@ -9845,6 +9502,66 @@
    "reapariciones": 0
   },
   {
+   "cargo": "COORDINADOR DE ADMINISTRACIÓN DE PERSONAL - MADRID REF: 1626192435-329",
+   "empresa": "AGENCIA DE EMPLEO Y FOMENTO EMPRESARIAL COMPENSAR",
+   "empresa_anonima": false,
+   "ciudad": "Cundinamarca",
+   "salario": {
+    "min": 3000001.0,
+    "max": 3500000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-07-23",
+   "vigente_hasta": "2026-09-21",
+   "contrato": "OTHER",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/coordinador-de-administracion-de-personal-madrid-ref-1626192435329-1886743378",
+     "id_fuente": null
+    }
+   ],
+   "inc": [
+    "modalidad"
+   ],
+   "deducidos": [],
+   "modalidad": null,
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "agencia de empleo y fomento empresarial compensar|coordinador de administracion de personal madrid ref 329|bogota alrededores",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "cargo secundario de RR.HH.",
+     "puntos": 0,
+     "nota": "solo suma si el cuerpo habla de compensación"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "bases de datos"
+    },
+    {
+     "concepto": "salario publicado por debajo de $4.000.000",
+     "puntos": -15,
+     "nota": "3.500.000 COP — se muestra igual: el publicado casi nunca es el negociado"
+    }
+   ],
+   "puntaje": -3,
+   "ausencias": 0,
+   "nueva": false,
+   "visto_desde": "2026-09-01",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
+  {
    "cargo": "Coordinador",
    "empresa": "CONFIDENTIAL",
    "empresa_anonima": true,
@@ -9895,7 +9612,7 @@
      "nota": "excel"
     },
     {
-     "concepto": "salario publicado por debajo de $3.500.000",
+     "concepto": "salario publicado por debajo de $4.000.000",
      "puntos": -15,
      "nota": "3.000.000 COP — se muestra igual: el publicado casi nunca es el negociado"
     }
@@ -9955,7 +9672,7 @@
      "nota": "manejo de personal"
     },
     {
-     "concepto": "salario publicado por debajo de $3.500.000",
+     "concepto": "salario publicado por debajo de $4.000.000",
      "puntos": -15,
      "nota": "2.000.000 COP — se muestra igual: el publicado casi nunca es el negociado"
     }
@@ -10015,7 +9732,7 @@
      "nota": "coordinacion de equipos"
     },
     {
-     "concepto": "salario publicado por debajo de $3.500.000",
+     "concepto": "salario publicado por debajo de $4.000.000",
      "puntos": -15,
      "nota": "2.627.500 COP — se muestra igual: el publicado casi nunca es el negociado"
     }
@@ -10073,7 +9790,7 @@
      "nota": "bases de datos, gestion de proyectos, power bi"
     },
     {
-     "concepto": "salario publicado por debajo de $3.500.000",
+     "concepto": "salario publicado por debajo de $4.000.000",
      "puntos": -15,
      "nota": "2.200.000 COP — se muestra igual: el publicado casi nunca es el negociado"
     }
@@ -10133,9 +9850,67 @@
      "nota": "excel"
     },
     {
-     "concepto": "salario publicado por debajo de $3.500.000",
+     "concepto": "salario publicado por debajo de $4.000.000",
      "puntos": -15,
      "nota": "3.000.000 COP — se muestra igual: el publicado casi nunca es el negociado"
+    }
+   ],
+   "puntaje": -3,
+   "ausencias": 0,
+   "nueva": false,
+   "visto_desde": "2026-09-01",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
+  {
+   "cargo": "Coordinador(a) Administrativo(a) de Gerencia",
+   "empresa": "Manpower Group Colombia",
+   "empresa_anonima": false,
+   "ciudad": "Cundinamarca",
+   "salario": {
+    "min": 3500000.0,
+    "max": 3500000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-08-24",
+   "vigente_hasta": "2026-10-23",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": "2BE0D088B7D1B44D",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "computrabajo",
+     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-coordinadora-administrativoa-de-gerencia-en-cota-C33EAD3624CEB86161373E686DCF3405",
+     "id_fuente": "2BE0D088B7D1B44D"
+    }
+   ],
+   "inc": [],
+   "deducidos": [],
+   "modalidad": "presencial",
+   "modalidad_literal": "presencial",
+   "modalidad_por_confirmar": false,
+   "id": "manpower|coordinador administrativo de gerencia|bogota alrededores",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "cargo secundario de RR.HH.",
+     "puntos": 0,
+     "nota": "solo suma si el cuerpo habla de compensación"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "coordinacion de equipos, excel"
+    },
+    {
+     "concepto": "salario publicado por debajo de $4.000.000",
+     "puntos": -15,
+     "nota": "3.500.000 COP — se muestra igual: el publicado casi nunca es el negociado"
     }
    ],
    "puntaje": -3,
@@ -10191,7 +9966,7 @@
      "nota": "programacion, gestion de proyectos, excel"
     },
     {
-     "concepto": "salario publicado por debajo de $3.500.000",
+     "concepto": "salario publicado por debajo de $4.000.000",
      "puntos": -15,
      "nota": "2.200.000 COP — se muestra igual: el publicado casi nunca es el negociado"
     }
@@ -10246,7 +10021,7 @@
      "nota": "gestion documental"
     },
     {
-     "concepto": "salario publicado por debajo de $3.500.000",
+     "concepto": "salario publicado por debajo de $4.000.000",
      "puntos": -15,
      "nota": "3.000.000 COP — se muestra igual: el publicado casi nunca es el negociado"
     }
@@ -10301,7 +10076,7 @@
      "nota": "gestion documental"
     },
     {
-     "concepto": "salario publicado por debajo de $3.500.000",
+     "concepto": "salario publicado por debajo de $4.000.000",
      "puntos": -15,
      "nota": "2.500.000 COP — se muestra igual: el publicado casi nunca es el negociado"
     }
@@ -10361,7 +10136,7 @@
      "nota": "gestion documental, excel"
     },
     {
-     "concepto": "salario publicado por debajo de $3.500.000",
+     "concepto": "salario publicado por debajo de $4.000.000",
      "puntos": -15,
      "nota": "3.000.000 COP — se muestra igual: el publicado casi nunca es el negociado"
     }
@@ -10419,7 +10194,7 @@
      "nota": "gestion documental"
     },
     {
-     "concepto": "salario publicado por debajo de $3.500.000",
+     "concepto": "salario publicado por debajo de $4.000.000",
      "puntos": -15,
      "nota": "3.000.000 COP — se muestra igual: el publicado casi nunca es el negociado"
     }
@@ -10467,7 +10242,7 @@
    "duplicados_hoy": 1,
    "desglose": [
     {
-     "concepto": "salario publicado por debajo de $3.500.000",
+     "concepto": "salario publicado por debajo de $4.000.000",
      "puntos": -15,
      "nota": "2.500.000 COP — se muestra igual: el publicado casi nunca es el negociado"
     },
@@ -10526,9 +10301,109 @@
    "duplicados_hoy": 1,
    "desglose": [
     {
-     "concepto": "salario publicado por debajo de $3.500.000",
+     "concepto": "salario publicado por debajo de $4.000.000",
      "puntos": -15,
      "nota": "3.000.000 COP — se muestra igual: el publicado casi nunca es el negociado"
+    }
+   ],
+   "puntaje": -15,
+   "ausencias": 0,
+   "nueva": false,
+   "visto_desde": "2026-09-01",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
+  {
+   "cargo": "Ingeniero de sistemas siesa - Mosquera, Funza, Madrid",
+   "empresa": "Global SAS",
+   "empresa_anonima": false,
+   "ciudad": "Cundinamarca",
+   "salario": {
+    "min": 3500000.0,
+    "max": 3500000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-08-14",
+   "vigente_hasta": "2026-10-13",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": "FE2F2B84400C4AB5",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "computrabajo",
+     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ingeniero-de-sistemas-siesa-mosquera-funza-madrid-en-mosquera-D46A6AE801BB5EE661373E686DCF3405",
+     "id_fuente": "FE2F2B84400C4AB5"
+    }
+   ],
+   "inc": [
+    "modalidad"
+   ],
+   "deducidos": [],
+   "modalidad": null,
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "global|ingeniero de sistemas siesa mosquera funza madrid|bogota alrededores",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "salario publicado por debajo de $4.000.000",
+     "puntos": -15,
+     "nota": "3.500.000 COP — se muestra igual: el publicado casi nunca es el negociado"
+    }
+   ],
+   "puntaje": -15,
+   "ausencias": 0,
+   "nueva": false,
+   "visto_desde": "2026-09-01",
+   "republicaciones": 0,
+   "reapariciones": 1
+  },
+  {
+   "cargo": "Licenciado en Tecnología",
+   "empresa": "CONGREGACION DE LOS HERMANOS DE LAS ESCUELAS CRISTIANAS",
+   "empresa_anonima": false,
+   "ciudad": "Bogotá, D.C.",
+   "salario": {
+    "min": 3502000.0,
+    "max": 3502000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-07-14",
+   "vigente_hasta": "2026-09-12",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": "A9720E9DBC85DC4D",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "computrabajo",
+     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-licenciado-en-tecnologia-en-bogota-dc-EE3B6B84A4BDD31F61373E686DCF3405",
+     "id_fuente": "A9720E9DBC85DC4D"
+    }
+   ],
+   "inc": [
+    "modalidad"
+   ],
+   "deducidos": [],
+   "modalidad": null,
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "congregacion de los hermanos de las escuelas cristianas|licenciado en tecnologia|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "salario publicado por debajo de $4.000.000",
+     "puntos": -15,
+     "nota": "3.502.000 COP — se muestra igual: el publicado casi nunca es el negociado"
     }
    ],
    "puntaje": -15,
@@ -10540,6 +10415,136 @@
   }
  ],
  "caidas": [
+  {
+   "cargo": "Jefe de sistemas de información",
+   "empresa": "Claro Colombia",
+   "empresa_anonima": false,
+   "ciudad": "Bogota, Capital District",
+   "salario": null,
+   "publicado": "2026-09-01",
+   "vigente_hasta": "2026-10-01",
+   "contrato": [
+    "FULL_TIME"
+   ],
+   "agencia": null,
+   "direccion": null,
+   "lat": 4.6533817,
+   "lon": -74.0836331,
+   "id_fuente": "4460610254",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/jefe-de-sistemas-de-informaci%C3%B3n-at-claro-colombia-4460610254",
+     "id_fuente": "4460610254"
+    }
+   ],
+   "inc": [
+    "salario"
+   ],
+   "deducidos": [
+    "modalidad"
+   ],
+   "modalidad_fuente": "On-site",
+   "empleados": 13360,
+   "sede": "Bogotá, D.C, Cundinamarca",
+   "modalidad": "presencial",
+   "modalidad_literal": "presencial",
+   "modalidad_por_confirmar": false,
+   "id": "claro|jefe de sistemas de informacion|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "cargo objetivo de la búsqueda",
+     "puntos": 25,
+     "nota": "Jefe de sistemas de información"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "sql, python, power bi"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    },
+    {
+     "concepto": "publicada hace menos de 3 días",
+     "puntos": 10,
+     "nota": "hace 0 día(s)"
+    }
+   ],
+   "puntaje": 47,
+   "nueva": false,
+   "visto_desde": "2026-09-01",
+   "republicaciones": 0,
+   "reapariciones": 0,
+   "marcas": [
+    "no apareció hoy en la fuente (2 de 3)"
+   ],
+   "desaparecio": "2026-09-01",
+   "dias_publicada": 0
+  },
+  {
+   "cargo": "Director(a) de Aplicaciones TI - ERP / JDE / Oracle",
+   "empresa": "ORGANIZACION GEN",
+   "empresa_anonima": false,
+   "ciudad": "Bogotá D.C.",
+   "salario": {
+    "min": 10000001.0,
+    "max": 12500000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-08-11",
+   "vigente_hasta": "2026-10-10",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/directora-de-aplicaciones-ti-erp-jde-oracle-1886751293",
+     "id_fuente": null
+    }
+   ],
+   "inc": [
+    "modalidad"
+   ],
+   "deducidos": [],
+   "modalidad": null,
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "organizacion gen|director de aplicaciones ti erp jde oracle|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "oracle, gestion de proyectos"
+    },
+    {
+     "concepto": "salario publicado igual o sobre $3.500.000",
+     "puntos": 12,
+     "nota": "12.500.000 COP"
+    }
+   ],
+   "puntaje": 24,
+   "nueva": false,
+   "visto_desde": "2026-09-01",
+   "republicaciones": 0,
+   "reapariciones": 0,
+   "marcas": [
+    "no apareció hoy en la fuente (2 de 3)"
+   ],
+   "desaparecio": "2026-09-01",
+   "dias_publicada": 0
+  },
   {
    "cargo": "Coordinador Sistemas Operativos (Super Usuarios)",
    "empresa": "DHL SUPPLY CHAIN",

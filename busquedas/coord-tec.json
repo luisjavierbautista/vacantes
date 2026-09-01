@@ -310,10 +310,11 @@
   "salario": {
     "moneda": "COP",
     "periodo": "mes",
-    "piso": 3500000,
+    "piso": 4000000,
     "deseable": 4500000,
     "_nota": "Un aviso por debajo del piso NO se esconde: resta puntos y se muestra. El salario publicado casi nunca es el que se termina negociando.",
-    "_nota_cero": "baseSalary.value == 0 en Computrabajo y elempleo significa NO PUBLICADO, nunca cero pesos."
+    "_nota_cero": "baseSalary.value == 0 en Computrabajo y elempleo significa NO PUBLICADO, nunca cero pesos.",
+    "_nota_piso": "Subido de $3.500.000 a $4.000.000 el 01-sep-2026 por decisión del dueño."
   },
   "empresas": {
     "vetadas": [
