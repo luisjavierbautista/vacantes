@@ -1,18 +1,18 @@
 {
  "busqueda": "coord-tec",
  "corrida": "2026-09-01",
- "corrida_hora": "2026-09-01 14:28",
+ "corrida_hora": "2026-09-01 19:34",
  "fuentes": {
   "elempleo": {
-   "avisos": 33,
+   "avisos": 45,
    "error": null
   },
   "computrabajo": {
-   "avisos": 50,
+   "avisos": 56,
    "error": null
   },
   "workday": {
-   "avisos": 6,
+   "avisos": 7,
    "error": null
   },
   "greenhouse": {
@@ -34,12 +34,37 @@
    "motivo": "HTTP 410"
   }
  ],
- "avisos_recogidos": 157,
- "descartados": 56,
- "fusionados": [],
- "nuevas": [],
+ "avisos_recogidos": 176,
+ "descartados": 63,
+ "fusionados": [
+  {
+   "conservado": "coordinador (a) de sistemas operativos",
+   "absorbido": "Coordinador Sistemas Operativos (Super Usuarios)",
+   "parecido": 1.0
+  }
+ ],
+ "nuevas": [
+  "tsg the it experts|administrador de sistemas operativos unix aix iseries|bogota",
+  "selcomp ingenieria|especialista administrador de plataforma microsoft|bogota",
+  "dhl supply chain|coordinador de sistemas operativos|bogota",
+  "adecco|administrador de plataforma salesforce y cloud|bogota",
+  "mundial de seguros|administrador de plataforma salesforce|bogota",
+  "tsg the it experts|administrador de plataformas sap|bogota",
+  "empresa no revelada|especialista administrador de plataforma microsoft|bogota#anon:5500001-6000000-2026-08-20",
+  "cinte|lider tecnico migraciones cloud azure|bogota",
+  "empresa no revelada|administrador de plataformas|bogota#anon:0-0-2026-07-10",
+  "agencia de empleo y fomento empresarial compensar|coordinador operativo gruas sdm 91|bogota",
+  "empresa no revelada|coordinador de bi y analitica|bogota#anon:6000001-8000000-2026-07-09",
+  "empresa no revelada|gerente de servicios junior de ti o coordinador de servicios de ti 100|bogota#anon:0-0-2026-07-23",
+  "ropim|ingeniero de sistemas con dos anos de experiencia|bogota alrededores",
+  "global|ingeniero de sistemas siesa mosquera funza madrid|bogota alrededores"
+ ],
  "reaparecidas": [],
- "ausentes": [],
+ "ausentes": [
+  "jahv mc gregor|coordinador tecnico proyectos tic y conectividad|bogota",
+  "dhl supply chain|coordinador sistemas operativos|bogota",
+  "jahv mc gregor|gerente de proyecto proyectos tic y conectividad|bogota"
+ ],
  "republicadas": [],
  "vigentes": [
   {
@@ -246,6 +271,66 @@
    "reapariciones": 0
   },
   {
+   "cargo": "Administrador de Sistemas Operativos UNIX / AIX / iSeries",
+   "empresa": "TSG THE IT EXPERTS",
+   "empresa_anonima": false,
+   "ciudad": "Bogotá D.C.",
+   "salario": {
+    "min": 8000001.0,
+    "max": 10000000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-07-21",
+   "vigente_hasta": "2026-09-19",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/administrador-de-sistemas-operativos-unix-aix-iseries-1886742003",
+     "id_fuente": null
+    }
+   ],
+   "inc": [
+    "modalidad"
+   ],
+   "deducidos": [],
+   "modalidad": null,
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "tsg the it experts|administrador de sistemas operativos unix aix iseries|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "cargo objetivo de la búsqueda",
+     "puntos": 25,
+     "nota": "Administrador de Sistemas Operativos UNIX / AIX / iSeries"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "administracion de plataforma, itil"
+    },
+    {
+     "concepto": "salario publicado igual o sobre $3.500.000",
+     "puntos": 12,
+     "nota": "10.000.000 COP"
+    }
+   ],
+   "puntaje": 49,
+   "ausencias": 0,
+   "nueva": true,
+   "visto_desde": "2026-09-01",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
+  {
    "cargo": "Coordinador Tecnico - Facatativa",
    "empresa": "AMERICAS GBS SAS",
    "empresa_anonima": false,
@@ -301,6 +386,132 @@
    "puntaje": 49,
    "ausencias": 0,
    "nueva": false,
+   "visto_desde": "2026-09-01",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
+  {
+   "cargo": "Especialista Administrador de Plataforma Microsoft",
+   "empresa": "SELCOMP INGENIERÍA SAS",
+   "empresa_anonima": false,
+   "ciudad": "Bogotá D.C.",
+   "salario": {
+    "min": 5500001.0,
+    "max": 6000000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-08-14",
+   "vigente_hasta": "2026-10-13",
+   "contrato": "PER_DIEM",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/especialista-administrador-de-plataforma-microsoft-1886753338",
+     "id_fuente": null
+    }
+   ],
+   "inc": [],
+   "deducidos": [],
+   "modalidad": "presencial",
+   "modalidad_literal": "presencial",
+   "modalidad_por_confirmar": false,
+   "id": "selcomp ingenieria|especialista administrador de plataforma microsoft|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "cargo objetivo de la búsqueda",
+     "puntos": 25,
+     "nota": "Especialista Administrador de Plataforma Microsoft"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "active directory"
+    },
+    {
+     "concepto": "salario publicado igual o sobre $3.500.000",
+     "puntos": 12,
+     "nota": "6.000.000 COP"
+    }
+   ],
+   "puntaje": 49,
+   "ausencias": 0,
+   "nueva": true,
+   "visto_desde": "2026-09-01",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
+  {
+   "cargo": "coordinador (a) de sistemas operativos",
+   "empresa": "DHL SUPPLY CHAIN COLOMBIA",
+   "empresa_anonima": false,
+   "ciudad": "Bogotá D.C.",
+   "salario": {
+    "min": 4500001.0,
+    "max": 5500000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-07-22",
+   "vigente_hasta": "2026-10-20",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/coordinador-a-de-sistemas-operativos-1886742224",
+     "id_fuente": null
+    },
+    {
+     "fuente": "computrabajo",
+     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-coordinador-sistemas-operativos-super-usuarios-en-bogota-dc-F9035F3BD07E7AE961373E686DCF3405",
+     "id_fuente": "BF7E8ECD22B8BEA6"
+    }
+   ],
+   "inc": [
+    "modalidad"
+   ],
+   "deducidos": [],
+   "modalidad": null,
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "dhl supply chain|coordinador de sistemas operativos|bogota",
+   "duplicados_hoy": 1,
+   "titulos_alternos": [
+    "Coordinador Sistemas Operativos (Super Usuarios)"
+   ],
+   "desglose": [
+    {
+     "concepto": "cargo objetivo de la búsqueda",
+     "puntos": 25,
+     "nota": "coordinador (a) de sistemas operativos"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "excel, power bi"
+    },
+    {
+     "concepto": "salario publicado igual o sobre $3.500.000",
+     "puntos": 12,
+     "nota": "5.500.000 COP"
+    }
+   ],
+   "puntaje": 49,
+   "ausencias": 0,
+   "nueva": true,
    "visto_desde": "2026-09-01",
    "republicaciones": 0,
    "reapariciones": 0
@@ -688,6 +899,169 @@
    "puntaje": 39,
    "ausencias": 0,
    "nueva": false,
+   "visto_desde": "2026-09-01",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
+  {
+   "cargo": "Administrador de Plataforma - SalesForce y Cloud",
+   "empresa": "ADECCO COLOMBIA S A",
+   "empresa_anonima": false,
+   "ciudad": "Bogotá D.C.",
+   "salario": {
+    "min": 6000001.0,
+    "max": 8000000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-07-27",
+   "vigente_hasta": "2026-09-25",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/administrador-de-plataforma-salesforce-y-cloud-1886744753",
+     "id_fuente": null
+    }
+   ],
+   "inc": [],
+   "deducidos": [],
+   "modalidad": "híbrido",
+   "modalidad_literal": "Hibrido",
+   "modalidad_por_confirmar": false,
+   "id": "adecco|administrador de plataforma salesforce y cloud|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "cargo objetivo de la búsqueda",
+     "puntos": 25,
+     "nota": "Administrador de Plataforma - SalesForce y Cloud"
+    },
+    {
+     "concepto": "salario publicado igual o sobre $3.500.000",
+     "puntos": 12,
+     "nota": "8.000.000 COP"
+    }
+   ],
+   "puntaje": 37,
+   "ausencias": 0,
+   "nueva": true,
+   "visto_desde": "2026-09-01",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
+  {
+   "cargo": "Administrador de Plataforma SalesForce",
+   "empresa": "COMPAÑÍA MUNDIAL DE SEGUROS S.A",
+   "empresa_anonima": false,
+   "ciudad": "Bogotá D.C.",
+   "salario": {
+    "min": 8000001.0,
+    "max": 10000000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-07-15",
+   "vigente_hasta": "2026-09-13",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/administrador-de-plataforma-salesforce-1886739832",
+     "id_fuente": null
+    }
+   ],
+   "inc": [
+    "modalidad"
+   ],
+   "deducidos": [],
+   "modalidad": null,
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "mundial de seguros|administrador de plataforma salesforce|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "cargo objetivo de la búsqueda",
+     "puntos": 25,
+     "nota": "Administrador de Plataforma SalesForce"
+    },
+    {
+     "concepto": "salario publicado igual o sobre $3.500.000",
+     "puntos": 12,
+     "nota": "10.000.000 COP"
+    }
+   ],
+   "puntaje": 37,
+   "ausencias": 0,
+   "nueva": true,
+   "visto_desde": "2026-09-01",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
+  {
+   "cargo": "Administrador de Plataformas SAP",
+   "empresa": "TSG THE IT EXPERTS",
+   "empresa_anonima": false,
+   "ciudad": "Bogotá D.C.",
+   "salario": {
+    "min": 8000001.0,
+    "max": 10000000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-07-06",
+   "vigente_hasta": "2026-09-04",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/administrador-de-plataformas-sap-1886735345",
+     "id_fuente": null
+    }
+   ],
+   "inc": [
+    "modalidad"
+   ],
+   "deducidos": [],
+   "modalidad": null,
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "tsg the it experts|administrador de plataformas sap|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "cargo objetivo de la búsqueda",
+     "puntos": 25,
+     "nota": "Administrador de Plataformas SAP"
+    },
+    {
+     "concepto": "salario publicado igual o sobre $3.500.000",
+     "puntos": 12,
+     "nota": "10.000.000 COP"
+    }
+   ],
+   "puntaje": 37,
+   "ausencias": 0,
+   "nueva": true,
    "visto_desde": "2026-09-01",
    "republicaciones": 0,
    "reapariciones": 0
@@ -1126,6 +1500,62 @@
    "reapariciones": 0
   },
   {
+   "cargo": "Especialista Administrador de Plataforma Microsoft",
+   "empresa": "CONFIDENTIAL",
+   "empresa_anonima": true,
+   "ciudad": "Bogotá D.C.",
+   "salario": {
+    "min": 5500001.0,
+    "max": 6000000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-08-20",
+   "vigente_hasta": "2026-10-19",
+   "contrato": "PER_DIEM",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/especialista-administrador-de-plataforma-microsoft-1886755250",
+     "id_fuente": null
+    }
+   ],
+   "inc": [],
+   "deducidos": [],
+   "modalidad": "presencial",
+   "modalidad_literal": "presencial",
+   "modalidad_por_confirmar": false,
+   "id": "empresa no revelada|especialista administrador de plataforma microsoft|bogota#anon:5500001-6000000-2026-08-20",
+   "duplicados_hoy": 1,
+   "marcas": [
+    "empresa no revelada: puede estar repetida"
+   ],
+   "desglose": [
+    {
+     "concepto": "cargo objetivo de la búsqueda",
+     "puntos": 25,
+     "nota": "Especialista Administrador de Plataforma Microsoft"
+    },
+    {
+     "concepto": "salario publicado igual o sobre $3.500.000",
+     "puntos": 12,
+     "nota": "6.000.000 COP"
+    }
+   ],
+   "puntaje": 37,
+   "ausencias": 0,
+   "nueva": true,
+   "visto_desde": "2026-09-01",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
+  {
    "cargo": "Experto Técnico Sr. rol Líder Técnico - Aplicaciones",
    "empresa": "AXA COLPATRIA",
    "empresa_anonima": false,
@@ -1183,6 +1613,59 @@
    "puntaje": 37,
    "ausencias": 0,
    "nueva": false,
+   "visto_desde": "2026-09-01",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
+  {
+   "cargo": "Lider Técnico / Migraciones Cloud Azure",
+   "empresa": "Cinte Colombia SAS",
+   "empresa_anonima": false,
+   "ciudad": "Bogotá D.C.",
+   "salario": {
+    "min": 6000001.0,
+    "max": 8000000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-07-22",
+   "vigente_hasta": "2026-09-20",
+   "contrato": "PER_DIEM",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/lider-tecnico-migraciones-cloud-azure-1886742199",
+     "id_fuente": null
+    }
+   ],
+   "inc": [],
+   "deducidos": [],
+   "modalidad": "híbrido",
+   "modalidad_literal": "Hibrido",
+   "modalidad_por_confirmar": false,
+   "id": "cinte|lider tecnico migraciones cloud azure|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "cargo objetivo de la búsqueda",
+     "puntos": 25,
+     "nota": "Lider Técnico / Migraciones Cloud Azure"
+    },
+    {
+     "concepto": "salario publicado igual o sobre $3.500.000",
+     "puntos": 12,
+     "nota": "8.000.000 COP"
+    }
+   ],
+   "puntaje": 37,
+   "ausencias": 0,
+   "nueva": true,
    "visto_desde": "2026-09-01",
    "republicaciones": 0,
    "reapariciones": 0
@@ -1560,6 +2043,65 @@
    "reapariciones": 0
   },
   {
+   "cargo": "administrador de plataformas",
+   "empresa": "CONFIDENTIAL",
+   "empresa_anonima": true,
+   "ciudad": "Bogotá D.C.",
+   "salario": null,
+   "publicado": "2026-07-10",
+   "vigente_hasta": "2026-09-08",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/administrador-de-plataformas-1886738100",
+     "id_fuente": null
+    }
+   ],
+   "inc": [
+    "salario",
+    "modalidad"
+   ],
+   "deducidos": [],
+   "modalidad": null,
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "empresa no revelada|administrador de plataformas|bogota#anon:0-0-2026-07-10",
+   "duplicados_hoy": 1,
+   "marcas": [
+    "empresa no revelada: puede estar repetida"
+   ],
+   "desglose": [
+    {
+     "concepto": "cargo objetivo de la búsqueda",
+     "puntos": 25,
+     "nota": "administrador de plataformas"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "bases de datos, sql, sql server, oracle, itil"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    }
+   ],
+   "puntaje": 37,
+   "ausencias": 0,
+   "nueva": true,
+   "visto_desde": "2026-09-01",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
+  {
    "cargo": "coordinador de sistemas y tecnología - Bogota",
    "empresa": "TITADSU SAS",
    "empresa_anonima": false,
@@ -1726,11 +2268,14 @@
     }
    ],
    "puntaje": 35,
-   "ausencias": 0,
+   "ausencias": 1,
    "nueva": false,
    "visto_desde": "2026-09-01",
    "republicaciones": 0,
-   "reapariciones": 0
+   "reapariciones": 0,
+   "marcas": [
+    "no apareció hoy en la fuente (1 de 2)"
+   ]
   },
   {
    "cargo": "Líder Técnico Cloud / DevSecOps",
@@ -2771,6 +3316,64 @@
    "reapariciones": 0
   },
   {
+   "cargo": "COORDINADOR OPERATIVO GRÚAS SDM 1626176668-91",
+   "empresa": "AGENCIA DE EMPLEO Y FOMENTO EMPRESARIAL COMPENSAR",
+   "empresa_anonima": false,
+   "ciudad": "Bogotá D.C.",
+   "salario": {
+    "min": 6000001.0,
+    "max": 8000000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-07-31",
+   "vigente_hasta": "2026-09-29",
+   "contrato": "PER_DIEM",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/coordinador-operativo-gruas-sdm-162617666891-1886747400",
+     "id_fuente": null
+    }
+   ],
+   "inc": [],
+   "deducidos": [],
+   "modalidad": "presencial",
+   "modalidad_literal": "Presencial",
+   "modalidad_por_confirmar": false,
+   "id": "agencia de empleo y fomento empresarial compensar|coordinador operativo gruas sdm 91|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "cargo secundario de RR.HH.",
+     "puntos": 0,
+     "nota": "solo suma si el cuerpo habla de compensación"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "programacion, gestion de proyectos"
+    },
+    {
+     "concepto": "salario publicado igual o sobre $3.500.000",
+     "puntos": 12,
+     "nota": "8.000.000 COP"
+    }
+   ],
+   "puntaje": 24,
+   "ausencias": 0,
+   "nueva": true,
+   "visto_desde": "2026-09-01",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
+  {
    "cargo": "Coordinador Administrativo - Experiencia sector Humanitario",
    "empresa": "PUNTO EMPLEO S.A.S",
    "empresa_anonima": false,
@@ -2884,8 +3487,72 @@
     }
    ],
    "puntaje": 24,
-   "ausencias": 0,
+   "ausencias": 1,
    "nueva": false,
+   "visto_desde": "2026-09-01",
+   "republicaciones": 0,
+   "reapariciones": 0,
+   "marcas": [
+    "no apareció hoy en la fuente (1 de 2)"
+   ]
+  },
+  {
+   "cargo": "Coordinador de BI y Analítica",
+   "empresa": "CONFIDENTIAL",
+   "empresa_anonima": true,
+   "ciudad": "Bogotá D.C.",
+   "salario": {
+    "min": 6000001.0,
+    "max": 8000000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-07-09",
+   "vigente_hasta": "2026-09-07",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/coordinador-de-bi-y-analitica-1886737485",
+     "id_fuente": null
+    }
+   ],
+   "inc": [],
+   "deducidos": [],
+   "modalidad": "presencial",
+   "modalidad_literal": "presencial",
+   "modalidad_por_confirmar": false,
+   "id": "empresa no revelada|coordinador de bi y analitica|bogota#anon:6000001-8000000-2026-07-09",
+   "duplicados_hoy": 1,
+   "marcas": [
+    "empresa no revelada: puede estar repetida"
+   ],
+   "desglose": [
+    {
+     "concepto": "cargo secundario de RR.HH.",
+     "puntos": 0,
+     "nota": "solo suma si el cuerpo habla de compensación"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "sql, python, power bi"
+    },
+    {
+     "concepto": "salario publicado igual o sobre $3.500.000",
+     "puntos": 12,
+     "nota": "8.000.000 COP"
+    }
+   ],
+   "puntaje": 24,
+   "ausencias": 0,
+   "nueva": true,
    "visto_desde": "2026-09-01",
    "republicaciones": 0,
    "reapariciones": 0
@@ -4069,11 +4736,14 @@
     }
    ],
    "puntaje": 22,
-   "ausencias": 0,
+   "ausencias": 1,
    "nueva": false,
    "visto_desde": "2026-09-01",
    "republicaciones": 0,
-   "reapariciones": 0
+   "reapariciones": 0,
+   "marcas": [
+    "no apareció hoy en la fuente (1 de 2)"
+   ]
   },
   {
    "cargo": "Líder Técnico(a) Inteligencia Artificial Senior REE",
@@ -4712,6 +5382,64 @@
    "reapariciones": 0
   },
   {
+   "cargo": "Gerente de Servicios Junior de TI o Coordinador de Servicios de TI /100% Presencial",
+   "empresa": "CONFIDENTIAL",
+   "empresa_anonima": true,
+   "ciudad": "Bogotá D.C.",
+   "salario": null,
+   "publicado": "2026-07-23",
+   "vigente_hasta": "2026-09-21",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/gerente-de-servicios-junior-de-ti-o-coordinador-de-servicios-de-ti-100-presencial-1886743483",
+     "id_fuente": null
+    }
+   ],
+   "inc": [
+    "salario"
+   ],
+   "deducidos": [],
+   "modalidad": "presencial",
+   "modalidad_literal": "presencial",
+   "modalidad_por_confirmar": false,
+   "id": "empresa no revelada|gerente de servicios junior de ti o coordinador de servicios de ti 100|bogota#anon:0-0-2026-07-23",
+   "duplicados_hoy": 1,
+   "marcas": [
+    "empresa no revelada: puede estar repetida"
+   ],
+   "desglose": [
+    {
+     "concepto": "cargo secundario de RR.HH.",
+     "puntos": 0,
+     "nota": "solo suma si el cuerpo habla de compensación"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "itil"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    }
+   ],
+   "puntaje": 12,
+   "ausencias": 0,
+   "nueva": true,
+   "visto_desde": "2026-09-01",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
+  {
    "cargo": "Ingeniero de Sistemas - Business Intelligence (BI)",
    "empresa": "GESTION SERVICIOS TEMPORALES SAS",
    "empresa_anonima": false,
@@ -4757,6 +5485,107 @@
    "puntaje": 12,
    "ausencias": 0,
    "nueva": false,
+   "visto_desde": "2026-09-01",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
+  {
+   "cargo": "Ingeniero de Sistemas - con dos años de experiencia",
+   "empresa": "Ropim S.A.",
+   "empresa_anonima": false,
+   "ciudad": "Cundinamarca",
+   "salario": null,
+   "publicado": "2026-07-06",
+   "vigente_hasta": "2026-09-04",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": "A51B1C352C053DA7",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "computrabajo",
+     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ingeniero-de-sistemas-con-dos-anos-de-experiencia-en-cota-958C6F7762221F8C61373E686DCF3405",
+     "id_fuente": "A51B1C352C053DA7"
+    }
+   ],
+   "inc": [
+    "salario",
+    "modalidad"
+   ],
+   "deducidos": [],
+   "modalidad": null,
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "ropim|ingeniero de sistemas con dos anos de experiencia|bogota alrededores",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "active directory"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    }
+   ],
+   "puntaje": 12,
+   "ausencias": 0,
+   "nueva": true,
+   "visto_desde": "2026-09-01",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
+  {
+   "cargo": "Ingeniero de sistemas siesa - Mosquera, Funza, Madrid",
+   "empresa": "Global SAS",
+   "empresa_anonima": false,
+   "ciudad": "Cundinamarca",
+   "salario": {
+    "min": 3500000.0,
+    "max": 3500000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-08-14",
+   "vigente_hasta": "2026-10-13",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": "FE2F2B84400C4AB5",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "computrabajo",
+     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ingeniero-de-sistemas-siesa-mosquera-funza-madrid-en-mosquera-D46A6AE801BB5EE661373E686DCF3405",
+     "id_fuente": "FE2F2B84400C4AB5"
+    }
+   ],
+   "inc": [
+    "modalidad"
+   ],
+   "deducidos": [],
+   "modalidad": null,
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "global|ingeniero de sistemas siesa mosquera funza madrid|bogota alrededores",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "salario publicado igual o sobre $3.500.000",
+     "puntos": 12,
+     "nota": "3.500.000 COP"
+    }
+   ],
+   "puntaje": 12,
+   "ausencias": 0,
+   "nueva": true,
    "visto_desde": "2026-09-01",
    "republicaciones": 0,
    "reapariciones": 0
