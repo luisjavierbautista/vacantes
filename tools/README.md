@@ -114,7 +114,7 @@ personas, nunca contactos, nunca datos de reclutadores.
 Dos clases distintas, y conviene no confundirlas:
 
 **Llaves de servidor** (`APIFY_TOKEN`, `LLAVE_RUTAS`). Secretas. Van en Secrets
-del repositorio y en `~/.config/vacantes-comp-ben/` en local, con permisos `600`.
+del repositorio y en `~/.config/vacantes/` en local, con permisos `600`.
 Nunca en el repo, nunca en la página, nunca en un commit. Si el barrido corre sin
 llave, no falla: deja los campos que dependen de ella marcados como «pendiente» y
 sigue.

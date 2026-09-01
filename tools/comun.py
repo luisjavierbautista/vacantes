@@ -23,7 +23,7 @@ from datetime import date, datetime, timedelta
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DIR_CACHE = os.path.join(RAIZ, ".cache")
-DIR_CONFIG = os.path.expanduser("~/.config/vacantes-comp-ben")
+DIR_CONFIG = os.path.expanduser("~/.config/vacantes")
 
 AGENTE = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
           "(KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36")
