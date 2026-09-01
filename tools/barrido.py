@@ -172,9 +172,15 @@ def fuente_elempleo(desc, bus, cri, limites):
             slug = loc.rsplit("/", 1)[-1].replace("trabajo-", "").replace("-", " ")
             if cri.tema_excluido(slug):
                 continue
-            if cri.es_objetivo(slug) or cri.titulo_relevante(slug):
-                landings.append(loc)
-    landings = list(dict.fromkeys(landings))
+            if cri.es_objetivo(slug):
+                landings.append((0, loc))          # coincide con un cargo objetivo
+            elif cri.titulo_relevante(slug):
+                landings.append((1, loc))          # solo toca el dominio
+    # Se ordenan por precisión antes de recortar: con un perfil ancho hay miles
+    # de landings y solo se piden unas decenas. Sin ordenar, el recorte se queda
+    # con las primeras del sitemap, que no son las mejores.
+    landings.sort(key=lambda x: x[0])
+    landings = list(dict.fromkeys(loc for _, loc in landings))
     # Las landings de área van primero: son el barrido de fondo del oficio.
     landings = list(cfg.get("landings_area", [])) + landings
     landings = landings[: limites["landings"]]
@@ -1048,7 +1054,7 @@ def main():
                    help="corre solo esta fuente (se puede repetir)")
     p.add_argument("--dry", action="store_true", help="no escribe nada")
     p.add_argument("--sin-cache", action="store_true")
-    p.add_argument("--landings", type=int, default=25)
+    p.add_argument("--landings", type=int, default=60)
     p.add_argument("--detalles", type=int, default=120)
     p.add_argument("--detalles-workday", type=int, default=25)
     args = p.parse_args()

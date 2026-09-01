@@ -566,11 +566,12 @@
     "dias_para_considerar_reciente": 3,
     "max_empresas_visibles_en_filtro": 8,
     "dias_para_olvidar_caidas": 45,
-    "ausencias_para_declarar_caida": 2,
+    "ausencias_para_declarar_caida": 3,
     "techo_riel_cop": 12000000,
     "_nota_riel": "Tope FIJO de la escala del riel salarial, ajustado a este perfil: con el techo de 40M de la otra búsqueda, un sueldo de 4M sería una rayita invisible. Fijo a propósito para que la página de ayer siga siendo comparable con la de hoy.",
     "similitud_para_fusionar": 0.6,
-    "_nota_similitud": "Dos avisos de la MISMA empresa con nombre conocido y la misma ciudad se fusionan si sus títulos comparten esta proporción de palabras. Nunca entre niveles opuestos ni cuando uno cae en una exclusión temática y el otro no."
+    "_nota_similitud": "Dos avisos de la MISMA empresa con nombre conocido y la misma ciudad se fusionan si sus títulos comparten esta proporción de palabras. Nunca entre niveles opuestos ni cuando uno cae en una exclusión temática y el otro no.",
+    "_nota_ausencias": "Tres ausencias seguidas, no dos. Medido el 01-sep-2026 en coord-tec: las 13 vacantes declaradas caídas con el umbral de 2 volvieron TODAS en la corrida siguiente. La causa no es que los portales parpadeen un poco, es que de elempleo se muestrea: para un perfil ancho hay ~3000 landings que casan y se piden unas decenas, así que cada corrida ve una tajada distinta. Mientras la cobertura sea un muestreo, «caída» hay que leerla con prudencia y conviene un umbral holgado: declarar de más una caída arruina justo lo que esa lista mide."
   },
   "textos": {
     "encabezado": "Coordinación técnica y formación en tecnología",

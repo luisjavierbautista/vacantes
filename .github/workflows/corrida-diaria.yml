@@ -31,7 +31,7 @@ jobs:
         run: |
           for b in $(ls busquedas/*.json | xargs -n1 basename | sed 's/\.json$//'); do
             echo "── $b ──"
-            python3 tools/barrido.py --busqueda "$b"
+            python3 tools/barrido.py --busqueda "$b" --landings 120 --detalles 200
           done
         # barrido.py devuelve 1 si el freno del 40% se dispara: el paso falla
         # y no se publica nada. Es lo que queremos.
