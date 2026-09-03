@@ -1,10 +1,10 @@
 {
  "busqueda": "comp-ben",
- "corrida": "2026-09-02",
- "corrida_hora": "2026-09-02 15:07",
+ "corrida": "2026-09-03",
+ "corrida_hora": "2026-09-03 15:00",
  "fuentes": {
   "elempleo": {
-   "avisos": 12,
+   "avisos": 14,
    "error": null
   },
   "computrabajo": {
@@ -12,7 +12,7 @@
    "error": null
   },
   "workday": {
-   "avisos": 3,
+   "avisos": 4,
    "error": null
   },
   "greenhouse": {
@@ -29,12 +29,14 @@
   }
  },
  "fallos": [],
- "avisos_recogidos": 29,
- "descartados": 6,
+ "avisos_recogidos": 32,
+ "descartados": 10,
  "fusionados": [],
  "nuevas": [],
  "reaparecidas": [],
- "ausentes": [],
+ "ausentes": [
+  "prosegur|responsable de nomina y compensacion|bogota"
+ ],
  "republicadas": [],
  "vigentes": [
   {
@@ -166,7 +168,7 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 2 día(s)"
+     "nota": "hace 3 día(s)"
     }
    ],
    "puntaje": 50,
@@ -379,74 +381,6 @@
    "reapariciones": 0
   },
   {
-   "cargo": "Gerente de Compensación y Beneficios (Total Rewards) - 80 Beneficios 20 Compensacion",
-   "empresa": "Manpower Group Colombia",
-   "empresa_anonima": false,
-   "ciudad": "Bogotá, D.C.",
-   "salario": {
-    "min": 10000000.0,
-    "max": 10000000.0,
-    "moneda": "COP",
-    "periodo": "MONTH"
-   },
-   "publicado": "2026-08-30",
-   "vigente_hasta": "2026-10-29",
-   "contrato": "FULL_TIME",
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": "2BE0D088B7D1B44D",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "computrabajo",
-     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-gerente-de-compensacion-y-beneficios-total-rewards-80-beneficios-20-compensacion-en-bogota-dc-B71482EED89E65DD61373E686DCF3405",
-     "id_fuente": "2BE0D088B7D1B44D"
-    }
-   ],
-   "inc": [],
-   "deducidos": [],
-   "modalidad": "híbrido",
-   "modalidad_literal": "3 dias en oficina",
-   "modalidad_por_confirmar": false,
-   "id": "manpower|gerente de compensacion y beneficios 80 beneficios 20 compensacion|bogota",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "cargo objetivo de la búsqueda",
-     "puntos": 25,
-     "nota": "Gerente de Compensación y Beneficios (Total Rewards) - 80 Beneficios 20 Compensacion"
-    },
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "no se pudo determinar: no suma ni resta"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "compensacion, total rewards"
-    },
-    {
-     "concepto": "salario publicado por debajo de $18.000.000",
-     "puntos": -15,
-     "nota": "10.000.000 COP — se muestra igual: el publicado casi nunca es el negociado"
-    },
-    {
-     "concepto": "publicada hace menos de 3 días",
-     "puntos": 10,
-     "nota": "hace 3 día(s)"
-    }
-   ],
-   "puntaje": 32,
-   "ausencias": 0,
-   "nueva": false,
-   "visto_desde": "2026-08-31",
-   "republicaciones": 0,
-   "reapariciones": 0
-  },
-  {
    "cargo": "Responsable de Nómina y Compensación",
    "empresa": "Prosegur",
    "empresa_anonima": false,
@@ -502,9 +436,75 @@
     }
    ],
    "puntaje": 27,
-   "ausencias": 0,
+   "ausencias": 1,
    "nueva": false,
    "visto_desde": "2026-08-29",
+   "republicaciones": 0,
+   "reapariciones": 0,
+   "marcas": [
+    "no apareció hoy en la fuente (1 de 3)"
+   ]
+  },
+  {
+   "cargo": "Gerente de Compensación y Beneficios (Total Rewards) - 80 Beneficios 20 Compensacion",
+   "empresa": "Manpower Group Colombia",
+   "empresa_anonima": false,
+   "ciudad": "Bogotá, D.C.",
+   "salario": {
+    "min": 10000000.0,
+    "max": 10000000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-08-30",
+   "vigente_hasta": "2026-10-29",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": "2BE0D088B7D1B44D",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "computrabajo",
+     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-gerente-de-compensacion-y-beneficios-total-rewards-80-beneficios-20-compensacion-en-bogota-dc-B71482EED89E65DD61373E686DCF3405",
+     "id_fuente": "2BE0D088B7D1B44D"
+    }
+   ],
+   "inc": [],
+   "deducidos": [],
+   "modalidad": "híbrido",
+   "modalidad_literal": "3 dias en oficina",
+   "modalidad_por_confirmar": false,
+   "id": "manpower|gerente de compensacion y beneficios 80 beneficios 20 compensacion|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "cargo objetivo de la búsqueda",
+     "puntos": 25,
+     "nota": "Gerente de Compensación y Beneficios (Total Rewards) - 80 Beneficios 20 Compensacion"
+    },
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "compensacion, total rewards"
+    },
+    {
+     "concepto": "salario publicado por debajo de $18.000.000",
+     "puntos": -15,
+     "nota": "10.000.000 COP — se muestra igual: el publicado casi nunca es el negociado"
+    }
+   ],
+   "puntaje": 22,
+   "ausencias": 0,
+   "nueva": false,
+   "visto_desde": "2026-08-31",
    "republicaciones": 0,
    "reapariciones": 0
   },
@@ -564,7 +564,7 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 1 día(s)"
+     "nota": "hace 2 día(s)"
     }
    ],
    "puntaje": 22,
@@ -831,7 +831,7 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 2 día(s)"
+     "nota": "hace 3 día(s)"
     }
    ],
    "puntaje": 17,
