@@ -1,7 +1,7 @@
 {
  "busqueda": "comp-ben",
- "corrida": "2026-09-03",
- "corrida_hora": "2026-09-03 15:00",
+ "corrida": "2026-09-04",
+ "corrida_hora": "2026-09-04 14:58",
  "fuentes": {
   "elempleo": {
    "avisos": 14,
@@ -12,7 +12,7 @@
    "error": null
   },
   "workday": {
-   "avisos": 4,
+   "avisos": 5,
    "error": null
   },
   "greenhouse": {
@@ -20,24 +20,38 @@
    "error": null
   },
   "arbeitnow": {
-   "avisos": 0,
+   "avisos": 1,
    "error": null
   },
   "apify_linkedin": {
-   "avisos": 9,
+   "avisos": 15,
    "error": null
   }
  },
- "fallos": [],
- "avisos_recogidos": 32,
- "descartados": 10,
+ "fallos": [
+  {
+   "url": "https://www.elempleo.com/co/ofertas-trabajo/gerente-de-compensacion-y-beneficios-bogota-1886735172",
+   "motivo": "HTTP 410"
+  }
+ ],
+ "avisos_recogidos": 40,
+ "descartados": 13,
  "fusionados": [],
- "nuevas": [],
- "reaparecidas": [],
+ "nuevas": [
+  "bairesdev|workday analyst compensation benefits|colombia",
+  "hellofresh|associate director customer compensation policy|berlin",
+  "empresa no revelada|lider de nomina y compensacion|bogota#anon:5500001-6000000-2026-09-04"
+ ],
+ "reaparecidas": [
+  "bairesdev|senior workday analyst compensation benefits|colombia"
+ ],
  "ausentes": [
+  "empresa no revelada|gerente de compensacion y beneficios|bogota#anon:21000001-50000000-2026-07-06",
   "prosegur|responsable de nomina y compensacion|bogota"
  ],
- "republicadas": [],
+ "republicadas": [
+  "bairesdev|senior workday analyst compensation benefits|colombia"
+ ],
  "vigentes": [
   {
    "cargo": "Global Compensation Manager",
@@ -107,78 +121,6 @@
    "reapariciones": 0
   },
   {
-   "cargo": "Compensation Partner",
-   "empresa": "Rappi",
-   "empresa_anonima": false,
-   "ciudad": "Bogota, Capital District",
-   "salario": null,
-   "publicado": "2026-08-31",
-   "vigente_hasta": "2026-09-30",
-   "contrato": [
-    "FULL_TIME"
-   ],
-   "agencia": null,
-   "direccion": null,
-   "lat": 4.6533817,
-   "lon": -74.0836331,
-   "id_fuente": "4459217069",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "linkedin",
-     "url": "https://co.linkedin.com/jobs/view/compensation-partner-at-rappi-4459217069",
-     "id_fuente": "4459217069"
-    }
-   ],
-   "inc": [
-    "salario"
-   ],
-   "deducidos": [
-    "modalidad"
-   ],
-   "modalidad_fuente": "Remote OK",
-   "empleados": 14944,
-   "sede": "Latinoamérica",
-   "modalidad": "remoto",
-   "modalidad_literal": "remote",
-   "modalidad_por_confirmar": false,
-   "id": "rappi|compensation partner|bogota",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "cargo objetivo de la búsqueda",
-     "puntos": 25,
-     "nota": "Compensation Partner"
-    },
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "no se pudo determinar: no suma ni resta"
-    },
-    {
-     "concepto": "remoto confirmado en el cuerpo del aviso",
-     "puntos": 15,
-     "nota": "remote"
-    },
-    {
-     "concepto": "salario",
-     "puntos": 0,
-     "nota": "sin salario publicado, no suma ni resta"
-    },
-    {
-     "concepto": "publicada hace menos de 3 días",
-     "puntos": 10,
-     "nota": "hace 3 día(s)"
-    }
-   ],
-   "puntaje": 50,
-   "ausencias": 0,
-   "nueva": false,
-   "visto_desde": "2026-09-01",
-   "republicaciones": 0,
-   "reapariciones": 0
-  },
-  {
    "cargo": "GERENTE DE COMPENSACIÓN Y BENEFICIOS - BOGOTÁ",
    "empresa": "CONFIDENTIAL",
    "empresa_anonima": true,
@@ -215,7 +157,8 @@
    "id": "empresa no revelada|gerente de compensacion y beneficios|bogota#anon:21000001-50000000-2026-07-06",
    "duplicados_hoy": 1,
    "marcas": [
-    "empresa no revelada: puede estar repetida"
+    "empresa no revelada: puede estar repetida",
+    "no apareció hoy en la fuente (1 de 3)"
    ],
    "desglose": [
     {
@@ -240,7 +183,7 @@
     }
    ],
    "puntaje": 49,
-   "ausencias": 0,
+   "ausencias": 1,
    "nueva": false,
    "visto_desde": "2026-08-28",
    "republicaciones": 0,
@@ -309,6 +252,73 @@
    "ausencias": 0,
    "nueva": false,
    "visto_desde": "2026-08-28",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
+  {
+   "cargo": "Compensation Partner",
+   "empresa": "Rappi",
+   "empresa_anonima": false,
+   "ciudad": "Bogota, Capital District",
+   "salario": null,
+   "publicado": "2026-08-31",
+   "vigente_hasta": "2026-09-30",
+   "contrato": [
+    "FULL_TIME"
+   ],
+   "agencia": null,
+   "direccion": null,
+   "lat": 4.6533817,
+   "lon": -74.0836331,
+   "id_fuente": "4459217069",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/compensation-partner-at-rappi-4459217069",
+     "id_fuente": "4459217069"
+    }
+   ],
+   "inc": [
+    "salario"
+   ],
+   "deducidos": [
+    "modalidad"
+   ],
+   "modalidad_fuente": "Remote OK",
+   "empleados": 14944,
+   "sede": "Latinoamérica",
+   "modalidad": "remoto",
+   "modalidad_literal": "remote",
+   "modalidad_por_confirmar": false,
+   "id": "rappi|compensation partner|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "cargo objetivo de la búsqueda",
+     "puntos": 25,
+     "nota": "Compensation Partner"
+    },
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "remoto confirmado en el cuerpo del aviso",
+     "puntos": 15,
+     "nota": "remote"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    }
+   ],
+   "puntaje": 40,
+   "ausencias": 0,
+   "nueva": false,
+   "visto_desde": "2026-09-01",
    "republicaciones": 0,
    "reapariciones": 0
   },
@@ -436,13 +446,13 @@
     }
    ],
    "puntaje": 27,
-   "ausencias": 1,
+   "ausencias": 2,
    "nueva": false,
    "visto_desde": "2026-08-29",
    "republicaciones": 0,
    "reapariciones": 0,
    "marcas": [
-    "no apareció hoy en la fuente (1 de 3)"
+    "no apareció hoy en la fuente (2 de 3)"
    ]
   },
   {
@@ -451,8 +461,8 @@
    "empresa_anonima": false,
    "ciudad": "Bogotá, D.C.",
    "salario": {
-    "min": 10000000.0,
-    "max": 10000000.0,
+    "min": 14000000.0,
+    "max": 14000000.0,
     "moneda": "COP",
     "periodo": "MONTH"
    },
@@ -498,7 +508,7 @@
     {
      "concepto": "salario publicado por debajo de $18.000.000",
      "puntos": -15,
-     "nota": "10.000.000 COP — se muestra igual: el publicado casi nunca es el negociado"
+     "nota": "14.000.000 COP — se muestra igual: el publicado casi nunca es el negociado"
     }
    ],
    "puntaje": 22,
@@ -564,7 +574,7 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 2 día(s)"
+     "nota": "hace 3 día(s)"
     }
    ],
    "puntaje": 22,
@@ -772,56 +782,57 @@
    "reapariciones": 0
   },
   {
-   "cargo": "Analista Senior de Compensación",
-   "empresa": "Confidencial",
-   "empresa_anonima": true,
-   "ciudad": "Bogota, Capital District",
+   "cargo": "Senior Workday Analyst – Compensation & Benefits - Remote Work",
+   "empresa": "BairesDev",
+   "empresa_anonima": false,
+   "ciudad": "Colombia",
    "salario": null,
-   "publicado": "2026-08-31",
-   "vigente_hasta": "2026-09-30",
-   "contrato": [
-    "FULL_TIME"
-   ],
+   "publicado": "2026-08-25",
+   "vigente_hasta": null,
+   "contrato": null,
    "agencia": null,
    "direccion": null,
-   "lat": 4.6533817,
-   "lon": -74.0836331,
-   "id_fuente": "4460029686",
+   "lat": 4.099917,
+   "lon": -72.9088133,
+   "id_fuente": "4461670869",
    "pais": null,
    "fuentes": [
     {
      "fuente": "linkedin",
-     "url": "https://co.linkedin.com/jobs/view/analista-senior-de-compensaci%C3%B3n-at-money-inc-4460029686",
-     "id_fuente": "4460029686"
+     "url": "https://co.linkedin.com/jobs/view/senior-workday-analyst-%E2%80%93-compensation-benefits-remote-work-at-bairesdev-4461670869",
+     "id_fuente": "4461670869"
+    },
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/senior-workday-analyst-%E2%80%93-compensation-benefits-remote-work-at-bairesdev-4461686210",
+     "id_fuente": "4461686210"
     }
    ],
    "inc": [
-    "salario"
+    "salario",
+    "contrato"
    ],
    "deducidos": [
     "modalidad"
    ],
-   "modalidad_fuente": "On-site",
-   "empleados": 890,
-   "sede": "New York, New York",
-   "modalidad": "On-site",
-   "modalidad_literal": null,
+   "modalidad_fuente": "Remote Solely",
+   "empleados": 3183,
+   "sede": "San Francisco, California",
+   "modalidad": "remoto",
+   "modalidad_literal": "remote",
    "modalidad_por_confirmar": false,
-   "id": "empresa no revelada|analista senior de compensacion|bogota#anon:0-0-2026-08-31",
-   "duplicados_hoy": 1,
-   "marcas": [
-    "empresa no revelada: puede estar repetida"
-   ],
+   "id": "bairesdev|senior workday analyst compensation benefits|colombia",
+   "duplicados_hoy": 2,
    "desglose": [
     {
      "concepto": "multinacional estadounidense",
      "puntos": -5,
-     "nota": "New York, New York"
+     "nota": "San Francisco, California"
     },
     {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "compensacion"
+     "concepto": "remoto confirmado en el cuerpo del aviso",
+     "puntos": 15,
+     "nota": "remote"
     },
     {
      "concepto": "salario",
@@ -831,13 +842,150 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 3 día(s)"
+     "nota": "hace 1 día(s)"
     }
    ],
-   "puntaje": 17,
+   "puntaje": 20,
    "ausencias": 0,
    "nueva": false,
-   "visto_desde": "2026-09-01",
+   "visto_desde": "2026-08-28",
+   "republicaciones": 1,
+   "reapariciones": 1,
+   "reaparecida": true
+  },
+  {
+   "cargo": "Workday Analyst – Compensation & Benefits - Remote Work",
+   "empresa": "BairesDev",
+   "empresa_anonima": false,
+   "ciudad": "Colombia",
+   "salario": null,
+   "publicado": "2026-09-03",
+   "vigente_hasta": null,
+   "contrato": null,
+   "agencia": null,
+   "direccion": null,
+   "lat": 4.099917,
+   "lon": -72.9088133,
+   "id_fuente": "4461684255",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/workday-analyst-%E2%80%93-compensation-benefits-remote-work-at-bairesdev-4461684255",
+     "id_fuente": "4461684255"
+    },
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/workday-analyst-%E2%80%93-compensation-benefits-remote-work-at-bairesdev-4461672409",
+     "id_fuente": "4461672409"
+    }
+   ],
+   "inc": [
+    "salario",
+    "contrato"
+   ],
+   "deducidos": [
+    "modalidad"
+   ],
+   "modalidad_fuente": "Remote Solely",
+   "empleados": 3183,
+   "sede": "San Francisco, California",
+   "modalidad": "remoto",
+   "modalidad_literal": "remote",
+   "modalidad_por_confirmar": false,
+   "id": "bairesdev|workday analyst compensation benefits|colombia",
+   "duplicados_hoy": 2,
+   "desglose": [
+    {
+     "concepto": "multinacional estadounidense",
+     "puntos": -5,
+     "nota": "San Francisco, California"
+    },
+    {
+     "concepto": "remoto confirmado en el cuerpo del aviso",
+     "puntos": 15,
+     "nota": "remote"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    },
+    {
+     "concepto": "publicada hace menos de 3 días",
+     "puntos": 10,
+     "nota": "hace 1 día(s)"
+    }
+   ],
+   "puntaje": 20,
+   "ausencias": 0,
+   "nueva": true,
+   "visto_desde": "2026-09-04",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
+  {
+   "cargo": "Associate Director, Customer Compensation & Policy",
+   "empresa": "hellofresh",
+   "empresa_anonima": false,
+   "ciudad": "Berlin, Berlin",
+   "salario": null,
+   "publicado": null,
+   "vigente_hasta": null,
+   "contrato": null,
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": "associate-director-customer-compensation-policy-berlin-berlin-371405",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "arbeitnow",
+     "url": "https://www.arbeitnow.com/jobs/companies/hellofresh/associate-director-customer-compensation-policy-berlin-berlin-371405",
+     "id_fuente": "associate-director-customer-compensation-policy-berlin-berlin-371405"
+    }
+   ],
+   "inc": [
+    "salario",
+    "publicado",
+    "contrato"
+   ],
+   "deducidos": [],
+   "modalidad": "remoto",
+   "modalidad_literal": "Work From Home",
+   "modalidad_por_confirmar": false,
+   "marcas": [
+    "remoto fuera de Colombia, contratación por confirmar"
+   ],
+   "id": "hellofresh|associate director customer compensation policy|berlin",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "remoto confirmado en el cuerpo del aviso",
+     "puntos": 15,
+     "nota": "Work From Home"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    },
+    {
+     "concepto": "fecha de publicación",
+     "puntos": 0,
+     "nota": "sin fecha publicada: no suma ni resta"
+    }
+   ],
+   "puntaje": 15,
+   "ausencias": 0,
+   "nueva": true,
+   "visto_desde": "2026-09-04",
    "republicaciones": 0,
    "reapariciones": 0
   },
@@ -1023,6 +1171,139 @@
    "ausencias": 0,
    "nueva": false,
    "visto_desde": "2026-08-29",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
+  {
+   "cargo": "Analista Senior de Compensación",
+   "empresa": "Confidencial",
+   "empresa_anonima": true,
+   "ciudad": "Bogota, Capital District",
+   "salario": null,
+   "publicado": "2026-08-31",
+   "vigente_hasta": "2026-09-30",
+   "contrato": [
+    "FULL_TIME"
+   ],
+   "agencia": null,
+   "direccion": null,
+   "lat": 4.6533817,
+   "lon": -74.0836331,
+   "id_fuente": "4460029686",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/analista-senior-de-compensaci%C3%B3n-at-money-inc-4460029686",
+     "id_fuente": "4460029686"
+    }
+   ],
+   "inc": [
+    "salario"
+   ],
+   "deducidos": [
+    "modalidad"
+   ],
+   "modalidad_fuente": "On-site",
+   "empleados": 890,
+   "sede": "New York, New York",
+   "modalidad": "On-site",
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "empresa no revelada|analista senior de compensacion|bogota#anon:0-0-2026-08-31",
+   "duplicados_hoy": 1,
+   "marcas": [
+    "empresa no revelada: puede estar repetida"
+   ],
+   "desglose": [
+    {
+     "concepto": "multinacional estadounidense",
+     "puntos": -5,
+     "nota": "New York, New York"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "compensacion"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    }
+   ],
+   "puntaje": 7,
+   "ausencias": 0,
+   "nueva": false,
+   "visto_desde": "2026-09-01",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
+  {
+   "cargo": "Líder de Nómina y Compensación",
+   "empresa": "CONFIDENTIAL",
+   "empresa_anonima": true,
+   "ciudad": "Bogotá D.C.",
+   "salario": {
+    "min": 5500001.0,
+    "max": 6000000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-09-04",
+   "vigente_hasta": "2026-11-03",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/lider-de-nomina-y-compensacion-1886762031",
+     "id_fuente": null
+    }
+   ],
+   "inc": [
+    "modalidad"
+   ],
+   "deducidos": [],
+   "modalidad": null,
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "empresa no revelada|lider de nomina y compensacion|bogota#anon:5500001-6000000-2026-09-04",
+   "duplicados_hoy": 1,
+   "marcas": [
+    "empresa no revelada: puede estar repetida"
+   ],
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "el aviso no revela la empresa: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "compensacion, estructura salarial, equidad interna"
+    },
+    {
+     "concepto": "salario publicado por debajo de $18.000.000",
+     "puntos": -15,
+     "nota": "6.000.000 COP — se muestra igual: el publicado casi nunca es el negociado"
+    },
+    {
+     "concepto": "publicada hace menos de 3 días",
+     "puntos": 10,
+     "nota": "hace 0 día(s)"
+    }
+   ],
+   "puntaje": 7,
+   "ausencias": 0,
+   "nueva": true,
+   "visto_desde": "2026-09-04",
    "republicaciones": 0,
    "reapariciones": 0
   },
@@ -1648,71 +1929,6 @@
     }
    ],
    "puntaje": 22,
-   "nueva": false,
-   "visto_desde": "2026-08-28",
-   "republicaciones": 0,
-   "reapariciones": 0,
-   "marcas": [
-    "no apareció hoy en la fuente (1 de 2)"
-   ],
-   "desaparecio": "2026-09-01",
-   "dias_publicada": 4
-  },
-  {
-   "cargo": "Senior Workday Analyst – Compensation & Benefits - Remote Work",
-   "empresa": "BairesDev",
-   "empresa_anonima": false,
-   "ciudad": "Colombia",
-   "salario": null,
-   "publicado": "2026-08-25",
-   "vigente_hasta": null,
-   "contrato": null,
-   "agencia": null,
-   "direccion": null,
-   "lat": 4.099917,
-   "lon": -72.9088133,
-   "id_fuente": "4457624651",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "linkedin",
-     "url": "https://co.linkedin.com/jobs/view/senior-workday-analyst-%E2%80%93-compensation-benefits-remote-work-at-bairesdev-4457624651",
-     "id_fuente": "4457624651"
-    }
-   ],
-   "inc": [
-    "salario",
-    "contrato"
-   ],
-   "deducidos": [
-    "modalidad"
-   ],
-   "modalidad_fuente": "Remote Solely",
-   "empleados": 3190,
-   "sede": "San Francisco, California",
-   "modalidad": "remoto",
-   "modalidad_literal": "remote",
-   "modalidad_por_confirmar": false,
-   "id": "bairesdev|senior workday analyst compensation benefits|colombia",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "multinacional estadounidense",
-     "puntos": -5,
-     "nota": "San Francisco, California"
-    },
-    {
-     "concepto": "remoto confirmado en el cuerpo del aviso",
-     "puntos": 15,
-     "nota": "remote"
-    },
-    {
-     "concepto": "salario",
-     "puntos": 0,
-     "nota": "sin salario publicado, no suma ni resta"
-    }
-   ],
-   "puntaje": 10,
    "nueva": false,
    "visto_desde": "2026-08-28",
    "republicaciones": 0,
