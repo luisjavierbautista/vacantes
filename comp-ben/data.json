@@ -1,14 +1,14 @@
 {
  "busqueda": "comp-ben",
- "corrida": "2026-09-04",
- "corrida_hora": "2026-09-04 14:58",
+ "corrida": "2026-09-05",
+ "corrida_hora": "2026-09-05 13:53",
  "fuentes": {
   "elempleo": {
    "avisos": 14,
    "error": null
   },
   "computrabajo": {
-   "avisos": 4,
+   "avisos": 5,
    "error": null
   },
   "workday": {
@@ -24,34 +24,24 @@
    "error": null
   },
   "apify_linkedin": {
-   "avisos": 15,
+   "avisos": 18,
    "error": null
   }
  },
- "fallos": [
-  {
-   "url": "https://www.elempleo.com/co/ofertas-trabajo/gerente-de-compensacion-y-beneficios-bogota-1886735172",
-   "motivo": "HTTP 410"
-  }
- ],
- "avisos_recogidos": 40,
- "descartados": 13,
+ "fallos": [],
+ "avisos_recogidos": 44,
+ "descartados": 16,
  "fusionados": [],
  "nuevas": [
-  "bairesdev|workday analyst compensation benefits|colombia",
-  "hellofresh|associate director customer compensation policy|berlin",
-  "empresa no revelada|lider de nomina y compensacion|bogota#anon:5500001-6000000-2026-09-04"
+  "the united firm la liga defensora apc|workers compensation case manager|bogota",
+  "sezzle|product marketing associate rewards|colombia"
  ],
- "reaparecidas": [
-  "bairesdev|senior workday analyst compensation benefits|colombia"
- ],
+ "reaparecidas": [],
  "ausentes": [
   "empresa no revelada|gerente de compensacion y beneficios|bogota#anon:21000001-50000000-2026-07-06",
-  "prosegur|responsable de nomina y compensacion|bogota"
+  "hellofresh|associate director customer compensation policy|berlin"
  ],
- "republicadas": [
-  "bairesdev|senior workday analyst compensation benefits|colombia"
- ],
+ "republicadas": [],
  "vigentes": [
   {
    "cargo": "Global Compensation Manager",
@@ -158,7 +148,7 @@
    "duplicados_hoy": 1,
    "marcas": [
     "empresa no revelada: puede estar repetida",
-    "no apareció hoy en la fuente (1 de 3)"
+    "no apareció hoy en la fuente (2 de 3)"
    ],
    "desglose": [
     {
@@ -183,7 +173,7 @@
     }
    ],
    "puntaje": 49,
-   "ausencias": 1,
+   "ausencias": 2,
    "nueva": false,
    "visto_desde": "2026-08-28",
    "republicaciones": 0,
@@ -391,71 +381,6 @@
    "reapariciones": 0
   },
   {
-   "cargo": "Responsable de Nómina y Compensación",
-   "empresa": "Prosegur",
-   "empresa_anonima": false,
-   "ciudad": "Bogota, Capital District",
-   "salario": null,
-   "publicado": "2026-08-21",
-   "vigente_hasta": "2026-09-20",
-   "contrato": [
-    "FULL_TIME"
-   ],
-   "agencia": null,
-   "direccion": null,
-   "lat": 4.6533817,
-   "lon": -74.0836331,
-   "id_fuente": "4457303399",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "linkedin",
-     "url": "https://co.linkedin.com/jobs/view/responsable-de-n%C3%B3mina-y-compensaci%C3%B3n-at-prosegur-4457303399",
-     "id_fuente": "4457303399"
-    }
-   ],
-   "inc": [
-    "salario"
-   ],
-   "deducidos": [
-    "modalidad"
-   ],
-   "modalidad_fuente": "On-site",
-   "empleados": 68105,
-   "sede": "Madrid, Madrid",
-   "modalidad": "On-site",
-   "modalidad_literal": null,
-   "modalidad_por_confirmar": false,
-   "id": "prosegur|responsable de nomina y compensacion|bogota",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "multinacional europea",
-     "puntos": 15,
-     "nota": "Madrid, Madrid"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "compensacion, estructura salarial, bandas salariales, equidad interna"
-    },
-    {
-     "concepto": "salario",
-     "puntos": 0,
-     "nota": "sin salario publicado, no suma ni resta"
-    }
-   ],
-   "puntaje": 27,
-   "ausencias": 2,
-   "nueva": false,
-   "visto_desde": "2026-08-29",
-   "republicaciones": 0,
-   "reapariciones": 0,
-   "marcas": [
-    "no apareció hoy en la fuente (2 de 3)"
-   ]
-  },
-  {
    "cargo": "Gerente de Compensación y Beneficios (Total Rewards) - 80 Beneficios 20 Compensacion",
    "empresa": "Manpower Group Colombia",
    "empresa_anonima": false,
@@ -515,72 +440,6 @@
    "ausencias": 0,
    "nueva": false,
    "visto_desde": "2026-08-31",
-   "republicaciones": 0,
-   "reapariciones": 0
-  },
-  {
-   "cargo": "Gerente de gestion humana Bogota",
-   "empresa": "Laboratorio Farpag",
-   "empresa_anonima": false,
-   "ciudad": "Bogotá, D.C.",
-   "salario": null,
-   "publicado": "2026-09-01",
-   "vigente_hasta": "2026-10-31",
-   "contrato": "FULL_TIME",
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": "47E5CCBE1CB66E91",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "computrabajo",
-     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-gerente-de-gestion-humana-bogota-en-bogota-dc-340F7E6B615A1C8A61373E686DCF3405",
-     "id_fuente": "47E5CCBE1CB66E91"
-    }
-   ],
-   "inc": [
-    "salario",
-    "modalidad"
-   ],
-   "deducidos": [],
-   "modalidad": null,
-   "modalidad_literal": null,
-   "modalidad_por_confirmar": false,
-   "id": "laboratorio farpag|gerente de gestion humana|bogota",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "cargo secundario de RR.HH.",
-     "puntos": 0,
-     "nota": "solo suma si el cuerpo habla de compensación"
-    },
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "no se pudo determinar: no suma ni resta"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "compensacion"
-    },
-    {
-     "concepto": "salario",
-     "puntos": 0,
-     "nota": "sin salario publicado, no suma ni resta"
-    },
-    {
-     "concepto": "publicada hace menos de 3 días",
-     "puntos": 10,
-     "nota": "hace 3 día(s)"
-    }
-   ],
-   "puntaje": 22,
-   "ausencias": 0,
-   "nueva": false,
-   "visto_desde": "2026-09-01",
    "republicaciones": 0,
    "reapariciones": 0
   },
@@ -842,7 +701,7 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 1 día(s)"
+     "nota": "hace 2 día(s)"
     }
    ],
    "puntaje": 20,
@@ -850,8 +709,7 @@
    "nueva": false,
    "visto_desde": "2026-08-28",
    "republicaciones": 1,
-   "reapariciones": 1,
-   "reaparecida": true
+   "reapariciones": 1
   },
   {
    "cargo": "Workday Analyst – Compensation & Benefits - Remote Work",
@@ -914,13 +772,80 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 1 día(s)"
+     "nota": "hace 2 día(s)"
+    }
+   ],
+   "puntaje": 20,
+   "ausencias": 0,
+   "nueva": false,
+   "visto_desde": "2026-09-04",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
+  {
+   "cargo": "Workers' Compensation Case Manager",
+   "empresa": "The United Firm | La Liga Defensora, APC",
+   "empresa_anonima": false,
+   "ciudad": "Bogota, Capital District",
+   "salario": null,
+   "publicado": "2026-09-05",
+   "vigente_hasta": "2026-10-05",
+   "contrato": [
+    "FULL_TIME"
+   ],
+   "agencia": null,
+   "direccion": null,
+   "lat": 4.6533817,
+   "lon": -74.0836331,
+   "id_fuente": "4463686850",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/workers-compensation-case-manager-at-the-united-firm-la-liga-defensora-apc-4463686850",
+     "id_fuente": "4463686850"
+    }
+   ],
+   "inc": [
+    "salario"
+   ],
+   "deducidos": [
+    "modalidad"
+   ],
+   "modalidad_fuente": "Remote Solely",
+   "empleados": 423,
+   "sede": "Los Angeles, California",
+   "modalidad": "remoto",
+   "modalidad_literal": "Remote",
+   "modalidad_por_confirmar": false,
+   "id": "the united firm la liga defensora apc|workers compensation case manager|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "multinacional estadounidense",
+     "puntos": -5,
+     "nota": "Los Angeles, California"
+    },
+    {
+     "concepto": "remoto confirmado en el cuerpo del aviso",
+     "puntos": 15,
+     "nota": "Remote"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    },
+    {
+     "concepto": "publicada hace menos de 3 días",
+     "puntos": 10,
+     "nota": "hace 0 día(s)"
     }
    ],
    "puntaje": 20,
    "ausencias": 0,
    "nueva": true,
-   "visto_desde": "2026-09-04",
+   "visto_desde": "2026-09-05",
    "republicaciones": 0,
    "reapariciones": 0
   },
@@ -956,7 +881,8 @@
    "modalidad_literal": "Work From Home",
    "modalidad_por_confirmar": false,
    "marcas": [
-    "remoto fuera de Colombia, contratación por confirmar"
+    "remoto fuera de Colombia, contratación por confirmar",
+    "no apareció hoy en la fuente (1 de 3)"
    ],
    "id": "hellofresh|associate director customer compensation policy|berlin",
    "duplicados_hoy": 1,
@@ -983,8 +909,8 @@
     }
    ],
    "puntaje": 15,
-   "ausencias": 0,
-   "nueva": true,
+   "ausencias": 1,
+   "nueva": false,
    "visto_desde": "2026-09-04",
    "republicaciones": 0,
    "reapariciones": 0
@@ -1113,6 +1039,67 @@
    "reapariciones": 0
   },
   {
+   "cargo": "Gerente de gestion humana Bogota",
+   "empresa": "Laboratorio Farpag",
+   "empresa_anonima": false,
+   "ciudad": "Bogotá, D.C.",
+   "salario": null,
+   "publicado": "2026-09-01",
+   "vigente_hasta": "2026-10-31",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": "47E5CCBE1CB66E91",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "computrabajo",
+     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-gerente-de-gestion-humana-bogota-en-bogota-dc-340F7E6B615A1C8A61373E686DCF3405",
+     "id_fuente": "47E5CCBE1CB66E91"
+    }
+   ],
+   "inc": [
+    "salario",
+    "modalidad"
+   ],
+   "deducidos": [],
+   "modalidad": null,
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "laboratorio farpag|gerente de gestion humana|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "cargo secundario de RR.HH.",
+     "puntos": 0,
+     "nota": "solo suma si el cuerpo habla de compensación"
+    },
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "compensacion"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    }
+   ],
+   "puntaje": 12,
+   "ausencias": 0,
+   "nueva": false,
+   "visto_desde": "2026-09-01",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
+  {
    "cargo": "Profesional de Compensación y Beneficios",
    "empresa": "Decameron All Inclusive Hotels & Resorts",
    "empresa_anonima": false,
@@ -1171,6 +1158,67 @@
    "ausencias": 0,
    "nueva": false,
    "visto_desde": "2026-08-29",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
+  {
+   "cargo": "Product Marketing Associate, Rewards",
+   "empresa": "Sezzle",
+   "empresa_anonima": false,
+   "ciudad": "Colombia",
+   "salario": null,
+   "publicado": "2026-09-04",
+   "vigente_hasta": null,
+   "contrato": null,
+   "agencia": null,
+   "direccion": null,
+   "lat": 4.099917,
+   "lon": -72.9088133,
+   "id_fuente": "4463644582",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/product-marketing-associate-rewards-at-sezzle-4463644582",
+     "id_fuente": "4463644582"
+    }
+   ],
+   "inc": [
+    "salario",
+    "contrato"
+   ],
+   "deducidos": [
+    "modalidad"
+   ],
+   "modalidad_fuente": "On-site",
+   "empleados": 459,
+   "sede": "Minneapolis, Minnesota",
+   "modalidad": "On-site",
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "sezzle|product marketing associate rewards|colombia",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    },
+    {
+     "concepto": "publicada hace menos de 3 días",
+     "puntos": 10,
+     "nota": "hace 1 día(s)"
+    }
+   ],
+   "puntaje": 10,
+   "ausencias": 0,
+   "nueva": true,
+   "visto_desde": "2026-09-05",
    "republicaciones": 0,
    "reapariciones": 0
   },
@@ -1297,12 +1345,12 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 0 día(s)"
+     "nota": "hace 1 día(s)"
     }
    ],
    "puntaje": 7,
    "ausencias": 0,
-   "nueva": true,
+   "nueva": false,
    "visto_desde": "2026-09-04",
    "republicaciones": 0,
    "reapariciones": 0
@@ -1797,6 +1845,72 @@
   }
  ],
  "caidas": [
+  {
+   "cargo": "Responsable de Nómina y Compensación",
+   "empresa": "Prosegur",
+   "empresa_anonima": false,
+   "ciudad": "Bogota, Capital District",
+   "salario": null,
+   "publicado": "2026-08-21",
+   "vigente_hasta": "2026-09-20",
+   "contrato": [
+    "FULL_TIME"
+   ],
+   "agencia": null,
+   "direccion": null,
+   "lat": 4.6533817,
+   "lon": -74.0836331,
+   "id_fuente": "4457303399",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/responsable-de-n%C3%B3mina-y-compensaci%C3%B3n-at-prosegur-4457303399",
+     "id_fuente": "4457303399"
+    }
+   ],
+   "inc": [
+    "salario"
+   ],
+   "deducidos": [
+    "modalidad"
+   ],
+   "modalidad_fuente": "On-site",
+   "empleados": 68105,
+   "sede": "Madrid, Madrid",
+   "modalidad": "On-site",
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "prosegur|responsable de nomina y compensacion|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "multinacional europea",
+     "puntos": 15,
+     "nota": "Madrid, Madrid"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "compensacion, estructura salarial, bandas salariales, equidad interna"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    }
+   ],
+   "puntaje": 27,
+   "nueva": false,
+   "visto_desde": "2026-08-29",
+   "republicaciones": 0,
+   "reapariciones": 0,
+   "marcas": [
+    "no apareció hoy en la fuente (2 de 3)"
+   ],
+   "desaparecio": "2026-09-05",
+   "dias_publicada": 7
+  },
   {
    "cargo": "Compensation Partner",
    "empresa": "Lean Solutions Group",
