@@ -1,14 +1,14 @@
 {
  "busqueda": "comp-ben",
- "corrida": "2026-09-05",
- "corrida_hora": "2026-09-05 13:53",
+ "corrida": "2026-09-06",
+ "corrida_hora": "2026-09-06 14:10",
  "fuentes": {
   "elempleo": {
    "avisos": 14,
    "error": null
   },
   "computrabajo": {
-   "avisos": 5,
+   "avisos": 6,
    "error": null
   },
   "workday": {
@@ -20,25 +20,24 @@
    "error": null
   },
   "arbeitnow": {
-   "avisos": 1,
+   "avisos": 0,
    "error": null
   },
   "apify_linkedin": {
-   "avisos": 18,
+   "avisos": 17,
    "error": null
   }
  },
  "fallos": [],
- "avisos_recogidos": 44,
- "descartados": 16,
+ "avisos_recogidos": 43,
+ "descartados": 15,
  "fusionados": [],
  "nuevas": [
-  "the united firm la liga defensora apc|workers compensation case manager|bogota",
-  "sezzle|product marketing associate rewards|colombia"
+  "colgas e s p|profesional en estructura organizacional y compensacion|bogota"
  ],
  "reaparecidas": [],
  "ausentes": [
-  "empresa no revelada|gerente de compensacion y beneficios|bogota#anon:21000001-50000000-2026-07-06",
+  "rappi|compensation partner|bogota",
   "hellofresh|associate director customer compensation policy|berlin"
  ],
  "republicadas": [],
@@ -107,75 +106,6 @@
    "ausencias": 0,
    "nueva": false,
    "visto_desde": "2026-08-29",
-   "republicaciones": 0,
-   "reapariciones": 0
-  },
-  {
-   "cargo": "GERENTE DE COMPENSACIÓN Y BENEFICIOS - BOGOTÁ",
-   "empresa": "CONFIDENTIAL",
-   "empresa_anonima": true,
-   "ciudad": "Bogotá D.C.",
-   "salario": {
-    "min": 21000001.0,
-    "max": 50000000.0,
-    "moneda": "COP",
-    "periodo": "MONTH"
-   },
-   "publicado": "2026-07-06",
-   "vigente_hasta": "2026-09-04",
-   "contrato": "FULL_TIME",
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": null,
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "elempleo",
-     "url": "https://www.elempleo.com/co/ofertas-trabajo/gerente-de-compensacion-y-beneficios-bogota-1886735172",
-     "id_fuente": null
-    }
-   ],
-   "inc": [
-    "modalidad"
-   ],
-   "deducidos": [],
-   "modalidad": null,
-   "modalidad_literal": null,
-   "modalidad_por_confirmar": false,
-   "id": "empresa no revelada|gerente de compensacion y beneficios|bogota#anon:21000001-50000000-2026-07-06",
-   "duplicados_hoy": 1,
-   "marcas": [
-    "empresa no revelada: puede estar repetida",
-    "no apareció hoy en la fuente (2 de 3)"
-   ],
-   "desglose": [
-    {
-     "concepto": "cargo objetivo de la búsqueda",
-     "puntos": 25,
-     "nota": "GERENTE DE COMPENSACIÓN Y BENEFICIOS - BOGOTÁ"
-    },
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "el aviso no revela la empresa: no suma ni resta"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "compensacion, remuneracion, valoracion de cargos, ipe, encuestas salariales, lti"
-    },
-    {
-     "concepto": "salario publicado igual o sobre $18.000.000",
-     "puntos": 12,
-     "nota": "50.000.000 COP"
-    }
-   ],
-   "puntaje": 49,
-   "ausencias": 2,
-   "nueva": false,
-   "visto_desde": "2026-08-28",
    "republicaciones": 0,
    "reapariciones": 0
   },
@@ -306,11 +236,14 @@
     }
    ],
    "puntaje": 40,
-   "ausencias": 0,
+   "ausencias": 1,
    "nueva": false,
    "visto_desde": "2026-09-01",
    "republicaciones": 0,
-   "reapariciones": 0
+   "reapariciones": 0,
+   "marcas": [
+    "no apareció hoy en la fuente (1 de 3)"
+   ]
   },
   {
    "cargo": "Compensation Team Lead - Technical Expertise and Specializations",
@@ -701,7 +634,7 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 2 día(s)"
+     "nota": "hace 3 día(s)"
     }
    ],
    "puntaje": 20,
@@ -772,7 +705,7 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 2 día(s)"
+     "nota": "hace 3 día(s)"
     }
    ],
    "puntaje": 20,
@@ -839,12 +772,12 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 0 día(s)"
+     "nota": "hace 1 día(s)"
     }
    ],
    "puntaje": 20,
    "ausencias": 0,
-   "nueva": true,
+   "nueva": false,
    "visto_desde": "2026-09-05",
    "republicaciones": 0,
    "reapariciones": 0
@@ -882,7 +815,7 @@
    "modalidad_por_confirmar": false,
    "marcas": [
     "remoto fuera de Colombia, contratación por confirmar",
-    "no apareció hoy en la fuente (1 de 3)"
+    "no apareció hoy en la fuente (2 de 3)"
    ],
    "id": "hellofresh|associate director customer compensation policy|berlin",
    "duplicados_hoy": 1,
@@ -909,7 +842,7 @@
     }
    ],
    "puntaje": 15,
-   "ausencias": 1,
+   "ausencias": 2,
    "nueva": false,
    "visto_desde": "2026-09-04",
    "republicaciones": 0,
@@ -1212,13 +1145,68 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 1 día(s)"
+     "nota": "hace 2 día(s)"
+    }
+   ],
+   "puntaje": 10,
+   "ausencias": 0,
+   "nueva": false,
+   "visto_desde": "2026-09-05",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
+  {
+   "cargo": "Profesional en Estructura organizacional y compensación",
+   "empresa": "COLGAS S.A. E.S.P.",
+   "empresa_anonima": false,
+   "ciudad": "Bogotá, D.C.",
+   "salario": null,
+   "publicado": "2026-09-04",
+   "vigente_hasta": "2026-11-03",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": "E910A098C3C0CE15",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "computrabajo",
+     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-profesional-en-estructura-organizacional-y-compensacion-en-bogota-dc-109492EB878C517361373E686DCF3405",
+     "id_fuente": "E910A098C3C0CE15"
+    }
+   ],
+   "inc": [
+    "salario"
+   ],
+   "deducidos": [],
+   "modalidad": "híbrido",
+   "modalidad_literal": "hibrido",
+   "modalidad_por_confirmar": false,
+   "id": "colgas e s p|profesional en estructura organizacional y compensacion|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    },
+    {
+     "concepto": "publicada hace menos de 3 días",
+     "puntos": 10,
+     "nota": "hace 2 día(s)"
     }
    ],
    "puntaje": 10,
    "ausencias": 0,
    "nueva": true,
-   "visto_desde": "2026-09-05",
+   "visto_desde": "2026-09-06",
    "republicaciones": 0,
    "reapariciones": 0
   },
@@ -1345,7 +1333,7 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 1 día(s)"
+     "nota": "hace 2 día(s)"
     }
    ],
    "puntaje": 7,
@@ -1845,6 +1833,76 @@
   }
  ],
  "caidas": [
+  {
+   "cargo": "GERENTE DE COMPENSACIÓN Y BENEFICIOS - BOGOTÁ",
+   "empresa": "CONFIDENTIAL",
+   "empresa_anonima": true,
+   "ciudad": "Bogotá D.C.",
+   "salario": {
+    "min": 21000001.0,
+    "max": 50000000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-07-06",
+   "vigente_hasta": "2026-09-04",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/gerente-de-compensacion-y-beneficios-bogota-1886735172",
+     "id_fuente": null
+    }
+   ],
+   "inc": [
+    "modalidad"
+   ],
+   "deducidos": [],
+   "modalidad": null,
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "empresa no revelada|gerente de compensacion y beneficios|bogota#anon:21000001-50000000-2026-07-06",
+   "duplicados_hoy": 1,
+   "marcas": [
+    "empresa no revelada: puede estar repetida",
+    "no apareció hoy en la fuente (2 de 3)"
+   ],
+   "desglose": [
+    {
+     "concepto": "cargo objetivo de la búsqueda",
+     "puntos": 25,
+     "nota": "GERENTE DE COMPENSACIÓN Y BENEFICIOS - BOGOTÁ"
+    },
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "el aviso no revela la empresa: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "compensacion, remuneracion, valoracion de cargos, ipe, encuestas salariales, lti"
+    },
+    {
+     "concepto": "salario publicado igual o sobre $18.000.000",
+     "puntos": 12,
+     "nota": "50.000.000 COP"
+    }
+   ],
+   "puntaje": 49,
+   "nueva": false,
+   "visto_desde": "2026-08-28",
+   "republicaciones": 0,
+   "reapariciones": 0,
+   "desaparecio": "2026-09-06",
+   "dias_publicada": 9
+  },
   {
    "cargo": "Responsable de Nómina y Compensación",
    "empresa": "Prosegur",
