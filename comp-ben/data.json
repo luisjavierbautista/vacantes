@@ -1,7 +1,7 @@
 {
  "busqueda": "comp-ben",
- "corrida": "2026-09-07",
- "corrida_hora": "2026-09-07 16:29",
+ "corrida": "2026-09-08",
+ "corrida_hora": "2026-09-08 15:06",
  "fuentes": {
   "elempleo": {
    "avisos": 13,
@@ -20,23 +20,23 @@
    "error": null
   },
   "arbeitnow": {
-   "avisos": 0,
+   "avisos": 1,
    "error": null
   },
   "apify_linkedin": {
-   "avisos": 17,
+   "avisos": 18,
    "error": null
   }
  },
  "fallos": [],
- "avisos_recogidos": 42,
- "descartados": 14,
+ "avisos_recogidos": 44,
+ "descartados": 15,
  "fusionados": [],
- "nuevas": [],
- "reaparecidas": [],
- "ausentes": [
-  "rappi|compensation partner|bogota"
+ "nuevas": [
+  "envia com|sr payroll compensation specialist latam|bogota"
  ],
+ "reaparecidas": [],
+ "ausentes": [],
  "republicadas": [],
  "vigentes": [
   {
@@ -173,76 +173,6 @@
    "reapariciones": 0
   },
   {
-   "cargo": "Compensation Partner",
-   "empresa": "Rappi",
-   "empresa_anonima": false,
-   "ciudad": "Bogota, Capital District",
-   "salario": null,
-   "publicado": "2026-08-31",
-   "vigente_hasta": "2026-09-30",
-   "contrato": [
-    "FULL_TIME"
-   ],
-   "agencia": null,
-   "direccion": null,
-   "lat": 4.6533817,
-   "lon": -74.0836331,
-   "id_fuente": "4459217069",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "linkedin",
-     "url": "https://co.linkedin.com/jobs/view/compensation-partner-at-rappi-4459217069",
-     "id_fuente": "4459217069"
-    }
-   ],
-   "inc": [
-    "salario"
-   ],
-   "deducidos": [
-    "modalidad"
-   ],
-   "modalidad_fuente": "Remote OK",
-   "empleados": 14944,
-   "sede": "Latinoamérica",
-   "modalidad": "remoto",
-   "modalidad_literal": "remote",
-   "modalidad_por_confirmar": false,
-   "id": "rappi|compensation partner|bogota",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "cargo objetivo de la búsqueda",
-     "puntos": 25,
-     "nota": "Compensation Partner"
-    },
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "no se pudo determinar: no suma ni resta"
-    },
-    {
-     "concepto": "remoto confirmado en el cuerpo del aviso",
-     "puntos": 15,
-     "nota": "remote"
-    },
-    {
-     "concepto": "salario",
-     "puntos": 0,
-     "nota": "sin salario publicado, no suma ni resta"
-    }
-   ],
-   "puntaje": 40,
-   "ausencias": 2,
-   "nueva": false,
-   "visto_desde": "2026-09-01",
-   "republicaciones": 0,
-   "reapariciones": 0,
-   "marcas": [
-    "no apareció hoy en la fuente (2 de 3)"
-   ]
-  },
-  {
    "cargo": "Compensation Team Lead - Technical Expertise and Specializations",
    "empresa": "Roche",
    "empresa_anonima": false,
@@ -307,6 +237,78 @@
    "ausencias": 0,
    "nueva": false,
    "visto_desde": "2026-08-29",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
+  {
+   "cargo": "Sr Payroll & Compensation Specialist – LATAM",
+   "empresa": "Envia.com",
+   "empresa_anonima": false,
+   "ciudad": "Bogota, Capital District",
+   "salario": null,
+   "publicado": "2026-09-07",
+   "vigente_hasta": "2027-03-06",
+   "contrato": [
+    "FULL_TIME"
+   ],
+   "agencia": null,
+   "direccion": null,
+   "lat": 4.6533817,
+   "lon": -74.0836331,
+   "id_fuente": "4464397306",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/sr-payroll-compensation-specialist-%E2%80%93-latam-at-envia-com-4464397306",
+     "id_fuente": "4464397306"
+    }
+   ],
+   "inc": [
+    "salario"
+   ],
+   "deducidos": [
+    "modalidad"
+   ],
+   "modalidad_fuente": "On-site",
+   "empleados": 557,
+   "sede": "Monterrey, Nuevo León",
+   "modalidad": "On-site",
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "envia com|sr payroll compensation specialist latam|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "multinacional latam",
+     "puntos": 15,
+     "nota": "Monterrey, Nuevo León"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "compensacion, total rewards, estructura salarial, bandas salariales, equidad interna, benchmarking salarial"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    },
+    {
+     "concepto": "publicada hace menos de 3 días",
+     "puntos": 10,
+     "nota": "hace 1 día(s)"
+    },
+    {
+     "concepto": "exige portugues",
+     "puntos": -10,
+     "nota": "el perfil no lo domina — se muestra igual: muchos avisos lo piden como «deseable» y luego no lo evalúan"
+    }
+   ],
+   "puntaje": 27,
+   "ausencias": 0,
+   "nueva": true,
+   "visto_desde": "2026-09-08",
    "republicaciones": 0,
    "reapariciones": 0
   },
@@ -627,7 +629,7 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 2 día(s)"
+     "nota": "hace 3 día(s)"
     }
    ],
    "puntaje": 20,
@@ -884,122 +886,6 @@
    "reapariciones": 0
   },
   {
-   "cargo": "Product Marketing Associate, Rewards",
-   "empresa": "Sezzle",
-   "empresa_anonima": false,
-   "ciudad": "Colombia",
-   "salario": null,
-   "publicado": "2026-09-04",
-   "vigente_hasta": null,
-   "contrato": null,
-   "agencia": null,
-   "direccion": null,
-   "lat": 4.099917,
-   "lon": -72.9088133,
-   "id_fuente": "4463644582",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "linkedin",
-     "url": "https://co.linkedin.com/jobs/view/product-marketing-associate-rewards-at-sezzle-4463644582",
-     "id_fuente": "4463644582"
-    }
-   ],
-   "inc": [
-    "salario",
-    "contrato"
-   ],
-   "deducidos": [
-    "modalidad"
-   ],
-   "modalidad_fuente": "On-site",
-   "empleados": 459,
-   "sede": "Minneapolis, Minnesota",
-   "modalidad": "On-site",
-   "modalidad_literal": null,
-   "modalidad_por_confirmar": false,
-   "id": "sezzle|product marketing associate rewards|colombia",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "no se pudo determinar: no suma ni resta"
-    },
-    {
-     "concepto": "salario",
-     "puntos": 0,
-     "nota": "sin salario publicado, no suma ni resta"
-    },
-    {
-     "concepto": "publicada hace menos de 3 días",
-     "puntos": 10,
-     "nota": "hace 3 día(s)"
-    }
-   ],
-   "puntaje": 10,
-   "ausencias": 0,
-   "nueva": false,
-   "visto_desde": "2026-09-05",
-   "republicaciones": 0,
-   "reapariciones": 0
-  },
-  {
-   "cargo": "Profesional en Estructura organizacional y compensación",
-   "empresa": "COLGAS S.A. E.S.P.",
-   "empresa_anonima": false,
-   "ciudad": "Bogotá, D.C.",
-   "salario": null,
-   "publicado": "2026-09-04",
-   "vigente_hasta": "2026-11-03",
-   "contrato": "FULL_TIME",
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": "E910A098C3C0CE15",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "computrabajo",
-     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-profesional-en-estructura-organizacional-y-compensacion-en-bogota-dc-109492EB878C517361373E686DCF3405",
-     "id_fuente": "E910A098C3C0CE15"
-    }
-   ],
-   "inc": [
-    "salario"
-   ],
-   "deducidos": [],
-   "modalidad": "híbrido",
-   "modalidad_literal": "hibrido",
-   "modalidad_por_confirmar": false,
-   "id": "colgas e s p|profesional en estructura organizacional y compensacion|bogota",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "no se pudo determinar: no suma ni resta"
-    },
-    {
-     "concepto": "salario",
-     "puntos": 0,
-     "nota": "sin salario publicado, no suma ni resta"
-    },
-    {
-     "concepto": "publicada hace menos de 3 días",
-     "puntos": 10,
-     "nota": "hace 3 día(s)"
-    }
-   ],
-   "puntaje": 10,
-   "ausencias": 0,
-   "nueva": false,
-   "visto_desde": "2026-09-06",
-   "republicaciones": 0,
-   "reapariciones": 0
-  },
-  {
    "cargo": "Senior Workday Analyst – Compensation & Benefits - Remote Work",
    "empresa": "BairesDev",
    "empresa_anonima": false,
@@ -1197,74 +1083,6 @@
    "reapariciones": 0
   },
   {
-   "cargo": "Líder de Nómina y Compensación",
-   "empresa": "CONFIDENTIAL",
-   "empresa_anonima": true,
-   "ciudad": "Bogotá D.C.",
-   "salario": {
-    "min": 5500001.0,
-    "max": 6000000.0,
-    "moneda": "COP",
-    "periodo": "MONTH"
-   },
-   "publicado": "2026-09-04",
-   "vigente_hasta": "2026-11-03",
-   "contrato": "FULL_TIME",
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": null,
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "elempleo",
-     "url": "https://www.elempleo.com/co/ofertas-trabajo/lider-de-nomina-y-compensacion-1886762031",
-     "id_fuente": null
-    }
-   ],
-   "inc": [
-    "modalidad"
-   ],
-   "deducidos": [],
-   "modalidad": null,
-   "modalidad_literal": null,
-   "modalidad_por_confirmar": false,
-   "id": "empresa no revelada|lider de nomina y compensacion|bogota#anon:5500001-6000000-2026-09-04",
-   "duplicados_hoy": 1,
-   "marcas": [
-    "empresa no revelada: puede estar repetida"
-   ],
-   "desglose": [
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "el aviso no revela la empresa: no suma ni resta"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "compensacion, estructura salarial, equidad interna"
-    },
-    {
-     "concepto": "salario publicado por debajo de $18.000.000",
-     "puntos": -15,
-     "nota": "6.000.000 COP — se muestra igual: el publicado casi nunca es el negociado"
-    },
-    {
-     "concepto": "publicada hace menos de 3 días",
-     "puntos": 10,
-     "nota": "hace 3 día(s)"
-    }
-   ],
-   "puntaje": 7,
-   "ausencias": 0,
-   "nueva": false,
-   "visto_desde": "2026-09-04",
-   "republicaciones": 0,
-   "reapariciones": 0
-  },
-  {
    "cargo": "Manager, Global Compensation",
    "empresa": "Numerator",
    "empresa_anonima": false,
@@ -1323,6 +1141,112 @@
    "ausencias": 0,
    "nueva": false,
    "visto_desde": "2026-08-29",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
+  {
+   "cargo": "Product Marketing Associate, Rewards",
+   "empresa": "Sezzle",
+   "empresa_anonima": false,
+   "ciudad": "Colombia",
+   "salario": null,
+   "publicado": "2026-09-04",
+   "vigente_hasta": null,
+   "contrato": null,
+   "agencia": null,
+   "direccion": null,
+   "lat": 4.099917,
+   "lon": -72.9088133,
+   "id_fuente": "4463644582",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/product-marketing-associate-rewards-at-sezzle-4463644582",
+     "id_fuente": "4463644582"
+    }
+   ],
+   "inc": [
+    "salario",
+    "contrato"
+   ],
+   "deducidos": [
+    "modalidad"
+   ],
+   "modalidad_fuente": "On-site",
+   "empleados": 459,
+   "sede": "Minneapolis, Minnesota",
+   "modalidad": "On-site",
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "sezzle|product marketing associate rewards|colombia",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    }
+   ],
+   "puntaje": 0,
+   "ausencias": 0,
+   "nueva": false,
+   "visto_desde": "2026-09-05",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
+  {
+   "cargo": "Profesional en Estructura organizacional y compensación",
+   "empresa": "COLGAS S.A. E.S.P.",
+   "empresa_anonima": false,
+   "ciudad": "Bogotá, D.C.",
+   "salario": null,
+   "publicado": "2026-09-04",
+   "vigente_hasta": "2026-11-03",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": "E910A098C3C0CE15",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "computrabajo",
+     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-profesional-en-estructura-organizacional-y-compensacion-en-bogota-dc-109492EB878C517361373E686DCF3405",
+     "id_fuente": "E910A098C3C0CE15"
+    }
+   ],
+   "inc": [
+    "salario"
+   ],
+   "deducidos": [],
+   "modalidad": "híbrido",
+   "modalidad_literal": "hibrido",
+   "modalidad_por_confirmar": false,
+   "id": "colgas e s p|profesional en estructura organizacional y compensacion|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    }
+   ],
+   "puntaje": 0,
+   "ausencias": 0,
+   "nueva": false,
+   "visto_desde": "2026-09-06",
    "republicaciones": 0,
    "reapariciones": 0
   },
@@ -1449,6 +1373,69 @@
    "ausencias": 0,
    "nueva": false,
    "visto_desde": "2026-08-28",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
+  {
+   "cargo": "Líder de Nómina y Compensación",
+   "empresa": "CONFIDENTIAL",
+   "empresa_anonima": true,
+   "ciudad": "Bogotá D.C.",
+   "salario": {
+    "min": 5500001.0,
+    "max": 6000000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-09-04",
+   "vigente_hasta": "2026-11-03",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/lider-de-nomina-y-compensacion-1886762031",
+     "id_fuente": null
+    }
+   ],
+   "inc": [
+    "modalidad"
+   ],
+   "deducidos": [],
+   "modalidad": null,
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "empresa no revelada|lider de nomina y compensacion|bogota#anon:5500001-6000000-2026-09-04",
+   "duplicados_hoy": 1,
+   "marcas": [
+    "empresa no revelada: puede estar repetida"
+   ],
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "el aviso no revela la empresa: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "compensacion, estructura salarial, equidad interna"
+    },
+    {
+     "concepto": "salario publicado por debajo de $18.000.000",
+     "puntos": -15,
+     "nota": "6.000.000 COP — se muestra igual: el publicado casi nunca es el negociado"
+    }
+   ],
+   "puntaje": -3,
+   "ausencias": 0,
+   "nueva": false,
+   "visto_desde": "2026-09-04",
    "republicaciones": 0,
    "reapariciones": 0
   },
@@ -1754,6 +1741,77 @@
   }
  ],
  "caidas": [
+  {
+   "cargo": "Compensation Partner",
+   "empresa": "Rappi",
+   "empresa_anonima": false,
+   "ciudad": "Bogota, Capital District",
+   "salario": null,
+   "publicado": "2026-08-31",
+   "vigente_hasta": "2026-09-30",
+   "contrato": [
+    "FULL_TIME"
+   ],
+   "agencia": null,
+   "direccion": null,
+   "lat": 4.6533817,
+   "lon": -74.0836331,
+   "id_fuente": "4459217069",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/compensation-partner-at-rappi-4459217069",
+     "id_fuente": "4459217069"
+    }
+   ],
+   "inc": [
+    "salario"
+   ],
+   "deducidos": [
+    "modalidad"
+   ],
+   "modalidad_fuente": "Remote OK",
+   "empleados": 14944,
+   "sede": "Latinoamérica",
+   "modalidad": "remoto",
+   "modalidad_literal": "remote",
+   "modalidad_por_confirmar": false,
+   "id": "rappi|compensation partner|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "cargo objetivo de la búsqueda",
+     "puntos": 25,
+     "nota": "Compensation Partner"
+    },
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "remoto confirmado en el cuerpo del aviso",
+     "puntos": 15,
+     "nota": "remote"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    }
+   ],
+   "puntaje": 40,
+   "nueva": false,
+   "visto_desde": "2026-09-01",
+   "republicaciones": 0,
+   "reapariciones": 0,
+   "marcas": [
+    "no apareció hoy en la fuente (2 de 3)"
+   ],
+   "desaparecio": "2026-09-08",
+   "dias_publicada": 7
+  },
   {
    "cargo": "Associate Director, Customer Compensation & Policy",
    "empresa": "hellofresh",
