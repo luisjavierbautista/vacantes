@@ -1,10 +1,10 @@
 {
  "busqueda": "comp-ben",
- "corrida": "2026-09-09",
- "corrida_hora": "2026-09-09 15:07",
+ "corrida": "2026-09-10",
+ "corrida_hora": "2026-09-10 15:00",
  "fuentes": {
   "elempleo": {
-   "avisos": 16,
+   "avisos": 15,
    "error": null
   },
   "computrabajo": {
@@ -24,23 +24,22 @@
    "error": null
   },
   "apify_linkedin": {
-   "avisos": 14,
+   "avisos": 13,
    "error": null
   }
  },
  "fallos": [],
- "avisos_recogidos": 43,
- "descartados": 15,
+ "avisos_recogidos": 41,
+ "descartados": 13,
  "fusionados": [],
  "nuevas": [
-  "consorcio circulemos digital|lider de compensacion y beneficios nomina|bogota",
-  "bairesdev|workday analyst compensation benefits|valle del cauca",
-  "empresa no revelada|jefe de estructura y compensacion|bogota#anon:12500001-15000000-2026-09-09"
+  "bccy|profesional contable e impuestos contador publico con sap manejo cuentas de compensacion|bogota"
  ],
  "reaparecidas": [],
  "ausentes": [
   "bairesdev|senior workday analyst compensation benefits|colombia",
-  "bairesdev|workday analyst compensation benefits|colombia"
+  "bairesdev|workday analyst compensation benefits|colombia",
+  "colgas e s p|profesional en estructura organizacional y compensacion|bogota"
  ],
  "republicadas": [],
  "vigentes": [
@@ -305,12 +304,12 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 1 día(s)"
+     "nota": "hace 2 día(s)"
     }
    ],
    "puntaje": 32,
    "ausencias": 0,
-   "nueva": true,
+   "nueva": false,
    "visto_desde": "2026-09-09",
    "republicaciones": 0,
    "reapariciones": 0
@@ -372,7 +371,7 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 2 día(s)"
+     "nota": "hace 3 día(s)"
     },
     {
      "concepto": "exige portugues",
@@ -707,12 +706,12 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 1 día(s)"
+     "nota": "hace 2 día(s)"
     }
    ],
    "puntaje": 20,
    "ausencias": 0,
-   "nueva": true,
+   "nueva": false,
    "visto_desde": "2026-09-09",
    "republicaciones": 0,
    "reapariciones": 0
@@ -1023,13 +1022,13 @@
     }
    ],
    "puntaje": 10,
-   "ausencias": 1,
+   "ausencias": 2,
    "nueva": false,
    "visto_desde": "2026-08-28",
    "republicaciones": 1,
    "reapariciones": 1,
    "marcas": [
-    "no apareció hoy en la fuente (1 de 3)"
+    "no apareció hoy en la fuente (2 de 3)"
    ]
   },
   {
@@ -1092,13 +1091,13 @@
     }
    ],
    "puntaje": 10,
-   "ausencias": 1,
+   "ausencias": 2,
    "nueva": false,
    "visto_desde": "2026-09-04",
    "republicaciones": 0,
    "reapariciones": 0,
    "marcas": [
-    "no apareció hoy en la fuente (1 de 3)"
+    "no apareció hoy en la fuente (2 de 3)"
    ]
   },
   {
@@ -1286,12 +1285,12 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 0 día(s)"
+     "nota": "hace 1 día(s)"
     }
    ],
    "puntaje": 7,
    "ausencias": 0,
-   "nueva": true,
+   "nueva": false,
    "visto_desde": "2026-09-09",
    "republicaciones": 0,
    "reapariciones": 0
@@ -1355,6 +1354,69 @@
    "ausencias": 0,
    "nueva": false,
    "visto_desde": "2026-08-29",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
+  {
+   "cargo": "Profesional Contable e Impuestos - Contador publico con SAP manejo cuentas de compensación",
+   "empresa": "BCCY COLOMBIA HOLDING S.A.S.",
+   "empresa_anonima": false,
+   "ciudad": "Bogotá, D.C.",
+   "salario": {
+    "min": 2500000.0,
+    "max": 2500000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-09-09",
+   "vigente_hasta": "2026-11-08",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": "7F85D67A1264DEF9",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "computrabajo",
+     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-profesional-contable-e-impuestos-contador-publico-con-sap-manejo-cuentas-de-compensacion-en-bogota-dc-3B60A23147F31ECE61373E686DCF3405",
+     "id_fuente": "7F85D67A1264DEF9"
+    }
+   ],
+   "inc": [],
+   "deducidos": [],
+   "modalidad": "presencial",
+   "modalidad_literal": "presencial",
+   "modalidad_por_confirmar": false,
+   "id": "bccy|profesional contable e impuestos contador publico con sap manejo cuentas de compensacion|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "compensacion"
+    },
+    {
+     "concepto": "salario publicado por debajo de $18.000.000",
+     "puntos": -15,
+     "nota": "2.500.000 COP — se muestra igual: el publicado casi nunca es el negociado"
+    },
+    {
+     "concepto": "publicada hace menos de 3 días",
+     "puntos": 10,
+     "nota": "hace 1 día(s)"
+    }
+   ],
+   "puntaje": 7,
+   "ausencias": 0,
+   "nueva": true,
+   "visto_desde": "2026-09-10",
    "republicaciones": 0,
    "reapariciones": 0
   },
@@ -1458,11 +1520,14 @@
     }
    ],
    "puntaje": 0,
-   "ausencias": 0,
+   "ausencias": 1,
    "nueva": false,
    "visto_desde": "2026-09-06",
    "republicaciones": 0,
-   "reapariciones": 0
+   "reapariciones": 0,
+   "marcas": [
+    "no apareció hoy en la fuente (1 de 3)"
+   ]
   },
   {
    "cargo": "Coordinador de contratación nómina y compensación",
