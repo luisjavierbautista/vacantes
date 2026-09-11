@@ -1,14 +1,14 @@
 {
  "busqueda": "comp-ben",
- "corrida": "2026-09-10",
- "corrida_hora": "2026-09-10 15:00",
+ "corrida": "2026-09-11",
+ "corrida_hora": "2026-09-11 15:01",
  "fuentes": {
   "elempleo": {
-   "avisos": 15,
+   "avisos": 14,
    "error": null
   },
   "computrabajo": {
-   "avisos": 6,
+   "avisos": 5,
    "error": null
   },
   "workday": {
@@ -24,24 +24,31 @@
    "error": null
   },
   "apify_linkedin": {
-   "avisos": 13,
+   "avisos": 14,
    "error": null
   }
  },
- "fallos": [],
- "avisos_recogidos": 41,
+ "fallos": [
+  {
+   "url": "https://www.elempleo.com/co/ofertas-trabajo/profesional-en-compensacion-salarial-1886738617",
+   "motivo": "HTTP 410"
+  }
+ ],
+ "avisos_recogidos": 40,
  "descartados": 13,
  "fusionados": [],
  "nuevas": [
-  "bccy|profesional contable e impuestos contador publico con sap manejo cuentas de compensacion|bogota"
+  "envia com logistics ftl tendencies carrier|sr payroll compensation specialist latam|colombia"
  ],
  "reaparecidas": [],
  "ausentes": [
-  "bairesdev|senior workday analyst compensation benefits|colombia",
-  "bairesdev|workday analyst compensation benefits|colombia",
-  "colgas e s p|profesional en estructura organizacional y compensacion|bogota"
+  "bccy|profesional contable e impuestos contador publico con sap manejo cuentas de compensacion|bogota",
+  "colgas e s p|profesional en estructura organizacional y compensacion|bogota",
+  "cafam|profesional en compensacion salarial|bogota"
  ],
- "republicadas": [],
+ "republicadas": [
+  "envia com|sr payroll compensation specialist latam|bogota"
+ ],
  "vigentes": [
   {
    "cargo": "Global Compensation Manager",
@@ -304,7 +311,7 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 2 día(s)"
+     "nota": "hace 3 día(s)"
     }
    ],
    "puntaje": 32,
@@ -321,7 +328,7 @@
    "ciudad": "Bogota, Capital District",
    "salario": null,
    "publicado": "2026-09-07",
-   "vigente_hasta": "2027-03-06",
+   "vigente_hasta": "2027-03-09",
    "contrato": [
     "FULL_TIME"
    ],
@@ -329,13 +336,13 @@
    "direccion": null,
    "lat": 4.6533817,
    "lon": -74.0836331,
-   "id_fuente": "4464397306",
+   "id_fuente": "4465802226",
    "pais": null,
    "fuentes": [
     {
      "fuente": "linkedin",
-     "url": "https://co.linkedin.com/jobs/view/sr-payroll-compensation-specialist-%E2%80%93-latam-at-envia-com-4464397306",
-     "id_fuente": "4464397306"
+     "url": "https://co.linkedin.com/jobs/view/sr-payroll-compensation-specialist-%E2%80%93-latam-at-envia-com-4465802226",
+     "id_fuente": "4465802226"
     }
    ],
    "inc": [
@@ -361,7 +368,7 @@
     {
      "concepto": "el cuerpo menciona la técnica del oficio",
      "puntos": 12,
-     "nota": "compensacion, total rewards, estructura salarial, bandas salariales, equidad interna, benchmarking salarial"
+     "nota": "compensacion, total rewards, valoracion de cargos, hay group, bandas salariales, compensacion variable"
     },
     {
      "concepto": "salario",
@@ -371,7 +378,7 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 3 día(s)"
+     "nota": "hace 1 día(s)"
     },
     {
      "concepto": "exige portugues",
@@ -383,7 +390,7 @@
    "ausencias": 0,
    "nueva": false,
    "visto_desde": "2026-09-08",
-   "republicaciones": 0,
+   "republicaciones": 1,
    "reapariciones": 0
   },
   {
@@ -706,7 +713,7 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 2 día(s)"
+     "nota": "hace 3 día(s)"
     }
    ],
    "puntaje": 20,
@@ -963,144 +970,6 @@
    "reapariciones": 0
   },
   {
-   "cargo": "Senior Workday Analyst – Compensation & Benefits - Remote Work",
-   "empresa": "BairesDev",
-   "empresa_anonima": false,
-   "ciudad": "Colombia",
-   "salario": null,
-   "publicado": "2026-08-25",
-   "vigente_hasta": null,
-   "contrato": null,
-   "agencia": null,
-   "direccion": null,
-   "lat": 4.099917,
-   "lon": -72.9088133,
-   "id_fuente": "4461670869",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "linkedin",
-     "url": "https://co.linkedin.com/jobs/view/senior-workday-analyst-%E2%80%93-compensation-benefits-remote-work-at-bairesdev-4461670869",
-     "id_fuente": "4461670869"
-    },
-    {
-     "fuente": "linkedin",
-     "url": "https://co.linkedin.com/jobs/view/senior-workday-analyst-%E2%80%93-compensation-benefits-remote-work-at-bairesdev-4461686210",
-     "id_fuente": "4461686210"
-    }
-   ],
-   "inc": [
-    "salario",
-    "contrato"
-   ],
-   "deducidos": [
-    "modalidad"
-   ],
-   "modalidad_fuente": "Remote Solely",
-   "empleados": 3183,
-   "sede": "San Francisco, California",
-   "modalidad": "remoto",
-   "modalidad_literal": "remote",
-   "modalidad_por_confirmar": false,
-   "id": "bairesdev|senior workday analyst compensation benefits|colombia",
-   "duplicados_hoy": 2,
-   "desglose": [
-    {
-     "concepto": "multinacional estadounidense",
-     "puntos": -5,
-     "nota": "San Francisco, California"
-    },
-    {
-     "concepto": "remoto confirmado en el cuerpo del aviso",
-     "puntos": 15,
-     "nota": "remote"
-    },
-    {
-     "concepto": "salario",
-     "puntos": 0,
-     "nota": "sin salario publicado, no suma ni resta"
-    }
-   ],
-   "puntaje": 10,
-   "ausencias": 2,
-   "nueva": false,
-   "visto_desde": "2026-08-28",
-   "republicaciones": 1,
-   "reapariciones": 1,
-   "marcas": [
-    "no apareció hoy en la fuente (2 de 3)"
-   ]
-  },
-  {
-   "cargo": "Workday Analyst – Compensation & Benefits - Remote Work",
-   "empresa": "BairesDev",
-   "empresa_anonima": false,
-   "ciudad": "Colombia",
-   "salario": null,
-   "publicado": "2026-09-03",
-   "vigente_hasta": null,
-   "contrato": null,
-   "agencia": null,
-   "direccion": null,
-   "lat": 4.099917,
-   "lon": -72.9088133,
-   "id_fuente": "4461684255",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "linkedin",
-     "url": "https://co.linkedin.com/jobs/view/workday-analyst-%E2%80%93-compensation-benefits-remote-work-at-bairesdev-4461684255",
-     "id_fuente": "4461684255"
-    },
-    {
-     "fuente": "linkedin",
-     "url": "https://co.linkedin.com/jobs/view/workday-analyst-%E2%80%93-compensation-benefits-remote-work-at-bairesdev-4461672409",
-     "id_fuente": "4461672409"
-    }
-   ],
-   "inc": [
-    "salario",
-    "contrato"
-   ],
-   "deducidos": [
-    "modalidad"
-   ],
-   "modalidad_fuente": "Remote Solely",
-   "empleados": 3183,
-   "sede": "San Francisco, California",
-   "modalidad": "remoto",
-   "modalidad_literal": "remote",
-   "modalidad_por_confirmar": false,
-   "id": "bairesdev|workday analyst compensation benefits|colombia",
-   "duplicados_hoy": 2,
-   "desglose": [
-    {
-     "concepto": "multinacional estadounidense",
-     "puntos": -5,
-     "nota": "San Francisco, California"
-    },
-    {
-     "concepto": "remoto confirmado en el cuerpo del aviso",
-     "puntos": 15,
-     "nota": "remote"
-    },
-    {
-     "concepto": "salario",
-     "puntos": 0,
-     "nota": "sin salario publicado, no suma ni resta"
-    }
-   ],
-   "puntaje": 10,
-   "ausencias": 2,
-   "nueva": false,
-   "visto_desde": "2026-09-04",
-   "republicaciones": 0,
-   "reapariciones": 0,
-   "marcas": [
-    "no apareció hoy en la fuente (2 de 3)"
-   ]
-  },
-  {
    "cargo": "Workers' Compensation Case Manager",
    "empresa": "The United Firm | La Liga Defensora, APC",
    "empresa_anonima": false,
@@ -1285,7 +1154,7 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 1 día(s)"
+     "nota": "hace 2 día(s)"
     }
    ],
    "puntaje": 7,
@@ -1414,9 +1283,88 @@
     }
    ],
    "puntaje": 7,
+   "ausencias": 1,
+   "nueva": false,
+   "visto_desde": "2026-09-10",
+   "republicaciones": 0,
+   "reapariciones": 0,
+   "marcas": [
+    "no apareció hoy en la fuente (1 de 3)"
+   ]
+  },
+  {
+   "cargo": "Sr Payroll & Compensation Specialist – LATAM",
+   "empresa": "Envia.com Logistics FTL (Tendencies Carrier)",
+   "empresa_anonima": false,
+   "ciudad": "Colombia",
+   "salario": null,
+   "publicado": "2026-09-10",
+   "vigente_hasta": null,
+   "contrato": null,
+   "agencia": null,
+   "direccion": null,
+   "lat": 4.099917,
+   "lon": -72.9088133,
+   "id_fuente": "4465849012",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/sr-payroll-compensation-specialist-%E2%80%93-latam-at-envia-com-logistics-ftl-tendencies-carrier-4465849012",
+     "id_fuente": "4465849012"
+    }
+   ],
+   "inc": [
+    "salario",
+    "contrato"
+   ],
+   "deducidos": [
+    "modalidad"
+   ],
+   "modalidad_fuente": "On-site",
+   "empleados": 1,
+   "sede": "",
+   "modalidad": "On-site",
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "envia com logistics ftl tendencies carrier|sr payroll compensation specialist latam|colombia",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "compensacion, total rewards, valoracion de cargos, hay group, bandas salariales, compensacion variable"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    },
+    {
+     "concepto": "publicada hace menos de 3 días",
+     "puntos": 10,
+     "nota": "hace 1 día(s)"
+    },
+    {
+     "concepto": "exige portugues",
+     "puntos": -10,
+     "nota": "el perfil no lo domina — se muestra igual: muchos avisos lo piden como «deseable» y luego no lo evalúan"
+    },
+    {
+     "concepto": "empresa pequeña / etapa temprana",
+     "puntos": -8,
+     "nota": "1 empleados"
+    }
+   ],
+   "puntaje": 4,
    "ausencias": 0,
    "nueva": true,
-   "visto_desde": "2026-09-10",
+   "visto_desde": "2026-09-11",
    "republicaciones": 0,
    "reapariciones": 0
   },
@@ -1520,13 +1468,13 @@
     }
    ],
    "puntaje": 0,
-   "ausencias": 1,
+   "ausencias": 2,
    "nueva": false,
    "visto_desde": "2026-09-06",
    "republicaciones": 0,
    "reapariciones": 0,
    "marcas": [
-    "no apareció hoy en la fuente (1 de 3)"
+    "no apareció hoy en la fuente (2 de 3)"
    ]
   },
   {
@@ -1833,11 +1781,14 @@
     }
    ],
    "puntaje": -3,
-   "ausencias": 0,
+   "ausencias": 1,
    "nueva": false,
    "visto_desde": "2026-08-28",
    "republicaciones": 0,
-   "reapariciones": 0
+   "reapariciones": 0,
+   "marcas": [
+    "no apareció hoy en la fuente (1 de 3)"
+   ]
   },
   {
    "cargo": "gerente de recursos humanos",
@@ -2020,6 +1971,146 @@
   }
  ],
  "caidas": [
+  {
+   "cargo": "Senior Workday Analyst – Compensation & Benefits - Remote Work",
+   "empresa": "BairesDev",
+   "empresa_anonima": false,
+   "ciudad": "Colombia",
+   "salario": null,
+   "publicado": "2026-08-25",
+   "vigente_hasta": null,
+   "contrato": null,
+   "agencia": null,
+   "direccion": null,
+   "lat": 4.099917,
+   "lon": -72.9088133,
+   "id_fuente": "4461670869",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/senior-workday-analyst-%E2%80%93-compensation-benefits-remote-work-at-bairesdev-4461670869",
+     "id_fuente": "4461670869"
+    },
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/senior-workday-analyst-%E2%80%93-compensation-benefits-remote-work-at-bairesdev-4461686210",
+     "id_fuente": "4461686210"
+    }
+   ],
+   "inc": [
+    "salario",
+    "contrato"
+   ],
+   "deducidos": [
+    "modalidad"
+   ],
+   "modalidad_fuente": "Remote Solely",
+   "empleados": 3183,
+   "sede": "San Francisco, California",
+   "modalidad": "remoto",
+   "modalidad_literal": "remote",
+   "modalidad_por_confirmar": false,
+   "id": "bairesdev|senior workday analyst compensation benefits|colombia",
+   "duplicados_hoy": 2,
+   "desglose": [
+    {
+     "concepto": "multinacional estadounidense",
+     "puntos": -5,
+     "nota": "San Francisco, California"
+    },
+    {
+     "concepto": "remoto confirmado en el cuerpo del aviso",
+     "puntos": 15,
+     "nota": "remote"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    }
+   ],
+   "puntaje": 10,
+   "nueva": false,
+   "visto_desde": "2026-08-28",
+   "republicaciones": 1,
+   "reapariciones": 1,
+   "marcas": [
+    "no apareció hoy en la fuente (2 de 3)"
+   ],
+   "desaparecio": "2026-09-11",
+   "dias_publicada": 14
+  },
+  {
+   "cargo": "Workday Analyst – Compensation & Benefits - Remote Work",
+   "empresa": "BairesDev",
+   "empresa_anonima": false,
+   "ciudad": "Colombia",
+   "salario": null,
+   "publicado": "2026-09-03",
+   "vigente_hasta": null,
+   "contrato": null,
+   "agencia": null,
+   "direccion": null,
+   "lat": 4.099917,
+   "lon": -72.9088133,
+   "id_fuente": "4461684255",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/workday-analyst-%E2%80%93-compensation-benefits-remote-work-at-bairesdev-4461684255",
+     "id_fuente": "4461684255"
+    },
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/workday-analyst-%E2%80%93-compensation-benefits-remote-work-at-bairesdev-4461672409",
+     "id_fuente": "4461672409"
+    }
+   ],
+   "inc": [
+    "salario",
+    "contrato"
+   ],
+   "deducidos": [
+    "modalidad"
+   ],
+   "modalidad_fuente": "Remote Solely",
+   "empleados": 3183,
+   "sede": "San Francisco, California",
+   "modalidad": "remoto",
+   "modalidad_literal": "remote",
+   "modalidad_por_confirmar": false,
+   "id": "bairesdev|workday analyst compensation benefits|colombia",
+   "duplicados_hoy": 2,
+   "desglose": [
+    {
+     "concepto": "multinacional estadounidense",
+     "puntos": -5,
+     "nota": "San Francisco, California"
+    },
+    {
+     "concepto": "remoto confirmado en el cuerpo del aviso",
+     "puntos": 15,
+     "nota": "remote"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    }
+   ],
+   "puntaje": 10,
+   "nueva": false,
+   "visto_desde": "2026-09-04",
+   "republicaciones": 0,
+   "reapariciones": 0,
+   "marcas": [
+    "no apareció hoy en la fuente (2 de 3)"
+   ],
+   "desaparecio": "2026-09-11",
+   "dias_publicada": 7
+  },
   {
    "cargo": "Compensation Partner",
    "empresa": "Rappi",
