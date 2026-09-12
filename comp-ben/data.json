@@ -1,10 +1,10 @@
 {
  "busqueda": "comp-ben",
- "corrida": "2026-09-11",
- "corrida_hora": "2026-09-11 15:01",
+ "corrida": "2026-09-12",
+ "corrida_hora": "2026-09-12 14:07",
  "fuentes": {
   "elempleo": {
-   "avisos": 14,
+   "avisos": 16,
    "error": null
   },
   "computrabajo": {
@@ -20,35 +20,32 @@
    "error": null
   },
   "arbeitnow": {
-   "avisos": 0,
+   "avisos": 1,
    "error": null
   },
   "apify_linkedin": {
-   "avisos": 14,
+   "avisos": 13,
    "error": null
   }
  },
- "fallos": [
-  {
-   "url": "https://www.elempleo.com/co/ofertas-trabajo/profesional-en-compensacion-salarial-1886738617",
-   "motivo": "HTTP 410"
-  }
- ],
- "avisos_recogidos": 40,
- "descartados": 13,
+ "fallos": [],
+ "avisos_recogidos": 42,
+ "descartados": 14,
  "fusionados": [],
  "nuevas": [
-  "envia com logistics ftl tendencies carrier|sr payroll compensation specialist latam|colombia"
+  "hellofresh|director customer compensation policy|berlin",
+  "empresa no revelada|jefe de recursos humanos|bogota alrededores#anon:4000001-4500000-2026-09-11"
  ],
- "reaparecidas": [],
+ "reaparecidas": [
+  "colgas e s p|profesional en estructura organizacional y compensacion|bogota"
+ ],
  "ausentes": [
+  "manpower|gerente de compensacion y beneficios 80 beneficios 20 compensacion|bogota",
   "bccy|profesional contable e impuestos contador publico con sap manejo cuentas de compensacion|bogota",
-  "colgas e s p|profesional en estructura organizacional y compensacion|bogota",
+  "envia com logistics ftl tendencies carrier|sr payroll compensation specialist latam|colombia",
   "cafam|profesional en compensacion salarial|bogota"
  ],
- "republicadas": [
-  "envia com|sr payroll compensation specialist latam|bogota"
- ],
+ "republicadas": [],
  "vigentes": [
   {
    "cargo": "Global Compensation Manager",
@@ -252,76 +249,6 @@
    "reapariciones": 0
   },
   {
-   "cargo": "Líder de Compensación y Beneficios - Nomina",
-   "empresa": "CONSORCIO CIRCULEMOS DIGITAL",
-   "empresa_anonima": false,
-   "ciudad": "Bogotá, D.C.",
-   "salario": {
-    "min": 3744798.0,
-    "max": 3744798.0,
-    "moneda": "COP",
-    "periodo": "MONTH"
-   },
-   "publicado": "2026-09-08",
-   "vigente_hasta": "2026-11-07",
-   "contrato": "FULL_TIME",
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": "B0CBFB0381AE86E4",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "computrabajo",
-     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-lider-de-compensacion-y-beneficios-nomina-en-bogota-dc-4E384C51C449000961373E686DCF3405",
-     "id_fuente": "B0CBFB0381AE86E4"
-    }
-   ],
-   "inc": [
-    "modalidad"
-   ],
-   "deducidos": [],
-   "modalidad": null,
-   "modalidad_literal": null,
-   "modalidad_por_confirmar": false,
-   "id": "consorcio circulemos digital|lider de compensacion y beneficios nomina|bogota",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "cargo objetivo de la búsqueda",
-     "puntos": 25,
-     "nota": "Líder de Compensación y Beneficios - Nomina"
-    },
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "no se pudo determinar: no suma ni resta"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "compensacion"
-    },
-    {
-     "concepto": "salario publicado por debajo de $18.000.000",
-     "puntos": -15,
-     "nota": "3.744.798 COP — se muestra igual: el publicado casi nunca es el negociado"
-    },
-    {
-     "concepto": "publicada hace menos de 3 días",
-     "puntos": 10,
-     "nota": "hace 3 día(s)"
-    }
-   ],
-   "puntaje": 32,
-   "ausencias": 0,
-   "nueva": false,
-   "visto_desde": "2026-09-09",
-   "republicaciones": 0,
-   "reapariciones": 0
-  },
-  {
    "cargo": "Sr Payroll & Compensation Specialist – LATAM",
    "empresa": "Envia.com",
    "empresa_anonima": false,
@@ -378,7 +305,7 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 1 día(s)"
+     "nota": "hace 2 día(s)"
     },
     {
      "concepto": "exige portugues",
@@ -450,11 +377,14 @@
     }
    ],
    "puntaje": 22,
-   "ausencias": 0,
+   "ausencias": 1,
    "nueva": false,
    "visto_desde": "2026-08-31",
    "republicaciones": 0,
-   "reapariciones": 0
+   "reapariciones": 0,
+   "marcas": [
+    "no apareció hoy en la fuente (1 de 3)"
+   ]
   },
   {
    "cargo": "JEFE DE COMPENSACIÓN Y BENEFICIOS - BOGOTÁ- 1625894613-31",
@@ -521,6 +451,71 @@
    "ausencias": 0,
    "nueva": false,
    "visto_desde": "2026-08-28",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
+  {
+   "cargo": "Líder de Compensación y Beneficios - Nomina",
+   "empresa": "CONSORCIO CIRCULEMOS DIGITAL",
+   "empresa_anonima": false,
+   "ciudad": "Bogotá, D.C.",
+   "salario": {
+    "min": 3744798.0,
+    "max": 3744798.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-09-08",
+   "vigente_hasta": "2026-11-07",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": "B0CBFB0381AE86E4",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "computrabajo",
+     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-lider-de-compensacion-y-beneficios-nomina-en-bogota-dc-4E384C51C449000961373E686DCF3405",
+     "id_fuente": "B0CBFB0381AE86E4"
+    }
+   ],
+   "inc": [
+    "modalidad"
+   ],
+   "deducidos": [],
+   "modalidad": null,
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "consorcio circulemos digital|lider de compensacion y beneficios nomina|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "cargo objetivo de la búsqueda",
+     "puntos": 25,
+     "nota": "Líder de Compensación y Beneficios - Nomina"
+    },
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "compensacion"
+    },
+    {
+     "concepto": "salario publicado por debajo de $18.000.000",
+     "puntos": -15,
+     "nota": "3.744.798 COP — se muestra igual: el publicado casi nunca es el negociado"
+    }
+   ],
+   "puntaje": 22,
+   "ausencias": 0,
+   "nueva": false,
+   "visto_desde": "2026-09-09",
    "republicaciones": 0,
    "reapariciones": 0
   },
@@ -654,56 +649,51 @@
    "reapariciones": 0
   },
   {
-   "cargo": "Workday Analyst – Compensation & Benefits - Remote Work",
-   "empresa": "BairesDev",
+   "cargo": "Director, Customer Compensation & Policy",
+   "empresa": "hellofresh",
    "empresa_anonima": false,
-   "ciudad": "Valle del Cauca, Colombia",
+   "ciudad": "Berlin, Berlin",
    "salario": null,
-   "publicado": "2026-09-08",
-   "vigente_hasta": "2026-10-08",
-   "contrato": [
-    "FULL_TIME"
-   ],
+   "publicado": null,
+   "vigente_hasta": null,
+   "contrato": null,
    "agencia": null,
    "direccion": null,
-   "lat": 3.6984053,
-   "lon": -76.5501996,
-   "id_fuente": "4463522497",
+   "lat": null,
+   "lon": null,
+   "id_fuente": "director-customer-compensation-policy-berlin-berlin-486608",
    "pais": null,
    "fuentes": [
     {
-     "fuente": "linkedin",
-     "url": "https://co.linkedin.com/jobs/view/workday-analyst-%E2%80%93-compensation-benefits-remote-work-at-bairesdev-4463522497",
-     "id_fuente": "4463522497"
+     "fuente": "arbeitnow",
+     "url": "https://www.arbeitnow.com/jobs/companies/hellofresh/director-customer-compensation-policy-berlin-berlin-486608",
+     "id_fuente": "director-customer-compensation-policy-berlin-berlin-486608"
     }
    ],
    "inc": [
-    "salario"
+    "salario",
+    "publicado",
+    "contrato"
    ],
-   "deducidos": [
-    "modalidad"
-   ],
-   "modalidad_fuente": "Remote Solely",
-   "empleados": 3194,
-   "sede": "San Francisco, California",
+   "deducidos": [],
    "modalidad": "remoto",
-   "modalidad_literal": "remote",
+   "modalidad_literal": "Work From Home",
    "modalidad_por_confirmar": false,
    "marcas": [
     "remoto fuera de Colombia, contratación por confirmar"
    ],
-   "id": "bairesdev|workday analyst compensation benefits|valle del cauca",
+   "id": "hellofresh|director customer compensation policy|berlin",
    "duplicados_hoy": 1,
    "desglose": [
     {
-     "concepto": "multinacional estadounidense",
-     "puntos": -5,
-     "nota": "San Francisco, California"
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
     },
     {
      "concepto": "remoto confirmado en el cuerpo del aviso",
      "puntos": 15,
-     "nota": "remote"
+     "nota": "Work From Home"
     },
     {
      "concepto": "salario",
@@ -711,15 +701,15 @@
      "nota": "sin salario publicado, no suma ni resta"
     },
     {
-     "concepto": "publicada hace menos de 3 días",
-     "puntos": 10,
-     "nota": "hace 3 día(s)"
+     "concepto": "fecha de publicación",
+     "puntos": 0,
+     "nota": "sin fecha publicada: no suma ni resta"
     }
    ],
-   "puntaje": 20,
+   "puntaje": 15,
    "ausencias": 0,
-   "nueva": false,
-   "visto_desde": "2026-09-09",
+   "nueva": true,
+   "visto_desde": "2026-09-12",
    "republicaciones": 0,
    "reapariciones": 0
   },
@@ -970,6 +960,71 @@
    "reapariciones": 0
   },
   {
+   "cargo": "Workday Analyst – Compensation & Benefits - Remote Work",
+   "empresa": "BairesDev",
+   "empresa_anonima": false,
+   "ciudad": "Valle del Cauca, Colombia",
+   "salario": null,
+   "publicado": "2026-09-08",
+   "vigente_hasta": "2026-10-08",
+   "contrato": [
+    "FULL_TIME"
+   ],
+   "agencia": null,
+   "direccion": null,
+   "lat": 3.6984053,
+   "lon": -76.5501996,
+   "id_fuente": "4463522497",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/workday-analyst-%E2%80%93-compensation-benefits-remote-work-at-bairesdev-4463522497",
+     "id_fuente": "4463522497"
+    }
+   ],
+   "inc": [
+    "salario"
+   ],
+   "deducidos": [
+    "modalidad"
+   ],
+   "modalidad_fuente": "Remote Solely",
+   "empleados": 3194,
+   "sede": "San Francisco, California",
+   "modalidad": "remoto",
+   "modalidad_literal": "remote",
+   "modalidad_por_confirmar": false,
+   "marcas": [
+    "remoto fuera de Colombia, contratación por confirmar"
+   ],
+   "id": "bairesdev|workday analyst compensation benefits|valle del cauca",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "multinacional estadounidense",
+     "puntos": -5,
+     "nota": "San Francisco, California"
+    },
+    {
+     "concepto": "remoto confirmado en el cuerpo del aviso",
+     "puntos": 15,
+     "nota": "remote"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    }
+   ],
+   "puntaje": 10,
+   "ausencias": 0,
+   "nueva": false,
+   "visto_desde": "2026-09-09",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
+  {
    "cargo": "Workers' Compensation Case Manager",
    "empresa": "The United Firm | La Liga Defensora, APC",
    "empresa_anonima": false,
@@ -1154,7 +1209,7 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 2 día(s)"
+     "nota": "hace 3 día(s)"
     }
    ],
    "puntaje": 7,
@@ -1283,14 +1338,85 @@
     }
    ],
    "puntaje": 7,
-   "ausencias": 1,
+   "ausencias": 2,
    "nueva": false,
    "visto_desde": "2026-09-10",
    "republicaciones": 0,
    "reapariciones": 0,
    "marcas": [
-    "no apareció hoy en la fuente (1 de 3)"
+    "no apareció hoy en la fuente (2 de 3)"
    ]
+  },
+  {
+   "cargo": "jefe de recursos humanos",
+   "empresa": "CONFIDENTIAL",
+   "empresa_anonima": true,
+   "ciudad": "Cundinamarca",
+   "salario": {
+    "min": 4000001.0,
+    "max": 4500000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-09-11",
+   "vigente_hasta": "2026-11-10",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/jefe-de-recursos-humanos-1886765907",
+     "id_fuente": null
+    }
+   ],
+   "inc": [],
+   "deducidos": [],
+   "modalidad": "presencial",
+   "modalidad_literal": "presencial",
+   "modalidad_por_confirmar": false,
+   "id": "empresa no revelada|jefe de recursos humanos|bogota alrededores#anon:4000001-4500000-2026-09-11",
+   "duplicados_hoy": 1,
+   "marcas": [
+    "empresa no revelada: puede estar repetida"
+   ],
+   "desglose": [
+    {
+     "concepto": "cargo secundario de RR.HH.",
+     "puntos": 0,
+     "nota": "solo suma si el cuerpo habla de compensación"
+    },
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "el aviso no revela la empresa: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "remuneracion"
+    },
+    {
+     "concepto": "salario publicado por debajo de $18.000.000",
+     "puntos": -15,
+     "nota": "4.500.000 COP — se muestra igual: el publicado casi nunca es el negociado"
+    },
+    {
+     "concepto": "publicada hace menos de 3 días",
+     "puntos": 10,
+     "nota": "hace 1 día(s)"
+    }
+   ],
+   "puntaje": 7,
+   "ausencias": 0,
+   "nueva": true,
+   "visto_desde": "2026-09-12",
+   "republicaciones": 0,
+   "reapariciones": 0
   },
   {
    "cargo": "Sr Payroll & Compensation Specialist – LATAM",
@@ -1362,11 +1488,14 @@
     }
    ],
    "puntaje": 4,
-   "ausencias": 0,
-   "nueva": true,
+   "ausencias": 1,
+   "nueva": false,
    "visto_desde": "2026-09-11",
    "republicaciones": 0,
-   "reapariciones": 0
+   "reapariciones": 0,
+   "marcas": [
+    "no apareció hoy en la fuente (1 de 3)"
+   ]
   },
   {
    "cargo": "Product Marketing Associate, Rewards",
@@ -1468,14 +1597,12 @@
     }
    ],
    "puntaje": 0,
-   "ausencias": 2,
+   "ausencias": 0,
    "nueva": false,
    "visto_desde": "2026-09-06",
    "republicaciones": 0,
-   "reapariciones": 0,
-   "marcas": [
-    "no apareció hoy en la fuente (2 de 3)"
-   ]
+   "reapariciones": 1,
+   "reaparecida": true
   },
   {
    "cargo": "Coordinador de contratación nómina y compensación",
@@ -1781,13 +1908,13 @@
     }
    ],
    "puntaje": -3,
-   "ausencias": 1,
+   "ausencias": 2,
    "nueva": false,
    "visto_desde": "2026-08-28",
    "republicaciones": 0,
    "reapariciones": 0,
    "marcas": [
-    "no apareció hoy en la fuente (1 de 3)"
+    "no apareció hoy en la fuente (2 de 3)"
    ]
   },
   {
