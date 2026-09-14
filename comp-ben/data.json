@@ -1,7 +1,7 @@
 {
  "busqueda": "comp-ben",
- "corrida": "2026-09-13",
- "corrida_hora": "2026-09-13 14:56",
+ "corrida": "2026-09-14",
+ "corrida_hora": "2026-09-14 16:59",
  "fuentes": {
   "elempleo": {
    "avisos": 16,
@@ -12,7 +12,7 @@
    "error": null
   },
   "workday": {
-   "avisos": 6,
+   "avisos": 5,
    "error": null
   },
   "greenhouse": {
@@ -20,7 +20,7 @@
    "error": null
   },
   "arbeitnow": {
-   "avisos": 1,
+   "avisos": 0,
    "error": null
   },
   "apify_linkedin": {
@@ -28,19 +28,21 @@
    "error": null
   }
  },
- "fallos": [],
- "avisos_recogidos": 42,
- "descartados": 15,
- "fusionados": [],
- "nuevas": [
-  "job application for head of engineering supply chain at moniepoint|head of engineering rewards|remoto"
+ "fallos": [
+  {
+   "url": "https://www.elempleo.com/co/ofertas-empleo/chia/trabajo-jefe-de-compensacion-y-beneficios",
+   "motivo": "TimeoutError"
+  }
  ],
+ "avisos_recogidos": 40,
+ "descartados": 14,
+ "fusionados": [],
+ "nuevas": [],
  "reaparecidas": [],
  "ausentes": [
-  "manpower|gerente de compensacion y beneficios 80 beneficios 20 compensacion|bogota",
   "hellofresh|director customer compensation policy|berlin",
-  "decameron all inclusive hotels resorts|profesional de compensacion y beneficios|bogota",
-  "envia com logistics ftl tendencies carrier|sr payroll compensation specialist latam|colombia"
+  "job application for head of engineering supply chain at moniepoint|head of engineering rewards|remoto",
+  "decameron all inclusive hotels resorts|profesional de compensacion y beneficios|bogota"
  ],
  "republicadas": [],
  "vigentes": [
@@ -244,144 +246,6 @@
    "visto_desde": "2026-08-29",
    "republicaciones": 0,
    "reapariciones": 0
-  },
-  {
-   "cargo": "Sr Payroll & Compensation Specialist – LATAM",
-   "empresa": "Envia.com",
-   "empresa_anonima": false,
-   "ciudad": "Bogota, Capital District",
-   "salario": null,
-   "publicado": "2026-09-07",
-   "vigente_hasta": "2027-03-09",
-   "contrato": [
-    "FULL_TIME"
-   ],
-   "agencia": null,
-   "direccion": null,
-   "lat": 4.6533817,
-   "lon": -74.0836331,
-   "id_fuente": "4465802226",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "linkedin",
-     "url": "https://co.linkedin.com/jobs/view/sr-payroll-compensation-specialist-%E2%80%93-latam-at-envia-com-4465802226",
-     "id_fuente": "4465802226"
-    }
-   ],
-   "inc": [
-    "salario"
-   ],
-   "deducidos": [
-    "modalidad"
-   ],
-   "modalidad_fuente": "On-site",
-   "empleados": 557,
-   "sede": "Monterrey, Nuevo León",
-   "modalidad": "On-site",
-   "modalidad_literal": null,
-   "modalidad_por_confirmar": false,
-   "id": "envia com|sr payroll compensation specialist latam|bogota",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "multinacional latam",
-     "puntos": 15,
-     "nota": "Monterrey, Nuevo León"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "compensacion, total rewards, valoracion de cargos, hay group, bandas salariales, compensacion variable"
-    },
-    {
-     "concepto": "salario",
-     "puntos": 0,
-     "nota": "sin salario publicado, no suma ni resta"
-    },
-    {
-     "concepto": "publicada hace menos de 3 días",
-     "puntos": 10,
-     "nota": "hace 3 día(s)"
-    },
-    {
-     "concepto": "exige portugues",
-     "puntos": -10,
-     "nota": "el perfil no lo domina — se muestra igual: muchos avisos lo piden como «deseable» y luego no lo evalúan"
-    }
-   ],
-   "puntaje": 27,
-   "ausencias": 0,
-   "nueva": false,
-   "visto_desde": "2026-09-08",
-   "republicaciones": 1,
-   "reapariciones": 0
-  },
-  {
-   "cargo": "Gerente de Compensación y Beneficios (Total Rewards) - 80 Beneficios 20 Compensacion",
-   "empresa": "Manpower Group Colombia",
-   "empresa_anonima": false,
-   "ciudad": "Bogotá, D.C.",
-   "salario": {
-    "min": 14000000.0,
-    "max": 14000000.0,
-    "moneda": "COP",
-    "periodo": "MONTH"
-   },
-   "publicado": "2026-08-30",
-   "vigente_hasta": "2026-10-29",
-   "contrato": "FULL_TIME",
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": "2BE0D088B7D1B44D",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "computrabajo",
-     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-gerente-de-compensacion-y-beneficios-total-rewards-80-beneficios-20-compensacion-en-bogota-dc-B71482EED89E65DD61373E686DCF3405",
-     "id_fuente": "2BE0D088B7D1B44D"
-    }
-   ],
-   "inc": [],
-   "deducidos": [],
-   "modalidad": "híbrido",
-   "modalidad_literal": "3 dias en oficina",
-   "modalidad_por_confirmar": false,
-   "id": "manpower|gerente de compensacion y beneficios 80 beneficios 20 compensacion|bogota",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "cargo objetivo de la búsqueda",
-     "puntos": 25,
-     "nota": "Gerente de Compensación y Beneficios (Total Rewards) - 80 Beneficios 20 Compensacion"
-    },
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "no se pudo determinar: no suma ni resta"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "compensacion, total rewards"
-    },
-    {
-     "concepto": "salario publicado por debajo de $18.000.000",
-     "puntos": -15,
-     "nota": "14.000.000 COP — se muestra igual: el publicado casi nunca es el negociado"
-    }
-   ],
-   "puntaje": 22,
-   "ausencias": 2,
-   "nueva": false,
-   "visto_desde": "2026-08-31",
-   "republicaciones": 0,
-   "reapariciones": 0,
-   "marcas": [
-    "no apareció hoy en la fuente (2 de 3)"
-   ]
   },
   {
    "cargo": "JEFE DE COMPENSACIÓN Y BENEFICIOS - BOGOTÁ- 1625894613-31",
@@ -646,6 +510,73 @@
    "reapariciones": 0
   },
   {
+   "cargo": "Sr Payroll & Compensation Specialist – LATAM",
+   "empresa": "Envia.com",
+   "empresa_anonima": false,
+   "ciudad": "Bogota, Capital District",
+   "salario": null,
+   "publicado": "2026-09-07",
+   "vigente_hasta": "2027-03-09",
+   "contrato": [
+    "FULL_TIME"
+   ],
+   "agencia": null,
+   "direccion": null,
+   "lat": 4.6533817,
+   "lon": -74.0836331,
+   "id_fuente": "4465802226",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/sr-payroll-compensation-specialist-%E2%80%93-latam-at-envia-com-4465802226",
+     "id_fuente": "4465802226"
+    }
+   ],
+   "inc": [
+    "salario"
+   ],
+   "deducidos": [
+    "modalidad"
+   ],
+   "modalidad_fuente": "On-site",
+   "empleados": 557,
+   "sede": "Monterrey, Nuevo León",
+   "modalidad": "On-site",
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "envia com|sr payroll compensation specialist latam|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "multinacional latam",
+     "puntos": 15,
+     "nota": "Monterrey, Nuevo León"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "compensacion, total rewards, valoracion de cargos, hay group, bandas salariales, compensacion variable"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    },
+    {
+     "concepto": "exige portugues",
+     "puntos": -10,
+     "nota": "el perfil no lo domina — se muestra igual: muchos avisos lo piden como «deseable» y luego no lo evalúan"
+    }
+   ],
+   "puntaje": 17,
+   "ausencias": 0,
+   "nueva": false,
+   "visto_desde": "2026-09-08",
+   "republicaciones": 1,
+   "reapariciones": 0
+  },
+  {
    "cargo": "Director, Customer Compensation & Policy",
    "empresa": "hellofresh",
    "empresa_anonima": false,
@@ -678,7 +609,7 @@
    "modalidad_por_confirmar": false,
    "marcas": [
     "remoto fuera de Colombia, contratación por confirmar",
-    "no apareció hoy en la fuente (1 de 3)"
+    "no apareció hoy en la fuente (2 de 3)"
    ],
    "id": "hellofresh|director customer compensation policy|berlin",
    "duplicados_hoy": 1,
@@ -705,7 +636,7 @@
     }
    ],
    "puntaje": 15,
-   "ausencias": 1,
+   "ausencias": 2,
    "nueva": false,
    "visto_desde": "2026-09-12",
    "republicaciones": 0,
@@ -767,11 +698,14 @@
     }
    ],
    "puntaje": 15,
-   "ausencias": 0,
-   "nueva": true,
+   "ausencias": 1,
+   "nueva": false,
    "visto_desde": "2026-09-13",
    "republicaciones": 0,
-   "reapariciones": 0
+   "reapariciones": 0,
+   "marcas": [
+    "no apareció hoy en la fuente (1 de 3)"
+   ]
   },
   {
    "cargo": "Analista Senior de Compensación y Estructura Salarial",
@@ -1013,13 +947,13 @@
     }
    ],
    "puntaje": 12,
-   "ausencias": 1,
+   "ausencias": 2,
    "nueva": false,
    "visto_desde": "2026-08-29",
    "republicaciones": 0,
    "reapariciones": 0,
    "marcas": [
-    "no apareció hoy en la fuente (1 de 3)"
+    "no apareció hoy en la fuente (2 de 3)"
    ]
   },
   {
@@ -1337,7 +1271,7 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 2 día(s)"
+     "nota": "hace 3 día(s)"
     }
    ],
    "puntaje": 7,
@@ -1346,85 +1280,6 @@
    "visto_desde": "2026-09-12",
    "republicaciones": 0,
    "reapariciones": 0
-  },
-  {
-   "cargo": "Sr Payroll & Compensation Specialist – LATAM",
-   "empresa": "Envia.com Logistics FTL (Tendencies Carrier)",
-   "empresa_anonima": false,
-   "ciudad": "Colombia",
-   "salario": null,
-   "publicado": "2026-09-10",
-   "vigente_hasta": null,
-   "contrato": null,
-   "agencia": null,
-   "direccion": null,
-   "lat": 4.099917,
-   "lon": -72.9088133,
-   "id_fuente": "4465849012",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "linkedin",
-     "url": "https://co.linkedin.com/jobs/view/sr-payroll-compensation-specialist-%E2%80%93-latam-at-envia-com-logistics-ftl-tendencies-carrier-4465849012",
-     "id_fuente": "4465849012"
-    }
-   ],
-   "inc": [
-    "salario",
-    "contrato"
-   ],
-   "deducidos": [
-    "modalidad"
-   ],
-   "modalidad_fuente": "On-site",
-   "empleados": 1,
-   "sede": "",
-   "modalidad": "On-site",
-   "modalidad_literal": null,
-   "modalidad_por_confirmar": false,
-   "id": "envia com logistics ftl tendencies carrier|sr payroll compensation specialist latam|colombia",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "no se pudo determinar: no suma ni resta"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "compensacion, total rewards, valoracion de cargos, hay group, bandas salariales, compensacion variable"
-    },
-    {
-     "concepto": "salario",
-     "puntos": 0,
-     "nota": "sin salario publicado, no suma ni resta"
-    },
-    {
-     "concepto": "publicada hace menos de 3 días",
-     "puntos": 10,
-     "nota": "hace 1 día(s)"
-    },
-    {
-     "concepto": "exige portugues",
-     "puntos": -10,
-     "nota": "el perfil no lo domina — se muestra igual: muchos avisos lo piden como «deseable» y luego no lo evalúan"
-    },
-    {
-     "concepto": "empresa pequeña / etapa temprana",
-     "puntos": -8,
-     "nota": "1 empleados"
-    }
-   ],
-   "puntaje": 4,
-   "ausencias": 2,
-   "nueva": false,
-   "visto_desde": "2026-09-11",
-   "republicaciones": 0,
-   "reapariciones": 0,
-   "marcas": [
-    "no apareció hoy en la fuente (2 de 3)"
-   ]
   },
   {
    "cargo": "Product Marketing Associate, Rewards",
@@ -2028,6 +1883,153 @@
   }
  ],
  "caidas": [
+  {
+   "cargo": "Gerente de Compensación y Beneficios (Total Rewards) - 80 Beneficios 20 Compensacion",
+   "empresa": "Manpower Group Colombia",
+   "empresa_anonima": false,
+   "ciudad": "Bogotá, D.C.",
+   "salario": {
+    "min": 14000000.0,
+    "max": 14000000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-08-30",
+   "vigente_hasta": "2026-10-29",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": "2BE0D088B7D1B44D",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "computrabajo",
+     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-gerente-de-compensacion-y-beneficios-total-rewards-80-beneficios-20-compensacion-en-bogota-dc-B71482EED89E65DD61373E686DCF3405",
+     "id_fuente": "2BE0D088B7D1B44D"
+    }
+   ],
+   "inc": [],
+   "deducidos": [],
+   "modalidad": "híbrido",
+   "modalidad_literal": "3 dias en oficina",
+   "modalidad_por_confirmar": false,
+   "id": "manpower|gerente de compensacion y beneficios 80 beneficios 20 compensacion|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "cargo objetivo de la búsqueda",
+     "puntos": 25,
+     "nota": "Gerente de Compensación y Beneficios (Total Rewards) - 80 Beneficios 20 Compensacion"
+    },
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "compensacion, total rewards"
+    },
+    {
+     "concepto": "salario publicado por debajo de $18.000.000",
+     "puntos": -15,
+     "nota": "14.000.000 COP — se muestra igual: el publicado casi nunca es el negociado"
+    }
+   ],
+   "puntaje": 22,
+   "nueva": false,
+   "visto_desde": "2026-08-31",
+   "republicaciones": 0,
+   "reapariciones": 0,
+   "marcas": [
+    "no apareció hoy en la fuente (2 de 3)"
+   ],
+   "desaparecio": "2026-09-14",
+   "dias_publicada": 14
+  },
+  {
+   "cargo": "Sr Payroll & Compensation Specialist – LATAM",
+   "empresa": "Envia.com Logistics FTL (Tendencies Carrier)",
+   "empresa_anonima": false,
+   "ciudad": "Colombia",
+   "salario": null,
+   "publicado": "2026-09-10",
+   "vigente_hasta": null,
+   "contrato": null,
+   "agencia": null,
+   "direccion": null,
+   "lat": 4.099917,
+   "lon": -72.9088133,
+   "id_fuente": "4465849012",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/sr-payroll-compensation-specialist-%E2%80%93-latam-at-envia-com-logistics-ftl-tendencies-carrier-4465849012",
+     "id_fuente": "4465849012"
+    }
+   ],
+   "inc": [
+    "salario",
+    "contrato"
+   ],
+   "deducidos": [
+    "modalidad"
+   ],
+   "modalidad_fuente": "On-site",
+   "empleados": 1,
+   "sede": "",
+   "modalidad": "On-site",
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "envia com logistics ftl tendencies carrier|sr payroll compensation specialist latam|colombia",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "compensacion, total rewards, valoracion de cargos, hay group, bandas salariales, compensacion variable"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    },
+    {
+     "concepto": "publicada hace menos de 3 días",
+     "puntos": 10,
+     "nota": "hace 1 día(s)"
+    },
+    {
+     "concepto": "exige portugues",
+     "puntos": -10,
+     "nota": "el perfil no lo domina — se muestra igual: muchos avisos lo piden como «deseable» y luego no lo evalúan"
+    },
+    {
+     "concepto": "empresa pequeña / etapa temprana",
+     "puntos": -8,
+     "nota": "1 empleados"
+    }
+   ],
+   "puntaje": 4,
+   "nueva": false,
+   "visto_desde": "2026-09-11",
+   "republicaciones": 0,
+   "reapariciones": 0,
+   "marcas": [
+    "no apareció hoy en la fuente (2 de 3)"
+   ],
+   "desaparecio": "2026-09-14",
+   "dias_publicada": 3
+  },
   {
    "cargo": "Profesional Contable e Impuestos - Contador publico con SAP manejo cuentas de compensación",
    "empresa": "BCCY COLOMBIA HOLDING S.A.S.",
