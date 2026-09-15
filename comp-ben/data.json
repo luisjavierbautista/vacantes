@@ -1,14 +1,14 @@
 {
  "busqueda": "comp-ben",
- "corrida": "2026-09-14",
- "corrida_hora": "2026-09-14 16:59",
+ "corrida": "2026-09-15",
+ "corrida_hora": "2026-09-15 15:35",
  "fuentes": {
   "elempleo": {
-   "avisos": 16,
+   "avisos": 15,
    "error": null
   },
   "computrabajo": {
-   "avisos": 6,
+   "avisos": 5,
    "error": null
   },
   "workday": {
@@ -20,32 +20,103 @@
    "error": null
   },
   "arbeitnow": {
-   "avisos": 0,
+   "avisos": 1,
    "error": null
   },
   "apify_linkedin": {
-   "avisos": 12,
+   "avisos": 11,
    "error": null
   }
  },
- "fallos": [
-  {
-   "url": "https://www.elempleo.com/co/ofertas-empleo/chia/trabajo-jefe-de-compensacion-y-beneficios",
-   "motivo": "TimeoutError"
-  }
- ],
- "avisos_recogidos": 40,
+ "fallos": [],
+ "avisos_recogidos": 38,
  "descartados": 14,
  "fusionados": [],
- "nuevas": [],
+ "nuevas": [
+  "empresa no revelada|gerente de compensacion y arquitectura organizacional|bogota#anon:18000001-21000000-2026-09-15",
+  "empresa no revelada|coordinador compensacion y gestion laboral|bogota#anon:0-0-2026-09-14"
+ ],
  "reaparecidas": [],
  "ausentes": [
-  "hellofresh|director customer compensation policy|berlin",
   "job application for head of engineering supply chain at moniepoint|head of engineering rewards|remoto",
-  "decameron all inclusive hotels resorts|profesional de compensacion y beneficios|bogota"
+  "bairesdev|workday analyst compensation benefits|valle del cauca",
+  "empresa no revelada|jefe de recursos humanos|bogota alrededores#anon:4000001-4500000-2026-09-11",
+  "empresa no revelada|gerente de recursos humanos|bogota#anon:6000001-8000000-2026-07-31",
+  "kata|profesional de compensacion y liquidacion de nomina lunes a sabado norte|bogota"
  ],
  "republicadas": [],
  "vigentes": [
+  {
+   "cargo": "Gerente de compensación y arquitectura organizacional",
+   "empresa": "CONFIDENTIAL",
+   "empresa_anonima": true,
+   "ciudad": "Bogotá D.C.",
+   "salario": {
+    "min": 18000001.0,
+    "max": 21000000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-09-15",
+   "vigente_hasta": "2026-11-14",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/gerente-de-compensacion-y-arquitectura-organizacional-1886766909",
+     "id_fuente": null
+    }
+   ],
+   "inc": [],
+   "deducidos": [],
+   "modalidad": "presencial",
+   "modalidad_literal": "presencial",
+   "modalidad_por_confirmar": false,
+   "id": "empresa no revelada|gerente de compensacion y arquitectura organizacional|bogota#anon:18000001-21000000-2026-09-15",
+   "duplicados_hoy": 1,
+   "marcas": [
+    "empresa no revelada: puede estar repetida"
+   ],
+   "desglose": [
+    {
+     "concepto": "cargo objetivo de la búsqueda",
+     "puntos": 25,
+     "nota": "Gerente de compensación y arquitectura organizacional"
+    },
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "el aviso no revela la empresa: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "compensacion, remuneracion, hay group, equidad interna, mercer"
+    },
+    {
+     "concepto": "salario publicado igual o sobre $18.000.000",
+     "puntos": 12,
+     "nota": "21.000.000 COP"
+    },
+    {
+     "concepto": "publicada hace menos de 3 días",
+     "puntos": 10,
+     "nota": "hace 0 día(s)"
+    }
+   ],
+   "puntaje": 59,
+   "ausencias": 0,
+   "nueva": true,
+   "visto_desde": "2026-09-15",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
   {
    "cargo": "Global Compensation Manager",
    "empresa": "Worldpanel",
@@ -577,72 +648,6 @@
    "reapariciones": 0
   },
   {
-   "cargo": "Director, Customer Compensation & Policy",
-   "empresa": "hellofresh",
-   "empresa_anonima": false,
-   "ciudad": "Berlin, Berlin",
-   "salario": null,
-   "publicado": null,
-   "vigente_hasta": null,
-   "contrato": null,
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": "director-customer-compensation-policy-berlin-berlin-486608",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "arbeitnow",
-     "url": "https://www.arbeitnow.com/jobs/companies/hellofresh/director-customer-compensation-policy-berlin-berlin-486608",
-     "id_fuente": "director-customer-compensation-policy-berlin-berlin-486608"
-    }
-   ],
-   "inc": [
-    "salario",
-    "publicado",
-    "contrato"
-   ],
-   "deducidos": [],
-   "modalidad": "remoto",
-   "modalidad_literal": "Work From Home",
-   "modalidad_por_confirmar": false,
-   "marcas": [
-    "remoto fuera de Colombia, contratación por confirmar",
-    "no apareció hoy en la fuente (2 de 3)"
-   ],
-   "id": "hellofresh|director customer compensation policy|berlin",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "no se pudo determinar: no suma ni resta"
-    },
-    {
-     "concepto": "remoto confirmado en el cuerpo del aviso",
-     "puntos": 15,
-     "nota": "Work From Home"
-    },
-    {
-     "concepto": "salario",
-     "puntos": 0,
-     "nota": "sin salario publicado, no suma ni resta"
-    },
-    {
-     "concepto": "fecha de publicación",
-     "puntos": 0,
-     "nota": "sin fecha publicada: no suma ni resta"
-    }
-   ],
-   "puntaje": 15,
-   "ausencias": 2,
-   "nueva": false,
-   "visto_desde": "2026-09-12",
-   "republicaciones": 0,
-   "reapariciones": 0
-  },
-  {
    "cargo": "Head of Engineering, Rewards",
    "empresa": "Job Application for Head of Engineering, Supply Chain at Moniepoint",
    "empresa_anonima": false,
@@ -698,13 +703,13 @@
     }
    ],
    "puntaje": 15,
-   "ausencias": 1,
+   "ausencias": 2,
    "nueva": false,
    "visto_desde": "2026-09-13",
    "republicaciones": 0,
    "reapariciones": 0,
    "marcas": [
-    "no apareció hoy en la fuente (1 de 3)"
+    "no apareció hoy en la fuente (2 de 3)"
    ]
   },
   {
@@ -892,69 +897,63 @@
    "reapariciones": 0
   },
   {
-   "cargo": "Profesional de Compensación y Beneficios",
-   "empresa": "Decameron All Inclusive Hotels & Resorts",
-   "empresa_anonima": false,
-   "ciudad": "Bogota, Capital District",
+   "cargo": "Coordinador Compensación y Gestión Laboral",
+   "empresa": "CONFIDENTIAL",
+   "empresa_anonima": true,
+   "ciudad": "Bogotá D.C.",
    "salario": null,
-   "publicado": "2026-08-20",
-   "vigente_hasta": "2026-09-19",
-   "contrato": [
-    "TEMPORARY"
-   ],
+   "publicado": "2026-09-14",
+   "vigente_hasta": "2026-10-14",
+   "contrato": "FULL_TIME",
    "agencia": null,
    "direccion": null,
-   "lat": 4.6533817,
-   "lon": -74.0836331,
-   "id_fuente": "4457004891",
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
    "pais": null,
    "fuentes": [
     {
-     "fuente": "linkedin",
-     "url": "https://co.linkedin.com/jobs/view/profesional-de-compensaci%C3%B3n-y-beneficios-at-decameron-all-inclusive-hotels-resorts-4457004891",
-     "id_fuente": "4457004891"
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/coordinador-compensacion-y-gestion-laboral-1886766761",
+     "id_fuente": null
     }
    ],
    "inc": [
-    "salario"
-   ],
-   "deducidos": [
+    "salario",
     "modalidad"
    ],
-   "modalidad_fuente": "Hybrid",
-   "empleados": 2480,
-   "sede": "Bogotá",
-   "modalidad": "Hybrid",
+   "deducidos": [],
+   "modalidad": null,
    "modalidad_literal": null,
    "modalidad_por_confirmar": false,
-   "id": "decameron all inclusive hotels resorts|profesional de compensacion y beneficios|bogota",
+   "id": "empresa no revelada|coordinador compensacion y gestion laboral|bogota#anon:0-0-2026-09-14",
    "duplicados_hoy": 1,
+   "marcas": [
+    "empresa no revelada: puede estar repetida"
+   ],
    "desglose": [
     {
      "concepto": "origen de la empresa",
      "puntos": 0,
-     "nota": "no se pudo determinar: no suma ni resta"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "compensacion, remuneracion, valoracion de cargos, korn ferry, bandas salariales, compensacion variable"
+     "nota": "el aviso no revela la empresa: no suma ni resta"
     },
     {
      "concepto": "salario",
      "puntos": 0,
      "nota": "sin salario publicado, no suma ni resta"
+    },
+    {
+     "concepto": "publicada hace menos de 3 días",
+     "puntos": 10,
+     "nota": "hace 1 día(s)"
     }
    ],
-   "puntaje": 12,
-   "ausencias": 2,
-   "nueva": false,
-   "visto_desde": "2026-08-29",
+   "puntaje": 10,
+   "ausencias": 0,
+   "nueva": true,
+   "visto_desde": "2026-09-15",
    "republicaciones": 0,
-   "reapariciones": 0,
-   "marcas": [
-    "no apareció hoy en la fuente (2 de 3)"
-   ]
+   "reapariciones": 0
   },
   {
    "cargo": "Workday Analyst – Compensation & Benefits - Remote Work",
@@ -993,7 +992,8 @@
    "modalidad_literal": "remote",
    "modalidad_por_confirmar": false,
    "marcas": [
-    "remoto fuera de Colombia, contratación por confirmar"
+    "remoto fuera de Colombia, contratación por confirmar",
+    "no apareció hoy en la fuente (1 de 3)"
    ],
    "id": "bairesdev|workday analyst compensation benefits|valle del cauca",
    "duplicados_hoy": 1,
@@ -1015,7 +1015,7 @@
     }
    ],
    "puntaje": 10,
-   "ausencias": 0,
+   "ausencias": 1,
    "nueva": false,
    "visto_desde": "2026-09-09",
    "republicaciones": 0,
@@ -1245,7 +1245,8 @@
    "id": "empresa no revelada|jefe de recursos humanos|bogota alrededores#anon:4000001-4500000-2026-09-11",
    "duplicados_hoy": 1,
    "marcas": [
-    "empresa no revelada: puede estar repetida"
+    "empresa no revelada: puede estar repetida",
+    "no apareció hoy en la fuente (1 de 3)"
    ],
    "desglose": [
     {
@@ -1275,7 +1276,7 @@
     }
    ],
    "puntaje": 7,
-   "ausencias": 0,
+   "ausencias": 1,
    "nueva": false,
    "visto_desde": "2026-09-12",
    "republicaciones": 0,
@@ -1739,7 +1740,8 @@
    "id": "empresa no revelada|gerente de recursos humanos|bogota#anon:6000001-8000000-2026-07-31",
    "duplicados_hoy": 1,
    "marcas": [
-    "empresa no revelada: puede estar repetida"
+    "empresa no revelada: puede estar repetida",
+    "no apareció hoy en la fuente (1 de 3)"
    ],
    "desglose": [
     {
@@ -1764,7 +1766,7 @@
     }
    ],
    "puntaje": -3,
-   "ausencias": 0,
+   "ausencias": 1,
    "nueva": false,
    "visto_desde": "2026-08-28",
    "republicaciones": 0,
@@ -1875,14 +1877,150 @@
     }
    ],
    "puntaje": -15,
-   "ausencias": 0,
+   "ausencias": 1,
    "nueva": false,
    "visto_desde": "2026-08-31",
    "republicaciones": 0,
-   "reapariciones": 0
+   "reapariciones": 0,
+   "marcas": [
+    "no apareció hoy en la fuente (1 de 3)"
+   ]
   }
  ],
  "caidas": [
+  {
+   "cargo": "Director, Customer Compensation & Policy",
+   "empresa": "hellofresh",
+   "empresa_anonima": false,
+   "ciudad": "Berlin, Berlin",
+   "salario": null,
+   "publicado": null,
+   "vigente_hasta": null,
+   "contrato": null,
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": "director-customer-compensation-policy-berlin-berlin-486608",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "arbeitnow",
+     "url": "https://www.arbeitnow.com/jobs/companies/hellofresh/director-customer-compensation-policy-berlin-berlin-486608",
+     "id_fuente": "director-customer-compensation-policy-berlin-berlin-486608"
+    }
+   ],
+   "inc": [
+    "salario",
+    "publicado",
+    "contrato"
+   ],
+   "deducidos": [],
+   "modalidad": "remoto",
+   "modalidad_literal": "Work From Home",
+   "modalidad_por_confirmar": false,
+   "marcas": [
+    "remoto fuera de Colombia, contratación por confirmar",
+    "no apareció hoy en la fuente (2 de 3)"
+   ],
+   "id": "hellofresh|director customer compensation policy|berlin",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "remoto confirmado en el cuerpo del aviso",
+     "puntos": 15,
+     "nota": "Work From Home"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    },
+    {
+     "concepto": "fecha de publicación",
+     "puntos": 0,
+     "nota": "sin fecha publicada: no suma ni resta"
+    }
+   ],
+   "puntaje": 15,
+   "nueva": false,
+   "visto_desde": "2026-09-12",
+   "republicaciones": 0,
+   "reapariciones": 0,
+   "desaparecio": "2026-09-15",
+   "dias_publicada": 3
+  },
+  {
+   "cargo": "Profesional de Compensación y Beneficios",
+   "empresa": "Decameron All Inclusive Hotels & Resorts",
+   "empresa_anonima": false,
+   "ciudad": "Bogota, Capital District",
+   "salario": null,
+   "publicado": "2026-08-20",
+   "vigente_hasta": "2026-09-19",
+   "contrato": [
+    "TEMPORARY"
+   ],
+   "agencia": null,
+   "direccion": null,
+   "lat": 4.6533817,
+   "lon": -74.0836331,
+   "id_fuente": "4457004891",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/profesional-de-compensaci%C3%B3n-y-beneficios-at-decameron-all-inclusive-hotels-resorts-4457004891",
+     "id_fuente": "4457004891"
+    }
+   ],
+   "inc": [
+    "salario"
+   ],
+   "deducidos": [
+    "modalidad"
+   ],
+   "modalidad_fuente": "Hybrid",
+   "empleados": 2480,
+   "sede": "Bogotá",
+   "modalidad": "Hybrid",
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "decameron all inclusive hotels resorts|profesional de compensacion y beneficios|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "compensacion, remuneracion, valoracion de cargos, korn ferry, bandas salariales, compensacion variable"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    }
+   ],
+   "puntaje": 12,
+   "nueva": false,
+   "visto_desde": "2026-08-29",
+   "republicaciones": 0,
+   "reapariciones": 0,
+   "marcas": [
+    "no apareció hoy en la fuente (2 de 3)"
+   ],
+   "desaparecio": "2026-09-15",
+   "dias_publicada": 17
+  },
   {
    "cargo": "Gerente de Compensación y Beneficios (Total Rewards) - 80 Beneficios 20 Compensacion",
    "empresa": "Manpower Group Colombia",
