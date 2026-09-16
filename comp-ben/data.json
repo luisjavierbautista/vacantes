@@ -1,18 +1,18 @@
 {
  "busqueda": "comp-ben",
- "corrida": "2026-09-15",
- "corrida_hora": "2026-09-15 15:35",
+ "corrida": "2026-09-16",
+ "corrida_hora": "2026-09-16 15:27",
  "fuentes": {
   "elempleo": {
-   "avisos": 15,
+   "avisos": 17,
    "error": null
   },
   "computrabajo": {
-   "avisos": 5,
+   "avisos": 4,
    "error": null
   },
   "workday": {
-   "avisos": 5,
+   "avisos": 6,
    "error": null
   },
   "greenhouse": {
@@ -20,29 +20,30 @@
    "error": null
   },
   "arbeitnow": {
-   "avisos": 1,
+   "avisos": 0,
    "error": null
   },
   "apify_linkedin": {
-   "avisos": 11,
+   "avisos": 12,
    "error": null
   }
  },
  "fallos": [],
- "avisos_recogidos": 38,
- "descartados": 14,
+ "avisos_recogidos": 40,
+ "descartados": 13,
  "fusionados": [],
  "nuevas": [
-  "empresa no revelada|gerente de compensacion y arquitectura organizacional|bogota#anon:18000001-21000000-2026-09-15",
-  "empresa no revelada|coordinador compensacion y gestion laboral|bogota#anon:0-0-2026-09-14"
+  "empresa no revelada|especialista de compensacion|bogota#anon:0-0-2026-09-15",
+  "lean solutions|compensation specialist|bogota"
  ],
- "reaparecidas": [],
- "ausentes": [
-  "job application for head of engineering supply chain at moniepoint|head of engineering rewards|remoto",
-  "bairesdev|workday analyst compensation benefits|valle del cauca",
-  "empresa no revelada|jefe de recursos humanos|bogota alrededores#anon:4000001-4500000-2026-09-11",
+ "reaparecidas": [
   "empresa no revelada|gerente de recursos humanos|bogota#anon:6000001-8000000-2026-07-31",
   "kata|profesional de compensacion y liquidacion de nomina lunes a sabado norte|bogota"
+ ],
+ "ausentes": [
+  "bairesdev|workday analyst compensation benefits|valle del cauca",
+  "empresa no revelada|jefe de recursos humanos|bogota alrededores#anon:4000001-4500000-2026-09-11",
+  "colgas e s p|profesional en estructura organizacional y compensacion|bogota"
  ],
  "republicadas": [],
  "vigentes": [
@@ -107,12 +108,12 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 0 día(s)"
+     "nota": "hace 1 día(s)"
     }
    ],
    "puntaje": 59,
    "ausencias": 0,
-   "nueva": true,
+   "nueva": false,
    "visto_desde": "2026-09-15",
    "republicaciones": 0,
    "reapariciones": 0
@@ -251,6 +252,75 @@
    "reapariciones": 0
   },
   {
+   "cargo": "Especialista de Compensación",
+   "empresa": "CONFIDENTIAL",
+   "empresa_anonima": true,
+   "ciudad": "Bogotá D.C.",
+   "salario": null,
+   "publicado": "2026-09-15",
+   "vigente_hasta": "2026-11-14",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/especialista-de-compensacion-1886767419",
+     "id_fuente": null
+    }
+   ],
+   "inc": [
+    "salario",
+    "modalidad"
+   ],
+   "deducidos": [],
+   "modalidad": null,
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "empresa no revelada|especialista de compensacion|bogota#anon:0-0-2026-09-15",
+   "duplicados_hoy": 1,
+   "marcas": [
+    "empresa no revelada: puede estar repetida"
+   ],
+   "desglose": [
+    {
+     "concepto": "cargo objetivo de la búsqueda",
+     "puntos": 25,
+     "nota": "Especialista de Compensación"
+    },
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "el aviso no revela la empresa: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "compensacion, valoracion de cargos, compensacion variable"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    },
+    {
+     "concepto": "publicada hace menos de 3 días",
+     "puntos": 10,
+     "nota": "hace 1 día(s)"
+    }
+   ],
+   "puntaje": 47,
+   "ausencias": 0,
+   "nueva": true,
+   "visto_desde": "2026-09-16",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
+  {
    "cargo": "Compensation Team Lead - Technical Expertise and Specializations",
    "empresa": "Roche",
    "empresa_anonima": false,
@@ -315,6 +385,73 @@
    "ausencias": 0,
    "nueva": false,
    "visto_desde": "2026-08-29",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
+  {
+   "cargo": "Compensation Specialist",
+   "empresa": "Lean Solutions Group",
+   "empresa_anonima": false,
+   "ciudad": "Bogota, Capital District",
+   "salario": null,
+   "publicado": "2026-09-15",
+   "vigente_hasta": "2026-10-15",
+   "contrato": [
+    "FULL_TIME"
+   ],
+   "agencia": null,
+   "direccion": null,
+   "lat": 4.6533817,
+   "lon": -74.0836331,
+   "id_fuente": "4467753692",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/compensation-specialist-at-lean-solutions-group-4467753692",
+     "id_fuente": "4467753692"
+    }
+   ],
+   "inc": [
+    "salario"
+   ],
+   "deducidos": [
+    "modalidad"
+   ],
+   "modalidad_fuente": "On-site",
+   "empleados": 6184,
+   "sede": "Coral Springs , FL",
+   "modalidad": "On-site",
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "lean solutions|compensation specialist|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "pay equity, merit increase"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    },
+    {
+     "concepto": "publicada hace menos de 3 días",
+     "puntos": 10,
+     "nota": "hace 1 día(s)"
+    }
+   ],
+   "puntaje": 22,
+   "ausencias": 0,
+   "nueva": true,
+   "visto_desde": "2026-09-16",
    "republicaciones": 0,
    "reapariciones": 0
   },
@@ -648,71 +785,6 @@
    "reapariciones": 0
   },
   {
-   "cargo": "Head of Engineering, Rewards",
-   "empresa": "Job Application for Head of Engineering, Supply Chain at Moniepoint",
-   "empresa_anonima": false,
-   "ciudad": "Remote, London",
-   "salario": null,
-   "publicado": null,
-   "vigente_hasta": null,
-   "contrato": null,
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": "remote-head-of-engineering-rewards-421398",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "arbeitnow",
-     "url": "https://www.arbeitnow.co.uk/jobs/companies/job-application-for-head-of-engineering-supply-chain-at-moniepoint/remote-head-of-engineering-rewards-421398",
-     "id_fuente": "remote-head-of-engineering-rewards-421398"
-    }
-   ],
-   "inc": [
-    "salario",
-    "publicado",
-    "contrato"
-   ],
-   "deducidos": [],
-   "modalidad": "remoto",
-   "modalidad_literal": "Remote",
-   "modalidad_por_confirmar": false,
-   "id": "job application for head of engineering supply chain at moniepoint|head of engineering rewards|remoto",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "no se pudo determinar: no suma ni resta"
-    },
-    {
-     "concepto": "remoto confirmado en el cuerpo del aviso",
-     "puntos": 15,
-     "nota": "Remote"
-    },
-    {
-     "concepto": "salario",
-     "puntos": 0,
-     "nota": "sin salario publicado, no suma ni resta"
-    },
-    {
-     "concepto": "fecha de publicación",
-     "puntos": 0,
-     "nota": "sin fecha publicada: no suma ni resta"
-    }
-   ],
-   "puntaje": 15,
-   "ausencias": 2,
-   "nueva": false,
-   "visto_desde": "2026-09-13",
-   "republicaciones": 0,
-   "reapariciones": 0,
-   "marcas": [
-    "no apareció hoy en la fuente (2 de 3)"
-   ]
-  },
-  {
    "cargo": "Analista Senior de Compensación y Estructura Salarial",
    "empresa": "Cafam Oficial",
    "empresa_anonima": false,
@@ -945,12 +1017,12 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 1 día(s)"
+     "nota": "hace 2 día(s)"
     }
    ],
    "puntaje": 10,
    "ausencias": 0,
-   "nueva": true,
+   "nueva": false,
    "visto_desde": "2026-09-15",
    "republicaciones": 0,
    "reapariciones": 0
@@ -993,7 +1065,7 @@
    "modalidad_por_confirmar": false,
    "marcas": [
     "remoto fuera de Colombia, contratación por confirmar",
-    "no apareció hoy en la fuente (1 de 3)"
+    "no apareció hoy en la fuente (2 de 3)"
    ],
    "id": "bairesdev|workday analyst compensation benefits|valle del cauca",
    "duplicados_hoy": 1,
@@ -1015,7 +1087,7 @@
     }
    ],
    "puntaje": 10,
-   "ausencias": 1,
+   "ausencias": 2,
    "nueva": false,
    "visto_desde": "2026-09-09",
    "republicaciones": 0,
@@ -1246,7 +1318,7 @@
    "duplicados_hoy": 1,
    "marcas": [
     "empresa no revelada: puede estar repetida",
-    "no apareció hoy en la fuente (1 de 3)"
+    "no apareció hoy en la fuente (2 de 3)"
    ],
    "desglose": [
     {
@@ -1276,7 +1348,7 @@
     }
    ],
    "puntaje": 7,
-   "ausencias": 1,
+   "ausencias": 2,
    "nueva": false,
    "visto_desde": "2026-09-12",
    "republicaciones": 0,
@@ -1382,11 +1454,14 @@
     }
    ],
    "puntaje": 0,
-   "ausencias": 0,
+   "ausencias": 1,
    "nueva": false,
    "visto_desde": "2026-09-06",
    "republicaciones": 0,
-   "reapariciones": 1
+   "reapariciones": 1,
+   "marcas": [
+    "no apareció hoy en la fuente (1 de 3)"
+   ]
   },
   {
    "cargo": "Coordinador de contratación nómina y compensación",
@@ -1740,8 +1815,7 @@
    "id": "empresa no revelada|gerente de recursos humanos|bogota#anon:6000001-8000000-2026-07-31",
    "duplicados_hoy": 1,
    "marcas": [
-    "empresa no revelada: puede estar repetida",
-    "no apareció hoy en la fuente (1 de 3)"
+    "empresa no revelada: puede estar repetida"
    ],
    "desglose": [
     {
@@ -1766,11 +1840,12 @@
     }
    ],
    "puntaje": -3,
-   "ausencias": 1,
+   "ausencias": 0,
    "nueva": false,
    "visto_desde": "2026-08-28",
    "republicaciones": 0,
-   "reapariciones": 0
+   "reapariciones": 1,
+   "reaparecida": true
   },
   {
    "cargo": "PROFESIONAL DE COMPENSACIÓN Y ANALÍTICA DE DATOS (NOMINA).",
@@ -1877,17 +1952,81 @@
     }
    ],
    "puntaje": -15,
-   "ausencias": 1,
+   "ausencias": 0,
    "nueva": false,
    "visto_desde": "2026-08-31",
    "republicaciones": 0,
-   "reapariciones": 0,
-   "marcas": [
-    "no apareció hoy en la fuente (1 de 3)"
-   ]
+   "reapariciones": 1,
+   "reaparecida": true
   }
  ],
  "caidas": [
+  {
+   "cargo": "Head of Engineering, Rewards",
+   "empresa": "Job Application for Head of Engineering, Supply Chain at Moniepoint",
+   "empresa_anonima": false,
+   "ciudad": "Remote, London",
+   "salario": null,
+   "publicado": null,
+   "vigente_hasta": null,
+   "contrato": null,
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": "remote-head-of-engineering-rewards-421398",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "arbeitnow",
+     "url": "https://www.arbeitnow.co.uk/jobs/companies/job-application-for-head-of-engineering-supply-chain-at-moniepoint/remote-head-of-engineering-rewards-421398",
+     "id_fuente": "remote-head-of-engineering-rewards-421398"
+    }
+   ],
+   "inc": [
+    "salario",
+    "publicado",
+    "contrato"
+   ],
+   "deducidos": [],
+   "modalidad": "remoto",
+   "modalidad_literal": "Remote",
+   "modalidad_por_confirmar": false,
+   "id": "job application for head of engineering supply chain at moniepoint|head of engineering rewards|remoto",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "remoto confirmado en el cuerpo del aviso",
+     "puntos": 15,
+     "nota": "Remote"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    },
+    {
+     "concepto": "fecha de publicación",
+     "puntos": 0,
+     "nota": "sin fecha publicada: no suma ni resta"
+    }
+   ],
+   "puntaje": 15,
+   "nueva": false,
+   "visto_desde": "2026-09-13",
+   "republicaciones": 0,
+   "reapariciones": 0,
+   "marcas": [
+    "no apareció hoy en la fuente (2 de 3)"
+   ],
+   "desaparecio": "2026-09-16",
+   "dias_publicada": 3
+  },
   {
    "cargo": "Director, Customer Compensation & Policy",
    "empresa": "hellofresh",
