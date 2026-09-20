@@ -1,10 +1,10 @@
 {
  "busqueda": "comp-ben",
- "corrida": "2026-09-19",
- "corrida_hora": "2026-09-19 14:24",
+ "corrida": "2026-09-20",
+ "corrida_hora": "2026-09-20 14:43",
  "fuentes": {
   "elempleo": {
-   "avisos": 17,
+   "avisos": 16,
    "error": null
   },
   "computrabajo": {
@@ -28,21 +28,16 @@
    "error": null
   }
  },
- "fallos": [
-  {
-   "url": "https://www.elempleo.com/co/ofertas-trabajo/coordinador-a-de-compensacion-y-relaciones-laborales-1886755231",
-   "motivo": "HTTP 410"
-  }
- ],
- "avisos_recogidos": 43,
+ "fallos": [],
+ "avisos_recogidos": 42,
  "descartados": 13,
  "fusionados": [],
  "nuevas": [],
  "reaparecidas": [],
  "ausentes": [
   "sprocket international|compensation analyst|colombia",
-  "evertec|compensation specialist contrato a termino fijo|colombia",
-  "empresa no revelada|coordinador a de compensacion y relaciones laborales|bogota#anon:4000001-4500000-2026-08-20"
+  "empresa no revelada|coordinador a de compensacion y relaciones laborales|bogota#anon:4000001-4500000-2026-08-20",
+  "empresa no revelada|jefe de estructura y compensacion|bogota#anon:12500001-15000000-2026-09-09"
  ],
  "republicadas": [],
  "vigentes": [
@@ -434,7 +429,7 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 1 día(s)"
+     "nota": "hace 2 día(s)"
     }
    ],
    "puntaje": 37,
@@ -443,74 +438,6 @@
    "visto_desde": "2026-08-29",
    "republicaciones": 1,
    "reapariciones": 1
-  },
-  {
-   "cargo": "Analista Senior de Compensación, Nómina & People Analytics",
-   "empresa": "Empresa Confidencial",
-   "empresa_anonima": true,
-   "ciudad": "Bogota, Capital District",
-   "salario": null,
-   "publicado": "2026-09-16",
-   "vigente_hasta": "2026-10-16",
-   "contrato": [
-    "FULL_TIME"
-   ],
-   "agencia": "Empresa Confidencial",
-   "direccion": null,
-   "lat": 4.6533817,
-   "lon": -74.0836331,
-   "id_fuente": "4468295392",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "linkedin",
-     "url": "https://co.linkedin.com/jobs/view/analista-senior-de-compensaci%C3%B3n-n%C3%B3mina-people-analytics-at-empresa-confidencial-4468295392",
-     "id_fuente": "4468295392"
-    }
-   ],
-   "inc": [
-    "salario"
-   ],
-   "deducidos": [
-    "modalidad",
-    "agencia"
-   ],
-   "modalidad_fuente": "On-site",
-   "empleados": 14925,
-   "sede": "São Paulo, São Paulo",
-   "modalidad": "On-site",
-   "modalidad_literal": null,
-   "modalidad_por_confirmar": false,
-   "id": "empresa confidencial|analista senior de compensacion nomina people analytics|bogota",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "el aviso no revela la empresa: no suma ni resta"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "compensacion, estructura salarial, equidad interna"
-    },
-    {
-     "concepto": "salario",
-     "puntos": 0,
-     "nota": "sin salario publicado, no suma ni resta"
-    },
-    {
-     "concepto": "publicada hace menos de 3 días",
-     "puntos": 10,
-     "nota": "hace 3 día(s)"
-    }
-   ],
-   "puntaje": 22,
-   "ausencias": 0,
-   "nueva": false,
-   "visto_desde": "2026-09-17",
-   "republicaciones": 0,
-   "reapariciones": 0
   },
   {
    "cargo": "JEFE DE COMPENSACIÓN Y BENEFICIOS - BOGOTÁ- 1625894613-31",
@@ -642,73 +569,6 @@
    "ausencias": 0,
    "nueva": false,
    "visto_desde": "2026-09-09",
-   "republicaciones": 0,
-   "reapariciones": 0
-  },
-  {
-   "cargo": "National Human Resources Total Rewards Expert",
-   "empresa": "Kuehne+Nagel",
-   "empresa_anonima": false,
-   "ciudad": "Bogota, Capital District",
-   "salario": null,
-   "publicado": "2026-09-16",
-   "vigente_hasta": "2026-10-16",
-   "contrato": [
-    "FULL_TIME"
-   ],
-   "agencia": null,
-   "direccion": null,
-   "lat": 4.6533817,
-   "lon": -74.0836331,
-   "id_fuente": "4468305370",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "linkedin",
-     "url": "https://co.linkedin.com/jobs/view/national-human-resources-total-rewards-expert-at-kuehne%2Bnagel-4468305370",
-     "id_fuente": "4468305370"
-    }
-   ],
-   "inc": [
-    "salario"
-   ],
-   "deducidos": [
-    "modalidad"
-   ],
-   "modalidad_fuente": "On-site",
-   "empleados": 53148,
-   "sede": "Schindellegi, Schwyz",
-   "modalidad": "On-site",
-   "modalidad_literal": null,
-   "modalidad_por_confirmar": false,
-   "id": "kuehne nagel|national human resources total rewards expert|bogota",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "no se pudo determinar: no suma ni resta"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "total rewards"
-    },
-    {
-     "concepto": "salario",
-     "puntos": 0,
-     "nota": "sin salario publicado, no suma ni resta"
-    },
-    {
-     "concepto": "publicada hace menos de 3 días",
-     "puntos": 10,
-     "nota": "hace 3 día(s)"
-    }
-   ],
-   "puntaje": 22,
-   "ausencias": 0,
-   "nueva": false,
-   "visto_desde": "2026-09-17",
    "republicaciones": 0,
    "reapariciones": 0
   },
@@ -974,13 +834,13 @@
     }
    ],
    "puntaje": 14,
-   "ausencias": 1,
+   "ausencias": 2,
    "nueva": false,
    "visto_desde": "2026-09-18",
    "republicaciones": 0,
    "reapariciones": 0,
    "marcas": [
-    "no apareció hoy en la fuente (1 de 3)"
+    "no apareció hoy en la fuente (2 de 3)"
    ]
   },
   {
@@ -1046,6 +906,69 @@
    "reapariciones": 0
   },
   {
+   "cargo": "Analista Senior de Compensación, Nómina & People Analytics",
+   "empresa": "Empresa Confidencial",
+   "empresa_anonima": true,
+   "ciudad": "Bogota, Capital District",
+   "salario": null,
+   "publicado": "2026-09-16",
+   "vigente_hasta": "2026-10-16",
+   "contrato": [
+    "FULL_TIME"
+   ],
+   "agencia": "Empresa Confidencial",
+   "direccion": null,
+   "lat": 4.6533817,
+   "lon": -74.0836331,
+   "id_fuente": "4468295392",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/analista-senior-de-compensaci%C3%B3n-n%C3%B3mina-people-analytics-at-empresa-confidencial-4468295392",
+     "id_fuente": "4468295392"
+    }
+   ],
+   "inc": [
+    "salario"
+   ],
+   "deducidos": [
+    "modalidad",
+    "agencia"
+   ],
+   "modalidad_fuente": "On-site",
+   "empleados": 14925,
+   "sede": "São Paulo, São Paulo",
+   "modalidad": "On-site",
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "empresa confidencial|analista senior de compensacion nomina people analytics|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "el aviso no revela la empresa: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "compensacion, estructura salarial, equidad interna"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    }
+   ],
+   "puntaje": 12,
+   "ausencias": 0,
+   "nueva": false,
+   "visto_desde": "2026-09-17",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
+  {
    "cargo": "Compensation Operations Analyst",
    "empresa": "Johnson & Johnson",
    "empresa_anonima": false,
@@ -1102,7 +1025,7 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 2 día(s)"
+     "nota": "hace 3 día(s)"
     },
     {
      "concepto": "exige portuguese",
@@ -1180,70 +1103,6 @@
    "reapariciones": 0
   },
   {
-   "cargo": "Compensation Specialist - contrato a término fijo",
-   "empresa": "Evertec",
-   "empresa_anonima": false,
-   "ciudad": "Colombia",
-   "salario": null,
-   "publicado": "2026-08-19",
-   "vigente_hasta": null,
-   "contrato": null,
-   "agencia": null,
-   "direccion": null,
-   "lat": 4.099917,
-   "lon": -72.9088133,
-   "id_fuente": "4454909525",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "linkedin",
-     "url": "https://co.linkedin.com/jobs/view/compensation-specialist-contrato-a-t%C3%A9rmino-fijo-at-evertec-4454909525",
-     "id_fuente": "4454909525"
-    }
-   ],
-   "inc": [
-    "salario",
-    "contrato"
-   ],
-   "deducidos": [
-    "modalidad"
-   ],
-   "modalidad_fuente": "On-site",
-   "empleados": 5194,
-   "sede": "San Juan, PR",
-   "modalidad": "On-site",
-   "modalidad_literal": null,
-   "modalidad_por_confirmar": false,
-   "id": "evertec|compensation specialist contrato a termino fijo|colombia",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "no se pudo determinar: no suma ni resta"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "long term incentive, job evaluation"
-    },
-    {
-     "concepto": "salario",
-     "puntos": 0,
-     "nota": "sin salario publicado, no suma ni resta"
-    }
-   ],
-   "puntaje": 12,
-   "ausencias": 2,
-   "nueva": false,
-   "visto_desde": "2026-08-29",
-   "republicaciones": 0,
-   "reapariciones": 0,
-   "marcas": [
-    "no apareció hoy en la fuente (2 de 3)"
-   ]
-  },
-  {
    "cargo": "Gerente de gestion humana Bogota",
    "empresa": "Laboratorio Farpag",
    "empresa_anonima": false,
@@ -1301,6 +1160,68 @@
    "ausencias": 0,
    "nueva": false,
    "visto_desde": "2026-09-01",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
+  {
+   "cargo": "National Human Resources Total Rewards Expert",
+   "empresa": "Kuehne+Nagel",
+   "empresa_anonima": false,
+   "ciudad": "Bogota, Capital District",
+   "salario": null,
+   "publicado": "2026-09-16",
+   "vigente_hasta": "2026-10-16",
+   "contrato": [
+    "FULL_TIME"
+   ],
+   "agencia": null,
+   "direccion": null,
+   "lat": 4.6533817,
+   "lon": -74.0836331,
+   "id_fuente": "4468305370",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/national-human-resources-total-rewards-expert-at-kuehne%2Bnagel-4468305370",
+     "id_fuente": "4468305370"
+    }
+   ],
+   "inc": [
+    "salario"
+   ],
+   "deducidos": [
+    "modalidad"
+   ],
+   "modalidad_fuente": "On-site",
+   "empleados": 53148,
+   "sede": "Schindellegi, Schwyz",
+   "modalidad": "On-site",
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "kuehne nagel|national human resources total rewards expert|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "total rewards"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    }
+   ],
+   "puntaje": 12,
+   "ausencias": 0,
+   "nueva": false,
+   "visto_desde": "2026-09-17",
    "republicaciones": 0,
    "reapariciones": 0
   },
@@ -1484,7 +1405,7 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 2 día(s)"
+     "nota": "hace 3 día(s)"
     }
    ],
    "puntaje": 7,
@@ -1767,7 +1688,7 @@
    "duplicados_hoy": 1,
    "marcas": [
     "empresa no revelada: puede estar repetida",
-    "no apareció hoy en la fuente (1 de 3)"
+    "no apareció hoy en la fuente (2 de 3)"
    ],
    "desglose": [
     {
@@ -1787,7 +1708,7 @@
     }
    ],
    "puntaje": -3,
-   "ausencias": 1,
+   "ausencias": 2,
    "nueva": false,
    "visto_desde": "2026-08-28",
    "republicaciones": 0,
@@ -1830,7 +1751,8 @@
    "id": "empresa no revelada|jefe de estructura y compensacion|bogota#anon:12500001-15000000-2026-09-09",
    "duplicados_hoy": 1,
    "marcas": [
-    "empresa no revelada: puede estar repetida"
+    "empresa no revelada: puede estar repetida",
+    "no apareció hoy en la fuente (1 de 3)"
    ],
    "desglose": [
     {
@@ -1850,7 +1772,7 @@
     }
    ],
    "puntaje": -3,
-   "ausencias": 0,
+   "ausencias": 1,
    "nueva": false,
    "visto_desde": "2026-09-09",
    "republicaciones": 0,
@@ -2163,6 +2085,71 @@
   }
  ],
  "caidas": [
+  {
+   "cargo": "Compensation Specialist - contrato a término fijo",
+   "empresa": "Evertec",
+   "empresa_anonima": false,
+   "ciudad": "Colombia",
+   "salario": null,
+   "publicado": "2026-08-19",
+   "vigente_hasta": null,
+   "contrato": null,
+   "agencia": null,
+   "direccion": null,
+   "lat": 4.099917,
+   "lon": -72.9088133,
+   "id_fuente": "4454909525",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/compensation-specialist-contrato-a-t%C3%A9rmino-fijo-at-evertec-4454909525",
+     "id_fuente": "4454909525"
+    }
+   ],
+   "inc": [
+    "salario",
+    "contrato"
+   ],
+   "deducidos": [
+    "modalidad"
+   ],
+   "modalidad_fuente": "On-site",
+   "empleados": 5194,
+   "sede": "San Juan, PR",
+   "modalidad": "On-site",
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "evertec|compensation specialist contrato a termino fijo|colombia",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "long term incentive, job evaluation"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    }
+   ],
+   "puntaje": 12,
+   "nueva": false,
+   "visto_desde": "2026-08-29",
+   "republicaciones": 0,
+   "reapariciones": 0,
+   "marcas": [
+    "no apareció hoy en la fuente (2 de 3)"
+   ],
+   "desaparecio": "2026-09-20",
+   "dias_publicada": 22
+  },
   {
    "cargo": "Profesional en Estructura organizacional y compensación",
    "empresa": "COLGAS S.A. E.S.P.",
