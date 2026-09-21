@@ -1,14 +1,14 @@
 {
  "busqueda": "comp-ben",
- "corrida": "2026-09-20",
- "corrida_hora": "2026-09-20 14:43",
+ "corrida": "2026-09-21",
+ "corrida_hora": "2026-09-21 17:03",
  "fuentes": {
   "elempleo": {
-   "avisos": 16,
+   "avisos": 17,
    "error": null
   },
   "computrabajo": {
-   "avisos": 4,
+   "avisos": 5,
    "error": null
   },
   "workday": {
@@ -24,19 +24,26 @@
    "error": null
   },
   "apify_linkedin": {
-   "avisos": 16,
+   "avisos": 15,
    "error": null
   }
  },
- "fallos": [],
- "avisos_recogidos": 42,
- "descartados": 13,
+ "fallos": [
+  {
+   "url": "https://www.elempleo.com/co/ofertas-trabajo/gerente-de-compensacion-y-beneficios-1886743258",
+   "motivo": "HTTP 410"
+  }
+ ],
+ "avisos_recogidos": 43,
+ "descartados": 15,
  "fusionados": [],
- "nuevas": [],
+ "nuevas": [
+  "empresa no revelada|coordinador de compensacion y beneficios|bogota#anon:0-0-2026-09-21"
+ ],
  "reaparecidas": [],
  "ausentes": [
-  "sprocket international|compensation analyst|colombia",
-  "empresa no revelada|coordinador a de compensacion y relaciones laborales|bogota#anon:4000001-4500000-2026-08-20",
+  "worldpanel|global compensation manager|bogota",
+  "empresa no revelada|gerente de compensacion y beneficios|bogota#anon:18000001-21000000-2026-08-25",
   "empresa no revelada|jefe de estructura y compensacion|bogota#anon:12500001-15000000-2026-09-09"
  ],
  "republicadas": [],
@@ -102,11 +109,14 @@
     }
    ],
    "puntaje": 52,
-   "ausencias": 0,
+   "ausencias": 1,
    "nueva": false,
    "visto_desde": "2026-08-29",
    "republicaciones": 0,
-   "reapariciones": 0
+   "reapariciones": 0,
+   "marcas": [
+    "no apareció hoy en la fuente (1 de 3)"
+   ]
   },
   {
    "cargo": "Gerente de compensación y arquitectura organizacional",
@@ -209,7 +219,8 @@
    "id": "empresa no revelada|gerente de compensacion y beneficios|bogota#anon:18000001-21000000-2026-08-25",
    "duplicados_hoy": 1,
    "marcas": [
-    "empresa no revelada: puede estar repetida"
+    "empresa no revelada: puede estar repetida",
+    "no apareció hoy en la fuente (1 de 3)"
    ],
    "desglose": [
     {
@@ -234,9 +245,77 @@
     }
    ],
    "puntaje": 49,
-   "ausencias": 0,
+   "ausencias": 1,
    "nueva": false,
    "visto_desde": "2026-08-28",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
+  {
+   "cargo": "Coordinador (a) de compensación y beneficios",
+   "empresa": "CONFIDENTIAL",
+   "empresa_anonima": true,
+   "ciudad": "Bogotá D.C.",
+   "salario": null,
+   "publicado": "2026-09-21",
+   "vigente_hasta": "2026-11-20",
+   "contrato": "TEMPORARY",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/coordinador-a-de-compensacion-y-beneficios-1886769717",
+     "id_fuente": null
+    }
+   ],
+   "inc": [
+    "salario"
+   ],
+   "deducidos": [],
+   "modalidad": "presencial",
+   "modalidad_literal": "presencial",
+   "modalidad_por_confirmar": false,
+   "id": "empresa no revelada|coordinador de compensacion y beneficios|bogota#anon:0-0-2026-09-21",
+   "duplicados_hoy": 1,
+   "marcas": [
+    "empresa no revelada: puede estar repetida"
+   ],
+   "desglose": [
+    {
+     "concepto": "cargo objetivo de la búsqueda",
+     "puntos": 25,
+     "nota": "Coordinador (a) de compensación y beneficios"
+    },
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "el aviso no revela la empresa: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "compensacion"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    },
+    {
+     "concepto": "publicada hace menos de 3 días",
+     "puntos": 10,
+     "nota": "hace 0 día(s)"
+    }
+   ],
+   "puntaje": 47,
+   "ausencias": 0,
+   "nueva": true,
+   "visto_desde": "2026-09-21",
    "republicaciones": 0,
    "reapariciones": 0
   },
@@ -429,7 +508,7 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 2 día(s)"
+     "nota": "hace 3 día(s)"
     }
    ],
    "puntaje": 37,
@@ -769,81 +848,6 @@
    "reapariciones": 0
   },
   {
-   "cargo": "Compensation Analyst",
-   "empresa": "Sprocket International Group",
-   "empresa_anonima": true,
-   "ciudad": "Colombia",
-   "salario": null,
-   "publicado": "2026-09-18",
-   "vigente_hasta": null,
-   "contrato": null,
-   "agencia": "Sprocket International Group",
-   "direccion": null,
-   "lat": 4.099917,
-   "lon": -72.9088133,
-   "id_fuente": "4467819572",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "linkedin",
-     "url": "https://co.linkedin.com/jobs/view/compensation-analyst-at-sprocket-international-group-4467819572",
-     "id_fuente": "4467819572"
-    }
-   ],
-   "inc": [
-    "salario",
-    "contrato"
-   ],
-   "deducidos": [
-    "modalidad",
-    "agencia"
-   ],
-   "modalidad_fuente": "On-site",
-   "empleados": 15,
-   "sede": "Miami, FL",
-   "modalidad": "presencial",
-   "modalidad_literal": "Presencial",
-   "modalidad_por_confirmar": false,
-   "id": "sprocket international|compensation analyst|colombia",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "el aviso no revela la empresa: no suma ni resta"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "compensacion, equidad interna, benchmarking salarial"
-    },
-    {
-     "concepto": "salario",
-     "puntos": 0,
-     "nota": "sin salario publicado, no suma ni resta"
-    },
-    {
-     "concepto": "publicada hace menos de 3 días",
-     "puntos": 10,
-     "nota": "hace 0 día(s)"
-    },
-    {
-     "concepto": "empresa pequeña / etapa temprana",
-     "puntos": -8,
-     "nota": "15 empleados"
-    }
-   ],
-   "puntaje": 14,
-   "ausencias": 2,
-   "nueva": false,
-   "visto_desde": "2026-09-18",
-   "republicaciones": 0,
-   "reapariciones": 0,
-   "marcas": [
-    "no apareció hoy en la fuente (2 de 3)"
-   ]
-  },
-  {
    "cargo": "Analista Senior de Compensación y Estructura Salarial",
    "empresa": "Cafam Oficial",
    "empresa_anonima": false,
@@ -965,78 +969,6 @@
    "ausencias": 0,
    "nueva": false,
    "visto_desde": "2026-09-17",
-   "republicaciones": 0,
-   "reapariciones": 0
-  },
-  {
-   "cargo": "Compensation Operations Analyst",
-   "empresa": "Johnson & Johnson",
-   "empresa_anonima": false,
-   "ciudad": "Bogota, Capital District",
-   "salario": null,
-   "publicado": "2026-09-17",
-   "vigente_hasta": "2026-10-17",
-   "contrato": [
-    "FULL_TIME"
-   ],
-   "agencia": null,
-   "direccion": null,
-   "lat": 4.6533817,
-   "lon": -74.0836331,
-   "id_fuente": "4468668337",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "linkedin",
-     "url": "https://co.linkedin.com/jobs/view/compensation-operations-analyst-at-johnson-johnson-4468668337",
-     "id_fuente": "4468668337"
-    }
-   ],
-   "inc": [
-    "salario"
-   ],
-   "deducidos": [
-    "modalidad"
-   ],
-   "modalidad_fuente": "On-site",
-   "empleados": 134436,
-   "sede": "New Brunswick, NJ",
-   "modalidad": "presencial",
-   "modalidad_literal": "onsite",
-   "modalidad_por_confirmar": false,
-   "id": "johnson johnson|compensation operations analyst|bogota",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "no se pudo determinar: no suma ni resta"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "total rewards, job evaluation"
-    },
-    {
-     "concepto": "salario",
-     "puntos": 0,
-     "nota": "sin salario publicado, no suma ni resta"
-    },
-    {
-     "concepto": "publicada hace menos de 3 días",
-     "puntos": 10,
-     "nota": "hace 3 día(s)"
-    },
-    {
-     "concepto": "exige portuguese",
-     "puntos": -10,
-     "nota": "el perfil no lo domina — se muestra igual: muchos avisos lo piden como «deseable» y luego no lo evalúan"
-    }
-   ],
-   "puntaje": 12,
-   "ausencias": 0,
-   "nueva": false,
-   "visto_desde": "2026-09-18",
    "republicaciones": 0,
    "reapariciones": 0
   },
@@ -1353,69 +1285,6 @@
    "reapariciones": 0
   },
   {
-   "cargo": "Compensation & HR Operations Analyst | Inglés Avanzado",
-   "empresa": "MANPOWER",
-   "empresa_anonima": false,
-   "ciudad": "Bogotá D.C.",
-   "salario": {
-    "min": 4500001.0,
-    "max": 5500000.0,
-    "moneda": "COP",
-    "periodo": "MONTH"
-   },
-   "publicado": "2026-09-17",
-   "vigente_hasta": "2026-11-16",
-   "contrato": "PER_DIEM",
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": null,
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "elempleo",
-     "url": "https://www.elempleo.com/co/ofertas-trabajo/compensation-hr-operations-analyst-ingles-avanzado-1886768508",
-     "id_fuente": null
-    }
-   ],
-   "inc": [],
-   "deducidos": [],
-   "modalidad": "híbrido",
-   "modalidad_literal": "3 dias en oficina",
-   "modalidad_por_confirmar": false,
-   "id": "manpower|compensation hr operations analyst ingles avanzado|bogota",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "no se pudo determinar: no suma ni resta"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "compensacion"
-    },
-    {
-     "concepto": "salario publicado por debajo de $18.000.000",
-     "puntos": -15,
-     "nota": "5.500.000 COP — se muestra igual: el publicado casi nunca es el negociado"
-    },
-    {
-     "concepto": "publicada hace menos de 3 días",
-     "puntos": 10,
-     "nota": "hace 3 día(s)"
-    }
-   ],
-   "puntaje": 7,
-   "ausencias": 0,
-   "nueva": false,
-   "visto_desde": "2026-09-18",
-   "republicaciones": 0,
-   "reapariciones": 0
-  },
-  {
    "cargo": "Manager, Global Compensation",
    "empresa": "Numerator",
    "empresa_anonima": false,
@@ -1474,6 +1343,73 @@
    "ausencias": 0,
    "nueva": false,
    "visto_desde": "2026-08-29",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
+  {
+   "cargo": "Compensation Operations Analyst",
+   "empresa": "Johnson & Johnson",
+   "empresa_anonima": false,
+   "ciudad": "Bogota, Capital District",
+   "salario": null,
+   "publicado": "2026-09-17",
+   "vigente_hasta": "2026-10-17",
+   "contrato": [
+    "FULL_TIME"
+   ],
+   "agencia": null,
+   "direccion": null,
+   "lat": 4.6533817,
+   "lon": -74.0836331,
+   "id_fuente": "4468668337",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/compensation-operations-analyst-at-johnson-johnson-4468668337",
+     "id_fuente": "4468668337"
+    }
+   ],
+   "inc": [
+    "salario"
+   ],
+   "deducidos": [
+    "modalidad"
+   ],
+   "modalidad_fuente": "On-site",
+   "empleados": 134436,
+   "sede": "New Brunswick, NJ",
+   "modalidad": "presencial",
+   "modalidad_literal": "onsite",
+   "modalidad_por_confirmar": false,
+   "id": "johnson johnson|compensation operations analyst|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "total rewards, job evaluation"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    },
+    {
+     "concepto": "exige portuguese",
+     "puntos": -10,
+     "nota": "el perfil no lo domina — se muestra igual: muchos avisos lo piden como «deseable» y luego no lo evalúan"
+    }
+   ],
+   "puntaje": 2,
+   "ausencias": 0,
+   "nueva": false,
+   "visto_desde": "2026-09-18",
    "republicaciones": 0,
    "reapariciones": 0
   },
@@ -1588,6 +1524,64 @@
    "reapariciones": 0
   },
   {
+   "cargo": "Compensation & HR Operations Analyst | Inglés Avanzado",
+   "empresa": "MANPOWER",
+   "empresa_anonima": false,
+   "ciudad": "Bogotá D.C.",
+   "salario": {
+    "min": 4500001.0,
+    "max": 5500000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-09-17",
+   "vigente_hasta": "2026-11-16",
+   "contrato": "PER_DIEM",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/compensation-hr-operations-analyst-ingles-avanzado-1886768508",
+     "id_fuente": null
+    }
+   ],
+   "inc": [],
+   "deducidos": [],
+   "modalidad": "híbrido",
+   "modalidad_literal": "3 dias en oficina",
+   "modalidad_por_confirmar": false,
+   "id": "manpower|compensation hr operations analyst ingles avanzado|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "compensacion"
+    },
+    {
+     "concepto": "salario publicado por debajo de $18.000.000",
+     "puntos": -15,
+     "nota": "5.500.000 COP — se muestra igual: el publicado casi nunca es el negociado"
+    }
+   ],
+   "puntaje": -3,
+   "ausencias": 0,
+   "nueva": false,
+   "visto_desde": "2026-09-18",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
+  {
    "cargo": "Coordinador de contratación nómina y compensación",
    "empresa": "CONFIDENTIAL",
    "empresa_anonima": true,
@@ -1651,70 +1645,6 @@
    "reapariciones": 0
   },
   {
-   "cargo": "Coordinador/a de Compensación y Relaciones Laborales",
-   "empresa": "CONFIDENTIAL",
-   "empresa_anonima": true,
-   "ciudad": "Bogotá D.C.",
-   "salario": {
-    "min": 4000001.0,
-    "max": 4500000.0,
-    "moneda": "COP",
-    "periodo": "MONTH"
-   },
-   "publicado": "2026-08-20",
-   "vigente_hasta": "2026-09-19",
-   "contrato": "FULL_TIME",
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": null,
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "elempleo",
-     "url": "https://www.elempleo.com/co/ofertas-trabajo/coordinador-a-de-compensacion-y-relaciones-laborales-1886755231",
-     "id_fuente": null
-    }
-   ],
-   "inc": [
-    "modalidad"
-   ],
-   "deducidos": [],
-   "modalidad": null,
-   "modalidad_literal": null,
-   "modalidad_por_confirmar": false,
-   "id": "empresa no revelada|coordinador a de compensacion y relaciones laborales|bogota#anon:4000001-4500000-2026-08-20",
-   "duplicados_hoy": 1,
-   "marcas": [
-    "empresa no revelada: puede estar repetida",
-    "no apareció hoy en la fuente (2 de 3)"
-   ],
-   "desglose": [
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "el aviso no revela la empresa: no suma ni resta"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "compensacion, bandas salariales, equidad interna"
-    },
-    {
-     "concepto": "salario publicado por debajo de $18.000.000",
-     "puntos": -15,
-     "nota": "4.500.000 COP — se muestra igual: el publicado casi nunca es el negociado"
-    }
-   ],
-   "puntaje": -3,
-   "ausencias": 2,
-   "nueva": false,
-   "visto_desde": "2026-08-28",
-   "republicaciones": 0,
-   "reapariciones": 0
-  },
-  {
    "cargo": "Jefe de Estructura y Compensación",
    "empresa": "CONFIDENTIAL",
    "empresa_anonima": true,
@@ -1752,7 +1682,7 @@
    "duplicados_hoy": 1,
    "marcas": [
     "empresa no revelada: puede estar repetida",
-    "no apareció hoy en la fuente (1 de 3)"
+    "no apareció hoy en la fuente (2 de 3)"
    ],
    "desglose": [
     {
@@ -1772,7 +1702,7 @@
     }
    ],
    "puntaje": -3,
-   "ausencias": 1,
+   "ausencias": 2,
    "nueva": false,
    "visto_desde": "2026-09-09",
    "republicaciones": 0,
@@ -2085,6 +2015,147 @@
   }
  ],
  "caidas": [
+  {
+   "cargo": "Compensation Analyst",
+   "empresa": "Sprocket International Group",
+   "empresa_anonima": true,
+   "ciudad": "Colombia",
+   "salario": null,
+   "publicado": "2026-09-18",
+   "vigente_hasta": null,
+   "contrato": null,
+   "agencia": "Sprocket International Group",
+   "direccion": null,
+   "lat": 4.099917,
+   "lon": -72.9088133,
+   "id_fuente": "4467819572",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/compensation-analyst-at-sprocket-international-group-4467819572",
+     "id_fuente": "4467819572"
+    }
+   ],
+   "inc": [
+    "salario",
+    "contrato"
+   ],
+   "deducidos": [
+    "modalidad",
+    "agencia"
+   ],
+   "modalidad_fuente": "On-site",
+   "empleados": 15,
+   "sede": "Miami, FL",
+   "modalidad": "presencial",
+   "modalidad_literal": "Presencial",
+   "modalidad_por_confirmar": false,
+   "id": "sprocket international|compensation analyst|colombia",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "el aviso no revela la empresa: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "compensacion, equidad interna, benchmarking salarial"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    },
+    {
+     "concepto": "publicada hace menos de 3 días",
+     "puntos": 10,
+     "nota": "hace 0 día(s)"
+    },
+    {
+     "concepto": "empresa pequeña / etapa temprana",
+     "puntos": -8,
+     "nota": "15 empleados"
+    }
+   ],
+   "puntaje": 14,
+   "nueva": false,
+   "visto_desde": "2026-09-18",
+   "republicaciones": 0,
+   "reapariciones": 0,
+   "marcas": [
+    "no apareció hoy en la fuente (2 de 3)"
+   ],
+   "desaparecio": "2026-09-21",
+   "dias_publicada": 3
+  },
+  {
+   "cargo": "Coordinador/a de Compensación y Relaciones Laborales",
+   "empresa": "CONFIDENTIAL",
+   "empresa_anonima": true,
+   "ciudad": "Bogotá D.C.",
+   "salario": {
+    "min": 4000001.0,
+    "max": 4500000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-08-20",
+   "vigente_hasta": "2026-09-19",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/coordinador-a-de-compensacion-y-relaciones-laborales-1886755231",
+     "id_fuente": null
+    }
+   ],
+   "inc": [
+    "modalidad"
+   ],
+   "deducidos": [],
+   "modalidad": null,
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "empresa no revelada|coordinador a de compensacion y relaciones laborales|bogota#anon:4000001-4500000-2026-08-20",
+   "duplicados_hoy": 1,
+   "marcas": [
+    "empresa no revelada: puede estar repetida",
+    "no apareció hoy en la fuente (2 de 3)"
+   ],
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "el aviso no revela la empresa: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "compensacion, bandas salariales, equidad interna"
+    },
+    {
+     "concepto": "salario publicado por debajo de $18.000.000",
+     "puntos": -15,
+     "nota": "4.500.000 COP — se muestra igual: el publicado casi nunca es el negociado"
+    }
+   ],
+   "puntaje": -3,
+   "nueva": false,
+   "visto_desde": "2026-08-28",
+   "republicaciones": 0,
+   "reapariciones": 0,
+   "desaparecio": "2026-09-21",
+   "dias_publicada": 24
+  },
   {
    "cargo": "Compensation Specialist - contrato a término fijo",
    "empresa": "Evertec",
