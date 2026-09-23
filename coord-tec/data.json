@@ -1,10 +1,10 @@
 {
  "busqueda": "coord-tec",
- "corrida": "2026-09-22",
- "corrida_hora": "2026-09-22 15:40",
+ "corrida": "2026-09-23",
+ "corrida_hora": "2026-09-23 15:36",
  "fuentes": {
   "elempleo": {
-   "avisos": 198,
+   "avisos": 199,
    "error": null
   },
   "computrabajo": {
@@ -12,7 +12,7 @@
    "error": null
   },
   "workday": {
-   "avisos": 5,
+   "avisos": 7,
    "error": null
   },
   "greenhouse": {
@@ -20,7 +20,7 @@
    "error": null
   },
   "arbeitnow": {
-   "avisos": 4,
+   "avisos": 3,
    "error": null
   },
   "apify_linkedin": {
@@ -30,17 +30,18 @@
  },
  "fallos": [
   {
-   "url": "https://www.elempleo.com/co/ofertas-trabajo/coordinador-de-mantenimiento-sector-alimentos-1886743555",
-   "motivo": "HTTP 410"
-  },
-  {
-   "url": "https://www.elempleo.com/co/ofertas-trabajo/coordinadora-gestora-academico-ingenieria-mecatronica-bogota-1886743599",
+   "url": "https://www.elempleo.com/co/ofertas-trabajo/lideres-regionales-de-operaciones-y-migracion-tecnologica-1886756661",
    "motivo": "HTTP 410"
   }
  ],
- "avisos_recogidos": 296,
- "descartados": 128,
+ "avisos_recogidos": 298,
+ "descartados": 129,
  "fusionados": [
+  {
+   "conservado": "Ingeniero de calidad enfasis en sistemas integrados de gestión",
+   "absorbido": "Ingeniero de Sistemas Integrados de Gestión",
+   "parecido": 0.6
+  },
   {
    "conservado": "PROFESOR TIEMPO COMPLETO MATEMATICAS PROGRAMA INGENIERIA SISTEMAS BOGOTA",
    "absorbido": "PROFESOR TIEMPO COMPLETO PROGRAMA INGENIERIA SISTEMAS BOGOTA",
@@ -53,90 +54,83 @@
   }
  ],
  "nuevas": [
-  "empresa no revelada|director gerente coordinador de proyectos tic|bogota#anon:0-0-2026-09-21",
-  "empresa no revelada|administrador de bases de datos sql server|bogota#anon:4500001-5500000-2026-09-21",
-  "vortice|coordinador de proyectos y abastecimiento|bogota",
-  "mera el dorado|ingeniero de sistemas|bogota",
-  "casalimpia|coordinador de limpieza hospitalaria formacion tecnica en servicios de limpieza auditoria y formacion|bogota",
-  "universidad incca|coordinador academico y de convivencia|bogota",
-  "cambridgeconsultantslimited|contractors electronics or software|",
-  "sinergy lowells|coordinador en sistemas de audio y video|bogota",
-  "sinergy lowells|lider de proyecto ti infraestructura audiovisual y centros de control|bogota",
-  "cambridgeconsultantslimited|technology lead electronics and software defence and security|",
-  "cambridgeconsultantslimited|technology leader wireless software systems|",
-  "innova schools|profesor tecnologia|bogota alrededores"
+  "inter rapidisimo|auditor de ti ingeniero de sistemas certificado en iso27001|bogota",
+  "empresa no revelada|coordinador registros calificados|bogota#anon:4500001-5500000-2026-09-22",
+  "smi|ingeniero de calidad enfasis en sistemas integrados de gestion|bogota alrededores",
+  "cafe quindio|arquitecto coordinador de proyectos administrativo y de obra armenia|bogota",
+  "aika soluciones|coordinador administrativo y financiero contratacion inmediata|bogota",
+  "inverleoka|coordinador de contabilidad experiencia en manejo de sap|bogota",
+  "payter b v|software development engineer in test|werken op afstand",
+  "icontec|ingeniero de proyectos tecnologia|bogota",
+  "jobandtalent co|coordinador de inventarios|bogota alrededores",
+  "empresa no revelada|coordinador de operaciones seguridad privada|bogota#anon:3000001-3500000-2026-09-22",
+  "medicall talento humano|coordinador operativo de tecnologia biomedica|bogota",
+  "invervalue|coordinador a de proyectos y desarrollo corporativo|bogota",
+  "educativo monterrosales|docente tecnologia|bogota",
+  "omeka ingenieria|ingeniero sistemas|bogota",
+  "interasesores|docente de quimica y sistemas ambientales y sociedad bachillerato internacional|bogota"
  ],
  "reaparecidas": [
-  "sales marketing outsourcing|coordinador jefe lider especialista de soporte tecnico|bogota",
-  "empresa no revelada|coordinador de sistemas infraestructura proyectos y gestion ti|bogota#anon:0-0-2026-08-11",
-  "titadsu|coordinador de sistemas y tecnologia|bogota",
-  "vq ingenieria|coordinador it|bogota",
-  "empresa no revelada|coordinador senior data|bogota#anon:8000001-10000000-2026-08-27",
-  "nueva eps|profesional ii ingeniero de sistemas|bogota",
-  "empresa no revelada|consultor logistico administrador de plataforma|bogota#anon:3000001-3500000-2026-09-12",
-  "gi staffing|coordinador de infraestructura y facility management|bogota",
-  "empresa no revelada|coordinador de programacion y ti|bogota#anon:0-0-2026-07-01",
-  "empresa no revelada|coordinador corporativo de mantenimiento e infraestructura|bogota#anon:0-0-2026-08-24",
-  "recruiting|coordinador de proyectos|bogota alrededores",
-  "politecnico grancolombiano|profesor matematicas programa ingenieria sistemas|bogota",
-  "sinergy lowells|profesional o ingeniero de soporte tecnologico|bogota",
-  "empresa no revelada|supervisor senior de sistemas big data analitica de datos e inteligencia de negocios|bogota#anon:0-0-2026-09-08",
-  "agencia de aduanas siaco repremundo|coordinador administrativo fontibon|bogota",
-  "totality services|coordinador de mantenimiento it sistemas proyecto 3 meses|bogota",
-  "alianza|ingeniero de sistemas|bogota",
-  "fondos y activos|ingeniero de sistemas|bogota"
+  "a r construcciones|coordinador de proyectos inmobiliarios|bogota",
+  "dhl supply chain|coordinador administrativo|bogota alrededores",
+  "empresa no revelada|coordinador de operaciones|bogota#anon:0-0-2026-09-17",
+  "audiosalud integral ips|coordinador administrativo de sedes experiencia en salud|bogota",
+  "appril labs|gestor de proyectos|bogota",
+  "montajes y servicios industriales|ingeniero especialista en diseno de sistemas contraincendios|bogota",
+  "empresa no revelada|director de tecnologia y estrategia|bogota#anon:0-0-2026-09-11",
+  "empresa no revelada|ingenieria de sistemas o ingenieria electronica plataformas e infraestructura tecnologica|bogota#anon:0-0-2026-09-08",
+  "tandem|ingeniero de sistemas sin experiencia|bogota"
  ],
  "ausentes": [
-  "empresa no revelada|especialista seguridad informatica|bogota#anon:6000001-8000000-2026-09-18",
-  "g t a consulting|coordinador administrativo|antioquia",
-  "centro de empleo y talento colsubsidio|coordinador de sistemas sector salud|bogota",
-  "michael page international|coordinador de cartera y tesoreria sector farmaceutico|bogota",
-  "michael page international|coordinador financiero sector farmaceutico|bogota",
+  "sales marketing outsourcing|coordinador jefe lider especialista de soporte tecnico|bogota",
+  "empresa no revelada|coordinador de sistemas infraestructura proyectos y gestion ti|bogota#anon:0-0-2026-08-11",
+  "vortice|coordinador de proyectos y abastecimiento|bogota",
   "atlas infrastructure design limited|coordinador a de proyectos y gerente de operaciones|extranjero",
   "empresa no revelada|administrador de bases de datos sql server|bogota#anon:4500001-5500000-2026-09-16",
-  "punto empleo|coordinador administrativo experiencia sector humanitario|bogota",
-  "aerorental|coordinador administrativo de servicio tecnico siberia|bogota",
-  "nueva eps|coordinador administrativo y de talento humano|bogota",
+  "empresa no revelada|coordinador senior data|bogota#anon:8000001-10000000-2026-08-27",
   "generacion de talentos|coordinador de proyecto|bogota",
   "universidad ecci|coordinador gestor academico ingenieria mecatronica|bogota",
   "universidad central|coordinador academico de linea tecnologias digitales e inteligentes|bogota",
+  "organizacion gen|director de aplicaciones ti oci|bogota",
   "sinergy lowells|ingeniero lider de operaciones de ti con itil|bogota",
+  "smi|ingeniero de sistemas integrados de gestion|bogota alrededores",
   "servicios y asesorias|ingeniero de sistemas especilista en gobierno de datos|bogota",
   "politecnico grancolombiano|profesor programa ingenieria sistemas|bogota",
-  "hospital universitario clinica san rafael|sector salud coordinador de gestion humana|bogota",
-  "empresa no revelada|coordinador de desarrollo negocios|bogota#anon:0-0-2026-09-19",
-  "empresa no revelada|consultor en desarrollo de software y servicios|bogota#anon:4000001-4500000-2026-09-19",
-  "exela servicios temporales|coordinador lider jefe de sistemas|bogota alrededores",
+  "empresa no revelada|consultor logistico administrador de plataforma|bogota#anon:3000001-3500000-2026-09-12",
   "empresa no revelada|coordinador mejora continua|bogota alrededores#anon:0-0-2026-09-21",
-  "empresa no revelada|coordinador de operaciones|bogota#anon:0-0-2026-09-17",
+  "gi staffing|coordinador de infraestructura y facility management|bogota",
   "master selection|coordinador tecnico de pinturas y colorimetria sector automotriz|bogota",
+  "eduproyectos|docente de robotica ict|bogota",
+  "empresa no revelada|coordinador corporativo de mantenimiento e infraestructura|bogota#anon:0-0-2026-08-24",
   "cadena comercial oxxo|coordinador de proyectos digitales|bogota",
   "monplast|coordinador de informatica y tecnologia|bogota alrededores",
+  "recruiting|coordinador de proyectos|bogota alrededores",
   "sinergy lowells|coordinador o gerente de aplicaciones con itil|bogota",
   "giitic|coordinador de proyectos tecnologicos sector gobierno|bogota",
   "interaseo e s p|coordinador de seguridad e infraestructura de tecnologia|bogota",
-  "los libertadores|director programa ingenieria de sistemas|bogota",
-  "fundacion universitaria san mateo|docente ingenieria de sistemas|bogota",
-  "empresa no revelada|gerente de servicios junior de ti o coordinador de servicios de ti 100|bogota#anon:0-0-2026-07-23",
+  "mera el dorado|ingeniero de sistemas|bogota",
   "ayuda temporal de santader|ingeniero de sistemas autopista floridablnaca piedecuesta|santander",
-  "claro|jefe sistemas informacion|bogota",
   "empresa no revelada|lider de servicio ti certificado en itil v 4 mp|bogota#anon:0-0-2026-07-28",
   "empresa no revelada|profesor ingenieria software acompanamiento de practicas profesionales|#anon:4000001-4500000-2026-08-28",
   "sinergy lowells|lider de proyectos con scrum|bogota",
+  "casalimpia|coordinador de limpieza hospitalaria formacion tecnica en servicios de limpieza auditoria y formacion|bogota",
+  "universidad incca|coordinador academico y de convivencia|bogota",
+  "productividad empresarial|ingeniero de sistemas y desarrollo de software|bogota alrededores",
+  "cun|invertigador de ingenieria de sistemas|bogota",
   "wsp|coordinador bim|bogota",
-  "alianza|coordinador administrativo y servicio al cliente contratacion inmediata|bogota",
   "omnicom global solutions|project coordinator|bogota",
+  "cambridgeconsultantslimited|contractors electronics or software|",
   "empresa no revelada|gerente de tecnologia sector fintech o financiero|bogota#anon:0-0-2026-08-18",
-  "agencia de empleo y fomento empresarial compensar|coordinador de administracion de personal madrid ref 329|bogota alrededores",
-  "aliados laborales|coordinador de servicio tecnico y mantenimiento|bogota",
-  "global|ingeniero de sistemas madrid|bogota alrededores",
+  "sinergy lowells|profesional o ingeniero de soporte tecnologico|bogota",
+  "cambridgeconsultantslimited|technology lead electronics and software defence and security|",
+  "cambridgeconsultantslimited|technology leader wireless software systems|",
+  "agencia de aduanas siaco repremundo|coordinador administrativo fontibon|bogota",
+  "cuidar|ingeniero de sistemas seguridad electronica y ciberseguridad|bogota",
+  "activos|ingeniero de sistemas para entidad bancaria|bogota",
   "inter rapidisimo|supervisor administrativo soporte tecnico|bogota",
-  "empresa no revelada|administrador de activos de tecnologia|bogota#anon:2000001-2500000-2026-07-23"
+  "fondos y activos|ingeniero de sistemas|bogota"
  ],
- "republicadas": [
-  "industrias spring|coordinador de productos complementarios|bogota",
-  "politecnico grancolombiano|profesor matematicas programa ingenieria sistemas|bogota"
- ],
+ "republicadas": [],
  "vigentes": [
   {
    "cargo": "Coordinador de Infraestructura - Bogotá",
@@ -316,12 +310,14 @@
     }
    ],
    "puntaje": 49,
-   "ausencias": 0,
+   "ausencias": 1,
    "nueva": false,
    "visto_desde": "2026-09-14",
    "republicaciones": 0,
    "reapariciones": 1,
-   "reaparecida": true
+   "marcas": [
+    "no apareció hoy en la fuente (1 de 3)"
+   ]
   },
   {
    "cargo": "Especialista Administrador de Plataforma Microsoft",
@@ -380,73 +376,6 @@
    "visto_desde": "2026-09-01",
    "republicaciones": 0,
    "reapariciones": 1
-  },
-  {
-   "cargo": "Especialista seguridad informatica - Híbrido Bogotá",
-   "empresa": "CONFIDENTIAL",
-   "empresa_anonima": true,
-   "ciudad": "Bogotá D.C.",
-   "salario": {
-    "min": 6000001.0,
-    "max": 8000000.0,
-    "moneda": "COP",
-    "periodo": "MONTH"
-   },
-   "publicado": "2026-09-18",
-   "vigente_hasta": "2026-11-17",
-   "contrato": "TEMPORARY",
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": null,
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "elempleo",
-     "url": "https://www.elempleo.com/co/ofertas-trabajo/especialista-seguridad-informatica-hibrido-bogota-1886769138",
-     "id_fuente": null
-    }
-   ],
-   "inc": [],
-   "deducidos": [],
-   "modalidad": "remoto",
-   "modalidad_literal": "remota",
-   "modalidad_por_confirmar": true,
-   "id": "empresa no revelada|especialista seguridad informatica|bogota#anon:6000001-8000000-2026-09-18",
-   "duplicados_hoy": 1,
-   "marcas": [
-    "empresa no revelada: puede estar repetida",
-    "no apareció hoy en la fuente (2 de 3)"
-   ],
-   "desglose": [
-    {
-     "concepto": "remoto confirmado en el cuerpo del aviso",
-     "puntos": 15,
-     "nota": "remota"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "seguridad de la informacion, seguridad informatica, iso 27001"
-    },
-    {
-     "concepto": "salario publicado igual o sobre $4.000.000",
-     "puntos": 12,
-     "nota": "8.000.000 COP"
-    },
-    {
-     "concepto": "publicada hace menos de 3 días",
-     "puntos": 10,
-     "nota": "hace 2 día(s)"
-    }
-   ],
-   "puntaje": 49,
-   "ausencias": 2,
-   "nueva": false,
-   "visto_desde": "2026-09-19",
-   "republicaciones": 0,
-   "reapariciones": 0
   },
   {
    "cargo": "Ingeniero de Infraestructura Linux - Administrador de Sistemas Linux y Plataformas de Negocio",
@@ -685,7 +614,7 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 1 día(s)"
+     "nota": "hace 2 día(s)"
     }
    ],
    "puntaje": 47,
@@ -743,7 +672,7 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 1 día(s)"
+     "nota": "hace 2 día(s)"
     }
    ],
    "puntaje": 47,
@@ -943,73 +872,6 @@
    "visto_desde": "2026-09-01",
    "republicaciones": 0,
    "reapariciones": 0
-  },
-  {
-   "cargo": "Coordinador Administrativo",
-   "empresa": "G.T.A CONSULTING",
-   "empresa_anonima": false,
-   "ciudad": "Antioquia",
-   "salario": {
-    "min": 4000000.0,
-    "max": 4000000.0,
-    "moneda": "COP",
-    "periodo": "MONTH"
-   },
-   "publicado": "2026-09-11",
-   "vigente_hasta": "2026-11-10",
-   "contrato": "FULL_TIME",
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": "21DE4A03A4433108",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "computrabajo",
-     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-coordinador-administrativo-en-envigado-1BFC9D6BB22E2ABA61373E686DCF3405",
-     "id_fuente": "21DE4A03A4433108"
-    }
-   ],
-   "inc": [],
-   "deducidos": [],
-   "modalidad": "remoto",
-   "modalidad_literal": "remota",
-   "modalidad_por_confirmar": false,
-   "marcas": [
-    "remoto fuera de Colombia, contratación por confirmar",
-    "no apareció hoy en la fuente (2 de 3)"
-   ],
-   "id": "g t a consulting|coordinador administrativo|antioquia",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "cargo secundario de RR.HH.",
-     "puntos": 0,
-     "nota": "solo suma si el cuerpo habla de compensación"
-    },
-    {
-     "concepto": "remoto confirmado en el cuerpo del aviso",
-     "puntos": 15,
-     "nota": "remota"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "excel"
-    },
-    {
-     "concepto": "salario publicado igual o sobre $4.000.000",
-     "puntos": 12,
-     "nota": "4.000.000 COP"
-    }
-   ],
-   "puntaje": 39,
-   "ausencias": 2,
-   "nueva": false,
-   "visto_desde": "2026-09-12",
-   "republicaciones": 0,
-   "reapariciones": 1
   },
   {
    "cargo": "Ingeniero en soporte y mesa de ayuda (Soporte de aplicaciones)",
@@ -1244,65 +1106,6 @@
    "empresa_anonima": true,
    "ciudad": "Bogotá D.C.",
    "salario": null,
-   "publicado": "2026-08-11",
-   "vigente_hasta": "2026-10-10",
-   "contrato": "TEMPORARY",
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": null,
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "elempleo",
-     "url": "https://www.elempleo.com/co/ofertas-trabajo/coordinadora-de-sistemas-infraestructura-proyectos-y-gestion-ti-1886751638",
-     "id_fuente": null
-    }
-   ],
-   "inc": [
-    "salario"
-   ],
-   "deducidos": [],
-   "modalidad": "presencial",
-   "modalidad_literal": "Presencial",
-   "modalidad_por_confirmar": false,
-   "id": "empresa no revelada|coordinador de sistemas infraestructura proyectos y gestion ti|bogota#anon:0-0-2026-08-11",
-   "duplicados_hoy": 1,
-   "marcas": [
-    "empresa no revelada: puede estar repetida"
-   ],
-   "desglose": [
-    {
-     "concepto": "cargo objetivo de la búsqueda",
-     "puntos": 25,
-     "nota": "COORDINADOR(A) DE SISTEMAS - INFRAESTRUCTURA, PROYECTOS Y GESTIÓN TI"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "gestion de proyectos, seguridad de la informacion"
-    },
-    {
-     "concepto": "salario",
-     "puntos": 0,
-     "nota": "sin salario publicado, no suma ni resta"
-    }
-   ],
-   "puntaje": 37,
-   "ausencias": 0,
-   "nueva": false,
-   "visto_desde": "2026-09-01",
-   "republicaciones": 0,
-   "reapariciones": 3,
-   "reaparecida": true
-  },
-  {
-   "cargo": "COORDINADOR(A) DE SISTEMAS - INFRAESTRUCTURA, PROYECTOS Y GESTIÓN TI",
-   "empresa": "CONFIDENTIAL",
-   "empresa_anonima": true,
-   "ciudad": "Bogotá D.C.",
-   "salario": null,
    "publicado": "2026-08-21",
    "vigente_hasta": "2026-10-20",
    "contrato": "TEMPORARY",
@@ -1354,6 +1157,65 @@
    "visto_desde": "2026-09-05",
    "republicaciones": 0,
    "reapariciones": 2
+  },
+  {
+   "cargo": "COORDINADOR(A) DE SISTEMAS - INFRAESTRUCTURA, PROYECTOS Y GESTIÓN TI",
+   "empresa": "CONFIDENTIAL",
+   "empresa_anonima": true,
+   "ciudad": "Bogotá D.C.",
+   "salario": null,
+   "publicado": "2026-08-11",
+   "vigente_hasta": "2026-10-10",
+   "contrato": "TEMPORARY",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/coordinadora-de-sistemas-infraestructura-proyectos-y-gestion-ti-1886751638",
+     "id_fuente": null
+    }
+   ],
+   "inc": [
+    "salario"
+   ],
+   "deducidos": [],
+   "modalidad": "presencial",
+   "modalidad_literal": "Presencial",
+   "modalidad_por_confirmar": false,
+   "id": "empresa no revelada|coordinador de sistemas infraestructura proyectos y gestion ti|bogota#anon:0-0-2026-08-11",
+   "duplicados_hoy": 1,
+   "marcas": [
+    "empresa no revelada: puede estar repetida",
+    "no apareció hoy en la fuente (1 de 3)"
+   ],
+   "desglose": [
+    {
+     "concepto": "cargo objetivo de la búsqueda",
+     "puntos": 25,
+     "nota": "COORDINADOR(A) DE SISTEMAS - INFRAESTRUCTURA, PROYECTOS Y GESTIÓN TI"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "gestion de proyectos, seguridad de la informacion"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    }
+   ],
+   "puntaje": 37,
+   "ausencias": 1,
+   "nueva": false,
+   "visto_desde": "2026-09-01",
+   "republicaciones": 0,
+   "reapariciones": 3
   },
   {
    "cargo": "Coordinador de Proyectos TI",
@@ -1592,62 +1454,6 @@
    "visto_desde": "2026-09-12",
    "republicaciones": 0,
    "reapariciones": 0
-  },
-  {
-   "cargo": "Coordinador de Sistemas Sector Salud",
-   "empresa": "CENTRO DE EMPLEO Y TALENTO COLSUBSIDIO",
-   "empresa_anonima": false,
-   "ciudad": "Bogotá, D.C.",
-   "salario": {
-    "min": 8000000.0,
-    "max": 8000000.0,
-    "moneda": "COP",
-    "periodo": "MONTH"
-   },
-   "publicado": "2026-09-16",
-   "vigente_hasta": "2026-11-15",
-   "contrato": "FULL_TIME",
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": "7AA3FDE1981F3DFE",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "computrabajo",
-     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-coordinador-de-sistemas-sector-salud-en-bogota-dc-FA170F6BBD196F4F61373E686DCF3405",
-     "id_fuente": "7AA3FDE1981F3DFE"
-    }
-   ],
-   "inc": [],
-   "deducidos": [],
-   "modalidad": "presencial",
-   "modalidad_literal": "presencial",
-   "modalidad_por_confirmar": false,
-   "id": "centro de empleo y talento colsubsidio|coordinador de sistemas sector salud|bogota",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "cargo objetivo de la búsqueda",
-     "puntos": 25,
-     "nota": "Coordinador de Sistemas Sector Salud"
-    },
-    {
-     "concepto": "salario publicado igual o sobre $4.000.000",
-     "puntos": 12,
-     "nota": "8.000.000 COP"
-    }
-   ],
-   "puntaje": 37,
-   "ausencias": 2,
-   "nueva": false,
-   "visto_desde": "2026-09-17",
-   "republicaciones": 0,
-   "reapariciones": 0,
-   "marcas": [
-    "no apareció hoy en la fuente (2 de 3)"
-   ]
   },
   {
    "cargo": "Coordinador de Soporte BPO Sector Financiero para personas con discapacidad",
@@ -2017,7 +1823,7 @@
    "ciudad": "Bogotá D.C.",
    "salario": null,
    "publicado": "2026-09-03",
-   "vigente_hasta": "2026-11-13",
+   "vigente_hasta": "2026-11-20",
    "contrato": "PER_DIEM",
    "agencia": null,
    "direccion": null,
@@ -2028,17 +1834,17 @@
    "fuentes": [
     {
      "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/lider-de-soporte-e-infraestructura-bogota-1886769674",
+     "id_fuente": null
+    },
+    {
+     "fuente": "elempleo",
      "url": "https://www.elempleo.com/co/ofertas-trabajo/lider-de-soporte-e-infraestructura-bogota-1886766600",
      "id_fuente": null
     },
     {
      "fuente": "elempleo",
      "url": "https://www.elempleo.com/co/ofertas-trabajo/lider-de-soporte-e-infraestructura-bogota-1886763709",
-     "id_fuente": null
-    },
-    {
-     "fuente": "elempleo",
-     "url": "https://www.elempleo.com/co/ofertas-trabajo/lider-de-soporte-e-infraestructura-bogota-1886769674",
      "id_fuente": null
     },
     {
@@ -2065,7 +1871,7 @@
     {
      "concepto": "el cuerpo menciona la técnica del oficio",
      "puntos": 12,
-     "nota": "mesa de ayuda, itil, iso 27001"
+     "nota": "mesa de ayuda, iso 27001"
     },
     {
      "concepto": "salario",
@@ -2259,8 +2065,7 @@
    "nueva": false,
    "visto_desde": "2026-09-01",
    "republicaciones": 0,
-   "reapariciones": 3,
-   "reaparecida": true
+   "reapariciones": 3
   },
   {
    "cargo": "coordinador técnico",
@@ -2366,12 +2171,12 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 1 día(s)"
+     "nota": "hace 2 día(s)"
     }
    ],
    "puntaje": 35,
    "ausencias": 0,
-   "nueva": true,
+   "nueva": false,
    "visto_desde": "2026-09-22",
    "republicaciones": 0,
    "reapariciones": 0
@@ -2429,29 +2234,87 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 1 día(s)"
+     "nota": "hace 2 día(s)"
     }
    ],
    "puntaje": 34,
    "ausencias": 0,
-   "nueva": true,
+   "nueva": false,
    "visto_desde": "2026-09-22",
    "republicaciones": 0,
    "reapariciones": 0
   },
   {
-   "cargo": "Coordinador de Cartera y Tesorería - Sector Farmacéutico",
-   "empresa": "MICHAEL PAGE INTERNATIONAL",
+   "cargo": "Auditor de TI - Ingeniero de Sistemas certificado en ISO27001 2022",
+   "empresa": "Inter Rapidisimo S.A",
    "empresa_anonima": false,
-   "ciudad": "Bogotá D.C.",
+   "ciudad": "Bogotá, D.C.",
    "salario": {
-    "min": 6000001.0,
-    "max": 8000000.0,
+    "min": 6946753.0,
+    "max": 6946753.0,
     "moneda": "COP",
     "periodo": "MONTH"
    },
-   "publicado": "2026-09-19",
-   "vigente_hasta": "2026-11-18",
+   "publicado": "2026-09-23",
+   "vigente_hasta": "2026-11-22",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": "DA898F7647874EE9",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "computrabajo",
+     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-auditor-de-ti-ingeniero-de-sistemas-certificado-en-iso27001-2022-en-bogota-dc-CB9D55A6838211B361373E686DCF3405",
+     "id_fuente": "DA898F7647874EE9"
+    }
+   ],
+   "inc": [],
+   "deducidos": [],
+   "modalidad": "presencial",
+   "modalidad_literal": "Presencial",
+   "modalidad_por_confirmar": false,
+   "id": "inter rapidisimo|auditor de ti ingeniero de sistemas certificado en iso27001|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "seguridad de la informacion, iso 27001, gestion documental"
+    },
+    {
+     "concepto": "salario publicado igual o sobre $4.000.000",
+     "puntos": 12,
+     "nota": "6.946.753 COP"
+    },
+    {
+     "concepto": "publicada hace menos de 3 días",
+     "puntos": 10,
+     "nota": "hace 0 día(s)"
+    }
+   ],
+   "puntaje": 34,
+   "ausencias": 0,
+   "nueva": true,
+   "visto_desde": "2026-09-23",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
+  {
+   "cargo": "COORDINADOR REGISTROS CALIFICADOS - Bogotá",
+   "empresa": "CONFIDENTIAL",
+   "empresa_anonima": true,
+   "ciudad": "Bogotá D.C.",
+   "salario": {
+    "min": 4500001.0,
+    "max": 5500000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-09-22",
+   "vigente_hasta": "2026-11-21",
    "contrato": "TEMPORARY",
    "agencia": null,
    "direccion": null,
@@ -2462,19 +2325,20 @@
    "fuentes": [
     {
      "fuente": "elempleo",
-     "url": "https://www.elempleo.com/co/ofertas-trabajo/coordinador-de-cartera-y-tesoreria-sector-farmaceutico-1886769366",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/coordinador-registros-calificados-bogota-1886770889",
      "id_fuente": null
     }
    ],
-   "inc": [
-    "modalidad"
-   ],
+   "inc": [],
    "deducidos": [],
-   "modalidad": null,
-   "modalidad_literal": null,
+   "modalidad": "híbrido",
+   "modalidad_literal": "Hibrido",
    "modalidad_por_confirmar": false,
-   "id": "michael page international|coordinador de cartera y tesoreria sector farmaceutico|bogota",
+   "id": "empresa no revelada|coordinador registros calificados|bogota#anon:4500001-5500000-2026-09-22",
    "duplicados_hoy": 1,
+   "marcas": [
+    "empresa no revelada: puede estar repetida"
+   ],
    "desglose": [
     {
      "concepto": "cargo secundario de RR.HH.",
@@ -2484,12 +2348,12 @@
     {
      "concepto": "el cuerpo menciona la técnica del oficio",
      "puntos": 12,
-     "nota": "programacion, excel"
+     "nota": "gestion de proyectos, excel"
     },
     {
      "concepto": "salario publicado igual o sobre $4.000.000",
      "puntos": 12,
-     "nota": "8.000.000 COP"
+     "nota": "5.500.000 COP"
     },
     {
      "concepto": "publicada hace menos de 3 días",
@@ -2498,14 +2362,11 @@
     }
    ],
    "puntaje": 34,
-   "ausencias": 2,
-   "nueva": false,
-   "visto_desde": "2026-09-19",
+   "ausencias": 0,
+   "nueva": true,
+   "visto_desde": "2026-09-23",
    "republicaciones": 0,
-   "reapariciones": 0,
-   "marcas": [
-    "no apareció hoy en la fuente (2 de 3)"
-   ]
+   "reapariciones": 0
   },
   {
    "cargo": "Coordinador de Proyectos y Abastecimiento",
@@ -2564,78 +2425,13 @@
     }
    ],
    "puntaje": 34,
-   "ausencias": 0,
-   "nueva": true,
-   "visto_desde": "2026-09-22",
-   "republicaciones": 0,
-   "reapariciones": 0
-  },
-  {
-   "cargo": "coordinador financiero sector farmaceutico",
-   "empresa": "MICHAEL PAGE INTERNATIONAL",
-   "empresa_anonima": false,
-   "ciudad": "Bogotá D.C.",
-   "salario": {
-    "min": 6000001.0,
-    "max": 8000000.0,
-    "moneda": "COP",
-    "periodo": "MONTH"
-   },
-   "publicado": "2026-09-19",
-   "vigente_hasta": "2026-11-18",
-   "contrato": "TEMPORARY",
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": null,
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "elempleo",
-     "url": "https://www.elempleo.com/co/ofertas-trabajo/coordinador-financiero-sector-farmaceutico-1886769363",
-     "id_fuente": null
-    }
-   ],
-   "inc": [
-    "modalidad"
-   ],
-   "deducidos": [],
-   "modalidad": null,
-   "modalidad_literal": null,
-   "modalidad_por_confirmar": false,
-   "id": "michael page international|coordinador financiero sector farmaceutico|bogota",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "cargo secundario de RR.HH.",
-     "puntos": 0,
-     "nota": "solo suma si el cuerpo habla de compensación"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "excel, power bi"
-    },
-    {
-     "concepto": "salario publicado igual o sobre $4.000.000",
-     "puntos": 12,
-     "nota": "8.000.000 COP"
-    },
-    {
-     "concepto": "publicada hace menos de 3 días",
-     "puntos": 10,
-     "nota": "hace 1 día(s)"
-    }
-   ],
-   "puntaje": 34,
-   "ausencias": 2,
+   "ausencias": 1,
    "nueva": false,
-   "visto_desde": "2026-09-19",
+   "visto_desde": "2026-09-22",
    "republicaciones": 0,
    "reapariciones": 0,
    "marcas": [
-    "no apareció hoy en la fuente (2 de 3)"
+    "no apareció hoy en la fuente (1 de 3)"
    ]
   },
   {
@@ -2730,7 +2526,7 @@
    "modalidad_por_confirmar": false,
    "marcas": [
     "remoto fuera de Colombia, contratación por confirmar",
-    "no apareció hoy en la fuente (1 de 3)"
+    "no apareció hoy en la fuente (2 de 3)"
    ],
    "id": "atlas infrastructure design limited|coordinador a de proyectos y gerente de operaciones|extranjero",
    "duplicados_hoy": 1,
@@ -2757,7 +2553,7 @@
     }
    ],
    "puntaje": 27,
-   "ausencias": 1,
+   "ausencias": 2,
    "nueva": false,
    "visto_desde": "2026-09-05",
    "republicaciones": 0,
@@ -3252,7 +3048,7 @@
    "duplicados_hoy": 1,
    "marcas": [
     "empresa no revelada: puede estar repetida",
-    "no apareció hoy en la fuente (1 de 3)"
+    "no apareció hoy en la fuente (2 de 3)"
    ],
    "desglose": [
     {
@@ -3267,7 +3063,7 @@
     }
    ],
    "puntaje": 24,
-   "ausencias": 1,
+   "ausencias": 2,
    "nueva": false,
    "visto_desde": "2026-09-17",
    "republicaciones": 0,
@@ -3330,130 +3126,6 @@
    "visto_desde": "2026-09-01",
    "republicaciones": 0,
    "reapariciones": 1
-  },
-  {
-   "cargo": "Coordinador Administrativo - Experiencia sector Humanitario",
-   "empresa": "PUNTO EMPLEO S.A.S",
-   "empresa_anonima": false,
-   "ciudad": "Bogotá, D.C.",
-   "salario": {
-    "min": 5000000.0,
-    "max": 5000000.0,
-    "moneda": "COP",
-    "periodo": "MONTH"
-   },
-   "publicado": "2026-08-24",
-   "vigente_hasta": "2026-10-23",
-   "contrato": "FULL_TIME",
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": "93FF10B0152E772D",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "computrabajo",
-     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-coordinador-administrativo-experiencia-sector-humanitario-en-bogota-dc-E34DCF9E1A232A8C61373E686DCF3405",
-     "id_fuente": "93FF10B0152E772D"
-    }
-   ],
-   "inc": [
-    "modalidad"
-   ],
-   "deducidos": [],
-   "modalidad": null,
-   "modalidad_literal": null,
-   "modalidad_por_confirmar": false,
-   "id": "punto empleo|coordinador administrativo experiencia sector humanitario|bogota",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "cargo secundario de RR.HH.",
-     "puntos": 0,
-     "nota": "solo suma si el cuerpo habla de compensación"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "excel"
-    },
-    {
-     "concepto": "salario publicado igual o sobre $4.000.000",
-     "puntos": 12,
-     "nota": "5.000.000 COP"
-    }
-   ],
-   "puntaje": 24,
-   "ausencias": 2,
-   "nueva": false,
-   "visto_desde": "2026-09-01",
-   "republicaciones": 0,
-   "reapariciones": 3,
-   "marcas": [
-    "no apareció hoy en la fuente (2 de 3)"
-   ]
-  },
-  {
-   "cargo": "Coordinador Administrativo de Servicio Técnico - Siberia",
-   "empresa": "Aerorental Ltda",
-   "empresa_anonima": false,
-   "ciudad": "Bogotá, D.C.",
-   "salario": {
-    "min": 4000000.0,
-    "max": 4000000.0,
-    "moneda": "COP",
-    "periodo": "MONTH"
-   },
-   "publicado": "2026-08-27",
-   "vigente_hasta": "2026-10-26",
-   "contrato": "FULL_TIME",
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": "A5B84A85EF614E8C",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "computrabajo",
-     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-coordinador-administrativo-de-servicio-tecnico-siberia-en-bogota-dc-F999D33C7EDAF9C461373E686DCF3405",
-     "id_fuente": "A5B84A85EF614E8C"
-    }
-   ],
-   "inc": [],
-   "deducidos": [],
-   "modalidad": "presencial",
-   "modalidad_literal": "presencial",
-   "modalidad_por_confirmar": false,
-   "id": "aerorental|coordinador administrativo de servicio tecnico siberia|bogota",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "cargo secundario de RR.HH.",
-     "puntos": 0,
-     "nota": "solo suma si el cuerpo habla de compensación"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "gestion documental, excel"
-    },
-    {
-     "concepto": "salario publicado igual o sobre $4.000.000",
-     "puntos": 12,
-     "nota": "4.000.000 COP"
-    }
-   ],
-   "puntaje": 24,
-   "ausencias": 2,
-   "nueva": false,
-   "visto_desde": "2026-09-04",
-   "republicaciones": 0,
-   "reapariciones": 2,
-   "marcas": [
-    "no apareció hoy en la fuente (2 de 3)"
-   ]
   },
   {
    "cargo": "Coordinador Alistamiento Tecnologico - Computadores",
@@ -3571,8 +3243,7 @@
    "nueva": false,
    "visto_desde": "2026-09-02",
    "republicaciones": 0,
-   "reapariciones": 3,
-   "reaparecida": true
+   "reapariciones": 3
   },
   {
    "cargo": "Coordinador Senior Data",
@@ -3611,7 +3282,8 @@
    "id": "empresa no revelada|coordinador senior data|bogota#anon:8000001-10000000-2026-08-27",
    "duplicados_hoy": 1,
    "marcas": [
-    "empresa no revelada: puede estar repetida"
+    "empresa no revelada: puede estar repetida",
+    "no apareció hoy en la fuente (1 de 3)"
    ],
    "desglose": [
     {
@@ -3631,75 +3303,11 @@
     }
    ],
    "puntaje": 24,
-   "ausencias": 0,
+   "ausencias": 1,
    "nueva": false,
    "visto_desde": "2026-09-02",
    "republicaciones": 0,
-   "reapariciones": 4,
-   "reaparecida": true
-  },
-  {
-   "cargo": "Coordinador administrativo y de talento humano 114010",
-   "empresa": "NUEVA EPS S.A",
-   "empresa_anonima": false,
-   "ciudad": "Bogotá, D.C.",
-   "salario": {
-    "min": 7719000.0,
-    "max": 7719000.0,
-    "moneda": "COP",
-    "periodo": "MONTH"
-   },
-   "publicado": "2026-08-18",
-   "vigente_hasta": "2026-10-17",
-   "contrato": "FULL_TIME",
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": "6036EADB9587E359",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "computrabajo",
-     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-coordinador-administrativo-y-de-talento-humano-114010-en-bogota-dc-AD5A70BA8081B34F61373E686DCF3405",
-     "id_fuente": "6036EADB9587E359"
-    }
-   ],
-   "inc": [
-    "modalidad"
-   ],
-   "deducidos": [],
-   "modalidad": null,
-   "modalidad_literal": null,
-   "modalidad_por_confirmar": false,
-   "id": "nueva eps|coordinador administrativo y de talento humano|bogota",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "cargo secundario de RR.HH.",
-     "puntos": 0,
-     "nota": "solo suma si el cuerpo habla de compensación"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "base de datos, manejo de personal, gestion documental, excel"
-    },
-    {
-     "concepto": "salario publicado igual o sobre $4.000.000",
-     "puntos": 12,
-     "nota": "7.719.000 COP"
-    }
-   ],
-   "puntaje": 24,
-   "ausencias": 2,
-   "nueva": false,
-   "visto_desde": "2026-09-03",
-   "republicaciones": 0,
-   "reapariciones": 2,
-   "marcas": [
-    "no apareció hoy en la fuente (2 de 3)"
-   ]
+   "reapariciones": 4
   },
   {
    "cargo": "Coordinador de Ciencias Naturales",
@@ -3883,14 +3491,75 @@
     }
    ],
    "puntaje": 24,
-   "ausencias": 1,
+   "ausencias": 2,
    "nueva": false,
    "visto_desde": "2026-09-04",
    "republicaciones": 0,
    "reapariciones": 2,
    "marcas": [
-    "no apareció hoy en la fuente (1 de 3)"
+    "no apareció hoy en la fuente (2 de 3)"
    ]
+  },
+  {
+   "cargo": "Coordinador de Proyectos Inmobiliarios",
+   "empresa": "A.R. CONSTRUCCIONES S.A.S",
+   "empresa_anonima": false,
+   "ciudad": "Bogotá, D.C.",
+   "salario": {
+    "min": 7000000.0,
+    "max": 7000000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-07-29",
+   "vigente_hasta": "2026-09-27",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": "069D5B5665556910",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "computrabajo",
+     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-coordinador-de-proyectos-inmobiliarios-en-bogota-dc-AD41E0B6FB065F1A61373E686DCF3405",
+     "id_fuente": "069D5B5665556910"
+    }
+   ],
+   "inc": [
+    "modalidad"
+   ],
+   "deducidos": [],
+   "modalidad": null,
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "a r construcciones|coordinador de proyectos inmobiliarios|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "cargo secundario de RR.HH.",
+     "puntos": 0,
+     "nota": "solo suma si el cuerpo habla de compensación"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "cronograma, power bi"
+    },
+    {
+     "concepto": "salario publicado igual o sobre $4.000.000",
+     "puntos": 12,
+     "nota": "7.000.000 COP"
+    }
+   ],
+   "puntaje": 24,
+   "ausencias": 0,
+   "nueva": false,
+   "visto_desde": "2026-09-07",
+   "republicaciones": 0,
+   "reapariciones": 2,
+   "reaparecida": true
   },
   {
    "cargo": "Coordinador de compras",
@@ -4009,13 +3678,13 @@
     }
    ],
    "puntaje": 24,
-   "ausencias": 1,
+   "ausencias": 2,
    "nueva": false,
    "visto_desde": "2026-09-01",
    "republicaciones": 0,
    "reapariciones": 3,
    "marcas": [
-    "no apareció hoy en la fuente (1 de 3)"
+    "no apareció hoy en la fuente (2 de 3)"
    ]
   },
   {
@@ -4072,13 +3741,13 @@
     }
    ],
    "puntaje": 24,
-   "ausencias": 1,
+   "ausencias": 2,
    "nueva": false,
    "visto_desde": "2026-09-01",
    "republicaciones": 0,
    "reapariciones": 2,
    "marcas": [
-    "no apareció hoy en la fuente (1 de 3)"
+    "no apareció hoy en la fuente (2 de 3)"
    ]
   },
   {
@@ -4190,11 +3859,14 @@
     }
    ],
    "puntaje": 24,
-   "ausencias": 0,
+   "ausencias": 1,
    "nueva": false,
    "visto_desde": "2026-09-18",
    "republicaciones": 0,
-   "reapariciones": 0
+   "reapariciones": 0,
+   "marcas": [
+    "no apareció hoy en la fuente (1 de 3)"
+   ]
   },
   {
    "cargo": "Director de TI",
@@ -4421,13 +4093,13 @@
     }
    ],
    "puntaje": 24,
-   "ausencias": 1,
+   "ausencias": 2,
    "nueva": false,
    "visto_desde": "2026-09-01",
    "republicaciones": 0,
    "reapariciones": 2,
    "marcas": [
-    "no apareció hoy en la fuente (1 de 3)"
+    "no apareció hoy en la fuente (2 de 3)"
    ]
   },
   {
@@ -4479,9 +4151,75 @@
     }
    ],
    "puntaje": 24,
-   "ausencias": 0,
+   "ausencias": 1,
    "nueva": false,
    "visto_desde": "2026-09-09",
+   "republicaciones": 0,
+   "reapariciones": 0,
+   "marcas": [
+    "no apareció hoy en la fuente (1 de 3)"
+   ]
+  },
+  {
+   "cargo": "Ingeniero de calidad enfasis en sistemas integrados de gestión",
+   "empresa": "SMI COLOMBIA SAS",
+   "empresa_anonima": false,
+   "ciudad": "Cundinamarca",
+   "salario": {
+    "min": 3500001.0,
+    "max": 4000000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-09-08",
+   "vigente_hasta": "2026-11-21",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/ingeniero-de-calidad-enfasis-en-sistemas-integrados-de-gestion-1886770682",
+     "id_fuente": null
+    },
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/ingeniero-de-sistemas-integrados-de-gestion-1886763569",
+     "id_fuente": null
+    }
+   ],
+   "inc": [
+    "modalidad"
+   ],
+   "deducidos": [],
+   "modalidad": null,
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "smi|ingeniero de calidad enfasis en sistemas integrados de gestion|bogota alrededores",
+   "duplicados_hoy": 1,
+   "titulos_alternos": [
+    "Ingeniero de Sistemas Integrados de Gestión"
+   ],
+   "desglose": [
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "excel"
+    },
+    {
+     "concepto": "salario publicado igual o sobre $4.000.000",
+     "puntos": 12,
+     "nota": "4.000.000 COP"
+    }
+   ],
+   "puntaje": 24,
+   "ausencias": 0,
+   "nueva": true,
+   "visto_desde": "2026-09-23",
    "republicaciones": 0,
    "reapariciones": 0
   },
@@ -4534,13 +4272,13 @@
     }
    ],
    "puntaje": 24,
-   "ausencias": 1,
+   "ausencias": 2,
    "nueva": false,
    "visto_desde": "2026-09-05",
    "republicaciones": 0,
    "reapariciones": 2,
    "marcas": [
-    "no apareció hoy en la fuente (1 de 3)"
+    "no apareció hoy en la fuente (2 de 3)"
    ]
   },
   {
@@ -4941,13 +4679,13 @@
     }
    ],
    "puntaje": 24,
-   "ausencias": 1,
+   "ausencias": 2,
    "nueva": false,
    "visto_desde": "2026-09-01",
    "republicaciones": 6,
    "reapariciones": 5,
    "marcas": [
-    "no apareció hoy en la fuente (1 de 3)"
+    "no apareció hoy en la fuente (2 de 3)"
    ]
   },
   {
@@ -5003,8 +4741,7 @@
    "nueva": false,
    "visto_desde": "2026-09-07",
    "republicaciones": 0,
-   "reapariciones": 2,
-   "reaparecida": true
+   "reapariciones": 2
   },
   {
    "cargo": "Profesional de infraestructura Tecnológica",
@@ -5131,19 +4868,19 @@
    "reapariciones": 3
   },
   {
-   "cargo": "SECTOR SALUD - COORDINADOR DE GESTION HUMANA",
-   "empresa": "HOSPITAL UNIVERSITARIO CLÌNICA SAN RAFAEL",
+   "cargo": "coordinador administrativo",
+   "empresa": "DHL SUPPLY CHAIN COLOMBIA",
    "empresa_anonima": false,
-   "ciudad": "Bogotá D.C.",
+   "ciudad": "Cundinamarca",
    "salario": {
     "min": 4500001.0,
     "max": 5500000.0,
     "moneda": "COP",
     "periodo": "MONTH"
    },
-   "publicado": "2026-09-01",
-   "vigente_hasta": "2026-10-31",
-   "contrato": "TEMPORARY",
+   "publicado": "2026-07-28",
+   "vigente_hasta": "2026-09-26",
+   "contrato": "FULL_TIME",
    "agencia": null,
    "direccion": null,
    "lat": null,
@@ -5153,12 +4890,7 @@
    "fuentes": [
     {
      "fuente": "elempleo",
-     "url": "https://www.elempleo.com/co/ofertas-trabajo/sector-salud-coordinador-de-gestion-humana-1886760713",
-     "id_fuente": null
-    },
-    {
-     "fuente": "elempleo",
-     "url": "https://www.elempleo.com/co/ofertas-trabajo/sector-hospitalario-coordinador-de-gestion-humana-1886762826",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/coordinador-administrativo-1886744932",
      "id_fuente": null
     }
    ],
@@ -5169,11 +4901,8 @@
    "modalidad": null,
    "modalidad_literal": null,
    "modalidad_por_confirmar": false,
-   "id": "hospital universitario clinica san rafael|sector salud coordinador de gestion humana|bogota",
+   "id": "dhl supply chain|coordinador administrativo|bogota alrededores",
    "duplicados_hoy": 1,
-   "titulos_alternos": [
-    "SECTOR HOSPITALARIO - COORDINADOR DE GESTION HUMANA"
-   ],
    "desglose": [
     {
      "concepto": "cargo secundario de RR.HH.",
@@ -5183,7 +4912,7 @@
     {
      "concepto": "el cuerpo menciona la técnica del oficio",
      "puntos": 12,
-     "nota": "excel, power bi"
+     "nota": "programacion, excel"
     },
     {
      "concepto": "salario publicado igual o sobre $4.000.000",
@@ -5192,14 +4921,12 @@
     }
    ],
    "puntaje": 24,
-   "ausencias": 2,
+   "ausencias": 0,
    "nueva": false,
-   "visto_desde": "2026-09-03",
-   "republicaciones": 3,
-   "reapariciones": 4,
-   "marcas": [
-    "no apareció hoy en la fuente (2 de 3)"
-   ]
+   "visto_desde": "2026-09-01",
+   "republicaciones": 0,
+   "reapariciones": 2,
+   "reaparecida": true
   },
   {
    "cargo": "coordinador mesa de ayuda",
@@ -5388,25 +5115,25 @@
    "reapariciones": 0
   },
   {
-   "cargo": "COORDINADOR DE DESARROLLO NEGOCIOS BOGOTÁ",
-   "empresa": "CONFIDENTIAL",
-   "empresa_anonima": true,
-   "ciudad": "Bogotá D.C.",
+   "cargo": "Arquitecto coordinador de proyectos, administrativo y de obra - Armenia",
+   "empresa": "Cafe Quindío SAS",
+   "empresa_anonima": false,
+   "ciudad": "Bogotá, D.C.",
    "salario": null,
-   "publicado": "2026-09-19",
-   "vigente_hasta": "2026-11-18",
+   "publicado": "2026-09-22",
+   "vigente_hasta": "2026-11-21",
    "contrato": "FULL_TIME",
    "agencia": null,
    "direccion": null,
    "lat": null,
    "lon": null,
-   "id_fuente": null,
+   "id_fuente": "172586BFAFDA1B0B",
    "pais": null,
    "fuentes": [
     {
-     "fuente": "elempleo",
-     "url": "https://www.elempleo.com/co/ofertas-trabajo/coordinador-de-desarrollo-negocios-bogota-1886769433",
-     "id_fuente": null
+     "fuente": "computrabajo",
+     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-arquitecto-coordinador-de-proyectos-administrativo-y-de-obra-armenia-en-bogota-dc-78AE774A0862B96761373E686DCF3405",
+     "id_fuente": "172586BFAFDA1B0B"
     }
    ],
    "inc": [
@@ -5417,12 +5144,8 @@
    "modalidad": null,
    "modalidad_literal": null,
    "modalidad_por_confirmar": false,
-   "id": "empresa no revelada|coordinador de desarrollo negocios|bogota#anon:0-0-2026-09-19",
+   "id": "cafe quindio|arquitecto coordinador de proyectos administrativo y de obra armenia|bogota",
    "duplicados_hoy": 1,
-   "marcas": [
-    "empresa no revelada: puede estar repetida",
-    "no apareció hoy en la fuente (2 de 3)"
-   ],
    "desglose": [
     {
      "concepto": "cargo secundario de RR.HH.",
@@ -5432,7 +5155,7 @@
     {
      "concepto": "el cuerpo menciona la técnica del oficio",
      "puntos": 12,
-     "nota": "gestion de proyectos, cronograma, excel, power bi"
+     "nota": "gestion documental, excel"
     },
     {
      "concepto": "salario",
@@ -5446,9 +5169,9 @@
     }
    ],
    "puntaje": 22,
-   "ausencias": 2,
-   "nueva": false,
-   "visto_desde": "2026-09-20",
+   "ausencias": 0,
+   "nueva": true,
+   "visto_desde": "2026-09-23",
    "republicaciones": 0,
    "reapariciones": 0
   },
@@ -5487,7 +5210,8 @@
    "id": "empresa no revelada|consultor logistico administrador de plataforma|bogota#anon:3000001-3500000-2026-09-12",
    "duplicados_hoy": 1,
    "marcas": [
-    "empresa no revelada: puede estar repetida"
+    "empresa no revelada: puede estar repetida",
+    "no apareció hoy en la fuente (1 de 3)"
    ],
    "desglose": [
     {
@@ -5507,58 +5231,58 @@
     }
    ],
    "puntaje": 22,
-   "ausencias": 0,
+   "ausencias": 1,
    "nueva": false,
    "visto_desde": "2026-09-13",
    "republicaciones": 0,
-   "reapariciones": 1,
-   "reaparecida": true
+   "reapariciones": 1
   },
   {
-   "cargo": "Consultor en Desarrollo de Software y Servicios",
-   "empresa": "CONFIDENTIAL",
-   "empresa_anonima": true,
-   "ciudad": "Bogotá D.C.",
-   "salario": {
-    "min": 4000001.0,
-    "max": 4500000.0,
-    "moneda": "COP",
-    "periodo": "MONTH"
-   },
-   "publicado": "2026-09-19",
-   "vigente_hasta": "2026-11-18",
-   "contrato": "PER_DIEM",
+   "cargo": "Coordinador Administrativo Y Financiero - Contratación Inmediata",
+   "empresa": "AIKA SOLUCIONES",
+   "empresa_anonima": false,
+   "ciudad": "Bogotá, D.C.",
+   "salario": null,
+   "publicado": "2026-09-22",
+   "vigente_hasta": "2026-11-21",
+   "contrato": "FULL_TIME",
    "agencia": null,
    "direccion": null,
    "lat": null,
    "lon": null,
-   "id_fuente": null,
+   "id_fuente": "9458B5EA1929A70D",
    "pais": null,
    "fuentes": [
     {
-     "fuente": "elempleo",
-     "url": "https://www.elempleo.com/co/ofertas-trabajo/consultor-en-desarrollo-de-software-y-servicios-1886769401",
-     "id_fuente": null
+     "fuente": "computrabajo",
+     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-coordinador-administrativo-y-financiero-contratacion-inmediata-en-bogota-dc-A26493F52D096C3061373E686DCF3405",
+     "id_fuente": "9458B5EA1929A70D"
     }
    ],
    "inc": [
-    "modalidad"
+    "salario"
    ],
    "deducidos": [],
-   "modalidad": null,
-   "modalidad_literal": null,
+   "modalidad": "presencial",
+   "modalidad_literal": "Presencial",
    "modalidad_por_confirmar": false,
-   "id": "empresa no revelada|consultor en desarrollo de software y servicios|bogota#anon:4000001-4500000-2026-09-19",
+   "id": "aika soluciones|coordinador administrativo y financiero contratacion inmediata|bogota",
    "duplicados_hoy": 1,
-   "marcas": [
-    "empresa no revelada: puede estar repetida",
-    "no apareció hoy en la fuente (2 de 3)"
-   ],
    "desglose": [
     {
-     "concepto": "salario publicado igual o sobre $4.000.000",
+     "concepto": "cargo secundario de RR.HH.",
+     "puntos": 0,
+     "nota": "solo suma si el cuerpo habla de compensación"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
      "puntos": 12,
-     "nota": "4.500.000 COP"
+     "nota": "excel, power bi"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
     },
     {
      "concepto": "publicada hace menos de 3 días",
@@ -5567,74 +5291,11 @@
     }
    ],
    "puntaje": 22,
-   "ausencias": 2,
-   "nueva": false,
-   "visto_desde": "2026-09-20",
+   "ausencias": 0,
+   "nueva": true,
+   "visto_desde": "2026-09-23",
    "republicaciones": 0,
    "reapariciones": 0
-  },
-  {
-   "cargo": "Coordinador / Lider / Jefe de sistemas - Funza",
-   "empresa": "exela Servicios Temporales S.A",
-   "empresa_anonima": false,
-   "ciudad": "Cundinamarca",
-   "salario": {
-    "min": 2999999.0,
-    "max": 2999999.0,
-    "moneda": "COP",
-    "periodo": "MONTH"
-   },
-   "publicado": "2026-09-16",
-   "vigente_hasta": "2026-11-15",
-   "contrato": "FULL_TIME",
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": "AF8AC147472AFE5D",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "computrabajo",
-     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-coordinador-lider-jefe-de-sistemas-funza-en-funza-718C8F4FC04D078C61373E686DCF3405",
-     "id_fuente": "AF8AC147472AFE5D"
-    }
-   ],
-   "inc": [
-    "modalidad"
-   ],
-   "deducidos": [],
-   "modalidad": null,
-   "modalidad_literal": null,
-   "modalidad_por_confirmar": false,
-   "id": "exela servicios temporales|coordinador lider jefe de sistemas|bogota alrededores",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "cargo objetivo de la búsqueda",
-     "puntos": 25,
-     "nota": "Coordinador / Lider / Jefe de sistemas - Funza"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "soporte a usuarios, seguridad de la informacion, excel"
-    },
-    {
-     "concepto": "salario publicado por debajo de $4.000.000",
-     "puntos": -15,
-     "nota": "2.999.999 COP — se muestra igual: el publicado casi nunca es el negociado"
-    }
-   ],
-   "puntaje": 22,
-   "ausencias": 2,
-   "nueva": false,
-   "visto_desde": "2026-09-17",
-   "republicaciones": 0,
-   "reapariciones": 0,
-   "marcas": [
-    "no apareció hoy en la fuente (2 de 3)"
-   ]
   },
   {
    "cargo": "Coordinador Mejora Continua",
@@ -5670,7 +5331,7 @@
    "duplicados_hoy": 1,
    "marcas": [
     "empresa no revelada: puede estar repetida",
-    "no apareció hoy en la fuente (1 de 3)"
+    "no apareció hoy en la fuente (2 de 3)"
    ],
    "desglose": [
     {
@@ -5695,9 +5356,69 @@
     }
    ],
    "puntaje": 22,
-   "ausencias": 1,
+   "ausencias": 2,
    "nueva": false,
    "visto_desde": "2026-09-21",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
+  {
+   "cargo": "Coordinador de Contabilidad/ Experiencia en Manejo de SAP",
+   "empresa": "INVERLEOKA S.A.S",
+   "empresa_anonima": false,
+   "ciudad": "Bogotá D.C.",
+   "salario": null,
+   "publicado": "2026-09-22",
+   "vigente_hasta": "2026-11-06",
+   "contrato": "TEMPORARY",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/coordinador-de-contabilidad-experiencia-en-manejo-de-sap-1886770726",
+     "id_fuente": null
+    }
+   ],
+   "inc": [
+    "salario"
+   ],
+   "deducidos": [],
+   "modalidad": "presencial",
+   "modalidad_literal": "presencial",
+   "modalidad_por_confirmar": false,
+   "id": "inverleoka|coordinador de contabilidad experiencia en manejo de sap|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "cargo secundario de RR.HH.",
+     "puntos": 0,
+     "nota": "solo suma si el cuerpo habla de compensación"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "cronograma"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    },
+    {
+     "concepto": "publicada hace menos de 3 días",
+     "puntos": 10,
+     "nota": "hace 1 día(s)"
+    }
+   ],
+   "puntaje": 22,
+   "ausencias": 0,
+   "nueva": true,
+   "visto_desde": "2026-09-23",
    "republicaciones": 0,
    "reapariciones": 0
   },
@@ -5755,76 +5476,14 @@
     }
    ],
    "puntaje": 22,
-   "ausencias": 0,
+   "ausencias": 1,
    "nueva": false,
    "visto_desde": "2026-09-13",
    "republicaciones": 0,
    "reapariciones": 2,
-   "reaparecida": true
-  },
-  {
-   "cargo": "Coordinador de operaciones (proy. tecnología)",
-   "empresa": "CONFIDENTIAL",
-   "empresa_anonima": true,
-   "ciudad": "Bogotá D.C.",
-   "salario": null,
-   "publicado": "2026-09-17",
-   "vigente_hasta": "2026-11-16",
-   "contrato": "PER_DIEM",
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": null,
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "elempleo",
-     "url": "https://www.elempleo.com/co/ofertas-trabajo/coordinador-de-operaciones-proy-tecnologia-1886768773",
-     "id_fuente": null
-    }
-   ],
-   "inc": [
-    "salario"
-   ],
-   "deducidos": [],
-   "modalidad": "presencial",
-   "modalidad_literal": "presencial",
-   "modalidad_por_confirmar": false,
-   "id": "empresa no revelada|coordinador de operaciones|bogota#anon:0-0-2026-09-17",
-   "duplicados_hoy": 1,
    "marcas": [
-    "empresa no revelada: puede estar repetida",
-    "no apareció hoy en la fuente (2 de 3)"
-   ],
-   "desglose": [
-    {
-     "concepto": "cargo secundario de RR.HH.",
-     "puntos": 0,
-     "nota": "solo suma si el cuerpo habla de compensación"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "itil"
-    },
-    {
-     "concepto": "salario",
-     "puntos": 0,
-     "nota": "sin salario publicado, no suma ni resta"
-    },
-    {
-     "concepto": "publicada hace menos de 3 días",
-     "puntos": 10,
-     "nota": "hace 3 día(s)"
-    }
-   ],
-   "puntaje": 22,
-   "ausencias": 2,
-   "nueva": false,
-   "visto_desde": "2026-09-18",
-   "republicaciones": 0,
-   "reapariciones": 1
+    "no apareció hoy en la fuente (1 de 3)"
+   ]
   },
   {
    "cargo": "Coordinador de sistemas - con experiencia en SAP (preferiblemente)",
@@ -5936,13 +5595,13 @@
     }
    ],
    "puntaje": 22,
-   "ausencias": 1,
+   "ausencias": 2,
    "nueva": false,
    "visto_desde": "2026-09-18",
    "republicaciones": 0,
    "reapariciones": 1,
    "marcas": [
-    "no apareció hoy en la fuente (1 de 3)"
+    "no apareció hoy en la fuente (2 de 3)"
    ]
   },
   {
@@ -5999,11 +5658,14 @@
     }
    ],
    "puntaje": 22,
-   "ausencias": 0,
+   "ausencias": 1,
    "nueva": false,
    "visto_desde": "2026-09-10",
    "republicaciones": 0,
-   "reapariciones": 1
+   "reapariciones": 1,
+   "marcas": [
+    "no apareció hoy en la fuente (1 de 3)"
+   ]
   },
   {
    "cargo": "Docente de tecnologia y fisica - Sitio de trabajo en la 200",
@@ -6185,6 +5847,67 @@
    "ausencias": 0,
    "nueva": false,
    "visto_desde": "2026-09-17",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
+  {
+   "cargo": "Software Development Engineer in Test",
+   "empresa": "Payter B.V.",
+   "empresa_anonima": false,
+   "ciudad": "Werken op afstand",
+   "salario": null,
+   "publicado": null,
+   "vigente_hasta": null,
+   "contrato": null,
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": "remote-software-development-engineer-in-test-kent-383633",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "arbeitnow",
+     "url": "https://www.arbeitnow.co.uk/jobs/companies/payter-bv/remote-software-development-engineer-in-test-kent-383633",
+     "id_fuente": "remote-software-development-engineer-in-test-kent-383633"
+    }
+   ],
+   "inc": [
+    "salario",
+    "publicado",
+    "contrato"
+   ],
+   "deducidos": [],
+   "modalidad_fuente": "remoto",
+   "modalidad": "remoto",
+   "modalidad_literal": "Fully remote",
+   "modalidad_por_confirmar": false,
+   "marcas": [
+    "remoto fuera de Colombia, contratación por confirmar"
+   ],
+   "id": "payter b v|software development engineer in test|werken op afstand",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "remoto confirmado en el cuerpo del aviso",
+     "puntos": 15,
+     "nota": "Fully remote"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    },
+    {
+     "concepto": "fecha de publicación",
+     "puntos": 0,
+     "nota": "sin fecha publicada: no suma ni resta"
+    }
+   ],
+   "puntaje": 15,
+   "ausencias": 0,
+   "nueva": true,
+   "visto_desde": "2026-09-23",
    "republicaciones": 0,
    "reapariciones": 0
   },
@@ -6654,8 +6377,7 @@
    "nueva": false,
    "visto_desde": "2026-09-02",
    "republicaciones": 0,
-   "reapariciones": 3,
-   "reaparecida": true
+   "reapariciones": 3
   },
   {
    "cargo": "COORDINADOR MESA DE SERVICIOS",
@@ -6874,7 +6596,8 @@
    "id": "empresa no revelada|coordinador corporativo de mantenimiento e infraestructura|bogota#anon:0-0-2026-08-24",
    "duplicados_hoy": 1,
    "marcas": [
-    "empresa no revelada: puede estar repetida"
+    "empresa no revelada: puede estar repetida",
+    "no apareció hoy en la fuente (1 de 3)"
    ],
    "desglose": [
     {
@@ -6894,12 +6617,11 @@
     }
    ],
    "puntaje": 12,
-   "ausencias": 0,
+   "ausencias": 1,
    "nueva": false,
    "visto_desde": "2026-09-01",
    "republicaciones": 0,
-   "reapariciones": 3,
-   "reaparecida": true
+   "reapariciones": 3
   },
   {
    "cargo": "Coordinador De Costos",
@@ -7240,13 +6962,13 @@
     }
    ],
    "puntaje": 12,
-   "ausencias": 1,
+   "ausencias": 2,
    "nueva": false,
    "visto_desde": "2026-09-05",
    "republicaciones": 0,
    "reapariciones": 2,
    "marcas": [
-    "no apareció hoy en la fuente (1 de 3)"
+    "no apareció hoy en la fuente (2 de 3)"
    ]
   },
   {
@@ -7357,14 +7079,73 @@
     }
    ],
    "puntaje": 12,
-   "ausencias": 1,
+   "ausencias": 2,
    "nueva": false,
    "visto_desde": "2026-09-05",
    "republicaciones": 0,
    "reapariciones": 2,
    "marcas": [
-    "no apareció hoy en la fuente (1 de 3)"
+    "no apareció hoy en la fuente (2 de 3)"
    ]
+  },
+  {
+   "cargo": "Coordinador de operaciones (proy. tecnología)",
+   "empresa": "CONFIDENTIAL",
+   "empresa_anonima": true,
+   "ciudad": "Bogotá D.C.",
+   "salario": null,
+   "publicado": "2026-09-17",
+   "vigente_hasta": "2026-11-16",
+   "contrato": "PER_DIEM",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/coordinador-de-operaciones-proy-tecnologia-1886768773",
+     "id_fuente": null
+    }
+   ],
+   "inc": [
+    "salario"
+   ],
+   "deducidos": [],
+   "modalidad": "presencial",
+   "modalidad_literal": "presencial",
+   "modalidad_por_confirmar": false,
+   "id": "empresa no revelada|coordinador de operaciones|bogota#anon:0-0-2026-09-17",
+   "duplicados_hoy": 1,
+   "marcas": [
+    "empresa no revelada: puede estar repetida"
+   ],
+   "desglose": [
+    {
+     "concepto": "cargo secundario de RR.HH.",
+     "puntos": 0,
+     "nota": "solo suma si el cuerpo habla de compensación"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "itil"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    }
+   ],
+   "puntaje": 12,
+   "ausencias": 0,
+   "nueva": false,
+   "visto_desde": "2026-09-18",
+   "republicaciones": 0,
+   "reapariciones": 2,
+   "reaparecida": true
   },
   {
    "cargo": "Coordinador de proyectos - Cota",
@@ -7415,12 +7196,14 @@
     }
    ],
    "puntaje": 12,
-   "ausencias": 0,
+   "ausencias": 1,
    "nueva": false,
    "visto_desde": "2026-09-11",
    "republicaciones": 0,
    "reapariciones": 2,
-   "reaparecida": true
+   "marcas": [
+    "no apareció hoy en la fuente (1 de 3)"
+   ]
   },
   {
    "cargo": "Coordinador de servicios TI",
@@ -7532,13 +7315,13 @@
     }
    ],
    "puntaje": 12,
-   "ausencias": 1,
+   "ausencias": 2,
    "nueva": false,
    "visto_desde": "2026-09-01",
    "republicaciones": 0,
    "reapariciones": 2,
    "marcas": [
-    "no apareció hoy en la fuente (1 de 3)"
+    "no apareció hoy en la fuente (2 de 3)"
    ]
   },
   {
@@ -7654,6 +7437,62 @@
    "reapariciones": 0
   },
   {
+   "cargo": "Coordinador(a) Administrativo(a) de Sedes - Experiencia en Salud",
+   "empresa": "Audiosalud Integral IPS",
+   "empresa_anonima": false,
+   "ciudad": "Bogotá, D.C.",
+   "salario": null,
+   "publicado": "2026-07-29",
+   "vigente_hasta": "2026-09-27",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": "F99DAC040A53F3EC",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "computrabajo",
+     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-coordinadora-administrativoa-de-sedes-experiencia-en-salud-en-bogota-dc-A86BAB3172DA023F61373E686DCF3405",
+     "id_fuente": "F99DAC040A53F3EC"
+    }
+   ],
+   "inc": [
+    "salario"
+   ],
+   "deducidos": [],
+   "modalidad": "presencial",
+   "modalidad_literal": "Presencial",
+   "modalidad_por_confirmar": false,
+   "id": "audiosalud integral ips|coordinador administrativo de sedes experiencia en salud|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "cargo secundario de RR.HH.",
+     "puntos": 0,
+     "nota": "solo suma si el cuerpo habla de compensación"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "coordinacion de equipos"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    }
+   ],
+   "puntaje": 12,
+   "ausencias": 0,
+   "nueva": false,
+   "visto_desde": "2026-09-07",
+   "republicaciones": 0,
+   "reapariciones": 2,
+   "reaparecida": true
+  },
+  {
    "cargo": "Coordinador(a) de Proyectos Tecnológicos - Sector Gobierno",
    "empresa": "GIITIC SAS",
    "empresa_anonima": false,
@@ -7703,13 +7542,13 @@
     }
    ],
    "puntaje": 12,
-   "ausencias": 1,
+   "ausencias": 2,
    "nueva": false,
    "visto_desde": "2026-09-05",
    "republicaciones": 0,
    "reapariciones": 1,
    "marcas": [
-    "no apareció hoy en la fuente (1 de 3)"
+    "no apareció hoy en la fuente (2 de 3)"
    ]
   },
   {
@@ -7762,13 +7601,13 @@
     }
    ],
    "puntaje": 12,
-   "ausencias": 1,
+   "ausencias": 2,
    "nueva": false,
    "visto_desde": "2026-09-05",
    "republicaciones": 0,
    "reapariciones": 2,
    "marcas": [
-    "no apareció hoy en la fuente (1 de 3)"
+    "no apareció hoy en la fuente (2 de 3)"
    ]
   },
   {
@@ -8004,59 +7843,6 @@
    "reapariciones": 0
   },
   {
-   "cargo": "Director - Programa Ingenieria de Sistemas",
-   "empresa": "LOS LIBERTADORES",
-   "empresa_anonima": false,
-   "ciudad": "Bogotá D.C.",
-   "salario": {
-    "min": 4000001.0,
-    "max": 4500000.0,
-    "moneda": "COP",
-    "periodo": "MONTH"
-   },
-   "publicado": "2026-09-07",
-   "vigente_hasta": "2026-11-06",
-   "contrato": "FULL_TIME",
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": null,
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "elempleo",
-     "url": "https://www.elempleo.com/co/ofertas-trabajo/director-programa-ingenieria-de-sistemas-1886763113",
-     "id_fuente": null
-    }
-   ],
-   "inc": [
-    "modalidad"
-   ],
-   "deducidos": [],
-   "modalidad": null,
-   "modalidad_literal": null,
-   "modalidad_por_confirmar": false,
-   "id": "los libertadores|director programa ingenieria de sistemas|bogota",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "salario publicado igual o sobre $4.000.000",
-     "puntos": 12,
-     "nota": "4.500.000 COP"
-    }
-   ],
-   "puntaje": 12,
-   "ausencias": 2,
-   "nueva": false,
-   "visto_desde": "2026-09-08",
-   "republicaciones": 0,
-   "reapariciones": 1,
-   "marcas": [
-    "no apareció hoy en la fuente (2 de 3)"
-   ]
-  },
-  {
    "cargo": "Docente en Tecnología e Informática Bilingüe Nivel B1",
    "empresa": "Comunidad de Hermanos Maristas de la enseñanza",
    "empresa_anonima": false,
@@ -8106,119 +7892,6 @@
    "visto_desde": "2026-09-01",
    "republicaciones": 0,
    "reapariciones": 0
-  },
-  {
-   "cargo": "Docente medio tiempo – ingenieria de sistemas",
-   "empresa": "Fundación Universitaria San Mateo",
-   "empresa_anonima": false,
-   "ciudad": "Bogotá, D.C.",
-   "salario": null,
-   "publicado": "2026-07-23",
-   "vigente_hasta": "2026-09-21",
-   "contrato": "PART_TIME",
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": "3465A1EBA866C9D7",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "computrabajo",
-     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-docente-medio-tiempo-ingenieria-de-sistemas-en-bogota-dc-D196DE64CEDE240861373E686DCF3405",
-     "id_fuente": "3465A1EBA866C9D7"
-    }
-   ],
-   "inc": [
-    "salario",
-    "modalidad"
-   ],
-   "deducidos": [],
-   "modalidad": null,
-   "modalidad_literal": null,
-   "modalidad_por_confirmar": false,
-   "id": "fundacion universitaria san mateo|docente ingenieria de sistemas|bogota",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "bases de datos, python, programacion"
-    },
-    {
-     "concepto": "salario",
-     "puntos": 0,
-     "nota": "sin salario publicado, no suma ni resta"
-    }
-   ],
-   "puntaje": 12,
-   "ausencias": 2,
-   "nueva": false,
-   "visto_desde": "2026-09-01",
-   "republicaciones": 0,
-   "reapariciones": 2,
-   "marcas": [
-    "no apareció hoy en la fuente (2 de 3)"
-   ]
-  },
-  {
-   "cargo": "Gerente de Servicios Junior de TI o Coordinador de Servicios de TI /100% Presencial",
-   "empresa": "CONFIDENTIAL",
-   "empresa_anonima": true,
-   "ciudad": "Bogotá D.C.",
-   "salario": null,
-   "publicado": "2026-07-23",
-   "vigente_hasta": "2026-09-21",
-   "contrato": "FULL_TIME",
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": null,
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "elempleo",
-     "url": "https://www.elempleo.com/co/ofertas-trabajo/gerente-de-servicios-junior-de-ti-o-coordinador-de-servicios-de-ti-100-presencial-1886743483",
-     "id_fuente": null
-    }
-   ],
-   "inc": [
-    "salario"
-   ],
-   "deducidos": [],
-   "modalidad": "presencial",
-   "modalidad_literal": "presencial",
-   "modalidad_por_confirmar": false,
-   "id": "empresa no revelada|gerente de servicios junior de ti o coordinador de servicios de ti 100|bogota#anon:0-0-2026-07-23",
-   "duplicados_hoy": 1,
-   "marcas": [
-    "empresa no revelada: puede estar repetida",
-    "no apareció hoy en la fuente (2 de 3)"
-   ],
-   "desglose": [
-    {
-     "concepto": "cargo secundario de RR.HH.",
-     "puntos": 0,
-     "nota": "solo suma si el cuerpo habla de compensación"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "itil"
-    },
-    {
-     "concepto": "salario",
-     "puntos": 0,
-     "nota": "sin salario publicado, no suma ni resta"
-    }
-   ],
-   "puntaje": 12,
-   "ausencias": 2,
-   "nueva": false,
-   "visto_desde": "2026-09-01",
-   "republicaciones": 0,
-   "reapariciones": 1
   },
   {
    "cargo": "Gerente de Tecnologia",
@@ -8273,6 +7946,63 @@
    "visto_desde": "2026-09-01",
    "republicaciones": 0,
    "reapariciones": 0
+  },
+  {
+   "cargo": "Gestor de proyectos",
+   "empresa": "Appril Labs S.A.S.",
+   "empresa_anonima": false,
+   "ciudad": "Bogotá, D.C.",
+   "salario": null,
+   "publicado": "2026-07-29",
+   "vigente_hasta": "2026-09-27",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": "204014C3F49918A5",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "computrabajo",
+     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-gestor-de-proyectos-en-bogota-dc-FB8B2B51EB58580561373E686DCF3405",
+     "id_fuente": "204014C3F49918A5"
+    }
+   ],
+   "inc": [
+    "salario",
+    "modalidad"
+   ],
+   "deducidos": [],
+   "modalidad": null,
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "appril labs|gestor de proyectos|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "cargo secundario de RR.HH.",
+     "puntos": 0,
+     "nota": "solo suma si el cuerpo habla de compensación"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "cronograma"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    }
+   ],
+   "puntaje": 12,
+   "ausencias": 0,
+   "nueva": false,
+   "visto_desde": "2026-09-07",
+   "republicaciones": 0,
+   "reapariciones": 2,
+   "reaparecida": true
   },
   {
    "cargo": "Ingeniero con experiencia en Infraestructura Tecnólogica con Ingles B1",
@@ -8432,11 +8162,14 @@
     }
    ],
    "puntaje": 12,
-   "ausencias": 0,
-   "nueva": true,
+   "ausencias": 1,
+   "nueva": false,
    "visto_desde": "2026-09-22",
    "republicaciones": 0,
-   "reapariciones": 0
+   "reapariciones": 0,
+   "marcas": [
+    "no apareció hoy en la fuente (1 de 3)"
+   ]
   },
   {
    "cargo": "Ingeniero de sistemas - Autopista floridablnaca piedecuesta",
@@ -8472,7 +8205,7 @@
    "modalidad_por_confirmar": false,
    "marcas": [
     "remoto fuera de Colombia, contratación por confirmar",
-    "no apareció hoy en la fuente (1 de 3)"
+    "no apareció hoy en la fuente (2 de 3)"
    ],
    "id": "ayuda temporal de santader|ingeniero de sistemas autopista floridablnaca piedecuesta|santander",
    "duplicados_hoy": 1,
@@ -8494,64 +8227,62 @@
     }
    ],
    "puntaje": 12,
-   "ausencias": 1,
+   "ausencias": 2,
    "nueva": false,
    "visto_desde": "2026-09-03",
    "republicaciones": 0,
    "reapariciones": 2
   },
   {
-   "cargo": "Jefe Sistemas Información",
-   "empresa": "CLARO COLOMBIA",
+   "cargo": "Ingeniero especialista en diseño de Sistemas Contraincendios (SCI)",
+   "empresa": "MONTAJES Y SERVICIOS INDUSTRIALES S.A.S",
    "empresa_anonima": false,
-   "ciudad": "Bogotá D.C.",
-   "salario": null,
-   "publicado": "2026-08-28",
-   "vigente_hasta": "2026-10-27",
+   "ciudad": "Bogotá, D.C.",
+   "salario": {
+    "min": 4000000.0,
+    "max": 4000000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-09-07",
+   "vigente_hasta": "2026-11-06",
    "contrato": "FULL_TIME",
    "agencia": null,
    "direccion": null,
    "lat": null,
    "lon": null,
-   "id_fuente": null,
+   "id_fuente": "E483DF5E5C00805D",
    "pais": null,
    "fuentes": [
     {
-     "fuente": "elempleo",
-     "url": "https://www.elempleo.com/co/ofertas-trabajo/jefe-sistemas-informacion-1886758865",
-     "id_fuente": null
+     "fuente": "computrabajo",
+     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ingeniero-especialista-en-diseno-de-sistemas-contraincendios-sci-en-bogota-dc-26919D40103DA21361373E686DCF3405",
+     "id_fuente": "E483DF5E5C00805D"
     }
    ],
    "inc": [
-    "salario"
+    "modalidad"
    ],
    "deducidos": [],
-   "modalidad": "presencial",
-   "modalidad_literal": "presencial",
+   "modalidad": null,
+   "modalidad_literal": null,
    "modalidad_por_confirmar": false,
-   "id": "claro|jefe sistemas informacion|bogota",
+   "id": "montajes y servicios industriales|ingeniero especialista en diseno de sistemas contraincendios|bogota",
    "duplicados_hoy": 1,
    "desglose": [
     {
-     "concepto": "el cuerpo menciona la técnica del oficio",
+     "concepto": "salario publicado igual o sobre $4.000.000",
      "puntos": 12,
-     "nota": "sql, python, power bi"
-    },
-    {
-     "concepto": "salario",
-     "puntos": 0,
-     "nota": "sin salario publicado, no suma ni resta"
+     "nota": "4.000.000 COP"
     }
    ],
    "puntaje": 12,
-   "ausencias": 2,
+   "ausencias": 0,
    "nueva": false,
-   "visto_desde": "2026-09-01",
+   "visto_desde": "2026-09-08",
    "republicaciones": 0,
    "reapariciones": 2,
-   "marcas": [
-    "no apareció hoy en la fuente (2 de 3)"
-   ]
+   "reaparecida": true
   },
   {
    "cargo": "Líder de Proyectos TI",
@@ -8643,7 +8374,7 @@
    "duplicados_hoy": 1,
    "marcas": [
     "empresa no revelada: puede estar repetida",
-    "no apareció hoy en la fuente (1 de 3)"
+    "no apareció hoy en la fuente (2 de 3)"
    ],
    "desglose": [
     {
@@ -8658,7 +8389,7 @@
     }
    ],
    "puntaje": 12,
-   "ausencias": 1,
+   "ausencias": 2,
    "nueva": false,
    "visto_desde": "2026-09-01",
    "republicaciones": 0,
@@ -8778,8 +8509,7 @@
    "nueva": false,
    "visto_desde": "2026-09-01",
    "republicaciones": 4,
-   "reapariciones": 6,
-   "reaparecida": true
+   "reapariciones": 6
   },
   {
    "cargo": "Profesor Ingeniería software - Acompañamiento de Prácticas Profesionales",
@@ -8819,7 +8549,7 @@
    "marcas": [
     "ciudad sin publicar",
     "empresa no revelada: puede estar repetida",
-    "no apareció hoy en la fuente (1 de 3)"
+    "no apareció hoy en la fuente (2 de 3)"
    ],
    "id": "empresa no revelada|profesor ingenieria software acompanamiento de practicas profesionales|#anon:4000001-4500000-2026-08-28",
    "duplicados_hoy": 1,
@@ -8831,7 +8561,7 @@
     }
    ],
    "puntaje": 12,
-   "ausencias": 1,
+   "ausencias": 2,
    "nueva": false,
    "visto_desde": "2026-09-01",
    "republicaciones": 0,
@@ -9305,13 +9035,13 @@
     }
    ],
    "puntaje": 12,
-   "ausencias": 1,
+   "ausencias": 2,
    "nueva": false,
    "visto_desde": "2026-09-17",
    "republicaciones": 0,
    "reapariciones": 0,
    "marcas": [
-    "no apareció hoy en la fuente (1 de 3)"
+    "no apareció hoy en la fuente (2 de 3)"
    ]
   },
   {
@@ -9430,6 +9160,255 @@
    "reapariciones": 1
   },
   {
+   "cargo": "Ingeniero de Proyectos Tecnología",
+   "empresa": "ICONTEC",
+   "empresa_anonima": false,
+   "ciudad": "Bogotá D.C.",
+   "salario": null,
+   "publicado": "2026-09-23",
+   "vigente_hasta": "2026-11-22",
+   "contrato": "PER_DIEM",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/ingeniero-de-proyectos-tecnologia-1886770929",
+     "id_fuente": null
+    }
+   ],
+   "inc": [
+    "salario",
+    "modalidad"
+   ],
+   "deducidos": [],
+   "modalidad": null,
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "icontec|ingeniero de proyectos tecnologia|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    },
+    {
+     "concepto": "publicada hace menos de 3 días",
+     "puntos": 10,
+     "nota": "hace 0 día(s)"
+    }
+   ],
+   "puntaje": 10,
+   "ausencias": 0,
+   "nueva": true,
+   "visto_desde": "2026-09-23",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
+  {
+   "cargo": "COORDINADOR DE INVENTARIOS 634131",
+   "empresa": "JOBANDTALENT CO SAS",
+   "empresa_anonima": false,
+   "ciudad": "Cundinamarca",
+   "salario": {
+    "min": 1500001.0,
+    "max": 2000000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-09-22",
+   "vigente_hasta": "2026-10-22",
+   "contrato": "PER_DIEM",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/coordinador-de-inventarios-634131-1886770455",
+     "id_fuente": null
+    }
+   ],
+   "inc": [
+    "modalidad"
+   ],
+   "deducidos": [],
+   "modalidad": null,
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "jobandtalent co|coordinador de inventarios|bogota alrededores",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "cargo secundario de RR.HH.",
+     "puntos": 0,
+     "nota": "solo suma si el cuerpo habla de compensación"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "excel"
+    },
+    {
+     "concepto": "salario publicado por debajo de $4.000.000",
+     "puntos": -15,
+     "nota": "2.000.000 COP — se muestra igual: el publicado casi nunca es el negociado"
+    },
+    {
+     "concepto": "publicada hace menos de 3 días",
+     "puntos": 10,
+     "nota": "hace 1 día(s)"
+    }
+   ],
+   "puntaje": 7,
+   "ausencias": 0,
+   "nueva": true,
+   "visto_desde": "2026-09-23",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
+  {
+   "cargo": "COORDINADOR DE OPERACIONES SEGURIDAD PRIVADA",
+   "empresa": "CONFIDENTIAL",
+   "empresa_anonima": true,
+   "ciudad": "Bogotá D.C.",
+   "salario": {
+    "min": 3000001.0,
+    "max": 3500000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-09-22",
+   "vigente_hasta": "2026-11-21",
+   "contrato": "TEMPORARY",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/coordinador-de-operaciones-seguridad-privada-1886770865",
+     "id_fuente": null
+    }
+   ],
+   "inc": [
+    "modalidad"
+   ],
+   "deducidos": [],
+   "modalidad": null,
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "empresa no revelada|coordinador de operaciones seguridad privada|bogota#anon:3000001-3500000-2026-09-22",
+   "duplicados_hoy": 1,
+   "marcas": [
+    "empresa no revelada: puede estar repetida"
+   ],
+   "desglose": [
+    {
+     "concepto": "cargo secundario de RR.HH.",
+     "puntos": 0,
+     "nota": "solo suma si el cuerpo habla de compensación"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "programacion, manejo de personal"
+    },
+    {
+     "concepto": "salario publicado por debajo de $4.000.000",
+     "puntos": -15,
+     "nota": "3.500.000 COP — se muestra igual: el publicado casi nunca es el negociado"
+    },
+    {
+     "concepto": "publicada hace menos de 3 días",
+     "puntos": 10,
+     "nota": "hace 1 día(s)"
+    }
+   ],
+   "puntaje": 7,
+   "ausencias": 0,
+   "nueva": true,
+   "visto_desde": "2026-09-23",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
+  {
+   "cargo": "Coordinador Operativo De Tecnología Biomédica",
+   "empresa": "Medicall Talento Humano",
+   "empresa_anonima": false,
+   "ciudad": "Bogotá, D.C.",
+   "salario": {
+    "min": 3400000.0,
+    "max": 3400000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-09-23",
+   "vigente_hasta": "2026-11-22",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": "A8DA0C7AE0A63DD4",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "computrabajo",
+     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-coordinador-operativo-de-tecnologia-biomedica-en-bogota-dc-5DA4400D4F0247FF61373E686DCF3405",
+     "id_fuente": "A8DA0C7AE0A63DD4"
+    }
+   ],
+   "inc": [
+    "modalidad"
+   ],
+   "deducidos": [],
+   "modalidad": null,
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "medicall talento humano|coordinador operativo de tecnologia biomedica|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "cargo secundario de RR.HH.",
+     "puntos": 0,
+     "nota": "solo suma si el cuerpo habla de compensación"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "programacion"
+    },
+    {
+     "concepto": "salario publicado por debajo de $4.000.000",
+     "puntos": -15,
+     "nota": "3.400.000 COP — se muestra igual: el publicado casi nunca es el negociado"
+    },
+    {
+     "concepto": "publicada hace menos de 3 días",
+     "puntos": 10,
+     "nota": "hace 0 día(s)"
+    }
+   ],
+   "puntaje": 7,
+   "ausencias": 0,
+   "nueva": true,
+   "visto_desde": "2026-09-23",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
+  {
    "cargo": "Coordinador de Limpieza Hospitalaria /Formación Técnica en Servicios de Limpieza - Auditoría y Formación",
    "empresa": "Casalimpia s.a.",
    "empresa_anonima": false,
@@ -9488,11 +9467,14 @@
     }
    ],
    "puntaje": 7,
-   "ausencias": 0,
-   "nueva": true,
+   "ausencias": 1,
+   "nueva": false,
    "visto_desde": "2026-09-22",
    "republicaciones": 0,
-   "reapariciones": 0
+   "reapariciones": 0,
+   "marcas": [
+    "no apareció hoy en la fuente (1 de 3)"
+   ]
   },
   {
    "cargo": "Coordinador(a) Académico(a) y de Convivencia",
@@ -9551,9 +9533,137 @@
     }
    ],
    "puntaje": 7,
+   "ausencias": 1,
+   "nueva": false,
+   "visto_desde": "2026-09-22",
+   "republicaciones": 0,
+   "reapariciones": 0,
+   "marcas": [
+    "no apareció hoy en la fuente (1 de 3)"
+   ]
+  },
+  {
+   "cargo": "Coordinador/a de Proyectos y Desarrollo Corporativo",
+   "empresa": "INVERVALUE COLOMBIA S.A.",
+   "empresa_anonima": false,
+   "ciudad": "Bogotá, D.C.",
+   "salario": {
+    "min": 2500000.0,
+    "max": 2500000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-09-22",
+   "vigente_hasta": "2026-11-21",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": "85DFB0BCA7FFF3FC",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "computrabajo",
+     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-coordinadora-de-proyectos-y-desarrollo-corporativo-en-bogota-dc-4270A644701A928C61373E686DCF3405",
+     "id_fuente": "85DFB0BCA7FFF3FC"
+    }
+   ],
+   "inc": [
+    "modalidad"
+   ],
+   "deducidos": [],
+   "modalidad": null,
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "invervalue|coordinador a de proyectos y desarrollo corporativo|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "cargo secundario de RR.HH.",
+     "puntos": 0,
+     "nota": "solo suma si el cuerpo habla de compensación"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "gestion de proyectos, excel"
+    },
+    {
+     "concepto": "salario publicado por debajo de $4.000.000",
+     "puntos": -15,
+     "nota": "2.500.000 COP — se muestra igual: el publicado casi nunca es el negociado"
+    },
+    {
+     "concepto": "publicada hace menos de 3 días",
+     "puntos": 10,
+     "nota": "hace 1 día(s)"
+    }
+   ],
+   "puntaje": 7,
    "ausencias": 0,
    "nueva": true,
-   "visto_desde": "2026-09-22",
+   "visto_desde": "2026-09-23",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
+  {
+   "cargo": "Docente Tecnologia - Bilingue",
+   "empresa": "GRUPO EDUCATIVO MONTERROSALES",
+   "empresa_anonima": false,
+   "ciudad": "Bogotá, D.C.",
+   "salario": {
+    "min": 3750000.0,
+    "max": 3750000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-09-22",
+   "vigente_hasta": "2026-11-21",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": "77E263B735CE4BC3",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "computrabajo",
+     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-docente-tecnologia-bilingue-en-bogota-dc-D891789D5088738461373E686DCF3405",
+     "id_fuente": "77E263B735CE4BC3"
+    }
+   ],
+   "inc": [
+    "modalidad"
+   ],
+   "deducidos": [],
+   "modalidad": null,
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "educativo monterrosales|docente tecnologia|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "programacion, robotica"
+    },
+    {
+     "concepto": "salario publicado por debajo de $4.000.000",
+     "puntos": -15,
+     "nota": "3.750.000 COP — se muestra igual: el publicado casi nunca es el negociado"
+    },
+    {
+     "concepto": "publicada hace menos de 3 días",
+     "puntos": 10,
+     "nota": "hace 1 día(s)"
+    }
+   ],
+   "puntaje": 7,
+   "ausencias": 0,
+   "nueva": true,
+   "visto_desde": "2026-09-23",
    "republicaciones": 0,
    "reapariciones": 0
   },
@@ -9611,11 +9721,14 @@
     }
    ],
    "puntaje": 7,
-   "ausencias": 0,
+   "ausencias": 1,
    "nueva": false,
    "visto_desde": "2026-09-21",
    "republicaciones": 0,
-   "reapariciones": 0
+   "reapariciones": 0,
+   "marcas": [
+    "no apareció hoy en la fuente (1 de 3)"
+   ]
   },
   {
    "cargo": "Invertigador de Ingenieria de Sistemas",
@@ -9671,9 +9784,72 @@
     }
    ],
    "puntaje": 7,
-   "ausencias": 0,
+   "ausencias": 1,
    "nueva": false,
    "visto_desde": "2026-09-20",
+   "republicaciones": 0,
+   "reapariciones": 0,
+   "marcas": [
+    "no apareció hoy en la fuente (1 de 3)"
+   ]
+  },
+  {
+   "cargo": "ingeniero sistemas",
+   "empresa": "OMEKA INGENIERIA S.A.S.",
+   "empresa_anonima": false,
+   "ciudad": "Bogotá, D.C.",
+   "salario": {
+    "min": 1300000.0,
+    "max": 1300000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-09-22",
+   "vigente_hasta": "2026-11-21",
+   "contrato": "PART_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": "9169C16F87338B4E",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "computrabajo",
+     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ingeniero-sistemas-en-bogota-dc-F52096A233D3981961373E686DCF3405",
+     "id_fuente": "9169C16F87338B4E"
+    }
+   ],
+   "inc": [
+    "modalidad"
+   ],
+   "deducidos": [],
+   "modalidad": null,
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "omeka ingenieria|ingeniero sistemas|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "base de datos"
+    },
+    {
+     "concepto": "salario publicado por debajo de $4.000.000",
+     "puntos": -15,
+     "nota": "1.300.000 COP — se muestra igual: el publicado casi nunca es el negociado"
+    },
+    {
+     "concepto": "publicada hace menos de 3 días",
+     "puntos": 10,
+     "nota": "hace 1 día(s)"
+    }
+   ],
+   "puntaje": 7,
+   "ausencias": 0,
+   "nueva": true,
+   "visto_desde": "2026-09-23",
    "republicaciones": 0,
    "reapariciones": 0
   },
@@ -9732,82 +9908,11 @@
     }
    ],
    "puntaje": 2,
-   "ausencias": 1,
+   "ausencias": 2,
    "nueva": false,
    "visto_desde": "2026-09-17",
    "republicaciones": 0,
    "reapariciones": 1,
-   "marcas": [
-    "no apareció hoy en la fuente (1 de 3)"
-   ]
-  },
-  {
-   "cargo": "Coordinador administrativo y servicio al cliente - Contratacion inmediata",
-   "empresa": "GRUPO ALIANZA",
-   "empresa_anonima": false,
-   "ciudad": "Bogotá, D.C.",
-   "salario": {
-    "min": 2500000.0,
-    "max": 2500000.0,
-    "moneda": "COP",
-    "periodo": "MONTH"
-   },
-   "publicado": "2026-08-09",
-   "vigente_hasta": "2026-10-10",
-   "contrato": "FULL_TIME",
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": "7C637005947452DB",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "computrabajo",
-     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-coordinador-administrativo-y-servicio-al-cliente-contratacion-inmediata-en-bogota-dc-408C70D51F7EF42861373E686DCF3405",
-     "id_fuente": "7C637005947452DB"
-    }
-   ],
-   "inc": [],
-   "deducidos": [],
-   "modalidad": "remoto",
-   "modalidad_literal": "remoto",
-   "modalidad_por_confirmar": false,
-   "id": "alianza|coordinador administrativo y servicio al cliente contratacion inmediata|bogota",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "cargo secundario de RR.HH.",
-     "puntos": 0,
-     "nota": "solo suma si el cuerpo habla de compensación"
-    },
-    {
-     "concepto": "remoto confirmado en el cuerpo del aviso",
-     "puntos": 15,
-     "nota": "remoto"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "bases de datos"
-    },
-    {
-     "concepto": "salario publicado por debajo de $4.000.000",
-     "puntos": -15,
-     "nota": "2.500.000 COP — se muestra igual: el publicado casi nunca es el negociado"
-    },
-    {
-     "concepto": "exige ingles b2",
-     "puntos": -10,
-     "nota": "el perfil no lo domina — se muestra igual: muchos avisos lo piden como «deseable» y luego no lo evalúan"
-    }
-   ],
-   "puntaje": 2,
-   "ausencias": 2,
-   "nueva": false,
-   "visto_desde": "2026-09-03",
-   "republicaciones": 1,
-   "reapariciones": 2,
    "marcas": [
     "no apareció hoy en la fuente (2 de 3)"
    ]
@@ -9864,6 +9969,61 @@
    "ausencias": 0,
    "nueva": false,
    "visto_desde": "2026-09-17",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
+  {
+   "cargo": "Docente de química y sistemas ambientales y sociedad - Bilingüe bachillerato internacional",
+   "empresa": "Interasesores S.A",
+   "empresa_anonima": false,
+   "ciudad": "Bogotá, D.C.",
+   "salario": {
+    "min": 6500000.0,
+    "max": 6500000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-09-15",
+   "vigente_hasta": "2026-11-14",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": "7922DA55925B7BDD",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "computrabajo",
+     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-docente-de-quimica-y-sistemas-ambientales-y-sociedad-bilingue-bachillerato-internacional-en-bogota-dc-2975A9A24459BF1C61373E686DCF3405",
+     "id_fuente": "7922DA55925B7BDD"
+    }
+   ],
+   "inc": [
+    "modalidad"
+   ],
+   "deducidos": [],
+   "modalidad": null,
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "interasesores|docente de quimica y sistemas ambientales y sociedad bachillerato internacional|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "salario publicado igual o sobre $4.000.000",
+     "puntos": 12,
+     "nota": "6.500.000 COP"
+    },
+    {
+     "concepto": "exige ingles b2",
+     "puntos": -10,
+     "nota": "el perfil no lo domina — se muestra igual: muchos avisos lo piden como «deseable» y luego no lo evalúan"
+    }
+   ],
+   "puntaje": 2,
+   "ausencias": 0,
+   "nueva": true,
+   "visto_desde": "2026-09-23",
    "republicaciones": 0,
    "reapariciones": 0
   },
@@ -9928,13 +10088,13 @@
     }
    ],
    "puntaje": 2,
-   "ausencias": 1,
+   "ausencias": 2,
    "nueva": false,
    "visto_desde": "2026-09-01",
    "republicaciones": 0,
    "reapariciones": 0,
    "marcas": [
-    "no apareció hoy en la fuente (1 de 3)"
+    "no apareció hoy en la fuente (2 de 3)"
    ]
   },
   {
@@ -10038,7 +10198,8 @@
    "modalidad_literal": null,
    "modalidad_por_confirmar": false,
    "marcas": [
-    "ciudad sin publicar"
+    "ciudad sin publicar",
+    "no apareció hoy en la fuente (1 de 3)"
    ],
    "id": "cambridgeconsultantslimited|contractors electronics or software|",
    "duplicados_hoy": 1,
@@ -10055,8 +10216,8 @@
     }
    ],
    "puntaje": 0,
-   "ausencias": 0,
-   "nueva": true,
+   "ausencias": 1,
+   "nueva": false,
    "visto_desde": "2026-09-22",
    "republicaciones": 0,
    "reapariciones": 0
@@ -10158,10 +10319,60 @@
    ],
    "puntaje": 0,
    "ausencias": 0,
-   "nueva": true,
+   "nueva": false,
    "visto_desde": "2026-09-22",
    "republicaciones": 0,
    "reapariciones": 0
+  },
+  {
+   "cargo": "Director de Tecnología y Estrategia",
+   "empresa": "CONFIDENTIAL",
+   "empresa_anonima": true,
+   "ciudad": "Bogotá D.C.",
+   "salario": null,
+   "publicado": "2026-09-11",
+   "vigente_hasta": "2026-11-10",
+   "contrato": "TEMPORARY",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/director-de-tecnologia-y-estrategia-1886765790",
+     "id_fuente": null
+    }
+   ],
+   "inc": [
+    "salario",
+    "modalidad"
+   ],
+   "deducidos": [],
+   "modalidad": null,
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "empresa no revelada|director de tecnologia y estrategia|bogota#anon:0-0-2026-09-11",
+   "duplicados_hoy": 1,
+   "marcas": [
+    "empresa no revelada: puede estar repetida"
+   ],
+   "desglose": [
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    }
+   ],
+   "puntaje": 0,
+   "ausencias": 0,
+   "nueva": false,
+   "visto_desde": "2026-09-12",
+   "republicaciones": 0,
+   "reapariciones": 2,
+   "reaparecida": true
   },
   {
    "cargo": "Docentes de química, tecnologia, ingles, frances, matemáticas, sociales y ciencias bilingües",
@@ -10292,7 +10503,7 @@
    "duplicados_hoy": 1,
    "marcas": [
     "empresa no revelada: puede estar repetida",
-    "no apareció hoy en la fuente (1 de 3)"
+    "no apareció hoy en la fuente (2 de 3)"
    ],
    "desglose": [
     {
@@ -10302,11 +10513,61 @@
     }
    ],
    "puntaje": 0,
-   "ausencias": 1,
+   "ausencias": 2,
    "nueva": false,
    "visto_desde": "2026-09-16",
    "republicaciones": 0,
    "reapariciones": 1
+  },
+  {
+   "cargo": "Ingeniería de Sistemas o Ingeniería Electrónica./ plataformas e infraestructura tecnológica.",
+   "empresa": "CONFIDENTIAL",
+   "empresa_anonima": true,
+   "ciudad": "Bogotá D.C.",
+   "salario": null,
+   "publicado": "2026-09-08",
+   "vigente_hasta": "2026-11-07",
+   "contrato": "PER_DIEM",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/ingenieria-de-sistemas-o-ingenieria-electronica-plataformas-e-infraestructura-tecnologica-1886763816",
+     "id_fuente": null
+    }
+   ],
+   "inc": [
+    "salario",
+    "modalidad"
+   ],
+   "deducidos": [],
+   "modalidad": null,
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "empresa no revelada|ingenieria de sistemas o ingenieria electronica plataformas e infraestructura tecnologica|bogota#anon:0-0-2026-09-08",
+   "duplicados_hoy": 1,
+   "marcas": [
+    "empresa no revelada: puede estar repetida"
+   ],
+   "desglose": [
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    }
+   ],
+   "puntaje": 0,
+   "ausencias": 0,
+   "nueva": false,
+   "visto_desde": "2026-09-10",
+   "republicaciones": 0,
+   "reapariciones": 3,
+   "reaparecida": true
   },
   {
    "cargo": "LÍDER DE PROYECTO TI - Infraestructura Audiovisual y Centros de Control",
@@ -10354,7 +10615,7 @@
    ],
    "puntaje": 0,
    "ausencias": 0,
-   "nueva": true,
+   "nueva": false,
    "visto_desde": "2026-09-22",
    "republicaciones": 0,
    "reapariciones": 0
@@ -10399,12 +10660,14 @@
     }
    ],
    "puntaje": 0,
-   "ausencias": 0,
+   "ausencias": 1,
    "nueva": false,
    "visto_desde": "2026-09-07",
    "republicaciones": 0,
    "reapariciones": 4,
-   "reaparecida": true
+   "marcas": [
+    "no apareció hoy en la fuente (1 de 3)"
+   ]
   },
   {
    "cargo": "Project Manager TI",
@@ -10504,8 +10767,7 @@
    "nueva": false,
    "visto_desde": "2026-09-09",
    "republicaciones": 0,
-   "reapariciones": 1,
-   "reaparecida": true
+   "reapariciones": 1
   },
   {
    "cargo": "Technology Lead, Electronics and Software – Defence and Security",
@@ -10540,7 +10802,8 @@
    "modalidad_literal": "hybrid",
    "modalidad_por_confirmar": false,
    "marcas": [
-    "ciudad sin publicar"
+    "ciudad sin publicar",
+    "no apareció hoy en la fuente (1 de 3)"
    ],
    "id": "cambridgeconsultantslimited|technology lead electronics and software defence and security|",
    "duplicados_hoy": 1,
@@ -10557,8 +10820,8 @@
     }
    ],
    "puntaje": 0,
-   "ausencias": 0,
-   "nueva": true,
+   "ausencias": 1,
+   "nueva": false,
    "visto_desde": "2026-09-22",
    "republicaciones": 0,
    "reapariciones": 0
@@ -10597,7 +10860,8 @@
    "modalidad_literal": null,
    "modalidad_por_confirmar": false,
    "marcas": [
-    "ciudad sin publicar"
+    "ciudad sin publicar",
+    "no apareció hoy en la fuente (1 de 3)"
    ],
    "id": "cambridgeconsultantslimited|technology leader wireless software systems|",
    "duplicados_hoy": 1,
@@ -10614,74 +10878,58 @@
     }
    ],
    "puntaje": 0,
-   "ausencias": 0,
-   "nueva": true,
+   "ausencias": 1,
+   "nueva": false,
    "visto_desde": "2026-09-22",
    "republicaciones": 0,
    "reapariciones": 0
   },
   {
-   "cargo": "COORDINADOR DE ADMINISTRACIÓN DE PERSONAL - MADRID REF: 1626192435-329",
-   "empresa": "AGENCIA DE EMPLEO Y FOMENTO EMPRESARIAL COMPENSAR",
+   "cargo": "ingeniero de sistemas - Sin experiencia",
+   "empresa": "TANDEM S.A.S",
    "empresa_anonima": false,
-   "ciudad": "Cundinamarca",
-   "salario": {
-    "min": 3000001.0,
-    "max": 3500000.0,
-    "moneda": "COP",
-    "periodo": "MONTH"
-   },
-   "publicado": "2026-07-23",
-   "vigente_hasta": "2026-09-21",
-   "contrato": "OTHER",
+   "ciudad": "Bogotá, D.C.",
+   "salario": null,
+   "publicado": "2026-09-07",
+   "vigente_hasta": "2026-11-06",
+   "contrato": "FULL_TIME",
    "agencia": null,
    "direccion": null,
    "lat": null,
    "lon": null,
-   "id_fuente": null,
+   "id_fuente": "C1E7953B94FF99A7",
    "pais": null,
    "fuentes": [
     {
-     "fuente": "elempleo",
-     "url": "https://www.elempleo.com/co/ofertas-trabajo/coordinador-de-administracion-de-personal-madrid-ref-1626192435329-1886743378",
-     "id_fuente": null
+     "fuente": "computrabajo",
+     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ingeniero-sistemas-en-bogota-dc-65DB162562316BE861373E686DCF3405",
+     "id_fuente": "C1E7953B94FF99A7"
     }
    ],
    "inc": [
+    "salario",
     "modalidad"
    ],
    "deducidos": [],
    "modalidad": null,
    "modalidad_literal": null,
    "modalidad_por_confirmar": false,
-   "id": "agencia de empleo y fomento empresarial compensar|coordinador de administracion de personal madrid ref 329|bogota alrededores",
+   "id": "tandem|ingeniero de sistemas sin experiencia|bogota",
    "duplicados_hoy": 1,
    "desglose": [
     {
-     "concepto": "cargo secundario de RR.HH.",
+     "concepto": "salario",
      "puntos": 0,
-     "nota": "solo suma si el cuerpo habla de compensación"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "bases de datos"
-    },
-    {
-     "concepto": "salario publicado por debajo de $4.000.000",
-     "puntos": -15,
-     "nota": "3.500.000 COP — se muestra igual: el publicado casi nunca es el negociado"
+     "nota": "sin salario publicado, no suma ni resta"
     }
    ],
-   "puntaje": -3,
-   "ausencias": 2,
+   "puntaje": 0,
+   "ausencias": 0,
    "nueva": false,
-   "visto_desde": "2026-09-01",
+   "visto_desde": "2026-09-08",
    "republicaciones": 0,
-   "reapariciones": 0,
-   "marcas": [
-    "no apareció hoy en la fuente (2 de 3)"
-   ]
+   "reapariciones": 1,
+   "reaparecida": true
   },
   {
    "cargo": "Coordinador Administrativo - Fontibon",
@@ -10737,12 +10985,14 @@
     }
    ],
    "puntaje": -3,
-   "ausencias": 0,
+   "ausencias": 1,
    "nueva": false,
    "visto_desde": "2026-09-03",
    "republicaciones": 0,
    "reapariciones": 3,
-   "reaparecida": true
+   "marcas": [
+    "no apareció hoy en la fuente (1 de 3)"
+   ]
   },
   {
    "cargo": "Coordinador de Alistamiento Técnico",
@@ -10862,8 +11112,7 @@
    "nueva": false,
    "visto_desde": "2026-09-14",
    "republicaciones": 0,
-   "reapariciones": 1,
-   "reaparecida": true
+   "reapariciones": 1
   },
   {
    "cargo": "Coordinador de Transporte Escolar",
@@ -10924,69 +11173,6 @@
    "visto_desde": "2026-09-01",
    "republicaciones": 4,
    "reapariciones": 2
-  },
-  {
-   "cargo": "Coordinador(a) de Servicio Técnico y Mantenimiento",
-   "empresa": "ALIADOS LABORALES S.A.S",
-   "empresa_anonima": false,
-   "ciudad": "Bogotá, D.C.",
-   "salario": {
-    "min": 3500000.0,
-    "max": 3500000.0,
-    "moneda": "COP",
-    "periodo": "MONTH"
-   },
-   "publicado": "2026-09-04",
-   "vigente_hasta": "2026-11-03",
-   "contrato": "FULL_TIME",
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": "2342C4529394552E",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "computrabajo",
-     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-coordinadora-de-servicio-tecnico-y-mantenimiento-en-bogota-dc-63531AEA04F980B261373E686DCF3405",
-     "id_fuente": "2342C4529394552E"
-    }
-   ],
-   "inc": [
-    "modalidad"
-   ],
-   "deducidos": [],
-   "modalidad": null,
-   "modalidad_literal": null,
-   "modalidad_por_confirmar": false,
-   "id": "aliados laborales|coordinador de servicio tecnico y mantenimiento|bogota",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "cargo secundario de RR.HH.",
-     "puntos": 0,
-     "nota": "solo suma si el cuerpo habla de compensación"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "excel"
-    },
-    {
-     "concepto": "salario publicado por debajo de $4.000.000",
-     "puntos": -15,
-     "nota": "3.500.000 COP — se muestra igual: el publicado casi nunca es el negociado"
-    }
-   ],
-   "puntaje": -3,
-   "ausencias": 2,
-   "nueva": false,
-   "visto_desde": "2026-09-05",
-   "republicaciones": 0,
-   "reapariciones": 2,
-   "marcas": [
-    "no apareció hoy en la fuente (2 de 3)"
-   ]
   },
   {
    "cargo": "Docente Robotica",
@@ -11145,11 +11331,14 @@
     }
    ],
    "puntaje": -3,
-   "ausencias": 0,
+   "ausencias": 1,
    "nueva": false,
    "visto_desde": "2026-09-05",
    "republicaciones": 0,
-   "reapariciones": 2
+   "reapariciones": 2,
+   "marcas": [
+    "no apareció hoy en la fuente (1 de 3)"
+   ]
   },
   {
    "cargo": "Ingeniero de Sistemas para entidad bancaria",
@@ -11200,68 +11389,13 @@
     }
    ],
    "puntaje": -3,
-   "ausencias": 0,
+   "ausencias": 1,
    "nueva": false,
    "visto_desde": "2026-09-16",
    "republicaciones": 0,
-   "reapariciones": 1
-  },
-  {
-   "cargo": "Ingeniero de sistemas - Madrid",
-   "empresa": "Global SAS",
-   "empresa_anonima": false,
-   "ciudad": "Cundinamarca",
-   "salario": {
-    "min": 3500000.0,
-    "max": 3500000.0,
-    "moneda": "COP",
-    "periodo": "MONTH"
-   },
-   "publicado": "2026-09-11",
-   "vigente_hasta": "2026-11-10",
-   "contrato": "FULL_TIME",
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": "FE2F2B84400C4AB5",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "computrabajo",
-     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ingeniero-de-sistemas-madrid-en-madrid-9AE7C984070F247961373E686DCF3405",
-     "id_fuente": "FE2F2B84400C4AB5"
-    }
-   ],
-   "inc": [
-    "modalidad"
-   ],
-   "deducidos": [],
-   "modalidad": null,
-   "modalidad_literal": null,
-   "modalidad_por_confirmar": false,
-   "id": "global|ingeniero de sistemas madrid|bogota alrededores",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "bases de datos, sql"
-    },
-    {
-     "concepto": "salario publicado por debajo de $4.000.000",
-     "puntos": -15,
-     "nota": "3.500.000 COP — se muestra igual: el publicado casi nunca es el negociado"
-    }
-   ],
-   "puntaje": -3,
-   "ausencias": 2,
-   "nueva": false,
-   "visto_desde": "2026-09-12",
-   "republicaciones": 0,
    "reapariciones": 1,
    "marcas": [
-    "no apareció hoy en la fuente (2 de 3)"
+    "no apareció hoy en la fuente (1 de 3)"
    ]
   },
   {
@@ -11317,8 +11451,7 @@
    "nueva": false,
    "visto_desde": "2026-09-06",
    "republicaciones": 0,
-   "reapariciones": 2,
-   "reaparecida": true
+   "reapariciones": 2
   },
   {
    "cargo": "Supervisor administrativo soporte técnico",
@@ -11367,13 +11500,13 @@
     }
    ],
    "puntaje": -3,
-   "ausencias": 1,
+   "ausencias": 2,
    "nueva": false,
    "visto_desde": "2026-09-06",
    "republicaciones": 0,
    "reapariciones": 2,
    "marcas": [
-    "no apareció hoy en la fuente (1 de 3)"
+    "no apareció hoy en la fuente (2 de 3)"
    ]
   },
   {
@@ -11656,12 +11789,14 @@
     }
    ],
    "puntaje": -3,
-   "ausencias": 0,
+   "ausencias": 1,
    "nueva": false,
    "visto_desde": "2026-09-08",
    "republicaciones": 0,
    "reapariciones": 2,
-   "reaparecida": true
+   "marcas": [
+    "no apareció hoy en la fuente (1 de 3)"
+   ]
   },
   {
    "cargo": "Profesor Tecnología Bilingüe",
@@ -11708,62 +11843,10 @@
    ],
    "puntaje": -10,
    "ausencias": 0,
-   "nueva": true,
+   "nueva": false,
    "visto_desde": "2026-09-22",
    "republicaciones": 0,
    "reapariciones": 0
-  },
-  {
-   "cargo": "Administrador de Activos de tecnología",
-   "empresa": "CONFIDENTIAL",
-   "empresa_anonima": true,
-   "ciudad": "Bogotá D.C.",
-   "salario": {
-    "min": 2000001.0,
-    "max": 2500000.0,
-    "moneda": "COP",
-    "periodo": "MONTH"
-   },
-   "publicado": "2026-07-23",
-   "vigente_hasta": "2026-09-21",
-   "contrato": "FULL_TIME",
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": null,
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "elempleo",
-     "url": "https://www.elempleo.com/co/ofertas-trabajo/administrador-de-activos-de-tecnologia-1886743488",
-     "id_fuente": null
-    }
-   ],
-   "inc": [],
-   "deducidos": [],
-   "modalidad": "presencial",
-   "modalidad_literal": "presencial",
-   "modalidad_por_confirmar": false,
-   "id": "empresa no revelada|administrador de activos de tecnologia|bogota#anon:2000001-2500000-2026-07-23",
-   "duplicados_hoy": 1,
-   "marcas": [
-    "empresa no revelada: puede estar repetida",
-    "no apareció hoy en la fuente (2 de 3)"
-   ],
-   "desglose": [
-    {
-     "concepto": "salario publicado por debajo de $4.000.000",
-     "puntos": -15,
-     "nota": "2.500.000 COP — se muestra igual: el publicado casi nunca es el negociado"
-    }
-   ],
-   "puntaje": -15,
-   "ausencias": 2,
-   "nueva": false,
-   "visto_desde": "2026-09-03",
-   "republicaciones": 0,
-   "reapariciones": 2
   },
   {
    "cargo": "SOPORTE EN SITIO Y MESA DE AYUDA",
@@ -11820,6 +11903,1324 @@
   }
  ],
  "caidas": [
+  {
+   "cargo": "Especialista seguridad informatica - Híbrido Bogotá",
+   "empresa": "CONFIDENTIAL",
+   "empresa_anonima": true,
+   "ciudad": "Bogotá D.C.",
+   "salario": {
+    "min": 6000001.0,
+    "max": 8000000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-09-18",
+   "vigente_hasta": "2026-11-17",
+   "contrato": "TEMPORARY",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/especialista-seguridad-informatica-hibrido-bogota-1886769138",
+     "id_fuente": null
+    }
+   ],
+   "inc": [],
+   "deducidos": [],
+   "modalidad": "remoto",
+   "modalidad_literal": "remota",
+   "modalidad_por_confirmar": true,
+   "id": "empresa no revelada|especialista seguridad informatica|bogota#anon:6000001-8000000-2026-09-18",
+   "duplicados_hoy": 1,
+   "marcas": [
+    "empresa no revelada: puede estar repetida",
+    "no apareció hoy en la fuente (2 de 3)"
+   ],
+   "desglose": [
+    {
+     "concepto": "remoto confirmado en el cuerpo del aviso",
+     "puntos": 15,
+     "nota": "remota"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "seguridad de la informacion, seguridad informatica, iso 27001"
+    },
+    {
+     "concepto": "salario publicado igual o sobre $4.000.000",
+     "puntos": 12,
+     "nota": "8.000.000 COP"
+    },
+    {
+     "concepto": "publicada hace menos de 3 días",
+     "puntos": 10,
+     "nota": "hace 2 día(s)"
+    }
+   ],
+   "puntaje": 49,
+   "nueva": false,
+   "visto_desde": "2026-09-19",
+   "republicaciones": 0,
+   "reapariciones": 0,
+   "desaparecio": "2026-09-23",
+   "dias_publicada": 4
+  },
+  {
+   "cargo": "Coordinador Administrativo",
+   "empresa": "G.T.A CONSULTING",
+   "empresa_anonima": false,
+   "ciudad": "Antioquia",
+   "salario": {
+    "min": 4000000.0,
+    "max": 4000000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-09-11",
+   "vigente_hasta": "2026-11-10",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": "21DE4A03A4433108",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "computrabajo",
+     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-coordinador-administrativo-en-envigado-1BFC9D6BB22E2ABA61373E686DCF3405",
+     "id_fuente": "21DE4A03A4433108"
+    }
+   ],
+   "inc": [],
+   "deducidos": [],
+   "modalidad": "remoto",
+   "modalidad_literal": "remota",
+   "modalidad_por_confirmar": false,
+   "marcas": [
+    "remoto fuera de Colombia, contratación por confirmar",
+    "no apareció hoy en la fuente (2 de 3)"
+   ],
+   "id": "g t a consulting|coordinador administrativo|antioquia",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "cargo secundario de RR.HH.",
+     "puntos": 0,
+     "nota": "solo suma si el cuerpo habla de compensación"
+    },
+    {
+     "concepto": "remoto confirmado en el cuerpo del aviso",
+     "puntos": 15,
+     "nota": "remota"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "excel"
+    },
+    {
+     "concepto": "salario publicado igual o sobre $4.000.000",
+     "puntos": 12,
+     "nota": "4.000.000 COP"
+    }
+   ],
+   "puntaje": 39,
+   "nueva": false,
+   "visto_desde": "2026-09-12",
+   "republicaciones": 0,
+   "reapariciones": 1,
+   "desaparecio": "2026-09-23",
+   "dias_publicada": 11
+  },
+  {
+   "cargo": "Coordinador de Sistemas Sector Salud",
+   "empresa": "CENTRO DE EMPLEO Y TALENTO COLSUBSIDIO",
+   "empresa_anonima": false,
+   "ciudad": "Bogotá, D.C.",
+   "salario": {
+    "min": 8000000.0,
+    "max": 8000000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-09-16",
+   "vigente_hasta": "2026-11-15",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": "7AA3FDE1981F3DFE",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "computrabajo",
+     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-coordinador-de-sistemas-sector-salud-en-bogota-dc-FA170F6BBD196F4F61373E686DCF3405",
+     "id_fuente": "7AA3FDE1981F3DFE"
+    }
+   ],
+   "inc": [],
+   "deducidos": [],
+   "modalidad": "presencial",
+   "modalidad_literal": "presencial",
+   "modalidad_por_confirmar": false,
+   "id": "centro de empleo y talento colsubsidio|coordinador de sistemas sector salud|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "cargo objetivo de la búsqueda",
+     "puntos": 25,
+     "nota": "Coordinador de Sistemas Sector Salud"
+    },
+    {
+     "concepto": "salario publicado igual o sobre $4.000.000",
+     "puntos": 12,
+     "nota": "8.000.000 COP"
+    }
+   ],
+   "puntaje": 37,
+   "nueva": false,
+   "visto_desde": "2026-09-17",
+   "republicaciones": 0,
+   "reapariciones": 0,
+   "marcas": [
+    "no apareció hoy en la fuente (2 de 3)"
+   ],
+   "desaparecio": "2026-09-23",
+   "dias_publicada": 6
+  },
+  {
+   "cargo": "Coordinador de Cartera y Tesorería - Sector Farmacéutico",
+   "empresa": "MICHAEL PAGE INTERNATIONAL",
+   "empresa_anonima": false,
+   "ciudad": "Bogotá D.C.",
+   "salario": {
+    "min": 6000001.0,
+    "max": 8000000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-09-19",
+   "vigente_hasta": "2026-11-18",
+   "contrato": "TEMPORARY",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/coordinador-de-cartera-y-tesoreria-sector-farmaceutico-1886769366",
+     "id_fuente": null
+    }
+   ],
+   "inc": [
+    "modalidad"
+   ],
+   "deducidos": [],
+   "modalidad": null,
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "michael page international|coordinador de cartera y tesoreria sector farmaceutico|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "cargo secundario de RR.HH.",
+     "puntos": 0,
+     "nota": "solo suma si el cuerpo habla de compensación"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "programacion, excel"
+    },
+    {
+     "concepto": "salario publicado igual o sobre $4.000.000",
+     "puntos": 12,
+     "nota": "8.000.000 COP"
+    },
+    {
+     "concepto": "publicada hace menos de 3 días",
+     "puntos": 10,
+     "nota": "hace 1 día(s)"
+    }
+   ],
+   "puntaje": 34,
+   "nueva": false,
+   "visto_desde": "2026-09-19",
+   "republicaciones": 0,
+   "reapariciones": 0,
+   "marcas": [
+    "no apareció hoy en la fuente (2 de 3)"
+   ],
+   "desaparecio": "2026-09-23",
+   "dias_publicada": 4
+  },
+  {
+   "cargo": "coordinador financiero sector farmaceutico",
+   "empresa": "MICHAEL PAGE INTERNATIONAL",
+   "empresa_anonima": false,
+   "ciudad": "Bogotá D.C.",
+   "salario": {
+    "min": 6000001.0,
+    "max": 8000000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-09-19",
+   "vigente_hasta": "2026-11-18",
+   "contrato": "TEMPORARY",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/coordinador-financiero-sector-farmaceutico-1886769363",
+     "id_fuente": null
+    }
+   ],
+   "inc": [
+    "modalidad"
+   ],
+   "deducidos": [],
+   "modalidad": null,
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "michael page international|coordinador financiero sector farmaceutico|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "cargo secundario de RR.HH.",
+     "puntos": 0,
+     "nota": "solo suma si el cuerpo habla de compensación"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "excel, power bi"
+    },
+    {
+     "concepto": "salario publicado igual o sobre $4.000.000",
+     "puntos": 12,
+     "nota": "8.000.000 COP"
+    },
+    {
+     "concepto": "publicada hace menos de 3 días",
+     "puntos": 10,
+     "nota": "hace 1 día(s)"
+    }
+   ],
+   "puntaje": 34,
+   "nueva": false,
+   "visto_desde": "2026-09-19",
+   "republicaciones": 0,
+   "reapariciones": 0,
+   "marcas": [
+    "no apareció hoy en la fuente (2 de 3)"
+   ],
+   "desaparecio": "2026-09-23",
+   "dias_publicada": 4
+  },
+  {
+   "cargo": "Coordinador Administrativo - Experiencia sector Humanitario",
+   "empresa": "PUNTO EMPLEO S.A.S",
+   "empresa_anonima": false,
+   "ciudad": "Bogotá, D.C.",
+   "salario": {
+    "min": 5000000.0,
+    "max": 5000000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-08-24",
+   "vigente_hasta": "2026-10-23",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": "93FF10B0152E772D",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "computrabajo",
+     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-coordinador-administrativo-experiencia-sector-humanitario-en-bogota-dc-E34DCF9E1A232A8C61373E686DCF3405",
+     "id_fuente": "93FF10B0152E772D"
+    }
+   ],
+   "inc": [
+    "modalidad"
+   ],
+   "deducidos": [],
+   "modalidad": null,
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "punto empleo|coordinador administrativo experiencia sector humanitario|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "cargo secundario de RR.HH.",
+     "puntos": 0,
+     "nota": "solo suma si el cuerpo habla de compensación"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "excel"
+    },
+    {
+     "concepto": "salario publicado igual o sobre $4.000.000",
+     "puntos": 12,
+     "nota": "5.000.000 COP"
+    }
+   ],
+   "puntaje": 24,
+   "nueva": false,
+   "visto_desde": "2026-09-01",
+   "republicaciones": 0,
+   "reapariciones": 3,
+   "marcas": [
+    "no apareció hoy en la fuente (2 de 3)"
+   ],
+   "desaparecio": "2026-09-23",
+   "dias_publicada": 22
+  },
+  {
+   "cargo": "Coordinador Administrativo de Servicio Técnico - Siberia",
+   "empresa": "Aerorental Ltda",
+   "empresa_anonima": false,
+   "ciudad": "Bogotá, D.C.",
+   "salario": {
+    "min": 4000000.0,
+    "max": 4000000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-08-27",
+   "vigente_hasta": "2026-10-26",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": "A5B84A85EF614E8C",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "computrabajo",
+     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-coordinador-administrativo-de-servicio-tecnico-siberia-en-bogota-dc-F999D33C7EDAF9C461373E686DCF3405",
+     "id_fuente": "A5B84A85EF614E8C"
+    }
+   ],
+   "inc": [],
+   "deducidos": [],
+   "modalidad": "presencial",
+   "modalidad_literal": "presencial",
+   "modalidad_por_confirmar": false,
+   "id": "aerorental|coordinador administrativo de servicio tecnico siberia|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "cargo secundario de RR.HH.",
+     "puntos": 0,
+     "nota": "solo suma si el cuerpo habla de compensación"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "gestion documental, excel"
+    },
+    {
+     "concepto": "salario publicado igual o sobre $4.000.000",
+     "puntos": 12,
+     "nota": "4.000.000 COP"
+    }
+   ],
+   "puntaje": 24,
+   "nueva": false,
+   "visto_desde": "2026-09-04",
+   "republicaciones": 0,
+   "reapariciones": 2,
+   "marcas": [
+    "no apareció hoy en la fuente (2 de 3)"
+   ],
+   "desaparecio": "2026-09-23",
+   "dias_publicada": 19
+  },
+  {
+   "cargo": "Coordinador administrativo y de talento humano 114010",
+   "empresa": "NUEVA EPS S.A",
+   "empresa_anonima": false,
+   "ciudad": "Bogotá, D.C.",
+   "salario": {
+    "min": 7719000.0,
+    "max": 7719000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-08-18",
+   "vigente_hasta": "2026-10-17",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": "6036EADB9587E359",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "computrabajo",
+     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-coordinador-administrativo-y-de-talento-humano-114010-en-bogota-dc-AD5A70BA8081B34F61373E686DCF3405",
+     "id_fuente": "6036EADB9587E359"
+    }
+   ],
+   "inc": [
+    "modalidad"
+   ],
+   "deducidos": [],
+   "modalidad": null,
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "nueva eps|coordinador administrativo y de talento humano|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "cargo secundario de RR.HH.",
+     "puntos": 0,
+     "nota": "solo suma si el cuerpo habla de compensación"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "base de datos, manejo de personal, gestion documental, excel"
+    },
+    {
+     "concepto": "salario publicado igual o sobre $4.000.000",
+     "puntos": 12,
+     "nota": "7.719.000 COP"
+    }
+   ],
+   "puntaje": 24,
+   "nueva": false,
+   "visto_desde": "2026-09-03",
+   "republicaciones": 0,
+   "reapariciones": 2,
+   "marcas": [
+    "no apareció hoy en la fuente (2 de 3)"
+   ],
+   "desaparecio": "2026-09-23",
+   "dias_publicada": 20
+  },
+  {
+   "cargo": "SECTOR SALUD - COORDINADOR DE GESTION HUMANA",
+   "empresa": "HOSPITAL UNIVERSITARIO CLÌNICA SAN RAFAEL",
+   "empresa_anonima": false,
+   "ciudad": "Bogotá D.C.",
+   "salario": {
+    "min": 4500001.0,
+    "max": 5500000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-09-01",
+   "vigente_hasta": "2026-10-31",
+   "contrato": "TEMPORARY",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/sector-salud-coordinador-de-gestion-humana-1886760713",
+     "id_fuente": null
+    },
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/sector-hospitalario-coordinador-de-gestion-humana-1886762826",
+     "id_fuente": null
+    }
+   ],
+   "inc": [
+    "modalidad"
+   ],
+   "deducidos": [],
+   "modalidad": null,
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "hospital universitario clinica san rafael|sector salud coordinador de gestion humana|bogota",
+   "duplicados_hoy": 1,
+   "titulos_alternos": [
+    "SECTOR HOSPITALARIO - COORDINADOR DE GESTION HUMANA"
+   ],
+   "desglose": [
+    {
+     "concepto": "cargo secundario de RR.HH.",
+     "puntos": 0,
+     "nota": "solo suma si el cuerpo habla de compensación"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "excel, power bi"
+    },
+    {
+     "concepto": "salario publicado igual o sobre $4.000.000",
+     "puntos": 12,
+     "nota": "5.500.000 COP"
+    }
+   ],
+   "puntaje": 24,
+   "nueva": false,
+   "visto_desde": "2026-09-03",
+   "republicaciones": 3,
+   "reapariciones": 4,
+   "marcas": [
+    "no apareció hoy en la fuente (2 de 3)"
+   ],
+   "desaparecio": "2026-09-23",
+   "dias_publicada": 20
+  },
+  {
+   "cargo": "COORDINADOR DE DESARROLLO NEGOCIOS BOGOTÁ",
+   "empresa": "CONFIDENTIAL",
+   "empresa_anonima": true,
+   "ciudad": "Bogotá D.C.",
+   "salario": null,
+   "publicado": "2026-09-19",
+   "vigente_hasta": "2026-11-18",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/coordinador-de-desarrollo-negocios-bogota-1886769433",
+     "id_fuente": null
+    }
+   ],
+   "inc": [
+    "salario",
+    "modalidad"
+   ],
+   "deducidos": [],
+   "modalidad": null,
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "empresa no revelada|coordinador de desarrollo negocios|bogota#anon:0-0-2026-09-19",
+   "duplicados_hoy": 1,
+   "marcas": [
+    "empresa no revelada: puede estar repetida",
+    "no apareció hoy en la fuente (2 de 3)"
+   ],
+   "desglose": [
+    {
+     "concepto": "cargo secundario de RR.HH.",
+     "puntos": 0,
+     "nota": "solo suma si el cuerpo habla de compensación"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "gestion de proyectos, cronograma, excel, power bi"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    },
+    {
+     "concepto": "publicada hace menos de 3 días",
+     "puntos": 10,
+     "nota": "hace 1 día(s)"
+    }
+   ],
+   "puntaje": 22,
+   "nueva": false,
+   "visto_desde": "2026-09-20",
+   "republicaciones": 0,
+   "reapariciones": 0,
+   "desaparecio": "2026-09-23",
+   "dias_publicada": 3
+  },
+  {
+   "cargo": "Consultor en Desarrollo de Software y Servicios",
+   "empresa": "CONFIDENTIAL",
+   "empresa_anonima": true,
+   "ciudad": "Bogotá D.C.",
+   "salario": {
+    "min": 4000001.0,
+    "max": 4500000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-09-19",
+   "vigente_hasta": "2026-11-18",
+   "contrato": "PER_DIEM",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/consultor-en-desarrollo-de-software-y-servicios-1886769401",
+     "id_fuente": null
+    }
+   ],
+   "inc": [
+    "modalidad"
+   ],
+   "deducidos": [],
+   "modalidad": null,
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "empresa no revelada|consultor en desarrollo de software y servicios|bogota#anon:4000001-4500000-2026-09-19",
+   "duplicados_hoy": 1,
+   "marcas": [
+    "empresa no revelada: puede estar repetida",
+    "no apareció hoy en la fuente (2 de 3)"
+   ],
+   "desglose": [
+    {
+     "concepto": "salario publicado igual o sobre $4.000.000",
+     "puntos": 12,
+     "nota": "4.500.000 COP"
+    },
+    {
+     "concepto": "publicada hace menos de 3 días",
+     "puntos": 10,
+     "nota": "hace 1 día(s)"
+    }
+   ],
+   "puntaje": 22,
+   "nueva": false,
+   "visto_desde": "2026-09-20",
+   "republicaciones": 0,
+   "reapariciones": 0,
+   "desaparecio": "2026-09-23",
+   "dias_publicada": 3
+  },
+  {
+   "cargo": "Coordinador / Lider / Jefe de sistemas - Funza",
+   "empresa": "exela Servicios Temporales S.A",
+   "empresa_anonima": false,
+   "ciudad": "Cundinamarca",
+   "salario": {
+    "min": 2999999.0,
+    "max": 2999999.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-09-16",
+   "vigente_hasta": "2026-11-15",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": "AF8AC147472AFE5D",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "computrabajo",
+     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-coordinador-lider-jefe-de-sistemas-funza-en-funza-718C8F4FC04D078C61373E686DCF3405",
+     "id_fuente": "AF8AC147472AFE5D"
+    }
+   ],
+   "inc": [
+    "modalidad"
+   ],
+   "deducidos": [],
+   "modalidad": null,
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "exela servicios temporales|coordinador lider jefe de sistemas|bogota alrededores",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "cargo objetivo de la búsqueda",
+     "puntos": 25,
+     "nota": "Coordinador / Lider / Jefe de sistemas - Funza"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "soporte a usuarios, seguridad de la informacion, excel"
+    },
+    {
+     "concepto": "salario publicado por debajo de $4.000.000",
+     "puntos": -15,
+     "nota": "2.999.999 COP — se muestra igual: el publicado casi nunca es el negociado"
+    }
+   ],
+   "puntaje": 22,
+   "nueva": false,
+   "visto_desde": "2026-09-17",
+   "republicaciones": 0,
+   "reapariciones": 0,
+   "marcas": [
+    "no apareció hoy en la fuente (2 de 3)"
+   ],
+   "desaparecio": "2026-09-23",
+   "dias_publicada": 6
+  },
+  {
+   "cargo": "Director - Programa Ingenieria de Sistemas",
+   "empresa": "LOS LIBERTADORES",
+   "empresa_anonima": false,
+   "ciudad": "Bogotá D.C.",
+   "salario": {
+    "min": 4000001.0,
+    "max": 4500000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-09-07",
+   "vigente_hasta": "2026-11-06",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/director-programa-ingenieria-de-sistemas-1886763113",
+     "id_fuente": null
+    }
+   ],
+   "inc": [
+    "modalidad"
+   ],
+   "deducidos": [],
+   "modalidad": null,
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "los libertadores|director programa ingenieria de sistemas|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "salario publicado igual o sobre $4.000.000",
+     "puntos": 12,
+     "nota": "4.500.000 COP"
+    }
+   ],
+   "puntaje": 12,
+   "nueva": false,
+   "visto_desde": "2026-09-08",
+   "republicaciones": 0,
+   "reapariciones": 1,
+   "marcas": [
+    "no apareció hoy en la fuente (2 de 3)"
+   ],
+   "desaparecio": "2026-09-23",
+   "dias_publicada": 15
+  },
+  {
+   "cargo": "Docente medio tiempo – ingenieria de sistemas",
+   "empresa": "Fundación Universitaria San Mateo",
+   "empresa_anonima": false,
+   "ciudad": "Bogotá, D.C.",
+   "salario": null,
+   "publicado": "2026-07-23",
+   "vigente_hasta": "2026-09-21",
+   "contrato": "PART_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": "3465A1EBA866C9D7",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "computrabajo",
+     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-docente-medio-tiempo-ingenieria-de-sistemas-en-bogota-dc-D196DE64CEDE240861373E686DCF3405",
+     "id_fuente": "3465A1EBA866C9D7"
+    }
+   ],
+   "inc": [
+    "salario",
+    "modalidad"
+   ],
+   "deducidos": [],
+   "modalidad": null,
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "fundacion universitaria san mateo|docente ingenieria de sistemas|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "bases de datos, python, programacion"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    }
+   ],
+   "puntaje": 12,
+   "nueva": false,
+   "visto_desde": "2026-09-01",
+   "republicaciones": 0,
+   "reapariciones": 2,
+   "marcas": [
+    "no apareció hoy en la fuente (2 de 3)"
+   ],
+   "desaparecio": "2026-09-23",
+   "dias_publicada": 22
+  },
+  {
+   "cargo": "Gerente de Servicios Junior de TI o Coordinador de Servicios de TI /100% Presencial",
+   "empresa": "CONFIDENTIAL",
+   "empresa_anonima": true,
+   "ciudad": "Bogotá D.C.",
+   "salario": null,
+   "publicado": "2026-07-23",
+   "vigente_hasta": "2026-09-21",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/gerente-de-servicios-junior-de-ti-o-coordinador-de-servicios-de-ti-100-presencial-1886743483",
+     "id_fuente": null
+    }
+   ],
+   "inc": [
+    "salario"
+   ],
+   "deducidos": [],
+   "modalidad": "presencial",
+   "modalidad_literal": "presencial",
+   "modalidad_por_confirmar": false,
+   "id": "empresa no revelada|gerente de servicios junior de ti o coordinador de servicios de ti 100|bogota#anon:0-0-2026-07-23",
+   "duplicados_hoy": 1,
+   "marcas": [
+    "empresa no revelada: puede estar repetida",
+    "no apareció hoy en la fuente (2 de 3)"
+   ],
+   "desglose": [
+    {
+     "concepto": "cargo secundario de RR.HH.",
+     "puntos": 0,
+     "nota": "solo suma si el cuerpo habla de compensación"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "itil"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    }
+   ],
+   "puntaje": 12,
+   "nueva": false,
+   "visto_desde": "2026-09-01",
+   "republicaciones": 0,
+   "reapariciones": 1,
+   "desaparecio": "2026-09-23",
+   "dias_publicada": 22
+  },
+  {
+   "cargo": "Jefe Sistemas Información",
+   "empresa": "CLARO COLOMBIA",
+   "empresa_anonima": false,
+   "ciudad": "Bogotá D.C.",
+   "salario": null,
+   "publicado": "2026-08-28",
+   "vigente_hasta": "2026-10-27",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/jefe-sistemas-informacion-1886758865",
+     "id_fuente": null
+    }
+   ],
+   "inc": [
+    "salario"
+   ],
+   "deducidos": [],
+   "modalidad": "presencial",
+   "modalidad_literal": "presencial",
+   "modalidad_por_confirmar": false,
+   "id": "claro|jefe sistemas informacion|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "sql, python, power bi"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    }
+   ],
+   "puntaje": 12,
+   "nueva": false,
+   "visto_desde": "2026-09-01",
+   "republicaciones": 0,
+   "reapariciones": 2,
+   "marcas": [
+    "no apareció hoy en la fuente (2 de 3)"
+   ],
+   "desaparecio": "2026-09-23",
+   "dias_publicada": 22
+  },
+  {
+   "cargo": "Coordinador administrativo y servicio al cliente - Contratacion inmediata",
+   "empresa": "GRUPO ALIANZA",
+   "empresa_anonima": false,
+   "ciudad": "Bogotá, D.C.",
+   "salario": {
+    "min": 2500000.0,
+    "max": 2500000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-08-09",
+   "vigente_hasta": "2026-10-10",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": "7C637005947452DB",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "computrabajo",
+     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-coordinador-administrativo-y-servicio-al-cliente-contratacion-inmediata-en-bogota-dc-408C70D51F7EF42861373E686DCF3405",
+     "id_fuente": "7C637005947452DB"
+    }
+   ],
+   "inc": [],
+   "deducidos": [],
+   "modalidad": "remoto",
+   "modalidad_literal": "remoto",
+   "modalidad_por_confirmar": false,
+   "id": "alianza|coordinador administrativo y servicio al cliente contratacion inmediata|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "cargo secundario de RR.HH.",
+     "puntos": 0,
+     "nota": "solo suma si el cuerpo habla de compensación"
+    },
+    {
+     "concepto": "remoto confirmado en el cuerpo del aviso",
+     "puntos": 15,
+     "nota": "remoto"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "bases de datos"
+    },
+    {
+     "concepto": "salario publicado por debajo de $4.000.000",
+     "puntos": -15,
+     "nota": "2.500.000 COP — se muestra igual: el publicado casi nunca es el negociado"
+    },
+    {
+     "concepto": "exige ingles b2",
+     "puntos": -10,
+     "nota": "el perfil no lo domina — se muestra igual: muchos avisos lo piden como «deseable» y luego no lo evalúan"
+    }
+   ],
+   "puntaje": 2,
+   "nueva": false,
+   "visto_desde": "2026-09-03",
+   "republicaciones": 1,
+   "reapariciones": 2,
+   "marcas": [
+    "no apareció hoy en la fuente (2 de 3)"
+   ],
+   "desaparecio": "2026-09-23",
+   "dias_publicada": 20
+  },
+  {
+   "cargo": "COORDINADOR DE ADMINISTRACIÓN DE PERSONAL - MADRID REF: 1626192435-329",
+   "empresa": "AGENCIA DE EMPLEO Y FOMENTO EMPRESARIAL COMPENSAR",
+   "empresa_anonima": false,
+   "ciudad": "Cundinamarca",
+   "salario": {
+    "min": 3000001.0,
+    "max": 3500000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-07-23",
+   "vigente_hasta": "2026-09-21",
+   "contrato": "OTHER",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/coordinador-de-administracion-de-personal-madrid-ref-1626192435329-1886743378",
+     "id_fuente": null
+    }
+   ],
+   "inc": [
+    "modalidad"
+   ],
+   "deducidos": [],
+   "modalidad": null,
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "agencia de empleo y fomento empresarial compensar|coordinador de administracion de personal madrid ref 329|bogota alrededores",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "cargo secundario de RR.HH.",
+     "puntos": 0,
+     "nota": "solo suma si el cuerpo habla de compensación"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "bases de datos"
+    },
+    {
+     "concepto": "salario publicado por debajo de $4.000.000",
+     "puntos": -15,
+     "nota": "3.500.000 COP — se muestra igual: el publicado casi nunca es el negociado"
+    }
+   ],
+   "puntaje": -3,
+   "nueva": false,
+   "visto_desde": "2026-09-01",
+   "republicaciones": 0,
+   "reapariciones": 0,
+   "marcas": [
+    "no apareció hoy en la fuente (2 de 3)"
+   ],
+   "desaparecio": "2026-09-23",
+   "dias_publicada": 22
+  },
+  {
+   "cargo": "Coordinador(a) de Servicio Técnico y Mantenimiento",
+   "empresa": "ALIADOS LABORALES S.A.S",
+   "empresa_anonima": false,
+   "ciudad": "Bogotá, D.C.",
+   "salario": {
+    "min": 3500000.0,
+    "max": 3500000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-09-04",
+   "vigente_hasta": "2026-11-03",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": "2342C4529394552E",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "computrabajo",
+     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-coordinadora-de-servicio-tecnico-y-mantenimiento-en-bogota-dc-63531AEA04F980B261373E686DCF3405",
+     "id_fuente": "2342C4529394552E"
+    }
+   ],
+   "inc": [
+    "modalidad"
+   ],
+   "deducidos": [],
+   "modalidad": null,
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "aliados laborales|coordinador de servicio tecnico y mantenimiento|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "cargo secundario de RR.HH.",
+     "puntos": 0,
+     "nota": "solo suma si el cuerpo habla de compensación"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "excel"
+    },
+    {
+     "concepto": "salario publicado por debajo de $4.000.000",
+     "puntos": -15,
+     "nota": "3.500.000 COP — se muestra igual: el publicado casi nunca es el negociado"
+    }
+   ],
+   "puntaje": -3,
+   "nueva": false,
+   "visto_desde": "2026-09-05",
+   "republicaciones": 0,
+   "reapariciones": 2,
+   "marcas": [
+    "no apareció hoy en la fuente (2 de 3)"
+   ],
+   "desaparecio": "2026-09-23",
+   "dias_publicada": 18
+  },
+  {
+   "cargo": "Ingeniero de sistemas - Madrid",
+   "empresa": "Global SAS",
+   "empresa_anonima": false,
+   "ciudad": "Cundinamarca",
+   "salario": {
+    "min": 3500000.0,
+    "max": 3500000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-09-11",
+   "vigente_hasta": "2026-11-10",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": "FE2F2B84400C4AB5",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "computrabajo",
+     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ingeniero-de-sistemas-madrid-en-madrid-9AE7C984070F247961373E686DCF3405",
+     "id_fuente": "FE2F2B84400C4AB5"
+    }
+   ],
+   "inc": [
+    "modalidad"
+   ],
+   "deducidos": [],
+   "modalidad": null,
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "global|ingeniero de sistemas madrid|bogota alrededores",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "bases de datos, sql"
+    },
+    {
+     "concepto": "salario publicado por debajo de $4.000.000",
+     "puntos": -15,
+     "nota": "3.500.000 COP — se muestra igual: el publicado casi nunca es el negociado"
+    }
+   ],
+   "puntaje": -3,
+   "nueva": false,
+   "visto_desde": "2026-09-12",
+   "republicaciones": 0,
+   "reapariciones": 1,
+   "marcas": [
+    "no apareció hoy en la fuente (2 de 3)"
+   ],
+   "desaparecio": "2026-09-23",
+   "dias_publicada": 11
+  },
+  {
+   "cargo": "Administrador de Activos de tecnología",
+   "empresa": "CONFIDENTIAL",
+   "empresa_anonima": true,
+   "ciudad": "Bogotá D.C.",
+   "salario": {
+    "min": 2000001.0,
+    "max": 2500000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-07-23",
+   "vigente_hasta": "2026-09-21",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/administrador-de-activos-de-tecnologia-1886743488",
+     "id_fuente": null
+    }
+   ],
+   "inc": [],
+   "deducidos": [],
+   "modalidad": "presencial",
+   "modalidad_literal": "presencial",
+   "modalidad_por_confirmar": false,
+   "id": "empresa no revelada|administrador de activos de tecnologia|bogota#anon:2000001-2500000-2026-07-23",
+   "duplicados_hoy": 1,
+   "marcas": [
+    "empresa no revelada: puede estar repetida",
+    "no apareció hoy en la fuente (2 de 3)"
+   ],
+   "desglose": [
+    {
+     "concepto": "salario publicado por debajo de $4.000.000",
+     "puntos": -15,
+     "nota": "2.500.000 COP — se muestra igual: el publicado casi nunca es el negociado"
+    }
+   ],
+   "puntaje": -15,
+   "nueva": false,
+   "visto_desde": "2026-09-03",
+   "republicaciones": 0,
+   "reapariciones": 2,
+   "desaparecio": "2026-09-23",
+   "dias_publicada": 20
+  },
   {
    "cargo": "Administrador de plataforma AVAYA IP Office Core CM",
    "empresa": "AVARS TECHNOLOGY",
@@ -12942,57 +14343,6 @@
    ],
    "desaparecio": "2026-09-22",
    "dias_publicada": 4
-  },
-  {
-   "cargo": "Ingeniería de Sistemas o Ingeniería Electrónica./ plataformas e infraestructura tecnológica.",
-   "empresa": "CONFIDENTIAL",
-   "empresa_anonima": true,
-   "ciudad": "Bogotá D.C.",
-   "salario": null,
-   "publicado": "2026-09-08",
-   "vigente_hasta": "2026-11-07",
-   "contrato": "PER_DIEM",
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": null,
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "elempleo",
-     "url": "https://www.elempleo.com/co/ofertas-trabajo/ingenieria-de-sistemas-o-ingenieria-electronica-plataformas-e-infraestructura-tecnologica-1886763816",
-     "id_fuente": null
-    }
-   ],
-   "inc": [
-    "salario",
-    "modalidad"
-   ],
-   "deducidos": [],
-   "modalidad": null,
-   "modalidad_literal": null,
-   "modalidad_por_confirmar": false,
-   "id": "empresa no revelada|ingenieria de sistemas o ingenieria electronica plataformas e infraestructura tecnologica|bogota#anon:0-0-2026-09-08",
-   "duplicados_hoy": 1,
-   "marcas": [
-    "empresa no revelada: puede estar repetida",
-    "no apareció hoy en la fuente (2 de 3)"
-   ],
-   "desglose": [
-    {
-     "concepto": "salario",
-     "puntos": 0,
-     "nota": "sin salario publicado, no suma ni resta"
-    }
-   ],
-   "puntaje": 0,
-   "nueva": false,
-   "visto_desde": "2026-09-10",
-   "republicaciones": 0,
-   "reapariciones": 2,
-   "desaparecio": "2026-09-22",
-   "dias_publicada": 12
   },
   {
    "cargo": "Coordinador Administrativo - Chia o alrededores / Urgente",
@@ -15822,57 +17172,6 @@
    "dias_publicada": 3
   },
   {
-   "cargo": "Director de Tecnología y Estrategia",
-   "empresa": "CONFIDENTIAL",
-   "empresa_anonima": true,
-   "ciudad": "Bogotá D.C.",
-   "salario": null,
-   "publicado": "2026-09-11",
-   "vigente_hasta": "2026-11-10",
-   "contrato": "TEMPORARY",
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": null,
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "elempleo",
-     "url": "https://www.elempleo.com/co/ofertas-trabajo/director-de-tecnologia-y-estrategia-1886765790",
-     "id_fuente": null
-    }
-   ],
-   "inc": [
-    "salario",
-    "modalidad"
-   ],
-   "deducidos": [],
-   "modalidad": null,
-   "modalidad_literal": null,
-   "modalidad_por_confirmar": false,
-   "id": "empresa no revelada|director de tecnologia y estrategia|bogota#anon:0-0-2026-09-11",
-   "duplicados_hoy": 1,
-   "marcas": [
-    "empresa no revelada: puede estar repetida",
-    "no apareció hoy en la fuente (2 de 3)"
-   ],
-   "desglose": [
-    {
-     "concepto": "salario",
-     "puntos": 0,
-     "nota": "sin salario publicado, no suma ni resta"
-    }
-   ],
-   "puntaje": 0,
-   "nueva": false,
-   "visto_desde": "2026-09-12",
-   "republicaciones": 0,
-   "reapariciones": 1,
-   "desaparecio": "2026-09-20",
-   "dias_publicada": 8
-  },
-  {
    "cargo": "Coordinador de Estrategia y Proyectos",
    "empresa": "Universidad INCCA de Colombia",
    "empresa_anonima": false,
@@ -16377,70 +17676,6 @@
    "dias_publicada": 16
   },
   {
-   "cargo": "Coordinador de Proyectos Inmobiliarios",
-   "empresa": "A.R. CONSTRUCCIONES S.A.S",
-   "empresa_anonima": false,
-   "ciudad": "Bogotá, D.C.",
-   "salario": {
-    "min": 7000000.0,
-    "max": 7000000.0,
-    "moneda": "COP",
-    "periodo": "MONTH"
-   },
-   "publicado": "2026-07-29",
-   "vigente_hasta": "2026-09-27",
-   "contrato": "FULL_TIME",
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": "069D5B5665556910",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "computrabajo",
-     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-coordinador-de-proyectos-inmobiliarios-en-bogota-dc-AD41E0B6FB065F1A61373E686DCF3405",
-     "id_fuente": "069D5B5665556910"
-    }
-   ],
-   "inc": [
-    "modalidad"
-   ],
-   "deducidos": [],
-   "modalidad": null,
-   "modalidad_literal": null,
-   "modalidad_por_confirmar": false,
-   "id": "a r construcciones|coordinador de proyectos inmobiliarios|bogota",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "cargo secundario de RR.HH.",
-     "puntos": 0,
-     "nota": "solo suma si el cuerpo habla de compensación"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "cronograma, power bi"
-    },
-    {
-     "concepto": "salario publicado igual o sobre $4.000.000",
-     "puntos": 12,
-     "nota": "7.000.000 COP"
-    }
-   ],
-   "puntaje": 24,
-   "nueva": false,
-   "visto_desde": "2026-09-07",
-   "republicaciones": 0,
-   "reapariciones": 1,
-   "marcas": [
-    "no apareció hoy en la fuente (2 de 3)"
-   ],
-   "desaparecio": "2026-09-19",
-   "dias_publicada": 12
-  },
-  {
    "cargo": "Coordinador mesa de servicios (Con certificado CDS o DPI)",
    "empresa": "CONFIDENTIAL",
    "empresa_anonima": true,
@@ -16812,120 +18047,6 @@
    "dias_publicada": 18
   },
   {
-   "cargo": "Gestor de proyectos",
-   "empresa": "Appril Labs S.A.S.",
-   "empresa_anonima": false,
-   "ciudad": "Bogotá, D.C.",
-   "salario": null,
-   "publicado": "2026-07-29",
-   "vigente_hasta": "2026-09-27",
-   "contrato": "FULL_TIME",
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": "204014C3F49918A5",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "computrabajo",
-     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-gestor-de-proyectos-en-bogota-dc-FB8B2B51EB58580561373E686DCF3405",
-     "id_fuente": "204014C3F49918A5"
-    }
-   ],
-   "inc": [
-    "salario",
-    "modalidad"
-   ],
-   "deducidos": [],
-   "modalidad": null,
-   "modalidad_literal": null,
-   "modalidad_por_confirmar": false,
-   "id": "appril labs|gestor de proyectos|bogota",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "cargo secundario de RR.HH.",
-     "puntos": 0,
-     "nota": "solo suma si el cuerpo habla de compensación"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "cronograma"
-    },
-    {
-     "concepto": "salario",
-     "puntos": 0,
-     "nota": "sin salario publicado, no suma ni resta"
-    }
-   ],
-   "puntaje": 12,
-   "nueva": false,
-   "visto_desde": "2026-09-07",
-   "republicaciones": 0,
-   "reapariciones": 1,
-   "marcas": [
-    "no apareció hoy en la fuente (2 de 3)"
-   ],
-   "desaparecio": "2026-09-19",
-   "dias_publicada": 12
-  },
-  {
-   "cargo": "Ingeniero especialista en diseño de Sistemas Contraincendios (SCI)",
-   "empresa": "MONTAJES Y SERVICIOS INDUSTRIALES S.A.S",
-   "empresa_anonima": false,
-   "ciudad": "Bogotá, D.C.",
-   "salario": {
-    "min": 4000000.0,
-    "max": 4000000.0,
-    "moneda": "COP",
-    "periodo": "MONTH"
-   },
-   "publicado": "2026-09-07",
-   "vigente_hasta": "2026-11-06",
-   "contrato": "FULL_TIME",
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": "E483DF5E5C00805D",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "computrabajo",
-     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ingeniero-especialista-en-diseno-de-sistemas-contraincendios-sci-en-bogota-dc-26919D40103DA21361373E686DCF3405",
-     "id_fuente": "E483DF5E5C00805D"
-    }
-   ],
-   "inc": [
-    "modalidad"
-   ],
-   "deducidos": [],
-   "modalidad": null,
-   "modalidad_literal": null,
-   "modalidad_por_confirmar": false,
-   "id": "montajes y servicios industriales|ingeniero especialista en diseno de sistemas contraincendios|bogota",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "salario publicado igual o sobre $4.000.000",
-     "puntos": 12,
-     "nota": "4.000.000 COP"
-    }
-   ],
-   "puntaje": 12,
-   "nueva": false,
-   "visto_desde": "2026-09-08",
-   "republicaciones": 0,
-   "reapariciones": 1,
-   "marcas": [
-    "no apareció hoy en la fuente (2 de 3)"
-   ],
-   "desaparecio": "2026-09-19",
-   "dias_publicada": 11
-  },
-  {
    "cargo": "Jefe ó Coordinador@ de Informática y Tecnología - Bogotá",
    "empresa": "CONFIDENTIAL",
    "empresa_anonima": true,
@@ -17292,70 +18413,6 @@
    "dias_publicada": 3
   },
   {
-   "cargo": "coordinador administrativo",
-   "empresa": "DHL SUPPLY CHAIN COLOMBIA",
-   "empresa_anonima": false,
-   "ciudad": "Cundinamarca",
-   "salario": {
-    "min": 4500001.0,
-    "max": 5500000.0,
-    "moneda": "COP",
-    "periodo": "MONTH"
-   },
-   "publicado": "2026-07-28",
-   "vigente_hasta": "2026-09-26",
-   "contrato": "FULL_TIME",
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": null,
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "elempleo",
-     "url": "https://www.elempleo.com/co/ofertas-trabajo/coordinador-administrativo-1886744932",
-     "id_fuente": null
-    }
-   ],
-   "inc": [
-    "modalidad"
-   ],
-   "deducidos": [],
-   "modalidad": null,
-   "modalidad_literal": null,
-   "modalidad_por_confirmar": false,
-   "id": "dhl supply chain|coordinador administrativo|bogota alrededores",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "cargo secundario de RR.HH.",
-     "puntos": 0,
-     "nota": "solo suma si el cuerpo habla de compensación"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "programacion, excel"
-    },
-    {
-     "concepto": "salario publicado igual o sobre $4.000.000",
-     "puntos": 12,
-     "nota": "5.500.000 COP"
-    }
-   ],
-   "puntaje": 24,
-   "nueva": false,
-   "visto_desde": "2026-09-01",
-   "republicaciones": 0,
-   "reapariciones": 1,
-   "marcas": [
-    "no apareció hoy en la fuente (2 de 3)"
-   ],
-   "desaparecio": "2026-09-18",
-   "dias_publicada": 17
-  },
-  {
    "cargo": "Coordinador de servicio y gestión de proyectos",
    "empresa": "CONFIDENTIAL",
    "empresa_anonima": true,
@@ -17417,65 +18474,6 @@
    "reapariciones": 0,
    "desaparecio": "2026-09-18",
    "dias_publicada": 3
-  },
-  {
-   "cargo": "Coordinador(a) Administrativo(a) de Sedes - Experiencia en Salud",
-   "empresa": "Audiosalud Integral IPS",
-   "empresa_anonima": false,
-   "ciudad": "Bogotá, D.C.",
-   "salario": null,
-   "publicado": "2026-07-29",
-   "vigente_hasta": "2026-09-27",
-   "contrato": "FULL_TIME",
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": "F99DAC040A53F3EC",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "computrabajo",
-     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-coordinadora-administrativoa-de-sedes-experiencia-en-salud-en-bogota-dc-A86BAB3172DA023F61373E686DCF3405",
-     "id_fuente": "F99DAC040A53F3EC"
-    }
-   ],
-   "inc": [
-    "salario"
-   ],
-   "deducidos": [],
-   "modalidad": "presencial",
-   "modalidad_literal": "Presencial",
-   "modalidad_por_confirmar": false,
-   "id": "audiosalud integral ips|coordinador administrativo de sedes experiencia en salud|bogota",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "cargo secundario de RR.HH.",
-     "puntos": 0,
-     "nota": "solo suma si el cuerpo habla de compensación"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "coordinacion de equipos"
-    },
-    {
-     "concepto": "salario",
-     "puntos": 0,
-     "nota": "sin salario publicado, no suma ni resta"
-    }
-   ],
-   "puntaje": 12,
-   "nueva": false,
-   "visto_desde": "2026-09-07",
-   "republicaciones": 0,
-   "reapariciones": 1,
-   "marcas": [
-    "no apareció hoy en la fuente (2 de 3)"
-   ],
-   "desaparecio": "2026-09-18",
-   "dias_publicada": 11
   },
   {
    "cargo": "Docente de Ingeniería de Sistemas - Medio Tiempo",
@@ -21933,61 +22931,6 @@
    ],
    "desaparecio": "2026-09-12",
    "dias_publicada": 3
-  },
-  {
-   "cargo": "ingeniero de sistemas - Sin experiencia",
-   "empresa": "TANDEM S.A.S",
-   "empresa_anonima": false,
-   "ciudad": "Bogotá, D.C.",
-   "salario": null,
-   "publicado": "2026-09-07",
-   "vigente_hasta": "2026-11-06",
-   "contrato": "FULL_TIME",
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": "C1E7953B94FF99A7",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "computrabajo",
-     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ingeniero-sistemas-en-bogota-dc-65DB162562316BE861373E686DCF3405",
-     "id_fuente": "C1E7953B94FF99A7"
-    }
-   ],
-   "inc": [
-    "salario",
-    "modalidad"
-   ],
-   "deducidos": [],
-   "modalidad": null,
-   "modalidad_literal": null,
-   "modalidad_por_confirmar": false,
-   "id": "tandem|ingeniero de sistemas sin experiencia|bogota",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "salario",
-     "puntos": 0,
-     "nota": "sin salario publicado, no suma ni resta"
-    },
-    {
-     "concepto": "publicada hace menos de 3 días",
-     "puntos": 10,
-     "nota": "hace 2 día(s)"
-    }
-   ],
-   "puntaje": 10,
-   "nueva": false,
-   "visto_desde": "2026-09-08",
-   "republicaciones": 0,
-   "reapariciones": 0,
-   "marcas": [
-    "no apareció hoy en la fuente (2 de 3)"
-   ],
-   "desaparecio": "2026-09-12",
-   "dias_publicada": 4
   },
   {
    "cargo": "Profesional de Innovación Tecnológica - Exp. Design Thinking",

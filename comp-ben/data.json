@@ -1,18 +1,18 @@
 {
  "busqueda": "comp-ben",
- "corrida": "2026-09-22",
- "corrida_hora": "2026-09-22 15:32",
+ "corrida": "2026-09-23",
+ "corrida_hora": "2026-09-23 15:28",
  "fuentes": {
   "elempleo": {
-   "avisos": 16,
+   "avisos": 18,
    "error": null
   },
   "computrabajo": {
-   "avisos": 5,
+   "avisos": 4,
    "error": null
   },
   "workday": {
-   "avisos": 5,
+   "avisos": 4,
    "error": null
   },
   "greenhouse": {
@@ -20,7 +20,7 @@
    "error": null
   },
   "arbeitnow": {
-   "avisos": 2,
+   "avisos": 0,
    "error": null
   },
   "apify_linkedin": {
@@ -29,88 +29,26 @@
   }
  },
  "fallos": [],
- "avisos_recogidos": 44,
- "descartados": 17,
- "fusionados": [],
- "nuevas": [],
+ "avisos_recogidos": 42,
+ "descartados": 13,
+ "fusionados": [
+  {
+   "conservado": "Compensation & Data Analyst | Inglés Avanzado",
+   "absorbido": "Compensation & HR Operations Analyst | Inglés Avanzado",
+   "parecido": 0.67
+  }
+ ],
+ "nuevas": [
+  "empresa no revelada|lider de nomina y compensacion|bogota#anon:5500001-6000000-2026-09-22",
+  "manpower|compensation data analyst ingles avanzado|bogota"
+ ],
  "reaparecidas": [],
  "ausentes": [
-  "worldpanel|global compensation manager|bogota",
-  "empresa no revelada|gerente de compensacion y beneficios|bogota#anon:18000001-21000000-2026-08-25",
-  "empresa no revelada|analista senior de compensacion|bogota#anon:0-0-2026-08-31"
+  "empresa no revelada|analista senior de compensacion|bogota#anon:0-0-2026-08-31",
+  "manpower|compensation hr operations analyst ingles avanzado|bogota"
  ],
  "republicadas": [],
  "vigentes": [
-  {
-   "cargo": "Global Compensation Manager",
-   "empresa": "Worldpanel",
-   "empresa_anonima": false,
-   "ciudad": "Bogota, Capital District",
-   "salario": null,
-   "publicado": "2026-08-21",
-   "vigente_hasta": "2026-09-20",
-   "contrato": [
-    "FULL_TIME"
-   ],
-   "agencia": null,
-   "direccion": null,
-   "lat": 4.6533817,
-   "lon": -74.0836331,
-   "id_fuente": "4456271799",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "linkedin",
-     "url": "https://co.linkedin.com/jobs/view/global-compensation-manager-at-worldpanel-4456271799",
-     "id_fuente": "4456271799"
-    }
-   ],
-   "inc": [
-    "salario"
-   ],
-   "deducidos": [
-    "modalidad"
-   ],
-   "modalidad_fuente": "Hybrid",
-   "empleados": 3432,
-   "sede": "London",
-   "modalidad": "híbrido",
-   "modalidad_literal": "Hybrid",
-   "modalidad_por_confirmar": false,
-   "id": "worldpanel|global compensation manager|bogota",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "cargo objetivo de la búsqueda",
-     "puntos": 25,
-     "nota": "Global Compensation Manager"
-    },
-    {
-     "concepto": "multinacional europea",
-     "puntos": 15,
-     "nota": "London"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "total rewards, pay equity"
-    },
-    {
-     "concepto": "salario",
-     "puntos": 0,
-     "nota": "sin salario publicado, no suma ni resta"
-    }
-   ],
-   "puntaje": 52,
-   "ausencias": 2,
-   "nueva": false,
-   "visto_desde": "2026-08-29",
-   "republicaciones": 0,
-   "reapariciones": 0,
-   "marcas": [
-    "no apareció hoy en la fuente (2 de 3)"
-   ]
-  },
   {
    "cargo": "Gerente de compensación y arquitectura organizacional",
    "empresa": "CONFIDENTIAL",
@@ -178,73 +116,6 @@
    "reapariciones": 0
   },
   {
-   "cargo": "Gerente de compensación y beneficios",
-   "empresa": "CONFIDENTIAL",
-   "empresa_anonima": true,
-   "ciudad": "Bogotá D.C.",
-   "salario": {
-    "min": 18000001.0,
-    "max": 21000000.0,
-    "moneda": "COP",
-    "periodo": "MONTH"
-   },
-   "publicado": "2026-08-25",
-   "vigente_hasta": "2026-09-21",
-   "contrato": "FULL_TIME",
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": null,
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "elempleo",
-     "url": "https://www.elempleo.com/co/ofertas-trabajo/gerente-de-compensacion-y-beneficios-1886743258",
-     "id_fuente": null
-    }
-   ],
-   "inc": [],
-   "deducidos": [],
-   "modalidad": "presencial",
-   "modalidad_literal": "presencial",
-   "modalidad_por_confirmar": false,
-   "id": "empresa no revelada|gerente de compensacion y beneficios|bogota#anon:18000001-21000000-2026-08-25",
-   "duplicados_hoy": 1,
-   "marcas": [
-    "empresa no revelada: puede estar repetida",
-    "no apareció hoy en la fuente (2 de 3)"
-   ],
-   "desglose": [
-    {
-     "concepto": "cargo objetivo de la búsqueda",
-     "puntos": 25,
-     "nota": "Gerente de compensación y beneficios"
-    },
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "el aviso no revela la empresa: no suma ni resta"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "compensacion, remuneracion, compensacion variable, equidad interna"
-    },
-    {
-     "concepto": "salario publicado igual o sobre $18.000.000",
-     "puntos": 12,
-     "nota": "21.000.000 COP"
-    }
-   ],
-   "puntaje": 49,
-   "ausencias": 2,
-   "nueva": false,
-   "visto_desde": "2026-08-28",
-   "republicaciones": 0,
-   "reapariciones": 0
-  },
-  {
    "cargo": "Coordinador (a) de compensación y beneficios",
    "empresa": "CONFIDENTIAL",
    "empresa_anonima": true,
@@ -302,7 +173,7 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 1 día(s)"
+     "nota": "hace 2 día(s)"
     }
    ],
    "puntaje": 47,
@@ -1247,7 +1118,7 @@
    "duplicados_hoy": 1,
    "marcas": [
     "empresa no revelada: puede estar repetida",
-    "no apareció hoy en la fuente (1 de 3)"
+    "no apareció hoy en la fuente (2 de 3)"
    ],
    "desglose": [
     {
@@ -1267,9 +1138,75 @@
     }
    ],
    "puntaje": 7,
-   "ausencias": 1,
+   "ausencias": 2,
    "nueva": false,
    "visto_desde": "2026-09-01",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
+  {
+   "cargo": "Líder de Nómina y Compensación",
+   "empresa": "CONFIDENTIAL",
+   "empresa_anonima": true,
+   "ciudad": "Bogotá D.C.",
+   "salario": {
+    "min": 5500001.0,
+    "max": 6000000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-09-22",
+   "vigente_hasta": "2026-11-21",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/lider-de-nomina-y-compensacion-1886770489",
+     "id_fuente": null
+    }
+   ],
+   "inc": [],
+   "deducidos": [],
+   "modalidad": "presencial",
+   "modalidad_literal": "presencial",
+   "modalidad_por_confirmar": false,
+   "id": "empresa no revelada|lider de nomina y compensacion|bogota#anon:5500001-6000000-2026-09-22",
+   "duplicados_hoy": 1,
+   "marcas": [
+    "empresa no revelada: puede estar repetida"
+   ],
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "el aviso no revela la empresa: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "compensacion, estructura salarial, equidad interna"
+    },
+    {
+     "concepto": "salario publicado por debajo de $18.000.000",
+     "puntos": -15,
+     "nota": "6.000.000 COP — se muestra igual: el publicado casi nunca es el negociado"
+    },
+    {
+     "concepto": "publicada hace menos de 3 días",
+     "puntos": 10,
+     "nota": "hace 1 día(s)"
+    }
+   ],
+   "puntaje": 7,
+   "ausencias": 0,
+   "nueva": true,
+   "visto_desde": "2026-09-23",
    "republicaciones": 0,
    "reapariciones": 0
   },
@@ -1513,6 +1450,72 @@
    "reapariciones": 0
   },
   {
+   "cargo": "Compensation & Data Analyst | Inglés Avanzado",
+   "empresa": "MANPOWER",
+   "empresa_anonima": false,
+   "ciudad": "Bogotá D.C.",
+   "salario": {
+    "min": 4500001.0,
+    "max": 5500000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-09-17",
+   "vigente_hasta": "2026-11-21",
+   "contrato": "PER_DIEM",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/compensation-data-analyst-ingles-avanzado-1886770844",
+     "id_fuente": null
+    },
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/compensation-hr-operations-analyst-ingles-avanzado-1886768508",
+     "id_fuente": null
+    }
+   ],
+   "inc": [],
+   "deducidos": [],
+   "modalidad": "híbrido",
+   "modalidad_literal": "3 dias en oficina",
+   "modalidad_por_confirmar": false,
+   "id": "manpower|compensation data analyst ingles avanzado|bogota",
+   "duplicados_hoy": 1,
+   "titulos_alternos": [
+    "Compensation & HR Operations Analyst | Inglés Avanzado"
+   ],
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "compensacion"
+    },
+    {
+     "concepto": "salario publicado por debajo de $18.000.000",
+     "puntos": -15,
+     "nota": "5.500.000 COP — se muestra igual: el publicado casi nunca es el negociado"
+    }
+   ],
+   "puntaje": -3,
+   "ausencias": 0,
+   "nueva": true,
+   "visto_desde": "2026-09-23",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
+  {
    "cargo": "Compensation & HR Operations Analyst | Inglés Avanzado",
    "empresa": "MANPOWER",
    "empresa_anonima": false,
@@ -1564,11 +1567,14 @@
     }
    ],
    "puntaje": -3,
-   "ausencias": 0,
+   "ausencias": 1,
    "nueva": false,
    "visto_desde": "2026-09-18",
    "republicaciones": 0,
-   "reapariciones": 0
+   "reapariciones": 0,
+   "marcas": [
+    "no apareció hoy en la fuente (1 de 3)"
+   ]
   },
   {
    "cargo": "Coordinador de contratación nómina y compensación",
@@ -1940,6 +1946,145 @@
   }
  ],
  "caidas": [
+  {
+   "cargo": "Global Compensation Manager",
+   "empresa": "Worldpanel",
+   "empresa_anonima": false,
+   "ciudad": "Bogota, Capital District",
+   "salario": null,
+   "publicado": "2026-08-21",
+   "vigente_hasta": "2026-09-20",
+   "contrato": [
+    "FULL_TIME"
+   ],
+   "agencia": null,
+   "direccion": null,
+   "lat": 4.6533817,
+   "lon": -74.0836331,
+   "id_fuente": "4456271799",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/global-compensation-manager-at-worldpanel-4456271799",
+     "id_fuente": "4456271799"
+    }
+   ],
+   "inc": [
+    "salario"
+   ],
+   "deducidos": [
+    "modalidad"
+   ],
+   "modalidad_fuente": "Hybrid",
+   "empleados": 3432,
+   "sede": "London",
+   "modalidad": "híbrido",
+   "modalidad_literal": "Hybrid",
+   "modalidad_por_confirmar": false,
+   "id": "worldpanel|global compensation manager|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "cargo objetivo de la búsqueda",
+     "puntos": 25,
+     "nota": "Global Compensation Manager"
+    },
+    {
+     "concepto": "multinacional europea",
+     "puntos": 15,
+     "nota": "London"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "total rewards, pay equity"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    }
+   ],
+   "puntaje": 52,
+   "nueva": false,
+   "visto_desde": "2026-08-29",
+   "republicaciones": 0,
+   "reapariciones": 0,
+   "marcas": [
+    "no apareció hoy en la fuente (2 de 3)"
+   ],
+   "desaparecio": "2026-09-23",
+   "dias_publicada": 25
+  },
+  {
+   "cargo": "Gerente de compensación y beneficios",
+   "empresa": "CONFIDENTIAL",
+   "empresa_anonima": true,
+   "ciudad": "Bogotá D.C.",
+   "salario": {
+    "min": 18000001.0,
+    "max": 21000000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-08-25",
+   "vigente_hasta": "2026-09-21",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/gerente-de-compensacion-y-beneficios-1886743258",
+     "id_fuente": null
+    }
+   ],
+   "inc": [],
+   "deducidos": [],
+   "modalidad": "presencial",
+   "modalidad_literal": "presencial",
+   "modalidad_por_confirmar": false,
+   "id": "empresa no revelada|gerente de compensacion y beneficios|bogota#anon:18000001-21000000-2026-08-25",
+   "duplicados_hoy": 1,
+   "marcas": [
+    "empresa no revelada: puede estar repetida",
+    "no apareció hoy en la fuente (2 de 3)"
+   ],
+   "desglose": [
+    {
+     "concepto": "cargo objetivo de la búsqueda",
+     "puntos": 25,
+     "nota": "Gerente de compensación y beneficios"
+    },
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "el aviso no revela la empresa: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "compensacion, remuneracion, compensacion variable, equidad interna"
+    },
+    {
+     "concepto": "salario publicado igual o sobre $18.000.000",
+     "puntos": 12,
+     "nota": "21.000.000 COP"
+    }
+   ],
+   "puntaje": 49,
+   "nueva": false,
+   "visto_desde": "2026-08-28",
+   "republicaciones": 0,
+   "reapariciones": 0,
+   "desaparecio": "2026-09-23",
+   "dias_publicada": 26
+  },
   {
    "cargo": "Jefe de Estructura y Compensación",
    "empresa": "CONFIDENTIAL",
