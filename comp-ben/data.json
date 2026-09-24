@@ -1,18 +1,18 @@
 {
  "busqueda": "comp-ben",
- "corrida": "2026-09-23",
- "corrida_hora": "2026-09-23 15:28",
+ "corrida": "2026-09-24",
+ "corrida_hora": "2026-09-24 15:50",
  "fuentes": {
   "elempleo": {
    "avisos": 18,
    "error": null
   },
   "computrabajo": {
-   "avisos": 4,
+   "avisos": 3,
    "error": null
   },
   "workday": {
-   "avisos": 4,
+   "avisos": 3,
    "error": null
   },
   "greenhouse": {
@@ -24,13 +24,13 @@
    "error": null
   },
   "apify_linkedin": {
-   "avisos": 15,
+   "avisos": 14,
    "error": null
   }
  },
  "fallos": [],
- "avisos_recogidos": 42,
- "descartados": 13,
+ "avisos_recogidos": 39,
+ "descartados": 14,
  "fusionados": [
   {
    "conservado": "Compensation & Data Analyst | Inglés Avanzado",
@@ -38,14 +38,14 @@
    "parecido": 0.67
   }
  ],
- "nuevas": [
-  "empresa no revelada|lider de nomina y compensacion|bogota#anon:5500001-6000000-2026-09-22",
-  "manpower|compensation data analyst ingles avanzado|bogota"
- ],
+ "nuevas": [],
  "reaparecidas": [],
  "ausentes": [
-  "empresa no revelada|analista senior de compensacion|bogota#anon:0-0-2026-08-31",
-  "manpower|compensation hr operations analyst ingles avanzado|bogota"
+  "roche|compensation team lead technical expertise and specializations|budapest#202607-117275",
+  "prosegur|responsable de nomina y compensacion|bogota",
+  "manpower|compensation hr operations analyst ingles avanzado|bogota",
+  "empresa no revelada|gerente de recursos humanos|bogota#anon:6000001-8000000-2026-07-31",
+  "kata|profesional de compensacion y liquidacion de nomina lunes a sabado norte|bogota"
  ],
  "republicadas": [],
  "vigentes": [
@@ -173,7 +173,7 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 2 día(s)"
+     "nota": "hace 3 día(s)"
     }
    ],
    "puntaje": 47,
@@ -213,7 +213,8 @@
    "modalidad_literal": "Home office",
    "modalidad_por_confirmar": false,
    "marcas": [
-    "dice remoto, pero el aviso es de Hungría: confirma que contrate desde Colombia"
+    "dice remoto, pero el aviso es de Hungría: confirma que contrate desde Colombia",
+    "no apareció hoy en la fuente (1 de 3)"
    ],
    "id": "roche|compensation team lead technical expertise and specializations|budapest#202607-117275",
    "duplicados_hoy": 1,
@@ -245,7 +246,7 @@
     }
    ],
    "puntaje": 37,
-   "ausencias": 0,
+   "ausencias": 1,
    "nueva": false,
    "visto_desde": "2026-08-29",
    "republicaciones": 0,
@@ -371,11 +372,14 @@
     }
    ],
    "puntaje": 27,
-   "ausencias": 0,
+   "ausencias": 1,
    "nueva": false,
    "visto_desde": "2026-08-29",
    "republicaciones": 1,
-   "reapariciones": 1
+   "reapariciones": 1,
+   "marcas": [
+    "no apareció hoy en la fuente (1 de 3)"
+   ]
   },
   {
    "cargo": "JEFE DE COMPENSACIÓN Y BENEFICIOS - BOGOTÁ- 1625894613-31",
@@ -1079,72 +1083,6 @@
    "reapariciones": 0
   },
   {
-   "cargo": "Analista Senior de Compensación",
-   "empresa": "Confidencial",
-   "empresa_anonima": true,
-   "ciudad": "Bogota, Capital District",
-   "salario": null,
-   "publicado": "2026-08-31",
-   "vigente_hasta": "2026-09-30",
-   "contrato": [
-    "FULL_TIME"
-   ],
-   "agencia": null,
-   "direccion": null,
-   "lat": 4.6533817,
-   "lon": -74.0836331,
-   "id_fuente": "4460029686",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "linkedin",
-     "url": "https://co.linkedin.com/jobs/view/analista-senior-de-compensaci%C3%B3n-at-money-inc-4460029686",
-     "id_fuente": "4460029686"
-    }
-   ],
-   "inc": [
-    "salario"
-   ],
-   "deducidos": [
-    "modalidad"
-   ],
-   "modalidad_fuente": "On-site",
-   "empleados": 890,
-   "sede": "New York, New York",
-   "modalidad": "On-site",
-   "modalidad_literal": null,
-   "modalidad_por_confirmar": false,
-   "id": "empresa no revelada|analista senior de compensacion|bogota#anon:0-0-2026-08-31",
-   "duplicados_hoy": 1,
-   "marcas": [
-    "empresa no revelada: puede estar repetida",
-    "no apareció hoy en la fuente (2 de 3)"
-   ],
-   "desglose": [
-    {
-     "concepto": "multinacional estadounidense",
-     "puntos": -5,
-     "nota": "New York, New York"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "compensacion"
-    },
-    {
-     "concepto": "salario",
-     "puntos": 0,
-     "nota": "sin salario publicado, no suma ni resta"
-    }
-   ],
-   "puntaje": 7,
-   "ausencias": 2,
-   "nueva": false,
-   "visto_desde": "2026-09-01",
-   "republicaciones": 0,
-   "reapariciones": 0
-  },
-  {
    "cargo": "Líder de Nómina y Compensación",
    "empresa": "CONFIDENTIAL",
    "empresa_anonima": true,
@@ -1200,12 +1138,12 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 1 día(s)"
+     "nota": "hace 2 día(s)"
     }
    ],
    "puntaje": 7,
    "ausencias": 0,
-   "nueva": true,
+   "nueva": false,
    "visto_desde": "2026-09-23",
    "republicaciones": 0,
    "reapariciones": 0
@@ -1510,7 +1448,7 @@
    ],
    "puntaje": -3,
    "ausencias": 0,
-   "nueva": true,
+   "nueva": false,
    "visto_desde": "2026-09-23",
    "republicaciones": 0,
    "reapariciones": 0
@@ -1567,13 +1505,13 @@
     }
    ],
    "puntaje": -3,
-   "ausencias": 1,
+   "ausencias": 2,
    "nueva": false,
    "visto_desde": "2026-09-18",
    "republicaciones": 0,
    "reapariciones": 0,
    "marcas": [
-    "no apareció hoy en la fuente (1 de 3)"
+    "no apareció hoy en la fuente (2 de 3)"
    ]
   },
   {
@@ -1802,7 +1740,8 @@
    "id": "empresa no revelada|gerente de recursos humanos|bogota#anon:6000001-8000000-2026-07-31",
    "duplicados_hoy": 1,
    "marcas": [
-    "empresa no revelada: puede estar repetida"
+    "empresa no revelada: puede estar repetida",
+    "no apareció hoy en la fuente (1 de 3)"
    ],
    "desglose": [
     {
@@ -1827,7 +1766,7 @@
     }
    ],
    "puntaje": -3,
-   "ausencias": 0,
+   "ausencias": 1,
    "nueva": false,
    "visto_desde": "2026-08-28",
    "republicaciones": 0,
@@ -1938,14 +1877,84 @@
     }
    ],
    "puntaje": -15,
-   "ausencias": 0,
+   "ausencias": 1,
    "nueva": false,
    "visto_desde": "2026-08-31",
    "republicaciones": 0,
-   "reapariciones": 1
+   "reapariciones": 1,
+   "marcas": [
+    "no apareció hoy en la fuente (1 de 3)"
+   ]
   }
  ],
  "caidas": [
+  {
+   "cargo": "Analista Senior de Compensación",
+   "empresa": "Confidencial",
+   "empresa_anonima": true,
+   "ciudad": "Bogota, Capital District",
+   "salario": null,
+   "publicado": "2026-08-31",
+   "vigente_hasta": "2026-09-30",
+   "contrato": [
+    "FULL_TIME"
+   ],
+   "agencia": null,
+   "direccion": null,
+   "lat": 4.6533817,
+   "lon": -74.0836331,
+   "id_fuente": "4460029686",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/analista-senior-de-compensaci%C3%B3n-at-money-inc-4460029686",
+     "id_fuente": "4460029686"
+    }
+   ],
+   "inc": [
+    "salario"
+   ],
+   "deducidos": [
+    "modalidad"
+   ],
+   "modalidad_fuente": "On-site",
+   "empleados": 890,
+   "sede": "New York, New York",
+   "modalidad": "On-site",
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "empresa no revelada|analista senior de compensacion|bogota#anon:0-0-2026-08-31",
+   "duplicados_hoy": 1,
+   "marcas": [
+    "empresa no revelada: puede estar repetida",
+    "no apareció hoy en la fuente (2 de 3)"
+   ],
+   "desglose": [
+    {
+     "concepto": "multinacional estadounidense",
+     "puntos": -5,
+     "nota": "New York, New York"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "compensacion"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    }
+   ],
+   "puntaje": 7,
+   "nueva": false,
+   "visto_desde": "2026-09-01",
+   "republicaciones": 0,
+   "reapariciones": 0,
+   "desaparecio": "2026-09-24",
+   "dias_publicada": 23
+  },
   {
    "cargo": "Global Compensation Manager",
    "empresa": "Worldpanel",
