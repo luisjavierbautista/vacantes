@@ -1,7 +1,7 @@
 {
  "busqueda": "comp-ben",
- "corrida": "2026-09-25",
- "corrida_hora": "2026-09-25 15:50",
+ "corrida": "2026-09-26",
+ "corrida_hora": "2026-09-26 15:00",
  "fuentes": {
   "elempleo": {
    "avisos": 18,
@@ -20,17 +20,17 @@
    "error": null
   },
   "arbeitnow": {
-   "avisos": 0,
+   "avisos": 1,
    "error": null
   },
   "apify_linkedin": {
-   "avisos": 11,
+   "avisos": 12,
    "error": null
   }
  },
  "fallos": [],
- "avisos_recogidos": 36,
- "descartados": 12,
+ "avisos_recogidos": 38,
+ "descartados": 11,
  "fusionados": [
   {
    "conservado": "Compensation & HR Operations Analyst | Inglés Avanzado",
@@ -38,22 +38,18 @@
    "parecido": 0.67
   }
  ],
- "nuevas": [],
- "reaparecidas": [
-  "manpower|compensation hr operations analyst ingles avanzado|bogota",
-  "empresa no revelada|gerente de recursos humanos|bogota#anon:6000001-8000000-2026-07-31"
+ "nuevas": [
+  "empresa confidencial|especialista senior de compensacion|bogota",
+  "filigran|director people operations total rewards|france",
+  "djagora university|project manager compensation analysis u s government contracts|colombia"
  ],
+ "reaparecidas": [],
  "ausentes": [
-  "roche|compensation team lead technical expertise and specializations|budapest#202607-117275",
-  "prosegur|responsable de nomina y compensacion|bogota",
   "envia com|sr payroll compensation specialist latam|bogota",
   "johnson johnson|compensation operations analyst|bogota",
-  "manpower|compensation data analyst ingles avanzado|bogota",
-  "kata|profesional de compensacion y liquidacion de nomina lunes a sabado norte|bogota"
+  "manpower|compensation data analyst ingles avanzado|bogota"
  ],
- "republicadas": [
-  "manpower|compensation hr operations analyst ingles avanzado|bogota"
- ],
+ "republicadas": [],
  "vigentes": [
   {
    "cargo": "Gerente de compensación y arquitectura organizacional",
@@ -118,75 +114,6 @@
    "ausencias": 0,
    "nueva": false,
    "visto_desde": "2026-09-15",
-   "republicaciones": 0,
-   "reapariciones": 0
-  },
-  {
-   "cargo": "Compensation Team Lead - Technical Expertise and Specializations",
-   "empresa": "Roche",
-   "empresa_anonima": false,
-   "ciudad": "Budapest",
-   "salario": null,
-   "publicado": "2026-07-10",
-   "vigente_hasta": null,
-   "contrato": "Tiempo completo",
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": "202607-117275",
-   "pais": "Hungría",
-   "fuentes": [
-    {
-     "fuente": "workday",
-     "url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Budapest/Compensation-Team-Lead---Technical-Expertise-and-Specializations_202607-117275-1",
-     "id_fuente": "202607-117275"
-    }
-   ],
-   "inc": [
-    "salario"
-   ],
-   "deducidos": [],
-   "modalidad": "remoto",
-   "modalidad_literal": "Home office",
-   "modalidad_por_confirmar": false,
-   "marcas": [
-    "dice remoto, pero el aviso es de Hungría: confirma que contrate desde Colombia",
-    "no apareció hoy en la fuente (2 de 3)"
-   ],
-   "id": "roche|compensation team lead technical expertise and specializations|budapest#202607-117275",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "multinacional europea",
-     "puntos": 15,
-     "nota": "por la lista objetivo"
-    },
-    {
-     "concepto": "está en la lista de empresas objetivo",
-     "puntos": 10,
-     "nota": "Roche"
-    },
-    {
-     "concepto": "remoto, pero anclado a Hungría",
-     "puntos": 0,
-     "nota": "«Home office» en un aviso de Hungría: no confirma que contrate desde Colombia, así que no suma"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "total rewards"
-    },
-    {
-     "concepto": "salario",
-     "puntos": 0,
-     "nota": "sin salario publicado, no suma ni resta"
-    }
-   ],
-   "puntaje": 37,
-   "ausencias": 2,
-   "nueva": false,
-   "visto_desde": "2026-08-29",
    "republicaciones": 0,
    "reapariciones": 0
   },
@@ -318,69 +245,72 @@
    "reapariciones": 0
   },
   {
-   "cargo": "Responsable de Nómina y Compensación",
-   "empresa": "Prosegur",
-   "empresa_anonima": false,
+   "cargo": "Especialista senior de compensación",
+   "empresa": "Empresa Confidencial",
+   "empresa_anonima": true,
    "ciudad": "Bogota, Capital District",
    "salario": null,
-   "publicado": "2026-08-21",
-   "vigente_hasta": "2026-10-18",
+   "publicado": "2026-09-25",
+   "vigente_hasta": "2026-10-25",
    "contrato": [
     "FULL_TIME"
    ],
-   "agencia": null,
+   "agencia": "Empresa Confidencial",
    "direccion": null,
    "lat": 4.6533817,
    "lon": -74.0836331,
-   "id_fuente": "4468885931",
+   "id_fuente": "4470517089",
    "pais": null,
    "fuentes": [
     {
      "fuente": "linkedin",
-     "url": "https://co.linkedin.com/jobs/view/responsable-de-n%C3%B3mina-y-compensaci%C3%B3n-at-prosegur-4468885931",
-     "id_fuente": "4468885931"
+     "url": "https://co.linkedin.com/jobs/view/especialista-senior-de-compensaci%C3%B3n-at-empresa-confidencial-4470517089",
+     "id_fuente": "4470517089"
     }
    ],
    "inc": [
     "salario"
    ],
    "deducidos": [
-    "modalidad"
+    "modalidad",
+    "agencia"
    ],
-   "modalidad_fuente": "On-site",
-   "empleados": 68499,
-   "sede": "Madrid, Madrid",
-   "modalidad": "On-site",
-   "modalidad_literal": null,
+   "modalidad_fuente": "Hybrid",
+   "empleados": 15314,
+   "sede": "São Paulo, São Paulo",
+   "modalidad": "híbrido",
+   "modalidad_literal": "Hibrido",
    "modalidad_por_confirmar": false,
-   "id": "prosegur|responsable de nomina y compensacion|bogota",
+   "id": "empresa confidencial|especialista senior de compensacion|bogota",
    "duplicados_hoy": 1,
    "desglose": [
     {
-     "concepto": "multinacional europea",
-     "puntos": 15,
-     "nota": "Madrid, Madrid"
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "el aviso no revela la empresa: no suma ni resta"
     },
     {
      "concepto": "el cuerpo menciona la técnica del oficio",
      "puntos": 12,
-     "nota": "compensacion, estructura salarial, bandas salariales, equidad interna"
+     "nota": "compensacion, estructura salarial, compensacion variable"
     },
     {
      "concepto": "salario",
      "puntos": 0,
      "nota": "sin salario publicado, no suma ni resta"
+    },
+    {
+     "concepto": "publicada hace menos de 3 días",
+     "puntos": 10,
+     "nota": "hace 1 día(s)"
     }
    ],
-   "puntaje": 27,
-   "ausencias": 2,
-   "nueva": false,
-   "visto_desde": "2026-08-29",
-   "republicaciones": 1,
-   "reapariciones": 1,
-   "marcas": [
-    "no apareció hoy en la fuente (2 de 3)"
-   ]
+   "puntaje": 22,
+   "ausencias": 0,
+   "nueva": true,
+   "visto_desde": "2026-09-26",
+   "republicaciones": 0,
+   "reapariciones": 0
   },
   {
    "cargo": "JEFE DE COMPENSACIÓN Y BENEFICIOS - BOGOTÁ- 1625894613-31",
@@ -645,6 +575,81 @@
    "reapariciones": 0
   },
   {
+   "cargo": "Director, People Operations & Total Rewards",
+   "empresa": "Filigran",
+   "empresa_anonima": false,
+   "ciudad": "France",
+   "salario": null,
+   "publicado": null,
+   "vigente_hasta": null,
+   "contrato": null,
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": "director-people-operations-total-rewards-france-479186",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "arbeitnow",
+     "url": "https://www.arbeitnow.fr/jobs/companies/filigran/director-people-operations-total-rewards-france-479186",
+     "id_fuente": "director-people-operations-total-rewards-france-479186"
+    }
+   ],
+   "inc": [
+    "salario",
+    "publicado",
+    "contrato"
+   ],
+   "deducidos": [],
+   "modalidad": "remoto",
+   "modalidad_literal": "remote",
+   "modalidad_por_confirmar": false,
+   "marcas": [
+    "remoto fuera de Colombia, contratación por confirmar"
+   ],
+   "id": "filigran|director people operations total rewards|france",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "remoto confirmado en el cuerpo del aviso",
+     "puntos": 15,
+     "nota": "remote"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "total rewards"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    },
+    {
+     "concepto": "fecha de publicación",
+     "puntos": 0,
+     "nota": "sin fecha publicada: no suma ni resta"
+    },
+    {
+     "concepto": "exige french",
+     "puntos": -10,
+     "nota": "el perfil no lo domina — se muestra igual: muchos avisos lo piden como «deseable» y luego no lo evalúan"
+    }
+   ],
+   "puntaje": 17,
+   "ausencias": 0,
+   "nueva": true,
+   "visto_desde": "2026-09-26",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
+  {
    "cargo": "Sr Payroll & Compensation Specialist – LATAM",
    "empresa": "Envia.com",
    "empresa_anonima": false,
@@ -705,13 +710,13 @@
     }
    ],
    "puntaje": 17,
-   "ausencias": 1,
+   "ausencias": 2,
    "nueva": false,
    "visto_desde": "2026-09-08",
    "republicaciones": 1,
    "reapariciones": 0,
    "marcas": [
-    "no apareció hoy en la fuente (1 de 3)"
+    "no apareció hoy en la fuente (2 de 3)"
    ]
   },
   {
@@ -1025,6 +1030,67 @@
    "reapariciones": 0
   },
   {
+   "cargo": "Project Manager – Compensation Analysis & U.S. Government Contracts",
+   "empresa": "Djagora University",
+   "empresa_anonima": false,
+   "ciudad": "Colombia",
+   "salario": null,
+   "publicado": "2026-09-25",
+   "vigente_hasta": null,
+   "contrato": null,
+   "agencia": null,
+   "direccion": null,
+   "lat": 4.099917,
+   "lon": -72.9088133,
+   "id_fuente": "4470338161",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/project-manager-%E2%80%93-compensation-analysis-u-s-government-contracts-at-djagora-university-4470338161",
+     "id_fuente": "4470338161"
+    }
+   ],
+   "inc": [
+    "salario",
+    "contrato"
+   ],
+   "deducidos": [
+    "modalidad"
+   ],
+   "modalidad_fuente": "On-site",
+   "empleados": null,
+   "sede": null,
+   "modalidad": "On-site",
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "djagora university|project manager compensation analysis u s government contracts|colombia",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    },
+    {
+     "concepto": "publicada hace menos de 3 días",
+     "puntos": 10,
+     "nota": "hace 1 día(s)"
+    }
+   ],
+   "puntaje": 10,
+   "ausencias": 0,
+   "nueva": true,
+   "visto_desde": "2026-09-26",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
+  {
    "cargo": "Workers' Compensation Case Manager",
    "empresa": "The United Firm | La Liga Defensora, APC",
    "empresa_anonima": false,
@@ -1083,72 +1149,6 @@
    "ausencias": 0,
    "nueva": false,
    "visto_desde": "2026-09-05",
-   "republicaciones": 0,
-   "reapariciones": 0
-  },
-  {
-   "cargo": "Líder de Nómina y Compensación",
-   "empresa": "CONFIDENTIAL",
-   "empresa_anonima": true,
-   "ciudad": "Bogotá D.C.",
-   "salario": {
-    "min": 5500001.0,
-    "max": 6000000.0,
-    "moneda": "COP",
-    "periodo": "MONTH"
-   },
-   "publicado": "2026-09-22",
-   "vigente_hasta": "2026-11-21",
-   "contrato": "FULL_TIME",
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": null,
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "elempleo",
-     "url": "https://www.elempleo.com/co/ofertas-trabajo/lider-de-nomina-y-compensacion-1886770489",
-     "id_fuente": null
-    }
-   ],
-   "inc": [],
-   "deducidos": [],
-   "modalidad": "presencial",
-   "modalidad_literal": "presencial",
-   "modalidad_por_confirmar": false,
-   "id": "empresa no revelada|lider de nomina y compensacion|bogota#anon:5500001-6000000-2026-09-22",
-   "duplicados_hoy": 1,
-   "marcas": [
-    "empresa no revelada: puede estar repetida"
-   ],
-   "desglose": [
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "el aviso no revela la empresa: no suma ni resta"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "compensacion, estructura salarial, equidad interna"
-    },
-    {
-     "concepto": "salario publicado por debajo de $18.000.000",
-     "puntos": -15,
-     "nota": "6.000.000 COP — se muestra igual: el publicado casi nunca es el negociado"
-    },
-    {
-     "concepto": "publicada hace menos de 3 días",
-     "puntos": 10,
-     "nota": "hace 3 día(s)"
-    }
-   ],
-   "puntaje": 7,
-   "ausencias": 0,
-   "nueva": false,
-   "visto_desde": "2026-09-23",
    "republicaciones": 0,
    "reapariciones": 0
   },
@@ -1275,13 +1275,13 @@
     }
    ],
    "puntaje": 2,
-   "ausencias": 1,
+   "ausencias": 2,
    "nueva": false,
    "visto_desde": "2026-09-18",
    "republicaciones": 0,
    "reapariciones": 0,
    "marcas": [
-    "no apareció hoy en la fuente (1 de 3)"
+    "no apareció hoy en la fuente (2 de 3)"
    ]
   },
   {
@@ -1454,13 +1454,13 @@
     }
    ],
    "puntaje": -3,
-   "ausencias": 1,
+   "ausencias": 2,
    "nueva": false,
    "visto_desde": "2026-09-23",
    "republicaciones": 0,
    "reapariciones": 0,
    "marcas": [
-    "no apareció hoy en la fuente (1 de 3)"
+    "no apareció hoy en la fuente (2 de 3)"
    ]
   },
   {
@@ -1527,8 +1527,7 @@
    "nueva": false,
    "visto_desde": "2026-09-18",
    "republicaciones": 1,
-   "reapariciones": 1,
-   "reaparecida": true
+   "reapariciones": 1
   },
   {
    "cargo": "Coordinador de contratación nómina y compensación",
@@ -1653,6 +1652,67 @@
    "ausencias": 0,
    "nueva": false,
    "visto_desde": "2026-09-04",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
+  {
+   "cargo": "Líder de Nómina y Compensación",
+   "empresa": "CONFIDENTIAL",
+   "empresa_anonima": true,
+   "ciudad": "Bogotá D.C.",
+   "salario": {
+    "min": 5500001.0,
+    "max": 6000000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-09-22",
+   "vigente_hasta": "2026-11-21",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/lider-de-nomina-y-compensacion-1886770489",
+     "id_fuente": null
+    }
+   ],
+   "inc": [],
+   "deducidos": [],
+   "modalidad": "presencial",
+   "modalidad_literal": "presencial",
+   "modalidad_por_confirmar": false,
+   "id": "empresa no revelada|lider de nomina y compensacion|bogota#anon:5500001-6000000-2026-09-22",
+   "duplicados_hoy": 1,
+   "marcas": [
+    "empresa no revelada: puede estar repetida"
+   ],
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "el aviso no revela la empresa: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "compensacion, estructura salarial, equidad interna"
+    },
+    {
+     "concepto": "salario publicado por debajo de $18.000.000",
+     "puntos": -15,
+     "nota": "6.000.000 COP — se muestra igual: el publicado casi nunca es el negociado"
+    }
+   ],
+   "puntaje": -3,
+   "ausencias": 0,
+   "nueva": false,
+   "visto_desde": "2026-09-23",
    "republicaciones": 0,
    "reapariciones": 0
   },
@@ -1785,8 +1845,7 @@
    "nueva": false,
    "visto_desde": "2026-08-28",
    "republicaciones": 0,
-   "reapariciones": 2,
-   "reaparecida": true
+   "reapariciones": 2
   },
   {
    "cargo": "PROFESIONAL DE COMPENSACIÓN Y ANALÍTICA DE DATOS (NOMINA).",
@@ -1845,6 +1904,144 @@
    "visto_desde": "2026-08-28",
    "republicaciones": 0,
    "reapariciones": 0
+  }
+ ],
+ "caidas": [
+  {
+   "cargo": "Compensation Team Lead - Technical Expertise and Specializations",
+   "empresa": "Roche",
+   "empresa_anonima": false,
+   "ciudad": "Budapest",
+   "salario": null,
+   "publicado": "2026-07-10",
+   "vigente_hasta": null,
+   "contrato": "Tiempo completo",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": "202607-117275",
+   "pais": "Hungría",
+   "fuentes": [
+    {
+     "fuente": "workday",
+     "url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Budapest/Compensation-Team-Lead---Technical-Expertise-and-Specializations_202607-117275-1",
+     "id_fuente": "202607-117275"
+    }
+   ],
+   "inc": [
+    "salario"
+   ],
+   "deducidos": [],
+   "modalidad": "remoto",
+   "modalidad_literal": "Home office",
+   "modalidad_por_confirmar": false,
+   "marcas": [
+    "dice remoto, pero el aviso es de Hungría: confirma que contrate desde Colombia",
+    "no apareció hoy en la fuente (2 de 3)"
+   ],
+   "id": "roche|compensation team lead technical expertise and specializations|budapest#202607-117275",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "multinacional europea",
+     "puntos": 15,
+     "nota": "por la lista objetivo"
+    },
+    {
+     "concepto": "está en la lista de empresas objetivo",
+     "puntos": 10,
+     "nota": "Roche"
+    },
+    {
+     "concepto": "remoto, pero anclado a Hungría",
+     "puntos": 0,
+     "nota": "«Home office» en un aviso de Hungría: no confirma que contrate desde Colombia, así que no suma"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "total rewards"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    }
+   ],
+   "puntaje": 37,
+   "nueva": false,
+   "visto_desde": "2026-08-29",
+   "republicaciones": 0,
+   "reapariciones": 0,
+   "desaparecio": "2026-09-26",
+   "dias_publicada": 28
+  },
+  {
+   "cargo": "Responsable de Nómina y Compensación",
+   "empresa": "Prosegur",
+   "empresa_anonima": false,
+   "ciudad": "Bogota, Capital District",
+   "salario": null,
+   "publicado": "2026-08-21",
+   "vigente_hasta": "2026-10-18",
+   "contrato": [
+    "FULL_TIME"
+   ],
+   "agencia": null,
+   "direccion": null,
+   "lat": 4.6533817,
+   "lon": -74.0836331,
+   "id_fuente": "4468885931",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/responsable-de-n%C3%B3mina-y-compensaci%C3%B3n-at-prosegur-4468885931",
+     "id_fuente": "4468885931"
+    }
+   ],
+   "inc": [
+    "salario"
+   ],
+   "deducidos": [
+    "modalidad"
+   ],
+   "modalidad_fuente": "On-site",
+   "empleados": 68499,
+   "sede": "Madrid, Madrid",
+   "modalidad": "On-site",
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "prosegur|responsable de nomina y compensacion|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "multinacional europea",
+     "puntos": 15,
+     "nota": "Madrid, Madrid"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "compensacion, estructura salarial, bandas salariales, equidad interna"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    }
+   ],
+   "puntaje": 27,
+   "nueva": false,
+   "visto_desde": "2026-08-29",
+   "republicaciones": 1,
+   "reapariciones": 1,
+   "marcas": [
+    "no apareció hoy en la fuente (2 de 3)"
+   ],
+   "desaparecio": "2026-09-26",
+   "dias_publicada": 28
   },
   {
    "cargo": "Profesional de Compensación y Liquidación de Nomina/ Lunes a Sábado - Norte de Bogota",
@@ -1893,17 +2090,16 @@
     }
    ],
    "puntaje": -15,
-   "ausencias": 2,
    "nueva": false,
    "visto_desde": "2026-08-31",
    "republicaciones": 0,
    "reapariciones": 1,
    "marcas": [
     "no apareció hoy en la fuente (2 de 3)"
-   ]
-  }
- ],
- "caidas": [
+   ],
+   "desaparecio": "2026-09-26",
+   "dias_publicada": 26
+  },
   {
    "cargo": "Analista Senior de Compensación",
    "empresa": "Confidencial",
