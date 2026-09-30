@@ -1,10 +1,10 @@
 {
  "busqueda": "comp-ben",
- "corrida": "2026-09-29",
- "corrida_hora": "2026-09-29 16:55",
+ "corrida": "2026-09-30",
+ "corrida_hora": "2026-09-30 16:50",
  "fuentes": {
   "elempleo": {
-   "avisos": 4,
+   "avisos": 16,
    "error": null
   },
   "computrabajo": {
@@ -12,7 +12,7 @@
    "error": null
   },
   "workday": {
-   "avisos": 4,
+   "avisos": 5,
    "error": null
   },
   "greenhouse": {
@@ -20,7 +20,7 @@
    "error": null
   },
   "arbeitnow": {
-   "avisos": 1,
+   "avisos": 0,
    "error": null
   },
   "apify_linkedin": {
@@ -28,146 +28,35 @@
    "error": null
   }
  },
- "fallos": [
+ "fallos": [],
+ "avisos_recogidos": 37,
+ "descartados": 13,
+ "fusionados": [
   {
-   "url": "https://www.elempleo.com/co/ofertas-empleo/area-recursos-humanos-admon-personal",
-   "motivo": "HTTP 500"
-  },
-  {
-   "url": "https://www.elempleo.com/co/ofertas-empleo/trabajo-especialista-en-compensacion-y-beneficios-recursos-humanos-total-rewards",
-   "motivo": "HTTP 500"
-  },
-  {
-   "url": "https://www.elempleo.com/co/ofertas-empleo/trabajo-jefe-de-compensacion-y-beneficios",
-   "motivo": "HTTP 500"
-  },
-  {
-   "url": "https://www.elempleo.com/co/ofertas-empleo/bogota/trabajo-coordinador-de-compensacion",
-   "motivo": "HTTP 500"
-  },
-  {
-   "url": "https://www.elempleo.com/co/ofertas-empleo/bogota/trabajo-gerente-de-compensacion-nomina-y-contratacion",
-   "motivo": "HTTP 500"
-  },
-  {
-   "url": "https://www.elempleo.com/co/ofertas-empleo/bogota/trabajo-jefe-de-compensacion-y-beneficios",
-   "motivo": "HTTP 500"
-  },
-  {
-   "url": "https://www.elempleo.com/co/ofertas-empleo/medellin/trabajo-jefe-de-compensacion-y-beneficios",
-   "motivo": "HTTP 500"
-  },
-  {
-   "url": "https://www.elempleo.com/co/ofertas-empleo/cartagena/trabajo-jefe-de-compensacion-y-beneficios",
-   "motivo": "HTTP 500"
-  },
-  {
-   "url": "https://www.elempleo.com/co/ofertas-empleo/trabajo-analista-de-compensacion-beneficios-e-investigacion-de-mercados",
-   "motivo": "HTTP 500"
-  },
-  {
-   "url": "https://www.elempleo.com/co/ofertas-empleo/trabajo-analista-de-compensacion-y-beneficios",
-   "motivo": "HTTP 500"
-  },
-  {
-   "url": "https://www.elempleo.com/co/ofertas-empleo/trabajo-analista-de-compensacion-y-proyectos-bogota",
-   "motivo": "HTTP 500"
-  },
-  {
-   "url": "https://www.elempleo.com/co/ofertas-empleo/trabajo-consultor-flexibilizacion-salarial-y-beneficios-pensional",
-   "motivo": "HTTP 500"
-  },
-  {
-   "url": "https://www.elempleo.com/co/ofertas-empleo/trabajo-global-compensation-leader",
-   "motivo": "HTTP 500"
-  },
-  {
-   "url": "https://www.elempleo.com/co/ofertas-empleo/trabajo-profesional-de-compensacion-y-nomina",
-   "motivo": "HTTP 500"
-  },
-  {
-   "url": "https://www.elempleo.com/co/ofertas-empleo/bogota/trabajo-coordinador-territorial-c-b",
-   "motivo": "HTTP 500"
-  },
-  {
-   "url": "https://www.elempleo.com/co/ofertas-empleo/bogota/trabajo-jefe-de-planeacion-y-compensacion",
-   "motivo": "HTTP 500"
-  },
-  {
-   "url": "https://www.elempleo.com/co/ofertas-empleo/medellin/trabajo-jefe-de-planeacion-y-compensacion",
-   "motivo": "HTTP 500"
-  },
-  {
-   "url": "https://www.elempleo.com/co/ofertas-empleo/cali/trabajo-jefe-de-planeacion-y-compensacion",
-   "motivo": "HTTP 500"
-  },
-  {
-   "url": "https://www.elempleo.com/co/ofertas-empleo/bogota-alrededores/trabajo-jefe-de-planeacion-y-compensacion",
-   "motivo": "HTTP 500"
-  },
-  {
-   "url": "https://www.elempleo.com/co/ofertas-empleo/villeta/trabajo-jefe-de-planeacion-y-compensacion",
-   "motivo": "HTTP 500"
-  },
-  {
-   "url": "https://www.elempleo.com/co/ofertas-trabajo/coordinador-de-contratacion-nomina-y-compensacion-1886756894",
-   "motivo": "HTTP 500"
-  },
-  {
-   "url": "https://www.elempleo.com/co/ofertas-trabajo/coordinador-de-compensacion-talento-humano-1886758342",
-   "motivo": "HTTP 500"
-  },
-  {
-   "url": "https://www.elempleo.com/co/ofertas-trabajo/gerente-de-compensacion-y-arquitectura-organizacional-1886766909",
-   "motivo": "HTTP 500"
-  },
-  {
-   "url": "https://www.elempleo.com/co/ofertas-trabajo/jefe-de-relaciones-laborales-y-compensacion-1886761310",
-   "motivo": "HTTP 500"
-  },
-  {
-   "url": "https://www.elempleo.com/co/ofertas-trabajo/lider-de-nomina-y-compensacion-1886762031",
-   "motivo": "HTTP 500"
-  },
-  {
-   "url": "https://www.elempleo.com/co/ofertas-trabajo/lider-de-nomina-y-compensacion-1886770489",
-   "motivo": "HTTP 500"
-  },
-  {
-   "url": "https://www.elempleo.com/co/ofertas-trabajo/especialista-de-compensacion-1886767419",
-   "motivo": "HTTP 500"
-  },
-  {
-   "url": "https://www.elempleo.com/co/ofertas-trabajo/total-rewards-lead-lider-de-compensacion-y-beneficios-bilingue-1886749725",
-   "motivo": "HTTP 500"
-  },
-  {
-   "url": "https://www.elempleo.com/co/ofertas-trabajo/profesional-de-compensacion-y-analitica-de-datos-nomina-1886721606",
-   "motivo": "HTTP 500"
+   "conservado": "Compensation & Data Analyst | Inglés Avanzado",
+   "absorbido": "Compensation & HR Operations Analyst | Inglés Avanzado",
+   "parecido": 0.67
   }
  ],
- "avisos_recogidos": 25,
- "descartados": 11,
- "fusionados": [],
- "nuevas": [],
- "reaparecidas": [],
- "ausentes": [
+ "nuevas": [
+  "gsk|incentive compensation sales performance manager|bogota#448585"
+ ],
+ "reaparecidas": [
   "empresa no revelada|gerente de compensacion y arquitectura organizacional|bogota#anon:18000001-21000000-2026-09-15",
   "empresa no revelada|especialista de compensacion|bogota#anon:0-0-2026-09-15",
-  "empresa confidencial|especialista senior de compensacion|bogota",
   "manpower|total rewards lead lider de compensacion y beneficios|bogota",
   "empresa no revelada|coordinador de compensacion talento humano|bogota#anon:6000001-8000000-2026-08-27",
-  "manpower|compensation hr operations analyst ingles avanzado|bogota",
+  "manpower|compensation data analyst ingles avanzado|bogota",
   "empresa no revelada|coordinador de contratacion nomina y compensacion|bogota#anon:5500001-6000000-2026-08-24",
   "empresa no revelada|lider de nomina y compensacion|bogota#anon:5500001-6000000-2026-09-04",
   "empresa no revelada|lider de nomina y compensacion|bogota#anon:5500001-6000000-2026-09-22",
-  "empresa no revelada|profesional de contratacion y compensacion|bogota#anon:4000001-4500000-2026-08-10",
-  "empresa no revelada|gerente de recursos humanos|bogota#anon:6000001-8000000-2026-07-31",
   "empresa no revelada|profesional de compensacion y analitica de datos|bogota#anon:3500001-4000000-2026-08-10"
  ],
- "republicadas": [
-  "remotecom|senior lifecycle specialist workers compensation emea|"
+ "ausentes": [
+  "remotecom|senior lifecycle specialist workers compensation emea|",
+  "manpower|compensation hr operations analyst ingles avanzado|bogota"
  ],
+ "republicadas": [],
  "vigentes": [
   {
    "cargo": "Gerente de compensación y arquitectura organizacional",
@@ -204,8 +93,7 @@
    "id": "empresa no revelada|gerente de compensacion y arquitectura organizacional|bogota#anon:18000001-21000000-2026-09-15",
    "duplicados_hoy": 1,
    "marcas": [
-    "empresa no revelada: puede estar repetida",
-    "no apareció hoy en la fuente (1 de 3)"
+    "empresa no revelada: puede estar repetida"
    ],
    "desglose": [
     {
@@ -230,11 +118,12 @@
     }
    ],
    "puntaje": 49,
-   "ausencias": 1,
+   "ausencias": 0,
    "nueva": false,
    "visto_desde": "2026-09-15",
    "republicaciones": 0,
-   "reapariciones": 0
+   "reapariciones": 1,
+   "reaparecida": true
   },
   {
    "cargo": "Coordinador (a) de compensación y beneficios",
@@ -332,8 +221,7 @@
    "id": "empresa no revelada|especialista de compensacion|bogota#anon:0-0-2026-09-15",
    "duplicados_hoy": 1,
    "marcas": [
-    "empresa no revelada: puede estar repetida",
-    "no apareció hoy en la fuente (1 de 3)"
+    "empresa no revelada: puede estar repetida"
    ],
    "desglose": [
     {
@@ -358,9 +246,81 @@
     }
    ],
    "puntaje": 37,
-   "ausencias": 1,
+   "ausencias": 0,
    "nueva": false,
    "visto_desde": "2026-09-16",
+   "republicaciones": 0,
+   "reapariciones": 1,
+   "reaparecida": true
+  },
+  {
+   "cargo": "Incentive Compensation & Sales Performance Manager",
+   "empresa": "GSK",
+   "empresa_anonima": false,
+   "ciudad": "Bogota Torre Cusezar",
+   "salario": null,
+   "publicado": "2026-09-29",
+   "vigente_hasta": null,
+   "contrato": "A tiempo completo",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": "448585",
+   "pais": "Colombia",
+   "fuentes": [
+    {
+     "fuente": "workday",
+     "url": "https://gsk.wd5.myworkdayjobs.com/GSKCareers/job/Bogota-Torre-Cusezar/Incentive-Compensation---Sales-Performance-Manager_448585-1",
+     "id_fuente": "448585"
+    }
+   ],
+   "inc": [
+    "salario",
+    "modalidad"
+   ],
+   "deducidos": [],
+   "modalidad": null,
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "gsk|incentive compensation sales performance manager|bogota#448585",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "cargo objetivo de la búsqueda",
+     "puntos": 25,
+     "nota": "Incentive Compensation & Sales Performance Manager"
+    },
+    {
+     "concepto": "cargo de la lista de excluidos",
+     "puntos": -25,
+     "nota": "Incentive Compensation & Sales Performance Manager"
+    },
+    {
+     "concepto": "multinacional europea",
+     "puntos": 15,
+     "nota": "por la lista objetivo"
+    },
+    {
+     "concepto": "está en la lista de empresas objetivo",
+     "puntos": 10,
+     "nota": "GSK"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    },
+    {
+     "concepto": "publicada hace menos de 3 días",
+     "puntos": 10,
+     "nota": "hace 1 día(s)"
+    }
+   ],
+   "puntaje": 35,
+   "ausencias": 0,
+   "nueva": true,
+   "visto_desde": "2026-09-30",
    "republicaciones": 0,
    "reapariciones": 0
   },
@@ -397,7 +357,8 @@
    "modalidad_literal": "Remote",
    "modalidad_por_confirmar": false,
    "marcas": [
-    "ciudad sin publicar"
+    "ciudad sin publicar",
+    "no apareció hoy en la fuente (1 de 3)"
    ],
    "id": "remotecom|senior lifecycle specialist workers compensation emea|",
    "duplicados_hoy": 1,
@@ -429,82 +390,11 @@
     }
    ],
    "puntaje": 27,
-   "ausencias": 0,
+   "ausencias": 1,
    "nueva": false,
    "visto_desde": "2026-09-28",
    "republicaciones": 1,
    "reapariciones": 0
-  },
-  {
-   "cargo": "Especialista senior de compensación",
-   "empresa": "Empresa Confidencial",
-   "empresa_anonima": true,
-   "ciudad": "Bogota, Capital District",
-   "salario": null,
-   "publicado": "2026-09-25",
-   "vigente_hasta": "2026-10-25",
-   "contrato": [
-    "FULL_TIME"
-   ],
-   "agencia": "Empresa Confidencial",
-   "direccion": null,
-   "lat": 4.6533817,
-   "lon": -74.0836331,
-   "id_fuente": "4470517089",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "linkedin",
-     "url": "https://co.linkedin.com/jobs/view/especialista-senior-de-compensaci%C3%B3n-at-empresa-confidencial-4470517089",
-     "id_fuente": "4470517089"
-    }
-   ],
-   "inc": [
-    "salario"
-   ],
-   "deducidos": [
-    "modalidad",
-    "agencia"
-   ],
-   "modalidad_fuente": "Hybrid",
-   "empleados": 15314,
-   "sede": "São Paulo, São Paulo",
-   "modalidad": "híbrido",
-   "modalidad_literal": "Hibrido",
-   "modalidad_por_confirmar": false,
-   "id": "empresa confidencial|especialista senior de compensacion|bogota",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "el aviso no revela la empresa: no suma ni resta"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "compensacion, estructura salarial, compensacion variable"
-    },
-    {
-     "concepto": "salario",
-     "puntos": 0,
-     "nota": "sin salario publicado, no suma ni resta"
-    },
-    {
-     "concepto": "publicada hace menos de 3 días",
-     "puntos": 10,
-     "nota": "hace 2 día(s)"
-    }
-   ],
-   "puntaje": 22,
-   "ausencias": 2,
-   "nueva": false,
-   "visto_desde": "2026-09-26",
-   "republicaciones": 0,
-   "reapariciones": 0,
-   "marcas": [
-    "no apareció hoy en la fuente (2 de 3)"
-   ]
   },
   {
    "cargo": "Líder de Compensación y Beneficios - Nomina",
@@ -628,14 +518,12 @@
     }
    ],
    "puntaje": 22,
-   "ausencias": 1,
+   "ausencias": 0,
    "nueva": false,
    "visto_desde": "2026-08-28",
    "republicaciones": 0,
-   "reapariciones": 0,
-   "marcas": [
-    "no apareció hoy en la fuente (1 de 3)"
-   ]
+   "reapariciones": 1,
+   "reaparecida": true
   },
   {
    "cargo": "coordinador de compensación talento humano",
@@ -672,8 +560,7 @@
    "id": "empresa no revelada|coordinador de compensacion talento humano|bogota#anon:6000001-8000000-2026-08-27",
    "duplicados_hoy": 1,
    "marcas": [
-    "empresa no revelada: puede estar repetida",
-    "no apareció hoy en la fuente (1 de 3)"
+    "empresa no revelada: puede estar repetida"
    ],
    "desglose": [
     {
@@ -698,11 +585,12 @@
     }
    ],
    "puntaje": 22,
-   "ausencias": 1,
+   "ausencias": 0,
    "nueva": false,
    "visto_desde": "2026-08-28",
    "republicaciones": 0,
-   "reapariciones": 0
+   "reapariciones": 1,
+   "reaparecida": true
   },
   {
    "cargo": "Analista Senior de Compensación y Estructura Salarial",
@@ -1196,7 +1084,7 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 1 día(s)"
+     "nota": "hace 2 día(s)"
     }
    ],
    "puntaje": 7,
@@ -1373,6 +1261,73 @@
    "reapariciones": 0
   },
   {
+   "cargo": "Compensation & Data Analyst | Inglés Avanzado",
+   "empresa": "MANPOWER",
+   "empresa_anonima": false,
+   "ciudad": "Bogotá D.C.",
+   "salario": {
+    "min": 4500001.0,
+    "max": 5500000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-09-17",
+   "vigente_hasta": "2026-11-21",
+   "contrato": "PER_DIEM",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/compensation-data-analyst-ingles-avanzado-1886770844",
+     "id_fuente": null
+    },
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/compensation-hr-operations-analyst-ingles-avanzado-1886768508",
+     "id_fuente": null
+    }
+   ],
+   "inc": [],
+   "deducidos": [],
+   "modalidad": "híbrido",
+   "modalidad_literal": "3 dias en oficina",
+   "modalidad_por_confirmar": false,
+   "id": "manpower|compensation data analyst ingles avanzado|bogota",
+   "duplicados_hoy": 1,
+   "titulos_alternos": [
+    "Compensation & HR Operations Analyst | Inglés Avanzado"
+   ],
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "compensacion"
+    },
+    {
+     "concepto": "salario publicado por debajo de $18.000.000",
+     "puntos": -15,
+     "nota": "5.500.000 COP — se muestra igual: el publicado casi nunca es el negociado"
+    }
+   ],
+   "puntaje": -3,
+   "ausencias": 0,
+   "nueva": false,
+   "visto_desde": "2026-09-23",
+   "republicaciones": 0,
+   "reapariciones": 1,
+   "reaparecida": true
+  },
+  {
    "cargo": "Compensation & HR Operations Analyst | Inglés Avanzado",
    "empresa": "MANPOWER",
    "empresa_anonima": false,
@@ -1432,13 +1387,13 @@
     }
    ],
    "puntaje": -3,
-   "ausencias": 1,
+   "ausencias": 2,
    "nueva": false,
    "visto_desde": "2026-09-18",
    "republicaciones": 1,
    "reapariciones": 1,
    "marcas": [
-    "no apareció hoy en la fuente (1 de 3)"
+    "no apareció hoy en la fuente (2 de 3)"
    ]
   },
   {
@@ -1478,8 +1433,7 @@
    "id": "empresa no revelada|coordinador de contratacion nomina y compensacion|bogota#anon:5500001-6000000-2026-08-24",
    "duplicados_hoy": 1,
    "marcas": [
-    "empresa no revelada: puede estar repetida",
-    "no apareció hoy en la fuente (1 de 3)"
+    "empresa no revelada: puede estar repetida"
    ],
    "desglose": [
     {
@@ -1499,11 +1453,12 @@
     }
    ],
    "puntaje": -3,
-   "ausencias": 1,
+   "ausencias": 0,
    "nueva": false,
    "visto_desde": "2026-08-28",
    "republicaciones": 0,
-   "reapariciones": 0
+   "reapariciones": 1,
+   "reaparecida": true
   },
   {
    "cargo": "Líder de Nómina y Compensación",
@@ -1542,8 +1497,7 @@
    "id": "empresa no revelada|lider de nomina y compensacion|bogota#anon:5500001-6000000-2026-09-04",
    "duplicados_hoy": 1,
    "marcas": [
-    "empresa no revelada: puede estar repetida",
-    "no apareció hoy en la fuente (1 de 3)"
+    "empresa no revelada: puede estar repetida"
    ],
    "desglose": [
     {
@@ -1563,11 +1517,12 @@
     }
    ],
    "puntaje": -3,
-   "ausencias": 1,
+   "ausencias": 0,
    "nueva": false,
    "visto_desde": "2026-09-04",
    "republicaciones": 0,
-   "reapariciones": 0
+   "reapariciones": 1,
+   "reaparecida": true
   },
   {
    "cargo": "Líder de Nómina y Compensación",
@@ -1604,8 +1559,7 @@
    "id": "empresa no revelada|lider de nomina y compensacion|bogota#anon:5500001-6000000-2026-09-22",
    "duplicados_hoy": 1,
    "marcas": [
-    "empresa no revelada: puede estar repetida",
-    "no apareció hoy en la fuente (1 de 3)"
+    "empresa no revelada: puede estar repetida"
    ],
    "desglose": [
     {
@@ -1625,11 +1579,145 @@
     }
    ],
    "puntaje": -3,
-   "ausencias": 1,
+   "ausencias": 0,
    "nueva": false,
    "visto_desde": "2026-09-23",
    "republicaciones": 0,
-   "reapariciones": 0
+   "reapariciones": 1,
+   "reaparecida": true
+  },
+  {
+   "cargo": "PROFESIONAL DE COMPENSACIÓN Y ANALÍTICA DE DATOS (NOMINA).",
+   "empresa": "CONFIDENTIAL",
+   "empresa_anonima": true,
+   "ciudad": "Bogotá D.C.",
+   "salario": {
+    "min": 3500001.0,
+    "max": 4000000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-08-10",
+   "vigente_hasta": "2026-10-09",
+   "contrato": "TEMPORARY",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/profesional-de-compensacion-y-analitica-de-datos-nomina-1886721606",
+     "id_fuente": null
+    }
+   ],
+   "inc": [
+    "modalidad"
+   ],
+   "deducidos": [],
+   "modalidad": null,
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "empresa no revelada|profesional de compensacion y analitica de datos|bogota#anon:3500001-4000000-2026-08-10",
+   "duplicados_hoy": 1,
+   "marcas": [
+    "empresa no revelada: puede estar repetida"
+   ],
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "el aviso no revela la empresa: no suma ni resta"
+    },
+    {
+     "concepto": "salario publicado por debajo de $18.000.000",
+     "puntos": -15,
+     "nota": "4.000.000 COP — se muestra igual: el publicado casi nunca es el negociado"
+    }
+   ],
+   "puntaje": -15,
+   "ausencias": 0,
+   "nueva": false,
+   "visto_desde": "2026-08-28",
+   "republicaciones": 0,
+   "reapariciones": 1,
+   "reaparecida": true
+  }
+ ],
+ "caidas": [
+  {
+   "cargo": "Especialista senior de compensación",
+   "empresa": "Empresa Confidencial",
+   "empresa_anonima": true,
+   "ciudad": "Bogota, Capital District",
+   "salario": null,
+   "publicado": "2026-09-25",
+   "vigente_hasta": "2026-10-25",
+   "contrato": [
+    "FULL_TIME"
+   ],
+   "agencia": "Empresa Confidencial",
+   "direccion": null,
+   "lat": 4.6533817,
+   "lon": -74.0836331,
+   "id_fuente": "4470517089",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/especialista-senior-de-compensaci%C3%B3n-at-empresa-confidencial-4470517089",
+     "id_fuente": "4470517089"
+    }
+   ],
+   "inc": [
+    "salario"
+   ],
+   "deducidos": [
+    "modalidad",
+    "agencia"
+   ],
+   "modalidad_fuente": "Hybrid",
+   "empleados": 15314,
+   "sede": "São Paulo, São Paulo",
+   "modalidad": "híbrido",
+   "modalidad_literal": "Hibrido",
+   "modalidad_por_confirmar": false,
+   "id": "empresa confidencial|especialista senior de compensacion|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "el aviso no revela la empresa: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "compensacion, estructura salarial, compensacion variable"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    },
+    {
+     "concepto": "publicada hace menos de 3 días",
+     "puntos": 10,
+     "nota": "hace 2 día(s)"
+    }
+   ],
+   "puntaje": 22,
+   "nueva": false,
+   "visto_desde": "2026-09-26",
+   "republicaciones": 0,
+   "reapariciones": 0,
+   "marcas": [
+    "no apareció hoy en la fuente (2 de 3)"
+   ],
+   "desaparecio": "2026-09-30",
+   "dias_publicada": 4
   },
   {
    "cargo": "Profesional de contratación y compensación",
@@ -1689,11 +1777,12 @@
     }
    ],
    "puntaje": -3,
-   "ausencias": 2,
    "nueva": false,
    "visto_desde": "2026-08-28",
    "republicaciones": 0,
-   "reapariciones": 0
+   "reapariciones": 0,
+   "desaparecio": "2026-09-30",
+   "dias_publicada": 33
   },
   {
    "cargo": "gerente de recursos humanos",
@@ -1758,73 +1847,13 @@
     }
    ],
    "puntaje": -3,
-   "ausencias": 2,
    "nueva": false,
    "visto_desde": "2026-08-28",
    "republicaciones": 0,
-   "reapariciones": 2
+   "reapariciones": 2,
+   "desaparecio": "2026-09-30",
+   "dias_publicada": 33
   },
-  {
-   "cargo": "PROFESIONAL DE COMPENSACIÓN Y ANALÍTICA DE DATOS (NOMINA).",
-   "empresa": "CONFIDENTIAL",
-   "empresa_anonima": true,
-   "ciudad": "Bogotá D.C.",
-   "salario": {
-    "min": 3500001.0,
-    "max": 4000000.0,
-    "moneda": "COP",
-    "periodo": "MONTH"
-   },
-   "publicado": "2026-08-10",
-   "vigente_hasta": "2026-10-09",
-   "contrato": "TEMPORARY",
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": null,
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "elempleo",
-     "url": "https://www.elempleo.com/co/ofertas-trabajo/profesional-de-compensacion-y-analitica-de-datos-nomina-1886721606",
-     "id_fuente": null
-    }
-   ],
-   "inc": [
-    "modalidad"
-   ],
-   "deducidos": [],
-   "modalidad": null,
-   "modalidad_literal": null,
-   "modalidad_por_confirmar": false,
-   "id": "empresa no revelada|profesional de compensacion y analitica de datos|bogota#anon:3500001-4000000-2026-08-10",
-   "duplicados_hoy": 1,
-   "marcas": [
-    "empresa no revelada: puede estar repetida",
-    "no apareció hoy en la fuente (1 de 3)"
-   ],
-   "desglose": [
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "el aviso no revela la empresa: no suma ni resta"
-    },
-    {
-     "concepto": "salario publicado por debajo de $18.000.000",
-     "puntos": -15,
-     "nota": "4.000.000 COP — se muestra igual: el publicado casi nunca es el negociado"
-    }
-   ],
-   "puntaje": -15,
-   "ausencias": 1,
-   "nueva": false,
-   "visto_desde": "2026-08-28",
-   "republicaciones": 0,
-   "reapariciones": 0
-  }
- ],
- "caidas": [
   {
    "cargo": "JEFE DE COMPENSACIÓN Y BENEFICIOS - BOGOTÁ- 1625894613-31",
    "empresa": "CONFIDENTIAL",
@@ -2113,76 +2142,6 @@
    ],
    "desaparecio": "2026-09-27",
    "dias_publicada": 9
-  },
-  {
-   "cargo": "Compensation & Data Analyst | Inglés Avanzado",
-   "empresa": "MANPOWER",
-   "empresa_anonima": false,
-   "ciudad": "Bogotá D.C.",
-   "salario": {
-    "min": 4500001.0,
-    "max": 5500000.0,
-    "moneda": "COP",
-    "periodo": "MONTH"
-   },
-   "publicado": "2026-09-17",
-   "vigente_hasta": "2026-11-21",
-   "contrato": "PER_DIEM",
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": null,
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "elempleo",
-     "url": "https://www.elempleo.com/co/ofertas-trabajo/compensation-data-analyst-ingles-avanzado-1886770844",
-     "id_fuente": null
-    },
-    {
-     "fuente": "elempleo",
-     "url": "https://www.elempleo.com/co/ofertas-trabajo/compensation-hr-operations-analyst-ingles-avanzado-1886768508",
-     "id_fuente": null
-    }
-   ],
-   "inc": [],
-   "deducidos": [],
-   "modalidad": "híbrido",
-   "modalidad_literal": "3 dias en oficina",
-   "modalidad_por_confirmar": false,
-   "id": "manpower|compensation data analyst ingles avanzado|bogota",
-   "duplicados_hoy": 1,
-   "titulos_alternos": [
-    "Compensation & HR Operations Analyst | Inglés Avanzado"
-   ],
-   "desglose": [
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "no se pudo determinar: no suma ni resta"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "compensacion"
-    },
-    {
-     "concepto": "salario publicado por debajo de $18.000.000",
-     "puntos": -15,
-     "nota": "5.500.000 COP — se muestra igual: el publicado casi nunca es el negociado"
-    }
-   ],
-   "puntaje": -3,
-   "nueva": false,
-   "visto_desde": "2026-09-23",
-   "republicaciones": 0,
-   "reapariciones": 0,
-   "marcas": [
-    "no apareció hoy en la fuente (2 de 3)"
-   ],
-   "desaparecio": "2026-09-27",
-   "dias_publicada": 4
   },
   {
    "cargo": "Compensation Team Lead - Technical Expertise and Specializations",
