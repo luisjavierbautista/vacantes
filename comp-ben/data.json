@@ -1,10 +1,10 @@
 {
  "busqueda": "comp-ben",
- "corrida": "2026-09-30",
- "corrida_hora": "2026-09-30 16:50",
+ "corrida": "2026-10-01",
+ "corrida_hora": "2026-10-01 17:23",
  "fuentes": {
   "elempleo": {
-   "avisos": 16,
+   "avisos": 17,
    "error": null
   },
   "computrabajo": {
@@ -12,7 +12,7 @@
    "error": null
   },
   "workday": {
-   "avisos": 5,
+   "avisos": 6,
    "error": null
   },
   "greenhouse": {
@@ -29,35 +29,109 @@
   }
  },
  "fallos": [],
- "avisos_recogidos": 37,
- "descartados": 13,
+ "avisos_recogidos": 39,
+ "descartados": 14,
  "fusionados": [
   {
-   "conservado": "Compensation & Data Analyst | Inglés Avanzado",
-   "absorbido": "Compensation & HR Operations Analyst | Inglés Avanzado",
+   "conservado": "Compensation & HR Operations Analyst | Inglés Avanzado",
+   "absorbido": "Compensation & Data Analyst | Inglés Avanzado",
    "parecido": 0.67
   }
  ],
  "nuevas": [
-  "gsk|incentive compensation sales performance manager|bogota#448585"
+  "roche|reward partner|budapest#202609-124420",
+  "brink s|manager total rewards andean caribbean|bogota"
  ],
  "reaparecidas": [
-  "empresa no revelada|gerente de compensacion y arquitectura organizacional|bogota#anon:18000001-21000000-2026-09-15",
-  "empresa no revelada|especialista de compensacion|bogota#anon:0-0-2026-09-15",
-  "manpower|total rewards lead lider de compensacion y beneficios|bogota",
-  "empresa no revelada|coordinador de compensacion talento humano|bogota#anon:6000001-8000000-2026-08-27",
-  "manpower|compensation data analyst ingles avanzado|bogota",
-  "empresa no revelada|coordinador de contratacion nomina y compensacion|bogota#anon:5500001-6000000-2026-08-24",
-  "empresa no revelada|lider de nomina y compensacion|bogota#anon:5500001-6000000-2026-09-04",
-  "empresa no revelada|lider de nomina y compensacion|bogota#anon:5500001-6000000-2026-09-22",
-  "empresa no revelada|profesional de compensacion y analitica de datos|bogota#anon:3500001-4000000-2026-08-10"
- ],
- "ausentes": [
-  "remotecom|senior lifecycle specialist workers compensation emea|",
+  "envia com|sr payroll compensation specialist latam|bogota",
   "manpower|compensation hr operations analyst ingles avanzado|bogota"
  ],
- "republicadas": [],
+ "ausentes": [
+  "gsk|incentive compensation sales performance manager|bogota#448585",
+  "remotecom|senior lifecycle specialist workers compensation emea|",
+  "kuehne nagel|national human resources total rewards expert|bogota",
+  "manpower|compensation data analyst ingles avanzado|bogota"
+ ],
+ "republicadas": [
+  "envia com|sr payroll compensation specialist latam|bogota"
+ ],
  "vigentes": [
+  {
+   "cargo": "Reward Partner",
+   "empresa": "Roche",
+   "empresa_anonima": false,
+   "ciudad": "Budapest",
+   "salario": null,
+   "publicado": "2026-10-01",
+   "vigente_hasta": null,
+   "contrato": "Tiempo completo",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": "202609-124420",
+   "pais": "Hungría",
+   "fuentes": [
+    {
+     "fuente": "workday",
+     "url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Budapest/Reward-Partner_202609-124420-1",
+     "id_fuente": "202609-124420"
+    }
+   ],
+   "inc": [
+    "salario"
+   ],
+   "deducidos": [],
+   "otros_lugares": [
+    "Warsaw"
+   ],
+   "modalidad": "remoto",
+   "modalidad_literal": "Home office",
+   "modalidad_por_confirmar": false,
+   "marcas": [
+    "dice remoto, pero el aviso es de Hungría: confirma que contrate desde Colombia"
+   ],
+   "id": "roche|reward partner|budapest#202609-124420",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "cargo objetivo de la búsqueda",
+     "puntos": 25,
+     "nota": "Reward Partner"
+    },
+    {
+     "concepto": "multinacional europea",
+     "puntos": 15,
+     "nota": "por la lista objetivo"
+    },
+    {
+     "concepto": "está en la lista de empresas objetivo",
+     "puntos": 10,
+     "nota": "Roche"
+    },
+    {
+     "concepto": "remoto, pero anclado a Hungría",
+     "puntos": 0,
+     "nota": "«Home office» en un aviso de Hungría: no confirma que contrate desde Colombia, así que no suma"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    },
+    {
+     "concepto": "publicada hace menos de 3 días",
+     "puntos": 10,
+     "nota": "hace 0 día(s)"
+    }
+   ],
+   "puntaje": 60,
+   "ausencias": 0,
+   "nueva": true,
+   "visto_desde": "2026-10-01",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
   {
    "cargo": "Gerente de compensación y arquitectura organizacional",
    "empresa": "CONFIDENTIAL",
@@ -122,8 +196,7 @@
    "nueva": false,
    "visto_desde": "2026-09-15",
    "republicaciones": 0,
-   "reapariciones": 1,
-   "reaparecida": true
+   "reapariciones": 1
   },
   {
    "cargo": "Coordinador (a) de compensación y beneficios",
@@ -250,8 +323,7 @@
    "nueva": false,
    "visto_desde": "2026-09-16",
    "republicaciones": 0,
-   "reapariciones": 1,
-   "reaparecida": true
+   "reapariciones": 1
   },
   {
    "cargo": "Incentive Compensation & Sales Performance Manager",
@@ -318,11 +390,14 @@
     }
    ],
    "puntaje": 35,
-   "ausencias": 0,
-   "nueva": true,
+   "ausencias": 1,
+   "nueva": false,
    "visto_desde": "2026-09-30",
    "republicaciones": 0,
-   "reapariciones": 0
+   "reapariciones": 0,
+   "marcas": [
+    "no apareció hoy en la fuente (1 de 3)"
+   ]
   },
   {
    "cargo": "Senior Lifecycle Specialist, Workers Compensation - EMEA",
@@ -358,7 +433,7 @@
    "modalidad_por_confirmar": false,
    "marcas": [
     "ciudad sin publicar",
-    "no apareció hoy en la fuente (1 de 3)"
+    "no apareció hoy en la fuente (2 de 3)"
    ],
    "id": "remotecom|senior lifecycle specialist workers compensation emea|",
    "duplicados_hoy": 1,
@@ -390,11 +465,84 @@
     }
    ],
    "puntaje": 27,
-   "ausencias": 1,
+   "ausencias": 2,
    "nueva": false,
    "visto_desde": "2026-09-28",
    "republicaciones": 1,
    "reapariciones": 0
+  },
+  {
+   "cargo": "Sr Payroll & Compensation Specialist – LATAM - Bogotá, Colombia",
+   "empresa": "Envia.com",
+   "empresa_anonima": false,
+   "ciudad": "Bogota, Capital District",
+   "salario": null,
+   "publicado": "2026-09-07",
+   "vigente_hasta": "2027-03-29",
+   "contrato": [
+    "FULL_TIME"
+   ],
+   "agencia": null,
+   "direccion": null,
+   "lat": 4.6533817,
+   "lon": -74.0836331,
+   "id_fuente": "4473904897",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/sr-payroll-compensation-specialist-%E2%80%93-latam-bogot%C3%A1-colombia-at-envia-com-4473904897",
+     "id_fuente": "4473904897"
+    }
+   ],
+   "inc": [
+    "salario"
+   ],
+   "deducidos": [
+    "modalidad"
+   ],
+   "modalidad_fuente": "On-site",
+   "empleados": 570,
+   "sede": "Monterrey, Nuevo León",
+   "modalidad": "On-site",
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "envia com|sr payroll compensation specialist latam|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "multinacional latam",
+     "puntos": 15,
+     "nota": "Monterrey, Nuevo León"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "compensacion, total rewards, valoracion de cargos, hay group, bandas salariales, compensacion variable"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    },
+    {
+     "concepto": "publicada hace menos de 3 días",
+     "puntos": 10,
+     "nota": "hace 1 día(s)"
+    },
+    {
+     "concepto": "exige portugues",
+     "puntos": -10,
+     "nota": "el perfil no lo domina — se muestra igual: muchos avisos lo piden como «deseable» y luego no lo evalúan"
+    }
+   ],
+   "puntaje": 27,
+   "ausencias": 0,
+   "nueva": false,
+   "visto_desde": "2026-09-08",
+   "republicaciones": 2,
+   "reapariciones": 1,
+   "reaparecida": true
   },
   {
    "cargo": "Líder de Compensación y Beneficios - Nomina",
@@ -462,6 +610,73 @@
    "reapariciones": 0
   },
   {
+   "cargo": "Manager, Total Rewards Andean & Caribbean",
+   "empresa": "Brink’s Inc",
+   "empresa_anonima": false,
+   "ciudad": "Bogota, Capital District",
+   "salario": null,
+   "publicado": "2026-09-30",
+   "vigente_hasta": "2026-10-30",
+   "contrato": [
+    "FULL_TIME"
+   ],
+   "agencia": null,
+   "direccion": null,
+   "lat": 4.6533817,
+   "lon": -74.0836331,
+   "id_fuente": "4472614654",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/manager-total-rewards-andean-caribbean-at-brink%E2%80%99s-inc-4472614654",
+     "id_fuente": "4472614654"
+    }
+   ],
+   "inc": [
+    "salario"
+   ],
+   "deducidos": [
+    "modalidad"
+   ],
+   "modalidad_fuente": "On-site",
+   "empleados": 10722,
+   "sede": "Richmond, Virginia",
+   "modalidad": "On-site",
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "brink s|manager total rewards andean caribbean|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "total rewards"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    },
+    {
+     "concepto": "publicada hace menos de 3 días",
+     "puntos": 10,
+     "nota": "hace 1 día(s)"
+    }
+   ],
+   "puntaje": 22,
+   "ausencias": 0,
+   "nueva": true,
+   "visto_desde": "2026-10-01",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
+  {
    "cargo": "Total Rewards Lead / Líder de Compensación y Beneficios Bilingüe",
    "empresa": "MANPOWER",
    "empresa_anonima": false,
@@ -522,8 +737,7 @@
    "nueva": false,
    "visto_desde": "2026-08-28",
    "republicaciones": 0,
-   "reapariciones": 1,
-   "reaparecida": true
+   "reapariciones": 1
   },
   {
    "cargo": "coordinador de compensación talento humano",
@@ -589,8 +803,7 @@
    "nueva": false,
    "visto_desde": "2026-08-28",
    "republicaciones": 0,
-   "reapariciones": 1,
-   "reaparecida": true
+   "reapariciones": 1
   },
   {
    "cargo": "Analista Senior de Compensación y Estructura Salarial",
@@ -896,11 +1109,14 @@
     }
    ],
    "puntaje": 12,
-   "ausencias": 0,
+   "ausencias": 1,
    "nueva": false,
    "visto_desde": "2026-09-17",
    "republicaciones": 0,
-   "reapariciones": 0
+   "reapariciones": 0,
+   "marcas": [
+    "no apareció hoy en la fuente (1 de 3)"
+   ]
   },
   {
    "cargo": "Workers' Compensation Case Manager",
@@ -1084,7 +1300,7 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 2 día(s)"
+     "nota": "hace 3 día(s)"
     }
    ],
    "puntaje": 7,
@@ -1320,12 +1536,14 @@
     }
    ],
    "puntaje": -3,
-   "ausencias": 0,
+   "ausencias": 1,
    "nueva": false,
    "visto_desde": "2026-09-23",
    "republicaciones": 0,
    "reapariciones": 1,
-   "reaparecida": true
+   "marcas": [
+    "no apareció hoy en la fuente (1 de 3)"
+   ]
   },
   {
    "cargo": "Compensation & HR Operations Analyst | Inglés Avanzado",
@@ -1387,14 +1605,12 @@
     }
    ],
    "puntaje": -3,
-   "ausencias": 2,
+   "ausencias": 0,
    "nueva": false,
    "visto_desde": "2026-09-18",
    "republicaciones": 1,
-   "reapariciones": 1,
-   "marcas": [
-    "no apareció hoy en la fuente (2 de 3)"
-   ]
+   "reapariciones": 2,
+   "reaparecida": true
   },
   {
    "cargo": "Coordinador de contratación nómina y compensación",
@@ -1457,8 +1673,7 @@
    "nueva": false,
    "visto_desde": "2026-08-28",
    "republicaciones": 0,
-   "reapariciones": 1,
-   "reaparecida": true
+   "reapariciones": 1
   },
   {
    "cargo": "Líder de Nómina y Compensación",
@@ -1521,8 +1736,7 @@
    "nueva": false,
    "visto_desde": "2026-09-04",
    "republicaciones": 0,
-   "reapariciones": 1,
-   "reaparecida": true
+   "reapariciones": 1
   },
   {
    "cargo": "Líder de Nómina y Compensación",
@@ -1583,8 +1797,7 @@
    "nueva": false,
    "visto_desde": "2026-09-23",
    "republicaciones": 0,
-   "reapariciones": 1,
-   "reaparecida": true
+   "reapariciones": 1
   },
   {
    "cargo": "PROFESIONAL DE COMPENSACIÓN Y ANALÍTICA DE DATOS (NOMINA).",
@@ -1642,8 +1855,7 @@
    "nueva": false,
    "visto_desde": "2026-08-28",
    "republicaciones": 0,
-   "reapariciones": 1,
-   "reaparecida": true
+   "reapariciones": 1
   }
  ],
  "caidas": [
@@ -2000,77 +2212,6 @@
    "reapariciones": 0,
    "desaparecio": "2026-09-29",
    "dias_publicada": 3
-  },
-  {
-   "cargo": "Sr Payroll & Compensation Specialist – LATAM",
-   "empresa": "Envia.com",
-   "empresa_anonima": false,
-   "ciudad": "Bogota, Capital District",
-   "salario": null,
-   "publicado": "2026-09-07",
-   "vigente_hasta": "2027-03-09",
-   "contrato": [
-    "FULL_TIME"
-   ],
-   "agencia": null,
-   "direccion": null,
-   "lat": 4.6533817,
-   "lon": -74.0836331,
-   "id_fuente": "4465802226",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "linkedin",
-     "url": "https://co.linkedin.com/jobs/view/sr-payroll-compensation-specialist-%E2%80%93-latam-at-envia-com-4465802226",
-     "id_fuente": "4465802226"
-    }
-   ],
-   "inc": [
-    "salario"
-   ],
-   "deducidos": [
-    "modalidad"
-   ],
-   "modalidad_fuente": "On-site",
-   "empleados": 557,
-   "sede": "Monterrey, Nuevo León",
-   "modalidad": "On-site",
-   "modalidad_literal": null,
-   "modalidad_por_confirmar": false,
-   "id": "envia com|sr payroll compensation specialist latam|bogota",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "multinacional latam",
-     "puntos": 15,
-     "nota": "Monterrey, Nuevo León"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "compensacion, total rewards, valoracion de cargos, hay group, bandas salariales, compensacion variable"
-    },
-    {
-     "concepto": "salario",
-     "puntos": 0,
-     "nota": "sin salario publicado, no suma ni resta"
-    },
-    {
-     "concepto": "exige portugues",
-     "puntos": -10,
-     "nota": "el perfil no lo domina — se muestra igual: muchos avisos lo piden como «deseable» y luego no lo evalúan"
-    }
-   ],
-   "puntaje": 17,
-   "nueva": false,
-   "visto_desde": "2026-09-08",
-   "republicaciones": 1,
-   "reapariciones": 0,
-   "marcas": [
-    "no apareció hoy en la fuente (2 de 3)"
-   ],
-   "desaparecio": "2026-09-27",
-   "dias_publicada": 19
   },
   {
    "cargo": "Compensation Operations Analyst",
