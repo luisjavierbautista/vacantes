@@ -1,10 +1,10 @@
 {
  "busqueda": "comp-ben",
- "corrida": "2026-10-02",
- "corrida_hora": "2026-10-02 16:39",
+ "corrida": "2026-10-03",
+ "corrida_hora": "2026-10-03 15:10",
  "fuentes": {
   "elempleo": {
-   "avisos": 17,
+   "avisos": 16,
    "error": null
   },
   "computrabajo": {
@@ -24,28 +24,30 @@
    "error": null
   },
   "apify_linkedin": {
-   "avisos": 11,
+   "avisos": 10,
    "error": null
   }
  },
  "fallos": [],
- "avisos_recogidos": 36,
- "descartados": 11,
+ "avisos_recogidos": 34,
+ "descartados": 10,
  "fusionados": [
   {
-   "conservado": "Compensation & Data Analyst | Inglés Avanzado",
-   "absorbido": "Compensation & HR Operations Analyst | Inglés Avanzado",
+   "conservado": "Compensation & HR Operations Analyst | Inglés Avanzado",
+   "absorbido": "Compensation & Data Analyst | Inglés Avanzado",
    "parecido": 0.67
   }
  ],
- "nuevas": [],
+ "nuevas": [
+  "cargill|senior total rewards consultant sao paulo sp|bogota"
+ ],
  "reaparecidas": [
-  "manpower|compensation data analyst ingles avanzado|bogota"
+  "manpower|compensation hr operations analyst ingles avanzado|bogota"
  ],
  "ausentes": [
-  "gsk|incentive compensation sales performance manager|bogota#448585",
-  "kuehne nagel|national human resources total rewards expert|bogota",
-  "manpower|compensation hr operations analyst ingles avanzado|bogota"
+  "envia com|sr payroll compensation specialist latam|bogota",
+  "lean solutions|compensation specialist|bogota",
+  "manpower|compensation data analyst ingles avanzado|bogota"
  ],
  "republicadas": [],
  "vigentes": [
@@ -115,7 +117,7 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 1 día(s)"
+     "nota": "hace 2 día(s)"
     }
    ],
    "puntaje": 60,
@@ -319,80 +321,6 @@
    "reapariciones": 1
   },
   {
-   "cargo": "Incentive Compensation & Sales Performance Manager",
-   "empresa": "GSK",
-   "empresa_anonima": false,
-   "ciudad": "Bogota Torre Cusezar",
-   "salario": null,
-   "publicado": "2026-09-29",
-   "vigente_hasta": null,
-   "contrato": "A tiempo completo",
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": "448585",
-   "pais": "Colombia",
-   "fuentes": [
-    {
-     "fuente": "workday",
-     "url": "https://gsk.wd5.myworkdayjobs.com/GSKCareers/job/Bogota-Torre-Cusezar/Incentive-Compensation---Sales-Performance-Manager_448585-1",
-     "id_fuente": "448585"
-    }
-   ],
-   "inc": [
-    "salario",
-    "modalidad"
-   ],
-   "deducidos": [],
-   "modalidad": null,
-   "modalidad_literal": null,
-   "modalidad_por_confirmar": false,
-   "id": "gsk|incentive compensation sales performance manager|bogota#448585",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "cargo objetivo de la búsqueda",
-     "puntos": 25,
-     "nota": "Incentive Compensation & Sales Performance Manager"
-    },
-    {
-     "concepto": "cargo de la lista de excluidos",
-     "puntos": -25,
-     "nota": "Incentive Compensation & Sales Performance Manager"
-    },
-    {
-     "concepto": "multinacional europea",
-     "puntos": 15,
-     "nota": "por la lista objetivo"
-    },
-    {
-     "concepto": "está en la lista de empresas objetivo",
-     "puntos": 10,
-     "nota": "GSK"
-    },
-    {
-     "concepto": "salario",
-     "puntos": 0,
-     "nota": "sin salario publicado, no suma ni resta"
-    },
-    {
-     "concepto": "publicada hace menos de 3 días",
-     "puntos": 10,
-     "nota": "hace 1 día(s)"
-    }
-   ],
-   "puntaje": 35,
-   "ausencias": 2,
-   "nueva": false,
-   "visto_desde": "2026-09-30",
-   "republicaciones": 0,
-   "reapariciones": 0,
-   "marcas": [
-    "no apareció hoy en la fuente (2 de 3)"
-   ]
-  },
-  {
    "cargo": "Sr Payroll & Compensation Specialist – LATAM - Bogotá, Colombia",
    "empresa": "Envia.com",
    "empresa_anonima": false,
@@ -458,11 +386,14 @@
     }
    ],
    "puntaje": 27,
-   "ausencias": 0,
+   "ausencias": 1,
    "nueva": false,
    "visto_desde": "2026-09-08",
    "republicaciones": 2,
-   "reapariciones": 1
+   "reapariciones": 1,
+   "marcas": [
+    "no apareció hoy en la fuente (1 de 3)"
+   ]
   },
   {
    "cargo": "Líder de Compensación y Beneficios - Nomina",
@@ -586,7 +517,7 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 2 día(s)"
+     "nota": "hace 3 día(s)"
     }
    ],
    "puntaje": 22,
@@ -906,11 +837,14 @@
     }
    ],
    "puntaje": 12,
-   "ausencias": 0,
+   "ausencias": 1,
    "nueva": false,
    "visto_desde": "2026-09-16",
    "republicaciones": 0,
-   "reapariciones": 0
+   "reapariciones": 0,
+   "marcas": [
+    "no apareció hoy en la fuente (1 de 3)"
+   ]
   },
   {
    "cargo": "Gerente de gestion humana Bogota",
@@ -974,13 +908,13 @@
    "reapariciones": 0
   },
   {
-   "cargo": "National Human Resources Total Rewards Expert",
-   "empresa": "Kuehne+Nagel",
+   "cargo": "Senior Total Rewards Consultant - Sao Paulo, SP",
+   "empresa": "Cargill",
    "empresa_anonima": false,
    "ciudad": "Bogota, Capital District",
    "salario": null,
-   "publicado": "2026-09-16",
-   "vigente_hasta": "2026-10-16",
+   "publicado": "2026-10-02",
+   "vigente_hasta": "2026-11-01",
    "contrato": [
     "FULL_TIME"
    ],
@@ -988,13 +922,13 @@
    "direccion": null,
    "lat": 4.6533817,
    "lon": -74.0836331,
-   "id_fuente": "4468305370",
+   "id_fuente": "4473174332",
    "pais": null,
    "fuentes": [
     {
      "fuente": "linkedin",
-     "url": "https://co.linkedin.com/jobs/view/national-human-resources-total-rewards-expert-at-kuehne%2Bnagel-4468305370",
-     "id_fuente": "4468305370"
+     "url": "https://co.linkedin.com/jobs/view/senior-total-rewards-consultant-sao-paulo-sp-at-cargill-4473174332",
+     "id_fuente": "4473174332"
     }
    ],
    "inc": [
@@ -1004,12 +938,12 @@
     "modalidad"
    ],
    "modalidad_fuente": "On-site",
-   "empleados": 53148,
-   "sede": "Schindellegi, Schwyz",
+   "empleados": 69799,
+   "sede": "Wayzata, Minnesota",
    "modalidad": "On-site",
    "modalidad_literal": null,
    "modalidad_por_confirmar": false,
-   "id": "kuehne nagel|national human resources total rewards expert|bogota",
+   "id": "cargill|senior total rewards consultant sao paulo sp|bogota",
    "duplicados_hoy": 1,
    "desglose": [
     {
@@ -1026,17 +960,24 @@
      "concepto": "salario",
      "puntos": 0,
      "nota": "sin salario publicado, no suma ni resta"
+    },
+    {
+     "concepto": "publicada hace menos de 3 días",
+     "puntos": 10,
+     "nota": "hace 1 día(s)"
+    },
+    {
+     "concepto": "exige portuguese",
+     "puntos": -10,
+     "nota": "el perfil no lo domina — se muestra igual: muchos avisos lo piden como «deseable» y luego no lo evalúan"
     }
    ],
    "puntaje": 12,
-   "ausencias": 2,
-   "nueva": false,
-   "visto_desde": "2026-09-17",
+   "ausencias": 0,
+   "nueva": true,
+   "visto_desde": "2026-10-03",
    "republicaciones": 0,
-   "reapariciones": 0,
-   "marcas": [
-    "no apareció hoy en la fuente (2 de 3)"
-   ]
+   "reapariciones": 0
   },
   {
    "cargo": "Workers' Compensation Case Manager",
@@ -1388,12 +1329,14 @@
     }
    ],
    "puntaje": -3,
-   "ausencias": 0,
+   "ausencias": 1,
    "nueva": false,
    "visto_desde": "2026-09-23",
    "republicaciones": 0,
    "reapariciones": 2,
-   "reaparecida": true
+   "marcas": [
+    "no apareció hoy en la fuente (1 de 3)"
+   ]
   },
   {
    "cargo": "Compensation & HR Operations Analyst | Inglés Avanzado",
@@ -1455,14 +1398,12 @@
     }
    ],
    "puntaje": -3,
-   "ausencias": 1,
+   "ausencias": 0,
    "nueva": false,
    "visto_desde": "2026-09-18",
    "republicaciones": 1,
-   "reapariciones": 2,
-   "marcas": [
-    "no apareció hoy en la fuente (1 de 3)"
-   ]
+   "reapariciones": 3,
+   "reaparecida": true
   },
   {
    "cargo": "Coordinador de contratación nómina y compensación",
@@ -1774,6 +1715,147 @@
   }
  ],
  "caidas": [
+  {
+   "cargo": "Incentive Compensation & Sales Performance Manager",
+   "empresa": "GSK",
+   "empresa_anonima": false,
+   "ciudad": "Bogota Torre Cusezar",
+   "salario": null,
+   "publicado": "2026-09-29",
+   "vigente_hasta": null,
+   "contrato": "A tiempo completo",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": "448585",
+   "pais": "Colombia",
+   "fuentes": [
+    {
+     "fuente": "workday",
+     "url": "https://gsk.wd5.myworkdayjobs.com/GSKCareers/job/Bogota-Torre-Cusezar/Incentive-Compensation---Sales-Performance-Manager_448585-1",
+     "id_fuente": "448585"
+    }
+   ],
+   "inc": [
+    "salario",
+    "modalidad"
+   ],
+   "deducidos": [],
+   "modalidad": null,
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "gsk|incentive compensation sales performance manager|bogota#448585",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "cargo objetivo de la búsqueda",
+     "puntos": 25,
+     "nota": "Incentive Compensation & Sales Performance Manager"
+    },
+    {
+     "concepto": "cargo de la lista de excluidos",
+     "puntos": -25,
+     "nota": "Incentive Compensation & Sales Performance Manager"
+    },
+    {
+     "concepto": "multinacional europea",
+     "puntos": 15,
+     "nota": "por la lista objetivo"
+    },
+    {
+     "concepto": "está en la lista de empresas objetivo",
+     "puntos": 10,
+     "nota": "GSK"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    },
+    {
+     "concepto": "publicada hace menos de 3 días",
+     "puntos": 10,
+     "nota": "hace 1 día(s)"
+    }
+   ],
+   "puntaje": 35,
+   "nueva": false,
+   "visto_desde": "2026-09-30",
+   "republicaciones": 0,
+   "reapariciones": 0,
+   "marcas": [
+    "no apareció hoy en la fuente (2 de 3)"
+   ],
+   "desaparecio": "2026-10-03",
+   "dias_publicada": 3
+  },
+  {
+   "cargo": "National Human Resources Total Rewards Expert",
+   "empresa": "Kuehne+Nagel",
+   "empresa_anonima": false,
+   "ciudad": "Bogota, Capital District",
+   "salario": null,
+   "publicado": "2026-09-16",
+   "vigente_hasta": "2026-10-16",
+   "contrato": [
+    "FULL_TIME"
+   ],
+   "agencia": null,
+   "direccion": null,
+   "lat": 4.6533817,
+   "lon": -74.0836331,
+   "id_fuente": "4468305370",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/national-human-resources-total-rewards-expert-at-kuehne%2Bnagel-4468305370",
+     "id_fuente": "4468305370"
+    }
+   ],
+   "inc": [
+    "salario"
+   ],
+   "deducidos": [
+    "modalidad"
+   ],
+   "modalidad_fuente": "On-site",
+   "empleados": 53148,
+   "sede": "Schindellegi, Schwyz",
+   "modalidad": "On-site",
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "kuehne nagel|national human resources total rewards expert|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "total rewards"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    }
+   ],
+   "puntaje": 12,
+   "nueva": false,
+   "visto_desde": "2026-09-17",
+   "republicaciones": 0,
+   "reapariciones": 0,
+   "marcas": [
+    "no apareció hoy en la fuente (2 de 3)"
+   ],
+   "desaparecio": "2026-10-03",
+   "dias_publicada": 16
+  },
   {
    "cargo": "Senior Lifecycle Specialist, Workers Compensation - EMEA",
    "empresa": "remotecom",
