@@ -1,10 +1,10 @@
 {
  "busqueda": "comp-ben",
- "corrida": "2026-10-03",
- "corrida_hora": "2026-10-03 15:10",
+ "corrida": "2026-10-04",
+ "corrida_hora": "2026-10-04 15:49",
  "fuentes": {
   "elempleo": {
-   "avisos": 16,
+   "avisos": 15,
    "error": null
   },
   "computrabajo": {
@@ -24,13 +24,18 @@
    "error": null
   },
   "apify_linkedin": {
-   "avisos": 10,
+   "avisos": 9,
    "error": null
   }
  },
- "fallos": [],
- "avisos_recogidos": 34,
- "descartados": 10,
+ "fallos": [
+  {
+   "url": "https://www.elempleo.com/co/ofertas-trabajo/total-rewards-lead-lider-de-compensacion-y-beneficios-bilingue-1886749725",
+   "motivo": "HTTP 410"
+  }
+ ],
+ "avisos_recogidos": 32,
+ "descartados": 9,
  "fusionados": [
   {
    "conservado": "Compensation & HR Operations Analyst | Inglés Avanzado",
@@ -38,14 +43,11 @@
    "parecido": 0.67
   }
  ],
- "nuevas": [
-  "cargill|senior total rewards consultant sao paulo sp|bogota"
- ],
- "reaparecidas": [
-  "manpower|compensation hr operations analyst ingles avanzado|bogota"
- ],
+ "nuevas": [],
+ "reaparecidas": [],
  "ausentes": [
   "envia com|sr payroll compensation specialist latam|bogota",
+  "manpower|total rewards lead lider de compensacion y beneficios|bogota",
   "lean solutions|compensation specialist|bogota",
   "manpower|compensation data analyst ingles avanzado|bogota"
  ],
@@ -117,7 +119,7 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 2 día(s)"
+     "nota": "hace 3 día(s)"
     }
    ],
    "puntaje": 60,
@@ -386,13 +388,13 @@
     }
    ],
    "puntaje": 27,
-   "ausencias": 1,
+   "ausencias": 2,
    "nueva": false,
    "visto_desde": "2026-09-08",
    "republicaciones": 2,
    "reapariciones": 1,
    "marcas": [
-    "no apareció hoy en la fuente (1 de 3)"
+    "no apareció hoy en la fuente (2 de 3)"
    ]
   },
   {
@@ -461,73 +463,6 @@
    "reapariciones": 0
   },
   {
-   "cargo": "Manager, Total Rewards Andean & Caribbean",
-   "empresa": "Brink’s Inc",
-   "empresa_anonima": false,
-   "ciudad": "Bogota, Capital District",
-   "salario": null,
-   "publicado": "2026-09-30",
-   "vigente_hasta": "2026-10-30",
-   "contrato": [
-    "FULL_TIME"
-   ],
-   "agencia": null,
-   "direccion": null,
-   "lat": 4.6533817,
-   "lon": -74.0836331,
-   "id_fuente": "4472614654",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "linkedin",
-     "url": "https://co.linkedin.com/jobs/view/manager-total-rewards-andean-caribbean-at-brink%E2%80%99s-inc-4472614654",
-     "id_fuente": "4472614654"
-    }
-   ],
-   "inc": [
-    "salario"
-   ],
-   "deducidos": [
-    "modalidad"
-   ],
-   "modalidad_fuente": "On-site",
-   "empleados": 10722,
-   "sede": "Richmond, Virginia",
-   "modalidad": "On-site",
-   "modalidad_literal": null,
-   "modalidad_por_confirmar": false,
-   "id": "brink s|manager total rewards andean caribbean|bogota",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "no se pudo determinar: no suma ni resta"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "total rewards"
-    },
-    {
-     "concepto": "salario",
-     "puntos": 0,
-     "nota": "sin salario publicado, no suma ni resta"
-    },
-    {
-     "concepto": "publicada hace menos de 3 días",
-     "puntos": 10,
-     "nota": "hace 3 día(s)"
-    }
-   ],
-   "puntaje": 22,
-   "ausencias": 0,
-   "nueva": false,
-   "visto_desde": "2026-10-01",
-   "republicaciones": 0,
-   "reapariciones": 0
-  },
-  {
    "cargo": "Total Rewards Lead / Líder de Compensación y Beneficios Bilingüe",
    "empresa": "MANPOWER",
    "empresa_anonima": false,
@@ -584,11 +519,14 @@
     }
    ],
    "puntaje": 22,
-   "ausencias": 0,
+   "ausencias": 1,
    "nueva": false,
    "visto_desde": "2026-08-28",
    "republicaciones": 0,
-   "reapariciones": 1
+   "reapariciones": 1,
+   "marcas": [
+    "no apareció hoy en la fuente (1 de 3)"
+   ]
   },
   {
    "cargo": "coordinador de compensación talento humano",
@@ -837,13 +775,13 @@
     }
    ],
    "puntaje": 12,
-   "ausencias": 1,
+   "ausencias": 2,
    "nueva": false,
    "visto_desde": "2026-09-16",
    "republicaciones": 0,
    "reapariciones": 0,
    "marcas": [
-    "no apareció hoy en la fuente (1 de 3)"
+    "no apareció hoy en la fuente (2 de 3)"
    ]
   },
   {
@@ -908,6 +846,68 @@
    "reapariciones": 0
   },
   {
+   "cargo": "Manager, Total Rewards Andean & Caribbean",
+   "empresa": "Brink’s Inc",
+   "empresa_anonima": false,
+   "ciudad": "Bogota, Capital District",
+   "salario": null,
+   "publicado": "2026-09-30",
+   "vigente_hasta": "2026-10-30",
+   "contrato": [
+    "FULL_TIME"
+   ],
+   "agencia": null,
+   "direccion": null,
+   "lat": 4.6533817,
+   "lon": -74.0836331,
+   "id_fuente": "4472614654",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/manager-total-rewards-andean-caribbean-at-brink%E2%80%99s-inc-4472614654",
+     "id_fuente": "4472614654"
+    }
+   ],
+   "inc": [
+    "salario"
+   ],
+   "deducidos": [
+    "modalidad"
+   ],
+   "modalidad_fuente": "On-site",
+   "empleados": 10722,
+   "sede": "Richmond, Virginia",
+   "modalidad": "On-site",
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "brink s|manager total rewards andean caribbean|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "total rewards"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    }
+   ],
+   "puntaje": 12,
+   "ausencias": 0,
+   "nueva": false,
+   "visto_desde": "2026-10-01",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
+  {
    "cargo": "Senior Total Rewards Consultant - Sao Paulo, SP",
    "empresa": "Cargill",
    "empresa_anonima": false,
@@ -964,7 +964,7 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 1 día(s)"
+     "nota": "hace 2 día(s)"
     },
     {
      "concepto": "exige portuguese",
@@ -974,7 +974,7 @@
    ],
    "puntaje": 12,
    "ausencias": 0,
-   "nueva": true,
+   "nueva": false,
    "visto_desde": "2026-10-03",
    "republicaciones": 0,
    "reapariciones": 0
@@ -1329,13 +1329,13 @@
     }
    ],
    "puntaje": -3,
-   "ausencias": 1,
+   "ausencias": 2,
    "nueva": false,
    "visto_desde": "2026-09-23",
    "republicaciones": 0,
    "reapariciones": 2,
    "marcas": [
-    "no apareció hoy en la fuente (1 de 3)"
+    "no apareció hoy en la fuente (2 de 3)"
    ]
   },
   {
@@ -1402,8 +1402,7 @@
    "nueva": false,
    "visto_desde": "2026-09-18",
    "republicaciones": 1,
-   "reapariciones": 3,
-   "reaparecida": true
+   "reapariciones": 3
   },
   {
    "cargo": "Coordinador de contratación nómina y compensación",
