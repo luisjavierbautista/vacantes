@@ -1,14 +1,14 @@
 {
  "busqueda": "comp-ben",
- "corrida": "2026-10-06",
- "corrida_hora": "2026-10-06 17:12",
+ "corrida": "2026-10-07",
+ "corrida_hora": "2026-10-07 17:50",
  "fuentes": {
   "elempleo": {
-   "avisos": 15,
+   "avisos": 16,
    "error": null
   },
   "computrabajo": {
-   "avisos": 2,
+   "avisos": 4,
    "error": null
   },
   "workday": {
@@ -24,13 +24,13 @@
    "error": null
   },
   "apify_linkedin": {
-   "avisos": 7,
+   "avisos": 9,
    "error": null
   }
  },
  "fallos": [],
- "avisos_recogidos": 30,
- "descartados": 8,
+ "avisos_recogidos": 35,
+ "descartados": 10,
  "fusionados": [
   {
    "conservado": "Compensation & HR Operations Analyst | Inglés Avanzado",
@@ -38,12 +38,17 @@
    "parecido": 0.67
   }
  ],
- "nuevas": [],
- "reaparecidas": [],
- "ausentes": [
-  "djagora university|project manager compensation analysis u s government contracts|colombia"
+ "nuevas": [
+  "empresa no revelada|profesional de relaciones laborales contratacion estructura y compensacion|bogota#anon:3500001-4000000-2026-10-06"
  ],
- "republicadas": [],
+ "reaparecidas": [
+  "decameron all inclusive hotels resorts|profesional de compensacion y beneficios|bogota",
+  "kuehne nagel|national human resources total rewards expert|bogota"
+ ],
+ "ausentes": [],
+ "republicadas": [
+  "decameron all inclusive hotels resorts|profesional de compensacion y beneficios|bogota"
+ ],
  "vigentes": [
   {
    "cargo": "Reward Partner",
@@ -375,6 +380,74 @@
    "reapariciones": 0
   },
   {
+   "cargo": "Profesional de Compensación y Beneficios",
+   "empresa": "Decameron All Inclusive Hotels & Resorts",
+   "empresa_anonima": false,
+   "ciudad": "Bogota, Capital District",
+   "salario": null,
+   "publicado": "2026-08-20",
+   "vigente_hasta": "2026-11-05",
+   "contrato": [
+    "TEMPORARY"
+   ],
+   "agencia": null,
+   "direccion": null,
+   "lat": 4.6533817,
+   "lon": -74.0836331,
+   "id_fuente": "4476328771",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/profesional-de-compensaci%C3%B3n-y-beneficios-at-decameron-all-inclusive-hotels-resorts-4476328771",
+     "id_fuente": "4476328771"
+    }
+   ],
+   "inc": [
+    "salario"
+   ],
+   "deducidos": [
+    "modalidad"
+   ],
+   "modalidad_fuente": "Hybrid",
+   "empleados": 2504,
+   "sede": "Bogotá",
+   "modalidad": "Hybrid",
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "decameron all inclusive hotels resorts|profesional de compensacion y beneficios|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "compensacion, remuneracion, valoracion de cargos, korn ferry, bandas salariales, compensacion variable"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    },
+    {
+     "concepto": "publicada hace menos de 3 días",
+     "puntos": 10,
+     "nota": "hace 1 día(s)"
+    }
+   ],
+   "puntaje": 22,
+   "ausencias": 0,
+   "nueva": false,
+   "visto_desde": "2026-08-29",
+   "republicaciones": 1,
+   "reapariciones": 1,
+   "reaparecida": true
+  },
+  {
    "cargo": "coordinador de compensación talento humano",
    "empresa": "CONFIDENTIAL",
    "empresa_anonima": true,
@@ -689,6 +762,69 @@
    "reapariciones": 0
   },
   {
+   "cargo": "National Human Resources Total Rewards Expert",
+   "empresa": "Kuehne+Nagel",
+   "empresa_anonima": false,
+   "ciudad": "Bogota, Capital District",
+   "salario": null,
+   "publicado": "2026-09-16",
+   "vigente_hasta": "2026-10-16",
+   "contrato": [
+    "FULL_TIME"
+   ],
+   "agencia": null,
+   "direccion": null,
+   "lat": 4.6533817,
+   "lon": -74.0836331,
+   "id_fuente": "4468305370",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/national-human-resources-total-rewards-expert-at-kuehne%2Bnagel-4468305370",
+     "id_fuente": "4468305370"
+    }
+   ],
+   "inc": [
+    "salario"
+   ],
+   "deducidos": [
+    "modalidad"
+   ],
+   "modalidad_fuente": "On-site",
+   "empleados": 53383,
+   "sede": "Schindellegi, Schwyz",
+   "modalidad": "On-site",
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "kuehne nagel|national human resources total rewards expert|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "total rewards"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    }
+   ],
+   "puntaje": 12,
+   "ausencias": 0,
+   "nueva": false,
+   "visto_desde": "2026-09-17",
+   "republicaciones": 0,
+   "reapariciones": 1,
+   "reaparecida": true
+  },
+  {
    "cargo": "Workers' Compensation Case Manager",
    "empresa": "The United Firm | La Liga Defensora, APC",
    "empresa_anonima": false,
@@ -809,6 +945,74 @@
    "ausencias": 0,
    "nueva": false,
    "visto_desde": "2026-08-29",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
+  {
+   "cargo": "Profesional de Relaciones Laborales, Contratación, Estructura y Compensación",
+   "empresa": "CONFIDENTIAL",
+   "empresa_anonima": true,
+   "ciudad": "Bogotá D.C.",
+   "salario": {
+    "min": 3500001.0,
+    "max": 4000000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-10-06",
+   "vigente_hasta": "2026-12-05",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/profesional-de-relaciones-laborales-contratacion-estructura-y-compensacion-1886776942",
+     "id_fuente": null
+    }
+   ],
+   "inc": [
+    "modalidad"
+   ],
+   "deducidos": [],
+   "modalidad": null,
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "empresa no revelada|profesional de relaciones laborales contratacion estructura y compensacion|bogota#anon:3500001-4000000-2026-10-06",
+   "duplicados_hoy": 1,
+   "marcas": [
+    "empresa no revelada: puede estar repetida"
+   ],
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "el aviso no revela la empresa: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "compensacion"
+    },
+    {
+     "concepto": "salario publicado por debajo de $18.000.000",
+     "puntos": -15,
+     "nota": "4.000.000 COP — se muestra igual: el publicado casi nunca es el negociado"
+    },
+    {
+     "concepto": "publicada hace menos de 3 días",
+     "puntos": 10,
+     "nota": "hace 1 día(s)"
+    }
+   ],
+   "puntaje": 7,
+   "ausencias": 0,
+   "nueva": true,
+   "visto_desde": "2026-10-07",
    "republicaciones": 0,
    "reapariciones": 0
   },
@@ -988,65 +1192,6 @@
    "visto_desde": "2026-09-05",
    "republicaciones": 0,
    "reapariciones": 0
-  },
-  {
-   "cargo": "Project Manager – Compensation Analysis & U.S. Government Contracts",
-   "empresa": "Djagora University",
-   "empresa_anonima": false,
-   "ciudad": "Colombia",
-   "salario": null,
-   "publicado": "2026-09-25",
-   "vigente_hasta": null,
-   "contrato": null,
-   "agencia": null,
-   "direccion": null,
-   "lat": 4.099917,
-   "lon": -72.9088133,
-   "id_fuente": "4470338161",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "linkedin",
-     "url": "https://co.linkedin.com/jobs/view/project-manager-%E2%80%93-compensation-analysis-u-s-government-contracts-at-djagora-university-4470338161",
-     "id_fuente": "4470338161"
-    }
-   ],
-   "inc": [
-    "salario",
-    "contrato"
-   ],
-   "deducidos": [
-    "modalidad"
-   ],
-   "modalidad_fuente": "On-site",
-   "empleados": null,
-   "sede": null,
-   "modalidad": "On-site",
-   "modalidad_literal": null,
-   "modalidad_por_confirmar": false,
-   "id": "djagora university|project manager compensation analysis u s government contracts|colombia",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "no se pudo determinar: no suma ni resta"
-    },
-    {
-     "concepto": "salario",
-     "puntos": 0,
-     "nota": "sin salario publicado, no suma ni resta"
-    }
-   ],
-   "puntaje": 0,
-   "ausencias": 2,
-   "nueva": false,
-   "visto_desde": "2026-09-26",
-   "republicaciones": 0,
-   "reapariciones": 0,
-   "marcas": [
-    "no apareció hoy en la fuente (2 de 3)"
-   ]
   },
   {
    "cargo": "Compensation & HR Operations Analyst | Inglés Avanzado",
@@ -1425,6 +1570,66 @@
  ],
  "caidas": [
   {
+   "cargo": "Project Manager – Compensation Analysis & U.S. Government Contracts",
+   "empresa": "Djagora University",
+   "empresa_anonima": false,
+   "ciudad": "Colombia",
+   "salario": null,
+   "publicado": "2026-09-25",
+   "vigente_hasta": null,
+   "contrato": null,
+   "agencia": null,
+   "direccion": null,
+   "lat": 4.099917,
+   "lon": -72.9088133,
+   "id_fuente": "4470338161",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/project-manager-%E2%80%93-compensation-analysis-u-s-government-contracts-at-djagora-university-4470338161",
+     "id_fuente": "4470338161"
+    }
+   ],
+   "inc": [
+    "salario",
+    "contrato"
+   ],
+   "deducidos": [
+    "modalidad"
+   ],
+   "modalidad_fuente": "On-site",
+   "empleados": null,
+   "sede": null,
+   "modalidad": "On-site",
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "djagora university|project manager compensation analysis u s government contracts|colombia",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    }
+   ],
+   "puntaje": 0,
+   "nueva": false,
+   "visto_desde": "2026-09-26",
+   "republicaciones": 0,
+   "reapariciones": 0,
+   "marcas": [
+    "no apareció hoy en la fuente (2 de 3)"
+   ],
+   "desaparecio": "2026-10-07",
+   "dias_publicada": 11
+  },
+  {
    "cargo": "Total Rewards Lead / Líder de Compensación y Beneficios Bilingüe",
    "empresa": "MANPOWER",
    "empresa_anonima": false,
@@ -1777,72 +1982,6 @@
    ],
    "desaparecio": "2026-10-03",
    "dias_publicada": 3
-  },
-  {
-   "cargo": "National Human Resources Total Rewards Expert",
-   "empresa": "Kuehne+Nagel",
-   "empresa_anonima": false,
-   "ciudad": "Bogota, Capital District",
-   "salario": null,
-   "publicado": "2026-09-16",
-   "vigente_hasta": "2026-10-16",
-   "contrato": [
-    "FULL_TIME"
-   ],
-   "agencia": null,
-   "direccion": null,
-   "lat": 4.6533817,
-   "lon": -74.0836331,
-   "id_fuente": "4468305370",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "linkedin",
-     "url": "https://co.linkedin.com/jobs/view/national-human-resources-total-rewards-expert-at-kuehne%2Bnagel-4468305370",
-     "id_fuente": "4468305370"
-    }
-   ],
-   "inc": [
-    "salario"
-   ],
-   "deducidos": [
-    "modalidad"
-   ],
-   "modalidad_fuente": "On-site",
-   "empleados": 53148,
-   "sede": "Schindellegi, Schwyz",
-   "modalidad": "On-site",
-   "modalidad_literal": null,
-   "modalidad_por_confirmar": false,
-   "id": "kuehne nagel|national human resources total rewards expert|bogota",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "no se pudo determinar: no suma ni resta"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "total rewards"
-    },
-    {
-     "concepto": "salario",
-     "puntos": 0,
-     "nota": "sin salario publicado, no suma ni resta"
-    }
-   ],
-   "puntaje": 12,
-   "nueva": false,
-   "visto_desde": "2026-09-17",
-   "republicaciones": 0,
-   "reapariciones": 0,
-   "marcas": [
-    "no apareció hoy en la fuente (2 de 3)"
-   ],
-   "desaparecio": "2026-10-03",
-   "dias_publicada": 16
   },
   {
    "cargo": "Senior Lifecycle Specialist, Workers Compensation - EMEA",
@@ -3338,72 +3477,6 @@
    "reapariciones": 0,
    "desaparecio": "2026-09-15",
    "dias_publicada": 3
-  },
-  {
-   "cargo": "Profesional de Compensación y Beneficios",
-   "empresa": "Decameron All Inclusive Hotels & Resorts",
-   "empresa_anonima": false,
-   "ciudad": "Bogota, Capital District",
-   "salario": null,
-   "publicado": "2026-08-20",
-   "vigente_hasta": "2026-09-19",
-   "contrato": [
-    "TEMPORARY"
-   ],
-   "agencia": null,
-   "direccion": null,
-   "lat": 4.6533817,
-   "lon": -74.0836331,
-   "id_fuente": "4457004891",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "linkedin",
-     "url": "https://co.linkedin.com/jobs/view/profesional-de-compensaci%C3%B3n-y-beneficios-at-decameron-all-inclusive-hotels-resorts-4457004891",
-     "id_fuente": "4457004891"
-    }
-   ],
-   "inc": [
-    "salario"
-   ],
-   "deducidos": [
-    "modalidad"
-   ],
-   "modalidad_fuente": "Hybrid",
-   "empleados": 2480,
-   "sede": "Bogotá",
-   "modalidad": "Hybrid",
-   "modalidad_literal": null,
-   "modalidad_por_confirmar": false,
-   "id": "decameron all inclusive hotels resorts|profesional de compensacion y beneficios|bogota",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "no se pudo determinar: no suma ni resta"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "compensacion, remuneracion, valoracion de cargos, korn ferry, bandas salariales, compensacion variable"
-    },
-    {
-     "concepto": "salario",
-     "puntos": 0,
-     "nota": "sin salario publicado, no suma ni resta"
-    }
-   ],
-   "puntaje": 12,
-   "nueva": false,
-   "visto_desde": "2026-08-29",
-   "republicaciones": 0,
-   "reapariciones": 0,
-   "marcas": [
-    "no apareció hoy en la fuente (2 de 3)"
-   ],
-   "desaparecio": "2026-09-15",
-   "dias_publicada": 17
   },
   {
    "cargo": "Gerente de Compensación y Beneficios (Total Rewards) - 80 Beneficios 20 Compensacion",
