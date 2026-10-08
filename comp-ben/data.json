@@ -1,14 +1,14 @@
 {
  "busqueda": "comp-ben",
- "corrida": "2026-10-07",
- "corrida_hora": "2026-10-07 17:50",
+ "corrida": "2026-10-08",
+ "corrida_hora": "2026-10-08 17:53",
  "fuentes": {
   "elempleo": {
    "avisos": 16,
    "error": null
   },
   "computrabajo": {
-   "avisos": 4,
+   "avisos": 3,
    "error": null
   },
   "workday": {
@@ -29,8 +29,8 @@
   }
  },
  "fallos": [],
- "avisos_recogidos": 35,
- "descartados": 10,
+ "avisos_recogidos": 34,
+ "descartados": 9,
  "fusionados": [
   {
    "conservado": "Compensation & HR Operations Analyst | Inglés Avanzado",
@@ -39,16 +39,15 @@
   }
  ],
  "nuevas": [
-  "empresa no revelada|profesional de relaciones laborales contratacion estructura y compensacion|bogota#anon:3500001-4000000-2026-10-06"
+  "marsh|compensation consulting analyst|colombia",
+  "adecco|coordinador de administracion de personal y planta nomina compensaciones|bogota"
  ],
- "reaparecidas": [
-  "decameron all inclusive hotels resorts|profesional de compensacion y beneficios|bogota",
-  "kuehne nagel|national human resources total rewards expert|bogota"
+ "reaparecidas": [],
+ "ausentes": [
+  "empresa no revelada|especialista de compensacion|bogota#anon:0-0-2026-09-15",
+  "cafam oficial|analista senior de compensacion y estructura salarial|bogota"
  ],
- "ausentes": [],
- "republicadas": [
-  "decameron all inclusive hotels resorts|profesional de compensacion y beneficios|bogota"
- ],
+ "republicadas": [],
  "vigentes": [
   {
    "cargo": "Reward Partner",
@@ -283,7 +282,8 @@
    "id": "empresa no revelada|especialista de compensacion|bogota#anon:0-0-2026-09-15",
    "duplicados_hoy": 1,
    "marcas": [
-    "empresa no revelada: puede estar repetida"
+    "empresa no revelada: puede estar repetida",
+    "no apareció hoy en la fuente (1 de 3)"
    ],
    "desglose": [
     {
@@ -308,7 +308,7 @@
     }
    ],
    "puntaje": 37,
-   "ausencias": 0,
+   "ausencias": 1,
    "nueva": false,
    "visto_desde": "2026-09-16",
    "republicaciones": 0,
@@ -436,7 +436,7 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 1 día(s)"
+     "nota": "hace 2 día(s)"
     }
    ],
    "puntaje": 22,
@@ -444,8 +444,7 @@
    "nueva": false,
    "visto_desde": "2026-08-29",
    "republicaciones": 1,
-   "reapariciones": 1,
-   "reaparecida": true
+   "reapariciones": 1
   },
   {
    "cargo": "coordinador de compensación talento humano",
@@ -514,6 +513,72 @@
    "reapariciones": 1
   },
   {
+   "cargo": "Compensation Consulting Analyst",
+   "empresa": "Marsh",
+   "empresa_anonima": false,
+   "ciudad": "Colombia",
+   "salario": null,
+   "publicado": "2026-10-07",
+   "vigente_hasta": null,
+   "contrato": null,
+   "agencia": null,
+   "direccion": null,
+   "lat": 4.099917,
+   "lon": -72.9088133,
+   "id_fuente": "4476782631",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/compensation-consulting-analyst-at-marsh-4476782631",
+     "id_fuente": "4476782631"
+    }
+   ],
+   "inc": [
+    "salario",
+    "contrato"
+   ],
+   "deducidos": [
+    "modalidad"
+   ],
+   "modalidad_fuente": "Hybrid",
+   "empleados": 65841,
+   "sede": "New York, NY",
+   "modalidad": "híbrido",
+   "modalidad_literal": "hibrido",
+   "modalidad_por_confirmar": false,
+   "id": "marsh|compensation consulting analyst|colombia",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "multinacional estadounidense",
+     "puntos": -5,
+     "nota": "New York, NY"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "compensacion"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    },
+    {
+     "concepto": "publicada hace menos de 3 días",
+     "puntos": 10,
+     "nota": "hace 1 día(s)"
+    }
+   ],
+   "puntaje": 17,
+   "ausencias": 0,
+   "nueva": true,
+   "visto_desde": "2026-10-08",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
+  {
    "cargo": "Analista Senior de Compensación y Estructura Salarial",
    "empresa": "Cafam Oficial",
    "empresa_anonima": false,
@@ -569,11 +634,14 @@
     }
    ],
    "puntaje": 12,
-   "ausencias": 0,
+   "ausencias": 1,
    "nueva": false,
    "visto_desde": "2026-08-29",
    "republicaciones": 0,
-   "reapariciones": 0
+   "reapariciones": 0,
+   "marcas": [
+    "no apareció hoy en la fuente (1 de 3)"
+   ]
   },
   {
    "cargo": "Analista Senior de Compensación, Nómina & People Analytics",
@@ -821,8 +889,7 @@
    "nueva": false,
    "visto_desde": "2026-09-17",
    "republicaciones": 0,
-   "reapariciones": 1,
-   "reaparecida": true
+   "reapariciones": 1
   },
   {
    "cargo": "Workers' Compensation Case Manager",
@@ -1006,12 +1073,12 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 1 día(s)"
+     "nota": "hace 2 día(s)"
     }
    ],
    "puntaje": 7,
    "ausencias": 0,
-   "nueva": true,
+   "nueva": false,
    "visto_desde": "2026-10-07",
    "republicaciones": 0,
    "reapariciones": 0
@@ -1506,6 +1573,64 @@
    "ausencias": 0,
    "nueva": false,
    "visto_desde": "2026-09-28",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
+  {
+   "cargo": "Coordinador de Administración de Personal y Planta / Nomina / Compensaciones",
+   "empresa": "ADECCO COLOMBIA S A",
+   "empresa_anonima": false,
+   "ciudad": "Bogotá D.C.",
+   "salario": {
+    "min": 6000001.0,
+    "max": 8000000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-10-08",
+   "vigente_hasta": "2026-12-07",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/coordinador-de-administracion-de-personal-y-planta-nomina-compensaciones-1886778245",
+     "id_fuente": null
+    }
+   ],
+   "inc": [],
+   "deducidos": [],
+   "modalidad": "presencial",
+   "modalidad_literal": "presencial",
+   "modalidad_por_confirmar": false,
+   "id": "adecco|coordinador de administracion de personal y planta nomina compensaciones|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "salario publicado por debajo de $18.000.000",
+     "puntos": -15,
+     "nota": "8.000.000 COP — se muestra igual: el publicado casi nunca es el negociado"
+    },
+    {
+     "concepto": "publicada hace menos de 3 días",
+     "puntos": 10,
+     "nota": "hace 0 día(s)"
+    }
+   ],
+   "puntaje": -5,
+   "ausencias": 0,
+   "nueva": true,
+   "visto_desde": "2026-10-08",
    "republicaciones": 0,
    "reapariciones": 0
   },
