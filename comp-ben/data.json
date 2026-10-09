@@ -1,18 +1,18 @@
 {
  "busqueda": "comp-ben",
- "corrida": "2026-10-08",
- "corrida_hora": "2026-10-08 17:53",
+ "corrida": "2026-10-09",
+ "corrida_hora": "2026-10-09 17:27",
  "fuentes": {
   "elempleo": {
-   "avisos": 16,
+   "avisos": 13,
    "error": null
   },
   "computrabajo": {
-   "avisos": 3,
+   "avisos": 2,
    "error": null
   },
   "workday": {
-   "avisos": 5,
+   "avisos": 6,
    "error": null
   },
   "greenhouse": {
@@ -24,13 +24,26 @@
    "error": null
   },
   "apify_linkedin": {
-   "avisos": 9,
+   "avisos": 11,
    "error": null
   }
  },
- "fallos": [],
- "avisos_recogidos": 34,
- "descartados": 9,
+ "fallos": [
+  {
+   "url": "https://www.elempleo.com/co/ofertas-trabajo/coordinador-adm-compensacion-1886750650",
+   "motivo": "HTTP 410"
+  },
+  {
+   "url": "https://www.elempleo.com/co/ofertas-trabajo/profesional-de-contratacion-y-compensacion-1886750952",
+   "motivo": "HTTP 410"
+  },
+  {
+   "url": "https://www.elempleo.com/co/ofertas-trabajo/profesional-de-compensacion-y-analitica-de-datos-nomina-1886721606",
+   "motivo": "HTTP 410"
+  }
+ ],
+ "avisos_recogidos": 33,
+ "descartados": 8,
  "fusionados": [
   {
    "conservado": "Compensation & HR Operations Analyst | Inglés Avanzado",
@@ -39,13 +52,14 @@
   }
  ],
  "nuevas": [
-  "marsh|compensation consulting analyst|colombia",
-  "adecco|coordinador de administracion de personal y planta nomina compensaciones|bogota"
+  "yara international|head of compensation benefits|bogota"
  ],
  "reaparecidas": [],
  "ausentes": [
   "empresa no revelada|especialista de compensacion|bogota#anon:0-0-2026-09-15",
-  "cafam oficial|analista senior de compensacion y estructura salarial|bogota"
+  "cafam oficial|analista senior de compensacion y estructura salarial|bogota",
+  "empresa no revelada|profesional de contratacion y compensacion|bogota#anon:3500001-4000000-2026-09-28",
+  "empresa no revelada|profesional de compensacion y analitica de datos|bogota#anon:3500001-4000000-2026-08-10"
  ],
  "republicadas": [],
  "vigentes": [
@@ -283,7 +297,7 @@
    "duplicados_hoy": 1,
    "marcas": [
     "empresa no revelada: puede estar repetida",
-    "no apareció hoy en la fuente (1 de 3)"
+    "no apareció hoy en la fuente (2 de 3)"
    ],
    "desglose": [
     {
@@ -308,11 +322,93 @@
     }
    ],
    "puntaje": 37,
-   "ausencias": 1,
+   "ausencias": 2,
    "nueva": false,
    "visto_desde": "2026-09-16",
    "republicaciones": 0,
    "reapariciones": 1
+  },
+  {
+   "cargo": "Head of Compensation & Benefits",
+   "empresa": "Yara International",
+   "empresa_anonima": false,
+   "ciudad": "Bogota, Capital District",
+   "salario": null,
+   "publicado": "2026-10-08",
+   "vigente_hasta": "2026-11-07",
+   "contrato": [
+    "FULL_TIME"
+   ],
+   "agencia": null,
+   "direccion": null,
+   "lat": 4.6533817,
+   "lon": -74.0836331,
+   "id_fuente": "4476204334",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/head-of-compensation-benefits-at-yara-international-4476204334",
+     "id_fuente": "4476204334"
+    },
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/head-of-compensation-benefits-at-yara-international-4475990907",
+     "id_fuente": "4475990907"
+    }
+   ],
+   "inc": [
+    "salario"
+   ],
+   "deducidos": [
+    "modalidad"
+   ],
+   "modalidad_fuente": "On-site",
+   "empleados": 15549,
+   "sede": "Oslo",
+   "modalidad": "On-site",
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "yara international|head of compensation benefits|bogota",
+   "duplicados_hoy": 2,
+   "desglose": [
+    {
+     "concepto": "cargo objetivo de la búsqueda",
+     "puntos": 25,
+     "nota": "Head of Compensation & Benefits"
+    },
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "job evaluation, pay equity"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    },
+    {
+     "concepto": "publicada hace menos de 3 días",
+     "puntos": 10,
+     "nota": "hace 1 día(s)"
+    },
+    {
+     "concepto": "exige portuguese",
+     "puntos": -10,
+     "nota": "el perfil no lo domina — se muestra igual: muchos avisos lo piden como «deseable» y luego no lo evalúan"
+    }
+   ],
+   "puntaje": 37,
+   "ausencias": 0,
+   "nueva": true,
+   "visto_desde": "2026-10-09",
+   "republicaciones": 0,
+   "reapariciones": 0
   },
   {
    "cargo": "Líder de Compensación y Beneficios - Nomina",
@@ -436,7 +532,7 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 2 día(s)"
+     "nota": "hace 3 día(s)"
     }
    ],
    "puntaje": 22,
@@ -568,12 +664,12 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 1 día(s)"
+     "nota": "hace 2 día(s)"
     }
    ],
    "puntaje": 17,
    "ausencias": 0,
-   "nueva": true,
+   "nueva": false,
    "visto_desde": "2026-10-08",
    "republicaciones": 0,
    "reapariciones": 0
@@ -634,13 +730,13 @@
     }
    ],
    "puntaje": 12,
-   "ausencias": 1,
+   "ausencias": 2,
    "nueva": false,
    "visto_desde": "2026-08-29",
    "republicaciones": 0,
    "reapariciones": 0,
    "marcas": [
-    "no apareció hoy en la fuente (1 de 3)"
+    "no apareció hoy en la fuente (2 de 3)"
    ]
   },
   {
@@ -1073,7 +1169,7 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 2 día(s)"
+     "nota": "hace 3 día(s)"
     }
    ],
    "puntaje": 7,
@@ -1550,7 +1646,8 @@
    "id": "empresa no revelada|profesional de contratacion y compensacion|bogota#anon:3500001-4000000-2026-09-28",
    "duplicados_hoy": 1,
    "marcas": [
-    "empresa no revelada: puede estar repetida"
+    "empresa no revelada: puede estar repetida",
+    "no apareció hoy en la fuente (1 de 3)"
    ],
    "desglose": [
     {
@@ -1570,7 +1667,7 @@
     }
    ],
    "puntaje": -3,
-   "ausencias": 0,
+   "ausencias": 1,
    "nueva": false,
    "visto_desde": "2026-09-28",
    "republicaciones": 0,
@@ -1624,12 +1721,12 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 0 día(s)"
+     "nota": "hace 1 día(s)"
     }
    ],
    "puntaje": -5,
    "ausencias": 0,
-   "nueva": true,
+   "nueva": false,
    "visto_desde": "2026-10-08",
    "republicaciones": 0,
    "reapariciones": 0
@@ -1671,7 +1768,8 @@
    "id": "empresa no revelada|profesional de compensacion y analitica de datos|bogota#anon:3500001-4000000-2026-08-10",
    "duplicados_hoy": 1,
    "marcas": [
-    "empresa no revelada: puede estar repetida"
+    "empresa no revelada: puede estar repetida",
+    "no apareció hoy en la fuente (1 de 3)"
    ],
    "desglose": [
     {
@@ -1686,7 +1784,7 @@
     }
    ],
    "puntaje": -15,
-   "ausencias": 0,
+   "ausencias": 1,
    "nueva": false,
    "visto_desde": "2026-08-28",
    "republicaciones": 0,
