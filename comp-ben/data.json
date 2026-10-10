@@ -1,7 +1,7 @@
 {
  "busqueda": "comp-ben",
- "corrida": "2026-10-09",
- "corrida_hora": "2026-10-09 17:27",
+ "corrida": "2026-10-10",
+ "corrida_hora": "2026-10-10 16:15",
  "fuentes": {
   "elempleo": {
    "avisos": 13,
@@ -28,20 +28,7 @@
    "error": null
   }
  },
- "fallos": [
-  {
-   "url": "https://www.elempleo.com/co/ofertas-trabajo/coordinador-adm-compensacion-1886750650",
-   "motivo": "HTTP 410"
-  },
-  {
-   "url": "https://www.elempleo.com/co/ofertas-trabajo/profesional-de-contratacion-y-compensacion-1886750952",
-   "motivo": "HTTP 410"
-  },
-  {
-   "url": "https://www.elempleo.com/co/ofertas-trabajo/profesional-de-compensacion-y-analitica-de-datos-nomina-1886721606",
-   "motivo": "HTTP 410"
-  }
- ],
+ "fallos": [],
  "avisos_recogidos": 33,
  "descartados": 8,
  "fusionados": [
@@ -51,13 +38,9 @@
    "parecido": 0.67
   }
  ],
- "nuevas": [
-  "yara international|head of compensation benefits|bogota"
- ],
+ "nuevas": [],
  "reaparecidas": [],
  "ausentes": [
-  "empresa no revelada|especialista de compensacion|bogota#anon:0-0-2026-09-15",
-  "cafam oficial|analista senior de compensacion y estructura salarial|bogota",
   "empresa no revelada|profesional de contratacion y compensacion|bogota#anon:3500001-4000000-2026-09-28",
   "empresa no revelada|profesional de compensacion y analitica de datos|bogota#anon:3500001-4000000-2026-08-10"
  ],
@@ -264,71 +247,6 @@
    "reapariciones": 0
   },
   {
-   "cargo": "Especialista de Compensación",
-   "empresa": "CONFIDENTIAL",
-   "empresa_anonima": true,
-   "ciudad": "Bogotá D.C.",
-   "salario": null,
-   "publicado": "2026-09-15",
-   "vigente_hasta": "2026-11-14",
-   "contrato": "FULL_TIME",
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": null,
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "elempleo",
-     "url": "https://www.elempleo.com/co/ofertas-trabajo/especialista-de-compensacion-1886767419",
-     "id_fuente": null
-    }
-   ],
-   "inc": [
-    "salario",
-    "modalidad"
-   ],
-   "deducidos": [],
-   "modalidad": null,
-   "modalidad_literal": null,
-   "modalidad_por_confirmar": false,
-   "id": "empresa no revelada|especialista de compensacion|bogota#anon:0-0-2026-09-15",
-   "duplicados_hoy": 1,
-   "marcas": [
-    "empresa no revelada: puede estar repetida",
-    "no apareció hoy en la fuente (2 de 3)"
-   ],
-   "desglose": [
-    {
-     "concepto": "cargo objetivo de la búsqueda",
-     "puntos": 25,
-     "nota": "Especialista de Compensación"
-    },
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "el aviso no revela la empresa: no suma ni resta"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "compensacion, valoracion de cargos, compensacion variable"
-    },
-    {
-     "concepto": "salario",
-     "puntos": 0,
-     "nota": "sin salario publicado, no suma ni resta"
-    }
-   ],
-   "puntaje": 37,
-   "ausencias": 2,
-   "nueva": false,
-   "visto_desde": "2026-09-16",
-   "republicaciones": 0,
-   "reapariciones": 1
-  },
-  {
    "cargo": "Head of Compensation & Benefits",
    "empresa": "Yara International",
    "empresa_anonima": false,
@@ -395,7 +313,7 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 1 día(s)"
+     "nota": "hace 2 día(s)"
     },
     {
      "concepto": "exige portuguese",
@@ -405,7 +323,7 @@
    ],
    "puntaje": 37,
    "ausencias": 0,
-   "nueva": true,
+   "nueva": false,
    "visto_desde": "2026-10-09",
    "republicaciones": 0,
    "reapariciones": 0
@@ -474,73 +392,6 @@
    "visto_desde": "2026-09-09",
    "republicaciones": 0,
    "reapariciones": 0
-  },
-  {
-   "cargo": "Profesional de Compensación y Beneficios",
-   "empresa": "Decameron All Inclusive Hotels & Resorts",
-   "empresa_anonima": false,
-   "ciudad": "Bogota, Capital District",
-   "salario": null,
-   "publicado": "2026-08-20",
-   "vigente_hasta": "2026-11-05",
-   "contrato": [
-    "TEMPORARY"
-   ],
-   "agencia": null,
-   "direccion": null,
-   "lat": 4.6533817,
-   "lon": -74.0836331,
-   "id_fuente": "4476328771",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "linkedin",
-     "url": "https://co.linkedin.com/jobs/view/profesional-de-compensaci%C3%B3n-y-beneficios-at-decameron-all-inclusive-hotels-resorts-4476328771",
-     "id_fuente": "4476328771"
-    }
-   ],
-   "inc": [
-    "salario"
-   ],
-   "deducidos": [
-    "modalidad"
-   ],
-   "modalidad_fuente": "Hybrid",
-   "empleados": 2504,
-   "sede": "Bogotá",
-   "modalidad": "Hybrid",
-   "modalidad_literal": null,
-   "modalidad_por_confirmar": false,
-   "id": "decameron all inclusive hotels resorts|profesional de compensacion y beneficios|bogota",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "no se pudo determinar: no suma ni resta"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "compensacion, remuneracion, valoracion de cargos, korn ferry, bandas salariales, compensacion variable"
-    },
-    {
-     "concepto": "salario",
-     "puntos": 0,
-     "nota": "sin salario publicado, no suma ni resta"
-    },
-    {
-     "concepto": "publicada hace menos de 3 días",
-     "puntos": 10,
-     "nota": "hace 3 día(s)"
-    }
-   ],
-   "puntaje": 22,
-   "ausencias": 0,
-   "nueva": false,
-   "visto_desde": "2026-08-29",
-   "republicaciones": 1,
-   "reapariciones": 1
   },
   {
    "cargo": "coordinador de compensación talento humano",
@@ -664,7 +515,7 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 2 día(s)"
+     "nota": "hace 3 día(s)"
     }
    ],
    "puntaje": 17,
@@ -673,71 +524,6 @@
    "visto_desde": "2026-10-08",
    "republicaciones": 0,
    "reapariciones": 0
-  },
-  {
-   "cargo": "Analista Senior de Compensación y Estructura Salarial",
-   "empresa": "Cafam Oficial",
-   "empresa_anonima": false,
-   "ciudad": "Bogota, Capital District",
-   "salario": null,
-   "publicado": "2026-06-01",
-   "vigente_hasta": "2026-07-01",
-   "contrato": [
-    "FULL_TIME"
-   ],
-   "agencia": null,
-   "direccion": null,
-   "lat": 4.6533817,
-   "lon": -74.0836331,
-   "id_fuente": "4423294404",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "linkedin",
-     "url": "https://co.linkedin.com/jobs/view/analista-senior-de-compensaci%C3%B3n-y-estructura-salarial-at-cafam-oficial-4423294404",
-     "id_fuente": "4423294404"
-    }
-   ],
-   "inc": [
-    "salario"
-   ],
-   "deducidos": [
-    "modalidad"
-   ],
-   "modalidad_fuente": "On-site",
-   "empleados": 4173,
-   "sede": "Bogotá D.C, Cundinamarca",
-   "modalidad": "presencial",
-   "modalidad_literal": "presencial",
-   "modalidad_por_confirmar": false,
-   "id": "cafam oficial|analista senior de compensacion y estructura salarial|bogota",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "no se pudo determinar: no suma ni resta"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "compensacion, estructura salarial, bandas salariales, equidad interna"
-    },
-    {
-     "concepto": "salario",
-     "puntos": 0,
-     "nota": "sin salario publicado, no suma ni resta"
-    }
-   ],
-   "puntaje": 12,
-   "ausencias": 2,
-   "nueva": false,
-   "visto_desde": "2026-08-29",
-   "republicaciones": 0,
-   "reapariciones": 0,
-   "marcas": [
-    "no apareció hoy en la fuente (2 de 3)"
-   ]
   },
   {
    "cargo": "Analista Senior de Compensación, Nómina & People Analytics",
@@ -988,6 +774,68 @@
    "reapariciones": 1
   },
   {
+   "cargo": "Profesional de Compensación y Beneficios",
+   "empresa": "Decameron All Inclusive Hotels & Resorts",
+   "empresa_anonima": false,
+   "ciudad": "Bogota, Capital District",
+   "salario": null,
+   "publicado": "2026-08-20",
+   "vigente_hasta": "2026-11-05",
+   "contrato": [
+    "TEMPORARY"
+   ],
+   "agencia": null,
+   "direccion": null,
+   "lat": 4.6533817,
+   "lon": -74.0836331,
+   "id_fuente": "4476328771",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/profesional-de-compensaci%C3%B3n-y-beneficios-at-decameron-all-inclusive-hotels-resorts-4476328771",
+     "id_fuente": "4476328771"
+    }
+   ],
+   "inc": [
+    "salario"
+   ],
+   "deducidos": [
+    "modalidad"
+   ],
+   "modalidad_fuente": "Hybrid",
+   "empleados": 2504,
+   "sede": "Bogotá",
+   "modalidad": "Hybrid",
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "decameron all inclusive hotels resorts|profesional de compensacion y beneficios|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "compensacion, remuneracion, valoracion de cargos, korn ferry, bandas salariales, compensacion variable"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    }
+   ],
+   "puntaje": 12,
+   "ausencias": 0,
+   "nueva": false,
+   "visto_desde": "2026-08-29",
+   "republicaciones": 1,
+   "reapariciones": 1
+  },
+  {
    "cargo": "Workers' Compensation Case Manager",
    "empresa": "The United Firm | La Liga Defensora, APC",
    "empresa_anonima": false,
@@ -1108,74 +956,6 @@
    "ausencias": 0,
    "nueva": false,
    "visto_desde": "2026-08-29",
-   "republicaciones": 0,
-   "reapariciones": 0
-  },
-  {
-   "cargo": "Profesional de Relaciones Laborales, Contratación, Estructura y Compensación",
-   "empresa": "CONFIDENTIAL",
-   "empresa_anonima": true,
-   "ciudad": "Bogotá D.C.",
-   "salario": {
-    "min": 3500001.0,
-    "max": 4000000.0,
-    "moneda": "COP",
-    "periodo": "MONTH"
-   },
-   "publicado": "2026-10-06",
-   "vigente_hasta": "2026-12-05",
-   "contrato": "FULL_TIME",
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": null,
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "elempleo",
-     "url": "https://www.elempleo.com/co/ofertas-trabajo/profesional-de-relaciones-laborales-contratacion-estructura-y-compensacion-1886776942",
-     "id_fuente": null
-    }
-   ],
-   "inc": [
-    "modalidad"
-   ],
-   "deducidos": [],
-   "modalidad": null,
-   "modalidad_literal": null,
-   "modalidad_por_confirmar": false,
-   "id": "empresa no revelada|profesional de relaciones laborales contratacion estructura y compensacion|bogota#anon:3500001-4000000-2026-10-06",
-   "duplicados_hoy": 1,
-   "marcas": [
-    "empresa no revelada: puede estar repetida"
-   ],
-   "desglose": [
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "el aviso no revela la empresa: no suma ni resta"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "compensacion"
-    },
-    {
-     "concepto": "salario publicado por debajo de $18.000.000",
-     "puntos": -15,
-     "nota": "4.000.000 COP — se muestra igual: el publicado casi nunca es el negociado"
-    },
-    {
-     "concepto": "publicada hace menos de 3 días",
-     "puntos": 10,
-     "nota": "hace 3 día(s)"
-    }
-   ],
-   "puntaje": 7,
-   "ausencias": 0,
-   "nueva": false,
-   "visto_desde": "2026-10-07",
    "republicaciones": 0,
    "reapariciones": 0
   },
@@ -1610,6 +1390,69 @@
    "reapariciones": 1
   },
   {
+   "cargo": "Profesional de Relaciones Laborales, Contratación, Estructura y Compensación",
+   "empresa": "CONFIDENTIAL",
+   "empresa_anonima": true,
+   "ciudad": "Bogotá D.C.",
+   "salario": {
+    "min": 3500001.0,
+    "max": 4000000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-10-06",
+   "vigente_hasta": "2026-12-05",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/profesional-de-relaciones-laborales-contratacion-estructura-y-compensacion-1886776942",
+     "id_fuente": null
+    }
+   ],
+   "inc": [
+    "modalidad"
+   ],
+   "deducidos": [],
+   "modalidad": null,
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "empresa no revelada|profesional de relaciones laborales contratacion estructura y compensacion|bogota#anon:3500001-4000000-2026-10-06",
+   "duplicados_hoy": 1,
+   "marcas": [
+    "empresa no revelada: puede estar repetida"
+   ],
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "el aviso no revela la empresa: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "compensacion"
+    },
+    {
+     "concepto": "salario publicado por debajo de $18.000.000",
+     "puntos": -15,
+     "nota": "4.000.000 COP — se muestra igual: el publicado casi nunca es el negociado"
+    }
+   ],
+   "puntaje": -3,
+   "ausencias": 0,
+   "nueva": false,
+   "visto_desde": "2026-10-07",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
+  {
    "cargo": "Profesional de contratación y compensación",
    "empresa": "CONFIDENTIAL",
    "empresa_anonima": true,
@@ -1647,7 +1490,7 @@
    "duplicados_hoy": 1,
    "marcas": [
     "empresa no revelada: puede estar repetida",
-    "no apareció hoy en la fuente (1 de 3)"
+    "no apareció hoy en la fuente (2 de 3)"
    ],
    "desglose": [
     {
@@ -1667,7 +1510,7 @@
     }
    ],
    "puntaje": -3,
-   "ausencias": 1,
+   "ausencias": 2,
    "nueva": false,
    "visto_desde": "2026-09-28",
    "republicaciones": 0,
@@ -1721,7 +1564,7 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 1 día(s)"
+     "nota": "hace 2 día(s)"
     }
    ],
    "puntaje": -5,
@@ -1769,7 +1612,7 @@
    "duplicados_hoy": 1,
    "marcas": [
     "empresa no revelada: puede estar repetida",
-    "no apareció hoy en la fuente (1 de 3)"
+    "no apareció hoy en la fuente (2 de 3)"
    ],
    "desglose": [
     {
@@ -1784,7 +1627,7 @@
     }
    ],
    "puntaje": -15,
-   "ausencias": 1,
+   "ausencias": 2,
    "nueva": false,
    "visto_desde": "2026-08-28",
    "republicaciones": 0,
@@ -1792,6 +1635,138 @@
   }
  ],
  "caidas": [
+  {
+   "cargo": "Especialista de Compensación",
+   "empresa": "CONFIDENTIAL",
+   "empresa_anonima": true,
+   "ciudad": "Bogotá D.C.",
+   "salario": null,
+   "publicado": "2026-09-15",
+   "vigente_hasta": "2026-11-14",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/especialista-de-compensacion-1886767419",
+     "id_fuente": null
+    }
+   ],
+   "inc": [
+    "salario",
+    "modalidad"
+   ],
+   "deducidos": [],
+   "modalidad": null,
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "empresa no revelada|especialista de compensacion|bogota#anon:0-0-2026-09-15",
+   "duplicados_hoy": 1,
+   "marcas": [
+    "empresa no revelada: puede estar repetida",
+    "no apareció hoy en la fuente (2 de 3)"
+   ],
+   "desglose": [
+    {
+     "concepto": "cargo objetivo de la búsqueda",
+     "puntos": 25,
+     "nota": "Especialista de Compensación"
+    },
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "el aviso no revela la empresa: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "compensacion, valoracion de cargos, compensacion variable"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    }
+   ],
+   "puntaje": 37,
+   "nueva": false,
+   "visto_desde": "2026-09-16",
+   "republicaciones": 0,
+   "reapariciones": 1,
+   "desaparecio": "2026-10-10",
+   "dias_publicada": 24
+  },
+  {
+   "cargo": "Analista Senior de Compensación y Estructura Salarial",
+   "empresa": "Cafam Oficial",
+   "empresa_anonima": false,
+   "ciudad": "Bogota, Capital District",
+   "salario": null,
+   "publicado": "2026-06-01",
+   "vigente_hasta": "2026-07-01",
+   "contrato": [
+    "FULL_TIME"
+   ],
+   "agencia": null,
+   "direccion": null,
+   "lat": 4.6533817,
+   "lon": -74.0836331,
+   "id_fuente": "4423294404",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/analista-senior-de-compensaci%C3%B3n-y-estructura-salarial-at-cafam-oficial-4423294404",
+     "id_fuente": "4423294404"
+    }
+   ],
+   "inc": [
+    "salario"
+   ],
+   "deducidos": [
+    "modalidad"
+   ],
+   "modalidad_fuente": "On-site",
+   "empleados": 4173,
+   "sede": "Bogotá D.C, Cundinamarca",
+   "modalidad": "presencial",
+   "modalidad_literal": "presencial",
+   "modalidad_por_confirmar": false,
+   "id": "cafam oficial|analista senior de compensacion y estructura salarial|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "compensacion, estructura salarial, bandas salariales, equidad interna"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    }
+   ],
+   "puntaje": 12,
+   "nueva": false,
+   "visto_desde": "2026-08-29",
+   "republicaciones": 0,
+   "reapariciones": 0,
+   "marcas": [
+    "no apareció hoy en la fuente (2 de 3)"
+   ],
+   "desaparecio": "2026-10-10",
+   "dias_publicada": 42
+  },
   {
    "cargo": "Project Manager – Compensation Analysis & U.S. Government Contracts",
    "empresa": "Djagora University",
