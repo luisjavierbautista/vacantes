@@ -1,10 +1,10 @@
 {
  "busqueda": "comp-ben",
- "corrida": "2026-10-11",
- "corrida_hora": "2026-10-11 16:40",
+ "corrida": "2026-10-12",
+ "corrida_hora": "2026-10-12 20:18",
  "fuentes": {
   "elempleo": {
-   "avisos": 12,
+   "avisos": 14,
    "error": null
   },
   "computrabajo": {
@@ -12,7 +12,7 @@
    "error": null
   },
   "workday": {
-   "avisos": 6,
+   "avisos": 5,
    "error": null
   },
   "greenhouse": {
@@ -20,7 +20,7 @@
    "error": null
   },
   "arbeitnow": {
-   "avisos": 0,
+   "avisos": 1,
    "error": null
   },
   "apify_linkedin": {
@@ -29,7 +29,7 @@
   }
  },
  "fallos": [],
- "avisos_recogidos": 32,
+ "avisos_recogidos": 34,
  "descartados": 8,
  "fusionados": [
   {
@@ -38,11 +38,13 @@
    "parecido": 0.67
   }
  ],
- "nuevas": [],
- "reaparecidas": [],
- "ausentes": [
+ "nuevas": [
+  "politecnico grancolombiano|profesional de administracion laboral y compensacion|bogota"
+ ],
+ "reaparecidas": [
   "empresa no revelada|profesional de relaciones laborales contratacion estructura y compensacion|bogota#anon:3500001-4000000-2026-10-06"
  ],
+ "ausentes": [],
  "republicadas": [],
  "vigentes": [
   {
@@ -310,17 +312,12 @@
      "nota": "sin salario publicado, no suma ni resta"
     },
     {
-     "concepto": "publicada hace menos de 3 días",
-     "puntos": 10,
-     "nota": "hace 3 día(s)"
-    },
-    {
      "concepto": "exige portuguese",
      "puntos": -10,
      "nota": "el perfil no lo domina — se muestra igual: muchos avisos lo piden como «deseable» y luego no lo evalúan"
     }
    ],
-   "puntaje": 37,
+   "puntaje": 27,
    "ausencias": 0,
    "nueva": false,
    "visto_desde": "2026-10-09",
@@ -389,6 +386,74 @@
    "ausencias": 0,
    "nueva": false,
    "visto_desde": "2026-09-09",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
+  {
+   "cargo": "PROFESIONAL DE ADMINISTRACIÓN LABORAL Y COMPENSACIÓN",
+   "empresa": "Politecnico Grancolombiano",
+   "empresa_anonima": false,
+   "ciudad": "Bogotá D.C.",
+   "salario": {
+    "min": 4000001.0,
+    "max": 4500000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-10-09",
+   "vigente_hasta": "2026-12-08",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/profesional-de-administracion-laboral-y-compensacion-1886778985",
+     "id_fuente": null
+    }
+   ],
+   "inc": [],
+   "deducidos": [],
+   "modalidad": "remoto",
+   "modalidad_literal": "Teletrabajo",
+   "modalidad_por_confirmar": false,
+   "id": "politecnico grancolombiano|profesional de administracion laboral y compensacion|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "remoto confirmado en el cuerpo del aviso",
+     "puntos": 15,
+     "nota": "Teletrabajo"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "compensacion"
+    },
+    {
+     "concepto": "salario publicado por debajo de $18.000.000",
+     "puntos": -15,
+     "nota": "4.500.000 COP — se muestra igual: el publicado casi nunca es el negociado"
+    },
+    {
+     "concepto": "publicada hace menos de 3 días",
+     "puntos": 10,
+     "nota": "hace 3 día(s)"
+    }
+   ],
+   "puntaje": 22,
+   "ausencias": 0,
+   "nueva": true,
+   "visto_desde": "2026-10-12",
    "republicaciones": 0,
    "reapariciones": 0
   },
@@ -1420,8 +1485,7 @@
    "id": "empresa no revelada|profesional de relaciones laborales contratacion estructura y compensacion|bogota#anon:3500001-4000000-2026-10-06",
    "duplicados_hoy": 1,
    "marcas": [
-    "empresa no revelada: puede estar repetida",
-    "no apareció hoy en la fuente (1 de 3)"
+    "empresa no revelada: puede estar repetida"
    ],
    "desglose": [
     {
@@ -1441,11 +1505,12 @@
     }
    ],
    "puntaje": -3,
-   "ausencias": 1,
+   "ausencias": 0,
    "nueva": false,
    "visto_desde": "2026-10-07",
    "republicaciones": 0,
-   "reapariciones": 0
+   "reapariciones": 1,
+   "reaparecida": true
   },
   {
    "cargo": "Coordinador de Administración de Personal y Planta / Nomina / Compensaciones",
@@ -1491,14 +1556,9 @@
      "concepto": "salario publicado por debajo de $18.000.000",
      "puntos": -15,
      "nota": "8.000.000 COP — se muestra igual: el publicado casi nunca es el negociado"
-    },
-    {
-     "concepto": "publicada hace menos de 3 días",
-     "puntos": 10,
-     "nota": "hace 3 día(s)"
     }
    ],
-   "puntaje": -5,
+   "puntaje": -15,
    "ausencias": 0,
    "nueva": false,
    "visto_desde": "2026-10-08",
