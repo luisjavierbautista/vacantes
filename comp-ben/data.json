@@ -1,10 +1,10 @@
 {
  "busqueda": "comp-ben",
- "corrida": "2026-10-15",
- "corrida_hora": "2026-10-15 15:37",
+ "corrida": "2026-10-16",
+ "corrida_hora": "2026-10-16 15:23",
  "fuentes": {
   "elempleo": {
-   "avisos": 16,
+   "avisos": 18,
    "error": null
   },
   "computrabajo": {
@@ -12,7 +12,7 @@
    "error": null
   },
   "workday": {
-   "avisos": 6,
+   "avisos": 7,
    "error": null
   },
   "greenhouse": {
@@ -24,13 +24,13 @@
    "error": null
   },
   "apify_linkedin": {
-   "avisos": 13,
+   "avisos": 15,
    "error": null
   }
  },
  "fallos": [],
- "avisos_recogidos": 37,
- "descartados": 7,
+ "avisos_recogidos": 42,
+ "descartados": 9,
  "fusionados": [
   {
    "conservado": "Compensation & HR Operations Analyst | Inglés Avanzado",
@@ -39,18 +39,12 @@
   }
  ],
  "nuevas": [
-  "ucompensar|coordinador compensacion y gestion laboral|bogota",
-  "davita|hr operations payroll compensation coordinator|bogota",
-  "agencia de empleo y fomento empresarial compensar|lider de nomina y compensacion cajica ref 36|bogota alrededores"
+  "empresa no revelada|analista senior de compensacion|bogota#anon:0-0-2026-10-15"
  ],
  "reaparecidas": [
-  "worldpanel|global compensation manager|bogota"
+  "politecnico grancolombiano|profesional de administracion laboral y compensacion|bogota"
  ],
- "ausentes": [
-  "consorcio circulemos digital|lider de compensacion y beneficios nomina|bogota",
-  "politecnico grancolombiano|profesional de administracion laboral y compensacion|bogota",
-  "empresa no revelada|coordinador compensacion y gestion laboral|bogota#anon:0-0-2026-09-14"
- ],
+ "ausentes": [],
  "republicadas": [
   "worldpanel|global compensation manager|bogota"
  ],
@@ -70,9 +64,14 @@
    "direccion": null,
    "lat": 4.6533817,
    "lon": -74.0836331,
-   "id_fuente": "4479108323",
+   "id_fuente": "4479118814",
    "pais": null,
    "fuentes": [
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/global-compensation-manager-at-worldpanel-4479118814",
+     "id_fuente": "4479118814"
+    },
     {
      "fuente": "linkedin",
      "url": "https://co.linkedin.com/jobs/view/global-compensation-manager-at-worldpanel-4479108323",
@@ -92,7 +91,7 @@
    "modalidad_literal": "Hybrid",
    "modalidad_por_confirmar": false,
    "id": "worldpanel|global compensation manager|bogota",
-   "duplicados_hoy": 1,
+   "duplicados_hoy": 2,
    "desglose": [
     {
      "concepto": "cargo objetivo de la búsqueda",
@@ -117,16 +116,15 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 0 día(s)"
+     "nota": "hace 1 día(s)"
     }
    ],
    "puntaje": 62,
    "ausencias": 0,
    "nueva": false,
    "visto_desde": "2026-08-29",
-   "republicaciones": 1,
-   "reapariciones": 1,
-   "reaparecida": true
+   "republicaciones": 2,
+   "reapariciones": 1
   },
   {
    "cargo": "Reward Partner",
@@ -329,76 +327,6 @@
    "reapariciones": 0
   },
   {
-   "cargo": "Especialista Senior de Compensación",
-   "empresa": "Falabella",
-   "empresa_anonima": false,
-   "ciudad": "Bogotá D.C.",
-   "salario": {
-    "min": 6000001.0,
-    "max": 8000000.0,
-    "moneda": "COP",
-    "periodo": "MONTH"
-   },
-   "publicado": "2026-10-12",
-   "vigente_hasta": "2026-12-11",
-   "contrato": "FULL_TIME",
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": null,
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "elempleo",
-     "url": "https://www.elempleo.com/co/ofertas-trabajo/especialista-senior-de-compensacion-1886779296",
-     "id_fuente": null
-    }
-   ],
-   "inc": [
-    "modalidad"
-   ],
-   "deducidos": [],
-   "modalidad": null,
-   "modalidad_literal": null,
-   "modalidad_por_confirmar": false,
-   "id": "falabella|especialista senior de compensacion|bogota",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "multinacional latam",
-     "puntos": 15,
-     "nota": "por la lista objetivo"
-    },
-    {
-     "concepto": "está en la lista de empresas objetivo",
-     "puntos": 10,
-     "nota": "Falabella"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "compensacion, valoracion de cargos, korn ferry, equidad interna, mercer"
-    },
-    {
-     "concepto": "salario publicado por debajo de $18.000.000",
-     "puntos": -15,
-     "nota": "8.000.000 COP — se muestra igual: el publicado casi nunca es el negociado"
-    },
-    {
-     "concepto": "publicada hace menos de 3 días",
-     "puntos": 10,
-     "nota": "hace 3 día(s)"
-    }
-   ],
-   "puntaje": 32,
-   "ausencias": 0,
-   "nueva": false,
-   "visto_desde": "2026-10-13",
-   "republicaciones": 0,
-   "reapariciones": 0
-  },
-  {
    "cargo": "Head of Compensation & Benefits",
    "empresa": "Yara International",
    "empresa_anonima": false,
@@ -476,30 +404,30 @@
    "reapariciones": 0
   },
   {
-   "cargo": "Líder de Compensación y Beneficios - Nomina",
-   "empresa": "CONSORCIO CIRCULEMOS DIGITAL",
+   "cargo": "Especialista Senior de Compensación",
+   "empresa": "Falabella",
    "empresa_anonima": false,
-   "ciudad": "Bogotá, D.C.",
+   "ciudad": "Bogotá D.C.",
    "salario": {
-    "min": 3744798.0,
-    "max": 3744798.0,
+    "min": 6000001.0,
+    "max": 8000000.0,
     "moneda": "COP",
     "periodo": "MONTH"
    },
-   "publicado": "2026-09-08",
-   "vigente_hasta": "2026-11-07",
+   "publicado": "2026-10-12",
+   "vigente_hasta": "2026-12-11",
    "contrato": "FULL_TIME",
    "agencia": null,
    "direccion": null,
    "lat": null,
    "lon": null,
-   "id_fuente": "B0CBFB0381AE86E4",
+   "id_fuente": null,
    "pais": null,
    "fuentes": [
     {
-     "fuente": "computrabajo",
-     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-lider-de-compensacion-y-beneficios-nomina-en-bogota-dc-4E384C51C449000961373E686DCF3405",
-     "id_fuente": "B0CBFB0381AE86E4"
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/especialista-senior-de-compensacion-1886779296",
+     "id_fuente": null
     }
    ],
    "inc": [
@@ -509,39 +437,36 @@
    "modalidad": null,
    "modalidad_literal": null,
    "modalidad_por_confirmar": false,
-   "id": "consorcio circulemos digital|lider de compensacion y beneficios nomina|bogota",
+   "id": "falabella|especialista senior de compensacion|bogota",
    "duplicados_hoy": 1,
    "desglose": [
     {
-     "concepto": "cargo objetivo de la búsqueda",
-     "puntos": 25,
-     "nota": "Líder de Compensación y Beneficios - Nomina"
+     "concepto": "multinacional latam",
+     "puntos": 15,
+     "nota": "por la lista objetivo"
     },
     {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "no se pudo determinar: no suma ni resta"
+     "concepto": "está en la lista de empresas objetivo",
+     "puntos": 10,
+     "nota": "Falabella"
     },
     {
      "concepto": "el cuerpo menciona la técnica del oficio",
      "puntos": 12,
-     "nota": "compensacion"
+     "nota": "compensacion, valoracion de cargos, korn ferry, equidad interna, mercer"
     },
     {
      "concepto": "salario publicado por debajo de $18.000.000",
      "puntos": -15,
-     "nota": "3.744.798 COP — se muestra igual: el publicado casi nunca es el negociado"
+     "nota": "8.000.000 COP — se muestra igual: el publicado casi nunca es el negociado"
     }
    ],
    "puntaje": 22,
-   "ausencias": 2,
+   "ausencias": 0,
    "nueva": false,
-   "visto_desde": "2026-09-09",
+   "visto_desde": "2026-10-13",
    "republicaciones": 0,
-   "reapariciones": 0,
-   "marcas": [
-    "no apareció hoy en la fuente (2 de 3)"
-   ]
+   "reapariciones": 0
   },
   {
    "cargo": "coordinador de compensación talento humano",
@@ -608,6 +533,76 @@
    "visto_desde": "2026-08-28",
    "republicaciones": 0,
    "reapariciones": 1
+  },
+  {
+   "cargo": "Analista Senior de Compensación",
+   "empresa": "Confidencial",
+   "empresa_anonima": true,
+   "ciudad": "Bogota, Capital District",
+   "salario": null,
+   "publicado": "2026-10-15",
+   "vigente_hasta": "2026-11-14",
+   "contrato": [
+    "FULL_TIME"
+   ],
+   "agencia": null,
+   "direccion": null,
+   "lat": 4.6533817,
+   "lon": -74.0836331,
+   "id_fuente": "4479162947",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/analista-senior-de-compensaci%C3%B3n-at-money-inc-4479162947",
+     "id_fuente": "4479162947"
+    }
+   ],
+   "inc": [
+    "salario"
+   ],
+   "deducidos": [
+    "modalidad"
+   ],
+   "modalidad_fuente": "On-site",
+   "empleados": 936,
+   "sede": "New York, New York",
+   "modalidad": "On-site",
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "empresa no revelada|analista senior de compensacion|bogota#anon:0-0-2026-10-15",
+   "duplicados_hoy": 1,
+   "marcas": [
+    "empresa no revelada: puede estar repetida"
+   ],
+   "desglose": [
+    {
+     "concepto": "multinacional estadounidense",
+     "puntos": -5,
+     "nota": "New York, New York"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "compensacion"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    },
+    {
+     "concepto": "publicada hace menos de 3 días",
+     "puntos": 10,
+     "nota": "hace 1 día(s)"
+    }
+   ],
+   "puntaje": 17,
+   "ausencias": 0,
+   "nueva": true,
+   "visto_desde": "2026-10-16",
+   "republicaciones": 0,
+   "reapariciones": 0
   },
   {
    "cargo": "Analista Senior de Compensación, Nómina & People Analytics",
@@ -852,14 +847,12 @@
     }
    ],
    "puntaje": 12,
-   "ausencias": 2,
+   "ausencias": 0,
    "nueva": false,
    "visto_desde": "2026-10-12",
    "republicaciones": 0,
-   "reapariciones": 0,
-   "marcas": [
-    "no apareció hoy en la fuente (2 de 3)"
-   ]
+   "reapariciones": 1,
+   "reaparecida": true
   },
   {
    "cargo": "Profesional de Compensación y Beneficios",
@@ -969,12 +962,12 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 1 día(s)"
+     "nota": "hace 2 día(s)"
     }
    ],
    "puntaje": 10,
    "ausencias": 0,
-   "nueva": true,
+   "nueva": false,
    "visto_desde": "2026-10-15",
    "republicaciones": 0,
    "reapariciones": 0
@@ -1036,12 +1029,12 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 1 día(s)"
+     "nota": "hace 2 día(s)"
     }
    ],
    "puntaje": 10,
    "ausencias": 0,
-   "nueva": true,
+   "nueva": false,
    "visto_desde": "2026-10-15",
    "republicaciones": 0,
    "reapariciones": 0
@@ -1098,7 +1091,7 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 2 día(s)"
+     "nota": "hace 3 día(s)"
     }
    ],
    "puntaje": 10,
@@ -1286,12 +1279,12 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 1 día(s)"
+     "nota": "hace 2 día(s)"
     }
    ],
    "puntaje": 7,
    "ausencias": 0,
-   "nueva": true,
+   "nueva": false,
    "visto_desde": "2026-10-15",
    "republicaciones": 0,
    "reapariciones": 0
@@ -1413,7 +1406,7 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 2 día(s)"
+     "nota": "hace 3 día(s)"
     }
    ],
    "puntaje": 7,
@@ -1487,61 +1480,6 @@
    "ausencias": 0,
    "nueva": false,
    "visto_desde": "2026-10-03",
-   "republicaciones": 0,
-   "reapariciones": 0
-  },
-  {
-   "cargo": "Coordinador Compensación y Gestión Laboral",
-   "empresa": "CONFIDENTIAL",
-   "empresa_anonima": true,
-   "ciudad": "Bogotá D.C.",
-   "salario": null,
-   "publicado": "2026-09-14",
-   "vigente_hasta": "2026-10-14",
-   "contrato": "FULL_TIME",
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": null,
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "elempleo",
-     "url": "https://www.elempleo.com/co/ofertas-trabajo/coordinador-compensacion-y-gestion-laboral-1886766761",
-     "id_fuente": null
-    }
-   ],
-   "inc": [
-    "salario",
-    "modalidad"
-   ],
-   "deducidos": [],
-   "modalidad": null,
-   "modalidad_literal": null,
-   "modalidad_por_confirmar": false,
-   "id": "empresa no revelada|coordinador compensacion y gestion laboral|bogota#anon:0-0-2026-09-14",
-   "duplicados_hoy": 1,
-   "marcas": [
-    "empresa no revelada: puede estar repetida",
-    "no apareció hoy en la fuente (2 de 3)"
-   ],
-   "desglose": [
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "el aviso no revela la empresa: no suma ni resta"
-    },
-    {
-     "concepto": "salario",
-     "puntos": 0,
-     "nota": "sin salario publicado, no suma ni resta"
-    }
-   ],
-   "puntaje": 0,
-   "ausencias": 2,
-   "nueva": false,
-   "visto_desde": "2026-09-15",
    "republicaciones": 0,
    "reapariciones": 0
   },
@@ -1972,6 +1910,131 @@
   }
  ],
  "caidas": [
+  {
+   "cargo": "Líder de Compensación y Beneficios - Nomina",
+   "empresa": "CONSORCIO CIRCULEMOS DIGITAL",
+   "empresa_anonima": false,
+   "ciudad": "Bogotá, D.C.",
+   "salario": {
+    "min": 3744798.0,
+    "max": 3744798.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-09-08",
+   "vigente_hasta": "2026-11-07",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": "B0CBFB0381AE86E4",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "computrabajo",
+     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-lider-de-compensacion-y-beneficios-nomina-en-bogota-dc-4E384C51C449000961373E686DCF3405",
+     "id_fuente": "B0CBFB0381AE86E4"
+    }
+   ],
+   "inc": [
+    "modalidad"
+   ],
+   "deducidos": [],
+   "modalidad": null,
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "consorcio circulemos digital|lider de compensacion y beneficios nomina|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "cargo objetivo de la búsqueda",
+     "puntos": 25,
+     "nota": "Líder de Compensación y Beneficios - Nomina"
+    },
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "compensacion"
+    },
+    {
+     "concepto": "salario publicado por debajo de $18.000.000",
+     "puntos": -15,
+     "nota": "3.744.798 COP — se muestra igual: el publicado casi nunca es el negociado"
+    }
+   ],
+   "puntaje": 22,
+   "nueva": false,
+   "visto_desde": "2026-09-09",
+   "republicaciones": 0,
+   "reapariciones": 0,
+   "marcas": [
+    "no apareció hoy en la fuente (2 de 3)"
+   ],
+   "desaparecio": "2026-10-16",
+   "dias_publicada": 37
+  },
+  {
+   "cargo": "Coordinador Compensación y Gestión Laboral",
+   "empresa": "CONFIDENTIAL",
+   "empresa_anonima": true,
+   "ciudad": "Bogotá D.C.",
+   "salario": null,
+   "publicado": "2026-09-14",
+   "vigente_hasta": "2026-10-14",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/coordinador-compensacion-y-gestion-laboral-1886766761",
+     "id_fuente": null
+    }
+   ],
+   "inc": [
+    "salario",
+    "modalidad"
+   ],
+   "deducidos": [],
+   "modalidad": null,
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "empresa no revelada|coordinador compensacion y gestion laboral|bogota#anon:0-0-2026-09-14",
+   "duplicados_hoy": 1,
+   "marcas": [
+    "empresa no revelada: puede estar repetida",
+    "no apareció hoy en la fuente (2 de 3)"
+   ],
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "el aviso no revela la empresa: no suma ni resta"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    }
+   ],
+   "puntaje": 0,
+   "nueva": false,
+   "visto_desde": "2026-09-15",
+   "republicaciones": 0,
+   "reapariciones": 0,
+   "desaparecio": "2026-10-16",
+   "dias_publicada": 31
+  },
   {
    "cargo": "Manager, Total Rewards Andean & Caribbean",
    "empresa": "Brink’s Inc",
@@ -4898,62 +4961,6 @@
    ],
    "desaparecio": "2026-09-01",
    "dias_publicada": 4
-  },
-  {
-   "cargo": "Analist compensación y beneficios",
-   "empresa": "Cadena Comercial OXXO Colombia",
-   "empresa_anonima": false,
-   "ciudad": "Colombia",
-   "salario": null,
-   "publicado": "2026-07-15",
-   "vigente_hasta": "2026-09-13",
-   "contrato": "FULL_TIME",
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": "73D6783396CD83A4",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "computrabajo",
-     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analist-compensacion-y-beneficios-en-colombia-B076FE329411934161373E686DCF3405",
-     "id_fuente": "73D6783396CD83A4"
-    }
-   ],
-   "inc": [
-    "salario",
-    "modalidad"
-   ],
-   "deducidos": [],
-   "modalidad": null,
-   "modalidad_literal": null,
-   "modalidad_por_confirmar": false,
-   "id": "cadena comercial oxxo|analist compensacion y beneficios|colombia",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "no se pudo determinar: no suma ni resta"
-    },
-    {
-     "concepto": "el cuerpo menciona técnica de compensación",
-     "puntos": 12,
-     "nota": "compensacion, equidad interna"
-    },
-    {
-     "concepto": "salario",
-     "puntos": 0,
-     "nota": "sin salario publicado, no suma ni resta"
-    }
-   ],
-   "puntaje": 12,
-   "nueva": false,
-   "visto_desde": "2026-08-28",
-   "republicaciones": 0,
-   "desaparecio": "2026-08-31",
-   "dias_publicada": 3
   }
  ],
  "avisos_pendientes": 0
