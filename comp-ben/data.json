@@ -1,18 +1,18 @@
 {
  "busqueda": "comp-ben",
- "corrida": "2026-10-19",
- "corrida_hora": "2026-10-19 17:29",
+ "corrida": "2026-10-20",
+ "corrida_hora": "2026-10-20 15:40",
  "fuentes": {
   "elempleo": {
    "avisos": 16,
    "error": null
   },
   "computrabajo": {
-   "avisos": 1,
+   "avisos": 2,
    "error": null
   },
   "workday": {
-   "avisos": 7,
+   "avisos": 10,
    "error": null
   },
   "greenhouse": {
@@ -24,13 +24,13 @@
    "error": null
   },
   "apify_linkedin": {
-   "avisos": 14,
+   "avisos": 15,
    "error": null
   }
  },
  "fallos": [],
- "avisos_recogidos": 39,
- "descartados": 9,
+ "avisos_recogidos": 44,
+ "descartados": 13,
  "fusionados": [
   {
    "conservado": "Compensation & HR Operations Analyst | Inglés Avanzado",
@@ -38,14 +38,15 @@
    "parecido": 0.67
   }
  ],
- "nuevas": [],
+ "nuevas": [
+  "international contact center|100 highly competitive compensation independent contractor or|colombia",
+  "mastercard|senior analyst total rewards 2|bogota"
+ ],
  "reaparecidas": [],
  "ausentes": [
   "politecnico grancolombiano|profesional de administracion laboral y compensacion|bogota"
  ],
- "republicadas": [
-  "fundacion universitaria konrad lorenz|profesional de nomina y compensacion|bogota"
- ],
+ "republicadas": [],
  "vigentes": [
   {
    "cargo": "Global Compensation Manager",
@@ -69,11 +70,6 @@
      "fuente": "linkedin",
      "url": "https://co.linkedin.com/jobs/view/global-compensation-manager-at-worldpanel-4479118814",
      "id_fuente": "4479118814"
-    },
-    {
-     "fuente": "linkedin",
-     "url": "https://co.linkedin.com/jobs/view/global-compensation-manager-at-worldpanel-4479108323",
-     "id_fuente": "4479108323"
     }
    ],
    "inc": [
@@ -89,7 +85,7 @@
    "modalidad_literal": "Hybrid",
    "modalidad_por_confirmar": false,
    "id": "worldpanel|global compensation manager|bogota",
-   "duplicados_hoy": 2,
+   "duplicados_hoy": 1,
    "desglose": [
     {
      "concepto": "cargo objetivo de la búsqueda",
@@ -326,6 +322,72 @@
    "reapariciones": 0
   },
   {
+   "cargo": "100% Remote | Highly Competitive Compensation | Independent Contractor | Part-Time or Full-Time",
+   "empresa": "International Contact Center",
+   "empresa_anonima": false,
+   "ciudad": "Colombia",
+   "salario": null,
+   "publicado": "2026-10-19",
+   "vigente_hasta": null,
+   "contrato": null,
+   "agencia": null,
+   "direccion": null,
+   "lat": 4.099917,
+   "lon": -72.9088133,
+   "id_fuente": "4481262016",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/100%25-remote-highly-competitive-compensation-independent-contractor-part-time-or-full-time-at-international-contact-center-4481262016",
+     "id_fuente": "4481262016"
+    }
+   ],
+   "inc": [
+    "salario",
+    "contrato"
+   ],
+   "deducidos": [
+    "modalidad"
+   ],
+   "modalidad_fuente": "Remote Solely",
+   "empleados": 73,
+   "sede": "Santo Domingo, Distrito Nacional",
+   "modalidad": "remoto",
+   "modalidad_literal": "Remote",
+   "modalidad_por_confirmar": false,
+   "id": "international contact center|100 highly competitive compensation independent contractor or|colombia",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "remoto confirmado en el cuerpo del aviso",
+     "puntos": 15,
+     "nota": "Remote"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    },
+    {
+     "concepto": "publicada hace menos de 3 días",
+     "puntos": 10,
+     "nota": "hace 1 día(s)"
+    }
+   ],
+   "puntaje": 25,
+   "ausencias": 0,
+   "nueva": true,
+   "visto_desde": "2026-10-20",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
+  {
    "cargo": "Especialista Senior de Compensación",
    "empresa": "Falabella",
    "empresa_anonima": false,
@@ -387,6 +449,73 @@
    "ausencias": 0,
    "nueva": false,
    "visto_desde": "2026-10-13",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
+  {
+   "cargo": "Senior Analyst, Total Rewards-2",
+   "empresa": "Mastercard",
+   "empresa_anonima": false,
+   "ciudad": "Bogota, Capital District",
+   "salario": null,
+   "publicado": "2026-10-19",
+   "vigente_hasta": "2026-11-18",
+   "contrato": [
+    "FULL_TIME"
+   ],
+   "agencia": null,
+   "direccion": null,
+   "lat": 4.6533817,
+   "lon": -74.0836331,
+   "id_fuente": "4478629391",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/senior-analyst-total-rewards-2-at-mastercard-4478629391",
+     "id_fuente": "4478629391"
+    }
+   ],
+   "inc": [
+    "salario"
+   ],
+   "deducidos": [
+    "modalidad"
+   ],
+   "modalidad_fuente": "On-site",
+   "empleados": 44263,
+   "sede": "Purchase, NY",
+   "modalidad": "On-site",
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "mastercard|senior analyst total rewards 2|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "total rewards"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    },
+    {
+     "concepto": "publicada hace menos de 3 días",
+     "puntos": 10,
+     "nota": "hace 1 día(s)"
+    }
+   ],
+   "puntaje": 22,
+   "ausencias": 0,
+   "nueva": true,
+   "visto_desde": "2026-10-20",
    "republicaciones": 0,
    "reapariciones": 0
   },
@@ -636,13 +765,13 @@
     }
    ],
    "puntaje": 12,
-   "ausencias": 1,
+   "ausencias": 2,
    "nueva": false,
    "visto_desde": "2026-10-12",
    "republicaciones": 0,
    "reapariciones": 1,
    "marcas": [
-    "no apareció hoy en la fuente (1 de 3)"
+    "no apareció hoy en la fuente (2 de 3)"
    ]
   },
   {
@@ -1012,7 +1141,7 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 0 día(s)"
+     "nota": "hace 1 día(s)"
     }
    ],
    "puntaje": 7,
