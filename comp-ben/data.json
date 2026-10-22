@@ -1,14 +1,14 @@
 {
  "busqueda": "comp-ben",
- "corrida": "2026-10-21",
- "corrida_hora": "2026-10-21 15:58",
+ "corrida": "2026-10-22",
+ "corrida_hora": "2026-10-22 15:54",
  "fuentes": {
   "elempleo": {
-   "avisos": 17,
+   "avisos": 18,
    "error": null
   },
   "computrabajo": {
-   "avisos": 3,
+   "avisos": 4,
    "error": null
   },
   "workday": {
@@ -24,12 +24,12 @@
    "error": null
   },
   "apify_linkedin": {
-   "avisos": 17,
+   "avisos": 18,
    "error": null
   }
  },
  "fallos": [],
- "avisos_recogidos": 49,
+ "avisos_recogidos": 52,
  "descartados": 14,
  "fusionados": [
   {
@@ -39,15 +39,19 @@
   }
  ],
  "nuevas": [
-  "ucompensar fundacion universitaria compensar|coordinador compensacion y gestion laboral|bogota",
-  "johnson johnson medtech|analyst compensation|bogota",
-  "serdan|profesional de diseno organizacional y valoracion de cargos|bogota"
+  "colgas|profesional de compensacion y productividad|bogota",
+  "colgas e s p|profesional de compensacion y productividad|bogota",
+  "hirehawk|workers compensation case manager|colombia"
  ],
  "reaparecidas": [
-  "consorcio circulemos digital|lider de compensacion y beneficios nomina|bogota"
+  "politecnico grancolombiano|profesional de administracion laboral y compensacion|bogota"
  ],
- "ausentes": [],
- "republicadas": [],
+ "ausentes": [
+  "ucompensar fundacion universitaria compensar|coordinador compensacion y gestion laboral|bogota"
+ ],
+ "republicadas": [
+  "fundacion universitaria konrad lorenz|profesional de nomina y compensacion|bogota"
+ ],
  "vigentes": [
   {
    "cargo": "Global Compensation Manager",
@@ -246,6 +250,73 @@
    "reapariciones": 0
   },
   {
+   "cargo": "Profesional de compensación y productividad",
+   "empresa": "Colgas",
+   "empresa_anonima": false,
+   "ciudad": "Bogota, Capital District",
+   "salario": null,
+   "publicado": "2026-10-22",
+   "vigente_hasta": "2026-11-21",
+   "contrato": [
+    "FULL_TIME"
+   ],
+   "agencia": null,
+   "direccion": null,
+   "lat": 4.6533817,
+   "lon": -74.0836331,
+   "id_fuente": "4482465677",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/profesional-de-compensaci%C3%B3n-y-productividad-at-colgas-4482465677",
+     "id_fuente": "4482465677"
+    }
+   ],
+   "inc": [
+    "salario"
+   ],
+   "deducidos": [
+    "modalidad"
+   ],
+   "modalidad_fuente": "On-site",
+   "empleados": 821,
+   "sede": "bogota, Bogota",
+   "modalidad": "On-site",
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "colgas|profesional de compensacion y productividad|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "multinacional latam",
+     "puntos": 15,
+     "nota": "bogota, Bogota"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "compensacion"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    },
+    {
+     "concepto": "publicada hace menos de 3 días",
+     "puntos": 10,
+     "nota": "hace 0 día(s)"
+    }
+   ],
+   "puntaje": 37,
+   "ausencias": 0,
+   "nueva": true,
+   "visto_desde": "2026-10-22",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
+  {
    "cargo": "Head of Compensation & Benefits",
    "empresa": "Yara International",
    "empresa_anonima": false,
@@ -378,7 +449,7 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 2 día(s)"
+     "nota": "hace 3 día(s)"
     }
    ],
    "puntaje": 25,
@@ -449,11 +520,14 @@
     }
    ],
    "puntaje": 22,
-   "ausencias": 0,
-   "nueva": true,
+   "ausencias": 1,
+   "nueva": false,
    "visto_desde": "2026-10-21",
    "republicaciones": 0,
-   "reapariciones": 0
+   "reapariciones": 0,
+   "marcas": [
+    "no apareció hoy en la fuente (1 de 3)"
+   ]
   },
   {
    "cargo": "Especialista Senior de Compensación",
@@ -583,8 +657,68 @@
    "nueva": false,
    "visto_desde": "2026-09-09",
    "republicaciones": 0,
-   "reapariciones": 1,
-   "reaparecida": true
+   "reapariciones": 1
+  },
+  {
+   "cargo": "Profesional de compensación y productividad",
+   "empresa": "COLGAS S.A. E.S.P.",
+   "empresa_anonima": false,
+   "ciudad": "Bogotá, D.C.",
+   "salario": null,
+   "publicado": "2026-10-21",
+   "vigente_hasta": "2026-12-20",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": "E910A098C3C0CE15",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "computrabajo",
+     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-profesional-de-compensacion-y-productividad-en-bogota-dc-A1347284678C090861373E686DCF3405",
+     "id_fuente": "E910A098C3C0CE15"
+    }
+   ],
+   "inc": [
+    "salario",
+    "modalidad"
+   ],
+   "deducidos": [],
+   "modalidad": null,
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "colgas e s p|profesional de compensacion y productividad|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "compensacion"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    },
+    {
+     "concepto": "publicada hace menos de 3 días",
+     "puntos": 10,
+     "nota": "hace 1 día(s)"
+    }
+   ],
+   "puntaje": 22,
+   "ausencias": 0,
+   "nueva": true,
+   "visto_desde": "2026-10-22",
+   "republicaciones": 0,
+   "reapariciones": 0
   },
   {
    "cargo": "Senior Analyst, Total Rewards-2",
@@ -643,7 +777,7 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 2 día(s)"
+     "nota": "hace 3 día(s)"
     }
    ],
    "puntaje": 22,
@@ -776,13 +910,85 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
+     "nota": "hace 2 día(s)"
+    }
+   ],
+   "puntaje": 17,
+   "ausencias": 0,
+   "nueva": false,
+   "visto_desde": "2026-10-21",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
+  {
+   "cargo": "Workers Compensation Case Manager",
+   "empresa": "HireHawk",
+   "empresa_anonima": true,
+   "ciudad": "Colombia",
+   "salario": null,
+   "publicado": "2026-10-21",
+   "vigente_hasta": null,
+   "contrato": null,
+   "agencia": "HireHawk",
+   "direccion": null,
+   "lat": 4.099917,
+   "lon": -72.9088133,
+   "id_fuente": "4482142544",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/workers-compensation-case-manager-at-hirehawk-4482142544",
+     "id_fuente": "4482142544"
+    }
+   ],
+   "inc": [
+    "salario",
+    "contrato"
+   ],
+   "deducidos": [
+    "modalidad",
+    "agencia"
+   ],
+   "modalidad_fuente": "Remote Solely",
+   "empleados": 19,
+   "sede": "Los Angeles, CA",
+   "modalidad": "remoto",
+   "modalidad_literal": "remote",
+   "modalidad_por_confirmar": false,
+   "id": "hirehawk|workers compensation case manager|colombia",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "el aviso no revela la empresa: no suma ni resta"
+    },
+    {
+     "concepto": "remoto confirmado en el cuerpo del aviso",
+     "puntos": 15,
+     "nota": "remote"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    },
+    {
+     "concepto": "publicada hace menos de 3 días",
+     "puntos": 10,
      "nota": "hace 1 día(s)"
+    },
+    {
+     "concepto": "empresa pequeña / etapa temprana",
+     "puntos": -8,
+     "nota": "19 empleados"
     }
    ],
    "puntaje": 17,
    "ausencias": 0,
    "nueva": true,
-   "visto_desde": "2026-10-21",
+   "visto_desde": "2026-10-22",
    "republicaciones": 0,
    "reapariciones": 0
   },
@@ -908,6 +1114,70 @@
    "visto_desde": "2026-09-17",
    "republicaciones": 0,
    "reapariciones": 1
+  },
+  {
+   "cargo": "PROFESIONAL DE ADMINISTRACIÓN LABORAL Y COMPENSACIÓN",
+   "empresa": "Politecnico Grancolombiano",
+   "empresa_anonima": false,
+   "ciudad": "Bogotá D.C.",
+   "salario": {
+    "min": 4000001.0,
+    "max": 4500000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-10-09",
+   "vigente_hasta": "2026-12-08",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/profesional-de-administracion-laboral-y-compensacion-1886778985",
+     "id_fuente": null
+    }
+   ],
+   "inc": [],
+   "deducidos": [],
+   "modalidad": "remoto",
+   "modalidad_literal": "Teletrabajo",
+   "modalidad_por_confirmar": false,
+   "id": "politecnico grancolombiano|profesional de administracion laboral y compensacion|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "remoto confirmado en el cuerpo del aviso",
+     "puntos": 15,
+     "nota": "Teletrabajo"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "compensacion"
+    },
+    {
+     "concepto": "salario publicado por debajo de $18.000.000",
+     "puntos": -15,
+     "nota": "4.500.000 COP — se muestra igual: el publicado casi nunca es el negociado"
+    }
+   ],
+   "puntaje": 12,
+   "ausencias": 0,
+   "nueva": false,
+   "visto_desde": "2026-10-12",
+   "republicaciones": 0,
+   "reapariciones": 2,
+   "reaparecida": true
   },
   {
    "cargo": "Profesional de Compensación y Beneficios",
@@ -1276,12 +1546,12 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 1 día(s)"
+     "nota": "hace 2 día(s)"
     }
    ],
    "puntaje": 7,
    "ausencias": 0,
-   "nueva": true,
+   "nueva": false,
    "visto_desde": "2026-10-21",
    "republicaciones": 0,
    "reapariciones": 0
@@ -1298,7 +1568,7 @@
     "periodo": "MONTH"
    },
    "publicado": "2026-10-13",
-   "vigente_hasta": "2026-12-18",
+   "vigente_hasta": "2026-12-20",
    "contrato": "FULL_TIME",
    "agencia": null,
    "direccion": null,
@@ -1309,7 +1579,7 @@
    "fuentes": [
     {
      "fuente": "elempleo",
-     "url": "https://www.elempleo.com/co/ofertas-trabajo/profesional-de-nomina-y-compensacion-1886781953",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/profesional-de-nomina-y-compensacion-1886783495",
      "id_fuente": null
     }
    ],
@@ -1341,14 +1611,14 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 2 día(s)"
+     "nota": "hace 1 día(s)"
     }
    ],
    "puntaje": 7,
    "ausencias": 0,
    "nueva": false,
    "visto_desde": "2026-10-14",
-   "republicaciones": 2,
+   "republicaciones": 3,
    "reapariciones": 0
   },
   {
@@ -2075,73 +2345,6 @@
   }
  ],
  "caidas": [
-  {
-   "cargo": "PROFESIONAL DE ADMINISTRACIÓN LABORAL Y COMPENSACIÓN",
-   "empresa": "Politecnico Grancolombiano",
-   "empresa_anonima": false,
-   "ciudad": "Bogotá D.C.",
-   "salario": {
-    "min": 4000001.0,
-    "max": 4500000.0,
-    "moneda": "COP",
-    "periodo": "MONTH"
-   },
-   "publicado": "2026-10-09",
-   "vigente_hasta": "2026-12-08",
-   "contrato": "FULL_TIME",
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": null,
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "elempleo",
-     "url": "https://www.elempleo.com/co/ofertas-trabajo/profesional-de-administracion-laboral-y-compensacion-1886778985",
-     "id_fuente": null
-    }
-   ],
-   "inc": [],
-   "deducidos": [],
-   "modalidad": "remoto",
-   "modalidad_literal": "Teletrabajo",
-   "modalidad_por_confirmar": false,
-   "id": "politecnico grancolombiano|profesional de administracion laboral y compensacion|bogota",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "no se pudo determinar: no suma ni resta"
-    },
-    {
-     "concepto": "remoto confirmado en el cuerpo del aviso",
-     "puntos": 15,
-     "nota": "Teletrabajo"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "compensacion"
-    },
-    {
-     "concepto": "salario publicado por debajo de $18.000.000",
-     "puntos": -15,
-     "nota": "4.500.000 COP — se muestra igual: el publicado casi nunca es el negociado"
-    }
-   ],
-   "puntaje": 12,
-   "nueva": false,
-   "visto_desde": "2026-10-12",
-   "republicaciones": 0,
-   "reapariciones": 1,
-   "marcas": [
-    "no apareció hoy en la fuente (2 de 3)"
-   ],
-   "desaparecio": "2026-10-21",
-   "dias_publicada": 9
-  },
   {
    "cargo": "Analista Senior de Compensación, Nómina & People Analytics",
    "empresa": "Empresa Confidencial",
@@ -4979,76 +5182,6 @@
    "reapariciones": 0,
    "desaparecio": "2026-09-07",
    "dias_publicada": 3
-  },
-  {
-   "cargo": "GERENTE DE COMPENSACIÓN Y BENEFICIOS - BOGOTÁ",
-   "empresa": "CONFIDENTIAL",
-   "empresa_anonima": true,
-   "ciudad": "Bogotá D.C.",
-   "salario": {
-    "min": 21000001.0,
-    "max": 50000000.0,
-    "moneda": "COP",
-    "periodo": "MONTH"
-   },
-   "publicado": "2026-07-06",
-   "vigente_hasta": "2026-09-04",
-   "contrato": "FULL_TIME",
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": null,
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "elempleo",
-     "url": "https://www.elempleo.com/co/ofertas-trabajo/gerente-de-compensacion-y-beneficios-bogota-1886735172",
-     "id_fuente": null
-    }
-   ],
-   "inc": [
-    "modalidad"
-   ],
-   "deducidos": [],
-   "modalidad": null,
-   "modalidad_literal": null,
-   "modalidad_por_confirmar": false,
-   "id": "empresa no revelada|gerente de compensacion y beneficios|bogota#anon:21000001-50000000-2026-07-06",
-   "duplicados_hoy": 1,
-   "marcas": [
-    "empresa no revelada: puede estar repetida",
-    "no apareció hoy en la fuente (2 de 3)"
-   ],
-   "desglose": [
-    {
-     "concepto": "cargo objetivo de la búsqueda",
-     "puntos": 25,
-     "nota": "GERENTE DE COMPENSACIÓN Y BENEFICIOS - BOGOTÁ"
-    },
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "el aviso no revela la empresa: no suma ni resta"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "compensacion, remuneracion, valoracion de cargos, ipe, encuestas salariales, lti"
-    },
-    {
-     "concepto": "salario publicado igual o sobre $18.000.000",
-     "puntos": 12,
-     "nota": "50.000.000 COP"
-    }
-   ],
-   "puntaje": 49,
-   "nueva": false,
-   "visto_desde": "2026-08-28",
-   "republicaciones": 0,
-   "reapariciones": 0,
-   "desaparecio": "2026-09-06",
-   "dias_publicada": 9
   }
  ],
  "avisos_pendientes": 0
