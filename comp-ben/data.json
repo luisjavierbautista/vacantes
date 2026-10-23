@@ -1,10 +1,10 @@
 {
  "busqueda": "comp-ben",
- "corrida": "2026-10-22",
- "corrida_hora": "2026-10-22 15:54",
+ "corrida": "2026-10-23",
+ "corrida_hora": "2026-10-23 15:45",
  "fuentes": {
   "elempleo": {
-   "avisos": 18,
+   "avisos": 17,
    "error": null
   },
   "computrabajo": {
@@ -12,7 +12,7 @@
    "error": null
   },
   "workday": {
-   "avisos": 12,
+   "avisos": 11,
    "error": null
   },
   "greenhouse": {
@@ -28,9 +28,14 @@
    "error": null
   }
  },
- "fallos": [],
- "avisos_recogidos": 52,
- "descartados": 14,
+ "fallos": [
+  {
+   "url": "https://www.elempleo.com/co/ofertas-trabajo/coordinador-de-contratacion-nomina-y-compensacion-1886756894",
+   "motivo": "HTTP 410"
+  }
+ ],
+ "avisos_recogidos": 50,
+ "descartados": 13,
  "fusionados": [
   {
    "conservado": "Compensation & HR Operations Analyst | Inglés Avanzado",
@@ -38,20 +43,13 @@
    "parecido": 0.67
   }
  ],
- "nuevas": [
-  "colgas|profesional de compensacion y productividad|bogota",
-  "colgas e s p|profesional de compensacion y productividad|bogota",
-  "hirehawk|workers compensation case manager|colombia"
- ],
- "reaparecidas": [
-  "politecnico grancolombiano|profesional de administracion laboral y compensacion|bogota"
- ],
+ "nuevas": [],
+ "reaparecidas": [],
  "ausentes": [
-  "ucompensar fundacion universitaria compensar|coordinador compensacion y gestion laboral|bogota"
+  "ucompensar fundacion universitaria compensar|coordinador compensacion y gestion laboral|bogota",
+  "empresa no revelada|coordinador de contratacion nomina y compensacion|bogota#anon:5500001-6000000-2026-08-24"
  ],
- "republicadas": [
-  "fundacion universitaria konrad lorenz|profesional de nomina y compensacion|bogota"
- ],
+ "republicadas": [],
  "vigentes": [
   {
    "cargo": "Global Compensation Manager",
@@ -306,12 +304,12 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 0 día(s)"
+     "nota": "hace 1 día(s)"
     }
    ],
    "puntaje": 37,
    "ausencias": 0,
-   "nueva": true,
+   "nueva": false,
    "visto_desde": "2026-10-22",
    "republicaciones": 0,
    "reapariciones": 0
@@ -394,72 +392,6 @@
    "reapariciones": 0
   },
   {
-   "cargo": "100% Remote | Highly Competitive Compensation | Independent Contractor | Part-Time or Full-Time",
-   "empresa": "International Contact Center",
-   "empresa_anonima": false,
-   "ciudad": "Colombia",
-   "salario": null,
-   "publicado": "2026-10-19",
-   "vigente_hasta": null,
-   "contrato": null,
-   "agencia": null,
-   "direccion": null,
-   "lat": 4.099917,
-   "lon": -72.9088133,
-   "id_fuente": "4481262016",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "linkedin",
-     "url": "https://co.linkedin.com/jobs/view/100%25-remote-highly-competitive-compensation-independent-contractor-part-time-or-full-time-at-international-contact-center-4481262016",
-     "id_fuente": "4481262016"
-    }
-   ],
-   "inc": [
-    "salario",
-    "contrato"
-   ],
-   "deducidos": [
-    "modalidad"
-   ],
-   "modalidad_fuente": "Remote Solely",
-   "empleados": 73,
-   "sede": "Santo Domingo, Distrito Nacional",
-   "modalidad": "remoto",
-   "modalidad_literal": "Remote",
-   "modalidad_por_confirmar": false,
-   "id": "international contact center|100 highly competitive compensation independent contractor or|colombia",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "no se pudo determinar: no suma ni resta"
-    },
-    {
-     "concepto": "remoto confirmado en el cuerpo del aviso",
-     "puntos": 15,
-     "nota": "Remote"
-    },
-    {
-     "concepto": "salario",
-     "puntos": 0,
-     "nota": "sin salario publicado, no suma ni resta"
-    },
-    {
-     "concepto": "publicada hace menos de 3 días",
-     "puntos": 10,
-     "nota": "hace 3 día(s)"
-    }
-   ],
-   "puntaje": 25,
-   "ausencias": 0,
-   "nueva": false,
-   "visto_desde": "2026-10-20",
-   "republicaciones": 0,
-   "reapariciones": 0
-  },
-  {
    "cargo": "Coordinador Compensación y Gestión Laboral",
    "empresa": "UCompensar - Fundación Universitaria Compensar",
    "empresa_anonima": false,
@@ -520,13 +452,13 @@
     }
    ],
    "puntaje": 22,
-   "ausencias": 1,
+   "ausencias": 2,
    "nueva": false,
    "visto_desde": "2026-10-21",
    "republicaciones": 0,
    "reapariciones": 0,
    "marcas": [
-    "no apareció hoy en la fuente (1 de 3)"
+    "no apareció hoy en la fuente (2 de 3)"
    ]
   },
   {
@@ -710,80 +642,13 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 1 día(s)"
-    }
-   ],
-   "puntaje": 22,
-   "ausencias": 0,
-   "nueva": true,
-   "visto_desde": "2026-10-22",
-   "republicaciones": 0,
-   "reapariciones": 0
-  },
-  {
-   "cargo": "Senior Analyst, Total Rewards-2",
-   "empresa": "Mastercard",
-   "empresa_anonima": false,
-   "ciudad": "Bogota, Capital District",
-   "salario": null,
-   "publicado": "2026-10-19",
-   "vigente_hasta": "2026-11-18",
-   "contrato": [
-    "FULL_TIME"
-   ],
-   "agencia": null,
-   "direccion": null,
-   "lat": 4.6533817,
-   "lon": -74.0836331,
-   "id_fuente": "4478629391",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "linkedin",
-     "url": "https://co.linkedin.com/jobs/view/senior-analyst-total-rewards-2-at-mastercard-4478629391",
-     "id_fuente": "4478629391"
-    }
-   ],
-   "inc": [
-    "salario"
-   ],
-   "deducidos": [
-    "modalidad"
-   ],
-   "modalidad_fuente": "On-site",
-   "empleados": 44263,
-   "sede": "Purchase, NY",
-   "modalidad": "On-site",
-   "modalidad_literal": null,
-   "modalidad_por_confirmar": false,
-   "id": "mastercard|senior analyst total rewards 2|bogota",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "no se pudo determinar: no suma ni resta"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "total rewards"
-    },
-    {
-     "concepto": "salario",
-     "puntos": 0,
-     "nota": "sin salario publicado, no suma ni resta"
-    },
-    {
-     "concepto": "publicada hace menos de 3 días",
-     "puntos": 10,
-     "nota": "hace 3 día(s)"
+     "nota": "hace 2 día(s)"
     }
    ],
    "puntaje": 22,
    "ausencias": 0,
    "nueva": false,
-   "visto_desde": "2026-10-20",
+   "visto_desde": "2026-10-22",
    "republicaciones": 0,
    "reapariciones": 0
   },
@@ -910,7 +775,7 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 2 día(s)"
+     "nota": "hace 3 día(s)"
     }
    ],
    "puntaje": 17,
@@ -977,7 +842,7 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 1 día(s)"
+     "nota": "hace 2 día(s)"
     },
     {
      "concepto": "empresa pequeña / etapa temprana",
@@ -987,8 +852,69 @@
    ],
    "puntaje": 17,
    "ausencias": 0,
-   "nueva": true,
+   "nueva": false,
    "visto_desde": "2026-10-22",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
+  {
+   "cargo": "100% Remote | Highly Competitive Compensation | Independent Contractor | Part-Time or Full-Time",
+   "empresa": "International Contact Center",
+   "empresa_anonima": false,
+   "ciudad": "Colombia",
+   "salario": null,
+   "publicado": "2026-10-19",
+   "vigente_hasta": null,
+   "contrato": null,
+   "agencia": null,
+   "direccion": null,
+   "lat": 4.099917,
+   "lon": -72.9088133,
+   "id_fuente": "4481262016",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/100%25-remote-highly-competitive-compensation-independent-contractor-part-time-or-full-time-at-international-contact-center-4481262016",
+     "id_fuente": "4481262016"
+    }
+   ],
+   "inc": [
+    "salario",
+    "contrato"
+   ],
+   "deducidos": [
+    "modalidad"
+   ],
+   "modalidad_fuente": "Remote Solely",
+   "empleados": 73,
+   "sede": "Santo Domingo, Distrito Nacional",
+   "modalidad": "remoto",
+   "modalidad_literal": "Remote",
+   "modalidad_por_confirmar": false,
+   "id": "international contact center|100 highly competitive compensation independent contractor or|colombia",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "remoto confirmado en el cuerpo del aviso",
+     "puntos": 15,
+     "nota": "Remote"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    }
+   ],
+   "puntaje": 15,
+   "ausencias": 0,
+   "nueva": false,
+   "visto_desde": "2026-10-20",
    "republicaciones": 0,
    "reapariciones": 0
   },
@@ -1176,8 +1102,7 @@
    "nueva": false,
    "visto_desde": "2026-10-12",
    "republicaciones": 0,
-   "reapariciones": 2,
-   "reaparecida": true
+   "reapariciones": 2
   },
   {
    "cargo": "Profesional de Compensación y Beneficios",
@@ -1240,6 +1165,68 @@
    "visto_desde": "2026-08-29",
    "republicaciones": 1,
    "reapariciones": 1
+  },
+  {
+   "cargo": "Senior Analyst, Total Rewards-2",
+   "empresa": "Mastercard",
+   "empresa_anonima": false,
+   "ciudad": "Bogota, Capital District",
+   "salario": null,
+   "publicado": "2026-10-19",
+   "vigente_hasta": "2026-11-18",
+   "contrato": [
+    "FULL_TIME"
+   ],
+   "agencia": null,
+   "direccion": null,
+   "lat": 4.6533817,
+   "lon": -74.0836331,
+   "id_fuente": "4478629391",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/senior-analyst-total-rewards-2-at-mastercard-4478629391",
+     "id_fuente": "4478629391"
+    }
+   ],
+   "inc": [
+    "salario"
+   ],
+   "deducidos": [
+    "modalidad"
+   ],
+   "modalidad_fuente": "On-site",
+   "empleados": 44263,
+   "sede": "Purchase, NY",
+   "modalidad": "On-site",
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "mastercard|senior analyst total rewards 2|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "total rewards"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    }
+   ],
+   "puntaje": 12,
+   "ausencias": 0,
+   "nueva": false,
+   "visto_desde": "2026-10-20",
+   "republicaciones": 0,
+   "reapariciones": 0
   },
   {
    "cargo": "Workers' Compensation Case Manager",
@@ -1546,7 +1533,7 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 2 día(s)"
+     "nota": "hace 3 día(s)"
     }
    ],
    "puntaje": 7,
@@ -1611,7 +1598,7 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 1 día(s)"
+     "nota": "hace 2 día(s)"
     }
    ],
    "puntaje": 7,
@@ -2017,7 +2004,8 @@
    "id": "empresa no revelada|coordinador de contratacion nomina y compensacion|bogota#anon:5500001-6000000-2026-08-24",
    "duplicados_hoy": 1,
    "marcas": [
-    "empresa no revelada: puede estar repetida"
+    "empresa no revelada: puede estar repetida",
+    "no apareció hoy en la fuente (1 de 3)"
    ],
    "desglose": [
     {
@@ -2037,7 +2025,7 @@
     }
    ],
    "puntaje": -3,
-   "ausencias": 0,
+   "ausencias": 1,
    "nueva": false,
    "visto_desde": "2026-08-28",
    "republicaciones": 0,
@@ -5115,73 +5103,6 @@
    ],
    "desaparecio": "2026-09-08",
    "dias_publicada": 7
-  },
-  {
-   "cargo": "Associate Director, Customer Compensation & Policy",
-   "empresa": "hellofresh",
-   "empresa_anonima": false,
-   "ciudad": "Berlin, Berlin",
-   "salario": null,
-   "publicado": null,
-   "vigente_hasta": null,
-   "contrato": null,
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": "associate-director-customer-compensation-policy-berlin-berlin-371405",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "arbeitnow",
-     "url": "https://www.arbeitnow.com/jobs/companies/hellofresh/associate-director-customer-compensation-policy-berlin-berlin-371405",
-     "id_fuente": "associate-director-customer-compensation-policy-berlin-berlin-371405"
-    }
-   ],
-   "inc": [
-    "salario",
-    "publicado",
-    "contrato"
-   ],
-   "deducidos": [],
-   "modalidad": "remoto",
-   "modalidad_literal": "Work From Home",
-   "modalidad_por_confirmar": false,
-   "marcas": [
-    "remoto fuera de Colombia, contratación por confirmar",
-    "no apareció hoy en la fuente (2 de 3)"
-   ],
-   "id": "hellofresh|associate director customer compensation policy|berlin",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "no se pudo determinar: no suma ni resta"
-    },
-    {
-     "concepto": "remoto confirmado en el cuerpo del aviso",
-     "puntos": 15,
-     "nota": "Work From Home"
-    },
-    {
-     "concepto": "salario",
-     "puntos": 0,
-     "nota": "sin salario publicado, no suma ni resta"
-    },
-    {
-     "concepto": "fecha de publicación",
-     "puntos": 0,
-     "nota": "sin fecha publicada: no suma ni resta"
-    }
-   ],
-   "puntaje": 15,
-   "nueva": false,
-   "visto_desde": "2026-09-04",
-   "republicaciones": 0,
-   "reapariciones": 0,
-   "desaparecio": "2026-09-07",
-   "dias_publicada": 3
   }
  ],
  "avisos_pendientes": 0
