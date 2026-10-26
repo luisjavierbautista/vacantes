@@ -1,10 +1,10 @@
 {
  "busqueda": "comp-ben",
- "corrida": "2026-10-25",
- "corrida_hora": "2026-10-25 14:59",
+ "corrida": "2026-10-26",
+ "corrida_hora": "2026-10-26 17:22",
  "fuentes": {
   "elempleo": {
-   "avisos": 19,
+   "avisos": 18,
    "error": null
   },
   "computrabajo": {
@@ -24,12 +24,17 @@
    "error": null
   },
   "apify_linkedin": {
-   "avisos": 14,
+   "avisos": 16,
    "error": null
   }
  },
- "fallos": [],
- "avisos_recogidos": 48,
+ "fallos": [
+  {
+   "url": "https://www.elempleo.com/co/ofertas-trabajo/coordinador-de-compensacion-talento-humano-1886758342",
+   "motivo": "HTTP 410"
+  }
+ ],
+ "avisos_recogidos": 49,
  "descartados": 13,
  "fusionados": [
   {
@@ -38,15 +43,18 @@
    "parecido": 0.67
   }
  ],
- "nuevas": [],
+ "nuevas": [
+  "wom|especialista compensacion y beneficios|bogota",
+  "goglobal|global benefits compensation lead|colombia"
+ ],
  "reaparecidas": [],
  "ausentes": [
-  "yara international|head of compensation benefits|bogota",
-  "hirehawk|workers compensation case manager|colombia",
-  "hellofresh|associate director customer compensation policy|berlin",
-  "empresa no revelada|analista senior de compensacion|bogota#anon:0-0-2026-10-15"
+  "empresa no revelada|coordinador de compensacion talento humano|bogota#anon:6000001-8000000-2026-08-27",
+  "hellofresh|associate director customer compensation policy|berlin"
  ],
- "republicadas": [],
+ "republicadas": [
+  "fundacion universitaria konrad lorenz|profesional de nomina y compensacion|bogota"
+ ],
  "vigentes": [
   {
    "cargo": "Global Compensation Manager",
@@ -240,7 +248,7 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 2 día(s)"
+     "nota": "hace 3 día(s)"
     }
    ],
    "puntaje": 47,
@@ -366,14 +374,9 @@
      "concepto": "salario",
      "puntos": 0,
      "nota": "sin salario publicado, no suma ni resta"
-    },
-    {
-     "concepto": "publicada hace menos de 3 días",
-     "puntos": 10,
-     "nota": "hace 3 día(s)"
     }
    ],
-   "puntaje": 37,
+   "puntaje": 27,
    "ausencias": 0,
    "nueva": false,
    "visto_desde": "2026-10-22",
@@ -381,13 +384,13 @@
    "reapariciones": 0
   },
   {
-   "cargo": "Head of Compensation & Benefits",
-   "empresa": "Yara International",
+   "cargo": "Especialista Compensación y Beneficios",
+   "empresa": "WOM Colombia",
    "empresa_anonima": false,
    "ciudad": "Bogota, Capital District",
    "salario": null,
-   "publicado": "2026-10-08",
-   "vigente_hasta": "2026-11-07",
+   "publicado": "2026-10-26",
+   "vigente_hasta": "2026-11-25",
    "contrato": [
     "FULL_TIME"
    ],
@@ -395,18 +398,13 @@
    "direccion": null,
    "lat": 4.6533817,
    "lon": -74.0836331,
-   "id_fuente": "4476204334",
+   "id_fuente": "4483573358",
    "pais": null,
    "fuentes": [
     {
      "fuente": "linkedin",
-     "url": "https://co.linkedin.com/jobs/view/head-of-compensation-benefits-at-yara-international-4476204334",
-     "id_fuente": "4476204334"
-    },
-    {
-     "fuente": "linkedin",
-     "url": "https://co.linkedin.com/jobs/view/head-of-compensation-benefits-at-yara-international-4475990907",
-     "id_fuente": "4475990907"
+     "url": "https://co.linkedin.com/jobs/view/especialista-compensaci%C3%B3n-y-beneficios-at-wom-colombia-4483573358",
+     "id_fuente": "4483573358"
     }
    ],
    "inc": [
@@ -416,19 +414,14 @@
     "modalidad"
    ],
    "modalidad_fuente": "On-site",
-   "empleados": 15549,
-   "sede": "Oslo",
+   "empleados": 2168,
+   "sede": "Bogotá, Bogotá",
    "modalidad": "On-site",
    "modalidad_literal": null,
    "modalidad_por_confirmar": false,
-   "id": "yara international|head of compensation benefits|bogota",
-   "duplicados_hoy": 2,
+   "id": "wom|especialista compensacion y beneficios|bogota",
+   "duplicados_hoy": 1,
    "desglose": [
-    {
-     "concepto": "cargo objetivo de la búsqueda",
-     "puntos": 25,
-     "nota": "Head of Compensation & Benefits"
-    },
     {
      "concepto": "origen de la empresa",
      "puntos": 0,
@@ -437,7 +430,7 @@
     {
      "concepto": "el cuerpo menciona la técnica del oficio",
      "puntos": 12,
-     "nota": "job evaluation, pay equity"
+     "nota": "compensacion, valoracion de cargos, bandas salariales"
     },
     {
      "concepto": "salario",
@@ -445,20 +438,17 @@
      "nota": "sin salario publicado, no suma ni resta"
     },
     {
-     "concepto": "exige portuguese",
-     "puntos": -10,
-     "nota": "el perfil no lo domina — se muestra igual: muchos avisos lo piden como «deseable» y luego no lo evalúan"
+     "concepto": "publicada hace menos de 3 días",
+     "puntos": 10,
+     "nota": "hace 0 día(s)"
     }
    ],
-   "puntaje": 27,
-   "ausencias": 2,
-   "nueva": false,
-   "visto_desde": "2026-10-09",
+   "puntaje": 22,
+   "ausencias": 0,
+   "nueva": true,
+   "visto_desde": "2026-10-26",
    "republicaciones": 0,
-   "reapariciones": 0,
-   "marcas": [
-    "no apareció hoy en la fuente (2 de 3)"
-   ]
+   "reapariciones": 0
   },
   {
    "cargo": "Especialista Senior de Compensación",
@@ -522,6 +512,72 @@
    "ausencias": 0,
    "nueva": false,
    "visto_desde": "2026-10-13",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
+  {
+   "cargo": "Global Benefits & Compensation Lead",
+   "empresa": "GoGlobal",
+   "empresa_anonima": false,
+   "ciudad": "Colombia",
+   "salario": null,
+   "publicado": "2026-10-26",
+   "vigente_hasta": null,
+   "contrato": null,
+   "agencia": null,
+   "direccion": null,
+   "lat": 4.099917,
+   "lon": -72.9088133,
+   "id_fuente": "4483551553",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/global-benefits-compensation-lead-at-goglobal-4483551553",
+     "id_fuente": "4483551553"
+    }
+   ],
+   "inc": [
+    "salario",
+    "contrato"
+   ],
+   "deducidos": [
+    "modalidad"
+   ],
+   "modalidad_fuente": "Remote OK",
+   "empleados": 651,
+   "sede": "Tokyo, Japan",
+   "modalidad": "híbrido",
+   "modalidad_literal": "fully remote",
+   "modalidad_por_confirmar": false,
+   "id": "goglobal|global benefits compensation lead|colombia",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "mercer"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    },
+    {
+     "concepto": "publicada hace menos de 3 días",
+     "puntos": 10,
+     "nota": "hace 0 día(s)"
+    }
+   ],
+   "puntaje": 22,
+   "ausencias": 0,
+   "nueva": true,
+   "visto_desde": "2026-10-26",
    "republicaciones": 0,
    "reapariciones": 0
   },
@@ -625,7 +681,8 @@
    "id": "empresa no revelada|coordinador de compensacion talento humano|bogota#anon:6000001-8000000-2026-08-27",
    "duplicados_hoy": 1,
    "marcas": [
-    "empresa no revelada: puede estar repetida"
+    "empresa no revelada: puede estar repetida",
+    "no apareció hoy en la fuente (1 de 3)"
    ],
    "desglose": [
     {
@@ -650,86 +707,11 @@
     }
    ],
    "puntaje": 22,
-   "ausencias": 0,
+   "ausencias": 1,
    "nueva": false,
    "visto_desde": "2026-08-28",
    "republicaciones": 0,
    "reapariciones": 1
-  },
-  {
-   "cargo": "Workers Compensation Case Manager",
-   "empresa": "HireHawk",
-   "empresa_anonima": true,
-   "ciudad": "Colombia",
-   "salario": null,
-   "publicado": "2026-10-21",
-   "vigente_hasta": null,
-   "contrato": null,
-   "agencia": "HireHawk",
-   "direccion": null,
-   "lat": 4.099917,
-   "lon": -72.9088133,
-   "id_fuente": "4482142544",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "linkedin",
-     "url": "https://co.linkedin.com/jobs/view/workers-compensation-case-manager-at-hirehawk-4482142544",
-     "id_fuente": "4482142544"
-    }
-   ],
-   "inc": [
-    "salario",
-    "contrato"
-   ],
-   "deducidos": [
-    "modalidad",
-    "agencia"
-   ],
-   "modalidad_fuente": "Remote Solely",
-   "empleados": 19,
-   "sede": "Los Angeles, CA",
-   "modalidad": "remoto",
-   "modalidad_literal": "remote",
-   "modalidad_por_confirmar": false,
-   "id": "hirehawk|workers compensation case manager|colombia",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "el aviso no revela la empresa: no suma ni resta"
-    },
-    {
-     "concepto": "remoto confirmado en el cuerpo del aviso",
-     "puntos": 15,
-     "nota": "remote"
-    },
-    {
-     "concepto": "salario",
-     "puntos": 0,
-     "nota": "sin salario publicado, no suma ni resta"
-    },
-    {
-     "concepto": "publicada hace menos de 3 días",
-     "puntos": 10,
-     "nota": "hace 2 día(s)"
-    },
-    {
-     "concepto": "empresa pequeña / etapa temprana",
-     "puntos": -8,
-     "nota": "19 empleados"
-    }
-   ],
-   "puntaje": 17,
-   "ausencias": 2,
-   "nueva": false,
-   "visto_desde": "2026-10-22",
-   "republicaciones": 0,
-   "reapariciones": 0,
-   "marcas": [
-    "no apareció hoy en la fuente (2 de 3)"
-   ]
   },
   {
    "cargo": "100% Remote | Highly Competitive Compensation | Independent Contractor | Part-Time or Full-Time",
@@ -825,7 +807,7 @@
    "modalidad_por_confirmar": false,
    "marcas": [
     "remoto fuera de Colombia, contratación por confirmar",
-    "no apareció hoy en la fuente (1 de 3)"
+    "no apareció hoy en la fuente (2 de 3)"
    ],
    "id": "hellofresh|associate director customer compensation policy|berlin",
    "duplicados_hoy": 1,
@@ -852,7 +834,7 @@
     }
    ],
    "puntaje": 15,
-   "ausencias": 1,
+   "ausencias": 2,
    "nueva": false,
    "visto_desde": "2026-10-24",
    "republicaciones": 0,
@@ -1287,72 +1269,6 @@
    "reapariciones": 0
   },
   {
-   "cargo": "Analista Senior de Compensación",
-   "empresa": "Confidencial",
-   "empresa_anonima": true,
-   "ciudad": "Bogota, Capital District",
-   "salario": null,
-   "publicado": "2026-10-15",
-   "vigente_hasta": "2026-11-14",
-   "contrato": [
-    "FULL_TIME"
-   ],
-   "agencia": null,
-   "direccion": null,
-   "lat": 4.6533817,
-   "lon": -74.0836331,
-   "id_fuente": "4479162947",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "linkedin",
-     "url": "https://co.linkedin.com/jobs/view/analista-senior-de-compensaci%C3%B3n-at-money-inc-4479162947",
-     "id_fuente": "4479162947"
-    }
-   ],
-   "inc": [
-    "salario"
-   ],
-   "deducidos": [
-    "modalidad"
-   ],
-   "modalidad_fuente": "On-site",
-   "empleados": 936,
-   "sede": "New York, New York",
-   "modalidad": "On-site",
-   "modalidad_literal": null,
-   "modalidad_por_confirmar": false,
-   "id": "empresa no revelada|analista senior de compensacion|bogota#anon:0-0-2026-10-15",
-   "duplicados_hoy": 1,
-   "marcas": [
-    "empresa no revelada: puede estar repetida",
-    "no apareció hoy en la fuente (2 de 3)"
-   ],
-   "desglose": [
-    {
-     "concepto": "multinacional estadounidense",
-     "puntos": -5,
-     "nota": "New York, New York"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "compensacion"
-    },
-    {
-     "concepto": "salario",
-     "puntos": 0,
-     "nota": "sin salario publicado, no suma ni resta"
-    }
-   ],
-   "puntaje": 7,
-   "ausencias": 2,
-   "nueva": false,
-   "visto_desde": "2026-10-16",
-   "republicaciones": 0,
-   "reapariciones": 0
-  },
-  {
    "cargo": "Analyst, Compensation",
    "empresa": "Johnson & Johnson MedTech",
    "empresa_anonima": false,
@@ -1530,7 +1446,7 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 2 día(s)"
+     "nota": "hace 3 día(s)"
     }
    ],
    "puntaje": 7,
@@ -1600,6 +1516,71 @@
    "nueva": false,
    "visto_desde": "2026-08-29",
    "republicaciones": 0,
+   "reapariciones": 0
+  },
+  {
+   "cargo": "Profesional de Nómina y Compensación",
+   "empresa": "Fundación Universitaria Konrad Lorenz",
+   "empresa_anonima": false,
+   "ciudad": "Bogotá D.C.",
+   "salario": {
+    "min": 2500001.0,
+    "max": 3000000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-10-13",
+   "vigente_hasta": "2026-12-25",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/profesional-de-nomina-y-compensacion-1886785097",
+     "id_fuente": null
+    }
+   ],
+   "inc": [
+    "modalidad"
+   ],
+   "deducidos": [],
+   "modalidad": null,
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "fundacion universitaria konrad lorenz|profesional de nomina y compensacion|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "compensacion"
+    },
+    {
+     "concepto": "salario publicado por debajo de $18.000.000",
+     "puntos": -15,
+     "nota": "3.000.000 COP — se muestra igual: el publicado casi nunca es el negociado"
+    },
+    {
+     "concepto": "publicada hace menos de 3 días",
+     "puntos": 10,
+     "nota": "hace 0 día(s)"
+    }
+   ],
+   "puntaje": 7,
+   "ausencias": 0,
+   "nueva": false,
+   "visto_desde": "2026-10-14",
+   "republicaciones": 4,
    "reapariciones": 0
   },
   {
@@ -2206,66 +2187,6 @@
    "reapariciones": 0
   },
   {
-   "cargo": "Profesional de Nómina y Compensación",
-   "empresa": "Fundación Universitaria Konrad Lorenz",
-   "empresa_anonima": false,
-   "ciudad": "Bogotá D.C.",
-   "salario": {
-    "min": 2500001.0,
-    "max": 3000000.0,
-    "moneda": "COP",
-    "periodo": "MONTH"
-   },
-   "publicado": "2026-10-13",
-   "vigente_hasta": "2026-12-20",
-   "contrato": "FULL_TIME",
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": null,
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "elempleo",
-     "url": "https://www.elempleo.com/co/ofertas-trabajo/profesional-de-nomina-y-compensacion-1886783495",
-     "id_fuente": null
-    }
-   ],
-   "inc": [
-    "modalidad"
-   ],
-   "deducidos": [],
-   "modalidad": null,
-   "modalidad_literal": null,
-   "modalidad_por_confirmar": false,
-   "id": "fundacion universitaria konrad lorenz|profesional de nomina y compensacion|bogota",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "no se pudo determinar: no suma ni resta"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "compensacion"
-    },
-    {
-     "concepto": "salario publicado por debajo de $18.000.000",
-     "puntos": -15,
-     "nota": "3.000.000 COP — se muestra igual: el publicado casi nunca es el negociado"
-    }
-   ],
-   "puntaje": -3,
-   "ausencias": 0,
-   "nueva": false,
-   "visto_desde": "2026-10-14",
-   "republicaciones": 3,
-   "reapariciones": 0
-  },
-  {
    "cargo": "Profesional de Relaciones Laborales, Contratación, Estructura y Compensación",
    "empresa": "CONFIDENTIAL",
    "empresa_anonima": true,
@@ -2383,6 +2304,230 @@
   }
  ],
  "caidas": [
+  {
+   "cargo": "Head of Compensation & Benefits",
+   "empresa": "Yara International",
+   "empresa_anonima": false,
+   "ciudad": "Bogota, Capital District",
+   "salario": null,
+   "publicado": "2026-10-08",
+   "vigente_hasta": "2026-11-07",
+   "contrato": [
+    "FULL_TIME"
+   ],
+   "agencia": null,
+   "direccion": null,
+   "lat": 4.6533817,
+   "lon": -74.0836331,
+   "id_fuente": "4476204334",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/head-of-compensation-benefits-at-yara-international-4476204334",
+     "id_fuente": "4476204334"
+    },
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/head-of-compensation-benefits-at-yara-international-4475990907",
+     "id_fuente": "4475990907"
+    }
+   ],
+   "inc": [
+    "salario"
+   ],
+   "deducidos": [
+    "modalidad"
+   ],
+   "modalidad_fuente": "On-site",
+   "empleados": 15549,
+   "sede": "Oslo",
+   "modalidad": "On-site",
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "yara international|head of compensation benefits|bogota",
+   "duplicados_hoy": 2,
+   "desglose": [
+    {
+     "concepto": "cargo objetivo de la búsqueda",
+     "puntos": 25,
+     "nota": "Head of Compensation & Benefits"
+    },
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "job evaluation, pay equity"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    },
+    {
+     "concepto": "exige portuguese",
+     "puntos": -10,
+     "nota": "el perfil no lo domina — se muestra igual: muchos avisos lo piden como «deseable» y luego no lo evalúan"
+    }
+   ],
+   "puntaje": 27,
+   "nueva": false,
+   "visto_desde": "2026-10-09",
+   "republicaciones": 0,
+   "reapariciones": 0,
+   "marcas": [
+    "no apareció hoy en la fuente (2 de 3)"
+   ],
+   "desaparecio": "2026-10-26",
+   "dias_publicada": 17
+  },
+  {
+   "cargo": "Workers Compensation Case Manager",
+   "empresa": "HireHawk",
+   "empresa_anonima": true,
+   "ciudad": "Colombia",
+   "salario": null,
+   "publicado": "2026-10-21",
+   "vigente_hasta": null,
+   "contrato": null,
+   "agencia": "HireHawk",
+   "direccion": null,
+   "lat": 4.099917,
+   "lon": -72.9088133,
+   "id_fuente": "4482142544",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/workers-compensation-case-manager-at-hirehawk-4482142544",
+     "id_fuente": "4482142544"
+    }
+   ],
+   "inc": [
+    "salario",
+    "contrato"
+   ],
+   "deducidos": [
+    "modalidad",
+    "agencia"
+   ],
+   "modalidad_fuente": "Remote Solely",
+   "empleados": 19,
+   "sede": "Los Angeles, CA",
+   "modalidad": "remoto",
+   "modalidad_literal": "remote",
+   "modalidad_por_confirmar": false,
+   "id": "hirehawk|workers compensation case manager|colombia",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "el aviso no revela la empresa: no suma ni resta"
+    },
+    {
+     "concepto": "remoto confirmado en el cuerpo del aviso",
+     "puntos": 15,
+     "nota": "remote"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    },
+    {
+     "concepto": "publicada hace menos de 3 días",
+     "puntos": 10,
+     "nota": "hace 2 día(s)"
+    },
+    {
+     "concepto": "empresa pequeña / etapa temprana",
+     "puntos": -8,
+     "nota": "19 empleados"
+    }
+   ],
+   "puntaje": 17,
+   "nueva": false,
+   "visto_desde": "2026-10-22",
+   "republicaciones": 0,
+   "reapariciones": 0,
+   "marcas": [
+    "no apareció hoy en la fuente (2 de 3)"
+   ],
+   "desaparecio": "2026-10-26",
+   "dias_publicada": 4
+  },
+  {
+   "cargo": "Analista Senior de Compensación",
+   "empresa": "Confidencial",
+   "empresa_anonima": true,
+   "ciudad": "Bogota, Capital District",
+   "salario": null,
+   "publicado": "2026-10-15",
+   "vigente_hasta": "2026-11-14",
+   "contrato": [
+    "FULL_TIME"
+   ],
+   "agencia": null,
+   "direccion": null,
+   "lat": 4.6533817,
+   "lon": -74.0836331,
+   "id_fuente": "4479162947",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/analista-senior-de-compensaci%C3%B3n-at-money-inc-4479162947",
+     "id_fuente": "4479162947"
+    }
+   ],
+   "inc": [
+    "salario"
+   ],
+   "deducidos": [
+    "modalidad"
+   ],
+   "modalidad_fuente": "On-site",
+   "empleados": 936,
+   "sede": "New York, New York",
+   "modalidad": "On-site",
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "empresa no revelada|analista senior de compensacion|bogota#anon:0-0-2026-10-15",
+   "duplicados_hoy": 1,
+   "marcas": [
+    "empresa no revelada: puede estar repetida",
+    "no apareció hoy en la fuente (2 de 3)"
+   ],
+   "desglose": [
+    {
+     "concepto": "multinacional estadounidense",
+     "puntos": -5,
+     "nota": "New York, New York"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "compensacion"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    }
+   ],
+   "puntaje": 7,
+   "nueva": false,
+   "visto_desde": "2026-10-16",
+   "republicaciones": 0,
+   "reapariciones": 0,
+   "desaparecio": "2026-10-26",
+   "dias_publicada": 10
+  },
   {
    "cargo": "Coordinador de contratación nómina y compensación",
    "empresa": "CONFIDENTIAL",
