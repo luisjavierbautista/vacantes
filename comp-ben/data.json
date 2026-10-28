@@ -1,7 +1,7 @@
 {
  "busqueda": "comp-ben",
- "corrida": "2026-10-27",
- "corrida_hora": "2026-10-27 16:37",
+ "corrida": "2026-10-28",
+ "corrida_hora": "2026-10-28 17:11",
  "fuentes": {
   "elempleo": {
    "avisos": 18,
@@ -24,12 +24,12 @@
    "error": null
   },
   "apify_linkedin": {
-   "avisos": 16,
+   "avisos": 13,
    "error": null
   }
  },
  "fallos": [],
- "avisos_recogidos": 48,
+ "avisos_recogidos": 45,
  "descartados": 12,
  "fusionados": [
   {
@@ -39,12 +39,15 @@
   }
  ],
  "nuevas": [
-  "consorcio circulemos digital|lider de nomina compensacion y beneficios|bogota"
+  "fundacion plan|profesional lider compensacion contratacion y bienestar|bogota"
  ],
  "reaparecidas": [],
  "ausentes": [
   "consorcio circulemos digital|lider de compensacion y beneficios nomina|bogota",
-  "empresa no revelada|coordinador de compensacion talento humano|bogota#anon:6000001-8000000-2026-08-27"
+  "international contact center|100 highly competitive compensation independent contractor or|colombia",
+  "colgas e s p|profesional de compensacion y productividad|bogota",
+  "mastercard|senior analyst total rewards 2|bogota",
+  "johnson johnson medtech|analyst compensation|bogota"
  ],
  "republicadas": [],
  "vigentes": [
@@ -427,7 +430,7 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 1 día(s)"
+     "nota": "hace 2 día(s)"
     }
    ],
    "puntaje": 22,
@@ -558,7 +561,7 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 1 día(s)"
+     "nota": "hace 2 día(s)"
     }
    ],
    "puntaje": 22,
@@ -627,81 +630,14 @@
     }
    ],
    "puntaje": 22,
-   "ausencias": 1,
+   "ausencias": 2,
    "nueva": false,
    "visto_desde": "2026-09-09",
    "republicaciones": 0,
    "reapariciones": 1,
    "marcas": [
-    "no apareció hoy en la fuente (1 de 3)"
-   ]
-  },
-  {
-   "cargo": "coordinador de compensación talento humano",
-   "empresa": "CONFIDENTIAL",
-   "empresa_anonima": true,
-   "ciudad": "Bogotá D.C.",
-   "salario": {
-    "min": 6000001.0,
-    "max": 8000000.0,
-    "moneda": "COP",
-    "periodo": "MONTH"
-   },
-   "publicado": "2026-08-27",
-   "vigente_hasta": "2026-10-26",
-   "contrato": "FULL_TIME",
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": null,
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "elempleo",
-     "url": "https://www.elempleo.com/co/ofertas-trabajo/coordinador-de-compensacion-talento-humano-1886758342",
-     "id_fuente": null
-    }
-   ],
-   "inc": [],
-   "deducidos": [],
-   "modalidad": "presencial",
-   "modalidad_literal": "presencial",
-   "modalidad_por_confirmar": false,
-   "id": "empresa no revelada|coordinador de compensacion talento humano|bogota#anon:6000001-8000000-2026-08-27",
-   "duplicados_hoy": 1,
-   "marcas": [
-    "empresa no revelada: puede estar repetida",
     "no apareció hoy en la fuente (2 de 3)"
-   ],
-   "desglose": [
-    {
-     "concepto": "cargo objetivo de la búsqueda",
-     "puntos": 25,
-     "nota": "coordinador de compensación talento humano"
-    },
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "el aviso no revela la empresa: no suma ni resta"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "compensacion, bandas salariales"
-    },
-    {
-     "concepto": "salario publicado por debajo de $18.000.000",
-     "puntos": -15,
-     "nota": "8.000.000 COP — se muestra igual: el publicado casi nunca es el negociado"
-    }
-   ],
-   "puntaje": 22,
-   "ausencias": 2,
-   "nueva": false,
-   "visto_desde": "2026-08-28",
-   "republicaciones": 0,
-   "reapariciones": 1
+   ]
   },
   {
    "cargo": "100% Remote | Highly Competitive Compensation | Independent Contractor | Part-Time or Full-Time",
@@ -758,11 +694,14 @@
     }
    ],
    "puntaje": 15,
-   "ausencias": 0,
+   "ausencias": 1,
    "nueva": false,
    "visto_desde": "2026-10-20",
    "republicaciones": 0,
-   "reapariciones": 0
+   "reapariciones": 0,
+   "marcas": [
+    "no apareció hoy en la fuente (1 de 3)"
+   ]
   },
   {
    "cargo": "Gerente de gestion humana Bogota",
@@ -1062,11 +1001,14 @@
     }
    ],
    "puntaje": 12,
-   "ausencias": 0,
+   "ausencias": 1,
    "nueva": false,
    "visto_desde": "2026-10-22",
    "republicaciones": 0,
-   "reapariciones": 0
+   "reapariciones": 0,
+   "marcas": [
+    "no apareció hoy en la fuente (1 de 3)"
+   ]
   },
   {
    "cargo": "Senior Analyst, Total Rewards-2",
@@ -1124,11 +1066,14 @@
     }
    ],
    "puntaje": 12,
-   "ausencias": 0,
+   "ausencias": 1,
    "nueva": false,
    "visto_desde": "2026-10-20",
    "republicaciones": 0,
-   "reapariciones": 0
+   "reapariciones": 0,
+   "marcas": [
+    "no apareció hoy en la fuente (1 de 3)"
+   ]
   },
   {
    "cargo": "Workers' Compensation Case Manager",
@@ -1248,11 +1193,14 @@
     }
    ],
    "puntaje": 7,
-   "ausencias": 0,
+   "ausencias": 1,
    "nueva": false,
    "visto_desde": "2026-10-21",
    "republicaciones": 0,
-   "reapariciones": 0
+   "reapariciones": 0,
+   "marcas": [
+    "no apareció hoy en la fuente (1 de 3)"
+   ]
   },
   {
    "cargo": "Compensation Consulting Analyst",
@@ -1370,12 +1318,12 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 1 día(s)"
+     "nota": "hace 2 día(s)"
     }
    ],
    "puntaje": 7,
    "ausencias": 0,
-   "nueva": true,
+   "nueva": false,
    "visto_desde": "2026-10-27",
    "republicaciones": 0,
    "reapariciones": 0
@@ -1497,7 +1445,7 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 1 día(s)"
+     "nota": "hace 2 día(s)"
     }
    ],
    "puntaje": 7,
@@ -2234,6 +2182,64 @@
    "reapariciones": 1
   },
   {
+   "cargo": "Profesional Líder Compensación, Contratación y Bienestar",
+   "empresa": "Fundación Plan",
+   "empresa_anonima": false,
+   "ciudad": "Bogotá, D.C.",
+   "salario": {
+    "min": 2617654.0,
+    "max": 2617654.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-10-27",
+   "vigente_hasta": "2026-12-26",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": "5E4225FD0850ECDC",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "computrabajo",
+     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-profesional-lider-compensacion-contratacion-y-bienestar-en-bogota-dc-A9706EEF6112849961373E686DCF3405",
+     "id_fuente": "5E4225FD0850ECDC"
+    }
+   ],
+   "inc": [],
+   "deducidos": [],
+   "modalidad": "híbrido",
+   "modalidad_literal": "Hibrido",
+   "modalidad_por_confirmar": false,
+   "id": "fundacion plan|profesional lider compensacion contratacion y bienestar|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "salario publicado por debajo de $18.000.000",
+     "puntos": -15,
+     "nota": "2.617.654 COP — se muestra igual: el publicado casi nunca es el negociado"
+    },
+    {
+     "concepto": "publicada hace menos de 3 días",
+     "puntos": 10,
+     "nota": "hace 1 día(s)"
+    }
+   ],
+   "puntaje": -5,
+   "ausencias": 0,
+   "nueva": true,
+   "visto_desde": "2026-10-28",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
+  {
    "cargo": "Coordinador de Administración de Personal y Planta / Nomina / Compensaciones",
    "empresa": "ADECCO COLOMBIA S A",
    "empresa_anonima": false,
@@ -2288,6 +2294,74 @@
   }
  ],
  "caidas": [
+  {
+   "cargo": "coordinador de compensación talento humano",
+   "empresa": "CONFIDENTIAL",
+   "empresa_anonima": true,
+   "ciudad": "Bogotá D.C.",
+   "salario": {
+    "min": 6000001.0,
+    "max": 8000000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-08-27",
+   "vigente_hasta": "2026-10-26",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/coordinador-de-compensacion-talento-humano-1886758342",
+     "id_fuente": null
+    }
+   ],
+   "inc": [],
+   "deducidos": [],
+   "modalidad": "presencial",
+   "modalidad_literal": "presencial",
+   "modalidad_por_confirmar": false,
+   "id": "empresa no revelada|coordinador de compensacion talento humano|bogota#anon:6000001-8000000-2026-08-27",
+   "duplicados_hoy": 1,
+   "marcas": [
+    "empresa no revelada: puede estar repetida",
+    "no apareció hoy en la fuente (2 de 3)"
+   ],
+   "desglose": [
+    {
+     "concepto": "cargo objetivo de la búsqueda",
+     "puntos": 25,
+     "nota": "coordinador de compensación talento humano"
+    },
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "el aviso no revela la empresa: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "compensacion, bandas salariales"
+    },
+    {
+     "concepto": "salario publicado por debajo de $18.000.000",
+     "puntos": -15,
+     "nota": "8.000.000 COP — se muestra igual: el publicado casi nunca es el negociado"
+    }
+   ],
+   "puntaje": 22,
+   "nueva": false,
+   "visto_desde": "2026-08-28",
+   "republicaciones": 0,
+   "reapariciones": 1,
+   "desaparecio": "2026-10-28",
+   "dias_publicada": 61
+  },
   {
    "cargo": "Associate Director, Customer Compensation & Policy",
    "empresa": "hellofresh",
