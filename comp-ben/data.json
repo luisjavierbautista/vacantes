@@ -1,18 +1,18 @@
 {
  "busqueda": "comp-ben",
- "corrida": "2026-10-28",
- "corrida_hora": "2026-10-28 17:11",
+ "corrida": "2026-10-29",
+ "corrida_hora": "2026-10-29 17:26",
  "fuentes": {
   "elempleo": {
    "avisos": 18,
    "error": null
   },
   "computrabajo": {
-   "avisos": 3,
+   "avisos": 4,
    "error": null
   },
   "workday": {
-   "avisos": 11,
+   "avisos": 12,
    "error": null
   },
   "greenhouse": {
@@ -29,8 +29,8 @@
   }
  },
  "fallos": [],
- "avisos_recogidos": 45,
- "descartados": 12,
+ "avisos_recogidos": 47,
+ "descartados": 13,
  "fusionados": [
   {
    "conservado": "Compensation & HR Operations Analyst | Inglés Avanzado",
@@ -39,13 +39,14 @@
   }
  ],
  "nuevas": [
-  "fundacion plan|profesional lider compensacion contratacion y bienestar|bogota"
+  "entrepreneur cooperative|advanced paralegal or attorney minnesota workers compensation|colombia"
  ],
- "reaparecidas": [],
+ "reaparecidas": [
+  "colgas e s p|profesional de compensacion y productividad|bogota"
+ ],
  "ausentes": [
-  "consorcio circulemos digital|lider de compensacion y beneficios nomina|bogota",
+  "goglobal|global benefits compensation lead|colombia",
   "international contact center|100 highly competitive compensation independent contractor or|colombia",
-  "colgas e s p|profesional de compensacion y productividad|bogota",
   "mastercard|senior analyst total rewards 2|bogota",
   "johnson johnson medtech|analyst compensation|bogota"
  ],
@@ -430,7 +431,7 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 2 día(s)"
+     "nota": "hace 3 día(s)"
     }
    ],
    "puntaje": 22,
@@ -565,79 +566,90 @@
     }
    ],
    "puntaje": 22,
-   "ausencias": 0,
+   "ausencias": 1,
    "nueva": false,
    "visto_desde": "2026-10-26",
    "republicaciones": 0,
-   "reapariciones": 0
+   "reapariciones": 0,
+   "marcas": [
+    "no apareció hoy en la fuente (1 de 3)"
+   ]
   },
   {
-   "cargo": "Líder de Compensación y Beneficios - Nomina",
-   "empresa": "CONSORCIO CIRCULEMOS DIGITAL",
+   "cargo": "Advanced Paralegal or Attorney, Minnesota Workers' Compensation",
+   "empresa": "Entrepreneur Cooperative",
    "empresa_anonima": false,
-   "ciudad": "Bogotá, D.C.",
+   "ciudad": "Colombia",
    "salario": {
-    "min": 3744798.0,
-    "max": 3744798.0,
-    "moneda": "COP",
-    "periodo": "MONTH"
+    "min": 10,
+    "max": 20,
+    "moneda": "USD",
+    "periodo": "HOUR"
    },
-   "publicado": "2026-09-08",
-   "vigente_hasta": "2026-11-07",
-   "contrato": "FULL_TIME",
+   "publicado": "2026-10-29",
+   "vigente_hasta": null,
+   "contrato": null,
    "agencia": null,
    "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": "B0CBFB0381AE86E4",
+   "lat": 4.099917,
+   "lon": -72.9088133,
+   "id_fuente": "4484755118",
    "pais": null,
    "fuentes": [
     {
-     "fuente": "computrabajo",
-     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-lider-de-compensacion-y-beneficios-nomina-en-bogota-dc-4E384C51C449000961373E686DCF3405",
-     "id_fuente": "B0CBFB0381AE86E4"
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/advanced-paralegal-or-attorney-minnesota-workers-compensation-at-entrepreneur-cooperative-4484755118",
+     "id_fuente": "4484755118"
     }
    ],
    "inc": [
-    "modalidad"
+    "contrato"
    ],
-   "deducidos": [],
-   "modalidad": null,
-   "modalidad_literal": null,
+   "deducidos": [
+    "modalidad",
+    "salario"
+   ],
+   "modalidad_fuente": "Remote Solely",
+   "empleados": 8,
+   "sede": "",
+   "modalidad": "remoto",
+   "modalidad_literal": "Fully Remote",
    "modalidad_por_confirmar": false,
-   "id": "consorcio circulemos digital|lider de compensacion y beneficios nomina|bogota",
+   "id": "entrepreneur cooperative|advanced paralegal or attorney minnesota workers compensation|colombia",
    "duplicados_hoy": 1,
    "desglose": [
-    {
-     "concepto": "cargo objetivo de la búsqueda",
-     "puntos": 25,
-     "nota": "Líder de Compensación y Beneficios - Nomina"
-    },
     {
      "concepto": "origen de la empresa",
      "puntos": 0,
      "nota": "no se pudo determinar: no suma ni resta"
     },
     {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "compensacion"
+     "concepto": "remoto confirmado en el cuerpo del aviso",
+     "puntos": 15,
+     "nota": "Fully Remote"
     },
     {
-     "concepto": "salario publicado por debajo de $18.000.000",
-     "puntos": -15,
-     "nota": "3.744.798 COP — se muestra igual: el publicado casi nunca es el negociado"
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "publicado en USD: no se convierte ni se compara"
+    },
+    {
+     "concepto": "publicada hace menos de 3 días",
+     "puntos": 10,
+     "nota": "hace 0 día(s)"
+    },
+    {
+     "concepto": "empresa pequeña / etapa temprana",
+     "puntos": -8,
+     "nota": "8 empleados"
     }
    ],
-   "puntaje": 22,
-   "ausencias": 2,
-   "nueva": false,
-   "visto_desde": "2026-09-09",
+   "puntaje": 17,
+   "ausencias": 0,
+   "nueva": true,
+   "visto_desde": "2026-10-29",
    "republicaciones": 0,
-   "reapariciones": 1,
-   "marcas": [
-    "no apareció hoy en la fuente (2 de 3)"
-   ]
+   "reapariciones": 0
   },
   {
    "cargo": "100% Remote | Highly Competitive Compensation | Independent Contractor | Part-Time or Full-Time",
@@ -694,13 +706,13 @@
     }
    ],
    "puntaje": 15,
-   "ausencias": 1,
+   "ausencias": 2,
    "nueva": false,
    "visto_desde": "2026-10-20",
    "republicaciones": 0,
    "reapariciones": 0,
    "marcas": [
-    "no apareció hoy en la fuente (1 de 3)"
+    "no apareció hoy en la fuente (2 de 3)"
    ]
   },
   {
@@ -1001,14 +1013,12 @@
     }
    ],
    "puntaje": 12,
-   "ausencias": 1,
+   "ausencias": 0,
    "nueva": false,
    "visto_desde": "2026-10-22",
    "republicaciones": 0,
-   "reapariciones": 0,
-   "marcas": [
-    "no apareció hoy en la fuente (1 de 3)"
-   ]
+   "reapariciones": 1,
+   "reaparecida": true
   },
   {
    "cargo": "Senior Analyst, Total Rewards-2",
@@ -1066,13 +1076,13 @@
     }
    ],
    "puntaje": 12,
-   "ausencias": 1,
+   "ausencias": 2,
    "nueva": false,
    "visto_desde": "2026-10-20",
    "republicaciones": 0,
    "reapariciones": 0,
    "marcas": [
-    "no apareció hoy en la fuente (1 de 3)"
+    "no apareció hoy en la fuente (2 de 3)"
    ]
   },
   {
@@ -1193,13 +1203,13 @@
     }
    ],
    "puntaje": 7,
-   "ausencias": 1,
+   "ausencias": 2,
    "nueva": false,
    "visto_desde": "2026-10-21",
    "republicaciones": 0,
    "reapariciones": 0,
    "marcas": [
-    "no apareció hoy en la fuente (1 de 3)"
+    "no apareció hoy en la fuente (2 de 3)"
    ]
   },
   {
@@ -1318,7 +1328,7 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 2 día(s)"
+     "nota": "hace 3 día(s)"
     }
    ],
    "puntaje": 7,
@@ -1445,7 +1455,7 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 2 día(s)"
+     "nota": "hace 3 día(s)"
     }
    ],
    "puntaje": 7,
@@ -2229,12 +2239,12 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 1 día(s)"
+     "nota": "hace 2 día(s)"
     }
    ],
    "puntaje": -5,
    "ausencias": 0,
-   "nueva": true,
+   "nueva": false,
    "visto_desde": "2026-10-28",
    "republicaciones": 0,
    "reapariciones": 0
@@ -2294,6 +2304,75 @@
   }
  ],
  "caidas": [
+  {
+   "cargo": "Líder de Compensación y Beneficios - Nomina",
+   "empresa": "CONSORCIO CIRCULEMOS DIGITAL",
+   "empresa_anonima": false,
+   "ciudad": "Bogotá, D.C.",
+   "salario": {
+    "min": 3744798.0,
+    "max": 3744798.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-09-08",
+   "vigente_hasta": "2026-11-07",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": "B0CBFB0381AE86E4",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "computrabajo",
+     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-lider-de-compensacion-y-beneficios-nomina-en-bogota-dc-4E384C51C449000961373E686DCF3405",
+     "id_fuente": "B0CBFB0381AE86E4"
+    }
+   ],
+   "inc": [
+    "modalidad"
+   ],
+   "deducidos": [],
+   "modalidad": null,
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "consorcio circulemos digital|lider de compensacion y beneficios nomina|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "cargo objetivo de la búsqueda",
+     "puntos": 25,
+     "nota": "Líder de Compensación y Beneficios - Nomina"
+    },
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "compensacion"
+    },
+    {
+     "concepto": "salario publicado por debajo de $18.000.000",
+     "puntos": -15,
+     "nota": "3.744.798 COP — se muestra igual: el publicado casi nunca es el negociado"
+    }
+   ],
+   "puntaje": 22,
+   "nueva": false,
+   "visto_desde": "2026-09-09",
+   "republicaciones": 0,
+   "reapariciones": 1,
+   "marcas": [
+    "no apareció hoy en la fuente (2 de 3)"
+   ],
+   "desaparecio": "2026-10-29",
+   "dias_publicada": 50
+  },
   {
    "cargo": "coordinador de compensación talento humano",
    "empresa": "CONFIDENTIAL",
@@ -5219,135 +5298,6 @@
    ],
    "desaparecio": "2026-09-14",
    "dias_publicada": 3
-  },
-  {
-   "cargo": "Profesional Contable e Impuestos - Contador publico con SAP manejo cuentas de compensación",
-   "empresa": "BCCY COLOMBIA HOLDING S.A.S.",
-   "empresa_anonima": false,
-   "ciudad": "Bogotá, D.C.",
-   "salario": {
-    "min": 2500000.0,
-    "max": 2500000.0,
-    "moneda": "COP",
-    "periodo": "MONTH"
-   },
-   "publicado": "2026-09-09",
-   "vigente_hasta": "2026-11-08",
-   "contrato": "FULL_TIME",
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": "7F85D67A1264DEF9",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "computrabajo",
-     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-profesional-contable-e-impuestos-contador-publico-con-sap-manejo-cuentas-de-compensacion-en-bogota-dc-3B60A23147F31ECE61373E686DCF3405",
-     "id_fuente": "7F85D67A1264DEF9"
-    }
-   ],
-   "inc": [],
-   "deducidos": [],
-   "modalidad": "presencial",
-   "modalidad_literal": "presencial",
-   "modalidad_por_confirmar": false,
-   "id": "bccy|profesional contable e impuestos contador publico con sap manejo cuentas de compensacion|bogota",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "no se pudo determinar: no suma ni resta"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "compensacion"
-    },
-    {
-     "concepto": "salario publicado por debajo de $18.000.000",
-     "puntos": -15,
-     "nota": "2.500.000 COP — se muestra igual: el publicado casi nunca es el negociado"
-    },
-    {
-     "concepto": "publicada hace menos de 3 días",
-     "puntos": 10,
-     "nota": "hace 1 día(s)"
-    }
-   ],
-   "puntaje": 7,
-   "nueva": false,
-   "visto_desde": "2026-09-10",
-   "republicaciones": 0,
-   "reapariciones": 0,
-   "marcas": [
-    "no apareció hoy en la fuente (2 de 3)"
-   ],
-   "desaparecio": "2026-09-13",
-   "dias_publicada": 3
-  },
-  {
-   "cargo": "Profesional en Compensación salarial",
-   "empresa": "CAFAM",
-   "empresa_anonima": false,
-   "ciudad": "Bogotá D.C.",
-   "salario": {
-    "min": 5500001.0,
-    "max": 6000000.0,
-    "moneda": "COP",
-    "periodo": "MONTH"
-   },
-   "publicado": "2026-07-13",
-   "vigente_hasta": "2026-09-11",
-   "contrato": "TEMPORARY",
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": null,
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "elempleo",
-     "url": "https://www.elempleo.com/co/ofertas-trabajo/profesional-en-compensacion-salarial-1886738617",
-     "id_fuente": null
-    }
-   ],
-   "inc": [],
-   "deducidos": [],
-   "modalidad": "presencial",
-   "modalidad_literal": "Presencial",
-   "modalidad_por_confirmar": false,
-   "id": "cafam|profesional en compensacion salarial|bogota",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "no se pudo determinar: no suma ni resta"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "compensacion, valoracion de cargos, estructura salarial, bandas salariales"
-    },
-    {
-     "concepto": "salario publicado por debajo de $18.000.000",
-     "puntos": -15,
-     "nota": "6.000.000 COP — se muestra igual: el publicado casi nunca es el negociado"
-    }
-   ],
-   "puntaje": -3,
-   "nueva": false,
-   "visto_desde": "2026-08-28",
-   "republicaciones": 0,
-   "reapariciones": 0,
-   "marcas": [
-    "no apareció hoy en la fuente (2 de 3)"
-   ],
-   "desaparecio": "2026-09-13",
-   "dias_publicada": 16
   }
  ],
  "avisos_pendientes": 0
