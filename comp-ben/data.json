@@ -1,10 +1,10 @@
 {
  "busqueda": "comp-ben",
- "corrida": "2026-10-29",
- "corrida_hora": "2026-10-29 17:26",
+ "corrida": "2026-10-30",
+ "corrida_hora": "2026-10-30 17:02",
  "fuentes": {
   "elempleo": {
-   "avisos": 18,
+   "avisos": 19,
    "error": null
   },
   "computrabajo": {
@@ -12,7 +12,7 @@
    "error": null
   },
   "workday": {
-   "avisos": 12,
+   "avisos": 14,
    "error": null
   },
   "greenhouse": {
@@ -24,33 +24,33 @@
    "error": null
   },
   "apify_linkedin": {
-   "avisos": 13,
+   "avisos": 14,
    "error": null
   }
  },
  "fallos": [],
- "avisos_recogidos": 47,
- "descartados": 13,
+ "avisos_recogidos": 51,
+ "descartados": 16,
  "fusionados": [
   {
-   "conservado": "Compensation & HR Operations Analyst | Inglés Avanzado",
-   "absorbido": "Compensation & Data Analyst | Inglés Avanzado",
+   "conservado": "Compensation & Data Analyst | Inglés Avanzado",
+   "absorbido": "Compensation & HR Operations Analyst | Inglés Avanzado",
    "parecido": 0.67
   }
  ],
  "nuevas": [
-  "entrepreneur cooperative|advanced paralegal or attorney minnesota workers compensation|colombia"
+  "empresa no revelada|lider de compensacion y beneficios|bogota#anon:0-0-2026-10-30"
  ],
  "reaparecidas": [
-  "colgas e s p|profesional de compensacion y productividad|bogota"
+  "manpower|compensation data analyst ingles avanzado|bogota"
  ],
  "ausentes": [
   "goglobal|global benefits compensation lead|colombia",
-  "international contact center|100 highly competitive compensation independent contractor or|colombia",
-  "mastercard|senior analyst total rewards 2|bogota",
-  "johnson johnson medtech|analyst compensation|bogota"
+  "manpower|compensation hr operations analyst ingles avanzado|bogota"
  ],
- "republicadas": [],
+ "republicadas": [
+  "fundacion universitaria konrad lorenz|profesional de nomina y compensacion|bogota"
+ ],
  "vigentes": [
   {
    "cargo": "Global Compensation Manager",
@@ -184,6 +184,74 @@
    "visto_desde": "2026-09-15",
    "republicaciones": 0,
    "reapariciones": 1
+  },
+  {
+   "cargo": "LIDER DE COMPENSACION Y BENEFICIOS",
+   "empresa": "CONFIDENTIAL",
+   "empresa_anonima": true,
+   "ciudad": "Bogotá D.C.",
+   "salario": null,
+   "publicado": "2026-10-30",
+   "vigente_hasta": "2026-12-29",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/lider-de-compensacion-y-beneficios-1886787473",
+     "id_fuente": null
+    }
+   ],
+   "inc": [
+    "salario"
+   ],
+   "deducidos": [],
+   "modalidad": "híbrido",
+   "modalidad_literal": "Hibrido",
+   "modalidad_por_confirmar": false,
+   "id": "empresa no revelada|lider de compensacion y beneficios|bogota#anon:0-0-2026-10-30",
+   "duplicados_hoy": 1,
+   "marcas": [
+    "empresa no revelada: puede estar repetida"
+   ],
+   "desglose": [
+    {
+     "concepto": "cargo objetivo de la búsqueda",
+     "puntos": 25,
+     "nota": "LIDER DE COMPENSACION Y BENEFICIOS"
+    },
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "el aviso no revela la empresa: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "compensacion"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    },
+    {
+     "concepto": "publicada hace menos de 3 días",
+     "puntos": 10,
+     "nota": "hace 0 día(s)"
+    }
+   ],
+   "puntaje": 47,
+   "ausencias": 0,
+   "nueva": true,
+   "visto_desde": "2026-10-30",
+   "republicaciones": 0,
+   "reapariciones": 0
   },
   {
    "cargo": "Coordinador (a) de compensación y beneficios",
@@ -375,73 +443,6 @@
    "reapariciones": 0
   },
   {
-   "cargo": "Especialista Compensación y Beneficios",
-   "empresa": "WOM Colombia",
-   "empresa_anonima": false,
-   "ciudad": "Bogota, Capital District",
-   "salario": null,
-   "publicado": "2026-10-26",
-   "vigente_hasta": "2026-11-25",
-   "contrato": [
-    "FULL_TIME"
-   ],
-   "agencia": null,
-   "direccion": null,
-   "lat": 4.6533817,
-   "lon": -74.0836331,
-   "id_fuente": "4483573358",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "linkedin",
-     "url": "https://co.linkedin.com/jobs/view/especialista-compensaci%C3%B3n-y-beneficios-at-wom-colombia-4483573358",
-     "id_fuente": "4483573358"
-    }
-   ],
-   "inc": [
-    "salario"
-   ],
-   "deducidos": [
-    "modalidad"
-   ],
-   "modalidad_fuente": "On-site",
-   "empleados": 2168,
-   "sede": "Bogotá, Bogotá",
-   "modalidad": "On-site",
-   "modalidad_literal": null,
-   "modalidad_por_confirmar": false,
-   "id": "wom|especialista compensacion y beneficios|bogota",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "no se pudo determinar: no suma ni resta"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "compensacion, valoracion de cargos, bandas salariales"
-    },
-    {
-     "concepto": "salario",
-     "puntos": 0,
-     "nota": "sin salario publicado, no suma ni resta"
-    },
-    {
-     "concepto": "publicada hace menos de 3 días",
-     "puntos": 10,
-     "nota": "hace 3 día(s)"
-    }
-   ],
-   "puntaje": 22,
-   "ausencias": 0,
-   "nueva": false,
-   "visto_desde": "2026-10-26",
-   "republicaciones": 0,
-   "reapariciones": 0
-  },
-  {
    "cargo": "Especialista Senior de Compensación",
    "empresa": "Falabella",
    "empresa_anonima": false,
@@ -566,13 +567,13 @@
     }
    ],
    "puntaje": 22,
-   "ausencias": 1,
+   "ausencias": 2,
    "nueva": false,
    "visto_desde": "2026-10-26",
    "republicaciones": 0,
    "reapariciones": 0,
    "marcas": [
-    "no apareció hoy en la fuente (1 de 3)"
+    "no apareció hoy en la fuente (2 de 3)"
    ]
   },
   {
@@ -636,7 +637,7 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 0 día(s)"
+     "nota": "hace 1 día(s)"
     },
     {
      "concepto": "empresa pequeña / etapa temprana",
@@ -646,47 +647,48 @@
    ],
    "puntaje": 17,
    "ausencias": 0,
-   "nueva": true,
+   "nueva": false,
    "visto_desde": "2026-10-29",
    "republicaciones": 0,
    "reapariciones": 0
   },
   {
-   "cargo": "100% Remote | Highly Competitive Compensation | Independent Contractor | Part-Time or Full-Time",
-   "empresa": "International Contact Center",
+   "cargo": "Especialista Compensación y Beneficios",
+   "empresa": "WOM Colombia",
    "empresa_anonima": false,
-   "ciudad": "Colombia",
+   "ciudad": "Bogota, Capital District",
    "salario": null,
-   "publicado": "2026-10-19",
-   "vigente_hasta": null,
-   "contrato": null,
+   "publicado": "2026-10-26",
+   "vigente_hasta": "2026-11-25",
+   "contrato": [
+    "FULL_TIME"
+   ],
    "agencia": null,
    "direccion": null,
-   "lat": 4.099917,
-   "lon": -72.9088133,
-   "id_fuente": "4481262016",
+   "lat": 4.6533817,
+   "lon": -74.0836331,
+   "id_fuente": "4483573358",
    "pais": null,
    "fuentes": [
     {
      "fuente": "linkedin",
-     "url": "https://co.linkedin.com/jobs/view/100%25-remote-highly-competitive-compensation-independent-contractor-part-time-or-full-time-at-international-contact-center-4481262016",
-     "id_fuente": "4481262016"
+     "url": "https://co.linkedin.com/jobs/view/especialista-compensaci%C3%B3n-y-beneficios-at-wom-colombia-4483573358",
+     "id_fuente": "4483573358"
     }
    ],
    "inc": [
-    "salario",
-    "contrato"
+    "salario"
    ],
    "deducidos": [
     "modalidad"
    ],
-   "modalidad_fuente": "Remote Solely",
-   "empleados": 73,
-   "sede": "Santo Domingo, Distrito Nacional",
-   "modalidad": "remoto",
-   "modalidad_literal": "Remote",
+   "modalidad_fuente": "On-site",
+   "empleados": 2168,
+   "sede": "Bogotá, Bogotá",
+   "modalidad": "On-site",
+   "modalidad_literal": null,
    "modalidad_por_confirmar": false,
-   "id": "international contact center|100 highly competitive compensation independent contractor or|colombia",
+   "id": "wom|especialista compensacion y beneficios|bogota",
    "duplicados_hoy": 1,
    "desglose": [
     {
@@ -695,9 +697,9 @@
      "nota": "no se pudo determinar: no suma ni resta"
     },
     {
-     "concepto": "remoto confirmado en el cuerpo del aviso",
-     "puntos": 15,
-     "nota": "Remote"
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "compensacion, valoracion de cargos, bandas salariales"
     },
     {
      "concepto": "salario",
@@ -705,15 +707,12 @@
      "nota": "sin salario publicado, no suma ni resta"
     }
    ],
-   "puntaje": 15,
-   "ausencias": 2,
+   "puntaje": 12,
+   "ausencias": 0,
    "nueva": false,
-   "visto_desde": "2026-10-20",
+   "visto_desde": "2026-10-26",
    "republicaciones": 0,
-   "reapariciones": 0,
-   "marcas": [
-    "no apareció hoy en la fuente (2 de 3)"
-   ]
+   "reapariciones": 0
   },
   {
    "cargo": "Gerente de gestion humana Bogota",
@@ -1017,73 +1016,7 @@
    "nueva": false,
    "visto_desde": "2026-10-22",
    "republicaciones": 0,
-   "reapariciones": 1,
-   "reaparecida": true
-  },
-  {
-   "cargo": "Senior Analyst, Total Rewards-2",
-   "empresa": "Mastercard",
-   "empresa_anonima": false,
-   "ciudad": "Bogota, Capital District",
-   "salario": null,
-   "publicado": "2026-10-19",
-   "vigente_hasta": "2026-11-18",
-   "contrato": [
-    "FULL_TIME"
-   ],
-   "agencia": null,
-   "direccion": null,
-   "lat": 4.6533817,
-   "lon": -74.0836331,
-   "id_fuente": "4478629391",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "linkedin",
-     "url": "https://co.linkedin.com/jobs/view/senior-analyst-total-rewards-2-at-mastercard-4478629391",
-     "id_fuente": "4478629391"
-    }
-   ],
-   "inc": [
-    "salario"
-   ],
-   "deducidos": [
-    "modalidad"
-   ],
-   "modalidad_fuente": "On-site",
-   "empleados": 44263,
-   "sede": "Purchase, NY",
-   "modalidad": "On-site",
-   "modalidad_literal": null,
-   "modalidad_por_confirmar": false,
-   "id": "mastercard|senior analyst total rewards 2|bogota",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "no se pudo determinar: no suma ni resta"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "total rewards"
-    },
-    {
-     "concepto": "salario",
-     "puntos": 0,
-     "nota": "sin salario publicado, no suma ni resta"
-    }
-   ],
-   "puntaje": 12,
-   "ausencias": 2,
-   "nueva": false,
-   "visto_desde": "2026-10-20",
-   "republicaciones": 0,
-   "reapariciones": 0,
-   "marcas": [
-    "no apareció hoy en la fuente (2 de 3)"
-   ]
+   "reapariciones": 1
   },
   {
    "cargo": "Workers' Compensation Case Manager",
@@ -1148,71 +1081,6 @@
    "reapariciones": 0
   },
   {
-   "cargo": "Analyst, Compensation",
-   "empresa": "Johnson & Johnson MedTech",
-   "empresa_anonima": false,
-   "ciudad": "Bogota, Capital District",
-   "salario": null,
-   "publicado": "2026-10-20",
-   "vigente_hasta": "2026-11-19",
-   "contrato": [
-    "FULL_TIME"
-   ],
-   "agencia": null,
-   "direccion": null,
-   "lat": 4.6533817,
-   "lon": -74.0836331,
-   "id_fuente": "4481787588",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "linkedin",
-     "url": "https://co.linkedin.com/jobs/view/analyst-compensation-at-johnson-johnson-medtech-4481787588",
-     "id_fuente": "4481787588"
-    }
-   ],
-   "inc": [
-    "salario"
-   ],
-   "deducidos": [
-    "modalidad"
-   ],
-   "modalidad_fuente": "On-site",
-   "empleados": 38151,
-   "sede": "New Brunswick, New Jersey",
-   "modalidad": "On-site",
-   "modalidad_literal": null,
-   "modalidad_por_confirmar": false,
-   "id": "johnson johnson medtech|analyst compensation|bogota",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "multinacional estadounidense",
-     "puntos": -5,
-     "nota": "New Brunswick, New Jersey"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "total rewards"
-    },
-    {
-     "concepto": "salario",
-     "puntos": 0,
-     "nota": "sin salario publicado, no suma ni resta"
-    }
-   ],
-   "puntaje": 7,
-   "ausencias": 2,
-   "nueva": false,
-   "visto_desde": "2026-10-21",
-   "republicaciones": 0,
-   "reapariciones": 0,
-   "marcas": [
-    "no apareció hoy en la fuente (2 de 3)"
-   ]
-  },
-  {
    "cargo": "Compensation Consulting Analyst",
    "empresa": "Marsh",
    "empresa_anonima": false,
@@ -1270,71 +1138,6 @@
    "ausencias": 0,
    "nueva": false,
    "visto_desde": "2026-10-08",
-   "republicaciones": 0,
-   "reapariciones": 0
-  },
-  {
-   "cargo": "Lider de Nomina - Compensación y Beneficios",
-   "empresa": "CONSORCIO CIRCULEMOS DIGITAL",
-   "empresa_anonima": false,
-   "ciudad": "Bogotá, D.C.",
-   "salario": {
-    "min": 3744000.0,
-    "max": 3744000.0,
-    "moneda": "COP",
-    "periodo": "MONTH"
-   },
-   "publicado": "2026-10-26",
-   "vigente_hasta": "2026-12-25",
-   "contrato": "TEMPORARY",
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": "B0CBFB0381AE86E4",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "computrabajo",
-     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-lider-de-nomina-compensacion-y-beneficios-en-bogota-dc-439E79F500529BC161373E686DCF3405",
-     "id_fuente": "B0CBFB0381AE86E4"
-    }
-   ],
-   "inc": [
-    "modalidad"
-   ],
-   "deducidos": [],
-   "modalidad": null,
-   "modalidad_literal": null,
-   "modalidad_por_confirmar": false,
-   "id": "consorcio circulemos digital|lider de nomina compensacion y beneficios|bogota",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "no se pudo determinar: no suma ni resta"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "compensacion"
-    },
-    {
-     "concepto": "salario publicado por debajo de $18.000.000",
-     "puntos": -15,
-     "nota": "3.744.000 COP — se muestra igual: el publicado casi nunca es el negociado"
-    },
-    {
-     "concepto": "publicada hace menos de 3 días",
-     "puntos": 10,
-     "nota": "hace 3 día(s)"
-    }
-   ],
-   "puntaje": 7,
-   "ausencias": 0,
-   "nueva": false,
-   "visto_desde": "2026-10-27",
    "republicaciones": 0,
    "reapariciones": 0
   },
@@ -1412,7 +1215,7 @@
     "periodo": "MONTH"
    },
    "publicado": "2026-10-13",
-   "vigente_hasta": "2026-12-25",
+   "vigente_hasta": "2026-12-28",
    "contrato": "FULL_TIME",
    "agencia": null,
    "direccion": null,
@@ -1423,7 +1226,7 @@
    "fuentes": [
     {
      "fuente": "elempleo",
-     "url": "https://www.elempleo.com/co/ofertas-trabajo/profesional-de-nomina-y-compensacion-1886785097",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/profesional-de-nomina-y-compensacion-1886787195",
      "id_fuente": null
     }
    ],
@@ -1455,14 +1258,14 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 3 día(s)"
+     "nota": "hace 1 día(s)"
     }
    ],
    "puntaje": 7,
    "ausencias": 0,
    "nueva": false,
    "visto_desde": "2026-10-14",
-   "republicaciones": 4,
+   "republicaciones": 5,
    "reapariciones": 0
   },
   {
@@ -1759,6 +1562,73 @@
    "reapariciones": 0
   },
   {
+   "cargo": "Compensation & Data Analyst | Inglés Avanzado",
+   "empresa": "MANPOWER",
+   "empresa_anonima": false,
+   "ciudad": "Bogotá D.C.",
+   "salario": {
+    "min": 4500001.0,
+    "max": 5500000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-09-17",
+   "vigente_hasta": "2026-11-21",
+   "contrato": "PER_DIEM",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/compensation-data-analyst-ingles-avanzado-1886770844",
+     "id_fuente": null
+    },
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/compensation-hr-operations-analyst-ingles-avanzado-1886768508",
+     "id_fuente": null
+    }
+   ],
+   "inc": [],
+   "deducidos": [],
+   "modalidad": "híbrido",
+   "modalidad_literal": "3 dias en oficina",
+   "modalidad_por_confirmar": false,
+   "id": "manpower|compensation data analyst ingles avanzado|bogota",
+   "duplicados_hoy": 1,
+   "titulos_alternos": [
+    "Compensation & HR Operations Analyst | Inglés Avanzado"
+   ],
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "compensacion"
+    },
+    {
+     "concepto": "salario publicado por debajo de $18.000.000",
+     "puntos": -15,
+     "nota": "5.500.000 COP — se muestra igual: el publicado casi nunca es el negociado"
+    }
+   ],
+   "puntaje": -3,
+   "ausencias": 0,
+   "nueva": false,
+   "visto_desde": "2026-09-23",
+   "republicaciones": 0,
+   "reapariciones": 3,
+   "reaparecida": true
+  },
+  {
    "cargo": "Compensation & HR Operations Analyst | Inglés Avanzado",
    "empresa": "MANPOWER",
    "empresa_anonima": false,
@@ -1818,11 +1688,14 @@
     }
    ],
    "puntaje": -3,
-   "ausencias": 0,
+   "ausencias": 1,
    "nueva": false,
    "visto_desde": "2026-09-18",
    "republicaciones": 1,
-   "reapariciones": 3
+   "reapariciones": 3,
+   "marcas": [
+    "no apareció hoy en la fuente (1 de 3)"
+   ]
   },
   {
    "cargo": "ESPECIALISTA PROCESOS DE COMPENSACION",
@@ -1881,6 +1754,66 @@
    "ausencias": 0,
    "nueva": false,
    "visto_desde": "2026-10-24",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
+  {
+   "cargo": "Lider de Nomina - Compensación y Beneficios",
+   "empresa": "CONSORCIO CIRCULEMOS DIGITAL",
+   "empresa_anonima": false,
+   "ciudad": "Bogotá, D.C.",
+   "salario": {
+    "min": 3744000.0,
+    "max": 3744000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-10-26",
+   "vigente_hasta": "2026-12-25",
+   "contrato": "TEMPORARY",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": "B0CBFB0381AE86E4",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "computrabajo",
+     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-lider-de-nomina-compensacion-y-beneficios-en-bogota-dc-439E79F500529BC161373E686DCF3405",
+     "id_fuente": "B0CBFB0381AE86E4"
+    }
+   ],
+   "inc": [
+    "modalidad"
+   ],
+   "deducidos": [],
+   "modalidad": null,
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "consorcio circulemos digital|lider de nomina compensacion y beneficios|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "compensacion"
+    },
+    {
+     "concepto": "salario publicado por debajo de $18.000.000",
+     "puntos": -15,
+     "nota": "3.744.000 COP — se muestra igual: el publicado casi nunca es el negociado"
+    }
+   ],
+   "puntaje": -3,
+   "ausencias": 0,
+   "nueva": false,
+   "visto_desde": "2026-10-27",
    "republicaciones": 0,
    "reapariciones": 0
   },
@@ -2239,7 +2172,7 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 2 día(s)"
+     "nota": "hace 3 día(s)"
     }
    ],
    "puntaje": -5,
@@ -2304,6 +2237,203 @@
   }
  ],
  "caidas": [
+  {
+   "cargo": "100% Remote | Highly Competitive Compensation | Independent Contractor | Part-Time or Full-Time",
+   "empresa": "International Contact Center",
+   "empresa_anonima": false,
+   "ciudad": "Colombia",
+   "salario": null,
+   "publicado": "2026-10-19",
+   "vigente_hasta": null,
+   "contrato": null,
+   "agencia": null,
+   "direccion": null,
+   "lat": 4.099917,
+   "lon": -72.9088133,
+   "id_fuente": "4481262016",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/100%25-remote-highly-competitive-compensation-independent-contractor-part-time-or-full-time-at-international-contact-center-4481262016",
+     "id_fuente": "4481262016"
+    }
+   ],
+   "inc": [
+    "salario",
+    "contrato"
+   ],
+   "deducidos": [
+    "modalidad"
+   ],
+   "modalidad_fuente": "Remote Solely",
+   "empleados": 73,
+   "sede": "Santo Domingo, Distrito Nacional",
+   "modalidad": "remoto",
+   "modalidad_literal": "Remote",
+   "modalidad_por_confirmar": false,
+   "id": "international contact center|100 highly competitive compensation independent contractor or|colombia",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "remoto confirmado en el cuerpo del aviso",
+     "puntos": 15,
+     "nota": "Remote"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    }
+   ],
+   "puntaje": 15,
+   "nueva": false,
+   "visto_desde": "2026-10-20",
+   "republicaciones": 0,
+   "reapariciones": 0,
+   "marcas": [
+    "no apareció hoy en la fuente (2 de 3)"
+   ],
+   "desaparecio": "2026-10-30",
+   "dias_publicada": 10
+  },
+  {
+   "cargo": "Senior Analyst, Total Rewards-2",
+   "empresa": "Mastercard",
+   "empresa_anonima": false,
+   "ciudad": "Bogota, Capital District",
+   "salario": null,
+   "publicado": "2026-10-19",
+   "vigente_hasta": "2026-11-18",
+   "contrato": [
+    "FULL_TIME"
+   ],
+   "agencia": null,
+   "direccion": null,
+   "lat": 4.6533817,
+   "lon": -74.0836331,
+   "id_fuente": "4478629391",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/senior-analyst-total-rewards-2-at-mastercard-4478629391",
+     "id_fuente": "4478629391"
+    }
+   ],
+   "inc": [
+    "salario"
+   ],
+   "deducidos": [
+    "modalidad"
+   ],
+   "modalidad_fuente": "On-site",
+   "empleados": 44263,
+   "sede": "Purchase, NY",
+   "modalidad": "On-site",
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "mastercard|senior analyst total rewards 2|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "total rewards"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    }
+   ],
+   "puntaje": 12,
+   "nueva": false,
+   "visto_desde": "2026-10-20",
+   "republicaciones": 0,
+   "reapariciones": 0,
+   "marcas": [
+    "no apareció hoy en la fuente (2 de 3)"
+   ],
+   "desaparecio": "2026-10-30",
+   "dias_publicada": 10
+  },
+  {
+   "cargo": "Analyst, Compensation",
+   "empresa": "Johnson & Johnson MedTech",
+   "empresa_anonima": false,
+   "ciudad": "Bogota, Capital District",
+   "salario": null,
+   "publicado": "2026-10-20",
+   "vigente_hasta": "2026-11-19",
+   "contrato": [
+    "FULL_TIME"
+   ],
+   "agencia": null,
+   "direccion": null,
+   "lat": 4.6533817,
+   "lon": -74.0836331,
+   "id_fuente": "4481787588",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/analyst-compensation-at-johnson-johnson-medtech-4481787588",
+     "id_fuente": "4481787588"
+    }
+   ],
+   "inc": [
+    "salario"
+   ],
+   "deducidos": [
+    "modalidad"
+   ],
+   "modalidad_fuente": "On-site",
+   "empleados": 38151,
+   "sede": "New Brunswick, New Jersey",
+   "modalidad": "On-site",
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "johnson johnson medtech|analyst compensation|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "multinacional estadounidense",
+     "puntos": -5,
+     "nota": "New Brunswick, New Jersey"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "total rewards"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    }
+   ],
+   "puntaje": 7,
+   "nueva": false,
+   "visto_desde": "2026-10-21",
+   "republicaciones": 0,
+   "reapariciones": 0,
+   "marcas": [
+    "no apareció hoy en la fuente (2 de 3)"
+   ],
+   "desaparecio": "2026-10-30",
+   "dias_publicada": 9
+  },
   {
    "cargo": "Líder de Compensación y Beneficios - Nomina",
    "empresa": "CONSORCIO CIRCULEMOS DIGITAL",
@@ -3582,76 +3712,6 @@
    ],
    "desaparecio": "2026-10-05",
    "dias_publicada": 19
-  },
-  {
-   "cargo": "Compensation & Data Analyst | Inglés Avanzado",
-   "empresa": "MANPOWER",
-   "empresa_anonima": false,
-   "ciudad": "Bogotá D.C.",
-   "salario": {
-    "min": 4500001.0,
-    "max": 5500000.0,
-    "moneda": "COP",
-    "periodo": "MONTH"
-   },
-   "publicado": "2026-09-17",
-   "vigente_hasta": "2026-11-21",
-   "contrato": "PER_DIEM",
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": null,
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "elempleo",
-     "url": "https://www.elempleo.com/co/ofertas-trabajo/compensation-data-analyst-ingles-avanzado-1886770844",
-     "id_fuente": null
-    },
-    {
-     "fuente": "elempleo",
-     "url": "https://www.elempleo.com/co/ofertas-trabajo/compensation-hr-operations-analyst-ingles-avanzado-1886768508",
-     "id_fuente": null
-    }
-   ],
-   "inc": [],
-   "deducidos": [],
-   "modalidad": "híbrido",
-   "modalidad_literal": "3 dias en oficina",
-   "modalidad_por_confirmar": false,
-   "id": "manpower|compensation data analyst ingles avanzado|bogota",
-   "duplicados_hoy": 1,
-   "titulos_alternos": [
-    "Compensation & HR Operations Analyst | Inglés Avanzado"
-   ],
-   "desglose": [
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "no se pudo determinar: no suma ni resta"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "compensacion"
-    },
-    {
-     "concepto": "salario publicado por debajo de $18.000.000",
-     "puntos": -15,
-     "nota": "5.500.000 COP — se muestra igual: el publicado casi nunca es el negociado"
-    }
-   ],
-   "puntaje": -3,
-   "nueva": false,
-   "visto_desde": "2026-09-23",
-   "republicaciones": 0,
-   "reapariciones": 2,
-   "marcas": [
-    "no apareció hoy en la fuente (2 de 3)"
-   ],
-   "desaparecio": "2026-10-05",
-   "dias_publicada": 12
   },
   {
    "cargo": "Incentive Compensation & Sales Performance Manager",
@@ -5150,153 +5210,6 @@
    "republicaciones": 0,
    "reapariciones": 0,
    "desaparecio": "2026-09-15",
-   "dias_publicada": 3
-  },
-  {
-   "cargo": "Gerente de Compensación y Beneficios (Total Rewards) - 80 Beneficios 20 Compensacion",
-   "empresa": "Manpower Group Colombia",
-   "empresa_anonima": false,
-   "ciudad": "Bogotá, D.C.",
-   "salario": {
-    "min": 14000000.0,
-    "max": 14000000.0,
-    "moneda": "COP",
-    "periodo": "MONTH"
-   },
-   "publicado": "2026-08-30",
-   "vigente_hasta": "2026-10-29",
-   "contrato": "FULL_TIME",
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": "2BE0D088B7D1B44D",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "computrabajo",
-     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-gerente-de-compensacion-y-beneficios-total-rewards-80-beneficios-20-compensacion-en-bogota-dc-B71482EED89E65DD61373E686DCF3405",
-     "id_fuente": "2BE0D088B7D1B44D"
-    }
-   ],
-   "inc": [],
-   "deducidos": [],
-   "modalidad": "híbrido",
-   "modalidad_literal": "3 dias en oficina",
-   "modalidad_por_confirmar": false,
-   "id": "manpower|gerente de compensacion y beneficios 80 beneficios 20 compensacion|bogota",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "cargo objetivo de la búsqueda",
-     "puntos": 25,
-     "nota": "Gerente de Compensación y Beneficios (Total Rewards) - 80 Beneficios 20 Compensacion"
-    },
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "no se pudo determinar: no suma ni resta"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "compensacion, total rewards"
-    },
-    {
-     "concepto": "salario publicado por debajo de $18.000.000",
-     "puntos": -15,
-     "nota": "14.000.000 COP — se muestra igual: el publicado casi nunca es el negociado"
-    }
-   ],
-   "puntaje": 22,
-   "nueva": false,
-   "visto_desde": "2026-08-31",
-   "republicaciones": 0,
-   "reapariciones": 0,
-   "marcas": [
-    "no apareció hoy en la fuente (2 de 3)"
-   ],
-   "desaparecio": "2026-09-14",
-   "dias_publicada": 14
-  },
-  {
-   "cargo": "Sr Payroll & Compensation Specialist – LATAM",
-   "empresa": "Envia.com Logistics FTL (Tendencies Carrier)",
-   "empresa_anonima": false,
-   "ciudad": "Colombia",
-   "salario": null,
-   "publicado": "2026-09-10",
-   "vigente_hasta": null,
-   "contrato": null,
-   "agencia": null,
-   "direccion": null,
-   "lat": 4.099917,
-   "lon": -72.9088133,
-   "id_fuente": "4465849012",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "linkedin",
-     "url": "https://co.linkedin.com/jobs/view/sr-payroll-compensation-specialist-%E2%80%93-latam-at-envia-com-logistics-ftl-tendencies-carrier-4465849012",
-     "id_fuente": "4465849012"
-    }
-   ],
-   "inc": [
-    "salario",
-    "contrato"
-   ],
-   "deducidos": [
-    "modalidad"
-   ],
-   "modalidad_fuente": "On-site",
-   "empleados": 1,
-   "sede": "",
-   "modalidad": "On-site",
-   "modalidad_literal": null,
-   "modalidad_por_confirmar": false,
-   "id": "envia com logistics ftl tendencies carrier|sr payroll compensation specialist latam|colombia",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "no se pudo determinar: no suma ni resta"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "compensacion, total rewards, valoracion de cargos, hay group, bandas salariales, compensacion variable"
-    },
-    {
-     "concepto": "salario",
-     "puntos": 0,
-     "nota": "sin salario publicado, no suma ni resta"
-    },
-    {
-     "concepto": "publicada hace menos de 3 días",
-     "puntos": 10,
-     "nota": "hace 1 día(s)"
-    },
-    {
-     "concepto": "exige portugues",
-     "puntos": -10,
-     "nota": "el perfil no lo domina — se muestra igual: muchos avisos lo piden como «deseable» y luego no lo evalúan"
-    },
-    {
-     "concepto": "empresa pequeña / etapa temprana",
-     "puntos": -8,
-     "nota": "1 empleados"
-    }
-   ],
-   "puntaje": 4,
-   "nueva": false,
-   "visto_desde": "2026-09-11",
-   "republicaciones": 0,
-   "reapariciones": 0,
-   "marcas": [
-    "no apareció hoy en la fuente (2 de 3)"
-   ],
-   "desaparecio": "2026-09-14",
    "dias_publicada": 3
   }
  ],
