@@ -1,18 +1,18 @@
 {
  "busqueda": "comp-ben",
- "corrida": "2026-10-31",
- "corrida_hora": "2026-10-31 16:05",
+ "corrida": "2026-11-01",
+ "corrida_hora": "2026-11-01 17:08",
  "fuentes": {
   "elempleo": {
-   "avisos": 18,
+   "avisos": 17,
    "error": null
   },
   "computrabajo": {
-   "avisos": 4,
+   "avisos": 3,
    "error": null
   },
   "workday": {
-   "avisos": 10,
+   "avisos": 8,
    "error": null
   },
   "greenhouse": {
@@ -28,9 +28,14 @@
    "error": null
   }
  },
- "fallos": [],
- "avisos_recogidos": 47,
- "descartados": 13,
+ "fallos": [
+  {
+   "url": "https://www.elempleo.com/co/ofertas-trabajo/jefe-de-relaciones-laborales-y-compensacion-1886761310",
+   "motivo": "HTTP 410"
+  }
+ ],
+ "avisos_recogidos": 43,
+ "descartados": 10,
  "fusionados": [
   {
    "conservado": "Compensation & HR Operations Analyst | Inglés Avanzado",
@@ -39,10 +44,9 @@
   }
  ],
  "nuevas": [],
- "reaparecidas": [
-  "manpower|compensation hr operations analyst ingles avanzado|bogota"
- ],
+ "reaparecidas": [],
  "ausentes": [
+  "laboratorio farpag|gerente de gestion humana|bogota",
   "politecnico grancolombiano|profesional de administracion laboral y compensacion|bogota",
   "manpower|compensation data analyst ingles avanzado|bogota"
  ],
@@ -239,7 +243,7 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 1 día(s)"
+     "nota": "hace 2 día(s)"
     }
    ],
    "puntaje": 47,
@@ -564,7 +568,7 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 2 día(s)"
+     "nota": "hace 3 día(s)"
     },
     {
      "concepto": "empresa pequeña / etapa temprana",
@@ -696,11 +700,14 @@
     }
    ],
    "puntaje": 12,
-   "ausencias": 0,
+   "ausencias": 1,
    "nueva": false,
    "visto_desde": "2026-09-01",
    "republicaciones": 0,
-   "reapariciones": 0
+   "reapariciones": 0,
+   "marcas": [
+    "no apareció hoy en la fuente (1 de 3)"
+   ]
   },
   {
    "cargo": "National Human Resources Total Rewards Expert",
@@ -821,13 +828,13 @@
     }
    ],
    "puntaje": 12,
-   "ausencias": 1,
+   "ausencias": 2,
    "nueva": false,
    "visto_desde": "2026-10-12",
    "republicaciones": 0,
    "reapariciones": 2,
    "marcas": [
-    "no apareció hoy en la fuente (1 de 3)"
+    "no apareció hoy en la fuente (2 de 3)"
    ]
   },
   {
@@ -1188,7 +1195,7 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 2 día(s)"
+     "nota": "hace 3 día(s)"
     }
    ],
    "puntaje": 7,
@@ -1551,13 +1558,13 @@
     }
    ],
    "puntaje": -3,
-   "ausencias": 1,
+   "ausencias": 2,
    "nueva": false,
    "visto_desde": "2026-09-23",
    "republicaciones": 0,
    "reapariciones": 3,
    "marcas": [
-    "no apareció hoy en la fuente (1 de 3)"
+    "no apareció hoy en la fuente (2 de 3)"
    ]
   },
   {
@@ -1624,8 +1631,7 @@
    "nueva": false,
    "visto_desde": "2026-09-18",
    "republicaciones": 1,
-   "reapariciones": 4,
-   "reaparecida": true
+   "reapariciones": 4
   },
   {
    "cargo": "ESPECIALISTA PROCESOS DE COMPENSACION",
@@ -5073,72 +5079,6 @@
    "reapariciones": 0,
    "desaparecio": "2026-09-17",
    "dias_publicada": 5
-  },
-  {
-   "cargo": "Head of Engineering, Rewards",
-   "empresa": "Job Application for Head of Engineering, Supply Chain at Moniepoint",
-   "empresa_anonima": false,
-   "ciudad": "Remote, London",
-   "salario": null,
-   "publicado": null,
-   "vigente_hasta": null,
-   "contrato": null,
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": "remote-head-of-engineering-rewards-421398",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "arbeitnow",
-     "url": "https://www.arbeitnow.co.uk/jobs/companies/job-application-for-head-of-engineering-supply-chain-at-moniepoint/remote-head-of-engineering-rewards-421398",
-     "id_fuente": "remote-head-of-engineering-rewards-421398"
-    }
-   ],
-   "inc": [
-    "salario",
-    "publicado",
-    "contrato"
-   ],
-   "deducidos": [],
-   "modalidad": "remoto",
-   "modalidad_literal": "Remote",
-   "modalidad_por_confirmar": false,
-   "id": "job application for head of engineering supply chain at moniepoint|head of engineering rewards|remoto",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "no se pudo determinar: no suma ni resta"
-    },
-    {
-     "concepto": "remoto confirmado en el cuerpo del aviso",
-     "puntos": 15,
-     "nota": "Remote"
-    },
-    {
-     "concepto": "salario",
-     "puntos": 0,
-     "nota": "sin salario publicado, no suma ni resta"
-    },
-    {
-     "concepto": "fecha de publicación",
-     "puntos": 0,
-     "nota": "sin fecha publicada: no suma ni resta"
-    }
-   ],
-   "puntaje": 15,
-   "nueva": false,
-   "visto_desde": "2026-09-13",
-   "republicaciones": 0,
-   "reapariciones": 0,
-   "marcas": [
-    "no apareció hoy en la fuente (2 de 3)"
-   ],
-   "desaparecio": "2026-09-16",
-   "dias_publicada": 3
   }
  ],
  "avisos_pendientes": 0
