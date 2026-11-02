@@ -1,7 +1,7 @@
 {
  "busqueda": "comp-ben",
- "corrida": "2026-11-01",
- "corrida_hora": "2026-11-01 17:08",
+ "corrida": "2026-11-02",
+ "corrida_hora": "2026-11-02 20:46",
  "fuentes": {
   "elempleo": {
    "avisos": 17,
@@ -12,7 +12,7 @@
    "error": null
   },
   "workday": {
-   "avisos": 8,
+   "avisos": 9,
    "error": null
   },
   "greenhouse": {
@@ -28,14 +28,9 @@
    "error": null
   }
  },
- "fallos": [
-  {
-   "url": "https://www.elempleo.com/co/ofertas-trabajo/jefe-de-relaciones-laborales-y-compensacion-1886761310",
-   "motivo": "HTTP 410"
-  }
- ],
- "avisos_recogidos": 43,
- "descartados": 10,
+ "fallos": [],
+ "avisos_recogidos": 44,
+ "descartados": 11,
  "fusionados": [
   {
    "conservado": "Compensation & HR Operations Analyst | Inglés Avanzado",
@@ -46,9 +41,7 @@
  "nuevas": [],
  "reaparecidas": [],
  "ausentes": [
-  "laboratorio farpag|gerente de gestion humana|bogota",
-  "politecnico grancolombiano|profesional de administracion laboral y compensacion|bogota",
-  "manpower|compensation data analyst ingles avanzado|bogota"
+  "laboratorio farpag|gerente de gestion humana|bogota"
  ],
  "republicadas": [],
  "vigentes": [
@@ -243,7 +236,7 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 2 día(s)"
+     "nota": "hace 3 día(s)"
     }
    ],
    "puntaje": 47,
@@ -508,82 +501,6 @@
    "reapariciones": 0
   },
   {
-   "cargo": "Advanced Paralegal or Attorney, Minnesota Workers' Compensation",
-   "empresa": "Entrepreneur Cooperative",
-   "empresa_anonima": false,
-   "ciudad": "Colombia",
-   "salario": {
-    "min": 10,
-    "max": 20,
-    "moneda": "USD",
-    "periodo": "HOUR"
-   },
-   "publicado": "2026-10-29",
-   "vigente_hasta": null,
-   "contrato": null,
-   "agencia": null,
-   "direccion": null,
-   "lat": 4.099917,
-   "lon": -72.9088133,
-   "id_fuente": "4484755118",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "linkedin",
-     "url": "https://co.linkedin.com/jobs/view/advanced-paralegal-or-attorney-minnesota-workers-compensation-at-entrepreneur-cooperative-4484755118",
-     "id_fuente": "4484755118"
-    }
-   ],
-   "inc": [
-    "contrato"
-   ],
-   "deducidos": [
-    "modalidad",
-    "salario"
-   ],
-   "modalidad_fuente": "Remote Solely",
-   "empleados": 8,
-   "sede": "",
-   "modalidad": "remoto",
-   "modalidad_literal": "Fully Remote",
-   "modalidad_por_confirmar": false,
-   "id": "entrepreneur cooperative|advanced paralegal or attorney minnesota workers compensation|colombia",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "no se pudo determinar: no suma ni resta"
-    },
-    {
-     "concepto": "remoto confirmado en el cuerpo del aviso",
-     "puntos": 15,
-     "nota": "Fully Remote"
-    },
-    {
-     "concepto": "salario",
-     "puntos": 0,
-     "nota": "publicado en USD: no se convierte ni se compara"
-    },
-    {
-     "concepto": "publicada hace menos de 3 días",
-     "puntos": 10,
-     "nota": "hace 3 día(s)"
-    },
-    {
-     "concepto": "empresa pequeña / etapa temprana",
-     "puntos": -8,
-     "nota": "8 empleados"
-    }
-   ],
-   "puntaje": 17,
-   "ausencias": 0,
-   "nueva": false,
-   "visto_desde": "2026-10-29",
-   "republicaciones": 0,
-   "reapariciones": 0
-  },
-  {
    "cargo": "Especialista Compensación y Beneficios",
    "empresa": "WOM Colombia",
    "empresa_anonima": false,
@@ -700,13 +617,13 @@
     }
    ],
    "puntaje": 12,
-   "ausencias": 1,
+   "ausencias": 2,
    "nueva": false,
    "visto_desde": "2026-09-01",
    "republicaciones": 0,
    "reapariciones": 0,
    "marcas": [
-    "no apareció hoy en la fuente (1 de 3)"
+    "no apareció hoy en la fuente (2 de 3)"
    ]
   },
   {
@@ -770,72 +687,6 @@
    "visto_desde": "2026-09-17",
    "republicaciones": 0,
    "reapariciones": 1
-  },
-  {
-   "cargo": "PROFESIONAL DE ADMINISTRACIÓN LABORAL Y COMPENSACIÓN",
-   "empresa": "Politecnico Grancolombiano",
-   "empresa_anonima": false,
-   "ciudad": "Bogotá D.C.",
-   "salario": {
-    "min": 4000001.0,
-    "max": 4500000.0,
-    "moneda": "COP",
-    "periodo": "MONTH"
-   },
-   "publicado": "2026-10-09",
-   "vigente_hasta": "2026-12-08",
-   "contrato": "FULL_TIME",
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": null,
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "elempleo",
-     "url": "https://www.elempleo.com/co/ofertas-trabajo/profesional-de-administracion-laboral-y-compensacion-1886778985",
-     "id_fuente": null
-    }
-   ],
-   "inc": [],
-   "deducidos": [],
-   "modalidad": "remoto",
-   "modalidad_literal": "Teletrabajo",
-   "modalidad_por_confirmar": false,
-   "id": "politecnico grancolombiano|profesional de administracion laboral y compensacion|bogota",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "no se pudo determinar: no suma ni resta"
-    },
-    {
-     "concepto": "remoto confirmado en el cuerpo del aviso",
-     "puntos": 15,
-     "nota": "Teletrabajo"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "compensacion"
-    },
-    {
-     "concepto": "salario publicado por debajo de $18.000.000",
-     "puntos": -15,
-     "nota": "4.500.000 COP — se muestra igual: el publicado casi nunca es el negociado"
-    }
-   ],
-   "puntaje": 12,
-   "ausencias": 2,
-   "nueva": false,
-   "visto_desde": "2026-10-12",
-   "republicaciones": 0,
-   "reapariciones": 2,
-   "marcas": [
-    "no apareció hoy en la fuente (2 de 3)"
-   ]
   },
   {
    "cargo": "Profesional de Compensación y Beneficios",
@@ -1018,6 +869,77 @@
    "reapariciones": 0
   },
   {
+   "cargo": "Advanced Paralegal or Attorney, Minnesota Workers' Compensation",
+   "empresa": "Entrepreneur Cooperative",
+   "empresa_anonima": false,
+   "ciudad": "Colombia",
+   "salario": {
+    "min": 10,
+    "max": 20,
+    "moneda": "USD",
+    "periodo": "HOUR"
+   },
+   "publicado": "2026-10-29",
+   "vigente_hasta": null,
+   "contrato": null,
+   "agencia": null,
+   "direccion": null,
+   "lat": 4.099917,
+   "lon": -72.9088133,
+   "id_fuente": "4484755118",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/advanced-paralegal-or-attorney-minnesota-workers-compensation-at-entrepreneur-cooperative-4484755118",
+     "id_fuente": "4484755118"
+    }
+   ],
+   "inc": [
+    "contrato"
+   ],
+   "deducidos": [
+    "modalidad",
+    "salario"
+   ],
+   "modalidad_fuente": "Remote Solely",
+   "empleados": 8,
+   "sede": "",
+   "modalidad": "remoto",
+   "modalidad_literal": "Fully Remote",
+   "modalidad_por_confirmar": false,
+   "id": "entrepreneur cooperative|advanced paralegal or attorney minnesota workers compensation|colombia",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "remoto confirmado en el cuerpo del aviso",
+     "puntos": 15,
+     "nota": "Fully Remote"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "publicado en USD: no se convierte ni se compara"
+    },
+    {
+     "concepto": "empresa pequeña / etapa temprana",
+     "puntos": -8,
+     "nota": "8 empleados"
+    }
+   ],
+   "puntaje": 7,
+   "ausencias": 0,
+   "nueva": false,
+   "visto_desde": "2026-10-29",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
+  {
    "cargo": "Compensation Consulting Analyst",
    "empresa": "Marsh",
    "empresa_anonima": false,
@@ -1138,71 +1060,6 @@
    "nueva": false,
    "visto_desde": "2026-08-29",
    "republicaciones": 0,
-   "reapariciones": 0
-  },
-  {
-   "cargo": "Profesional de Nómina y Compensación",
-   "empresa": "Fundación Universitaria Konrad Lorenz",
-   "empresa_anonima": false,
-   "ciudad": "Bogotá D.C.",
-   "salario": {
-    "min": 2500001.0,
-    "max": 3000000.0,
-    "moneda": "COP",
-    "periodo": "MONTH"
-   },
-   "publicado": "2026-10-13",
-   "vigente_hasta": "2026-12-28",
-   "contrato": "FULL_TIME",
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": null,
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "elempleo",
-     "url": "https://www.elempleo.com/co/ofertas-trabajo/profesional-de-nomina-y-compensacion-1886787195",
-     "id_fuente": null
-    }
-   ],
-   "inc": [
-    "modalidad"
-   ],
-   "deducidos": [],
-   "modalidad": null,
-   "modalidad_literal": null,
-   "modalidad_por_confirmar": false,
-   "id": "fundacion universitaria konrad lorenz|profesional de nomina y compensacion|bogota",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "no se pudo determinar: no suma ni resta"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "compensacion"
-    },
-    {
-     "concepto": "salario publicado por debajo de $18.000.000",
-     "puntos": -15,
-     "nota": "3.000.000 COP — se muestra igual: el publicado casi nunca es el negociado"
-    },
-    {
-     "concepto": "publicada hace menos de 3 días",
-     "puntos": 10,
-     "nota": "hace 3 día(s)"
-    }
-   ],
-   "puntaje": 7,
-   "ausencias": 0,
-   "nueva": false,
-   "visto_desde": "2026-10-14",
-   "republicaciones": 5,
    "reapariciones": 0
   },
   {
@@ -1497,75 +1354,6 @@
    "visto_desde": "2026-10-14",
    "republicaciones": 0,
    "reapariciones": 0
-  },
-  {
-   "cargo": "Compensation & Data Analyst | Inglés Avanzado",
-   "empresa": "MANPOWER",
-   "empresa_anonima": false,
-   "ciudad": "Bogotá D.C.",
-   "salario": {
-    "min": 4500001.0,
-    "max": 5500000.0,
-    "moneda": "COP",
-    "periodo": "MONTH"
-   },
-   "publicado": "2026-09-17",
-   "vigente_hasta": "2026-11-21",
-   "contrato": "PER_DIEM",
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": null,
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "elempleo",
-     "url": "https://www.elempleo.com/co/ofertas-trabajo/compensation-data-analyst-ingles-avanzado-1886770844",
-     "id_fuente": null
-    },
-    {
-     "fuente": "elempleo",
-     "url": "https://www.elempleo.com/co/ofertas-trabajo/compensation-hr-operations-analyst-ingles-avanzado-1886768508",
-     "id_fuente": null
-    }
-   ],
-   "inc": [],
-   "deducidos": [],
-   "modalidad": "híbrido",
-   "modalidad_literal": "3 dias en oficina",
-   "modalidad_por_confirmar": false,
-   "id": "manpower|compensation data analyst ingles avanzado|bogota",
-   "duplicados_hoy": 1,
-   "titulos_alternos": [
-    "Compensation & HR Operations Analyst | Inglés Avanzado"
-   ],
-   "desglose": [
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "no se pudo determinar: no suma ni resta"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "compensacion"
-    },
-    {
-     "concepto": "salario publicado por debajo de $18.000.000",
-     "puntos": -15,
-     "nota": "5.500.000 COP — se muestra igual: el publicado casi nunca es el negociado"
-    }
-   ],
-   "puntaje": -3,
-   "ausencias": 2,
-   "nueva": false,
-   "visto_desde": "2026-09-23",
-   "republicaciones": 0,
-   "reapariciones": 3,
-   "marcas": [
-    "no apareció hoy en la fuente (2 de 3)"
-   ]
   },
   {
    "cargo": "Compensation & HR Operations Analyst | Inglés Avanzado",
@@ -1998,6 +1786,66 @@
    "reapariciones": 0
   },
   {
+   "cargo": "Profesional de Nómina y Compensación",
+   "empresa": "Fundación Universitaria Konrad Lorenz",
+   "empresa_anonima": false,
+   "ciudad": "Bogotá D.C.",
+   "salario": {
+    "min": 2500001.0,
+    "max": 3000000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-10-13",
+   "vigente_hasta": "2026-12-28",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/profesional-de-nomina-y-compensacion-1886787195",
+     "id_fuente": null
+    }
+   ],
+   "inc": [
+    "modalidad"
+   ],
+   "deducidos": [],
+   "modalidad": null,
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "fundacion universitaria konrad lorenz|profesional de nomina y compensacion|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "compensacion"
+    },
+    {
+     "concepto": "salario publicado por debajo de $18.000.000",
+     "puntos": -15,
+     "nota": "3.000.000 COP — se muestra igual: el publicado casi nunca es el negociado"
+    }
+   ],
+   "puntaje": -3,
+   "ausencias": 0,
+   "nueva": false,
+   "visto_desde": "2026-10-14",
+   "republicaciones": 5,
+   "reapariciones": 0
+  },
+  {
    "cargo": "Profesional de Relaciones Laborales, Contratación, Estructura y Compensación",
    "empresa": "CONFIDENTIAL",
    "empresa_anonima": true,
@@ -2168,6 +2016,143 @@
   }
  ],
  "caidas": [
+  {
+   "cargo": "PROFESIONAL DE ADMINISTRACIÓN LABORAL Y COMPENSACIÓN",
+   "empresa": "Politecnico Grancolombiano",
+   "empresa_anonima": false,
+   "ciudad": "Bogotá D.C.",
+   "salario": {
+    "min": 4000001.0,
+    "max": 4500000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-10-09",
+   "vigente_hasta": "2026-12-08",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/profesional-de-administracion-laboral-y-compensacion-1886778985",
+     "id_fuente": null
+    }
+   ],
+   "inc": [],
+   "deducidos": [],
+   "modalidad": "remoto",
+   "modalidad_literal": "Teletrabajo",
+   "modalidad_por_confirmar": false,
+   "id": "politecnico grancolombiano|profesional de administracion laboral y compensacion|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "remoto confirmado en el cuerpo del aviso",
+     "puntos": 15,
+     "nota": "Teletrabajo"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "compensacion"
+    },
+    {
+     "concepto": "salario publicado por debajo de $18.000.000",
+     "puntos": -15,
+     "nota": "4.500.000 COP — se muestra igual: el publicado casi nunca es el negociado"
+    }
+   ],
+   "puntaje": 12,
+   "nueva": false,
+   "visto_desde": "2026-10-12",
+   "republicaciones": 0,
+   "reapariciones": 2,
+   "marcas": [
+    "no apareció hoy en la fuente (2 de 3)"
+   ],
+   "desaparecio": "2026-11-02",
+   "dias_publicada": 21
+  },
+  {
+   "cargo": "Compensation & Data Analyst | Inglés Avanzado",
+   "empresa": "MANPOWER",
+   "empresa_anonima": false,
+   "ciudad": "Bogotá D.C.",
+   "salario": {
+    "min": 4500001.0,
+    "max": 5500000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-09-17",
+   "vigente_hasta": "2026-11-21",
+   "contrato": "PER_DIEM",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/compensation-data-analyst-ingles-avanzado-1886770844",
+     "id_fuente": null
+    },
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/compensation-hr-operations-analyst-ingles-avanzado-1886768508",
+     "id_fuente": null
+    }
+   ],
+   "inc": [],
+   "deducidos": [],
+   "modalidad": "híbrido",
+   "modalidad_literal": "3 dias en oficina",
+   "modalidad_por_confirmar": false,
+   "id": "manpower|compensation data analyst ingles avanzado|bogota",
+   "duplicados_hoy": 1,
+   "titulos_alternos": [
+    "Compensation & HR Operations Analyst | Inglés Avanzado"
+   ],
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "compensacion"
+    },
+    {
+     "concepto": "salario publicado por debajo de $18.000.000",
+     "puntos": -15,
+     "nota": "5.500.000 COP — se muestra igual: el publicado casi nunca es el negociado"
+    }
+   ],
+   "puntaje": -3,
+   "nueva": false,
+   "visto_desde": "2026-09-23",
+   "republicaciones": 0,
+   "reapariciones": 3,
+   "marcas": [
+    "no apareció hoy en la fuente (2 de 3)"
+   ],
+   "desaparecio": "2026-11-02",
+   "dias_publicada": 40
+  },
   {
    "cargo": "Global Benefits & Compensation Lead",
    "empresa": "GoGlobal",
@@ -4939,146 +4924,6 @@
    ],
    "desaparecio": "2026-09-18",
    "dias_publicada": 12
-  },
-  {
-   "cargo": "Workday Analyst – Compensation & Benefits - Remote Work",
-   "empresa": "BairesDev",
-   "empresa_anonima": false,
-   "ciudad": "Valle del Cauca, Colombia",
-   "salario": null,
-   "publicado": "2026-09-08",
-   "vigente_hasta": "2026-10-08",
-   "contrato": [
-    "FULL_TIME"
-   ],
-   "agencia": null,
-   "direccion": null,
-   "lat": 3.6984053,
-   "lon": -76.5501996,
-   "id_fuente": "4463522497",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "linkedin",
-     "url": "https://co.linkedin.com/jobs/view/workday-analyst-%E2%80%93-compensation-benefits-remote-work-at-bairesdev-4463522497",
-     "id_fuente": "4463522497"
-    }
-   ],
-   "inc": [
-    "salario"
-   ],
-   "deducidos": [
-    "modalidad"
-   ],
-   "modalidad_fuente": "Remote Solely",
-   "empleados": 3194,
-   "sede": "San Francisco, California",
-   "modalidad": "remoto",
-   "modalidad_literal": "remote",
-   "modalidad_por_confirmar": false,
-   "marcas": [
-    "remoto fuera de Colombia, contratación por confirmar",
-    "no apareció hoy en la fuente (2 de 3)"
-   ],
-   "id": "bairesdev|workday analyst compensation benefits|valle del cauca",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "multinacional estadounidense",
-     "puntos": -5,
-     "nota": "San Francisco, California"
-    },
-    {
-     "concepto": "remoto confirmado en el cuerpo del aviso",
-     "puntos": 15,
-     "nota": "remote"
-    },
-    {
-     "concepto": "salario",
-     "puntos": 0,
-     "nota": "sin salario publicado, no suma ni resta"
-    }
-   ],
-   "puntaje": 10,
-   "nueva": false,
-   "visto_desde": "2026-09-09",
-   "republicaciones": 0,
-   "reapariciones": 0,
-   "desaparecio": "2026-09-17",
-   "dias_publicada": 8
-  },
-  {
-   "cargo": "jefe de recursos humanos",
-   "empresa": "CONFIDENTIAL",
-   "empresa_anonima": true,
-   "ciudad": "Cundinamarca",
-   "salario": {
-    "min": 4000001.0,
-    "max": 4500000.0,
-    "moneda": "COP",
-    "periodo": "MONTH"
-   },
-   "publicado": "2026-09-11",
-   "vigente_hasta": "2026-11-10",
-   "contrato": "FULL_TIME",
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": null,
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "elempleo",
-     "url": "https://www.elempleo.com/co/ofertas-trabajo/jefe-de-recursos-humanos-1886765907",
-     "id_fuente": null
-    }
-   ],
-   "inc": [],
-   "deducidos": [],
-   "modalidad": "presencial",
-   "modalidad_literal": "presencial",
-   "modalidad_por_confirmar": false,
-   "id": "empresa no revelada|jefe de recursos humanos|bogota alrededores#anon:4000001-4500000-2026-09-11",
-   "duplicados_hoy": 1,
-   "marcas": [
-    "empresa no revelada: puede estar repetida",
-    "no apareció hoy en la fuente (2 de 3)"
-   ],
-   "desglose": [
-    {
-     "concepto": "cargo secundario de RR.HH.",
-     "puntos": 0,
-     "nota": "solo suma si el cuerpo habla de compensación"
-    },
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "el aviso no revela la empresa: no suma ni resta"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "remuneracion"
-    },
-    {
-     "concepto": "salario publicado por debajo de $18.000.000",
-     "puntos": -15,
-     "nota": "4.500.000 COP — se muestra igual: el publicado casi nunca es el negociado"
-    },
-    {
-     "concepto": "publicada hace menos de 3 días",
-     "puntos": 10,
-     "nota": "hace 3 día(s)"
-    }
-   ],
-   "puntaje": 7,
-   "nueva": false,
-   "visto_desde": "2026-09-12",
-   "republicaciones": 0,
-   "reapariciones": 0,
-   "desaparecio": "2026-09-17",
-   "dias_publicada": 5
   }
  ],
  "avisos_pendientes": 0
