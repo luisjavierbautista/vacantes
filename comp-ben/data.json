@@ -1,18 +1,18 @@
 {
  "busqueda": "comp-ben",
- "corrida": "2026-11-02",
- "corrida_hora": "2026-11-02 20:46",
+ "corrida": "2026-11-03",
+ "corrida_hora": "2026-11-03 18:26",
  "fuentes": {
   "elempleo": {
-   "avisos": 17,
+   "avisos": 16,
    "error": null
   },
   "computrabajo": {
-   "avisos": 3,
+   "avisos": 4,
    "error": null
   },
   "workday": {
-   "avisos": 9,
+   "avisos": 10,
    "error": null
   },
   "greenhouse": {
@@ -20,7 +20,7 @@
    "error": null
   },
   "arbeitnow": {
-   "avisos": 0,
+   "avisos": 1,
    "error": null
   },
   "apify_linkedin": {
@@ -28,9 +28,14 @@
    "error": null
   }
  },
- "fallos": [],
- "avisos_recogidos": 44,
- "descartados": 11,
+ "fallos": [
+  {
+   "url": "https://www.elempleo.com/co/ofertas-trabajo/lider-de-nomina-y-compensacion-1886762031",
+   "motivo": "HTTP 410"
+  }
+ ],
+ "avisos_recogidos": 46,
+ "descartados": 13,
  "fusionados": [
   {
    "conservado": "Compensation & HR Operations Analyst | Inglés Avanzado",
@@ -38,10 +43,12 @@
    "parecido": 0.67
   }
  ],
- "nuevas": [],
+ "nuevas": [
+  "pta|administrador de compensacion y beneficios|bogota"
+ ],
  "reaparecidas": [],
  "ausentes": [
-  "laboratorio farpag|gerente de gestion humana|bogota"
+  "empresa no revelada|lider de nomina y compensacion|bogota#anon:5500001-6000000-2026-09-04"
  ],
  "republicadas": [],
  "vigentes": [
@@ -179,74 +186,6 @@
    "reapariciones": 1
   },
   {
-   "cargo": "LIDER DE COMPENSACION Y BENEFICIOS",
-   "empresa": "CONFIDENTIAL",
-   "empresa_anonima": true,
-   "ciudad": "Bogotá D.C.",
-   "salario": null,
-   "publicado": "2026-10-30",
-   "vigente_hasta": "2026-12-29",
-   "contrato": "FULL_TIME",
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": null,
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "elempleo",
-     "url": "https://www.elempleo.com/co/ofertas-trabajo/lider-de-compensacion-y-beneficios-1886787473",
-     "id_fuente": null
-    }
-   ],
-   "inc": [
-    "salario"
-   ],
-   "deducidos": [],
-   "modalidad": "híbrido",
-   "modalidad_literal": "Hibrido",
-   "modalidad_por_confirmar": false,
-   "id": "empresa no revelada|lider de compensacion y beneficios|bogota#anon:0-0-2026-10-30",
-   "duplicados_hoy": 1,
-   "marcas": [
-    "empresa no revelada: puede estar repetida"
-   ],
-   "desglose": [
-    {
-     "concepto": "cargo objetivo de la búsqueda",
-     "puntos": 25,
-     "nota": "LIDER DE COMPENSACION Y BENEFICIOS"
-    },
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "el aviso no revela la empresa: no suma ni resta"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "compensacion"
-    },
-    {
-     "concepto": "salario",
-     "puntos": 0,
-     "nota": "sin salario publicado, no suma ni resta"
-    },
-    {
-     "concepto": "publicada hace menos de 3 días",
-     "puntos": 10,
-     "nota": "hace 3 día(s)"
-    }
-   ],
-   "puntaje": 47,
-   "ausencias": 0,
-   "nueva": false,
-   "visto_desde": "2026-10-30",
-   "republicaciones": 0,
-   "reapariciones": 0
-  },
-  {
    "cargo": "Coordinador (a) de compensación y beneficios",
    "empresa": "CONFIDENTIAL",
    "empresa_anonima": true,
@@ -374,6 +313,69 @@
    "reapariciones": 0
   },
   {
+   "cargo": "LIDER DE COMPENSACION Y BENEFICIOS",
+   "empresa": "CONFIDENTIAL",
+   "empresa_anonima": true,
+   "ciudad": "Bogotá D.C.",
+   "salario": null,
+   "publicado": "2026-10-30",
+   "vigente_hasta": "2026-12-29",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/lider-de-compensacion-y-beneficios-1886787473",
+     "id_fuente": null
+    }
+   ],
+   "inc": [
+    "salario"
+   ],
+   "deducidos": [],
+   "modalidad": "híbrido",
+   "modalidad_literal": "Hibrido",
+   "modalidad_por_confirmar": false,
+   "id": "empresa no revelada|lider de compensacion y beneficios|bogota#anon:0-0-2026-10-30",
+   "duplicados_hoy": 1,
+   "marcas": [
+    "empresa no revelada: puede estar repetida"
+   ],
+   "desglose": [
+    {
+     "concepto": "cargo objetivo de la búsqueda",
+     "puntos": 25,
+     "nota": "LIDER DE COMPENSACION Y BENEFICIOS"
+    },
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "el aviso no revela la empresa: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "compensacion"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    }
+   ],
+   "puntaje": 37,
+   "ausencias": 0,
+   "nueva": false,
+   "visto_desde": "2026-10-30",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
+  {
    "cargo": "Profesional de compensación y productividad",
    "empresa": "Colgas",
    "empresa_anonima": false,
@@ -432,6 +434,67 @@
    "ausencias": 0,
    "nueva": false,
    "visto_desde": "2026-10-22",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
+  {
+   "cargo": "Administrador(a) de Compensación y Beneficios",
+   "empresa": "PTA SAS",
+   "empresa_anonima": false,
+   "ciudad": "Bogotá, D.C.",
+   "salario": null,
+   "publicado": "2026-11-03",
+   "vigente_hasta": "2027-01-02",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": "772BFD5D2E35F996",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "computrabajo",
+     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-administradora-de-compensacion-y-beneficios-en-bogota-dc-3833AEFB9B61CA2661373E686DCF3405",
+     "id_fuente": "772BFD5D2E35F996"
+    }
+   ],
+   "inc": [
+    "salario",
+    "modalidad"
+   ],
+   "deducidos": [],
+   "modalidad": null,
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "pta|administrador de compensacion y beneficios|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "compensacion"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    },
+    {
+     "concepto": "publicada hace menos de 3 días",
+     "puntos": 10,
+     "nota": "hace 0 día(s)"
+    }
+   ],
+   "puntaje": 22,
+   "ausencias": 0,
+   "nueva": true,
+   "visto_desde": "2026-11-03",
    "republicaciones": 0,
    "reapariciones": 0
   },
@@ -561,70 +624,6 @@
    "visto_desde": "2026-10-26",
    "republicaciones": 0,
    "reapariciones": 0
-  },
-  {
-   "cargo": "Gerente de gestion humana Bogota",
-   "empresa": "Laboratorio Farpag",
-   "empresa_anonima": false,
-   "ciudad": "Bogotá, D.C.",
-   "salario": null,
-   "publicado": "2026-09-01",
-   "vigente_hasta": "2026-10-31",
-   "contrato": "FULL_TIME",
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": "47E5CCBE1CB66E91",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "computrabajo",
-     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-gerente-de-gestion-humana-bogota-en-bogota-dc-340F7E6B615A1C8A61373E686DCF3405",
-     "id_fuente": "47E5CCBE1CB66E91"
-    }
-   ],
-   "inc": [
-    "salario",
-    "modalidad"
-   ],
-   "deducidos": [],
-   "modalidad": null,
-   "modalidad_literal": null,
-   "modalidad_por_confirmar": false,
-   "id": "laboratorio farpag|gerente de gestion humana|bogota",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "cargo secundario de RR.HH.",
-     "puntos": 0,
-     "nota": "solo suma si el cuerpo habla de compensación"
-    },
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "no se pudo determinar: no suma ni resta"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "compensacion"
-    },
-    {
-     "concepto": "salario",
-     "puntos": 0,
-     "nota": "sin salario publicado, no suma ni resta"
-    }
-   ],
-   "puntaje": 12,
-   "ausencias": 2,
-   "nueva": false,
-   "visto_desde": "2026-09-01",
-   "republicaciones": 0,
-   "reapariciones": 0,
-   "marcas": [
-    "no apareció hoy en la fuente (2 de 3)"
-   ]
   },
   {
    "cargo": "National Human Resources Total Rewards Expert",
@@ -1699,7 +1698,8 @@
    "id": "empresa no revelada|lider de nomina y compensacion|bogota#anon:5500001-6000000-2026-09-04",
    "duplicados_hoy": 1,
    "marcas": [
-    "empresa no revelada: puede estar repetida"
+    "empresa no revelada: puede estar repetida",
+    "no apareció hoy en la fuente (1 de 3)"
    ],
    "desglose": [
     {
@@ -1719,7 +1719,7 @@
     }
    ],
    "puntaje": -3,
-   "ausencias": 0,
+   "ausencias": 1,
    "nueva": false,
    "visto_desde": "2026-09-04",
    "republicaciones": 0,
@@ -2016,6 +2016,71 @@
   }
  ],
  "caidas": [
+  {
+   "cargo": "Gerente de gestion humana Bogota",
+   "empresa": "Laboratorio Farpag",
+   "empresa_anonima": false,
+   "ciudad": "Bogotá, D.C.",
+   "salario": null,
+   "publicado": "2026-09-01",
+   "vigente_hasta": "2026-10-31",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": "47E5CCBE1CB66E91",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "computrabajo",
+     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-gerente-de-gestion-humana-bogota-en-bogota-dc-340F7E6B615A1C8A61373E686DCF3405",
+     "id_fuente": "47E5CCBE1CB66E91"
+    }
+   ],
+   "inc": [
+    "salario",
+    "modalidad"
+   ],
+   "deducidos": [],
+   "modalidad": null,
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "laboratorio farpag|gerente de gestion humana|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "cargo secundario de RR.HH.",
+     "puntos": 0,
+     "nota": "solo suma si el cuerpo habla de compensación"
+    },
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "compensacion"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    }
+   ],
+   "puntaje": 12,
+   "nueva": false,
+   "visto_desde": "2026-09-01",
+   "republicaciones": 0,
+   "reapariciones": 0,
+   "marcas": [
+    "no apareció hoy en la fuente (2 de 3)"
+   ],
+   "desaparecio": "2026-11-03",
+   "dias_publicada": 63
+  },
   {
    "cargo": "PROFESIONAL DE ADMINISTRACIÓN LABORAL Y COMPENSACIÓN",
    "empresa": "Politecnico Grancolombiano",
@@ -4870,60 +4935,6 @@
    ],
    "desaparecio": "2026-09-20",
    "dias_publicada": 22
-  },
-  {
-   "cargo": "Profesional en Estructura organizacional y compensación",
-   "empresa": "COLGAS S.A. E.S.P.",
-   "empresa_anonima": false,
-   "ciudad": "Bogotá, D.C.",
-   "salario": null,
-   "publicado": "2026-09-04",
-   "vigente_hasta": "2026-11-03",
-   "contrato": "FULL_TIME",
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": "E910A098C3C0CE15",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "computrabajo",
-     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-profesional-en-estructura-organizacional-y-compensacion-en-bogota-dc-109492EB878C517361373E686DCF3405",
-     "id_fuente": "E910A098C3C0CE15"
-    }
-   ],
-   "inc": [
-    "salario"
-   ],
-   "deducidos": [],
-   "modalidad": "híbrido",
-   "modalidad_literal": "hibrido",
-   "modalidad_por_confirmar": false,
-   "id": "colgas e s p|profesional en estructura organizacional y compensacion|bogota",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "no se pudo determinar: no suma ni resta"
-    },
-    {
-     "concepto": "salario",
-     "puntos": 0,
-     "nota": "sin salario publicado, no suma ni resta"
-    }
-   ],
-   "puntaje": 0,
-   "nueva": false,
-   "visto_desde": "2026-09-06",
-   "republicaciones": 0,
-   "reapariciones": 1,
-   "marcas": [
-    "no apareció hoy en la fuente (2 de 3)"
-   ],
-   "desaparecio": "2026-09-18",
-   "dias_publicada": 12
   }
  ],
  "avisos_pendientes": 0
