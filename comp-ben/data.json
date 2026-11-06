@@ -1,14 +1,14 @@
 {
  "busqueda": "comp-ben",
- "corrida": "2026-11-05",
- "corrida_hora": "2026-11-05 18:44",
+ "corrida": "2026-11-06",
+ "corrida_hora": "2026-11-06 17:58",
  "fuentes": {
   "elempleo": {
    "avisos": 17,
    "error": null
   },
   "computrabajo": {
-   "avisos": 2,
+   "avisos": 3,
    "error": null
   },
   "workday": {
@@ -24,7 +24,7 @@
    "error": null
   },
   "apify_linkedin": {
-   "avisos": 18,
+   "avisos": 17,
    "error": null
   }
  },
@@ -39,12 +39,13 @@
   }
  ],
  "nuevas": [
-  "marsh agency|compensation consulting analyst|colombia"
+  "axa partners|lider de compensacion y beneficios|bogota"
  ],
- "reaparecidas": [],
- "ausentes": [
-  "pta|administrador de compensacion y beneficios|bogota",
+ "reaparecidas": [
   "colgas e s p|profesional de compensacion y productividad|bogota"
+ ],
+ "ausentes": [
+  "decameron all inclusive hotels resorts|profesional de compensacion y beneficios|bogota"
  ],
  "republicadas": [],
  "vigentes": [
@@ -180,6 +181,78 @@
    "visto_desde": "2026-09-15",
    "republicaciones": 0,
    "reapariciones": 1
+  },
+  {
+   "cargo": "LIDER DE COMPENSACIÓN Y BENEFICIOS",
+   "empresa": "AXA Partners",
+   "empresa_anonima": false,
+   "ciudad": "Bogota, Capital District",
+   "salario": null,
+   "publicado": "2026-11-06",
+   "vigente_hasta": "2026-12-06",
+   "contrato": [
+    "FULL_TIME"
+   ],
+   "agencia": null,
+   "direccion": null,
+   "lat": 4.6533817,
+   "lon": -74.0836331,
+   "id_fuente": "4488060567",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/lider-de-compensaci%C3%B3n-y-beneficios-at-axa-partners-4488060567",
+     "id_fuente": "4488060567"
+    }
+   ],
+   "inc": [
+    "salario"
+   ],
+   "deducidos": [
+    "modalidad"
+   ],
+   "modalidad_fuente": "Hybrid",
+   "empleados": 5997,
+   "sede": "Malakoff",
+   "modalidad": "híbrido",
+   "modalidad_literal": "Hibrido",
+   "modalidad_por_confirmar": false,
+   "id": "axa partners|lider de compensacion y beneficios|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "cargo objetivo de la búsqueda",
+     "puntos": 25,
+     "nota": "LIDER DE COMPENSACIÓN Y BENEFICIOS"
+    },
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "compensacion, encuestas salariales"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    },
+    {
+     "concepto": "publicada hace menos de 3 días",
+     "puntos": 10,
+     "nota": "hace 0 día(s)"
+    }
+   ],
+   "puntaje": 47,
+   "ausencias": 0,
+   "nueva": true,
+   "visto_desde": "2026-11-06",
+   "republicaciones": 0,
+   "reapariciones": 0
   },
   {
    "cargo": "Coordinador (a) de compensación y beneficios",
@@ -434,70 +507,6 @@
    "reapariciones": 0
   },
   {
-   "cargo": "Administrador(a) de Compensación y Beneficios",
-   "empresa": "PTA SAS",
-   "empresa_anonima": false,
-   "ciudad": "Bogotá, D.C.",
-   "salario": null,
-   "publicado": "2026-11-03",
-   "vigente_hasta": "2027-01-02",
-   "contrato": "FULL_TIME",
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": "772BFD5D2E35F996",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "computrabajo",
-     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-administradora-de-compensacion-y-beneficios-en-bogota-dc-3833AEFB9B61CA2661373E686DCF3405",
-     "id_fuente": "772BFD5D2E35F996"
-    }
-   ],
-   "inc": [
-    "salario",
-    "modalidad"
-   ],
-   "deducidos": [],
-   "modalidad": null,
-   "modalidad_literal": null,
-   "modalidad_por_confirmar": false,
-   "id": "pta|administrador de compensacion y beneficios|bogota",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "no se pudo determinar: no suma ni resta"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "compensacion"
-    },
-    {
-     "concepto": "salario",
-     "puntos": 0,
-     "nota": "sin salario publicado, no suma ni resta"
-    },
-    {
-     "concepto": "publicada hace menos de 3 días",
-     "puntos": 10,
-     "nota": "hace 0 día(s)"
-    }
-   ],
-   "puntaje": 22,
-   "ausencias": 2,
-   "nueva": false,
-   "visto_desde": "2026-11-03",
-   "republicaciones": 0,
-   "reapariciones": 0,
-   "marcas": [
-    "no apareció hoy en la fuente (2 de 3)"
-   ]
-  },
-  {
    "cargo": "Especialista Senior de Compensación",
    "empresa": "Falabella",
    "empresa_anonima": false,
@@ -619,7 +628,7 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 2 día(s)"
+     "nota": "hace 3 día(s)"
     }
    ],
    "puntaje": 22,
@@ -685,12 +694,12 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 0 día(s)"
+     "nota": "hace 1 día(s)"
     }
    ],
    "puntaje": 17,
    "ausencias": 0,
-   "nueva": true,
+   "nueva": false,
    "visto_desde": "2026-11-05",
    "republicaciones": 0,
    "reapariciones": 0
@@ -938,11 +947,14 @@
     }
    ],
    "puntaje": 12,
-   "ausencias": 0,
+   "ausencias": 1,
    "nueva": false,
    "visto_desde": "2026-08-29",
    "republicaciones": 1,
-   "reapariciones": 1
+   "reapariciones": 1,
+   "marcas": [
+    "no apareció hoy en la fuente (1 de 3)"
+   ]
   },
   {
    "cargo": "Profesional de compensación y productividad",
@@ -994,14 +1006,12 @@
     }
    ],
    "puntaje": 12,
-   "ausencias": 1,
+   "ausencias": 0,
    "nueva": false,
    "visto_desde": "2026-10-22",
    "republicaciones": 0,
-   "reapariciones": 1,
-   "marcas": [
-    "no apareció hoy en la fuente (1 de 3)"
-   ]
+   "reapariciones": 2,
+   "reaparecida": true
   },
   {
    "cargo": "Workers' Compensation Case Manager",
@@ -1935,8 +1945,8 @@
    "contrato": "FULL_TIME",
    "agencia": null,
    "direccion": null,
-   "lat": 4.6533817,
-   "lon": -74.0836331,
+   "lat": null,
+   "lon": null,
    "id_fuente": null,
    "pais": null,
    "fuentes": [
@@ -1944,11 +1954,6 @@
      "fuente": "elempleo",
      "url": "https://www.elempleo.com/co/ofertas-trabajo/profesional-de-nomina-y-compensacion-1886787195",
      "id_fuente": null
-    },
-    {
-     "fuente": "linkedin",
-     "url": "https://co.linkedin.com/jobs/view/profesional-de-n%C3%B3mina-y-compensaci%C3%B3n-at-fundaci%C3%B3n-universitaria-konrad-lorenz-4487033706",
-     "id_fuente": "4487033706"
     }
    ],
    "inc": [
@@ -1959,7 +1964,7 @@
    "modalidad_literal": null,
    "modalidad_por_confirmar": false,
    "id": "fundacion universitaria konrad lorenz|profesional de nomina y compensacion|bogota",
-   "duplicados_hoy": 2,
+   "duplicados_hoy": 1,
    "desglose": [
     {
      "concepto": "origen de la empresa",
@@ -2155,6 +2160,71 @@
   }
  ],
  "caidas": [
+  {
+   "cargo": "Administrador(a) de Compensación y Beneficios",
+   "empresa": "PTA SAS",
+   "empresa_anonima": false,
+   "ciudad": "Bogotá, D.C.",
+   "salario": null,
+   "publicado": "2026-11-03",
+   "vigente_hasta": "2027-01-02",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": "772BFD5D2E35F996",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "computrabajo",
+     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-administradora-de-compensacion-y-beneficios-en-bogota-dc-3833AEFB9B61CA2661373E686DCF3405",
+     "id_fuente": "772BFD5D2E35F996"
+    }
+   ],
+   "inc": [
+    "salario",
+    "modalidad"
+   ],
+   "deducidos": [],
+   "modalidad": null,
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "pta|administrador de compensacion y beneficios|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "compensacion"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    },
+    {
+     "concepto": "publicada hace menos de 3 días",
+     "puntos": 10,
+     "nota": "hace 0 día(s)"
+    }
+   ],
+   "puntaje": 22,
+   "nueva": false,
+   "visto_desde": "2026-11-03",
+   "republicaciones": 0,
+   "reapariciones": 0,
+   "marcas": [
+    "no apareció hoy en la fuente (2 de 3)"
+   ],
+   "desaparecio": "2026-11-06",
+   "dias_publicada": 3
+  },
   {
    "cargo": "Líder de Nómina y Compensación",
    "empresa": "CONFIDENTIAL",
@@ -4866,147 +4936,6 @@
    "reapariciones": 0,
    "desaparecio": "2026-09-22",
    "dias_publicada": 13
-  },
-  {
-   "cargo": "Compensation Analyst",
-   "empresa": "Sprocket International Group",
-   "empresa_anonima": true,
-   "ciudad": "Colombia",
-   "salario": null,
-   "publicado": "2026-09-18",
-   "vigente_hasta": null,
-   "contrato": null,
-   "agencia": "Sprocket International Group",
-   "direccion": null,
-   "lat": 4.099917,
-   "lon": -72.9088133,
-   "id_fuente": "4467819572",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "linkedin",
-     "url": "https://co.linkedin.com/jobs/view/compensation-analyst-at-sprocket-international-group-4467819572",
-     "id_fuente": "4467819572"
-    }
-   ],
-   "inc": [
-    "salario",
-    "contrato"
-   ],
-   "deducidos": [
-    "modalidad",
-    "agencia"
-   ],
-   "modalidad_fuente": "On-site",
-   "empleados": 15,
-   "sede": "Miami, FL",
-   "modalidad": "presencial",
-   "modalidad_literal": "Presencial",
-   "modalidad_por_confirmar": false,
-   "id": "sprocket international|compensation analyst|colombia",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "el aviso no revela la empresa: no suma ni resta"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "compensacion, equidad interna, benchmarking salarial"
-    },
-    {
-     "concepto": "salario",
-     "puntos": 0,
-     "nota": "sin salario publicado, no suma ni resta"
-    },
-    {
-     "concepto": "publicada hace menos de 3 días",
-     "puntos": 10,
-     "nota": "hace 0 día(s)"
-    },
-    {
-     "concepto": "empresa pequeña / etapa temprana",
-     "puntos": -8,
-     "nota": "15 empleados"
-    }
-   ],
-   "puntaje": 14,
-   "nueva": false,
-   "visto_desde": "2026-09-18",
-   "republicaciones": 0,
-   "reapariciones": 0,
-   "marcas": [
-    "no apareció hoy en la fuente (2 de 3)"
-   ],
-   "desaparecio": "2026-09-21",
-   "dias_publicada": 3
-  },
-  {
-   "cargo": "Coordinador/a de Compensación y Relaciones Laborales",
-   "empresa": "CONFIDENTIAL",
-   "empresa_anonima": true,
-   "ciudad": "Bogotá D.C.",
-   "salario": {
-    "min": 4000001.0,
-    "max": 4500000.0,
-    "moneda": "COP",
-    "periodo": "MONTH"
-   },
-   "publicado": "2026-08-20",
-   "vigente_hasta": "2026-09-19",
-   "contrato": "FULL_TIME",
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": null,
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "elempleo",
-     "url": "https://www.elempleo.com/co/ofertas-trabajo/coordinador-a-de-compensacion-y-relaciones-laborales-1886755231",
-     "id_fuente": null
-    }
-   ],
-   "inc": [
-    "modalidad"
-   ],
-   "deducidos": [],
-   "modalidad": null,
-   "modalidad_literal": null,
-   "modalidad_por_confirmar": false,
-   "id": "empresa no revelada|coordinador a de compensacion y relaciones laborales|bogota#anon:4000001-4500000-2026-08-20",
-   "duplicados_hoy": 1,
-   "marcas": [
-    "empresa no revelada: puede estar repetida",
-    "no apareció hoy en la fuente (2 de 3)"
-   ],
-   "desglose": [
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "el aviso no revela la empresa: no suma ni resta"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "compensacion, bandas salariales, equidad interna"
-    },
-    {
-     "concepto": "salario publicado por debajo de $18.000.000",
-     "puntos": -15,
-     "nota": "4.500.000 COP — se muestra igual: el publicado casi nunca es el negociado"
-    }
-   ],
-   "puntaje": -3,
-   "nueva": false,
-   "visto_desde": "2026-08-28",
-   "republicaciones": 0,
-   "reapariciones": 0,
-   "desaparecio": "2026-09-21",
-   "dias_publicada": 24
   }
  ],
  "avisos_pendientes": 0
