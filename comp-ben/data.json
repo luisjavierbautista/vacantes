@@ -1,7 +1,7 @@
 {
  "busqueda": "comp-ben",
- "corrida": "2026-11-06",
- "corrida_hora": "2026-11-06 17:58",
+ "corrida": "2026-11-07",
+ "corrida_hora": "2026-11-07 16:52",
  "fuentes": {
   "elempleo": {
    "avisos": 17,
@@ -24,12 +24,12 @@
    "error": null
   },
   "apify_linkedin": {
-   "avisos": 17,
+   "avisos": 15,
    "error": null
   }
  },
  "fallos": [],
- "avisos_recogidos": 46,
+ "avisos_recogidos": 44,
  "descartados": 11,
  "fusionados": [
   {
@@ -38,14 +38,12 @@
    "parecido": 0.67
   }
  ],
- "nuevas": [
-  "axa partners|lider de compensacion y beneficios|bogota"
- ],
- "reaparecidas": [
-  "colgas e s p|profesional de compensacion y productividad|bogota"
- ],
+ "nuevas": [],
+ "reaparecidas": [],
  "ausentes": [
-  "decameron all inclusive hotels resorts|profesional de compensacion y beneficios|bogota"
+  "marsh agency|compensation consulting analyst|colombia",
+  "decameron all inclusive hotels resorts|profesional de compensacion y beneficios|bogota",
+  "medtronic|senior compensation operations analyst|bogota"
  ],
  "republicadas": [],
  "vigentes": [
@@ -244,12 +242,12 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 0 día(s)"
+     "nota": "hace 1 día(s)"
     }
    ],
    "puntaje": 47,
    "ausencias": 0,
-   "nueva": true,
+   "nueva": false,
    "visto_desde": "2026-11-06",
    "republicaciones": 0,
    "reapariciones": 0
@@ -572,73 +570,6 @@
    "reapariciones": 0
   },
   {
-   "cargo": "Senior Analyst, Total Rewards",
-   "empresa": "Mastercard",
-   "empresa_anonima": false,
-   "ciudad": "Bogota, Capital District",
-   "salario": null,
-   "publicado": "2026-11-03",
-   "vigente_hasta": "2026-12-03",
-   "contrato": [
-    "FULL_TIME"
-   ],
-   "agencia": null,
-   "direccion": null,
-   "lat": 4.6533817,
-   "lon": -74.0836331,
-   "id_fuente": "4485027742",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "linkedin",
-     "url": "https://co.linkedin.com/jobs/view/senior-analyst-total-rewards-at-mastercard-4485027742",
-     "id_fuente": "4485027742"
-    }
-   ],
-   "inc": [
-    "salario"
-   ],
-   "deducidos": [
-    "modalidad"
-   ],
-   "modalidad_fuente": "On-site",
-   "empleados": 44260,
-   "sede": "Purchase, NY",
-   "modalidad": "On-site",
-   "modalidad_literal": null,
-   "modalidad_por_confirmar": false,
-   "id": "mastercard|senior analyst total rewards|bogota",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "no se pudo determinar: no suma ni resta"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "total rewards"
-    },
-    {
-     "concepto": "salario",
-     "puntos": 0,
-     "nota": "sin salario publicado, no suma ni resta"
-    },
-    {
-     "concepto": "publicada hace menos de 3 días",
-     "puntos": 10,
-     "nota": "hace 3 día(s)"
-    }
-   ],
-   "puntaje": 22,
-   "ausencias": 0,
-   "nueva": false,
-   "visto_desde": "2026-11-04",
-   "republicaciones": 0,
-   "reapariciones": 0
-  },
-  {
    "cargo": "Compensation Consulting Analyst",
    "empresa": "Marsh Agency",
    "empresa_anonima": false,
@@ -698,11 +629,14 @@
     }
    ],
    "puntaje": 17,
-   "ausencias": 0,
+   "ausencias": 1,
    "nueva": false,
    "visto_desde": "2026-11-05",
    "republicaciones": 0,
-   "reapariciones": 0
+   "reapariciones": 0,
+   "marcas": [
+    "no apareció hoy en la fuente (1 de 3)"
+   ]
   },
   {
    "cargo": "Especialista Compensación y Beneficios",
@@ -947,13 +881,13 @@
     }
    ],
    "puntaje": 12,
-   "ausencias": 1,
+   "ausencias": 2,
    "nueva": false,
    "visto_desde": "2026-08-29",
    "republicaciones": 1,
    "reapariciones": 1,
    "marcas": [
-    "no apareció hoy en la fuente (1 de 3)"
+    "no apareció hoy en la fuente (2 de 3)"
    ]
   },
   {
@@ -1010,8 +944,69 @@
    "nueva": false,
    "visto_desde": "2026-10-22",
    "republicaciones": 0,
-   "reapariciones": 2,
-   "reaparecida": true
+   "reapariciones": 2
+  },
+  {
+   "cargo": "Senior Analyst, Total Rewards",
+   "empresa": "Mastercard",
+   "empresa_anonima": false,
+   "ciudad": "Bogota, Capital District",
+   "salario": null,
+   "publicado": "2026-11-03",
+   "vigente_hasta": "2026-12-03",
+   "contrato": [
+    "FULL_TIME"
+   ],
+   "agencia": null,
+   "direccion": null,
+   "lat": 4.6533817,
+   "lon": -74.0836331,
+   "id_fuente": "4485027742",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/senior-analyst-total-rewards-at-mastercard-4485027742",
+     "id_fuente": "4485027742"
+    }
+   ],
+   "inc": [
+    "salario"
+   ],
+   "deducidos": [
+    "modalidad"
+   ],
+   "modalidad_fuente": "On-site",
+   "empleados": 44260,
+   "sede": "Purchase, NY",
+   "modalidad": "On-site",
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "mastercard|senior analyst total rewards|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "total rewards"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    }
+   ],
+   "puntaje": 12,
+   "ausencias": 0,
+   "nueva": false,
+   "visto_desde": "2026-11-04",
+   "republicaciones": 0,
+   "reapariciones": 0
   },
   {
    "cargo": "Workers' Compensation Case Manager",
@@ -1556,11 +1551,14 @@
     }
    ],
    "puntaje": 0,
-   "ausencias": 0,
+   "ausencias": 1,
    "nueva": false,
    "visto_desde": "2026-10-14",
    "republicaciones": 0,
-   "reapariciones": 0
+   "reapariciones": 0,
+   "marcas": [
+    "no apareció hoy en la fuente (1 de 3)"
+   ]
   },
   {
    "cargo": "Compensation & HR Operations Analyst | Inglés Avanzado",
@@ -4871,71 +4869,6 @@
    "reapariciones": 0,
    "desaparecio": "2026-09-23",
    "dias_publicada": 26
-  },
-  {
-   "cargo": "Jefe de Estructura y Compensación",
-   "empresa": "CONFIDENTIAL",
-   "empresa_anonima": true,
-   "ciudad": "Bogotá D.C.",
-   "salario": {
-    "min": 12500001.0,
-    "max": 15000000.0,
-    "moneda": "COP",
-    "periodo": "MONTH"
-   },
-   "publicado": "2026-09-09",
-   "vigente_hasta": "2026-11-08",
-   "contrato": "FULL_TIME",
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": null,
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "elempleo",
-     "url": "https://www.elempleo.com/co/ofertas-trabajo/jefe-de-estructura-y-compensacion-1886763989",
-     "id_fuente": null
-    }
-   ],
-   "inc": [
-    "modalidad"
-   ],
-   "deducidos": [],
-   "modalidad": null,
-   "modalidad_literal": null,
-   "modalidad_por_confirmar": false,
-   "id": "empresa no revelada|jefe de estructura y compensacion|bogota#anon:12500001-15000000-2026-09-09",
-   "duplicados_hoy": 1,
-   "marcas": [
-    "empresa no revelada: puede estar repetida",
-    "no apareció hoy en la fuente (2 de 3)"
-   ],
-   "desglose": [
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "el aviso no revela la empresa: no suma ni resta"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "compensacion, valoracion de cargos, equidad interna"
-    },
-    {
-     "concepto": "salario publicado por debajo de $18.000.000",
-     "puntos": -15,
-     "nota": "15.000.000 COP — se muestra igual: el publicado casi nunca es el negociado"
-    }
-   ],
-   "puntaje": -3,
-   "nueva": false,
-   "visto_desde": "2026-09-09",
-   "republicaciones": 0,
-   "reapariciones": 0,
-   "desaparecio": "2026-09-22",
-   "dias_publicada": 13
   }
  ],
  "avisos_pendientes": 0
