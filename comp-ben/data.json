@@ -1,7 +1,7 @@
 {
  "busqueda": "comp-ben",
- "corrida": "2026-11-08",
- "corrida_hora": "2026-11-08 17:03",
+ "corrida": "2026-11-09",
+ "corrida_hora": "2026-11-09 21:27",
  "fuentes": {
   "elempleo": {
    "avisos": 17,
@@ -38,11 +38,17 @@
    "parecido": 0.67
   }
  ],
- "nuevas": [],
+ "nuevas": [
+  "empresa no revelada|gerente de compensacion y beneficios|bogota#anon:0-0-2026-11-08",
+  "alimentos polar|coordinador compensacion beneficios y estructura|bogota",
+  "sezzle|product marketing associate rewards|bogota"
+ ],
  "reaparecidas": [],
  "ausentes": [
-  "marsh agency|compensation consulting analyst|colombia",
-  "medtronic|senior compensation operations analyst|bogota"
+  "colgas|profesional de compensacion y productividad|bogota",
+  "politecnico grancolombiano|profesional de administracion laboral y compensacion|bogota",
+  "colgas e s p|profesional de compensacion y productividad|bogota",
+  "sezzle|product marketing associate rewards|colombia"
  ],
  "republicadas": [],
  "vigentes": [
@@ -180,6 +186,75 @@
    "reapariciones": 1
   },
   {
+   "cargo": "Gerente de Compensación y Beneficios",
+   "empresa": "CONFIDENTIAL",
+   "empresa_anonima": true,
+   "ciudad": "Bogotá D.C.",
+   "salario": null,
+   "publicado": "2026-11-08",
+   "vigente_hasta": "2027-01-07",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/gerente-de-compensacion-y-beneficios-1886790889",
+     "id_fuente": null
+    }
+   ],
+   "inc": [
+    "salario",
+    "modalidad"
+   ],
+   "deducidos": [],
+   "modalidad": null,
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "empresa no revelada|gerente de compensacion y beneficios|bogota#anon:0-0-2026-11-08",
+   "duplicados_hoy": 1,
+   "marcas": [
+    "empresa no revelada: puede estar repetida"
+   ],
+   "desglose": [
+    {
+     "concepto": "cargo objetivo de la búsqueda",
+     "puntos": 25,
+     "nota": "Gerente de Compensación y Beneficios"
+    },
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "el aviso no revela la empresa: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "compensacion, equidad interna"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    },
+    {
+     "concepto": "publicada hace menos de 3 días",
+     "puntos": 10,
+     "nota": "hace 1 día(s)"
+    }
+   ],
+   "puntaje": 47,
+   "ausencias": 0,
+   "nueva": true,
+   "visto_desde": "2026-11-09",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
+  {
    "cargo": "LIDER DE COMPENSACIÓN Y BENEFICIOS",
    "empresa": "AXA Partners",
    "empresa_anonima": false,
@@ -241,7 +316,7 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 2 día(s)"
+     "nota": "hace 3 día(s)"
     }
    ],
    "puntaje": 47,
@@ -497,9 +572,73 @@
     }
    ],
    "puntaje": 27,
-   "ausencias": 0,
+   "ausencias": 1,
    "nueva": false,
    "visto_desde": "2026-10-22",
+   "republicaciones": 0,
+   "reapariciones": 0,
+   "marcas": [
+    "no apareció hoy en la fuente (1 de 3)"
+   ]
+  },
+  {
+   "cargo": "Coordinador Compensación, Beneficios y Estructura - Bogotá",
+   "empresa": "Alimentos Polar Colombia S.A.",
+   "empresa_anonima": false,
+   "ciudad": "Bogotá, D.C.",
+   "salario": null,
+   "publicado": "2026-11-09",
+   "vigente_hasta": "2027-01-08",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": "1184FBF11F710BBA",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "computrabajo",
+     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-coordinador-compensacion-beneficios-y-estructura-bogota-en-bogota-dc-E36CCAF661B387C461373E686DCF3405",
+     "id_fuente": "1184FBF11F710BBA"
+    }
+   ],
+   "inc": [
+    "salario",
+    "modalidad"
+   ],
+   "deducidos": [],
+   "modalidad": null,
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "alimentos polar|coordinador compensacion beneficios y estructura|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "compensacion"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    },
+    {
+     "concepto": "publicada hace menos de 3 días",
+     "puntos": 10,
+     "nota": "hace 0 día(s)"
+    }
+   ],
+   "puntaje": 22,
+   "ausencias": 0,
+   "nueva": true,
+   "visto_desde": "2026-11-09",
    "republicaciones": 0,
    "reapariciones": 0
   },
@@ -567,75 +706,6 @@
    "visto_desde": "2026-10-13",
    "republicaciones": 0,
    "reapariciones": 0
-  },
-  {
-   "cargo": "Compensation Consulting Analyst",
-   "empresa": "Marsh Agency",
-   "empresa_anonima": false,
-   "ciudad": "Colombia",
-   "salario": null,
-   "publicado": "2026-11-05",
-   "vigente_hasta": null,
-   "contrato": null,
-   "agencia": null,
-   "direccion": null,
-   "lat": 4.099917,
-   "lon": -72.9088133,
-   "id_fuente": "4486703452",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "linkedin",
-     "url": "https://co.linkedin.com/jobs/view/compensation-consulting-analyst-at-marsh-agency-4486703452",
-     "id_fuente": "4486703452"
-    }
-   ],
-   "inc": [
-    "salario",
-    "contrato"
-   ],
-   "deducidos": [
-    "modalidad"
-   ],
-   "modalidad_fuente": "Hybrid",
-   "empleados": 14100,
-   "sede": "White Plains, New York",
-   "modalidad": "híbrido",
-   "modalidad_literal": "hibrido",
-   "modalidad_por_confirmar": false,
-   "id": "marsh agency|compensation consulting analyst|colombia",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "multinacional estadounidense",
-     "puntos": -5,
-     "nota": "White Plains, New York"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "compensacion"
-    },
-    {
-     "concepto": "salario",
-     "puntos": 0,
-     "nota": "sin salario publicado, no suma ni resta"
-    },
-    {
-     "concepto": "publicada hace menos de 3 días",
-     "puntos": 10,
-     "nota": "hace 1 día(s)"
-    }
-   ],
-   "puntaje": 17,
-   "ausencias": 2,
-   "nueva": false,
-   "visto_desde": "2026-11-05",
-   "republicaciones": 0,
-   "reapariciones": 0,
-   "marcas": [
-    "no apareció hoy en la fuente (2 de 3)"
-   ]
   },
   {
    "cargo": "Especialista Compensación y Beneficios",
@@ -818,11 +888,14 @@
     }
    ],
    "puntaje": 12,
-   "ausencias": 0,
+   "ausencias": 1,
    "nueva": false,
    "visto_desde": "2026-10-12",
    "republicaciones": 0,
-   "reapariciones": 3
+   "reapariciones": 3,
+   "marcas": [
+    "no apareció hoy en la fuente (1 de 3)"
+   ]
   },
   {
    "cargo": "Profesional de compensación y productividad",
@@ -874,11 +947,14 @@
     }
    ],
    "puntaje": 12,
-   "ausencias": 0,
+   "ausencias": 1,
    "nueva": false,
    "visto_desde": "2026-10-22",
    "republicaciones": 0,
-   "reapariciones": 2
+   "reapariciones": 2,
+   "marcas": [
+    "no apareció hoy en la fuente (1 de 3)"
+   ]
   },
   {
    "cargo": "Senior Analyst, Total Rewards",
@@ -939,6 +1015,77 @@
    "ausencias": 0,
    "nueva": false,
    "visto_desde": "2026-11-04",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
+  {
+   "cargo": "Product Marketing Associate, Rewards",
+   "empresa": "Sezzle",
+   "empresa_anonima": false,
+   "ciudad": "Bogota, Capital District",
+   "salario": {
+    "min": 3000,
+    "max": 3750,
+    "moneda": "USD",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-11-09",
+   "vigente_hasta": "2026-12-09",
+   "contrato": [
+    "FULL_TIME"
+   ],
+   "agencia": null,
+   "direccion": null,
+   "lat": 4.6533817,
+   "lon": -74.0836331,
+   "id_fuente": "4487934821",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/product-marketing-associate-rewards-at-sezzle-4487934821",
+     "id_fuente": "4487934821"
+    },
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/product-marketing-associate-rewards-at-sezzle-4487945642",
+     "id_fuente": "4487945642"
+    }
+   ],
+   "inc": [],
+   "deducidos": [
+    "modalidad",
+    "salario"
+   ],
+   "modalidad_fuente": "Remote OK",
+   "empleados": 464,
+   "sede": "Minneapolis, Minnesota",
+   "modalidad": "Remote OK",
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "sezzle|product marketing associate rewards|bogota",
+   "duplicados_hoy": 2,
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "publicado en USD: no se convierte ni se compara"
+    },
+    {
+     "concepto": "publicada hace menos de 3 días",
+     "puntos": 10,
+     "nota": "hace 0 día(s)"
+    }
+   ],
+   "puntaje": 10,
+   "ausencias": 0,
+   "nueva": true,
+   "visto_desde": "2026-11-09",
    "republicaciones": 0,
    "reapariciones": 0
   },
@@ -1428,70 +1575,13 @@
     }
    ],
    "puntaje": 0,
-   "ausencias": 0,
+   "ausencias": 1,
    "nueva": false,
    "visto_desde": "2026-09-05",
    "republicaciones": 0,
-   "reapariciones": 0
-  },
-  {
-   "cargo": "Senior Compensation Operations Analyst",
-   "empresa": "Medtronic",
-   "empresa_anonima": false,
-   "ciudad": "Bogota, Capital District",
-   "salario": null,
-   "publicado": "2026-10-13",
-   "vigente_hasta": "2026-11-12",
-   "contrato": [
-    "FULL_TIME"
-   ],
-   "agencia": null,
-   "direccion": null,
-   "lat": 4.6533817,
-   "lon": -74.0836331,
-   "id_fuente": "4479079934",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "linkedin",
-     "url": "https://co.linkedin.com/jobs/view/senior-compensation-operations-analyst-at-medtronic-4479079934",
-     "id_fuente": "4479079934"
-    }
-   ],
-   "inc": [
-    "salario"
-   ],
-   "deducidos": [
-    "modalidad"
-   ],
-   "modalidad_fuente": "On-site",
-   "empleados": 100432,
-   "sede": "Minneapolis, MN",
-   "modalidad": "On-site",
-   "modalidad_literal": null,
-   "modalidad_por_confirmar": false,
-   "id": "medtronic|senior compensation operations analyst|bogota",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "no se pudo determinar: no suma ni resta"
-    },
-    {
-     "concepto": "salario",
-     "puntos": 0,
-     "nota": "sin salario publicado, no suma ni resta"
-    }
-   ],
-   "puntaje": 0,
-   "ausencias": 2,
-   "nueva": false,
-   "visto_desde": "2026-10-14",
-   "republicaciones": 0,
    "reapariciones": 0,
    "marcas": [
-    "no apareció hoy en la fuente (2 de 3)"
+    "no apareció hoy en la fuente (1 de 3)"
    ]
   },
   {
@@ -2092,6 +2182,137 @@
   }
  ],
  "caidas": [
+  {
+   "cargo": "Compensation Consulting Analyst",
+   "empresa": "Marsh Agency",
+   "empresa_anonima": false,
+   "ciudad": "Colombia",
+   "salario": null,
+   "publicado": "2026-11-05",
+   "vigente_hasta": null,
+   "contrato": null,
+   "agencia": null,
+   "direccion": null,
+   "lat": 4.099917,
+   "lon": -72.9088133,
+   "id_fuente": "4486703452",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/compensation-consulting-analyst-at-marsh-agency-4486703452",
+     "id_fuente": "4486703452"
+    }
+   ],
+   "inc": [
+    "salario",
+    "contrato"
+   ],
+   "deducidos": [
+    "modalidad"
+   ],
+   "modalidad_fuente": "Hybrid",
+   "empleados": 14100,
+   "sede": "White Plains, New York",
+   "modalidad": "híbrido",
+   "modalidad_literal": "hibrido",
+   "modalidad_por_confirmar": false,
+   "id": "marsh agency|compensation consulting analyst|colombia",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "multinacional estadounidense",
+     "puntos": -5,
+     "nota": "White Plains, New York"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "compensacion"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    },
+    {
+     "concepto": "publicada hace menos de 3 días",
+     "puntos": 10,
+     "nota": "hace 1 día(s)"
+    }
+   ],
+   "puntaje": 17,
+   "nueva": false,
+   "visto_desde": "2026-11-05",
+   "republicaciones": 0,
+   "reapariciones": 0,
+   "marcas": [
+    "no apareció hoy en la fuente (2 de 3)"
+   ],
+   "desaparecio": "2026-11-09",
+   "dias_publicada": 4
+  },
+  {
+   "cargo": "Senior Compensation Operations Analyst",
+   "empresa": "Medtronic",
+   "empresa_anonima": false,
+   "ciudad": "Bogota, Capital District",
+   "salario": null,
+   "publicado": "2026-10-13",
+   "vigente_hasta": "2026-11-12",
+   "contrato": [
+    "FULL_TIME"
+   ],
+   "agencia": null,
+   "direccion": null,
+   "lat": 4.6533817,
+   "lon": -74.0836331,
+   "id_fuente": "4479079934",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/senior-compensation-operations-analyst-at-medtronic-4479079934",
+     "id_fuente": "4479079934"
+    }
+   ],
+   "inc": [
+    "salario"
+   ],
+   "deducidos": [
+    "modalidad"
+   ],
+   "modalidad_fuente": "On-site",
+   "empleados": 100432,
+   "sede": "Minneapolis, MN",
+   "modalidad": "On-site",
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "medtronic|senior compensation operations analyst|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    }
+   ],
+   "puntaje": 0,
+   "nueva": false,
+   "visto_desde": "2026-10-14",
+   "republicaciones": 0,
+   "reapariciones": 0,
+   "marcas": [
+    "no apareció hoy en la fuente (2 de 3)"
+   ],
+   "desaparecio": "2026-11-09",
+   "dias_publicada": 26
+  },
   {
    "cargo": "Profesional de Compensación y Beneficios",
    "empresa": "Decameron All Inclusive Hotels & Resorts",
@@ -4734,73 +4955,6 @@
    ],
    "desaparecio": "2026-09-26",
    "dias_publicada": 26
-  },
-  {
-   "cargo": "Analista Senior de Compensación",
-   "empresa": "Confidencial",
-   "empresa_anonima": true,
-   "ciudad": "Bogota, Capital District",
-   "salario": null,
-   "publicado": "2026-08-31",
-   "vigente_hasta": "2026-09-30",
-   "contrato": [
-    "FULL_TIME"
-   ],
-   "agencia": null,
-   "direccion": null,
-   "lat": 4.6533817,
-   "lon": -74.0836331,
-   "id_fuente": "4460029686",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "linkedin",
-     "url": "https://co.linkedin.com/jobs/view/analista-senior-de-compensaci%C3%B3n-at-money-inc-4460029686",
-     "id_fuente": "4460029686"
-    }
-   ],
-   "inc": [
-    "salario"
-   ],
-   "deducidos": [
-    "modalidad"
-   ],
-   "modalidad_fuente": "On-site",
-   "empleados": 890,
-   "sede": "New York, New York",
-   "modalidad": "On-site",
-   "modalidad_literal": null,
-   "modalidad_por_confirmar": false,
-   "id": "empresa no revelada|analista senior de compensacion|bogota#anon:0-0-2026-08-31",
-   "duplicados_hoy": 1,
-   "marcas": [
-    "empresa no revelada: puede estar repetida",
-    "no apareció hoy en la fuente (2 de 3)"
-   ],
-   "desglose": [
-    {
-     "concepto": "multinacional estadounidense",
-     "puntos": -5,
-     "nota": "New York, New York"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "compensacion"
-    },
-    {
-     "concepto": "salario",
-     "puntos": 0,
-     "nota": "sin salario publicado, no suma ni resta"
-    }
-   ],
-   "puntaje": 7,
-   "nueva": false,
-   "visto_desde": "2026-09-01",
-   "republicaciones": 0,
-   "reapariciones": 0,
-   "desaparecio": "2026-09-24",
-   "dias_publicada": 23
   }
  ],
  "avisos_pendientes": 0
