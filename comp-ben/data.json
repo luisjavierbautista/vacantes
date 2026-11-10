@@ -1,10 +1,10 @@
 {
  "busqueda": "comp-ben",
- "corrida": "2026-11-09",
- "corrida_hora": "2026-11-09 21:27",
+ "corrida": "2026-11-10",
+ "corrida_hora": "2026-11-10 18:41",
  "fuentes": {
   "elempleo": {
-   "avisos": 17,
+   "avisos": 18,
    "error": null
   },
   "computrabajo": {
@@ -12,7 +12,7 @@
    "error": null
   },
   "workday": {
-   "avisos": 9,
+   "avisos": 10,
    "error": null
   },
   "greenhouse": {
@@ -20,7 +20,7 @@
    "error": null
   },
   "arbeitnow": {
-   "avisos": 0,
+   "avisos": 1,
    "error": null
   },
   "apify_linkedin": {
@@ -29,8 +29,8 @@
   }
  },
  "fallos": [],
- "avisos_recogidos": 44,
- "descartados": 11,
+ "avisos_recogidos": 47,
+ "descartados": 12,
  "fusionados": [
   {
    "conservado": "Compensation & HR Operations Analyst | Inglés Avanzado",
@@ -39,9 +39,7 @@
   }
  ],
  "nuevas": [
-  "empresa no revelada|gerente de compensacion y beneficios|bogota#anon:0-0-2026-11-08",
-  "alimentos polar|coordinador compensacion beneficios y estructura|bogota",
-  "sezzle|product marketing associate rewards|bogota"
+  "roche|reward partner|budapest#202609-124420"
  ],
  "reaparecidas": [],
  "ausentes": [
@@ -50,8 +48,86 @@
   "colgas e s p|profesional de compensacion y productividad|bogota",
   "sezzle|product marketing associate rewards|colombia"
  ],
- "republicadas": [],
+ "republicadas": [
+  "fundacion universitaria konrad lorenz|profesional de nomina y compensacion|bogota"
+ ],
  "vigentes": [
+  {
+   "cargo": "Reward Partner",
+   "empresa": "Roche",
+   "empresa_anonima": false,
+   "ciudad": "Budapest",
+   "salario": null,
+   "publicado": "2026-11-10",
+   "vigente_hasta": null,
+   "contrato": "Tiempo completo",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": "202609-124420",
+   "pais": "Hungría",
+   "fuentes": [
+    {
+     "fuente": "workday",
+     "url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Budapest/Reward-Partner_202609-124420-1",
+     "id_fuente": "202609-124420"
+    }
+   ],
+   "inc": [
+    "salario"
+   ],
+   "deducidos": [],
+   "otros_lugares": [
+    "Warsaw"
+   ],
+   "modalidad": "remoto",
+   "modalidad_literal": "Home office",
+   "modalidad_por_confirmar": false,
+   "marcas": [
+    "dice remoto, pero el aviso es de Hungría: confirma que contrate desde Colombia"
+   ],
+   "id": "roche|reward partner|budapest#202609-124420",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "cargo objetivo de la búsqueda",
+     "puntos": 25,
+     "nota": "Reward Partner"
+    },
+    {
+     "concepto": "multinacional europea",
+     "puntos": 15,
+     "nota": "por la lista objetivo"
+    },
+    {
+     "concepto": "está en la lista de empresas objetivo",
+     "puntos": 10,
+     "nota": "Roche"
+    },
+    {
+     "concepto": "remoto, pero anclado a Hungría",
+     "puntos": 0,
+     "nota": "«Home office» en un aviso de Hungría: no confirma que contrate desde Colombia, así que no suma"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    },
+    {
+     "concepto": "publicada hace menos de 3 días",
+     "puntos": 10,
+     "nota": "hace 0 día(s)"
+    }
+   ],
+   "puntaje": 60,
+   "ausencias": 0,
+   "nueva": true,
+   "visto_desde": "2026-11-10",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
   {
    "cargo": "Global Compensation Manager",
    "empresa": "Worldpanel",
@@ -244,85 +320,13 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 1 día(s)"
-    }
-   ],
-   "puntaje": 47,
-   "ausencias": 0,
-   "nueva": true,
-   "visto_desde": "2026-11-09",
-   "republicaciones": 0,
-   "reapariciones": 0
-  },
-  {
-   "cargo": "LIDER DE COMPENSACIÓN Y BENEFICIOS",
-   "empresa": "AXA Partners",
-   "empresa_anonima": false,
-   "ciudad": "Bogota, Capital District",
-   "salario": null,
-   "publicado": "2026-11-06",
-   "vigente_hasta": "2026-12-06",
-   "contrato": [
-    "FULL_TIME"
-   ],
-   "agencia": null,
-   "direccion": null,
-   "lat": 4.6533817,
-   "lon": -74.0836331,
-   "id_fuente": "4488060567",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "linkedin",
-     "url": "https://co.linkedin.com/jobs/view/lider-de-compensaci%C3%B3n-y-beneficios-at-axa-partners-4488060567",
-     "id_fuente": "4488060567"
-    }
-   ],
-   "inc": [
-    "salario"
-   ],
-   "deducidos": [
-    "modalidad"
-   ],
-   "modalidad_fuente": "Hybrid",
-   "empleados": 5997,
-   "sede": "Malakoff",
-   "modalidad": "híbrido",
-   "modalidad_literal": "Hibrido",
-   "modalidad_por_confirmar": false,
-   "id": "axa partners|lider de compensacion y beneficios|bogota",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "cargo objetivo de la búsqueda",
-     "puntos": 25,
-     "nota": "LIDER DE COMPENSACIÓN Y BENEFICIOS"
-    },
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "no se pudo determinar: no suma ni resta"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "compensacion, encuestas salariales"
-    },
-    {
-     "concepto": "salario",
-     "puntos": 0,
-     "nota": "sin salario publicado, no suma ni resta"
-    },
-    {
-     "concepto": "publicada hace menos de 3 días",
-     "puntos": 10,
-     "nota": "hace 3 día(s)"
+     "nota": "hace 2 día(s)"
     }
    ],
    "puntaje": 47,
    "ausencias": 0,
    "nueva": false,
-   "visto_desde": "2026-11-06",
+   "visto_desde": "2026-11-09",
    "republicaciones": 0,
    "reapariciones": 0
   },
@@ -517,6 +521,73 @@
    "reapariciones": 0
   },
   {
+   "cargo": "LIDER DE COMPENSACIÓN Y BENEFICIOS",
+   "empresa": "AXA Partners",
+   "empresa_anonima": false,
+   "ciudad": "Bogota, Capital District",
+   "salario": null,
+   "publicado": "2026-11-06",
+   "vigente_hasta": "2026-12-06",
+   "contrato": [
+    "FULL_TIME"
+   ],
+   "agencia": null,
+   "direccion": null,
+   "lat": 4.6533817,
+   "lon": -74.0836331,
+   "id_fuente": "4488060567",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/lider-de-compensaci%C3%B3n-y-beneficios-at-axa-partners-4488060567",
+     "id_fuente": "4488060567"
+    }
+   ],
+   "inc": [
+    "salario"
+   ],
+   "deducidos": [
+    "modalidad"
+   ],
+   "modalidad_fuente": "Hybrid",
+   "empleados": 5997,
+   "sede": "Malakoff",
+   "modalidad": "híbrido",
+   "modalidad_literal": "Hibrido",
+   "modalidad_por_confirmar": false,
+   "id": "axa partners|lider de compensacion y beneficios|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "cargo objetivo de la búsqueda",
+     "puntos": 25,
+     "nota": "LIDER DE COMPENSACIÓN Y BENEFICIOS"
+    },
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "compensacion, encuestas salariales"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    }
+   ],
+   "puntaje": 37,
+   "ausencias": 0,
+   "nueva": false,
+   "visto_desde": "2026-11-06",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
+  {
    "cargo": "Profesional de compensación y productividad",
    "empresa": "Colgas",
    "empresa_anonima": false,
@@ -572,13 +643,13 @@
     }
    ],
    "puntaje": 27,
-   "ausencias": 1,
+   "ausencias": 2,
    "nueva": false,
    "visto_desde": "2026-10-22",
    "republicaciones": 0,
    "reapariciones": 0,
    "marcas": [
-    "no apareció hoy en la fuente (1 de 3)"
+    "no apareció hoy en la fuente (2 de 3)"
    ]
   },
   {
@@ -632,12 +703,12 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 0 día(s)"
+     "nota": "hace 1 día(s)"
     }
    ],
    "puntaje": 22,
    "ausencias": 0,
-   "nueva": true,
+   "nueva": false,
    "visto_desde": "2026-11-09",
    "republicaciones": 0,
    "reapariciones": 0
@@ -888,13 +959,13 @@
     }
    ],
    "puntaje": 12,
-   "ausencias": 1,
+   "ausencias": 2,
    "nueva": false,
    "visto_desde": "2026-10-12",
    "republicaciones": 0,
    "reapariciones": 3,
    "marcas": [
-    "no apareció hoy en la fuente (1 de 3)"
+    "no apareció hoy en la fuente (2 de 3)"
    ]
   },
   {
@@ -947,13 +1018,13 @@
     }
    ],
    "puntaje": 12,
-   "ausencias": 1,
+   "ausencias": 2,
    "nueva": false,
    "visto_desde": "2026-10-22",
    "republicaciones": 0,
    "reapariciones": 2,
    "marcas": [
-    "no apareció hoy en la fuente (1 de 3)"
+    "no apareció hoy en la fuente (2 de 3)"
    ]
   },
   {
@@ -1079,12 +1150,12 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 0 día(s)"
+     "nota": "hace 1 día(s)"
     }
    ],
    "puntaje": 10,
    "ausencias": 0,
-   "nueva": true,
+   "nueva": false,
    "visto_desde": "2026-11-09",
    "republicaciones": 0,
    "reapariciones": 0
@@ -1575,13 +1646,13 @@
     }
    ],
    "puntaje": 0,
-   "ausencias": 1,
+   "ausencias": 2,
    "nueva": false,
    "visto_desde": "2026-09-05",
    "republicaciones": 0,
    "reapariciones": 0,
    "marcas": [
-    "no apareció hoy en la fuente (1 de 3)"
+    "no apareció hoy en la fuente (2 de 3)"
    ]
   },
   {
@@ -1976,6 +2047,11 @@
      "fuente": "elempleo",
      "url": "https://www.elempleo.com/co/ofertas-trabajo/profesional-de-nomina-y-compensacion-1886787195",
      "id_fuente": null
+    },
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/profesional-de-nomina-y-compensacion-1886792063",
+     "id_fuente": null
     }
    ],
    "inc": [
@@ -1986,7 +2062,7 @@
    "modalidad_literal": null,
    "modalidad_por_confirmar": false,
    "id": "fundacion universitaria konrad lorenz|profesional de nomina y compensacion|bogota",
-   "duplicados_hoy": 1,
+   "duplicados_hoy": 2,
    "desglose": [
     {
      "concepto": "origen de la empresa",
@@ -2008,7 +2084,7 @@
    "ausencias": 0,
    "nueva": false,
    "visto_desde": "2026-10-14",
-   "republicaciones": 6,
+   "republicaciones": 7,
    "reapariciones": 0
   },
   {
