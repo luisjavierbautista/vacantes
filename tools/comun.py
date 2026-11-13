@@ -73,6 +73,38 @@ def log(*partes):
     print(f"[{datetime.now():%H:%M:%S}]", *partes, file=sys.stderr, flush=True)
 
 
+# Nombres de parámetros de URL que jamás deben salir a un log, un reporte ni a
+# data.json. Toda URL que vaya a mostrarse o guardarse pasa por url_segura().
+_PARAMS_SENSIBLES = {
+    "token", "apikey", "api_key", "apitoken", "api_token", "access_token",
+    "accesstoken", "key", "secret", "client_secret", "password", "passwd",
+    "pass", "auth", "authorization", "signature", "sig",
+}
+
+
+def url_segura(url):
+    """Una URL apta para mostrarse: censura el valor de los parámetros
+    sensibles (token, apikey, …), conservando el resto para poder depurar.
+
+    Un fallo de red se reporta con su URL; si esa URL lleva la credencial en
+    el query (p. ej. Apify usa ?token=apify_api_…), publicarla filtraría el
+    secreto. Aquí se corta de raíz, antes de cualquier append o print.
+    """
+    try:
+        partes = urllib.parse.urlsplit(url)
+        if not partes.query:
+            return url
+        pares = urllib.parse.parse_qsl(partes.query, keep_blank_values=True)
+        limpio = [(k, "CENSURADO" if k.lower() in _PARAMS_SENSIBLES else v)
+                  for k, v in pares]
+        return urllib.parse.urlunsplit(
+            partes._replace(query=urllib.parse.urlencode(limpio)))
+    except Exception:
+        # Ante cualquier duda al parsear, no arriesgar: si aparece un patrón de
+        # credencial conocido, devolver algo inequívocamente inútil.
+        return url.split("?", 1)[0] + "?[QUERY CENSURADO]" if "?" in url else url
+
+
 # ───────────────────────────────────────────────────────────────── descargas
 
 class Descargador:
@@ -143,9 +175,9 @@ class Descargador:
                     return f.read()
 
         if not saltar_robots and not self.permitido(url):
-            self.fallos.append((url, "prohibido por robots.txt"))
+            self.fallos.append((url_segura(url), "prohibido por robots.txt"))
             if self.verbose:
-                log("  ROBOTS prohíbe", url)
+                log("  ROBOTS prohíbe", url_segura(url))
             return None
 
         self._espera(url)
@@ -164,10 +196,10 @@ class Descargador:
             with urllib.request.urlopen(pedido, timeout=40) as r:
                 texto = r.read().decode("utf-8", "replace")
         except urllib.error.HTTPError as e:
-            self.fallos.append((url, f"HTTP {e.code}"))
+            self.fallos.append((url_segura(url), f"HTTP {e.code}"))
             return None
         except Exception as e:
-            self.fallos.append((url, f"{type(e).__name__}"))
+            self.fallos.append((url_segura(url), f"{type(e).__name__}"))
             return None
 
         with open(ruta, "w", encoding="utf-8") as f:
@@ -181,7 +213,7 @@ class Descargador:
         try:
             return json.loads(texto)
         except ValueError:
-            self.fallos.append((url, "respuesta no es JSON"))
+            self.fallos.append((url_segura(url), "respuesta no es JSON"))
             return None
 
 
