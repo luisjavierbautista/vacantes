@@ -1,14 +1,14 @@
 {
  "busqueda": "comp-ben",
- "corrida": "2026-11-13",
- "corrida_hora": "2026-11-13 18:32",
+ "corrida": "2026-11-14",
+ "corrida_hora": "2026-11-14 17:03",
  "fuentes": {
   "elempleo": {
-   "avisos": 19,
+   "avisos": 17,
    "error": null
   },
   "computrabajo": {
-   "avisos": 1,
+   "avisos": 2,
    "error": null
   },
   "workday": {
@@ -30,11 +30,15 @@
  },
  "fallos": [
   {
+   "url": "https://www.elempleo.com/co/ofertas-trabajo/gerente-de-compensacion-y-arquitectura-organizacional-1886766909",
+   "motivo": "HTTP 410"
+  },
+  {
    "url": "https://api.apify.com/v2/acts/fantastic-jobs~advanced-linkedin-job-search-api/run-sync-get-dataset-items?token=CENSURADO",
    "motivo": "HTTP 401"
   }
  ],
- "avisos_recogidos": 30,
+ "avisos_recogidos": 29,
  "descartados": 9,
  "fusionados": [
   {
@@ -44,20 +48,12 @@
   }
  ],
  "nuevas": [],
- "reaparecidas": [],
+ "reaparecidas": [
+  "fundacion plan|profesional lider compensacion contratacion y bienestar|bogota"
+ ],
  "ausentes": [
-  "worldpanel|global compensation manager|bogota",
-  "axa partners|lider de compensacion y beneficios|bogota",
-  "wom|especialista compensacion y beneficios|bogota",
-  "kuehne nagel|national human resources total rewards expert|bogota",
-  "mastercard|senior analyst total rewards|bogota",
-  "sezzle|product marketing associate rewards|bogota",
-  "the united firm la liga defensora apc|workers compensation case manager|bogota",
-  "entrepreneur cooperative|advanced paralegal or attorney minnesota workers compensation|colombia",
-  "marsh|compensation consulting analyst|colombia",
-  "numerator|manager global compensation|bogota",
-  "cargill|senior total rewards consultant sao paulo sp|bogota",
-  "consorcio circulemos digital|lider de nomina compensacion y beneficios|bogota"
+  "empresa no revelada|gerente de compensacion y arquitectura organizacional|bogota#anon:18000001-21000000-2026-09-15",
+  "ucompensar|coordinador compensacion y gestion laboral|bogota"
  ],
  "republicadas": [],
  "vigentes": [
@@ -123,89 +119,14 @@
      "concepto": "salario",
      "puntos": 0,
      "nota": "sin salario publicado, no suma ni resta"
-    },
-    {
-     "concepto": "publicada hace menos de 3 días",
-     "puntos": 10,
-     "nota": "hace 3 día(s)"
     }
    ],
-   "puntaje": 60,
+   "puntaje": 50,
    "ausencias": 0,
    "nueva": false,
    "visto_desde": "2026-11-10",
    "republicaciones": 0,
    "reapariciones": 0
-  },
-  {
-   "cargo": "Global Compensation Manager",
-   "empresa": "Worldpanel",
-   "empresa_anonima": false,
-   "ciudad": "Bogota, Capital District",
-   "salario": null,
-   "publicado": "2026-08-21",
-   "vigente_hasta": "2026-11-14",
-   "contrato": [
-    "FULL_TIME"
-   ],
-   "agencia": null,
-   "direccion": null,
-   "lat": 4.6533817,
-   "lon": -74.0836331,
-   "id_fuente": "4479118814",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "linkedin",
-     "url": "https://co.linkedin.com/jobs/view/global-compensation-manager-at-worldpanel-4479118814",
-     "id_fuente": "4479118814"
-    }
-   ],
-   "inc": [
-    "salario"
-   ],
-   "deducidos": [
-    "modalidad"
-   ],
-   "modalidad_fuente": "Hybrid",
-   "empleados": 3415,
-   "sede": "London",
-   "modalidad": "híbrido",
-   "modalidad_literal": "Hybrid",
-   "modalidad_por_confirmar": false,
-   "id": "worldpanel|global compensation manager|bogota",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "cargo objetivo de la búsqueda",
-     "puntos": 25,
-     "nota": "Global Compensation Manager"
-    },
-    {
-     "concepto": "multinacional europea",
-     "puntos": 15,
-     "nota": "London"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "total rewards, pay equity"
-    },
-    {
-     "concepto": "salario",
-     "puntos": 0,
-     "nota": "sin salario publicado, no suma ni resta"
-    }
-   ],
-   "puntaje": 52,
-   "ausencias": 2,
-   "nueva": false,
-   "visto_desde": "2026-08-29",
-   "republicaciones": 2,
-   "reapariciones": 1,
-   "marcas": [
-    "no apareció hoy en la fuente (2 de 3)"
-   ]
   },
   {
    "cargo": "Gerente de compensación y arquitectura organizacional",
@@ -242,7 +163,8 @@
    "id": "empresa no revelada|gerente de compensacion y arquitectura organizacional|bogota#anon:18000001-21000000-2026-09-15",
    "duplicados_hoy": 1,
    "marcas": [
-    "empresa no revelada: puede estar repetida"
+    "empresa no revelada: puede estar repetida",
+    "no apareció hoy en la fuente (1 de 3)"
    ],
    "desglose": [
     {
@@ -267,7 +189,7 @@
     }
    ],
    "puntaje": 49,
-   "ausencias": 0,
+   "ausencias": 1,
    "nueva": false,
    "visto_desde": "2026-09-15",
    "republicaciones": 0,
@@ -528,76 +450,6 @@
    "reapariciones": 0
   },
   {
-   "cargo": "LIDER DE COMPENSACIÓN Y BENEFICIOS",
-   "empresa": "AXA Partners",
-   "empresa_anonima": false,
-   "ciudad": "Bogota, Capital District",
-   "salario": null,
-   "publicado": "2026-11-06",
-   "vigente_hasta": "2026-12-06",
-   "contrato": [
-    "FULL_TIME"
-   ],
-   "agencia": null,
-   "direccion": null,
-   "lat": 4.6533817,
-   "lon": -74.0836331,
-   "id_fuente": "4488060567",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "linkedin",
-     "url": "https://co.linkedin.com/jobs/view/lider-de-compensaci%C3%B3n-y-beneficios-at-axa-partners-4488060567",
-     "id_fuente": "4488060567"
-    }
-   ],
-   "inc": [
-    "salario"
-   ],
-   "deducidos": [
-    "modalidad"
-   ],
-   "modalidad_fuente": "Hybrid",
-   "empleados": 5997,
-   "sede": "Malakoff",
-   "modalidad": "híbrido",
-   "modalidad_literal": "Hibrido",
-   "modalidad_por_confirmar": false,
-   "id": "axa partners|lider de compensacion y beneficios|bogota",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "cargo objetivo de la búsqueda",
-     "puntos": 25,
-     "nota": "LIDER DE COMPENSACIÓN Y BENEFICIOS"
-    },
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "no se pudo determinar: no suma ni resta"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "compensacion, encuestas salariales"
-    },
-    {
-     "concepto": "salario",
-     "puntos": 0,
-     "nota": "sin salario publicado, no suma ni resta"
-    }
-   ],
-   "puntaje": 37,
-   "ausencias": 2,
-   "nueva": false,
-   "visto_desde": "2026-11-06",
-   "republicaciones": 0,
-   "reapariciones": 0,
-   "marcas": [
-    "no apareció hoy en la fuente (2 de 3)"
-   ]
-  },
-  {
    "cargo": "Especialista Senior de Compensación",
    "empresa": "Falabella",
    "empresa_anonima": false,
@@ -719,136 +571,6 @@
    "reapariciones": 0
   },
   {
-   "cargo": "Especialista Compensación y Beneficios",
-   "empresa": "WOM Colombia",
-   "empresa_anonima": false,
-   "ciudad": "Bogota, Capital District",
-   "salario": null,
-   "publicado": "2026-10-26",
-   "vigente_hasta": "2026-11-25",
-   "contrato": [
-    "FULL_TIME"
-   ],
-   "agencia": null,
-   "direccion": null,
-   "lat": 4.6533817,
-   "lon": -74.0836331,
-   "id_fuente": "4483573358",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "linkedin",
-     "url": "https://co.linkedin.com/jobs/view/especialista-compensaci%C3%B3n-y-beneficios-at-wom-colombia-4483573358",
-     "id_fuente": "4483573358"
-    }
-   ],
-   "inc": [
-    "salario"
-   ],
-   "deducidos": [
-    "modalidad"
-   ],
-   "modalidad_fuente": "On-site",
-   "empleados": 2168,
-   "sede": "Bogotá, Bogotá",
-   "modalidad": "On-site",
-   "modalidad_literal": null,
-   "modalidad_por_confirmar": false,
-   "id": "wom|especialista compensacion y beneficios|bogota",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "no se pudo determinar: no suma ni resta"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "compensacion, valoracion de cargos, bandas salariales"
-    },
-    {
-     "concepto": "salario",
-     "puntos": 0,
-     "nota": "sin salario publicado, no suma ni resta"
-    }
-   ],
-   "puntaje": 12,
-   "ausencias": 2,
-   "nueva": false,
-   "visto_desde": "2026-10-26",
-   "republicaciones": 0,
-   "reapariciones": 0,
-   "marcas": [
-    "no apareció hoy en la fuente (2 de 3)"
-   ]
-  },
-  {
-   "cargo": "National Human Resources Total Rewards Expert",
-   "empresa": "Kuehne+Nagel",
-   "empresa_anonima": false,
-   "ciudad": "Bogota, Capital District",
-   "salario": null,
-   "publicado": "2026-09-16",
-   "vigente_hasta": "2026-10-16",
-   "contrato": [
-    "FULL_TIME"
-   ],
-   "agencia": null,
-   "direccion": null,
-   "lat": 4.6533817,
-   "lon": -74.0836331,
-   "id_fuente": "4468305370",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "linkedin",
-     "url": "https://co.linkedin.com/jobs/view/national-human-resources-total-rewards-expert-at-kuehne%2Bnagel-4468305370",
-     "id_fuente": "4468305370"
-    }
-   ],
-   "inc": [
-    "salario"
-   ],
-   "deducidos": [
-    "modalidad"
-   ],
-   "modalidad_fuente": "On-site",
-   "empleados": 53383,
-   "sede": "Schindellegi, Schwyz",
-   "modalidad": "On-site",
-   "modalidad_literal": null,
-   "modalidad_por_confirmar": false,
-   "id": "kuehne nagel|national human resources total rewards expert|bogota",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "no se pudo determinar: no suma ni resta"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "total rewards"
-    },
-    {
-     "concepto": "salario",
-     "puntos": 0,
-     "nota": "sin salario publicado, no suma ni resta"
-    }
-   ],
-   "puntaje": 12,
-   "ausencias": 2,
-   "nueva": false,
-   "visto_desde": "2026-09-17",
-   "republicaciones": 0,
-   "reapariciones": 1,
-   "marcas": [
-    "no apareció hoy en la fuente (2 de 3)"
-   ]
-  },
-  {
    "cargo": "PROFESIONAL DE ADMINISTRACIÓN LABORAL Y COMPENSACIÓN",
    "empresa": "Politecnico Grancolombiano",
    "empresa_anonima": false,
@@ -912,413 +634,6 @@
    "reapariciones": 4
   },
   {
-   "cargo": "Senior Analyst, Total Rewards",
-   "empresa": "Mastercard",
-   "empresa_anonima": false,
-   "ciudad": "Bogota, Capital District",
-   "salario": null,
-   "publicado": "2026-11-03",
-   "vigente_hasta": "2026-12-03",
-   "contrato": [
-    "FULL_TIME"
-   ],
-   "agencia": null,
-   "direccion": null,
-   "lat": 4.6533817,
-   "lon": -74.0836331,
-   "id_fuente": "4485027742",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "linkedin",
-     "url": "https://co.linkedin.com/jobs/view/senior-analyst-total-rewards-at-mastercard-4485027742",
-     "id_fuente": "4485027742"
-    }
-   ],
-   "inc": [
-    "salario"
-   ],
-   "deducidos": [
-    "modalidad"
-   ],
-   "modalidad_fuente": "On-site",
-   "empleados": 44260,
-   "sede": "Purchase, NY",
-   "modalidad": "On-site",
-   "modalidad_literal": null,
-   "modalidad_por_confirmar": false,
-   "id": "mastercard|senior analyst total rewards|bogota",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "no se pudo determinar: no suma ni resta"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "total rewards"
-    },
-    {
-     "concepto": "salario",
-     "puntos": 0,
-     "nota": "sin salario publicado, no suma ni resta"
-    }
-   ],
-   "puntaje": 12,
-   "ausencias": 2,
-   "nueva": false,
-   "visto_desde": "2026-11-04",
-   "republicaciones": 0,
-   "reapariciones": 0,
-   "marcas": [
-    "no apareció hoy en la fuente (2 de 3)"
-   ]
-  },
-  {
-   "cargo": "Product Marketing Associate, Rewards",
-   "empresa": "Sezzle",
-   "empresa_anonima": false,
-   "ciudad": "Bogota, Capital District",
-   "salario": {
-    "min": 3000,
-    "max": 3750,
-    "moneda": "USD",
-    "periodo": "MONTH"
-   },
-   "publicado": "2026-11-09",
-   "vigente_hasta": "2026-12-09",
-   "contrato": [
-    "FULL_TIME"
-   ],
-   "agencia": null,
-   "direccion": null,
-   "lat": 4.6533817,
-   "lon": -74.0836331,
-   "id_fuente": "4487934821",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "linkedin",
-     "url": "https://co.linkedin.com/jobs/view/product-marketing-associate-rewards-at-sezzle-4487934821",
-     "id_fuente": "4487934821"
-    },
-    {
-     "fuente": "linkedin",
-     "url": "https://co.linkedin.com/jobs/view/product-marketing-associate-rewards-at-sezzle-4487945642",
-     "id_fuente": "4487945642"
-    }
-   ],
-   "inc": [],
-   "deducidos": [
-    "modalidad",
-    "salario"
-   ],
-   "modalidad_fuente": "Remote OK",
-   "empleados": 464,
-   "sede": "Minneapolis, Minnesota",
-   "modalidad": "Remote OK",
-   "modalidad_literal": null,
-   "modalidad_por_confirmar": false,
-   "id": "sezzle|product marketing associate rewards|bogota",
-   "duplicados_hoy": 2,
-   "desglose": [
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "no se pudo determinar: no suma ni resta"
-    },
-    {
-     "concepto": "salario",
-     "puntos": 0,
-     "nota": "publicado en USD: no se convierte ni se compara"
-    },
-    {
-     "concepto": "publicada hace menos de 3 días",
-     "puntos": 10,
-     "nota": "hace 2 día(s)"
-    }
-   ],
-   "puntaje": 10,
-   "ausencias": 2,
-   "nueva": false,
-   "visto_desde": "2026-11-09",
-   "republicaciones": 0,
-   "reapariciones": 0,
-   "marcas": [
-    "no apareció hoy en la fuente (2 de 3)"
-   ]
-  },
-  {
-   "cargo": "Workers' Compensation Case Manager",
-   "empresa": "The United Firm | La Liga Defensora, APC",
-   "empresa_anonima": false,
-   "ciudad": "Bogota, Capital District",
-   "salario": null,
-   "publicado": "2026-09-05",
-   "vigente_hasta": "2026-10-05",
-   "contrato": [
-    "FULL_TIME"
-   ],
-   "agencia": null,
-   "direccion": null,
-   "lat": 4.6533817,
-   "lon": -74.0836331,
-   "id_fuente": "4463686850",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "linkedin",
-     "url": "https://co.linkedin.com/jobs/view/workers-compensation-case-manager-at-the-united-firm-la-liga-defensora-apc-4463686850",
-     "id_fuente": "4463686850"
-    }
-   ],
-   "inc": [
-    "salario"
-   ],
-   "deducidos": [
-    "modalidad"
-   ],
-   "modalidad_fuente": "Remote Solely",
-   "empleados": 423,
-   "sede": "Los Angeles, California",
-   "modalidad": "remoto",
-   "modalidad_literal": "Remote",
-   "modalidad_por_confirmar": false,
-   "id": "the united firm la liga defensora apc|workers compensation case manager|bogota",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "multinacional estadounidense",
-     "puntos": -5,
-     "nota": "Los Angeles, California"
-    },
-    {
-     "concepto": "remoto confirmado en el cuerpo del aviso",
-     "puntos": 15,
-     "nota": "Remote"
-    },
-    {
-     "concepto": "salario",
-     "puntos": 0,
-     "nota": "sin salario publicado, no suma ni resta"
-    }
-   ],
-   "puntaje": 10,
-   "ausencias": 2,
-   "nueva": false,
-   "visto_desde": "2026-09-05",
-   "republicaciones": 0,
-   "reapariciones": 0,
-   "marcas": [
-    "no apareció hoy en la fuente (2 de 3)"
-   ]
-  },
-  {
-   "cargo": "Advanced Paralegal or Attorney, Minnesota Workers' Compensation",
-   "empresa": "Entrepreneur Cooperative",
-   "empresa_anonima": false,
-   "ciudad": "Colombia",
-   "salario": {
-    "min": 10,
-    "max": 20,
-    "moneda": "USD",
-    "periodo": "HOUR"
-   },
-   "publicado": "2026-10-29",
-   "vigente_hasta": null,
-   "contrato": null,
-   "agencia": null,
-   "direccion": null,
-   "lat": 4.099917,
-   "lon": -72.9088133,
-   "id_fuente": "4484755118",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "linkedin",
-     "url": "https://co.linkedin.com/jobs/view/advanced-paralegal-or-attorney-minnesota-workers-compensation-at-entrepreneur-cooperative-4484755118",
-     "id_fuente": "4484755118"
-    }
-   ],
-   "inc": [
-    "contrato"
-   ],
-   "deducidos": [
-    "modalidad",
-    "salario"
-   ],
-   "modalidad_fuente": "Remote Solely",
-   "empleados": 8,
-   "sede": "",
-   "modalidad": "remoto",
-   "modalidad_literal": "Fully Remote",
-   "modalidad_por_confirmar": false,
-   "id": "entrepreneur cooperative|advanced paralegal or attorney minnesota workers compensation|colombia",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "no se pudo determinar: no suma ni resta"
-    },
-    {
-     "concepto": "remoto confirmado en el cuerpo del aviso",
-     "puntos": 15,
-     "nota": "Fully Remote"
-    },
-    {
-     "concepto": "salario",
-     "puntos": 0,
-     "nota": "publicado en USD: no se convierte ni se compara"
-    },
-    {
-     "concepto": "empresa pequeña / etapa temprana",
-     "puntos": -8,
-     "nota": "8 empleados"
-    }
-   ],
-   "puntaje": 7,
-   "ausencias": 2,
-   "nueva": false,
-   "visto_desde": "2026-10-29",
-   "republicaciones": 0,
-   "reapariciones": 0,
-   "marcas": [
-    "no apareció hoy en la fuente (2 de 3)"
-   ]
-  },
-  {
-   "cargo": "Compensation Consulting Analyst",
-   "empresa": "Marsh",
-   "empresa_anonima": false,
-   "ciudad": "Colombia",
-   "salario": null,
-   "publicado": "2026-10-07",
-   "vigente_hasta": null,
-   "contrato": null,
-   "agencia": null,
-   "direccion": null,
-   "lat": 4.099917,
-   "lon": -72.9088133,
-   "id_fuente": "4476782631",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "linkedin",
-     "url": "https://co.linkedin.com/jobs/view/compensation-consulting-analyst-at-marsh-4476782631",
-     "id_fuente": "4476782631"
-    }
-   ],
-   "inc": [
-    "salario",
-    "contrato"
-   ],
-   "deducidos": [
-    "modalidad"
-   ],
-   "modalidad_fuente": "Hybrid",
-   "empleados": 65841,
-   "sede": "New York, NY",
-   "modalidad": "híbrido",
-   "modalidad_literal": "hibrido",
-   "modalidad_por_confirmar": false,
-   "id": "marsh|compensation consulting analyst|colombia",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "multinacional estadounidense",
-     "puntos": -5,
-     "nota": "New York, NY"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "compensacion"
-    },
-    {
-     "concepto": "salario",
-     "puntos": 0,
-     "nota": "sin salario publicado, no suma ni resta"
-    }
-   ],
-   "puntaje": 7,
-   "ausencias": 2,
-   "nueva": false,
-   "visto_desde": "2026-10-08",
-   "republicaciones": 0,
-   "reapariciones": 0,
-   "marcas": [
-    "no apareció hoy en la fuente (2 de 3)"
-   ]
-  },
-  {
-   "cargo": "Manager, Global Compensation",
-   "empresa": "Numerator",
-   "empresa_anonima": false,
-   "ciudad": "Bogota, Capital District",
-   "salario": null,
-   "publicado": "2026-08-21",
-   "vigente_hasta": "2026-09-20",
-   "contrato": [
-    "FULL_TIME"
-   ],
-   "agencia": null,
-   "direccion": null,
-   "lat": 4.6533817,
-   "lon": -74.0836331,
-   "id_fuente": "4457520404",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "linkedin",
-     "url": "https://co.linkedin.com/jobs/view/manager-global-compensation-at-numerator-4457520404",
-     "id_fuente": "4457520404"
-    }
-   ],
-   "inc": [
-    "salario"
-   ],
-   "deducidos": [
-    "modalidad"
-   ],
-   "modalidad_fuente": "Hybrid",
-   "empleados": 2807,
-   "sede": "Chicago, Illinois",
-   "modalidad": "híbrido",
-   "modalidad_literal": "hybrid",
-   "modalidad_por_confirmar": false,
-   "id": "numerator|manager global compensation|bogota",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "multinacional estadounidense",
-     "puntos": -5,
-     "nota": "Chicago, Illinois"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "total rewards, pay equity"
-    },
-    {
-     "concepto": "salario",
-     "puntos": 0,
-     "nota": "sin salario publicado, no suma ni resta"
-    }
-   ],
-   "puntaje": 7,
-   "ausencias": 2,
-   "nueva": false,
-   "visto_desde": "2026-08-29",
-   "republicaciones": 0,
-   "reapariciones": 0,
-   "marcas": [
-    "no apareció hoy en la fuente (2 de 3)"
-   ]
-  },
-  {
    "cargo": "Profesional de Nómina y Compensación",
    "empresa": "Fundación Universitaria Konrad Lorenz",
    "empresa_anonima": false,
@@ -1373,7 +688,7 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 2 día(s)"
+     "nota": "hace 3 día(s)"
     }
    ],
    "puntaje": 7,
@@ -1382,76 +697,6 @@
    "visto_desde": "2026-10-14",
    "republicaciones": 8,
    "reapariciones": 0
-  },
-  {
-   "cargo": "Senior Total Rewards Consultant - Sao Paulo, SP",
-   "empresa": "Cargill",
-   "empresa_anonima": false,
-   "ciudad": "Bogota, Capital District",
-   "salario": null,
-   "publicado": "2026-10-02",
-   "vigente_hasta": "2026-11-01",
-   "contrato": [
-    "FULL_TIME"
-   ],
-   "agencia": null,
-   "direccion": null,
-   "lat": 4.6533817,
-   "lon": -74.0836331,
-   "id_fuente": "4473174332",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "linkedin",
-     "url": "https://co.linkedin.com/jobs/view/senior-total-rewards-consultant-sao-paulo-sp-at-cargill-4473174332",
-     "id_fuente": "4473174332"
-    }
-   ],
-   "inc": [
-    "salario"
-   ],
-   "deducidos": [
-    "modalidad"
-   ],
-   "modalidad_fuente": "On-site",
-   "empleados": 69799,
-   "sede": "Wayzata, Minnesota",
-   "modalidad": "On-site",
-   "modalidad_literal": null,
-   "modalidad_por_confirmar": false,
-   "id": "cargill|senior total rewards consultant sao paulo sp|bogota",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "no se pudo determinar: no suma ni resta"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "total rewards"
-    },
-    {
-     "concepto": "salario",
-     "puntos": 0,
-     "nota": "sin salario publicado, no suma ni resta"
-    },
-    {
-     "concepto": "exige portuguese",
-     "puntos": -10,
-     "nota": "el perfil no lo domina — se muestra igual: muchos avisos lo piden como «deseable» y luego no lo evalúan"
-    }
-   ],
-   "puntaje": 2,
-   "ausencias": 2,
-   "nueva": false,
-   "visto_desde": "2026-10-03",
-   "republicaciones": 0,
-   "reapariciones": 0,
-   "marcas": [
-    "no apareció hoy en la fuente (2 de 3)"
-   ]
   },
   {
    "cargo": "Coordinador Compensación y Gestión Laboral",
@@ -1498,11 +743,14 @@
     }
    ],
    "puntaje": 0,
-   "ausencias": 0,
+   "ausencias": 1,
    "nueva": false,
    "visto_desde": "2026-10-15",
    "republicaciones": 0,
-   "reapariciones": 0
+   "reapariciones": 0,
+   "marcas": [
+    "no apareció hoy en la fuente (1 de 3)"
+   ]
   },
   {
    "cargo": "HR Operations Payroll Compensation Coordinator",
@@ -1680,69 +928,6 @@
    "visto_desde": "2026-10-24",
    "republicaciones": 0,
    "reapariciones": 0
-  },
-  {
-   "cargo": "Lider de Nomina - Compensación y Beneficios",
-   "empresa": "CONSORCIO CIRCULEMOS DIGITAL",
-   "empresa_anonima": false,
-   "ciudad": "Bogotá, D.C.",
-   "salario": {
-    "min": 3744000.0,
-    "max": 3744000.0,
-    "moneda": "COP",
-    "periodo": "MONTH"
-   },
-   "publicado": "2026-10-26",
-   "vigente_hasta": "2026-12-25",
-   "contrato": "TEMPORARY",
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": "B0CBFB0381AE86E4",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "computrabajo",
-     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-lider-de-nomina-compensacion-y-beneficios-en-bogota-dc-439E79F500529BC161373E686DCF3405",
-     "id_fuente": "B0CBFB0381AE86E4"
-    }
-   ],
-   "inc": [
-    "modalidad"
-   ],
-   "deducidos": [],
-   "modalidad": null,
-   "modalidad_literal": null,
-   "modalidad_por_confirmar": false,
-   "id": "consorcio circulemos digital|lider de nomina compensacion y beneficios|bogota",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "no se pudo determinar: no suma ni resta"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "compensacion"
-    },
-    {
-     "concepto": "salario publicado por debajo de $18.000.000",
-     "puntos": -15,
-     "nota": "3.744.000 COP — se muestra igual: el publicado casi nunca es el negociado"
-    }
-   ],
-   "puntaje": -3,
-   "ausencias": 2,
-   "nueva": false,
-   "visto_desde": "2026-10-27",
-   "republicaciones": 0,
-   "reapariciones": 0,
-   "marcas": [
-    "no apareció hoy en la fuente (2 de 3)"
-   ]
   },
   {
    "cargo": "LÍDER DE NÓMINA Y COMPENSACIÓN - CAJICÁ | REF. 1626469498-36",
@@ -2042,7 +1227,7 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 2 día(s)"
+     "nota": "hace 3 día(s)"
     }
    ],
    "puntaje": -5,
@@ -2104,9 +1289,7 @@
    "visto_desde": "2026-10-08",
    "republicaciones": 0,
    "reapariciones": 0
-  }
- ],
- "caidas": [
+  },
   {
    "cargo": "Profesional Líder Compensación, Contratación y Bienestar",
    "empresa": "Fundación Plan",
@@ -2154,15 +1337,836 @@
     }
    ],
    "puntaje": -15,
+   "ausencias": 0,
    "nueva": false,
    "visto_desde": "2026-10-28",
+   "republicaciones": 0,
+   "reapariciones": 1,
+   "reaparecida": true
+  }
+ ],
+ "caidas": [
+  {
+   "cargo": "Global Compensation Manager",
+   "empresa": "Worldpanel",
+   "empresa_anonima": false,
+   "ciudad": "Bogota, Capital District",
+   "salario": null,
+   "publicado": "2026-08-21",
+   "vigente_hasta": "2026-11-14",
+   "contrato": [
+    "FULL_TIME"
+   ],
+   "agencia": null,
+   "direccion": null,
+   "lat": 4.6533817,
+   "lon": -74.0836331,
+   "id_fuente": "4479118814",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/global-compensation-manager-at-worldpanel-4479118814",
+     "id_fuente": "4479118814"
+    }
+   ],
+   "inc": [
+    "salario"
+   ],
+   "deducidos": [
+    "modalidad"
+   ],
+   "modalidad_fuente": "Hybrid",
+   "empleados": 3415,
+   "sede": "London",
+   "modalidad": "híbrido",
+   "modalidad_literal": "Hybrid",
+   "modalidad_por_confirmar": false,
+   "id": "worldpanel|global compensation manager|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "cargo objetivo de la búsqueda",
+     "puntos": 25,
+     "nota": "Global Compensation Manager"
+    },
+    {
+     "concepto": "multinacional europea",
+     "puntos": 15,
+     "nota": "London"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "total rewards, pay equity"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    }
+   ],
+   "puntaje": 52,
+   "nueva": false,
+   "visto_desde": "2026-08-29",
+   "republicaciones": 2,
+   "reapariciones": 1,
+   "marcas": [
+    "no apareció hoy en la fuente (2 de 3)"
+   ],
+   "desaparecio": "2026-11-14",
+   "dias_publicada": 77
+  },
+  {
+   "cargo": "LIDER DE COMPENSACIÓN Y BENEFICIOS",
+   "empresa": "AXA Partners",
+   "empresa_anonima": false,
+   "ciudad": "Bogota, Capital District",
+   "salario": null,
+   "publicado": "2026-11-06",
+   "vigente_hasta": "2026-12-06",
+   "contrato": [
+    "FULL_TIME"
+   ],
+   "agencia": null,
+   "direccion": null,
+   "lat": 4.6533817,
+   "lon": -74.0836331,
+   "id_fuente": "4488060567",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/lider-de-compensaci%C3%B3n-y-beneficios-at-axa-partners-4488060567",
+     "id_fuente": "4488060567"
+    }
+   ],
+   "inc": [
+    "salario"
+   ],
+   "deducidos": [
+    "modalidad"
+   ],
+   "modalidad_fuente": "Hybrid",
+   "empleados": 5997,
+   "sede": "Malakoff",
+   "modalidad": "híbrido",
+   "modalidad_literal": "Hibrido",
+   "modalidad_por_confirmar": false,
+   "id": "axa partners|lider de compensacion y beneficios|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "cargo objetivo de la búsqueda",
+     "puntos": 25,
+     "nota": "LIDER DE COMPENSACIÓN Y BENEFICIOS"
+    },
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "compensacion, encuestas salariales"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    }
+   ],
+   "puntaje": 37,
+   "nueva": false,
+   "visto_desde": "2026-11-06",
    "republicaciones": 0,
    "reapariciones": 0,
    "marcas": [
     "no apareció hoy en la fuente (2 de 3)"
    ],
-   "desaparecio": "2026-11-13",
+   "desaparecio": "2026-11-14",
+   "dias_publicada": 8
+  },
+  {
+   "cargo": "Especialista Compensación y Beneficios",
+   "empresa": "WOM Colombia",
+   "empresa_anonima": false,
+   "ciudad": "Bogota, Capital District",
+   "salario": null,
+   "publicado": "2026-10-26",
+   "vigente_hasta": "2026-11-25",
+   "contrato": [
+    "FULL_TIME"
+   ],
+   "agencia": null,
+   "direccion": null,
+   "lat": 4.6533817,
+   "lon": -74.0836331,
+   "id_fuente": "4483573358",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/especialista-compensaci%C3%B3n-y-beneficios-at-wom-colombia-4483573358",
+     "id_fuente": "4483573358"
+    }
+   ],
+   "inc": [
+    "salario"
+   ],
+   "deducidos": [
+    "modalidad"
+   ],
+   "modalidad_fuente": "On-site",
+   "empleados": 2168,
+   "sede": "Bogotá, Bogotá",
+   "modalidad": "On-site",
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "wom|especialista compensacion y beneficios|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "compensacion, valoracion de cargos, bandas salariales"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    }
+   ],
+   "puntaje": 12,
+   "nueva": false,
+   "visto_desde": "2026-10-26",
+   "republicaciones": 0,
+   "reapariciones": 0,
+   "marcas": [
+    "no apareció hoy en la fuente (2 de 3)"
+   ],
+   "desaparecio": "2026-11-14",
+   "dias_publicada": 19
+  },
+  {
+   "cargo": "National Human Resources Total Rewards Expert",
+   "empresa": "Kuehne+Nagel",
+   "empresa_anonima": false,
+   "ciudad": "Bogota, Capital District",
+   "salario": null,
+   "publicado": "2026-09-16",
+   "vigente_hasta": "2026-10-16",
+   "contrato": [
+    "FULL_TIME"
+   ],
+   "agencia": null,
+   "direccion": null,
+   "lat": 4.6533817,
+   "lon": -74.0836331,
+   "id_fuente": "4468305370",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/national-human-resources-total-rewards-expert-at-kuehne%2Bnagel-4468305370",
+     "id_fuente": "4468305370"
+    }
+   ],
+   "inc": [
+    "salario"
+   ],
+   "deducidos": [
+    "modalidad"
+   ],
+   "modalidad_fuente": "On-site",
+   "empleados": 53383,
+   "sede": "Schindellegi, Schwyz",
+   "modalidad": "On-site",
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "kuehne nagel|national human resources total rewards expert|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "total rewards"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    }
+   ],
+   "puntaje": 12,
+   "nueva": false,
+   "visto_desde": "2026-09-17",
+   "republicaciones": 0,
+   "reapariciones": 1,
+   "marcas": [
+    "no apareció hoy en la fuente (2 de 3)"
+   ],
+   "desaparecio": "2026-11-14",
+   "dias_publicada": 58
+  },
+  {
+   "cargo": "Senior Analyst, Total Rewards",
+   "empresa": "Mastercard",
+   "empresa_anonima": false,
+   "ciudad": "Bogota, Capital District",
+   "salario": null,
+   "publicado": "2026-11-03",
+   "vigente_hasta": "2026-12-03",
+   "contrato": [
+    "FULL_TIME"
+   ],
+   "agencia": null,
+   "direccion": null,
+   "lat": 4.6533817,
+   "lon": -74.0836331,
+   "id_fuente": "4485027742",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/senior-analyst-total-rewards-at-mastercard-4485027742",
+     "id_fuente": "4485027742"
+    }
+   ],
+   "inc": [
+    "salario"
+   ],
+   "deducidos": [
+    "modalidad"
+   ],
+   "modalidad_fuente": "On-site",
+   "empleados": 44260,
+   "sede": "Purchase, NY",
+   "modalidad": "On-site",
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "mastercard|senior analyst total rewards|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "total rewards"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    }
+   ],
+   "puntaje": 12,
+   "nueva": false,
+   "visto_desde": "2026-11-04",
+   "republicaciones": 0,
+   "reapariciones": 0,
+   "marcas": [
+    "no apareció hoy en la fuente (2 de 3)"
+   ],
+   "desaparecio": "2026-11-14",
+   "dias_publicada": 10
+  },
+  {
+   "cargo": "Product Marketing Associate, Rewards",
+   "empresa": "Sezzle",
+   "empresa_anonima": false,
+   "ciudad": "Bogota, Capital District",
+   "salario": {
+    "min": 3000,
+    "max": 3750,
+    "moneda": "USD",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-11-09",
+   "vigente_hasta": "2026-12-09",
+   "contrato": [
+    "FULL_TIME"
+   ],
+   "agencia": null,
+   "direccion": null,
+   "lat": 4.6533817,
+   "lon": -74.0836331,
+   "id_fuente": "4487934821",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/product-marketing-associate-rewards-at-sezzle-4487934821",
+     "id_fuente": "4487934821"
+    },
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/product-marketing-associate-rewards-at-sezzle-4487945642",
+     "id_fuente": "4487945642"
+    }
+   ],
+   "inc": [],
+   "deducidos": [
+    "modalidad",
+    "salario"
+   ],
+   "modalidad_fuente": "Remote OK",
+   "empleados": 464,
+   "sede": "Minneapolis, Minnesota",
+   "modalidad": "Remote OK",
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "sezzle|product marketing associate rewards|bogota",
+   "duplicados_hoy": 2,
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "publicado en USD: no se convierte ni se compara"
+    },
+    {
+     "concepto": "publicada hace menos de 3 días",
+     "puntos": 10,
+     "nota": "hace 2 día(s)"
+    }
+   ],
+   "puntaje": 10,
+   "nueva": false,
+   "visto_desde": "2026-11-09",
+   "republicaciones": 0,
+   "reapariciones": 0,
+   "marcas": [
+    "no apareció hoy en la fuente (2 de 3)"
+   ],
+   "desaparecio": "2026-11-14",
+   "dias_publicada": 5
+  },
+  {
+   "cargo": "Workers' Compensation Case Manager",
+   "empresa": "The United Firm | La Liga Defensora, APC",
+   "empresa_anonima": false,
+   "ciudad": "Bogota, Capital District",
+   "salario": null,
+   "publicado": "2026-09-05",
+   "vigente_hasta": "2026-10-05",
+   "contrato": [
+    "FULL_TIME"
+   ],
+   "agencia": null,
+   "direccion": null,
+   "lat": 4.6533817,
+   "lon": -74.0836331,
+   "id_fuente": "4463686850",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/workers-compensation-case-manager-at-the-united-firm-la-liga-defensora-apc-4463686850",
+     "id_fuente": "4463686850"
+    }
+   ],
+   "inc": [
+    "salario"
+   ],
+   "deducidos": [
+    "modalidad"
+   ],
+   "modalidad_fuente": "Remote Solely",
+   "empleados": 423,
+   "sede": "Los Angeles, California",
+   "modalidad": "remoto",
+   "modalidad_literal": "Remote",
+   "modalidad_por_confirmar": false,
+   "id": "the united firm la liga defensora apc|workers compensation case manager|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "multinacional estadounidense",
+     "puntos": -5,
+     "nota": "Los Angeles, California"
+    },
+    {
+     "concepto": "remoto confirmado en el cuerpo del aviso",
+     "puntos": 15,
+     "nota": "Remote"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    }
+   ],
+   "puntaje": 10,
+   "nueva": false,
+   "visto_desde": "2026-09-05",
+   "republicaciones": 0,
+   "reapariciones": 0,
+   "marcas": [
+    "no apareció hoy en la fuente (2 de 3)"
+   ],
+   "desaparecio": "2026-11-14",
+   "dias_publicada": 70
+  },
+  {
+   "cargo": "Advanced Paralegal or Attorney, Minnesota Workers' Compensation",
+   "empresa": "Entrepreneur Cooperative",
+   "empresa_anonima": false,
+   "ciudad": "Colombia",
+   "salario": {
+    "min": 10,
+    "max": 20,
+    "moneda": "USD",
+    "periodo": "HOUR"
+   },
+   "publicado": "2026-10-29",
+   "vigente_hasta": null,
+   "contrato": null,
+   "agencia": null,
+   "direccion": null,
+   "lat": 4.099917,
+   "lon": -72.9088133,
+   "id_fuente": "4484755118",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/advanced-paralegal-or-attorney-minnesota-workers-compensation-at-entrepreneur-cooperative-4484755118",
+     "id_fuente": "4484755118"
+    }
+   ],
+   "inc": [
+    "contrato"
+   ],
+   "deducidos": [
+    "modalidad",
+    "salario"
+   ],
+   "modalidad_fuente": "Remote Solely",
+   "empleados": 8,
+   "sede": "",
+   "modalidad": "remoto",
+   "modalidad_literal": "Fully Remote",
+   "modalidad_por_confirmar": false,
+   "id": "entrepreneur cooperative|advanced paralegal or attorney minnesota workers compensation|colombia",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "remoto confirmado en el cuerpo del aviso",
+     "puntos": 15,
+     "nota": "Fully Remote"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "publicado en USD: no se convierte ni se compara"
+    },
+    {
+     "concepto": "empresa pequeña / etapa temprana",
+     "puntos": -8,
+     "nota": "8 empleados"
+    }
+   ],
+   "puntaje": 7,
+   "nueva": false,
+   "visto_desde": "2026-10-29",
+   "republicaciones": 0,
+   "reapariciones": 0,
+   "marcas": [
+    "no apareció hoy en la fuente (2 de 3)"
+   ],
+   "desaparecio": "2026-11-14",
    "dias_publicada": 16
+  },
+  {
+   "cargo": "Compensation Consulting Analyst",
+   "empresa": "Marsh",
+   "empresa_anonima": false,
+   "ciudad": "Colombia",
+   "salario": null,
+   "publicado": "2026-10-07",
+   "vigente_hasta": null,
+   "contrato": null,
+   "agencia": null,
+   "direccion": null,
+   "lat": 4.099917,
+   "lon": -72.9088133,
+   "id_fuente": "4476782631",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/compensation-consulting-analyst-at-marsh-4476782631",
+     "id_fuente": "4476782631"
+    }
+   ],
+   "inc": [
+    "salario",
+    "contrato"
+   ],
+   "deducidos": [
+    "modalidad"
+   ],
+   "modalidad_fuente": "Hybrid",
+   "empleados": 65841,
+   "sede": "New York, NY",
+   "modalidad": "híbrido",
+   "modalidad_literal": "hibrido",
+   "modalidad_por_confirmar": false,
+   "id": "marsh|compensation consulting analyst|colombia",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "multinacional estadounidense",
+     "puntos": -5,
+     "nota": "New York, NY"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "compensacion"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    }
+   ],
+   "puntaje": 7,
+   "nueva": false,
+   "visto_desde": "2026-10-08",
+   "republicaciones": 0,
+   "reapariciones": 0,
+   "marcas": [
+    "no apareció hoy en la fuente (2 de 3)"
+   ],
+   "desaparecio": "2026-11-14",
+   "dias_publicada": 37
+  },
+  {
+   "cargo": "Manager, Global Compensation",
+   "empresa": "Numerator",
+   "empresa_anonima": false,
+   "ciudad": "Bogota, Capital District",
+   "salario": null,
+   "publicado": "2026-08-21",
+   "vigente_hasta": "2026-09-20",
+   "contrato": [
+    "FULL_TIME"
+   ],
+   "agencia": null,
+   "direccion": null,
+   "lat": 4.6533817,
+   "lon": -74.0836331,
+   "id_fuente": "4457520404",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/manager-global-compensation-at-numerator-4457520404",
+     "id_fuente": "4457520404"
+    }
+   ],
+   "inc": [
+    "salario"
+   ],
+   "deducidos": [
+    "modalidad"
+   ],
+   "modalidad_fuente": "Hybrid",
+   "empleados": 2807,
+   "sede": "Chicago, Illinois",
+   "modalidad": "híbrido",
+   "modalidad_literal": "hybrid",
+   "modalidad_por_confirmar": false,
+   "id": "numerator|manager global compensation|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "multinacional estadounidense",
+     "puntos": -5,
+     "nota": "Chicago, Illinois"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "total rewards, pay equity"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    }
+   ],
+   "puntaje": 7,
+   "nueva": false,
+   "visto_desde": "2026-08-29",
+   "republicaciones": 0,
+   "reapariciones": 0,
+   "marcas": [
+    "no apareció hoy en la fuente (2 de 3)"
+   ],
+   "desaparecio": "2026-11-14",
+   "dias_publicada": 77
+  },
+  {
+   "cargo": "Senior Total Rewards Consultant - Sao Paulo, SP",
+   "empresa": "Cargill",
+   "empresa_anonima": false,
+   "ciudad": "Bogota, Capital District",
+   "salario": null,
+   "publicado": "2026-10-02",
+   "vigente_hasta": "2026-11-01",
+   "contrato": [
+    "FULL_TIME"
+   ],
+   "agencia": null,
+   "direccion": null,
+   "lat": 4.6533817,
+   "lon": -74.0836331,
+   "id_fuente": "4473174332",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "linkedin",
+     "url": "https://co.linkedin.com/jobs/view/senior-total-rewards-consultant-sao-paulo-sp-at-cargill-4473174332",
+     "id_fuente": "4473174332"
+    }
+   ],
+   "inc": [
+    "salario"
+   ],
+   "deducidos": [
+    "modalidad"
+   ],
+   "modalidad_fuente": "On-site",
+   "empleados": 69799,
+   "sede": "Wayzata, Minnesota",
+   "modalidad": "On-site",
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "cargill|senior total rewards consultant sao paulo sp|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "total rewards"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    },
+    {
+     "concepto": "exige portuguese",
+     "puntos": -10,
+     "nota": "el perfil no lo domina — se muestra igual: muchos avisos lo piden como «deseable» y luego no lo evalúan"
+    }
+   ],
+   "puntaje": 2,
+   "nueva": false,
+   "visto_desde": "2026-10-03",
+   "republicaciones": 0,
+   "reapariciones": 0,
+   "marcas": [
+    "no apareció hoy en la fuente (2 de 3)"
+   ],
+   "desaparecio": "2026-11-14",
+   "dias_publicada": 42
+  },
+  {
+   "cargo": "Lider de Nomina - Compensación y Beneficios",
+   "empresa": "CONSORCIO CIRCULEMOS DIGITAL",
+   "empresa_anonima": false,
+   "ciudad": "Bogotá, D.C.",
+   "salario": {
+    "min": 3744000.0,
+    "max": 3744000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-10-26",
+   "vigente_hasta": "2026-12-25",
+   "contrato": "TEMPORARY",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": "B0CBFB0381AE86E4",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "computrabajo",
+     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-lider-de-nomina-compensacion-y-beneficios-en-bogota-dc-439E79F500529BC161373E686DCF3405",
+     "id_fuente": "B0CBFB0381AE86E4"
+    }
+   ],
+   "inc": [
+    "modalidad"
+   ],
+   "deducidos": [],
+   "modalidad": null,
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "consorcio circulemos digital|lider de nomina compensacion y beneficios|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "compensacion"
+    },
+    {
+     "concepto": "salario publicado por debajo de $18.000.000",
+     "puntos": -15,
+     "nota": "3.744.000 COP — se muestra igual: el publicado casi nunca es el negociado"
+    }
+   ],
+   "puntaje": -3,
+   "nueva": false,
+   "visto_desde": "2026-10-27",
+   "republicaciones": 0,
+   "reapariciones": 0,
+   "marcas": [
+    "no apareció hoy en la fuente (2 de 3)"
+   ],
+   "desaparecio": "2026-11-14",
+   "dias_publicada": 18
   },
   {
    "cargo": "Profesional de compensación y productividad",
@@ -4712,153 +4716,6 @@
    "reapariciones": 2,
    "desaparecio": "2026-09-30",
    "dias_publicada": 33
-  },
-  {
-   "cargo": "JEFE DE COMPENSACIÓN Y BENEFICIOS - BOGOTÁ- 1625894613-31",
-   "empresa": "CONFIDENTIAL",
-   "empresa_anonima": true,
-   "ciudad": "Bogotá D.C.",
-   "salario": {
-    "min": 6000001.0,
-    "max": 8000000.0,
-    "moneda": "COP",
-    "periodo": "MONTH"
-   },
-   "publicado": "2026-07-29",
-   "vigente_hasta": "2026-09-27",
-   "contrato": "FULL_TIME",
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": null,
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "elempleo",
-     "url": "https://www.elempleo.com/co/ofertas-trabajo/jefe-de-compensacion-y-beneficios-bogota-162589461331-1886745723",
-     "id_fuente": null
-    }
-   ],
-   "inc": [
-    "modalidad"
-   ],
-   "deducidos": [],
-   "modalidad": null,
-   "modalidad_literal": null,
-   "modalidad_por_confirmar": false,
-   "id": "empresa no revelada|jefe de compensacion y beneficios bogota 31|bogota#anon:6000001-8000000-2026-07-29",
-   "duplicados_hoy": 1,
-   "marcas": [
-    "empresa no revelada: puede estar repetida",
-    "no apareció hoy en la fuente (2 de 3)"
-   ],
-   "desglose": [
-    {
-     "concepto": "cargo objetivo de la búsqueda",
-     "puntos": 25,
-     "nota": "JEFE DE COMPENSACIÓN Y BENEFICIOS - BOGOTÁ- 1625894613-31"
-    },
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "el aviso no revela la empresa: no suma ni resta"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "compensacion, estructura salarial"
-    },
-    {
-     "concepto": "salario publicado por debajo de $18.000.000",
-     "puntos": -15,
-     "nota": "8.000.000 COP — se muestra igual: el publicado casi nunca es el negociado"
-    }
-   ],
-   "puntaje": 22,
-   "nueva": false,
-   "visto_desde": "2026-08-28",
-   "republicaciones": 0,
-   "reapariciones": 0,
-   "desaparecio": "2026-09-29",
-   "dias_publicada": 32
-  },
-  {
-   "cargo": "Director, People Operations & Total Rewards",
-   "empresa": "Filigran",
-   "empresa_anonima": false,
-   "ciudad": "France",
-   "salario": null,
-   "publicado": null,
-   "vigente_hasta": null,
-   "contrato": null,
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": "director-people-operations-total-rewards-france-479186",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "arbeitnow",
-     "url": "https://www.arbeitnow.fr/jobs/companies/filigran/director-people-operations-total-rewards-france-479186",
-     "id_fuente": "director-people-operations-total-rewards-france-479186"
-    }
-   ],
-   "inc": [
-    "salario",
-    "publicado",
-    "contrato"
-   ],
-   "deducidos": [],
-   "modalidad": "remoto",
-   "modalidad_literal": "remote",
-   "modalidad_por_confirmar": false,
-   "marcas": [
-    "remoto fuera de Colombia, contratación por confirmar",
-    "no apareció hoy en la fuente (2 de 3)"
-   ],
-   "id": "filigran|director people operations total rewards|france",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "no se pudo determinar: no suma ni resta"
-    },
-    {
-     "concepto": "remoto confirmado en el cuerpo del aviso",
-     "puntos": 15,
-     "nota": "remote"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "total rewards"
-    },
-    {
-     "concepto": "salario",
-     "puntos": 0,
-     "nota": "sin salario publicado, no suma ni resta"
-    },
-    {
-     "concepto": "fecha de publicación",
-     "puntos": 0,
-     "nota": "sin fecha publicada: no suma ni resta"
-    },
-    {
-     "concepto": "exige french",
-     "puntos": -10,
-     "nota": "el perfil no lo domina — se muestra igual: muchos avisos lo piden como «deseable» y luego no lo evalúan"
-    }
-   ],
-   "puntaje": 17,
-   "nueva": false,
-   "visto_desde": "2026-09-26",
-   "republicaciones": 0,
-   "reapariciones": 0,
-   "desaparecio": "2026-09-29",
-   "dias_publicada": 3
   }
  ],
  "avisos_pendientes": 0
