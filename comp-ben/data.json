@@ -1,10 +1,10 @@
 {
  "busqueda": "comp-ben",
- "corrida": "2026-11-17",
- "corrida_hora": "2026-11-17 19:50",
+ "corrida": "2026-11-18",
+ "corrida_hora": "2026-11-18 19:25",
  "fuentes": {
   "elempleo": {
-   "avisos": 16,
+   "avisos": 17,
    "error": null
   },
   "computrabajo": {
@@ -20,7 +20,7 @@
    "error": null
   },
   "arbeitnow": {
-   "avisos": 0,
+   "avisos": 1,
    "error": null
   },
   "apify_linkedin": {
@@ -34,16 +34,12 @@
    "motivo": "HTTP 401"
   }
  ],
- "avisos_recogidos": 28,
- "descartados": 8,
+ "avisos_recogidos": 30,
+ "descartados": 10,
  "fusionados": [],
- "nuevas": [
-  "roche|compensation and|budapest#202611-129168"
- ],
+ "nuevas": [],
  "reaparecidas": [],
- "ausentes": [
-  "manpower|compensation hr operations analyst ingles avanzado|bogota"
- ],
+ "ausentes": [],
  "republicadas": [],
  "vigentes": [
   {
@@ -180,12 +176,12 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 0 día(s)"
+     "nota": "hace 1 día(s)"
     }
    ],
    "puntaje": 47,
    "ausencias": 0,
-   "nueva": true,
+   "nueva": false,
    "visto_desde": "2026-11-17",
    "republicaciones": 0,
    "reapariciones": 0
@@ -738,75 +734,6 @@
    "reapariciones": 4
   },
   {
-   "cargo": "Compensation & HR Operations Analyst | Inglés Avanzado",
-   "empresa": "MANPOWER",
-   "empresa_anonima": false,
-   "ciudad": "Bogotá D.C.",
-   "salario": {
-    "min": 4500001.0,
-    "max": 5500000.0,
-    "moneda": "COP",
-    "periodo": "MONTH"
-   },
-   "publicado": "2026-09-17",
-   "vigente_hasta": "2026-11-16",
-   "contrato": "PER_DIEM",
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": null,
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "elempleo",
-     "url": "https://www.elempleo.com/co/ofertas-trabajo/compensation-hr-operations-analyst-ingles-avanzado-1886768508",
-     "id_fuente": null
-    },
-    {
-     "fuente": "elempleo",
-     "url": "https://www.elempleo.com/co/ofertas-trabajo/compensation-data-analyst-ingles-avanzado-1886770844",
-     "id_fuente": null
-    }
-   ],
-   "inc": [],
-   "deducidos": [],
-   "modalidad": "híbrido",
-   "modalidad_literal": "3 dias en oficina",
-   "modalidad_por_confirmar": false,
-   "id": "manpower|compensation hr operations analyst ingles avanzado|bogota",
-   "duplicados_hoy": 1,
-   "titulos_alternos": [
-    "Compensation & Data Analyst | Inglés Avanzado"
-   ],
-   "desglose": [
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "no se pudo determinar: no suma ni resta"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "compensacion"
-    },
-    {
-     "concepto": "salario publicado por debajo de $18.000.000",
-     "puntos": -15,
-     "nota": "5.500.000 COP — se muestra igual: el publicado casi nunca es el negociado"
-    }
-   ],
-   "puntaje": -3,
-   "ausencias": 2,
-   "nueva": false,
-   "visto_desde": "2026-09-18",
-   "republicaciones": 1,
-   "reapariciones": 4,
-   "marcas": [
-    "no apareció hoy en la fuente (2 de 3)"
-   ]
-  },
-  {
    "cargo": "ESPECIALISTA PROCESOS DE COMPENSACION",
    "empresa": "SUMMAR PRODUCTIVIDAD S.A.S",
    "empresa_anonima": false,
@@ -1337,6 +1264,76 @@
   }
  ],
  "caidas": [
+  {
+   "cargo": "Compensation & HR Operations Analyst | Inglés Avanzado",
+   "empresa": "MANPOWER",
+   "empresa_anonima": false,
+   "ciudad": "Bogotá D.C.",
+   "salario": {
+    "min": 4500001.0,
+    "max": 5500000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-09-17",
+   "vigente_hasta": "2026-11-16",
+   "contrato": "PER_DIEM",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/compensation-hr-operations-analyst-ingles-avanzado-1886768508",
+     "id_fuente": null
+    },
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/compensation-data-analyst-ingles-avanzado-1886770844",
+     "id_fuente": null
+    }
+   ],
+   "inc": [],
+   "deducidos": [],
+   "modalidad": "híbrido",
+   "modalidad_literal": "3 dias en oficina",
+   "modalidad_por_confirmar": false,
+   "id": "manpower|compensation hr operations analyst ingles avanzado|bogota",
+   "duplicados_hoy": 1,
+   "titulos_alternos": [
+    "Compensation & Data Analyst | Inglés Avanzado"
+   ],
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "compensacion"
+    },
+    {
+     "concepto": "salario publicado por debajo de $18.000.000",
+     "puntos": -15,
+     "nota": "5.500.000 COP — se muestra igual: el publicado casi nunca es el negociado"
+    }
+   ],
+   "puntaje": -3,
+   "nueva": false,
+   "visto_desde": "2026-09-18",
+   "republicaciones": 1,
+   "reapariciones": 4,
+   "marcas": [
+    "no apareció hoy en la fuente (2 de 3)"
+   ],
+   "desaparecio": "2026-11-18",
+   "dias_publicada": 61
+  },
   {
    "cargo": "Gerente de compensación y arquitectura organizacional",
    "empresa": "CONFIDENTIAL",
@@ -4405,81 +4402,6 @@
    ],
    "desaparecio": "2026-10-05",
    "dias_publicada": 19
-  },
-  {
-   "cargo": "Incentive Compensation & Sales Performance Manager",
-   "empresa": "GSK",
-   "empresa_anonima": false,
-   "ciudad": "Bogota Torre Cusezar",
-   "salario": null,
-   "publicado": "2026-09-29",
-   "vigente_hasta": null,
-   "contrato": "A tiempo completo",
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": "448585",
-   "pais": "Colombia",
-   "fuentes": [
-    {
-     "fuente": "workday",
-     "url": "https://gsk.wd5.myworkdayjobs.com/GSKCareers/job/Bogota-Torre-Cusezar/Incentive-Compensation---Sales-Performance-Manager_448585-1",
-     "id_fuente": "448585"
-    }
-   ],
-   "inc": [
-    "salario",
-    "modalidad"
-   ],
-   "deducidos": [],
-   "modalidad": null,
-   "modalidad_literal": null,
-   "modalidad_por_confirmar": false,
-   "id": "gsk|incentive compensation sales performance manager|bogota#448585",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "cargo objetivo de la búsqueda",
-     "puntos": 25,
-     "nota": "Incentive Compensation & Sales Performance Manager"
-    },
-    {
-     "concepto": "cargo de la lista de excluidos",
-     "puntos": -25,
-     "nota": "Incentive Compensation & Sales Performance Manager"
-    },
-    {
-     "concepto": "multinacional europea",
-     "puntos": 15,
-     "nota": "por la lista objetivo"
-    },
-    {
-     "concepto": "está en la lista de empresas objetivo",
-     "puntos": 10,
-     "nota": "GSK"
-    },
-    {
-     "concepto": "salario",
-     "puntos": 0,
-     "nota": "sin salario publicado, no suma ni resta"
-    },
-    {
-     "concepto": "publicada hace menos de 3 días",
-     "puntos": 10,
-     "nota": "hace 1 día(s)"
-    }
-   ],
-   "puntaje": 35,
-   "nueva": false,
-   "visto_desde": "2026-09-30",
-   "republicaciones": 0,
-   "reapariciones": 0,
-   "marcas": [
-    "no apareció hoy en la fuente (2 de 3)"
-   ],
-   "desaparecio": "2026-10-03",
-   "dias_publicada": 3
   }
  ],
  "avisos_pendientes": 0
