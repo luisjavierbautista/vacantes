@@ -1,18 +1,18 @@
 {
  "busqueda": "comp-ben",
- "corrida": "2026-11-18",
- "corrida_hora": "2026-11-18 19:25",
+ "corrida": "2026-11-19",
+ "corrida_hora": "2026-11-19 19:31",
  "fuentes": {
   "elempleo": {
-   "avisos": 17,
+   "avisos": 18,
    "error": null
   },
   "computrabajo": {
-   "avisos": 2,
+   "avisos": 3,
    "error": null
   },
   "workday": {
-   "avisos": 10,
+   "avisos": 11,
    "error": null
   },
   "greenhouse": {
@@ -34,10 +34,12 @@
    "motivo": "HTTP 401"
   }
  ],
- "avisos_recogidos": 30,
- "descartados": 10,
+ "avisos_recogidos": 33,
+ "descartados": 12,
  "fusionados": [],
- "nuevas": [],
+ "nuevas": [
+  "cobra instalaciones y servicios sucursal|jefe de recursos humanos|bogota"
+ ],
  "reaparecidas": [],
  "ausentes": [],
  "republicadas": [],
@@ -176,7 +178,7 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 1 día(s)"
+     "nota": "hace 2 día(s)"
     }
    ],
    "puntaje": 47,
@@ -558,6 +560,67 @@
    "ausencias": 0,
    "nueva": false,
    "visto_desde": "2026-11-09",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
+  {
+   "cargo": "Jefe de recursos humanos",
+   "empresa": "COBRA INSTALACIONES Y SERVICIOS SUCURSAL S.A",
+   "empresa_anonima": false,
+   "ciudad": "Bogotá, D.C.",
+   "salario": null,
+   "publicado": "2026-11-13",
+   "vigente_hasta": "2027-01-12",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": "3D1EEFDCB1B2B956",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "computrabajo",
+     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-jefe-de-recursos-humanos-en-bogota-dc-1A5CFE95B070D26961373E686DCF3405",
+     "id_fuente": "3D1EEFDCB1B2B956"
+    }
+   ],
+   "inc": [
+    "salario",
+    "modalidad"
+   ],
+   "deducidos": [],
+   "modalidad": null,
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "cobra instalaciones y servicios sucursal|jefe de recursos humanos|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "cargo secundario de RR.HH.",
+     "puntos": 0,
+     "nota": "solo suma si el cuerpo habla de compensación"
+    },
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "compensacion"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    }
+   ],
+   "puntaje": 12,
+   "ausencias": 0,
+   "nueva": true,
+   "visto_desde": "2026-11-19",
    "republicaciones": 0,
    "reapariciones": 0
   },
