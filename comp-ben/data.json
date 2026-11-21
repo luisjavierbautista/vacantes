@@ -1,10 +1,10 @@
 {
  "busqueda": "comp-ben",
- "corrida": "2026-11-20",
- "corrida_hora": "2026-11-20 19:06",
+ "corrida": "2026-11-21",
+ "corrida_hora": "2026-11-21 17:59",
  "fuentes": {
   "elempleo": {
-   "avisos": 17,
+   "avisos": 16,
    "error": null
   },
   "computrabajo": {
@@ -30,7 +30,11 @@
  },
  "fallos": [
   {
-   "url": "https://www.elempleo.com/co/ofertas-trabajo/coordinador-a-de-compensacion-y-beneficios-1886769717",
+   "url": "https://www.elempleo.com/co/ofertas-trabajo/lider-de-nomina-y-compensacion-1886770489",
+   "motivo": "HTTP 410"
+  },
+  {
+   "url": "https://www.elempleo.com/co/ofertas-trabajo/compensation-data-analyst-ingles-avanzado-1886770844",
    "motivo": "HTTP 410"
   },
   {
@@ -38,15 +42,19 @@
    "motivo": "HTTP 401"
   }
  ],
- "avisos_recogidos": 26,
+ "avisos_recogidos": 25,
  "descartados": 8,
  "fusionados": [],
- "nuevas": [],
+ "nuevas": [
+  "clinica medicos|coordinador de compensacion|bogota"
+ ],
  "reaparecidas": [],
  "ausentes": [
   "empresa no revelada|coordinador de compensacion y beneficios|bogota#anon:0-0-2026-09-21",
   "alimentos polar|coordinador compensacion beneficios y estructura|bogota",
-  "cobra instalaciones y servicios sucursal|jefe de recursos humanos|bogota"
+  "cobra instalaciones y servicios sucursal|jefe de recursos humanos|bogota",
+  "manpower|compensation data analyst ingles avanzado|bogota",
+  "empresa no revelada|lider de nomina y compensacion|bogota#anon:5500001-6000000-2026-09-22"
  ],
  "republicadas": [],
  "vigentes": [
@@ -122,6 +130,71 @@
    "reapariciones": 0
   },
   {
+   "cargo": "coordinador de compensación",
+   "empresa": "Clinica Medicos SA",
+   "empresa_anonima": false,
+   "ciudad": "Bogotá D.C.",
+   "salario": null,
+   "publicado": "2026-11-20",
+   "vigente_hasta": "2027-01-19",
+   "contrato": "OTHER",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/coordinador-de-compensacion-1886801286",
+     "id_fuente": null
+    }
+   ],
+   "inc": [
+    "salario"
+   ],
+   "deducidos": [],
+   "modalidad": "presencial",
+   "modalidad_literal": "presencial",
+   "modalidad_por_confirmar": false,
+   "id": "clinica medicos|coordinador de compensacion|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "cargo objetivo de la búsqueda",
+     "puntos": 25,
+     "nota": "coordinador de compensación"
+    },
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "compensacion"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    },
+    {
+     "concepto": "publicada hace menos de 3 días",
+     "puntos": 10,
+     "nota": "hace 1 día(s)"
+    }
+   ],
+   "puntaje": 47,
+   "ausencias": 0,
+   "nueva": true,
+   "visto_desde": "2026-11-21",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
+  {
    "cargo": "Compensation and (Non-Exempt for use in DE only)",
    "empresa": "Roche",
    "empresa_anonima": false,
@@ -180,14 +253,9 @@
      "concepto": "salario",
      "puntos": 0,
      "nota": "sin salario publicado, no suma ni resta"
-    },
-    {
-     "concepto": "publicada hace menos de 3 días",
-     "puntos": 10,
-     "nota": "hace 3 día(s)"
     }
    ],
-   "puntaje": 47,
+   "puntaje": 37,
    "ausencias": 0,
    "nueva": false,
    "visto_desde": "2026-11-17",
@@ -227,7 +295,7 @@
    "duplicados_hoy": 1,
    "marcas": [
     "empresa no revelada: puede estar repetida",
-    "no apareció hoy en la fuente (1 de 3)"
+    "no apareció hoy en la fuente (2 de 3)"
    ],
    "desglose": [
     {
@@ -252,7 +320,7 @@
     }
    ],
    "puntaje": 37,
-   "ausencias": 1,
+   "ausencias": 2,
    "nueva": false,
    "visto_desde": "2026-09-21",
    "republicaciones": 0,
@@ -564,13 +632,13 @@
     }
    ],
    "puntaje": 12,
-   "ausencias": 1,
+   "ausencias": 2,
    "nueva": false,
    "visto_desde": "2026-11-09",
    "republicaciones": 0,
    "reapariciones": 0,
    "marcas": [
-    "no apareció hoy en la fuente (1 de 3)"
+    "no apareció hoy en la fuente (2 de 3)"
    ]
   },
   {
@@ -628,13 +696,13 @@
     }
    ],
    "puntaje": 12,
-   "ausencias": 1,
+   "ausencias": 2,
    "nueva": false,
    "visto_desde": "2026-11-19",
    "republicaciones": 0,
    "reapariciones": 0,
    "marcas": [
-    "no apareció hoy en la fuente (1 de 3)"
+    "no apareció hoy en la fuente (2 de 3)"
    ]
   },
   {
@@ -803,11 +871,14 @@
     }
    ],
    "puntaje": -3,
-   "ausencias": 0,
+   "ausencias": 1,
    "nueva": false,
    "visto_desde": "2026-09-23",
    "republicaciones": 0,
-   "reapariciones": 4
+   "reapariciones": 4,
+   "marcas": [
+    "no apareció hoy en la fuente (1 de 3)"
+   ]
   },
   {
    "cargo": "ESPECIALISTA PROCESOS DE COMPENSACION",
@@ -964,7 +1035,8 @@
    "id": "empresa no revelada|lider de nomina y compensacion|bogota#anon:5500001-6000000-2026-09-22",
    "duplicados_hoy": 1,
    "marcas": [
-    "empresa no revelada: puede estar repetida"
+    "empresa no revelada: puede estar repetida",
+    "no apareció hoy en la fuente (1 de 3)"
    ],
    "desglose": [
     {
@@ -984,7 +1056,7 @@
     }
    ],
    "puntaje": -3,
-   "ausencias": 0,
+   "ausencias": 1,
    "nueva": false,
    "visto_desde": "2026-09-23",
    "republicaciones": 0,
@@ -4269,73 +4341,6 @@
    ],
    "desaparecio": "2026-10-07",
    "dias_publicada": 11
-  },
-  {
-   "cargo": "Total Rewards Lead / Líder de Compensación y Beneficios Bilingüe",
-   "empresa": "MANPOWER",
-   "empresa_anonima": false,
-   "ciudad": "Bogotá D.C.",
-   "salario": {
-    "min": 10000001.0,
-    "max": 12500000.0,
-    "moneda": "COP",
-    "periodo": "MONTH"
-   },
-   "publicado": "2026-08-05",
-   "vigente_hasta": "2026-10-04",
-   "contrato": "PER_DIEM",
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": null,
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "elempleo",
-     "url": "https://www.elempleo.com/co/ofertas-trabajo/total-rewards-lead-lider-de-compensacion-y-beneficios-bilingue-1886749725",
-     "id_fuente": null
-    }
-   ],
-   "inc": [],
-   "deducidos": [],
-   "modalidad": "híbrido",
-   "modalidad_literal": "3 dias en oficina",
-   "modalidad_por_confirmar": false,
-   "id": "manpower|total rewards lead lider de compensacion y beneficios|bogota",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "cargo objetivo de la búsqueda",
-     "puntos": 25,
-     "nota": "Total Rewards Lead / Líder de Compensación y Beneficios Bilingüe"
-    },
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "no se pudo determinar: no suma ni resta"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "compensacion, total rewards"
-    },
-    {
-     "concepto": "salario publicado por debajo de $18.000.000",
-     "puntos": -15,
-     "nota": "12.500.000 COP — se muestra igual: el publicado casi nunca es el negociado"
-    }
-   ],
-   "puntaje": 22,
-   "nueva": false,
-   "visto_desde": "2026-08-28",
-   "republicaciones": 0,
-   "reapariciones": 1,
-   "marcas": [
-    "no apareció hoy en la fuente (2 de 3)"
-   ],
-   "desaparecio": "2026-10-06",
-   "dias_publicada": 39
   }
  ],
  "avisos_pendientes": 0
