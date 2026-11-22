@@ -1,7 +1,7 @@
 {
  "busqueda": "comp-ben",
- "corrida": "2026-11-21",
- "corrida_hora": "2026-11-21 17:59",
+ "corrida": "2026-11-22",
+ "corrida_hora": "2026-11-22 18:30",
  "fuentes": {
   "elempleo": {
    "avisos": 16,
@@ -30,14 +30,6 @@
  },
  "fallos": [
   {
-   "url": "https://www.elempleo.com/co/ofertas-trabajo/lider-de-nomina-y-compensacion-1886770489",
-   "motivo": "HTTP 410"
-  },
-  {
-   "url": "https://www.elempleo.com/co/ofertas-trabajo/compensation-data-analyst-ingles-avanzado-1886770844",
-   "motivo": "HTTP 410"
-  },
-  {
    "url": "https://api.apify.com/v2/acts/fantastic-jobs~advanced-linkedin-job-search-api/run-sync-get-dataset-items?token=CENSURADO",
    "motivo": "HTTP 401"
   }
@@ -45,14 +37,9 @@
  "avisos_recogidos": 25,
  "descartados": 8,
  "fusionados": [],
- "nuevas": [
-  "clinica medicos|coordinador de compensacion|bogota"
- ],
+ "nuevas": [],
  "reaparecidas": [],
  "ausentes": [
-  "empresa no revelada|coordinador de compensacion y beneficios|bogota#anon:0-0-2026-09-21",
-  "alimentos polar|coordinador compensacion beneficios y estructura|bogota",
-  "cobra instalaciones y servicios sucursal|jefe de recursos humanos|bogota",
   "manpower|compensation data analyst ingles avanzado|bogota",
   "empresa no revelada|lider de nomina y compensacion|bogota#anon:5500001-6000000-2026-09-22"
  ],
@@ -184,12 +171,12 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 1 día(s)"
+     "nota": "hace 2 día(s)"
     }
    ],
    "puntaje": 47,
    "ausencias": 0,
-   "nueva": true,
+   "nueva": false,
    "visto_desde": "2026-11-21",
    "republicaciones": 0,
    "reapariciones": 0
@@ -259,70 +246,6 @@
    "ausencias": 0,
    "nueva": false,
    "visto_desde": "2026-11-17",
-   "republicaciones": 0,
-   "reapariciones": 0
-  },
-  {
-   "cargo": "Coordinador (a) de compensación y beneficios",
-   "empresa": "CONFIDENTIAL",
-   "empresa_anonima": true,
-   "ciudad": "Bogotá D.C.",
-   "salario": null,
-   "publicado": "2026-09-21",
-   "vigente_hasta": "2026-11-20",
-   "contrato": "TEMPORARY",
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": null,
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "elempleo",
-     "url": "https://www.elempleo.com/co/ofertas-trabajo/coordinador-a-de-compensacion-y-beneficios-1886769717",
-     "id_fuente": null
-    }
-   ],
-   "inc": [
-    "salario"
-   ],
-   "deducidos": [],
-   "modalidad": "presencial",
-   "modalidad_literal": "presencial",
-   "modalidad_por_confirmar": false,
-   "id": "empresa no revelada|coordinador de compensacion y beneficios|bogota#anon:0-0-2026-09-21",
-   "duplicados_hoy": 1,
-   "marcas": [
-    "empresa no revelada: puede estar repetida",
-    "no apareció hoy en la fuente (2 de 3)"
-   ],
-   "desglose": [
-    {
-     "concepto": "cargo objetivo de la búsqueda",
-     "puntos": 25,
-     "nota": "Coordinador (a) de compensación y beneficios"
-    },
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "el aviso no revela la empresa: no suma ni resta"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "compensacion"
-    },
-    {
-     "concepto": "salario",
-     "puntos": 0,
-     "nota": "sin salario publicado, no suma ni resta"
-    }
-   ],
-   "puntaje": 37,
-   "ausencias": 2,
-   "nueva": false,
-   "visto_desde": "2026-09-21",
    "republicaciones": 0,
    "reapariciones": 0
   },
@@ -583,129 +506,6 @@
    "reapariciones": 0
   },
   {
-   "cargo": "Coordinador Compensación, Beneficios y Estructura - Bogotá",
-   "empresa": "Alimentos Polar Colombia S.A.",
-   "empresa_anonima": false,
-   "ciudad": "Bogotá, D.C.",
-   "salario": null,
-   "publicado": "2026-11-09",
-   "vigente_hasta": "2027-01-08",
-   "contrato": "FULL_TIME",
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": "1184FBF11F710BBA",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "computrabajo",
-     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-coordinador-compensacion-beneficios-y-estructura-bogota-en-bogota-dc-E36CCAF661B387C461373E686DCF3405",
-     "id_fuente": "1184FBF11F710BBA"
-    }
-   ],
-   "inc": [
-    "salario",
-    "modalidad"
-   ],
-   "deducidos": [],
-   "modalidad": null,
-   "modalidad_literal": null,
-   "modalidad_por_confirmar": false,
-   "id": "alimentos polar|coordinador compensacion beneficios y estructura|bogota",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "no se pudo determinar: no suma ni resta"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "compensacion"
-    },
-    {
-     "concepto": "salario",
-     "puntos": 0,
-     "nota": "sin salario publicado, no suma ni resta"
-    }
-   ],
-   "puntaje": 12,
-   "ausencias": 2,
-   "nueva": false,
-   "visto_desde": "2026-11-09",
-   "republicaciones": 0,
-   "reapariciones": 0,
-   "marcas": [
-    "no apareció hoy en la fuente (2 de 3)"
-   ]
-  },
-  {
-   "cargo": "Jefe de recursos humanos",
-   "empresa": "COBRA INSTALACIONES Y SERVICIOS SUCURSAL S.A",
-   "empresa_anonima": false,
-   "ciudad": "Bogotá, D.C.",
-   "salario": null,
-   "publicado": "2026-11-13",
-   "vigente_hasta": "2027-01-12",
-   "contrato": "FULL_TIME",
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": "3D1EEFDCB1B2B956",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "computrabajo",
-     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-jefe-de-recursos-humanos-en-bogota-dc-1A5CFE95B070D26961373E686DCF3405",
-     "id_fuente": "3D1EEFDCB1B2B956"
-    }
-   ],
-   "inc": [
-    "salario",
-    "modalidad"
-   ],
-   "deducidos": [],
-   "modalidad": null,
-   "modalidad_literal": null,
-   "modalidad_por_confirmar": false,
-   "id": "cobra instalaciones y servicios sucursal|jefe de recursos humanos|bogota",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "cargo secundario de RR.HH.",
-     "puntos": 0,
-     "nota": "solo suma si el cuerpo habla de compensación"
-    },
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "no se pudo determinar: no suma ni resta"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "compensacion"
-    },
-    {
-     "concepto": "salario",
-     "puntos": 0,
-     "nota": "sin salario publicado, no suma ni resta"
-    }
-   ],
-   "puntaje": 12,
-   "ausencias": 2,
-   "nueva": false,
-   "visto_desde": "2026-11-19",
-   "republicaciones": 0,
-   "reapariciones": 0,
-   "marcas": [
-    "no apareció hoy en la fuente (2 de 3)"
-   ]
-  },
-  {
    "cargo": "PROFESIONAL DE ADMINISTRACIÓN LABORAL Y COMPENSACIÓN",
    "empresa": "Politecnico Grancolombiano",
    "empresa_anonima": false,
@@ -871,13 +671,13 @@
     }
    ],
    "puntaje": -3,
-   "ausencias": 1,
+   "ausencias": 2,
    "nueva": false,
    "visto_desde": "2026-09-23",
    "republicaciones": 0,
    "reapariciones": 4,
    "marcas": [
-    "no apareció hoy en la fuente (1 de 3)"
+    "no apareció hoy en la fuente (2 de 3)"
    ]
   },
   {
@@ -1036,7 +836,7 @@
    "duplicados_hoy": 1,
    "marcas": [
     "empresa no revelada: puede estar repetida",
-    "no apareció hoy en la fuente (1 de 3)"
+    "no apareció hoy en la fuente (2 de 3)"
    ],
    "desglose": [
     {
@@ -1056,7 +856,7 @@
     }
    ],
    "puntaje": -3,
-   "ausencias": 1,
+   "ausencias": 2,
    "nueva": false,
    "visto_desde": "2026-09-23",
    "republicaciones": 0,
@@ -1412,6 +1212,196 @@
   }
  ],
  "caidas": [
+  {
+   "cargo": "Coordinador (a) de compensación y beneficios",
+   "empresa": "CONFIDENTIAL",
+   "empresa_anonima": true,
+   "ciudad": "Bogotá D.C.",
+   "salario": null,
+   "publicado": "2026-09-21",
+   "vigente_hasta": "2026-11-20",
+   "contrato": "TEMPORARY",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/coordinador-a-de-compensacion-y-beneficios-1886769717",
+     "id_fuente": null
+    }
+   ],
+   "inc": [
+    "salario"
+   ],
+   "deducidos": [],
+   "modalidad": "presencial",
+   "modalidad_literal": "presencial",
+   "modalidad_por_confirmar": false,
+   "id": "empresa no revelada|coordinador de compensacion y beneficios|bogota#anon:0-0-2026-09-21",
+   "duplicados_hoy": 1,
+   "marcas": [
+    "empresa no revelada: puede estar repetida",
+    "no apareció hoy en la fuente (2 de 3)"
+   ],
+   "desglose": [
+    {
+     "concepto": "cargo objetivo de la búsqueda",
+     "puntos": 25,
+     "nota": "Coordinador (a) de compensación y beneficios"
+    },
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "el aviso no revela la empresa: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "compensacion"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    }
+   ],
+   "puntaje": 37,
+   "nueva": false,
+   "visto_desde": "2026-09-21",
+   "republicaciones": 0,
+   "reapariciones": 0,
+   "desaparecio": "2026-11-22",
+   "dias_publicada": 62
+  },
+  {
+   "cargo": "Coordinador Compensación, Beneficios y Estructura - Bogotá",
+   "empresa": "Alimentos Polar Colombia S.A.",
+   "empresa_anonima": false,
+   "ciudad": "Bogotá, D.C.",
+   "salario": null,
+   "publicado": "2026-11-09",
+   "vigente_hasta": "2027-01-08",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": "1184FBF11F710BBA",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "computrabajo",
+     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-coordinador-compensacion-beneficios-y-estructura-bogota-en-bogota-dc-E36CCAF661B387C461373E686DCF3405",
+     "id_fuente": "1184FBF11F710BBA"
+    }
+   ],
+   "inc": [
+    "salario",
+    "modalidad"
+   ],
+   "deducidos": [],
+   "modalidad": null,
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "alimentos polar|coordinador compensacion beneficios y estructura|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "compensacion"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    }
+   ],
+   "puntaje": 12,
+   "nueva": false,
+   "visto_desde": "2026-11-09",
+   "republicaciones": 0,
+   "reapariciones": 0,
+   "marcas": [
+    "no apareció hoy en la fuente (2 de 3)"
+   ],
+   "desaparecio": "2026-11-22",
+   "dias_publicada": 13
+  },
+  {
+   "cargo": "Jefe de recursos humanos",
+   "empresa": "COBRA INSTALACIONES Y SERVICIOS SUCURSAL S.A",
+   "empresa_anonima": false,
+   "ciudad": "Bogotá, D.C.",
+   "salario": null,
+   "publicado": "2026-11-13",
+   "vigente_hasta": "2027-01-12",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": "3D1EEFDCB1B2B956",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "computrabajo",
+     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-jefe-de-recursos-humanos-en-bogota-dc-1A5CFE95B070D26961373E686DCF3405",
+     "id_fuente": "3D1EEFDCB1B2B956"
+    }
+   ],
+   "inc": [
+    "salario",
+    "modalidad"
+   ],
+   "deducidos": [],
+   "modalidad": null,
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "cobra instalaciones y servicios sucursal|jefe de recursos humanos|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "cargo secundario de RR.HH.",
+     "puntos": 0,
+     "nota": "solo suma si el cuerpo habla de compensación"
+    },
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "compensacion"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    }
+   ],
+   "puntaje": 12,
+   "nueva": false,
+   "visto_desde": "2026-11-19",
+   "republicaciones": 0,
+   "reapariciones": 0,
+   "marcas": [
+    "no apareció hoy en la fuente (2 de 3)"
+   ],
+   "desaparecio": "2026-11-22",
+   "dias_publicada": 3
+  },
   {
    "cargo": "Compensation & HR Operations Analyst | Inglés Avanzado",
    "empresa": "MANPOWER",
@@ -4281,66 +4271,6 @@
    ],
    "desaparecio": "2026-10-10",
    "dias_publicada": 42
-  },
-  {
-   "cargo": "Project Manager – Compensation Analysis & U.S. Government Contracts",
-   "empresa": "Djagora University",
-   "empresa_anonima": false,
-   "ciudad": "Colombia",
-   "salario": null,
-   "publicado": "2026-09-25",
-   "vigente_hasta": null,
-   "contrato": null,
-   "agencia": null,
-   "direccion": null,
-   "lat": 4.099917,
-   "lon": -72.9088133,
-   "id_fuente": "4470338161",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "linkedin",
-     "url": "https://co.linkedin.com/jobs/view/project-manager-%E2%80%93-compensation-analysis-u-s-government-contracts-at-djagora-university-4470338161",
-     "id_fuente": "4470338161"
-    }
-   ],
-   "inc": [
-    "salario",
-    "contrato"
-   ],
-   "deducidos": [
-    "modalidad"
-   ],
-   "modalidad_fuente": "On-site",
-   "empleados": null,
-   "sede": null,
-   "modalidad": "On-site",
-   "modalidad_literal": null,
-   "modalidad_por_confirmar": false,
-   "id": "djagora university|project manager compensation analysis u s government contracts|colombia",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "no se pudo determinar: no suma ni resta"
-    },
-    {
-     "concepto": "salario",
-     "puntos": 0,
-     "nota": "sin salario publicado, no suma ni resta"
-    }
-   ],
-   "puntaje": 0,
-   "nueva": false,
-   "visto_desde": "2026-09-26",
-   "republicaciones": 0,
-   "reapariciones": 0,
-   "marcas": [
-    "no apareció hoy en la fuente (2 de 3)"
-   ],
-   "desaparecio": "2026-10-07",
-   "dias_publicada": 11
   }
  ],
  "avisos_pendientes": 0
