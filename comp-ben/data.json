@@ -1,14 +1,14 @@
 {
  "busqueda": "comp-ben",
- "corrida": "2026-11-22",
- "corrida_hora": "2026-11-22 18:30",
+ "corrida": "2026-11-23",
+ "corrida_hora": "2026-11-23 22:38",
  "fuentes": {
   "elempleo": {
    "avisos": 16,
    "error": null
   },
   "computrabajo": {
-   "avisos": 1,
+   "avisos": 2,
    "error": null
   },
   "workday": {
@@ -34,15 +34,14 @@
    "motivo": "HTTP 401"
   }
  ],
- "avisos_recogidos": 25,
+ "avisos_recogidos": 26,
  "descartados": 8,
  "fusionados": [],
  "nuevas": [],
- "reaparecidas": [],
- "ausentes": [
-  "manpower|compensation data analyst ingles avanzado|bogota",
-  "empresa no revelada|lider de nomina y compensacion|bogota#anon:5500001-6000000-2026-09-22"
+ "reaparecidas": [
+  "cobra instalaciones y servicios sucursal|jefe de recursos humanos|bogota"
  ],
+ "ausentes": [],
  "republicadas": [],
  "vigentes": [
   {
@@ -171,7 +170,7 @@
     {
      "concepto": "publicada hace menos de 3 días",
      "puntos": 10,
-     "nota": "hace 2 día(s)"
+     "nota": "hace 3 día(s)"
     }
    ],
    "puntaje": 47,
@@ -506,6 +505,68 @@
    "reapariciones": 0
   },
   {
+   "cargo": "Jefe de recursos humanos",
+   "empresa": "COBRA INSTALACIONES Y SERVICIOS SUCURSAL S.A",
+   "empresa_anonima": false,
+   "ciudad": "Bogotá, D.C.",
+   "salario": null,
+   "publicado": "2026-11-13",
+   "vigente_hasta": "2027-01-12",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": "3D1EEFDCB1B2B956",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "computrabajo",
+     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-jefe-de-recursos-humanos-en-bogota-dc-1A5CFE95B070D26961373E686DCF3405",
+     "id_fuente": "3D1EEFDCB1B2B956"
+    }
+   ],
+   "inc": [
+    "salario",
+    "modalidad"
+   ],
+   "deducidos": [],
+   "modalidad": null,
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "cobra instalaciones y servicios sucursal|jefe de recursos humanos|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "cargo secundario de RR.HH.",
+     "puntos": 0,
+     "nota": "solo suma si el cuerpo habla de compensación"
+    },
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "compensacion"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    }
+   ],
+   "puntaje": 12,
+   "ausencias": 0,
+   "nueva": false,
+   "visto_desde": "2026-11-19",
+   "republicaciones": 0,
+   "reapariciones": 1,
+   "reaparecida": true
+  },
+  {
    "cargo": "PROFESIONAL DE ADMINISTRACIÓN LABORAL Y COMPENSACIÓN",
    "empresa": "Politecnico Grancolombiano",
    "empresa_anonima": false,
@@ -618,67 +679,6 @@
    "visto_desde": "2026-10-15",
    "republicaciones": 0,
    "reapariciones": 0
-  },
-  {
-   "cargo": "Compensation & Data Analyst | Inglés Avanzado",
-   "empresa": "MANPOWER",
-   "empresa_anonima": false,
-   "ciudad": "Bogotá D.C.",
-   "salario": {
-    "min": 4500001.0,
-    "max": 5500000.0,
-    "moneda": "COP",
-    "periodo": "MONTH"
-   },
-   "publicado": "2026-09-17",
-   "vigente_hasta": "2026-11-21",
-   "contrato": "PER_DIEM",
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": null,
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "elempleo",
-     "url": "https://www.elempleo.com/co/ofertas-trabajo/compensation-data-analyst-ingles-avanzado-1886770844",
-     "id_fuente": null
-    }
-   ],
-   "inc": [],
-   "deducidos": [],
-   "modalidad": "híbrido",
-   "modalidad_literal": "3 dias en oficina",
-   "modalidad_por_confirmar": false,
-   "id": "manpower|compensation data analyst ingles avanzado|bogota",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "no se pudo determinar: no suma ni resta"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "compensacion"
-    },
-    {
-     "concepto": "salario publicado por debajo de $18.000.000",
-     "puntos": -15,
-     "nota": "5.500.000 COP — se muestra igual: el publicado casi nunca es el negociado"
-    }
-   ],
-   "puntaje": -3,
-   "ausencias": 2,
-   "nueva": false,
-   "visto_desde": "2026-09-23",
-   "republicaciones": 0,
-   "reapariciones": 4,
-   "marcas": [
-    "no apareció hoy en la fuente (2 de 3)"
-   ]
   },
   {
    "cargo": "ESPECIALISTA PROCESOS DE COMPENSACION",
@@ -799,68 +799,6 @@
    "visto_desde": "2026-10-15",
    "republicaciones": 0,
    "reapariciones": 0
-  },
-  {
-   "cargo": "Líder de Nómina y Compensación",
-   "empresa": "CONFIDENTIAL",
-   "empresa_anonima": true,
-   "ciudad": "Bogotá D.C.",
-   "salario": {
-    "min": 5500001.0,
-    "max": 6000000.0,
-    "moneda": "COP",
-    "periodo": "MONTH"
-   },
-   "publicado": "2026-09-22",
-   "vigente_hasta": "2026-11-21",
-   "contrato": "FULL_TIME",
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": null,
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "elempleo",
-     "url": "https://www.elempleo.com/co/ofertas-trabajo/lider-de-nomina-y-compensacion-1886770489",
-     "id_fuente": null
-    }
-   ],
-   "inc": [],
-   "deducidos": [],
-   "modalidad": "presencial",
-   "modalidad_literal": "presencial",
-   "modalidad_por_confirmar": false,
-   "id": "empresa no revelada|lider de nomina y compensacion|bogota#anon:5500001-6000000-2026-09-22",
-   "duplicados_hoy": 1,
-   "marcas": [
-    "empresa no revelada: puede estar repetida",
-    "no apareció hoy en la fuente (2 de 3)"
-   ],
-   "desglose": [
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "el aviso no revela la empresa: no suma ni resta"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "compensacion, estructura salarial, equidad interna"
-    },
-    {
-     "concepto": "salario publicado por debajo de $18.000.000",
-     "puntos": -15,
-     "nota": "6.000.000 COP — se muestra igual: el publicado casi nunca es el negociado"
-    }
-   ],
-   "puntaje": -3,
-   "ausencias": 2,
-   "nueva": false,
-   "visto_desde": "2026-09-23",
-   "republicaciones": 0,
-   "reapariciones": 1
   },
   {
    "cargo": "Profesional de Diseño Organizacional y Valoración de Cargos",
@@ -1213,6 +1151,131 @@
  ],
  "caidas": [
   {
+   "cargo": "Compensation & Data Analyst | Inglés Avanzado",
+   "empresa": "MANPOWER",
+   "empresa_anonima": false,
+   "ciudad": "Bogotá D.C.",
+   "salario": {
+    "min": 4500001.0,
+    "max": 5500000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-09-17",
+   "vigente_hasta": "2026-11-21",
+   "contrato": "PER_DIEM",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/compensation-data-analyst-ingles-avanzado-1886770844",
+     "id_fuente": null
+    }
+   ],
+   "inc": [],
+   "deducidos": [],
+   "modalidad": "híbrido",
+   "modalidad_literal": "3 dias en oficina",
+   "modalidad_por_confirmar": false,
+   "id": "manpower|compensation data analyst ingles avanzado|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "compensacion"
+    },
+    {
+     "concepto": "salario publicado por debajo de $18.000.000",
+     "puntos": -15,
+     "nota": "5.500.000 COP — se muestra igual: el publicado casi nunca es el negociado"
+    }
+   ],
+   "puntaje": -3,
+   "nueva": false,
+   "visto_desde": "2026-09-23",
+   "republicaciones": 0,
+   "reapariciones": 4,
+   "marcas": [
+    "no apareció hoy en la fuente (2 de 3)"
+   ],
+   "desaparecio": "2026-11-23",
+   "dias_publicada": 61
+  },
+  {
+   "cargo": "Líder de Nómina y Compensación",
+   "empresa": "CONFIDENTIAL",
+   "empresa_anonima": true,
+   "ciudad": "Bogotá D.C.",
+   "salario": {
+    "min": 5500001.0,
+    "max": 6000000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-09-22",
+   "vigente_hasta": "2026-11-21",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/lider-de-nomina-y-compensacion-1886770489",
+     "id_fuente": null
+    }
+   ],
+   "inc": [],
+   "deducidos": [],
+   "modalidad": "presencial",
+   "modalidad_literal": "presencial",
+   "modalidad_por_confirmar": false,
+   "id": "empresa no revelada|lider de nomina y compensacion|bogota#anon:5500001-6000000-2026-09-22",
+   "duplicados_hoy": 1,
+   "marcas": [
+    "empresa no revelada: puede estar repetida",
+    "no apareció hoy en la fuente (2 de 3)"
+   ],
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "el aviso no revela la empresa: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "compensacion, estructura salarial, equidad interna"
+    },
+    {
+     "concepto": "salario publicado por debajo de $18.000.000",
+     "puntos": -15,
+     "nota": "6.000.000 COP — se muestra igual: el publicado casi nunca es el negociado"
+    }
+   ],
+   "puntaje": -3,
+   "nueva": false,
+   "visto_desde": "2026-09-23",
+   "republicaciones": 0,
+   "reapariciones": 1,
+   "desaparecio": "2026-11-23",
+   "dias_publicada": 61
+  },
+  {
    "cargo": "Coordinador (a) de compensación y beneficios",
    "empresa": "CONFIDENTIAL",
    "empresa_anonima": true,
@@ -1336,71 +1399,6 @@
    ],
    "desaparecio": "2026-11-22",
    "dias_publicada": 13
-  },
-  {
-   "cargo": "Jefe de recursos humanos",
-   "empresa": "COBRA INSTALACIONES Y SERVICIOS SUCURSAL S.A",
-   "empresa_anonima": false,
-   "ciudad": "Bogotá, D.C.",
-   "salario": null,
-   "publicado": "2026-11-13",
-   "vigente_hasta": "2027-01-12",
-   "contrato": "FULL_TIME",
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": "3D1EEFDCB1B2B956",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "computrabajo",
-     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-jefe-de-recursos-humanos-en-bogota-dc-1A5CFE95B070D26961373E686DCF3405",
-     "id_fuente": "3D1EEFDCB1B2B956"
-    }
-   ],
-   "inc": [
-    "salario",
-    "modalidad"
-   ],
-   "deducidos": [],
-   "modalidad": null,
-   "modalidad_literal": null,
-   "modalidad_por_confirmar": false,
-   "id": "cobra instalaciones y servicios sucursal|jefe de recursos humanos|bogota",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "cargo secundario de RR.HH.",
-     "puntos": 0,
-     "nota": "solo suma si el cuerpo habla de compensación"
-    },
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "no se pudo determinar: no suma ni resta"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "compensacion"
-    },
-    {
-     "concepto": "salario",
-     "puntos": 0,
-     "nota": "sin salario publicado, no suma ni resta"
-    }
-   ],
-   "puntaje": 12,
-   "nueva": false,
-   "visto_desde": "2026-11-19",
-   "republicaciones": 0,
-   "reapariciones": 0,
-   "marcas": [
-    "no apareció hoy en la fuente (2 de 3)"
-   ],
-   "desaparecio": "2026-11-22",
-   "dias_publicada": 3
   },
   {
    "cargo": "Compensation & HR Operations Analyst | Inglés Avanzado",
