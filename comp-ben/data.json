@@ -1,18 +1,18 @@
 {
  "busqueda": "comp-ben",
- "corrida": "2026-11-23",
- "corrida_hora": "2026-11-23 22:38",
+ "corrida": "2026-11-24",
+ "corrida_hora": "2026-11-24 21:10",
  "fuentes": {
   "elempleo": {
    "avisos": 16,
    "error": null
   },
   "computrabajo": {
-   "avisos": 2,
+   "avisos": 1,
    "error": null
   },
   "workday": {
-   "avisos": 8,
+   "avisos": 9,
    "error": null
   },
   "greenhouse": {
@@ -35,13 +35,13 @@
   }
  ],
  "avisos_recogidos": 26,
- "descartados": 8,
+ "descartados": 9,
  "fusionados": [],
  "nuevas": [],
- "reaparecidas": [
+ "reaparecidas": [],
+ "ausentes": [
   "cobra instalaciones y servicios sucursal|jefe de recursos humanos|bogota"
  ],
- "ausentes": [],
  "republicadas": [],
  "vigentes": [
   {
@@ -112,71 +112,6 @@
    "ausencias": 0,
    "nueva": false,
    "visto_desde": "2026-11-10",
-   "republicaciones": 0,
-   "reapariciones": 0
-  },
-  {
-   "cargo": "coordinador de compensación",
-   "empresa": "Clinica Medicos SA",
-   "empresa_anonima": false,
-   "ciudad": "Bogotá D.C.",
-   "salario": null,
-   "publicado": "2026-11-20",
-   "vigente_hasta": "2027-01-19",
-   "contrato": "OTHER",
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": null,
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "elempleo",
-     "url": "https://www.elempleo.com/co/ofertas-trabajo/coordinador-de-compensacion-1886801286",
-     "id_fuente": null
-    }
-   ],
-   "inc": [
-    "salario"
-   ],
-   "deducidos": [],
-   "modalidad": "presencial",
-   "modalidad_literal": "presencial",
-   "modalidad_por_confirmar": false,
-   "id": "clinica medicos|coordinador de compensacion|bogota",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "cargo objetivo de la búsqueda",
-     "puntos": 25,
-     "nota": "coordinador de compensación"
-    },
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "no se pudo determinar: no suma ni resta"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "compensacion"
-    },
-    {
-     "concepto": "salario",
-     "puntos": 0,
-     "nota": "sin salario publicado, no suma ni resta"
-    },
-    {
-     "concepto": "publicada hace menos de 3 días",
-     "puntos": 10,
-     "nota": "hace 3 día(s)"
-    }
-   ],
-   "puntaje": 47,
-   "ausencias": 0,
-   "nueva": false,
-   "visto_desde": "2026-11-21",
    "republicaciones": 0,
    "reapariciones": 0
   },
@@ -440,6 +375,66 @@
    "reapariciones": 0
   },
   {
+   "cargo": "coordinador de compensación",
+   "empresa": "Clinica Medicos SA",
+   "empresa_anonima": false,
+   "ciudad": "Bogotá D.C.",
+   "salario": null,
+   "publicado": "2026-11-20",
+   "vigente_hasta": "2027-01-19",
+   "contrato": "OTHER",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/coordinador-de-compensacion-1886801286",
+     "id_fuente": null
+    }
+   ],
+   "inc": [
+    "salario"
+   ],
+   "deducidos": [],
+   "modalidad": "presencial",
+   "modalidad_literal": "presencial",
+   "modalidad_por_confirmar": false,
+   "id": "clinica medicos|coordinador de compensacion|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "cargo objetivo de la búsqueda",
+     "puntos": 25,
+     "nota": "coordinador de compensación"
+    },
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "compensacion"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    }
+   ],
+   "puntaje": 37,
+   "ausencias": 0,
+   "nueva": false,
+   "visto_desde": "2026-11-21",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
+  {
    "cargo": "Especialista Senior de Compensación",
    "empresa": "Falabella",
    "empresa_anonima": false,
@@ -559,12 +554,14 @@
     }
    ],
    "puntaje": 12,
-   "ausencias": 0,
+   "ausencias": 1,
    "nueva": false,
    "visto_desde": "2026-11-19",
    "republicaciones": 0,
    "reapariciones": 1,
-   "reaparecida": true
+   "marcas": [
+    "no apareció hoy en la fuente (1 de 3)"
+   ]
   },
   {
    "cargo": "PROFESIONAL DE ADMINISTRACIÓN LABORAL Y COMPENSACIÓN",
