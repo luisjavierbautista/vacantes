@@ -1,10 +1,10 @@
 {
  "busqueda": "comp-ben",
- "corrida": "2026-11-25",
- "corrida_hora": "2026-11-25 20:29",
+ "corrida": "2026-11-26",
+ "corrida_hora": "2026-11-26 20:10",
  "fuentes": {
   "elempleo": {
-   "avisos": 16,
+   "avisos": 17,
    "error": null
   },
   "computrabajo": {
@@ -34,14 +34,14 @@
    "motivo": "HTTP 401"
   }
  ],
- "avisos_recogidos": 26,
+ "avisos_recogidos": 27,
  "descartados": 9,
  "fusionados": [],
- "nuevas": [],
- "reaparecidas": [],
- "ausentes": [
-  "cobra instalaciones y servicios sucursal|jefe de recursos humanos|bogota"
+ "nuevas": [
+  "cibergestion liquitty|asesores en cobranza aumento salarial por cumplimiento|bogota"
  ],
+ "reaparecidas": [],
+ "ausentes": [],
  "republicadas": [],
  "vigentes": [
   {
@@ -500,70 +500,6 @@
    "reapariciones": 0
   },
   {
-   "cargo": "Jefe de recursos humanos",
-   "empresa": "COBRA INSTALACIONES Y SERVICIOS SUCURSAL S.A",
-   "empresa_anonima": false,
-   "ciudad": "Bogotá, D.C.",
-   "salario": null,
-   "publicado": "2026-11-13",
-   "vigente_hasta": "2027-01-12",
-   "contrato": "FULL_TIME",
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": "3D1EEFDCB1B2B956",
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "computrabajo",
-     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-jefe-de-recursos-humanos-en-bogota-dc-1A5CFE95B070D26961373E686DCF3405",
-     "id_fuente": "3D1EEFDCB1B2B956"
-    }
-   ],
-   "inc": [
-    "salario",
-    "modalidad"
-   ],
-   "deducidos": [],
-   "modalidad": null,
-   "modalidad_literal": null,
-   "modalidad_por_confirmar": false,
-   "id": "cobra instalaciones y servicios sucursal|jefe de recursos humanos|bogota",
-   "duplicados_hoy": 1,
-   "desglose": [
-    {
-     "concepto": "cargo secundario de RR.HH.",
-     "puntos": 0,
-     "nota": "solo suma si el cuerpo habla de compensación"
-    },
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "no se pudo determinar: no suma ni resta"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "compensacion"
-    },
-    {
-     "concepto": "salario",
-     "puntos": 0,
-     "nota": "sin salario publicado, no suma ni resta"
-    }
-   ],
-   "puntaje": 12,
-   "ausencias": 2,
-   "nueva": false,
-   "visto_desde": "2026-11-19",
-   "republicaciones": 0,
-   "reapariciones": 1,
-   "marcas": [
-    "no apareció hoy en la fuente (2 de 3)"
-   ]
-  },
-  {
    "cargo": "PROFESIONAL DE ADMINISTRACIÓN LABORAL Y COMPENSACIÓN",
    "empresa": "Politecnico Grancolombiano",
    "empresa_anonima": false,
@@ -981,6 +917,64 @@
    "reapariciones": 1
   },
   {
+   "cargo": "Asesores con Experiencia en Cobranza, Aumento Salarial Por Cumplimiento",
+   "empresa": "Cibergestión - Liquitty",
+   "empresa_anonima": false,
+   "ciudad": "Bogotá D.C.",
+   "salario": {
+    "min": 2000001.0,
+    "max": 2500000.0,
+    "moneda": "COP",
+    "periodo": "MONTH"
+   },
+   "publicado": "2026-11-26",
+   "vigente_hasta": "2027-01-25",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": null,
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "elempleo",
+     "url": "https://www.elempleo.com/co/ofertas-trabajo/asesores-con-experiencia-en-cobranza-aumento-salarial-por-cumplimiento-1886803536",
+     "id_fuente": null
+    }
+   ],
+   "inc": [],
+   "deducidos": [],
+   "modalidad": "presencial",
+   "modalidad_literal": "presencial",
+   "modalidad_por_confirmar": false,
+   "id": "cibergestion liquitty|asesores en cobranza aumento salarial por cumplimiento|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "salario publicado por debajo de $18.000.000",
+     "puntos": -15,
+     "nota": "2.500.000 COP — se muestra igual: el publicado casi nunca es el negociado"
+    },
+    {
+     "concepto": "publicada hace menos de 3 días",
+     "puntos": 10,
+     "nota": "hace 0 día(s)"
+    }
+   ],
+   "puntaje": -5,
+   "ausencias": 0,
+   "nueva": true,
+   "visto_desde": "2026-11-26",
+   "republicaciones": 0,
+   "reapariciones": 0
+  },
+  {
    "cargo": "Coordinador de Administración de Personal y Planta / Nomina / Compensaciones",
    "empresa": "ADECCO COLOMBIA S A",
    "empresa_anonima": false,
@@ -1147,6 +1141,71 @@
   }
  ],
  "caidas": [
+  {
+   "cargo": "Jefe de recursos humanos",
+   "empresa": "COBRA INSTALACIONES Y SERVICIOS SUCURSAL S.A",
+   "empresa_anonima": false,
+   "ciudad": "Bogotá, D.C.",
+   "salario": null,
+   "publicado": "2026-11-13",
+   "vigente_hasta": "2027-01-12",
+   "contrato": "FULL_TIME",
+   "agencia": null,
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "id_fuente": "3D1EEFDCB1B2B956",
+   "pais": null,
+   "fuentes": [
+    {
+     "fuente": "computrabajo",
+     "url": "https://co.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-jefe-de-recursos-humanos-en-bogota-dc-1A5CFE95B070D26961373E686DCF3405",
+     "id_fuente": "3D1EEFDCB1B2B956"
+    }
+   ],
+   "inc": [
+    "salario",
+    "modalidad"
+   ],
+   "deducidos": [],
+   "modalidad": null,
+   "modalidad_literal": null,
+   "modalidad_por_confirmar": false,
+   "id": "cobra instalaciones y servicios sucursal|jefe de recursos humanos|bogota",
+   "duplicados_hoy": 1,
+   "desglose": [
+    {
+     "concepto": "cargo secundario de RR.HH.",
+     "puntos": 0,
+     "nota": "solo suma si el cuerpo habla de compensación"
+    },
+    {
+     "concepto": "origen de la empresa",
+     "puntos": 0,
+     "nota": "no se pudo determinar: no suma ni resta"
+    },
+    {
+     "concepto": "el cuerpo menciona la técnica del oficio",
+     "puntos": 12,
+     "nota": "compensacion"
+    },
+    {
+     "concepto": "salario",
+     "puntos": 0,
+     "nota": "sin salario publicado, no suma ni resta"
+    }
+   ],
+   "puntaje": 12,
+   "nueva": false,
+   "visto_desde": "2026-11-19",
+   "republicaciones": 0,
+   "reapariciones": 1,
+   "marcas": [
+    "no apareció hoy en la fuente (2 de 3)"
+   ],
+   "desaparecio": "2026-11-26",
+   "dias_publicada": 7
+  },
   {
    "cargo": "Compensation & Data Analyst | Inglés Avanzado",
    "empresa": "MANPOWER",
@@ -4009,131 +4068,6 @@
    ],
    "desaparecio": "2026-10-15",
    "dias_publicada": 14
-  },
-  {
-   "cargo": "Profesional de contratación y compensación",
-   "empresa": "CONFIDENTIAL",
-   "empresa_anonima": true,
-   "ciudad": "Bogotá D.C.",
-   "salario": {
-    "min": 3500001.0,
-    "max": 4000000.0,
-    "moneda": "COP",
-    "periodo": "MONTH"
-   },
-   "publicado": "2026-09-28",
-   "vigente_hasta": "2026-10-09",
-   "contrato": "FULL_TIME",
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": null,
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "elempleo",
-     "url": "https://www.elempleo.com/co/ofertas-trabajo/profesional-de-contratacion-y-compensacion-1886750952",
-     "id_fuente": null
-    }
-   ],
-   "inc": [
-    "modalidad"
-   ],
-   "deducidos": [],
-   "modalidad": null,
-   "modalidad_literal": null,
-   "modalidad_por_confirmar": false,
-   "id": "empresa no revelada|profesional de contratacion y compensacion|bogota#anon:3500001-4000000-2026-09-28",
-   "duplicados_hoy": 1,
-   "marcas": [
-    "empresa no revelada: puede estar repetida",
-    "no apareció hoy en la fuente (2 de 3)"
-   ],
-   "desglose": [
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "el aviso no revela la empresa: no suma ni resta"
-    },
-    {
-     "concepto": "el cuerpo menciona la técnica del oficio",
-     "puntos": 12,
-     "nota": "compensacion, escala salarial"
-    },
-    {
-     "concepto": "salario publicado por debajo de $18.000.000",
-     "puntos": -15,
-     "nota": "4.000.000 COP — se muestra igual: el publicado casi nunca es el negociado"
-    }
-   ],
-   "puntaje": -3,
-   "nueva": false,
-   "visto_desde": "2026-09-28",
-   "republicaciones": 0,
-   "reapariciones": 0,
-   "desaparecio": "2026-10-11",
-   "dias_publicada": 13
-  },
-  {
-   "cargo": "PROFESIONAL DE COMPENSACIÓN Y ANALÍTICA DE DATOS (NOMINA).",
-   "empresa": "CONFIDENTIAL",
-   "empresa_anonima": true,
-   "ciudad": "Bogotá D.C.",
-   "salario": {
-    "min": 3500001.0,
-    "max": 4000000.0,
-    "moneda": "COP",
-    "periodo": "MONTH"
-   },
-   "publicado": "2026-08-10",
-   "vigente_hasta": "2026-10-09",
-   "contrato": "TEMPORARY",
-   "agencia": null,
-   "direccion": null,
-   "lat": null,
-   "lon": null,
-   "id_fuente": null,
-   "pais": null,
-   "fuentes": [
-    {
-     "fuente": "elempleo",
-     "url": "https://www.elempleo.com/co/ofertas-trabajo/profesional-de-compensacion-y-analitica-de-datos-nomina-1886721606",
-     "id_fuente": null
-    }
-   ],
-   "inc": [
-    "modalidad"
-   ],
-   "deducidos": [],
-   "modalidad": null,
-   "modalidad_literal": null,
-   "modalidad_por_confirmar": false,
-   "id": "empresa no revelada|profesional de compensacion y analitica de datos|bogota#anon:3500001-4000000-2026-08-10",
-   "duplicados_hoy": 1,
-   "marcas": [
-    "empresa no revelada: puede estar repetida",
-    "no apareció hoy en la fuente (2 de 3)"
-   ],
-   "desglose": [
-    {
-     "concepto": "origen de la empresa",
-     "puntos": 0,
-     "nota": "el aviso no revela la empresa: no suma ni resta"
-    },
-    {
-     "concepto": "salario publicado por debajo de $18.000.000",
-     "puntos": -15,
-     "nota": "4.000.000 COP — se muestra igual: el publicado casi nunca es el negociado"
-    }
-   ],
-   "puntaje": -15,
-   "nueva": false,
-   "visto_desde": "2026-08-28",
-   "republicaciones": 0,
-   "reapariciones": 1,
-   "desaparecio": "2026-10-11",
-   "dias_publicada": 44
   }
  ],
  "avisos_pendientes": 0
